@@ -1,0 +1,89 @@
+{
+    "title": "Derech Chaim", 
+    "heTitleVariants": [
+        "דרך חיים"
+    ], 
+    "heTitle": "דרך חיים", 
+    "titleVariants": [
+        "The Way of Life", 
+        "Derech Chaim"
+    ], 
+    "categories": [
+        "Philosophy", 
+        "Maharal"
+    ], 
+    "schema": {
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Author's Introduction", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "הקדמה המחבר", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "he", 
+                        "text": "הקדמה המחבר", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "en", 
+                        "text": "Author's Introduction", 
+                        "primary": true
+                    }
+                ], 
+                "key": "intro", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer"
+                ], 
+                "lengths": [
+                    6
+                ], 
+                "title": "", 
+                "heTitle": "", 
+                "default": true, 
+                "depth": 2, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Paragraph"
+                ]
+            }
+        ], 
+        "titles": [
+            {
+                "lang": "en", 
+                "text": "The Way of Life"
+            }, 
+            {
+                "lang": "he", 
+                "text": "דרך חיים", 
+                "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Derech Chaim", 
+                "primary": true
+            }
+        ], 
+        "heTitle": "דרך חיים", 
+        "key": "Derech Chaim", 
+        "title": "Derech Chaim"
+    }
+}

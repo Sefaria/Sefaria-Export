@@ -3,32 +3,251 @@
     "heTitleVariants": [
         "תניא"
     ], 
-    "depth": 4, 
-    "maps": [], 
     "heTitle": "תניא", 
     "titleVariants": [
+        "Likutei Amarim", 
         "Tanya"
-    ], 
-    "sectionNames": [
-        "Section", 
-        "Chapter", 
-        "Paragraph", 
-        "Sentence"
     ], 
     "categories": [
         "Chasidut"
     ], 
     "schema": {
-        "nodeType": "JaggedArrayNode", 
-        "title": "Tanya", 
-        "addressTypes": [
-            "Integer", 
-            "Integer", 
-            "Integer", 
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Introduction", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "הקדמה", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Introduction", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "הקדמה", 
+                        "primary": true
+                    }
+                ], 
+                "key": "intro", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer"
+                ], 
+                "lengths": [
+                    53
+                ], 
+                "title": "Part One, The Book of the Average Men", 
+                "heTitle": "חלק ראשון, ספר של בינונים", 
+                "depth": 2, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Part One, The Book of the Average Men", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "חלק ראשון, ספר של בינונים", 
+                        "primary": true
+                    }
+                ], 
+                "key": "part1", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode", 
+                        "title": "The Education of the Child", 
+                        "addressTypes": [
+                            "Integer"
+                        ], 
+                        "heTitle": "חינוך קטן", 
+                        "depth": 1, 
+                        "titles": [
+                            {
+                                "lang": "he", 
+                                "text": "חינוך קטן", 
+                                "primary": true
+                            }, 
+                            {
+                                "lang": "en", 
+                                "text": "The Education of the Child", 
+                                "primary": true
+                            }
+                        ], 
+                        "key": "part2a", 
+                        "heSectionNames": [
+                            "פסקה"
+                        ], 
+                        "sectionNames": [
+                            "Paragraph"
+                        ]
+                    }, 
+                    {
+                        "nodeType": "JaggedArrayNode", 
+                        "addressTypes": [
+                            "Integer", 
+                            "Integer"
+                        ], 
+                        "lengths": [
+                            12
+                        ], 
+                        "title": "", 
+                        "heTitle": "", 
+                        "default": true, 
+                        "depth": 2, 
+                        "key": "default", 
+                        "heSectionNames": [
+                            "פרק", 
+                            "פסקה"
+                        ], 
+                        "sectionNames": [
+                            "Chapter", 
+                            "Paragraph"
+                        ]
+                    }
+                ], 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Part Two, The Gateway of Unity and Belief", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "חלק שני, שער היחוד והאמונה", 
+                        "primary": true
+                    }
+                ], 
+                "heTitle": "חלק שני, שער היחוד והאמונה", 
+                "key": "part2", 
+                "title": "Part Two, The Gateway of Unity and Belief"
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer"
+                ], 
+                "lengths": [
+                    12
+                ], 
+                "title": "Letter of Repentance", 
+                "heTitle": "אגרת התשובה", 
+                "depth": 2, 
+                "titles": [
+                    {
+                        "lang": "he", 
+                        "text": "אגרת התשובה", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "en", 
+                        "text": "Letter of Repentance", 
+                        "primary": true
+                    }
+                ], 
+                "key": "letter1", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer"
+                ], 
+                "lengths": [
+                    32
+                ], 
+                "title": "Letter of Holiness", 
+                "heTitle": "אגרת הקדש", 
+                "depth": 2, 
+                "titles": [
+                    {
+                        "lang": "he", 
+                        "text": "אגרת הקדש", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "en", 
+                        "text": "Letter of Holiness", 
+                        "primary": true
+                    }
+                ], 
+                "key": "letter2", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer"
+                ], 
+                "lengths": [
+                    9
+                ], 
+                "title": "Last Thesis", 
+                "heTitle": "קונטרס אחרון", 
+                "depth": 2, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Last Thesis", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "קונטרס אחרון", 
+                        "primary": true
+                    }
+                ], 
+                "key": "last", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Paragraph"
+                ]
+            }
         ], 
-        "heTitle": "תניא", 
-        "depth": 4, 
         "titles": [
             {
                 "lang": "he", 
@@ -37,22 +256,16 @@
             }, 
             {
                 "lang": "en", 
+                "text": "Likutei Amarim"
+            }, 
+            {
+                "lang": "en", 
                 "text": "Tanya", 
                 "primary": true
             }
         ], 
+        "heTitle": "תניא", 
         "key": "Tanya", 
-        "heSectionNames": [
-            "חלק", 
-            "פרק", 
-            "פסקה", 
-            "משפט"
-        ], 
-        "sectionNames": [
-            "Section", 
-            "Chapter", 
-            "Paragraph", 
-            "Sentence"
-        ]
+        "title": "Tanya"
     }
 }

@@ -6,9 +6,85 @@
     "maps": [], 
     "heTitle": "תפארת ישראל", 
     "titleVariants": [
+        "The Splendor of Israel", 
         "Tiferet Yisrael"
     ], 
     "categories": [
-        "Commentary"
-    ]
+        "Philosophy", 
+        "Maharal"
+    ], 
+    "schema": {
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Introduction to Tiferet Yisrael", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "הקדמה", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "he", 
+                        "text": "הקדמה", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "en", 
+                        "text": "Introduction to Tiferet Yisrael", 
+                        "primary": true
+                    }
+                ], 
+                "key": "intro", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer"
+                ], 
+                "lengths": [
+                    70
+                ], 
+                "title": "", 
+                "heTitle": "", 
+                "default": true, 
+                "depth": 2, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Paragraph"
+                ]
+            }
+        ], 
+        "titles": [
+            {
+                "lang": "en", 
+                "text": "The Splendor of Israel"
+            }, 
+            {
+                "lang": "he", 
+                "text": "תפארת ישראל", 
+                "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Tiferet Yisrael", 
+                "primary": true
+            }
+        ], 
+        "heTitle": "תפארת ישראל", 
+        "key": "Tiferet Yisrael", 
+        "title": "Tiferet Yisrael"
+    }
 }
