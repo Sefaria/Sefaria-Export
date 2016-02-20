@@ -1,7 +1,7 @@
 Sefaria-Export
 ============
 
-Structured Jewish texts and metadata with free publich licenses, exported from Sefaria's database.
+Structured Jewish texts and metadata with free public licenses, exported from Sefaria's database.
 
 This repo contains texts, bibliographical information and lists of intertextual connections created by [Sefaria](http://www.sefaria.org).
 
