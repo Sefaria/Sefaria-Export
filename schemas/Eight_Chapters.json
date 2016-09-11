@@ -5,7 +5,6 @@
     "heTitleVariants": [
         "שמונה פרקים"
     ], 
-    "depth": 2, 
     "maps": [], 
     "heTitle": "שמונה פרקים", 
     "era": "RI", 
@@ -17,22 +16,32 @@
         "Shemoneh Perakim", 
         "Eight Chapters"
     ], 
-    "sectionNames": [
-        "Chapter", 
-        "Paragraph"
-    ], 
     "categories": [
         "Philosophy"
     ], 
     "schema": {
-        "nodeType": "JaggedArrayNode", 
-        "title": "Eight Chapters", 
-        "addressTypes": [
-            "Integer", 
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 2, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Paragraph"
+                ]
+            }
         ], 
-        "heTitle": "שמונה פרקים", 
-        "depth": 2, 
         "titles": [
             {
                 "lang": "en", 
@@ -53,14 +62,8 @@
                 "primary": true
             }
         ], 
+        "heTitle": "שמונה פרקים", 
         "key": "Eight Chapters", 
-        "heSectionNames": [
-            "פרק", 
-            "פסקה"
-        ], 
-        "sectionNames": [
-            "Chapter", 
-            "Paragraph"
-        ]
+        "title": "Eight Chapters"
     }
 }

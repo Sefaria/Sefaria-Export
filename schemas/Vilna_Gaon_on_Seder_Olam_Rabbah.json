@@ -3,13 +3,24 @@
         "Vilna Gaon"
     ], 
     "schema": {
-        "nodeType": "JaggedArrayNode", 
-        "addressTypes": [
-            "Integer", 
-            "Integer", 
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer", 
+                    "Integer"
+                ], 
+                "default": true, 
+                "depth": 3, 
+                "key": "default", 
+                "sectionNames": [
+                    "Chapter", 
+                    "Paragraph", 
+                    "Comment"
+                ]
+            }
         ], 
-        "depth": 3, 
         "titles": [
             {
                 "lang": "en", 
@@ -98,12 +109,7 @@
                 "text": "אליהו מוולנא על סדר עולם"
             }
         ], 
-        "key": "Vilna Gaon on Seder Olam Rabbah", 
-        "sectionNames": [
-            "Chapter", 
-            "Paragraph", 
-            "Comment"
-        ]
+        "key": "Vilna Gaon on Seder Olam Rabbah"
     }, 
     "categories": [
         "Apocrypha", 

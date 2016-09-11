@@ -3,13 +3,24 @@
         "Yaakov Emden"
     ], 
     "schema": {
-        "nodeType": "JaggedArrayNode", 
-        "addressTypes": [
-            "Integer", 
-            "Integer", 
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer", 
+                    "Integer"
+                ], 
+                "default": true, 
+                "depth": 3, 
+                "key": "default", 
+                "sectionNames": [
+                    "Chapter", 
+                    "Paragraph", 
+                    "Comment"
+                ]
+            }
         ], 
-        "depth": 3, 
         "titles": [
             {
                 "lang": "en", 
@@ -62,12 +73,7 @@
                 "text": "רבי יעקב עמדין על סדר עולם"
             }
         ], 
-        "key": "Yaakov Emden on Seder Olam Rabbah", 
-        "sectionNames": [
-            "Chapter", 
-            "Paragraph", 
-            "Comment"
-        ]
+        "key": "Yaakov Emden on Seder Olam Rabbah"
     }, 
     "categories": [
         "Apocrypha", 

@@ -1,13 +1,24 @@
 {
     "authors": null, 
     "schema": {
-        "nodeType": "JaggedArrayNode", 
-        "addressTypes": [
-            "Integer", 
-            "Integer", 
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer", 
+                    "Integer"
+                ], 
+                "default": true, 
+                "depth": 3, 
+                "key": "default", 
+                "sectionNames": [
+                    "Chapter", 
+                    "Paragraph", 
+                    "Comment"
+                ]
+            }
         ], 
-        "depth": 3, 
         "titles": [
             {
                 "lang": "en", 
@@ -32,12 +43,7 @@
                 "text": "מאיר עין על סדר עולם"
             }
         ], 
-        "key": "Meir Ayin on Seder Olam Rabbah", 
-        "sectionNames": [
-            "Chapter", 
-            "Paragraph", 
-            "Comment"
-        ]
+        "key": "Meir Ayin on Seder Olam Rabbah"
     }, 
     "categories": [
         "Apocrypha", 
