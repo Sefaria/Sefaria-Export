@@ -6,7 +6,6 @@
     ], 
     "pubPlace": "Ostroh", 
     "enDesc": "The first part (teachings 1-286) was printed in 1808 in Ostrog, still during the life of the author.  The second part was printed in 1811 in Moghilev, after the death of the author.  A combined edition was printed in 1821.", 
-    "depth": 2, 
     "maps": [], 
     "heTitle": "ליקוטי מוהר\"ן", 
     "era": "AH", 
@@ -17,22 +16,182 @@
         "Likutei Moharan Kama", 
         "Likutei Moharan"
     ], 
-    "sectionNames": [
-        "Torah", 
-        "Section"
-    ], 
     "categories": [
         "Chasidut"
     ], 
     "schema": {
-        "nodeType": "JaggedArrayNode", 
-        "title": "Likutei Moharan", 
-        "addressTypes": [
-            "Integer", 
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Introduction", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "הקדמה", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Introduction", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "הקדמה", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Introduction", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "A Pleasant Song", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "שיר נעים", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "A Pleasant Song", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "שיר נעים", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Shir", 
+                "heSectionNames": [
+                    "שורה"
+                ], 
+                "sectionNames": [
+                    "Line"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Go See", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "לכו חזו", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Go See", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "לכו חזו", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Lechu", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 2, 
+                "key": "default", 
+                "heSectionNames": [
+                    "תורה", 
+                    "חלק"
+                ], 
+                "sectionNames": [
+                    "Torah", 
+                    "Section"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Part II", 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "תנינא", 
+                "depth": 2, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Part II", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "en", 
+                        "text": "Tinyana"
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "תנינא", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Tinyana", 
+                "heSectionNames": [
+                    "תורה", 
+                    "חלק"
+                ], 
+                "sectionNames": [
+                    "Torah", 
+                    "Section"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Additions from Manuscript", 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "כתבי יד", 
+                "depth": 2, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Additions from Manuscript", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "כתבי יד", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Letters", 
+                "heSectionNames": [
+                    "Manuscript", 
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Manuscript", 
+                    "Paragraph"
+                ]
+            }
         ], 
-        "heTitle": "ליקוטי מוהר\"ן", 
-        "depth": 2, 
         "titles": [
             {
                 "lang": "en", 
@@ -49,14 +208,8 @@
                 "primary": true
             }
         ], 
+        "heTitle": "ליקוטי מוהר\"ן", 
         "key": "Likutei Moharan", 
-        "heSectionNames": [
-            "תורה", 
-            "חלק"
-        ], 
-        "sectionNames": [
-            "Torah", 
-            "Section"
-        ]
+        "title": "Likutei Moharan"
     }
 }
