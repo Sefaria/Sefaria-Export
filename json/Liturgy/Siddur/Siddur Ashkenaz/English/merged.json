@@ -1,13 +1,18 @@
 {
     "versionTitle": "merged", 
     "language": "en", 
-    "title": "Siddur Ashkenaz", 
+    "versions": [
+        [
+            "Sefaria Community Translation", 
+            "http://www.sefaria.org"
+        ], 
+        [
+            "Siddur Sim Shalom", 
+            "Siddur Sim Shalom p.7"
+        ]
+    ], 
     "text": {
         "Berachot": {
-            "Havinenu (the shortened Amidah)": [], 
-            "Birkhot Hamitzvot": [], 
-            "Michayeh Maitim(for cemeteries)": [], 
-            "Birkat HaMazon": [], 
             "Birkat Hanehenin": {
                 "Blessings on Sights Sounds and Smells": [], 
                 "Eating": {
@@ -18,9 +23,64 @@
                     }
                 }
             }, 
+            "Birkhot Hamitzvot": [], 
+            "Michayeh Maitim(for cemeteries)": [], 
+            "Birkat HaMazon": [], 
+            "Havinenu (the shortened Amidah)": [], 
             "Tefillat HaDerech": []
         }, 
         "Festivals": {
+            "Shalosh Regalim": {
+                "Amida for Maariv, Shacharit, Mincha": {
+                    "Avot": [], 
+                    "Sanctity of the Day": [], 
+                    "Concluding Prayer": [], 
+                    "Blessing for Peace": [], 
+                    "Avodah": [], 
+                    "Kedusha": [], 
+                    "Modin": [], 
+                    "Gevurot": [], 
+                    "Birkat Kohanim": []
+                }, 
+                "Mussaf": {
+                    "Avot": [], 
+                    "Sanctity of the Day": [], 
+                    "Sanctity of the Name": [], 
+                    "Blessing of Peace": [], 
+                    "Concluding Prayer": [], 
+                    "Avodah": [], 
+                    "Kedusha": [], 
+                    "Gevurot": [], 
+                    "Birkat Kohanim": [], 
+                    "Modim": []
+                }
+            }, 
+            "Sukkot": {
+                "Prayers in the Sukkah": {
+                    "Leaving the Sukkah": [], 
+                    "Entering the Sukkah": [], 
+                    "Ushpizin": []
+                }, 
+                "Blessing on Lulav": [], 
+                "Hosha'anot": {
+                    "Fifth Day of Sukkot": [], 
+                    "First Day of Sukkot": [], 
+                    "Hosha'ana Rabba": [], 
+                    "Sixth Day of Sukkot": [], 
+                    "Any Day of Sukkot that Fall on Shabbat": [], 
+                    "Third Day of Sukkot": [], 
+                    "Second Day of Sukkot": [], 
+                    "Fourth Day of Sukkot": []
+                }
+            }, 
+            "Prayer for Rain": [], 
+            "Chanukah": {
+                "Service for Lighting Chanukah Candles": {
+                    "Maoz Tzur": [], 
+                    "Blessings on Chanukah Candles": [], 
+                    "Hanerot Hallalu": []
+                }
+            }, 
             "Rosh Chodesh": {
                 "Hallel": {
                     "Psalm 113": [], 
@@ -46,65 +106,300 @@
                     "Birkat Kohanim": []
                 }
             }, 
-            "Prayer for Rain": [], 
-            "Sukkot": {
-                "Prayers in the Sukkah": {
-                    "Leaving the Sukkah": [], 
-                    "Entering the Sukkah": [], 
-                    "Ushpizin": []
-                }, 
-                "Blessing on Lulav": [], 
-                "Hosha'anot": {
-                    "Fifth Day of Sukkot": [], 
-                    "First Day of Sukkot": [], 
-                    "Hosha'ana Rabba": [], 
-                    "Sixth Day of Sukkot": [], 
-                    "Fourth Day of Sukkot": [], 
-                    "Second Day of Sukkot": [], 
-                    "Third Day of Sukkot": [], 
-                    "Any Day of Sukkot that Fall on Shabbat": []
-                }
-            }, 
-            "Chanukah": {
-                "Service for Lighting Chanukah Candles": {
-                    "Maoz Tzur": [], 
-                    "Blessings on Chanukah Candles": [], 
-                    "Hanerot Hallalu": []
-                }
-            }, 
-            "Shalosh Regalim": {
-                "Amida for Maariv, Shacharit, Mincha": {
-                    "Avot": [], 
-                    "Sanctity of the Day": [], 
-                    "Concluding Prayer": [], 
-                    "Avodah": [], 
-                    "Kedusha": [], 
-                    "Modin": [], 
-                    "Gevurot": [], 
-                    "Blessing for Peace": [], 
-                    "Birkat Kohanim": []
-                }, 
-                "Mussaf": {
-                    "Avot": [], 
-                    "Sanctity of the Day": [], 
-                    "Sanctity of the Name": [], 
-                    "Gevurot": [], 
-                    "Birkat Kohanim": [], 
-                    "Avodah": [], 
-                    "Kedusha": [], 
-                    "Blessing of Peace": [], 
-                    "Concluding Prayer": [], 
-                    "Modim": []
-                }
-            }, 
             "Prayer for Dew": [], 
             "Selichot": {
                 "Ta'anit Esther": [], 
-                "BaHaB": [], 
+                "Asarah b'Tevet": [], 
                 "Shiv'ah Asar B'Tammuz": [], 
                 "Tzom Gedaliya": [], 
                 "Yom Kippur Katan": [], 
-                "Asarah b'Tevet": []
+                "BaHaB": []
+            }
+        }, 
+        "Shabbat": {
+            "Shabbat Evening": {
+                "Blessing the Children": [], 
+                "Master of all worlds": [], 
+                "Ashet Chayil": [], 
+                "Shalom Aleichem": [], 
+                "Zemirot for Shabbat Evening": {
+                    "Yom zeh L'yisrael": [], 
+                    "Kol M'kadesh": [], 
+                    "Tzur Mishelo": [], 
+                    "Ma Y'didut": [], 
+                    "Tzamah Nafshi": [], 
+                    "Yah Ribon": [], 
+                    "Menucha v'Simcha": []
+                }, 
+                "Kiddush": []
+            }, 
+            "Shacharit": {
+                "Keriat Hatorah": {
+                    "Removing the Torah from the Ark": {
+                        "Lecha Hashem": [], 
+                        "Brich Shmei (Zohar 369a)": [], 
+                        "Vayhi Binsoa": [], 
+                        "V'yazor V'yagen": [], 
+                        "Ein Kamocha": [], 
+                        "Shema Yisrael (Gadlu)": []
+                    }, 
+                    "Reading from Sefer": {
+                        "Mi Sheberach": {
+                            "Bat Mitzvah": [], 
+                            "Bar Mitzvah": [], 
+                            "For Sickness (includes man and woman)": [], 
+                            "For Birth": {
+                                "Birth of Daughter": [], 
+                                "Birth of a Son": []
+                            }, 
+                            "For an Oleh": []
+                        }, 
+                        "Haftarah (Includes Berachot)": [], 
+                        "Birkat Hagomel": [], 
+                        "Birkat Haotrah": [], 
+                        "Chatzi Kaddish": [], 
+                        "Raising the Torah": []
+                    }
+                }, 
+                "Preparatory Prayers": {
+                    "Tallit": [], 
+                    "Adon Olam": [], 
+                    "Morning Blessings": [], 
+                    "Akedah": [], 
+                    "Asher Yatzar": [], 
+                    "Modeh Ani": [], 
+                    "Tzitzit (**Include Yehi Ratzon)": [], 
+                    "Sovereignty of Heaven (**L'olam, Shema)": [], 
+                    "Elokai Neshama": [], 
+                    "Ma Tovu": [], 
+                    "Yigdal": [], 
+                    "Netilat Yadayim": [], 
+                    "Korbanot": {
+                        "Ketoret": [], 
+                        "Order of the Temple Service (Ana Bekoach)": [], 
+                        "Kaddish DeRabbanan": [], 
+                        "Korban HaTamid": [], 
+                        "Kiyor": [], 
+                        "Laws of Sacrifices": [], 
+                        "Terumat HaDeshen": [], 
+                        "Baraita of Rabbi Yishmael": []
+                    }
+                }, 
+                "Blessings of the Shema": {
+                    "Second Blessing before Shema": [], 
+                    "First Blessing before Shema": [], 
+                    "Blessing after Shema (Redeemer of Israel)": [], 
+                    "Barchu": [], 
+                    "Shema": []
+                }, 
+                "Ashrei": [], 
+                "Pesukei D'Zimra": {
+                    "Baruch Hashem": [], 
+                    "Psalm 100": [], 
+                    "Chatzi Kaddish": [], 
+                    "Yehi Chavod (Verses with 18 mentions of Divine Name)": [], 
+                    "Hodu (passage from Divrei Hayamim and selected verses)": [], 
+                    "Psalm 130 (for Aseret Y'mei Teshuvah)": [], 
+                    "Psalm 136": [], 
+                    "Yishtabach": [], 
+                    "Psalm 92": [], 
+                    "Mizmor Shir": [], 
+                    "Shirat HaYam": [], 
+                    "Psalm 150": [], 
+                    "Shochen Ad": [], 
+                    "Nishmat Kol Chai": [], 
+                    "Pslam 135": [], 
+                    "Baruch SheAmar": [], 
+                    "Psalm 146": [], 
+                    "Psalm 34": [], 
+                    "Kaddish Yatom": [], 
+                    "Psalm 33": [], 
+                    "Psalm 19": [], 
+                    "Ashrei": [], 
+                    "Psalm 149": [], 
+                    "Psalm 148": [], 
+                    "Psalm 90": [], 
+                    "Psalm 91": [], 
+                    "Psalm 147": [], 
+                    "Psalm 93": [], 
+                    "Vayivarech David": []
+                }, 
+                "Communal Prayers": {
+                    "Prayer for Israeli Soldiers": [
+                        "May He who blessed our fathers, Avraham, Yitschak and Yaakov bless the soldiers of the Israel Defense Forces, in their standing guard upon our land and the cities of our God - from the border of the Lebanon to the Wilderness of Egypt and from the Great Sea to the approach of the Arava - on land, in the air, and in the sea. May the Lord give our enemies that rise against us plagues in front of them. May the Holy One, blessed be He, guard and rescue our soldiers form all trouble and distress and from all affliction and illness; and send blessing and success in all the work of their hands. May He crush those that hate us below them and crown them with the crown of salvation and with the wreath of victory. And through them let the verse be fulfilled (Deuteronomy 20:4), \"For it is the Lord, your God, that walks with you to fight for you against your enemies to save you.\" And let us say, Amen. "
+                    ], 
+                    "Prayer of the State of Israel": [], 
+                    "Yekum Purkan": [], 
+                    "Birkat Hachodesh": [], 
+                    "Av HaRachamim": [], 
+                    "Prayer for Those Being Held in Captivity": []
+                }, 
+                "Chatzi Kaddish": [], 
+                "Returning Sefer to Aron": [], 
+                "Amidah": {
+                    "Divine Might": [], 
+                    "Kedushah": [], 
+                    "Thanksgiving": [], 
+                    "Sim Shalom": [], 
+                    "Holiness of The Day (for Shacharit)": [], 
+                    "Patriarchs": [], 
+                    "Holiness of God": [], 
+                    "Concluding Passage": [], 
+                    "Kaddish Shalem": [], 
+                    "Temple Service": [], 
+                    "Birkat Kohanim": []
+                }
+            }, 
+            "Minchah": {
+                "Keriat HaTorah": {
+                    "Returning Sefer to Aron": {
+                        "Uvenuchah Yomar": [], 
+                        "LeDavid": [], 
+                        "Yehalelu": []
+                    }, 
+                    "Removing The Torah From Ark": {
+                        "V'tigaleh v'teraeh": [], 
+                        "Va'ani Tefillati": [], 
+                        "Brich Shmei": [], 
+                        "Lekha Hashem": [], 
+                        "Vayhi Binsoa": [], 
+                        "Av Harachamim": [], 
+                        "Gadlu": []
+                    }, 
+                    "Reading from Sefer": {
+                        "Raising the Torah": [], 
+                        "Birkat Hatorah": []
+                    }
+                }, 
+                "Tzidkatkhah Tzedek": [], 
+                "Barchi Nafshi": [], 
+                "Uva Letzion": [], 
+                "Alenu": [], 
+                "Ashrei": [], 
+                "Chatzi Kaddish": [], 
+                "Kaddish Shalem": [], 
+                "Kaddish Yatom": [], 
+                "Amidah": {
+                    "Divine Might": [], 
+                    "Kedushah": [], 
+                    "Holiness of The Day (for Mincha)": [], 
+                    "Thanksgiving": {
+                        "Al Hanisim for Purim": [], 
+                        "Al Hanisim for Chanukkah": [], 
+                        "Modim and Modim deRabanan": []
+                    }, 
+                    "Sim Shalom": [], 
+                    "Patriarchs": [], 
+                    "Holiness of God": [], 
+                    "Concluding Passage": [], 
+                    "Temple Service": []
+                }
+            }, 
+            "Havdalah": [], 
+            "Maariv": {
+                "Adon Olam": [
+                    "The king of the world, who ruled before any creature was created.", 
+                    "At the time they were made, all was according to His will, and then His name was called \"King\".", 
+                    "And after everything was finished, he alone ruled, awe-inspiring. ", 
+                    "He was, He is, and He will be with splendor.", 
+                    "And, he was first, with no second, to rule over him or to collaborate;", 
+                    "with no beginning and no end, he has the strength and the right.", 
+                    "And he is my G-d, my redeemer is alive; the rock who sustains me in a distressful day.", 
+                    "And he is my banner and refuge, the portion of my cup on the day I call out.", 
+                    "In his hand, I safegaurd my spirit, [for] when I sleep, [I know that] I will wake.", 
+                    "And with my spirit is my body; G-d is for me, and I will not be afraid. "
+                ], 
+                "Aleinu": [], 
+                "Yigdal": [], 
+                "Seven Faceted Blessing": [], 
+                "Blessings of the Shema": {
+                    "Second Blessing before Shema": [], 
+                    "First Blessing before Shema": [], 
+                    "First Blessing after Shema": [], 
+                    "Second Blessing after Shema": [], 
+                    "Shema": []
+                }, 
+                "Veshamru": [], 
+                "L'David": [], 
+                "Barchu": [], 
+                "Vayechulu": [], 
+                "Chatzi Kadish": [], 
+                "Kaddish Shalem": [], 
+                "Kaddish Yatom": [], 
+                "Amidah": {
+                    "Divine Might": [], 
+                    "Holines of God's Name": [], 
+                    "Holiness of the Day": [], 
+                    "Peace": [], 
+                    "Thanksgiving": [], 
+                    "Patriarchs": [], 
+                    "Concluding Passage": [], 
+                    "Temple Service": []
+                }, 
+                "Sefirat HaOmer": []
+            }, 
+            "Kabbalat Shabbat": {
+                "Psalm 29": [], 
+                "Kaddish Yatom": [], 
+                "Kaddish DeRabbanan": [], 
+                "Lecha Dodi": [
+                    0, 
+                    "Come, beloved to greet the bride! Let us receive the Shabbat."
+                ], 
+                "Psalm 98": [], 
+                "Psalm 99": [], 
+                "Yedid Nefesh": [], 
+                "Ana Bekoach": [], 
+                "Psalm 92": [], 
+                "Psalm 93": [], 
+                "Bameh Madlikin": [], 
+                "Psalm 95": [], 
+                "Psalm 96": [], 
+                "Psalm 97": []
+            }, 
+            "Daytime Meal": {
+                "Zemirot for Second Meal": {
+                    "Ki Eshmera": [], 
+                    "Yom Zeh Mechubad": [], 
+                    "Dror Yikrah": [], 
+                    "Yom Shabbaton": [], 
+                    "Shimru Shabtotai": [], 
+                    "Baruch Kel Elyon": []
+                }, 
+                "Kiddusha Rabba": []
+            }, 
+            "Third Meal": {
+                "Yedid Nefesh": [], 
+                "Mizmor L'David": [], 
+                "Atkinu": []
+            }, 
+            "Musaf L'Shabbat": {
+                "Adon Olam": [], 
+                "Pitum Haketoret (for Shabbat)": [], 
+                "Kaddish Derabbanan": [], 
+                "L'David": [], 
+                "Alenu": [], 
+                "Mizmor Shir L'Yom HaShabbat": [], 
+                "Shir HaKavod": [], 
+                "Kaddish Shalem": [], 
+                "Kaddish Yatom": [], 
+                "Amidah": {
+                    "Divine Might": [], 
+                    "Holiness of The Day": {
+                        "for Shabbat": [], 
+                        "for Shabbat Rosh Chodesh": []
+                    }, 
+                    "Kedushah": [], 
+                    "Thanksgiving": [], 
+                    "Sim Shalom": [], 
+                    "Patriarchs": [], 
+                    "Holiness of God": [], 
+                    "Concluding Passage": [], 
+                    "Kaddish Shalem": [], 
+                    "Temple Service": [], 
+                    "Birkat Kohanim": []
+                }, 
+                "Ein Keloheinu": []
             }
         }, 
         "Weekday": {
@@ -115,8 +410,8 @@
                     "Second Blessing after Shema": [], 
                     "First Blessing before Shema": [], 
                     "Third Blessing after Shema": [], 
-                    "First Blessing after Shema": [], 
                     "Chatzi Kaddish": [], 
+                    "First Blessing after Shema": [], 
                     "Shema": []
                 }, 
                 "L'David": [], 
@@ -131,53 +426,54 @@
                 "Kaddish Shalem": [], 
                 "Kaddish Yatom": [], 
                 "Amidah": {
-                    "Prosperity": [], 
-                    "Repentance": [], 
-                    "Divine Might": [], 
                     "Rebuilding Jerusalem": [], 
-                    "Redemption": [], 
-                    "Justice": [], 
-                    "Forgiveness": [], 
+                    "Prosperity": [], 
                     "Peace": [], 
-                    "Healing": [], 
-                    "Thanksgiving": [], 
-                    "Holiness of God": [], 
+                    "Divine Might": [], 
+                    "Knowledge": [], 
+                    "Justice": [], 
+                    "Temple Service": [], 
+                    "Repentance": [], 
+                    "Concluding Passage": [], 
                     "Against Enemies": [], 
+                    "Response to Prayer": [], 
+                    "Thanksgiving": [], 
+                    "Gathering the Exiles": [], 
                     "The Righteous": [], 
                     "Patriarchs": [], 
-                    "Response to Prayer": [], 
-                    "Gathering the Exiles": [], 
-                    "Concluding Passage": [], 
+                    "Holiness of God": [], 
+                    "Healing": [], 
                     "Kingdom of David": [], 
-                    "Temple Service": [], 
-                    "Knowledge": []
+                    "Forgiveness": [], 
+                    "Redemption": []
                 }, 
                 "Counting The Omer": []
             }, 
             "Shacharit": {
                 "Keriat Hatorah": {
                     "Returning Sefer to Aron": {
-                        "Yehalelu": [], 
+                        "LeDavid Mizmor": [], 
                         "Uvenuchah Yomar": [], 
-                        "LeDavid Mizmor": []
+                        "Yehalelu": []
                     }, 
                     "Removing The Torah From Ark": {
                         "V'tigaleh V'teraeh": [], 
                         "Brich Shmei (Zohar 369a)": [], 
                         "Lekha Hashem": [], 
                         "El Erech Appayim": [], 
-                        "Vayhi Binsoa": [], 
-                        "Av Harachamim": []
+                        "Av Harachamim": [], 
+                        "Vayhi Binsoa": []
                     }, 
                     "Reading from Sefer": {
-                        "Birkat Hatorah": [], 
-                        "Chatzi Kaddish": [], 
-                        "Prayers for Welfare of the People": [], 
                         "Birkat Hagomel": [], 
-                        "Raising the Torah": []
+                        "Prayers for Welfare of the People": [], 
+                        "Birkat Hatorah": [], 
+                        "Raising the Torah": [], 
+                        "Chatzi Kaddish": []
                     }
                 }, 
                 "Preparatory Prayers": {
+                    "Tallit": [], 
                     "Adon Olam": [
                         "The king of the world, who ruled before any creature was created. At the time they were made, all was according to His will, and then His name was called \"King\". And after everything was finished, he alone ruled, awe-inspiring. He was, He is, and He will be with splendor. And, he was first, with no second, to rule over him or to collaborate; with no beginning and no end, he has the strength and the right. And he is my G-d, my redeemer is alive; the rock who sustains me in a distressful day. And he is my banner and refuge, the portion of my cup on the day I call out. In his hand, I safeguard my spirit, [for] when I sleep, [I know that] I will wake. And with my spirit is my body; G-d is for me, and I will not be afraid. "
                     ], 
@@ -199,16 +495,17 @@
                         "Blessed are you, Hashem, our G-d and king of the world, who removes sleep from my eyes, and slumber from my pupils.", 
                         "And may it be pleasing before You, Hashem our G-d and the G-d of our forefathers, that you make us accustomed in your Torah, and make us stick to your commandments. And that You do not bring us not to the hands of sin, nor to the hands of transgression and wrongdoing, nor to the hands of trial, and nor to the hands of scorn. And let not the evil inclination rule inside us, and distance us from a bad person and a bad friend. And stick us to the good inclination and to good deeds, and force our inclination to be subdued to You. And grant us today and every day grace and kindness and mercy, in your eyes an in the eyes of all who see us, and reward us with good kindnesses. Blessed are You, Hashem, who rewards good kindnesses upon His nation, Israel. May it be pleasing before You, Hashem my G-d and the G-d of my forefathers, that save us today and every day from those who are arrogant and from arrogance itself, from a bad person, a bad friend, a bad neighbor, a bad strike, from the destructive Satan, from a harsh law and from a harsh judge, whether he is a son of the covenant or whether he is not a son of the covenant."
                     ], 
-                    "Elokai Neshama": [], 
                     "Akedah": [], 
-                    "Asher Yatzar": [], 
+                    "Asher Yatzar": [
+                        "Praised are You, Lord out God King of the universe, who with wisdom fashioned the human body, creating openings, arteries, glands and organs, marvelous in structure, intricate in design. Should but one of them, by being blocked or opened, fail to function, it would be impossible to exist. Praised are you, Lord, healer of all flesh who sustains our bodies in wondrous ways."
+                    ], 
                     "Tzitzit (**Includes Yehi Ratzon)": [], 
-                    "Tallit": [], 
-                    "Torah Study": [], 
-                    "Sovereignty of Heaven (**L'olam, Shema)": [], 
                     "Modeh Ani": [
                         "I offer thanks to You, living and eternal King, for You have mercifully restored my soul within me; Your faithfulness is great."
                     ], 
+                    "Torah Study": [], 
+                    "Sovereignty of Heaven (**L'olam, Shema)": [], 
+                    "Elokai Neshama": [], 
                     "Ma Tovu": [], 
                     "Yigdal": [
                         "May the living G-d be exalted, and praised, it is found that there is no specific time to find him [for he is eternal]. He is one, and there is none as unified as his unity; it is hidden, and there is also no end to his unity. He has no bodily form, and no body; his holiness has not been ordered for him. He is earlier than anything which he created, [He is] the first and there is none before His earliness. He is surely the lord of the world, to all being, and He teaches his greatness and kingship. An abundance of prophecy He gave to them, his special and splendorous people. There never again arose in Israel like Moses, a prophet and seer of His image. A truthful instruction, G-d gave to His people, by the hand of his prophet who was trustworthy in His house. The G-d will not change, nor will he switch His belief, forever [there is none] except for Him. He watches and knows our secrets, and looks at the end of something at its beginning. He recompensates people with kindness, according to their deeds, and gives the wicked bad according to his evil. At the end of days, He will send our annointed, to redeem those who wait for the end [when] His salvation [takes place]. The dead will G-d resuscitate, in his abundant kindness, blessed be His praised name forever."
@@ -221,9 +518,9 @@
                     ], 
                     "Korbanot": {
                         "Ketoret": [], 
-                        "Korban HaTamid": [], 
-                        "Kaddish DeRabbanan": [], 
                         "Order of the Temple Service (Ana Bekoach)": [], 
+                        "Kaddish DeRabbanan": [], 
+                        "Korban HaTamid": [], 
                         "Kiyor": [], 
                         "Laws of Sacrifices": [], 
                         "Terumat HaDeshen": [], 
@@ -234,24 +531,24 @@
                 "Blessings of the Shema": {
                     "Second Blessing before Shema": [], 
                     "First Blessing before Shema": [], 
-                    "Shema": [], 
                     "Blessing after Shema": [], 
-                    "Barchu": []
+                    "Barchu": [], 
+                    "Shema": []
                 }, 
                 "Post Service": {
                     "10 Commandments": [], 
                     "Thirteen Principles of Jewish Faith": [
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
-                        "", 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
+                        0, 
                         "I believe with perfect faith in the coming of the Messiah, and, though he tarry, I will wait daily for his coming. "
                     ], 
                     "Six Remembrances": []
@@ -259,15 +556,15 @@
                 "Concluding Prayers": {
                     "Lamenatze'ach": [], 
                     "(Israel:) Korbanot": {
-                        "Pitum HaKetoret": [], 
-                        "Kaddish Yatom": [], 
                         "Barchu": [], 
-                        "Ein Kelohenu": []
+                        "Kaddish Yatom": [], 
+                        "Ein Kelohenu": [], 
+                        "Pitum HaKetoret": []
                     }, 
                     "L'David": [], 
-                    "Ashrei": [], 
-                    "Alenu": [], 
                     "Uva Letzion": [], 
+                    "Alenu": [], 
+                    "Ashrei": [], 
                     "Barchi Nafshi": [], 
                     "Kaddish Shalem": [], 
                     "Kaddish Yatom": [], 
@@ -275,10 +572,10 @@
                 }, 
                 "Pesukei D'Zimra": {
                     "Introductory Psalm": [], 
-                    "Kaddish Yatom": [], 
-                    "Vayivarech David": [], 
+                    "Psalm 146": [], 
                     "Psalm 100": [], 
-                    "Ata Hu": [], 
+                    "Chatzi Kaddish": [], 
+                    "Yishtabach": [], 
                     "Ashrei": [], 
                     "Closing Verses": [], 
                     "Az Yashir": [], 
@@ -286,22 +583,22 @@
                     "Hodu": [], 
                     "Psalm 149": [], 
                     "Psalm 148": [], 
-                    "Chatzi Kaddish": [], 
+                    "Ata Hu": [], 
                     "Psalm 130": [], 
                     "Baruch SheAmar": [], 
-                    "Psalm 146": [], 
+                    "Kaddish Yatom": [], 
                     "Psalm 147": [], 
-                    "Yishtabach": [], 
-                    "Psalm 150": []
+                    "Psalm 150": [], 
+                    "Vayivarech David": []
                 }, 
                 "Post Amidah": {
                     "Vidui and 13 Middot": [], 
                     "Tachanun": {
                         "Nefilat Apayim": [], 
+                        "Chatzi Kaddish": [], 
                         "Shomer Yisrael": [], 
-                        "V'hu Rachum": [], 
                         "God of Israel (for Monday &amp; Thursday)": [], 
-                        "Chatzi Kaddish": []
+                        "V'hu Rachum": []
                     }, 
                     "Avinu Malkenu": []
                 }, 
@@ -447,292 +744,6 @@
                 }
             }
         }, 
-        "Shabbat": {
-            "Shabbat Evening": {
-                "Blessing the Children": [], 
-                "Master of all worlds": [], 
-                "Ashet Chayil": [], 
-                "Shalom Aleichem": [], 
-                "Zemirot for Shabbat Evening": {
-                    "Yom zeh L'yisrael": [], 
-                    "Kol M'kadesh": [], 
-                    "Menucha v'Simcha": [], 
-                    "Tzur Mishelo": [], 
-                    "Ma Y'didut": [], 
-                    "Yah Ribon": [], 
-                    "Tzamah Nafshi": []
-                }, 
-                "Kiddush": []
-            }, 
-            "Shacharit": {
-                "Keriat Hatorah": {
-                    "Removing the Torah from the Ark": {
-                        "Lecha Hashem": [], 
-                        "Brich Shmei (Zohar 369a)": [], 
-                        "Vayhi Binsoa": [], 
-                        "V'yazor V'yagen": [], 
-                        "Ein Kamocha": [], 
-                        "Shema Yisrael (Gadlu)": []
-                    }, 
-                    "Reading from Sefer": {
-                        "Mi Sheberach": {
-                            "Bar Mitzvah": [], 
-                            "For Sickness (includes man and woman)": [], 
-                            "For Birth": {
-                                "Birth of Daughter": [], 
-                                "Birth of a Son": []
-                            }, 
-                            "For an Oleh": [], 
-                            "Bat Mitzvah": []
-                        }, 
-                        "Haftarah (Includes Berachot)": [], 
-                        "Birkat Hagomel": [], 
-                        "Birkat Haotrah": [], 
-                        "Chatzi Kaddish": [], 
-                        "Raising the Torah": []
-                    }
-                }, 
-                "Preparatory Prayers": {
-                    "Adon Olam": [], 
-                    "Morning Blessings": [], 
-                    "Elokai Neshama": [], 
-                    "Akedah": [], 
-                    "Asher Yatzar": [], 
-                    "Tallit": [], 
-                    "Tzitzit (**Include Yehi Ratzon)": [], 
-                    "Sovereignty of Heaven (**L'olam, Shema)": [], 
-                    "Modeh Ani": [], 
-                    "Ma Tovu": [], 
-                    "Yigdal": [], 
-                    "Netilat Yadayim": [], 
-                    "Korbanot": {
-                        "Ketoret": [], 
-                        "Korban HaTamid": [], 
-                        "Kaddish DeRabbanan": [], 
-                        "Order of the Temple Service (Ana Bekoach)": [], 
-                        "Kiyor": [], 
-                        "Laws of Sacrifices": [], 
-                        "Terumat HaDeshen": [], 
-                        "Baraita of Rabbi Yishmael": []
-                    }
-                }, 
-                "Blessings of the Shema": {
-                    "Second Blessing before Shema": [], 
-                    "First Blessing before Shema": [], 
-                    "Shema": [], 
-                    "Barchu": [], 
-                    "Blessing after Shema (Redeemer of Israel)": []
-                }, 
-                "Ashrei": [], 
-                "Pesukei D'Zimra": {
-                    "Baruch Hashem": [], 
-                    "Psalm 100": [], 
-                    "Chatzi Kaddish": [], 
-                    "Yehi Chavod (Verses with 18 mentions of Divine Name)": [], 
-                    "Yishtabach": [], 
-                    "Psalm 130 (for Aseret Y'mei Teshuvah)": [], 
-                    "Psalm 148": [], 
-                    "Baruch SheAmar": [], 
-                    "Hodu (passage from Divrei Hayamim and selected verses)": [], 
-                    "Mizmor Shir": [], 
-                    "Psalm 150": [], 
-                    "Shochen Ad": [], 
-                    "Psalm 93": [], 
-                    "Nishmat Kol Chai": [], 
-                    "Pslam 135": [], 
-                    "Psalm 147": [], 
-                    "Shirat HaYam": [], 
-                    "Psalm 34": [], 
-                    "Kaddish Yatom": [], 
-                    "Psalm 33": [], 
-                    "Psalm 19": [], 
-                    "Ashrei": [], 
-                    "Psalm 149": [], 
-                    "Psalm 136": [], 
-                    "Psalm 90": [], 
-                    "Psalm 91": [], 
-                    "Psalm 92": [], 
-                    "Psalm 146": [], 
-                    "Vayivarech David": []
-                }, 
-                "Communal Prayers": {
-                    "Prayer for Israeli Soldiers": [
-                        "May He who blessed our fathers, Avraham, Yitschak and Yaakov bless the soldiers of the Israel Defense Forces, in their standing guard upon our land and the cities of our God - from the border of the Lebanon to the Wilderness of Egypt and from the Great Sea to the approach of the Arava - on land, in the air, and in the sea. May the Lord give our enemies that rise against us plagues in front of them. May the Holy One, blessed be He, guard and rescue our soldiers form all trouble and distress and from all affliction and illness; and send blessing and success in all the work of their hands. May He crush those that hate us below them and crown them with the crown of salvation and with the wreath of victory. And through them let the verse be fulfilled (Deuteronomy 20:4), \"For it is the Lord, your God, that walks with you to fight for you against your enemies to save you.\" And let us say, Amen. "
-                    ], 
-                    "Prayer of the State of Israel": [], 
-                    "Yekum Purkan": [], 
-                    "Birkat Hachodesh": [], 
-                    "Av HaRachamim": [], 
-                    "Prayer for Those Being Held in Captivity": []
-                }, 
-                "Chatzi Kaddish": [], 
-                "Returning Sefer to Aron": [], 
-                "Amidah": {
-                    "Divine Might": [], 
-                    "Holiness of God": [], 
-                    "Thanksgiving": [], 
-                    "Sim Shalom": [], 
-                    "Patriarchs": [], 
-                    "Kedushah": [], 
-                    "Concluding Passage": [], 
-                    "Kaddish Shalem": [], 
-                    "Temple Service": [], 
-                    "Holiness of The Day (for Shacharit)": [], 
-                    "Birkat Kohanim": []
-                }
-            }, 
-            "Minchah": {
-                "Keriat HaTorah": {
-                    "Returning Sefer to Aron": {
-                        "Uvenuchah Yomar": [], 
-                        "LeDavid": [], 
-                        "Yehalelu": []
-                    }, 
-                    "Removing The Torah From Ark": {
-                        "V'tigaleh v'teraeh": [], 
-                        "Va'ani Tefillati": [], 
-                        "Brich Shmei": [], 
-                        "Lekha Hashem": [], 
-                        "Vayhi Binsoa": [], 
-                        "Av Harachamim": [], 
-                        "Gadlu": []
-                    }, 
-                    "Reading from Sefer": {
-                        "Raising the Torah": [], 
-                        "Birkat Hatorah": []
-                    }
-                }, 
-                "Tzidkatkhah Tzedek": [], 
-                "Chatzi Kaddish": [], 
-                "Ashrei": [], 
-                "Alenu": [], 
-                "Uva Letzion": [], 
-                "Barchi Nafshi": [], 
-                "Kaddish Shalem": [], 
-                "Kaddish Yatom": [], 
-                "Amidah": {
-                    "Divine Might": [], 
-                    "Holiness of God": [], 
-                    "Holiness of The Day (for Mincha)": [], 
-                    "Thanksgiving": {
-                        "Al Hanisim for Purim": [], 
-                        "Al Hanisim for Chanukkah": [], 
-                        "Modim and Modim deRabanan": []
-                    }, 
-                    "Sim Shalom": [], 
-                    "Patriarchs": [], 
-                    "Kedushah": [], 
-                    "Concluding Passage": [], 
-                    "Temple Service": []
-                }
-            }, 
-            "Havdalah": [], 
-            "Maariv": {
-                "Adon Olam": [
-                    "The king of the world, who ruled before any creature was created.", 
-                    "At the time they were made, all was according to His will, and then His name was called \"King\".", 
-                    "And after everything was finished, he alone ruled, awe-inspiring. ", 
-                    "He was, He is, and He will be with splendor.", 
-                    "And, he was first, with no second, to rule over him or to collaborate;", 
-                    "with no beginning and no end, he has the strength and the right.", 
-                    "And he is my G-d, my redeemer is alive; the rock who sustains me in a distressful day.", 
-                    "And he is my banner and refuge, the portion of my cup on the day I call out.", 
-                    "In his hand, I safegaurd my spirit, [for] when I sleep, [I know that] I will wake.", 
-                    "And with my spirit is my body; G-d is for me, and I will not be afraid. "
-                ], 
-                "Aleinu": [], 
-                "Chatzi Kadish": [], 
-                "Seven Faceted Blessing": [], 
-                "Blessings of the Shema": {
-                    "Second Blessing before Shema": [], 
-                    "First Blessing before Shema": [], 
-                    "First Blessing after Shema": [], 
-                    "Second Blessing after Shema": [], 
-                    "Shema": []
-                }, 
-                "Veshamru": [], 
-                "L'David": [], 
-                "Barchu": [], 
-                "Vayechulu": [], 
-                "Yigdal": [], 
-                "Kaddish Shalem": [], 
-                "Kaddish Yatom": [], 
-                "Amidah": {
-                    "Divine Might": [], 
-                    "Holines of God's Name": [], 
-                    "Holiness of the Day": [], 
-                    "Peace": [], 
-                    "Thanksgiving": [], 
-                    "Patriarchs": [], 
-                    "Concluding Passage": [], 
-                    "Temple Service": []
-                }, 
-                "Sefirat HaOmer": []
-            }, 
-            "Kabbalat Shabbat": {
-                "Psalm 98": [], 
-                "Psalm 93": [], 
-                "Kaddish DeRabbanan": [], 
-                "Lecha Dodi": [
-                    "", 
-                    "Come, beloved to greet the bride! Let us receive the Shabbat."
-                ], 
-                "Psalm 29": [], 
-                "Psalm 99": [], 
-                "Yedid Nefesh": [], 
-                "Ana Bekoach": [], 
-                "Psalm 92": [], 
-                "Kaddish Yatom": [], 
-                "Bameh Madlikin": [], 
-                "Psalm 95": [], 
-                "Psalm 96": [], 
-                "Psalm 97": []
-            }, 
-            "Daytime Meal": {
-                "Kiddusha Rabba": [], 
-                "Zemirot for Second Meal": {
-                    "Shimru Shabtotai": [], 
-                    "Yom Zeh Mechubad": [], 
-                    "Dror Yikrah": [], 
-                    "Yom Shabbaton": [], 
-                    "Ki Eshmera": [], 
-                    "Baruch Kel Elyon": []
-                }
-            }, 
-            "Third Meal": {
-                "Yedid Nefesh": [], 
-                "Mizmor L'David": [], 
-                "Atkinu": []
-            }, 
-            "Musaf L'Shabbat": {
-                "Adon Olam": [], 
-                "Pitum Haketoret (for Shabbat)": [], 
-                "Kaddish Derabbanan": [], 
-                "L'David": [], 
-                "Alenu": [], 
-                "Mizmor Shir L'Yom HaShabbat": [], 
-                "Shir HaKavod": [], 
-                "Kaddish Shalem": [], 
-                "Kaddish Yatom": [], 
-                "Amidah": {
-                    "Divine Might": [], 
-                    "Holiness of The Day": {
-                        "for Shabbat": [], 
-                        "for Shabbat Rosh Chodesh": []
-                    }, 
-                    "Holiness of God": [], 
-                    "Thanksgiving": [], 
-                    "Sim Shalom": [], 
-                    "Patriarchs": [], 
-                    "Kedushah": [], 
-                    "Concluding Passage": [], 
-                    "Kaddish Shalem": [], 
-                    "Temple Service": [], 
-                    "Birkat Kohanim": []
-                }, 
-                "Ein Keloheinu": []
-            }
-        }, 
         "Kaddish": {
             "Kaddish d'Rabbanan": [], 
             "Kaddish achar Hashlamat Meschet": [], 
@@ -742,12 +753,7 @@
             "Kaddish Yatom": []
         }
     }, 
-    "versions": [
-        [
-            "Sefaria Community Translation", 
-            "http://www.sefaria.org"
-        ]
-    ], 
+    "title": "Siddur Ashkenaz", 
     "versionSource": "http://www.sefaria.org/Siddur_Ashkenaz", 
     "heTitle": "סידור אשכנז", 
     "categories": [
