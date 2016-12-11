@@ -42,20 +42,20 @@ Ketubot,Shita Mekubetzet on Ketubot,2935
 Bekhorot,Rashi on Bekhorot,2904
 Isaiah,Metzudat Zion on Isaiah,2800
 Ezekiel,Metzudat David on Ezekiel,2775
-Genesis,Haamek Davar on Genesis,2742
 Rashi on Sukkah,Sukkah,2640
 Genesis,Radak on Genesis,2605
 Isaiah,Rashi on Isaiah,2589
 Nedarim,Rashi on Nedarim,2537
+Genesis,Haamek Davar on Genesis,2523
 Bava Kamma,Shita Mekubetzet on Bava Kamma,2516
 Rashi on Sotah,Sotah,2441
 Psalms,Rashi on Psalms,2393
 Mishnah Kelim,Yachin on Mishnah Kelim,2334
 I Samuel,Malbim on I Samuel,2297
-Genesis,Rashi on Genesis,2274
+Genesis,Rashi on Genesis,2269
 "Ba'er Hetev on Shulchan Arukh, Even HaEzer","Shulchan Arukh, Even HaEzer",2237
 Jeremiah,Metzudat Zion on Jeremiah,2148
-Daf Shevui to Ketubot,Ketubot,2060
+Daf Shevui to Ketubot,Ketubot,2086
 Beitzah,Rashi on Beitzah,2054
 Chelkat Mechokek,"Shulchan Arukh, Even HaEzer",2026
 Metzudat Zion on Psalms,Psalms,2021
@@ -165,6 +165,7 @@ Ibn Ezra on Leviticus,Leviticus,995
 II Kings,Metzudat David on II Kings,989
 Chagigah,Rashi on Chagigah,987
 Mishnah Negaim,Yachin on Mishnah Negaim,966
+Ritva on Yoma,Yoma,962
 Deuteronomy,Tafsir Rasag,961
 Deuteronomy,Onkelos Deuteronomy,956
 Ibn Ezra on Job,Job,955
@@ -235,6 +236,7 @@ Mishnah Menachot,Yachin on Mishnah Menachot,719
 Niddah,Tosafot on Niddah,716
 Bava Batra,Chiddushei Ramban on Bava Batra,715
 Proverbs,Zohar,709
+Niddah,Ritva on Niddah,707
 Psalms,Radak on Psalms,706
 Joshua,Metzudat David on Joshua,698
 Chullin,Rashba on Chullin,694
@@ -314,6 +316,7 @@ Mishnah Nedarim,Yachin on Mishnah Nedarim,532
 Korban Netanel on Eruvin,Rosh on Eruvin,531
 Shevuot,Tosafot on Shevuot,531
 Mishnah Kilayim,Yachin on Mishnah Kilayim,529
+Bereishit Rabbah,Rashi on Genesis,529
 Leviticus,Zohar,523
 Bartenura on Mishnah Chullin,Mishnah Chullin,515
 Chiddushei Ramban on Shabbat,Shabbat,515
@@ -348,10 +351,10 @@ Korban Netanel on Pesachim,Rosh on Pesachim,457
 Leviticus,Meshech Hochma,454
 I Kings,Metzudat Zion on I Kings,454
 Song of Songs,Zohar,453
+Bartenura on Mishnah Eruvin,Mishnah Eruvin,452
 Sukkah,Tosafot on Sukkah,452
 Kitzur Baal Haturim on Numbers,Numbers,452
 Bartenura on Mishnah Yevamot,Mishnah Yevamot,452
-Bartenura on Mishnah Eruvin,Mishnah Eruvin,452
 Ikar Tosafot Yom Tov on Mishnah Bava Batra,Mishnah Bava Batra,447
 Chiddushei Ramban on Yevamot,Yevamot,447
 II Kings,Metzudat Zion on II Kings,444
@@ -359,7 +362,6 @@ Mishnah Negaim,Tosafot Yom Tov on Mishnah Negaim,443
 Genesis,Likutei Moharan,443
 Hosea,Metzudat David on Hosea,443
 Mishnah Nedarim,Tosafot Yom Tov on Mishnah Nedarim,443
-Bereishit Rabbah,Rashi on Genesis,443
 Exodus,Shney Luchot HaBrit,442
 Genesis,Kedushat Levi,441
 Proverbs,Rabbeinu Bahya,441
@@ -457,7 +459,7 @@ Psalms,Tikkunei Zohar,364
 Mishnah Tamid,Yachin on Mishnah Tamid,363
 Leviticus,Ramban on Leviticus,362
 Deuteronomy,Rashbam on Deuteronomy,362
-Bereishit Rabbah,Psalms,361
+Bereishit Rabbah,Psalms,362
 Berakhot,Rashba on Berakhot,361
 Mishnah Shekalim,Yachin on Mishnah Shekalim,359
 Niddah,Rashba on Niddah,359
@@ -479,8 +481,6 @@ Deuteronomy,Ramban on Deuteronomy,348
 Korban Netanel on Kiddushin,Rosh on Kiddushin,348
 Psalms,Shney Luchot HaBrit,348
 Daat Zkenim on Exodus,Exodus,347
-Midrash Tanchuma,Psalms,346
-Exodus,Midrash Tanchuma,346
 Numbers,Sifrei Bamidbar,345
 Chidushei Halachot on Ketubot,Ketubot,345
 Ibn Ezra on Zechariah,Zechariah,345
@@ -502,7 +502,6 @@ Mishnah Arakhin,Yachin on Mishnah Arakhin,333
 Bartenura on Mishnah Gittin,Mishnah Gittin,333
 Meshech Hochma,Numbers,333
 Ikar Tosafot Yom Tov on Mishnah Shabbat,Mishnah Shabbat,333
-Midrash Tanchuma,Proverbs,332
 Isaiah,Midrash Tehillim,330
 Rosh Hashanah,Tosafot on Rosh Hashanah,330
 "Kessef Mishneh on Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll","Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll",329
@@ -528,7 +527,6 @@ Ein Yaakov,Proverbs,317
 Meilah,Tosafot on Meilah,317
 Kitzur Baal Haturim on Leviticus,Leviticus,316
 Amos,Metzudat David on Amos,315
-Job,Midrash Tanchuma,314
 Mishnah Maaser Sheni,Yachin on Mishnah Maaser Sheni,313
 Kli Yakar on Leviticus,Leviticus,313
 Leviticus,Rashbam on Leviticus,313
@@ -594,7 +592,6 @@ Temurah,Tosafot on Temurah,270
 Leviticus,Menachot,270
 "Kessef Mishneh on Mishneh Torah, Slaves","Mishneh Torah, Slaves",270
 Bartenura on Mishnah Maaser Sheni,Mishnah Maaser Sheni,269
-I Samuel,Midrash Tanchuma,269
 Ecclesiastes,Zohar,268
 "Kessef Mishneh on Mishneh Torah, Oaths","Mishneh Torah, Oaths",268
 "Kessef Mishneh on Mishneh Torah, Immersion Pools","Mishneh Torah, Immersion Pools",268
@@ -608,11 +605,11 @@ Genesis,Penei David,262
 Bartenura on Mishnah Avodah Zarah,Mishnah Avodah Zarah,262
 Bartenura on Mishnah Arakhin,Mishnah Arakhin,261
 Chidushei Agadot on Megillah,Megillah,261
+Bemidbar Rabbah,Psalms,259
 Mishnah Niddah,Tosafot Yom Tov on Mishnah Niddah,259
 Mishnah Oktzin,Yachin on Mishnah Oktzin,259
 "Kessef Mishneh on Mishneh Torah, Daily Offerings and Additional Offerings","Mishneh Torah, Daily Offerings and Additional Offerings",259
 Daat Zkenim on Numbers,Numbers,259
-Bemidbar Rabbah,Psalms,258
 Rif Shabbat,Shabbat,258
 II Samuel,JPS 1985 Footnotes,257
 Bartenura on Mishnah Makhshirin,Mishnah Makhshirin,257
@@ -635,7 +632,6 @@ Beitzah,Maharam Shif on Beitzah,246
 Bartenura on Mishnah Nazir,Mishnah Nazir,245
 Chullin,Rosh on Chullin,245
 Ikar Tosafot Yom Tov on Mishnah Sotah,Mishnah Sotah,244
-Isaiah,Midrash Tanchuma,244
 Ein Yaakov,Numbers,244
 Daniel,Metzudat Zion on Daniel,243
 "Kessef Mishneh on Mishneh Torah, The Chosen Temple","Mishneh Torah, The Chosen Temple",242
@@ -649,6 +645,7 @@ Exodus,Otzar Midrashim,239
 Ikar Tosafot Yom Tov on Mishnah Kiddushin,Mishnah Kiddushin,239
 Mishnah Taanit,Yachin on Mishnah Taanit,238
 Ezra,Ibn Ezra on Ezra,238
+Midrash Tanchuma,Psalms,237
 "Kessef Mishneh on Mishneh Torah, Appraisals and Devoted Property","Mishneh Torah, Appraisals and Devoted Property",237
 Mishnah Nazir,Tosafot Yom Tov on Mishnah Nazir,236
 Genesis,Midrash Tehillim,235
@@ -680,13 +677,12 @@ Mishnah Avodah Zarah,Tosafot Yom Tov on Mishnah Avodah Zarah,226
 Exodus,Midrash Tehillim,225
 Mishnah Eduyot,Tosafot Yom Tov on Mishnah Eduyot,225
 Bava Batra,Chidushei Agadot on Bava Batra,225
-I Kings,Midrash Tanchuma,225
 Berakhot,Likutei Moharan,223
 Nehemiah,Ralbag on Nehemiah,223
+Bereishit Rabbah,Isaiah,221
 Bartenura on Mishnah Berakhot,Mishnah Berakhot,221
 Isaiah,Mekhilta d'Rabbi Yishmael,221
 Taanit,Tosafot on Taanit,220
-Bereishit Rabbah,Isaiah,220
 Bartenura on Mishnah Bava Metzia,Ikar Tosafot Yom Tov on Mishnah Bava Metzia,220
 Bemidbar Rabbah,Genesis,219
 Boaz on Mishnah Kelim,Yachin on Mishnah Kelim,218
@@ -707,7 +703,6 @@ Job,Rabbeinu Bahya,210
 Deuteronomy,Devarim Rabbah,210
 Isaiah,Zohar Chadash,209
 Bartenura on Mishnah Beitzah,Mishnah Beitzah,209
-Deuteronomy,Midrash Tanchuma,209
 Ikar Tosafot Yom Tov on Mishnah Sukkah,Mishnah Sukkah,206
 Bartenura on Mishnah Tamid,Mishnah Tamid,206
 Mishnah Peah,Tosafot Yom Tov on Mishnah Peah,206
@@ -723,6 +718,7 @@ Rashba on Rosh Hashanah,Rosh Hashanah,202
 Korban Netanel on Taanit,Rosh on Taanit,201
 Leviticus,Yoma,201
 "Kessef Mishneh on Mishneh Torah, Kings and Wars","Mishneh Torah, Kings and Wars",200
+Exodus,Midrash Tanchuma,200
 Kedushat Levi,Psalms,199
 Psalms,Vayikra Rabbah,199
 Proverbs,Tikkunei Zohar,199
@@ -740,19 +736,19 @@ Rif Yevamot,Yevamot,193
 Ein Yaakov,Jeremiah,193
 Deuteronomy,Tikkunei Zohar,193
 Bartenura on Mishnah Oholot,Ikar Tosafot Yom Tov on Mishnah Oholot,193
+Bemidbar Rabbah,Deuteronomy,193
 Mishnah Moed Katan,Yachin on Mishnah Moed Katan,192
 Mishnah Yadayim,Yachin on Mishnah Yadayim,192
 Eben Ezra on Lamentations,Lamentations,192
 Bartenura on Mishnah Challah,Mishnah Challah,192
-Bemidbar Rabbah,Deuteronomy,192
 Genesis,Otzar Midrashim,191
 Genesis,Mekhilta d'Rabbi Yishmael,191
 Midrash Tehillim,Proverbs,191
 Bartenura on Mishnah Temurah,Mishnah Temurah,191
 Mishnah Tamid,Tosafot Yom Tov on Mishnah Tamid,190
 Metzudat David on Song of Songs,Song of Songs,190
+Midrash Tanchuma,Proverbs,190
 Leviticus,Rashi on Menachot,190
-Genesis,Midrash Tanchuma,190
 Maharam Shif on Zevachim,Zevachim,189
 Chullin,Leviticus,188
 Pele Yoetz,Pirkei Avot,188
@@ -786,6 +782,7 @@ Akeidat Yitzchak,Deuteronomy,180
 I Kings,Zohar,179
 Jeremiah,Rabbeinu Bahya,178
 Numbers,Shney Luchot HaBrit,178
+Job,Midrash Tanchuma,178
 "Kessef Mishneh on Mishneh Torah, Trespass","Mishneh Torah, Trespass",178
 Menachot,Rosh on Menachot,177
 Micah,Rashi on Micah,177
@@ -814,11 +811,12 @@ Likutei Moharan,Shabbat,170
 Mishnah Shekalim,Tosafot Yom Tov on Mishnah Shekalim,170
 Bartenura on Mishnah Kiddushin,Mishnah Kiddushin,170
 Hosea,JPS 1985 Footnotes,170
+Isaiah,Midrash Tanchuma,170
 Berakhot,Pele Yoetz,170
+Bemidbar Rabbah,Isaiah,169
 Gittin,Rif Gittin,169
 Rosh Hashanah,Tur,168
 Ikar Tosafot Yom Tov on Mishnah Yoma,Mishnah Yoma,168
-Bemidbar Rabbah,Isaiah,168
 Ikar Tosafot Yom Tov on Mishnah Peah,Mishnah Peah,168
 Makkot,Tosafot on Makkot,168
 JPS 1985 Footnotes,Numbers,168
@@ -827,6 +825,7 @@ Beitzah,Rosh on Beitzah,167
 Mishnah Megillah,Tosafot Yom Tov on Mishnah Megillah,167
 Bartenura on Mishnah Eruvin,Ikar Tosafot Yom Tov on Mishnah Eruvin,167
 Leviticus,"Mishneh Torah, Negative Mitzvot",166
+Genesis,Midrash Tanchuma,166
 Daniel,Zohar,166
 Bartenura on Mishnah Menachot,Ikar Tosafot Yom Tov on Mishnah Menachot,165
 Kedushat Levi,Numbers,165
@@ -924,11 +923,12 @@ Ezra,Ralbag on Ezra,138
 Malachi,Metzudat David on Malachi,138
 Mishnah Shabbat,Shabbat,138
 Exodus,Shir HaShirim Rabbah,138
+Bereishit Rabbah,Deuteronomy,138
 Ikar Tosafot Yom Tov on Mishnah Beitzah,Mishnah Beitzah,137
-Bereishit Rabbah,Deuteronomy,137
 Ezekiel,Tikkunei Zohar,137
 Chidushei Halachot on Niddah,Niddah,137
 Bartenura on Mishnah Tevul Yom,Mishnah Tevul Yom,137
+I Samuel,Midrash Tanchuma,137
 Bartenura on Mishnah Rosh Hashanah,Mishnah Rosh Hashanah,137
 Pilpula Charifta on Bava Metzia,Rosh on Bava Metzia,136
 Exodus,Sifrei Bamidbar,136
@@ -947,19 +947,21 @@ Exodus,Radak on Genesis,134
 Sefer HaChinukh,Sefer HaMitzvot LaRambam,133
 Ein Yaakov,Ezekiel,133
 Deuteronomy,Makkot,133
+Deuteronomy,Midrash Tanchuma,133
+Bereishit Rabbah,Job,132
 Metzudat Zion on Isaiah,Psalms,132
 Ikar Tosafot Yom Tov on Mishnah Berakhot,Mishnah Berakhot,132
 Deuteronomy,Netzach Yisrael,132
 Commentary on Sefer Hamitzvot of Rasag,Pesachim,132
 Ikar Tosafot Yom Tov on Mishnah Taanit,Mishnah Taanit,132
 Numbers,Sanhedrin,132
-Bereishit Rabbah,Job,131
 Ezra,Metzudat Zion on Ezra,131
 Genesis,Ramban on Exodus,131
 Messilat Yesharim,Psalms,131
 Ein Yaakov (Glick Edition),Leviticus,131
 Psalms,Shir HaShirim Rabbah,130
 Bartenura on Mishnah Moed Katan,Mishnah Moed Katan,130
+Bemidbar Rabbah,Proverbs,129
 Sanhedrin,Sefer HaChinukh,129
 Abarbanel on Torah,Psalms,129
 Jeremiah,Midrash Tehillim,129
@@ -970,7 +972,6 @@ Bartenura on Mishnah Taanit,Mishnah Taanit,128
 Ikar Tosafot Yom Tov on Mishnah Eduyot,Mishnah Eduyot,128
 Likutei Moharan,Tikkunei Zohar,128
 Maharam Shif on Ketubot,Rashi on Ketubot,127
-Bemidbar Rabbah,Proverbs,127
 Leviticus,Shney Luchot HaBrit,127
 Boaz on Mishnah Parah,Yachin on Mishnah Parah,127
 Netzach Yisrael,Psalms,127
@@ -979,7 +980,6 @@ Deuteronomy,Zohar Chadash,126
 Habakkuk,Metzudat David on Habakkuk,125
 Psalms,Sanhedrin,125
 Boaz on Mishnah Negaim,Yachin on Mishnah Negaim,125
-Ecclesiastes,Midrash Tanchuma,125
 Keritot,Tosafot on Keritot,124
 Mishnah Yevamot,Rambam on Mishnah Yevamot,124
 Bartenura on Mishnah Orlah,Mishnah Orlah,124
@@ -1012,20 +1012,19 @@ Rosh on Sukkah,Sukkah,121
 Numbers,Penei David,120
 Leviticus,Sifrei Bamidbar,120
 Metzudat Zion on Zephaniah,Zephaniah,120
-Midrash Tanchuma,Numbers,120
 Bartenura on Mishnah Niddah,Ikar Tosafot Yom Tov on Mishnah Niddah,120
+I Kings,Midrash Tanchuma,120
+Isaiah,Vayikra Rabbah,119
 Avodah Zarah,Rif Avodah Zarah,119
 II Samuel,Zohar,119
 Maharam Shif on Chullin,Rashi on Chullin,119
 Ecclesiastes,Likutei Moharan,119
-Isaiah,Vayikra Rabbah,118
 Maarechet Heidenheim on Pesach Haggadah,Pesach Haggadah,118
 Metzudat David on Nahum,Nahum,118
 Genesis,Vayikra Rabbah,117
 Bereishit Rabbah,Shney Luchot HaBrit,117
 Nahum,Rashi on Nahum,117
 Jeremiah,Mekhilta d'Rabbi Yishmael,116
-Joshua,Midrash Tanchuma,116
 Numbers,Ramban on Exodus,116
 Proverbs,Shaarei Teshuvah,116
 Ein Yaakov (Glick Edition),I Samuel,116
@@ -1078,7 +1077,6 @@ Ikar Tosafot Yom Tov on Mishnah Middot,Mishnah Middot,108
 Bartenura on Mishnah Parah,Ikar Tosafot Yom Tov on Mishnah Parah,108
 Bartenura on Mishnah Yadayim,Mishnah Yadayim,107
 Berakhot,Deuteronomy,107
-Jeremiah,Midrash Tanchuma,107
 Maharam Shif on Beitzah,Tosafot on Beitzah,107
 Ein Yaakov,I Samuel,107
 Keritot,Leviticus,107
@@ -1096,7 +1094,6 @@ Haamek Davar on Genesis,Harchev Davar on Genesis,104
 Exodus,Penei David,104
 Menachot,Numbers,104
 Mishnah Bava Metzia,Rambam on Mishnah Bava Metzia,104
-II Kings,Midrash Tanchuma,104
 Exodus,Vayikra Rabbah,104
 Bartenura on Mishnah Peah,Ikar Tosafot Yom Tov on Mishnah Peah,104
 Isaiah,Malbim Beur Hamilot on Psalms,104
@@ -1186,7 +1183,6 @@ Leviticus,Temurah,94
 Jeremiah,Pesikta D'Rav Kahanna,94
 Ketubot,Mishnah Ketubot,94
 Psalms,Shadal on Genesis,94
-II Samuel,Midrash Tanchuma,93
 Bartenura on Mishnah Arakhin,Ikar Tosafot Yom Tov on Mishnah Arakhin,93
 "Kessef Mishneh on Mishneh Torah, Sheqel Dues","Mishneh Torah, Sheqel Dues",93
 Bava Metzia,Tosafot on Bava Kamma,93
@@ -1219,7 +1215,6 @@ Ecclesiastes,Ein Yaakov (Glick Edition),90
 Rashi on Deuteronomy,Sanhedrin,90
 Mishnah Pesachim,Rambam on Mishnah Pesachim,90
 Gur Aryeh on Shemot,Numbers,89
-Ezekiel,Midrash Tanchuma,89
 Sefer HaChinukh,Sefer HaChinukh,89
 Leviticus,Otzar Midrashim,89
 Rashi on Leviticus,Zevachim,89
@@ -1237,6 +1232,7 @@ Exodus,Zevachim,88
 Chiddushei Ramban on Moed Katan,Moed Katan,88
 Mishnah Nedarim,Nedarim,88
 Berakhot,Shney Luchot HaBrit,88
+Bemidbar Rabbah,Leviticus,88
 Proverbs,Sanhedrin,88
 Commentary on Sefer Hamitzvot of Rasag,Yoma,88
 Mishnah Challah,Tosafot Yom Tov on Mishnah Challah,88
@@ -1245,7 +1241,6 @@ Jeremiah,Tikkunei Zohar,87
 Bava Batra,Likutei Moharan,87
 Mishnah Chagigah,Tosafot Yom Tov on Mishnah Chagigah,87
 Jerusalem Talmud Berakhot,Psalms,87
-Bemidbar Rabbah,Leviticus,87
 Avodah Zarah,Deuteronomy,87
 Berakhot,Chidushei Halachot on Berakhot,87
 I Kings,Sanhedrin,87
@@ -1255,7 +1250,6 @@ Exodus,Tanna Debei Eliyahu Rabbah,86
 Judges,Rabbeinu Bahya,86
 Bava Kamma,Rif Bava Kamma,86
 Bartenura on Mishnah Horayot,Mishnah Horayot,86
-Hosea,Midrash Tanchuma,86
 "Kessef Mishneh on Mishneh Torah, Creditor and Debtor","Mishneh Torah, Creditor and Debtor",86
 Rif Sukkah,Sukkah,86
 Bava Metzia,Tosafot on Bava Batra,86
@@ -1304,10 +1298,10 @@ HaEmunot veHaDeot,Job,80
 Guide for the Perplexed,Leviticus,80
 Jeremiah,Likutei Moharan,80
 Gittin,Mishnah Gittin,80
+Midrash Tanchuma,Numbers,80
 Pele Yoetz,Sanhedrin,80
 Deuteronomy,Ketubot,80
 Isaiah,Shabbat,79
-Malachi,Midrash Tanchuma,79
 Megillah,Rosh on Megillah,79
 Deuteronomy,Orchot Tzadikim,79
 Rashi on Ruth,Ruth,79
@@ -1359,6 +1353,7 @@ Ein Yaakov,Hosea,74
 Deuteronomy,Gur Aryeh on Bamidbar,74
 Metzudat Zion on Job,Psalms,74
 Pesachim,Tosafot on Zevachim,74
+Jeremiah,Midrash Tanchuma,73
 Deuteronomy,"Mishneh Torah, Kings and Wars",73
 Numbers,Pesikta Rabbati,73
 Rosh on Gittin,Tiferet Shmuel on Gittin,73
@@ -1429,6 +1424,7 @@ Rashi on Numbers,Sanhedrin,69
 Bartenura on Mishnah Berakhot,Ikar Tosafot Yom Tov on Mishnah Berakhot,69
 Bemidbar Rabbah,Job,69
 Leviticus,Rashi on Pesachim,69
+Ecclesiastes,Midrash Tanchuma,69
 Netzach Yisrael,Sanhedrin,69
 Deuteronomy,Jerusalem Talmud Sotah,69
 Mishnah Zevachim,Zevachim,69
@@ -1459,7 +1455,6 @@ Numbers,Ramban on Deuteronomy,66
 Leviticus,Megillah,66
 Ein Yaakov (Glick Edition),Joshua,66
 Exodus,Gevurot Hashem,66
-Exodus,Rashi on Genesis,66
 Deuteronomy,HaEmunot veHaDeot,66
 Rashi on Numbers,Sotah,66
 Mishnah Niddah,Niddah,66
@@ -1468,6 +1463,7 @@ Abarbanel on Torah,Leviticus,66
 Daniel,Otzar Midrashim,66
 Bava Kamma,Tosafot on Ketubot,66
 Genesis,Megillah,66
+Numbers,Rashi on Genesis,66
 Amos,JPS 1985 Footnotes,65
 Psalms,Sefer Kuzari,65
 Shabbat,Tosafot on Menachot,65
@@ -1479,7 +1475,6 @@ Bava Metzia,Tosafot on Ketubot,65
 Bartenura on Mishnah Temurah,Ikar Tosafot Yom Tov on Mishnah Temurah,65
 Pesachim,Tosafot on Chullin,65
 Bartenura on Mishnah Tamid,Ikar Tosafot Yom Tov on Mishnah Tamid,65
-Numbers,Rashi on Genesis,65
 Haamek Davar on Leviticus,Harchev Davar on Leviticus,65
 Mishnah Sanhedrin,Sanhedrin,65
 Isaiah,Shadal on Exodus,65
@@ -1490,6 +1485,7 @@ Bava Batra,Job,64
 Bava Kamma,Tosafot on Sanhedrin,64
 Psalms,Sefer haBachur,64
 Isaiah,Kohelet Rabbah,64
+Exodus,Rashi on Genesis,64
 Pesachim,Sefer HaChinukh,64
 Rashba on Beitzah,Shabbat,63
 Mishnah Sotah,Rambam on Mishnah Sotah,63
@@ -1535,14 +1531,15 @@ Isaiah,Malbim Beur Hamilot on Ezekiel,61
 Chidushei Agadot on Makkot,Makkot,61
 Mishnah Kinnim,Tosafot Yom Tov on Mishnah Kinnim,60
 Berakhot,Kedushat Levi,60
+Ezekiel,Midrash Tanchuma,60
 "Kessef Mishneh on Mishneh Torah, Robbery and Lost Property","Mishneh Torah, Robbery and Lost Property",60
 Ikar Tosafot Yom Tov on Mishnah Orlah,Mishnah Orlah,60
+Joshua,Midrash Tanchuma,60
 Pele Yoetz,Yoma,60
 Leviticus,Rashi on Deuteronomy,60
 II Samuel,Sanhedrin,60
 Chagigah,Chidushei Halachot on Chagigah,60
 Berakhot,Kitzur Shulkhan Aruch Yalkut Yosef,60
-Lamentations,Midrash Tanchuma,60
 Kitzur Shulkhan Aruch Yalkut Yosef,Sukkah,60
 Numbers,Shir HaShirim Rabbah,60
 Akeidat Yitzchak,Bereishit Rabbah,60
@@ -1559,6 +1556,7 @@ Numbers,Vayikra Rabbah,59
 Deuteronomy,Gittin,59
 Likutei Moharan,Pesachim,59
 Rashi on Leviticus,Yoma,59
+Jeremiah,Vayikra Rabbah,59
 Deuteronomy,Tanna Debei Eliyahu Rabbah,59
 Beit Yosef,Ketubot,59
 Exodus,Rabbeinu Chananel on Exodus,59
@@ -1571,7 +1569,6 @@ Exodus,"Mishneh Torah, Positive Mitzvot",58
 Genesis,Pele Yoetz,58
 Jerusalem Talmud Yoma,Leviticus,58
 Bartenura on Mishnah Zavim,Ikar Tosafot Yom Tov on Mishnah Zavim,58
-Jeremiah,Vayikra Rabbah,58
 Abarbanel on Torah,Job,58
 Deuteronomy,Rashi on Leviticus,58
 Pesikta D'Rav Kahanna,Proverbs,58
@@ -1599,7 +1596,9 @@ Isaiah,Metzudat Zion on Ezekiel,57
 Mishnah Nazir,Nazir,57
 Akeidat Yitzchak,Berakhot,57
 Deuteronomy,"Mishneh Torah, Foundations of the Torah",57
+Rashi on Genesis,Sanhedrin,57
 Jeremiah,Shney Luchot HaBrit,56
+Deuteronomy,Rambam Introduction to the Mishnah,56
 Pesikta Rabbati,Proverbs,56
 Makkot,Numbers,56
 Bava Batra,Rashba on Ketubot,56
@@ -1630,11 +1629,11 @@ Judges,Radak on Genesis,55
 Berakhot,Otzar Midrashim,55
 Akeidat Yitzchak,Ecclesiastes,55
 Isaiah,Messilat Yesharim,55
+II Kings,Midrash Tanchuma,55
 Leviticus,Rashi on Numbers,55
 Leviticus,Pesikta D'Rav Kahanna,55
 Bava Batra,Tosafot on Sanhedrin,55
 Psalms,Ramban on Deuteronomy,55
-Leviticus,Midrash Tanchuma,55
 Deuteronomy,Rashi on Yevamot,55
 Eichah Rabbah,Psalms,55
 Darashos HaRan,Psalms,55
@@ -1680,7 +1679,6 @@ Ohr Chadash,Psalms,52
 Bava Metzia,Rashba on Bava Batra,52
 Commentary on Sefer Hamitzvot of Rasag,Ketubot,52
 Haamek Davar on Deuteronomy,Harchev Davar on Deuteronomy,52
-Amos,Midrash Tanchuma,52
 Jeremiah,Sanhedrin,52
 Berakhot,"Kessef Mishneh on Mishneh Torah, Blessings",52
 Avodah Zarah,Psalms,52
@@ -1719,6 +1717,7 @@ Leviticus,Nazir,51
 Isaiah,Sefer haBachur,51
 Lev Sameach,Sefer HaMitzvot LaRambam,51
 Ezekiel,Shir HaShirim Rabbah,50
+II Samuel,Midrash Tanchuma,50
 Commentary on Sefer Hamitzvot of Rasag,Shabbat,50
 Ein Yaakov (Glick Edition),Judges,50
 B'Mareh HaBazak Part Six,Shabbat,50
@@ -1776,6 +1775,7 @@ Deuteronomy,Messilat Yesharim,48
 Leviticus,Shaarei Teshuvah,48
 Mishnah Kiddushin,Rambam on Mishnah Kiddushin,48
 Job,Metzudat Zion on Jeremiah,48
+Hosea,Midrash Tanchuma,48
 Kiddushin,Mishnah Kiddushin,48
 Otzar Midrashim,Shabbat,48
 Akeidat Yitzchak,Shabbat,48
@@ -1820,6 +1820,7 @@ Metzudat Zion on Isaiah,Proverbs,46
 Psalms,Tanna debei Eliyahu Zuta,46
 Job,Shney Luchot HaBrit,46
 Eichah Rabbah,Jeremiah,46
+Midrash Tanchuma,Rashi on Genesis,46
 Job,Shadal on Genesis,46
 Ein Yaakov (Glick Edition),Lamentations,46
 Ketubot,Tosafot on Gittin,46
@@ -1856,6 +1857,7 @@ Leviticus,Rosh Hashanah,44
 Esther,Zohar,44
 Genesis,Pesachim,44
 Menachot,Tosafot on Pesachim,44
+Malachi,Midrash Tanchuma,44
 Makkot,Sefer HaChinukh,44
 Eruvin,Likutei Moharan,44
 Sefer HaChinukh,Yoma,44
@@ -1870,7 +1872,6 @@ Tosafot on Sanhedrin,Yevamot,44
 Gittin,Tosafot on Bava Metzia,44
 Hasagot HaRamban al Sefer HaMitzvot,Lev Sameach,44
 Exodus,Metzudat Zion on Ezekiel,44
-Rashi on Genesis,Sanhedrin,44
 B'Mareh HaBazak Part Seven,Shabbat,43
 Bartenura on Mishnah Taanit,Ikar Tosafot Yom Tov on Mishnah Taanit,43
 Leviticus,Rashi on Shevuot,43
@@ -1903,7 +1904,6 @@ B'Mareh HaBazak Part Seven,Berakhot,42
 Hosea,Midrash Tehillim,42
 Exodus,Metzudat Zion on Jeremiah,42
 Abarbanel on Torah,Jeremiah,42
-Micah,Midrash Tanchuma,42
 Leviticus,"Mishneh Torah, Sabbatical Year and the Jubilee",42
 Habakkuk,JPS 1985 Footnotes,42
 Bereishit Rabbah,Daniel,42
@@ -1913,6 +1913,7 @@ Job,Rashi on Genesis,42
 Leviticus,Shemot Rabbah,42
 Rosh Hashanah,"Shulchan Arukh, Yoreh De'ah",42
 Chidushei Halachot on Yoma,Rashi on Yoma,42
+Bereishit Rabbah,Ecclesiastes,42
 Deuteronomy,Kli Yakar on Genesis,42
 Ezekiel,Ramban on Genesis,42
 Shabbat,Torah Temimah on Psalms,42
@@ -1931,6 +1932,7 @@ Numbers,Rashi on Sanhedrin,41
 Derech Chaim,Shabbat,41
 Bekhorot,Exodus,41
 Leviticus,Rashba on Shabbat,41
+Isaiah,Sifrei Bamidbar,41
 Isaiah,Sotah,41
 Sanhedrin,Tosafot on Ketubot,41
 Mishnah Yoma,Yoma,41
@@ -1938,18 +1940,16 @@ Kiddushin,Likutei Moharan,41
 Job,Pesikta D'Rav Kahanna,41
 Maharam Shif on Sanhedrin,Tosafot on Sanhedrin,41
 Sotah,Torah Temimah on Psalms,41
-Bereishit Rabbah,Ecclesiastes,41
 Akeidat Yitzchak,I Samuel,41
 Bava Metzia,Genesis,41
-Bava Kamma,Yad Ramah on Bava Batra,41
 Bereishit Rabbah,Judges,41
 Pele Yoetz,Pesachim,41
 Isaiah,Rashi on Psalms,41
 Tosafot on Zevachim,Yoma,41
 Leviticus,"Mishneh Torah, Admission into the Sanctuary",41
-Isaiah,Sifrei Bamidbar,41
 Bartenura on Mishnah Chagigah,Ikar Tosafot Yom Tov on Mishnah Chagigah,41
 Genesis,Yevamot,41
+Bava Kamma,Yad Ramah on Bava Batra,41
 Psalms,Tanya,40
 Deuteronomy,Rashi on Psalms,40
 Deuteronomy,Mekhilta DeRabbi Shimon Bar Yochai,40
@@ -2011,7 +2011,6 @@ Psalms,Yoma,38
 Boaz on Mishnah Berakhot,Yachin on Mishnah Berakhot,38
 Ezekiel,Shney Luchot HaBrit,38
 II Chronicles,Rabbeinu Bahya,38
-Daniel,Midrash Tanchuma,38
 Chagigah,Psalms,38
 Likutei Moharan,Malachi,38
 Shemot Rabbah,Shney Luchot HaBrit,38
@@ -2081,7 +2080,6 @@ JPS 1985 Footnotes,Nahum,36
 Chagigah,Shney Luchot HaBrit,36
 Gittin,Tosafot on Kiddushin,36
 Metzudat Zion on Jeremiah,Numbers,36
-Judges,Midrash Tanchuma,36
 Genesis,Malbim Beur Hamilot on Isaiah,36
 Gur Aryeh on Vayikra,Menachot,36
 Numbers,Shevuot,36
@@ -2091,6 +2089,7 @@ Mishnah Temurah,Rambam on Mishnah Temurah,36
 Bava Metzia,Tosafot on Bekhorot,36
 Proverbs,Ramban on Genesis,36
 Deuteronomy,Jerusalem Talmud Berakhot,36
+Leviticus,Midrash Tanchuma,36
 Job,Ramban on Exodus,36
 Psalms,Rabbeinu Yonah on Pirkei Avot,36
 Psalms,Taanit,36
@@ -2146,7 +2145,6 @@ Esther Rabbah,Genesis,34
 Eichah Rabbah,Genesis,34
 Deuteronomy,Rashi on Pesachim,34
 Exodus,Orchot Tzadikim,34
-Deuteronomy,Rambam Introduction to the Mishnah,34
 Guide for the Perplexed,Job,34
 Deuteronomy,Eichah Rabbah,34
 Beitzah,Rashba on Shabbat,34
@@ -2274,6 +2272,7 @@ Isaiah,Midrash Mishlei,32
 Numbers,Rashbam on Exodus,31
 Isaiah,Pirkei DeRabbi Eliezer,31
 "Shulchan Arukh, Even HaEzer","Shulchan Arukh, Even HaEzer",31
+Amos,Midrash Tanchuma,31
 Megillah,Mishnah Megillah,31
 Shabbat,Tosafot on Sanhedrin,31
 Gur Aryeh on Shemot,Psalms,31
@@ -2285,7 +2284,6 @@ I Kings,Ramban on Exodus,31
 Pirkei Avot,Psalms,31
 Berakhot,Messilat Yesharim,31
 Jeremiah,Malbim Beur Hamilot on Psalms,31
-Esther,Midrash Tanchuma,31
 Bartenura on Mishnah Negaim,Leviticus,31
 Deuteronomy,Or HaChaim on Numbers,31
 Lamentations,Netzach Yisrael,31
@@ -2300,6 +2298,7 @@ Leviticus,"Mishneh Torah, Daily Offerings and Additional Offerings",31
 Derech Chaim,Deuteronomy,31
 Genesis,Or HaChaim on Exodus,31
 Daf Shevui to Megillah,Exodus,31
+Lamentations,Midrash Tanchuma,31
 Megillah,Torah Temimah on Psalms,31
 Genesis,HaEmunot veHaDeot,31
 Aruch HaShulchan,Megillah,31
@@ -2333,12 +2332,12 @@ Bava Metzia,Rashbam on Bava Batra,30
 Deuteronomy,Midrash Mishlei,30
 Psalms,Sukkah,30
 Leviticus,"Mishneh Torah, Sacrifices Rendered Unfit",30
-Joel,Midrash Tanchuma,30
 Numbers,Rashi on Yoma,30
 Mishnah Temurah,Temurah,30
 Messilat Yesharim,Sanhedrin,30
 Mekhilta DeRabbi Shimon Bar Yochai,Proverbs,30
 Deuteronomy,"Mishneh Torah, Repentance",30
+Daniel,Midrash Tanchuma,30
 Bava Metzia,Tosafot on Shevuot,30
 Keritot,Mishnah Keritot,30
 Bemidbar Rabbah,Judges,30
@@ -2357,7 +2356,6 @@ Bava Metzia,Rashba on Ketubot,30
 Mishnah Rosh Hashanah,Rosh Hashanah,30
 Deuteronomy,Sforno on Numbers,30
 Genesis,Orchot Tzadikim,30
-Habakkuk,Midrash Tanchuma,30
 Judges,Sotah,30
 Bereishit Rabbah,Hosea,30
 Mishnah Sotah,Numbers,30
@@ -2388,6 +2386,7 @@ Exodus,Jerusalem Talmud Shabbat,29
 B'Mareh HaBazak Part Seven,Sanhedrin,29
 Deuteronomy,Temurah,29
 II Chronicles,Sanhedrin,29
+Rashi on Genesis,Shabbat,29
 Gittin,Sefer HaChinukh,29
 Netzach Yisrael,Zechariah,29
 Makkot,Mishnah Makkot,29
@@ -2453,7 +2452,6 @@ Proverbs,Rashi on Psalms,28
 Bava Batra,Leviticus,28
 Proverbs,Yoma,28
 B'Mareh HaBazak Part Eight,Shabbat,28
-Rashi on Genesis,Shabbat,28
 Aruch HaShulchan,Psalms,28
 Daat Zkenim on Exodus,Psalms,28
 Ketubot,Likutei Moharan,28
@@ -2502,6 +2500,7 @@ Hosea,Zohar Chadash,27
 Nedarim,Pele Yoetz,27
 Or HaChaim on Genesis,Proverbs,27
 Hosea,Shir HaShirim Rabbah,27
+Rashi on Genesis,Sotah,27
 Bava Batra,Psalms,27
 Chagigah,Torah Temimah on Psalms,27
 Bemidbar Rabbah,Zechariah,27
@@ -2626,9 +2625,9 @@ Deuteronomy,Shevuot,25
 I Kings,Shemot Rabbah,25
 Numbers,Sefer Kuzari,25
 Tosafot on Chullin,Yevamot,25
+Shabbat,Tosafot on Beitzah,25
 Ketubot,Rashba on Kiddushin,25
 Genesis,Rashi on Leviticus,25
-Midrash Tanchuma,Zechariah,25
 Avodah Zarah,B'Mareh HaBazak Part Seven,25
 I Samuel,Pele Yoetz,25
 Bava Kamma,Genesis,25
@@ -2656,6 +2655,7 @@ Bava Kamma,Rashba on Ketubot,25
 I Samuel,Yoma,25
 "Mishneh Torah, Red Heifer",Numbers,25
 Tosafot on Sotah,Yevamot,25
+Micah,Midrash Tanchuma,25
 Gra on Pirkei Avot,Job,25
 Bava Metzia,Commentary on Sefer Hamitzvot of Rasag,25
 Boaz on Mishnah Shevuot,Yachin on Mishnah Shevuot,25
@@ -2674,7 +2674,6 @@ Esther,Rabbeinu Bahya,25
 Leviticus,Rashi on Sotah,25
 Ezra,JPS 1985 Footnotes,25
 Exodus,Sforno on Numbers,25
-Shabbat,Tosafot on Beitzah,25
 Pesachim,Tosafot on Yevamot,25
 Leviticus,"Mishneh Torah, Gifts to the Poor",25
 Exodus,Ohr Chadash,25
@@ -2694,7 +2693,6 @@ II Samuel,Shadal on Exodus,24
 Nedarim,Teshuvot haRashba part V,24
 Esther,Midrash Tehillim,24
 Berakhot,Ezekiel,24
-Rashi on Genesis,Sotah,24
 Deuteronomy,Or HaChaim on Leviticus,24
 Ezekiel,Metzudat Zion on Job,24
 Psalms,Rashi on Leviticus,24
@@ -2723,6 +2721,7 @@ Deuteronomy,Leviticus,24
 Numbers,Sforno on Genesis,24
 Mekhilta DeRabbi Shimon Bar Yochai,Numbers,24
 Sanhedrin,Tosafot on Chullin,24
+Judges,Midrash Tanchuma,24
 Daniel,Sanhedrin,24
 Leviticus,Tosafot Yom Tov on Mishnah Menachot,24
 Arakhin,Deuteronomy,24
@@ -2745,14 +2744,12 @@ Numbers,Rashi on Sotah,24
 Sanhedrin,Sefer HaMitzvot LaRambam,24
 Exodus,Gittin,24
 Menachot,Tosafot on Sukkah,24
-Midrash Tanchuma,Ruth,24
 Jeremiah,Shabbat,24
 Tosafot on Bava Metzia,Yevamot,24
 Or HaChaim on Numbers,Psalms,24
 Judges,Rashi on Exodus,24
 Bemidbar Rabbah,Malachi,24
 Tosafot on Pesachim,Yevamot,24
-Haggai,Midrash Tanchuma,24
 Menachot,Psalms,24
 Bava Metzia,Likutei Moharan,24
 Psalms,Tosefta Berakhot,24
@@ -2946,7 +2943,6 @@ Joshua,Rashi on Exodus,21
 Beit Yosef,Yevamot,21
 Numbers,Ohr Chadash,21
 Deuteronomy,Malbim Beur Hamilot on Isaiah,21
-Ezra,Midrash Tanchuma,21
 Chullin,Ramban on Leviticus,21
 Beitzah,Likutei Moharan,21
 Psalms,Rashi on Job,21
@@ -3037,6 +3033,7 @@ Jerusalem Talmud Chagigah,Psalms,20
 II Kings,Mekhilta DeRabbi Shimon Bar Yochai,20
 Ikar Siftei Hachamim on Genesis,Numbers,20
 Tur,Tur,20
+Rashi on Genesis,Yevamot,20
 Exodus,Metzudat Zion on Judges,20
 Daniel,Netzach Yisrael,20
 Joel,Otzar Midrashim,20
@@ -3086,24 +3083,25 @@ Torah Temimah on Psalms,Yevamot,20
 Deuteronomy,"Mishneh Torah, Robbery and Lost Property",20
 "Mishneh Torah, Heave Offerings",Numbers,20
 Genesis,Rashbam on Numbers,20
-Bava Batra,Jeremiah,20
 Da'at Tevunoth,Ezekiel,20
 Genesis,Rashi on Sotah,20
 Iggerot HaRambam,Isaiah,20
 Gur Aryeh on Bereishit,Pesachim,20
 Chullin,Otzar Midrashim,20
+HaEmunot veHaDeot,Hosea,20
 Deuteronomy,Metzudat Zion on Proverbs,20
 Numbers,Siftei Hakhamim,20
 Joshua,Rashi on Deuteronomy,20
+Bava Batra,Jeremiah,20
 "Mishneh Torah, Defilement by a Corpse",Numbers,20
 Daniel,Pesikta Rabbati,20
 Rosh on Pesachim,Tiferet Shmuel on Pesachim,20
+Bava Metzia,Rashi on Genesis,20
 Bava Kamma,Rashi on Bava Metzia,20
 Avodah Zarah,Proverbs,20
 Eichah Rabbah,Leviticus,20
 Lamentations,Pele Yoetz,20
 Judges,Metzudat Zion on Psalms,20
-HaEmunot veHaDeot,Hosea,20
 Bartenura on Mishnah Horayot,Leviticus,20
 Jeremiah,Seder Olam Rabbah,20
 Pesikta D'Rav Kahanna,Zechariah,20
@@ -3139,7 +3137,6 @@ Avodah Zarah,Shney Luchot HaBrit,19
 Gittin,Teshuvot haRashba part IV,19
 Isaiah,Metzudat Zion on Hosea,19
 Eruvin,Numbers,19
-Exodus,Seder Olam Rabbah,19
 Genesis,Rosh Hashanah,19
 Chullin,Proverbs,19
 Boaz on Mishnah Kelim,Chullin,19
@@ -3149,6 +3146,7 @@ I Samuel,Ramban on Numbers,19
 Exodus,Nedarim,19
 Numbers,Orchot Tzadikim,19
 Lamentations,Metzudat Zion on Isaiah,19
+Exodus,Seder Olam Rabbah,19
 Bartenura on Pirkei Avot,Exodus,19
 Berakhot,Tosafot on Sotah,19
 Proverbs,Rashi on Exodus,19
@@ -3164,6 +3162,7 @@ Rashi on Eruvin,Shabbat,19
 Leviticus,Rashi on Rosh Hashanah,19
 Chagigah,Ezekiel,19
 Exodus,Genesis,19
+Esther,Midrash Tanchuma,19
 Berakhot,Or HaChaim on Leviticus,19
 Sanhedrin,Sforno on Genesis,19
 HaEmunot veHaDeot,Numbers,19
@@ -3253,7 +3252,6 @@ Deuteronomy,Eight Chapters,18
 Genesis,Metzudat Zion on Joshua,18
 Esther,Tikkunei Zohar,18
 Kiddushin,Prisha,18
-Rashi on Genesis,Yevamot,18
 Numbers,Pirkei Avot,18
 Chelkat Mechokek,Yevamot,18
 Deuteronomy,Mishnah Bava Metzia,18
@@ -3268,6 +3266,7 @@ Bava Batra,Gur Aryeh on Bamidbar,18
 Beit Yosef,Eruvin,18
 Leviticus,Numbers,18
 Gittin,Tosafot on Bekhorot,18
+Exodus,Rambam Introduction to the Mishnah,18
 Habakkuk,Likutei Moharan,18
 Leviticus,Tosafot on Yoma,18
 Eruvin,Torah Temimah on Psalms,18
@@ -3366,13 +3365,13 @@ Proverbs,Rashi on Isaiah,17
 Kiddushin,Torah Temimah on Psalms,17
 Or HaChaim on Deuteronomy,Sotah,17
 Abarbanel on Torah,II Samuel,17
+Midrash Tanchuma,Zechariah,17
 Judges,Likutei Moharan,17
-Midrash Tanchuma,Nehemiah,17
 Devarim Rabbah,Ecclesiastes,17
 Abarbanel on Torah,Judges,17
 Ezekiel,Shaarei Teshuvah,17
+Rashi on Genesis,Yoma,17
 Akeidat Yitzchak,I Kings,17
-Jonah,Midrash Tanchuma,17
 Pirkei Avot,Sefer HaChinukh,17
 Daat Zkenim on Genesis,Deuteronomy,17
 Ein Yaakov (Glick Edition),Nehemiah,17
@@ -3392,6 +3391,7 @@ Eruvin,Messilat Yesharim,17
 Bava Kamma,Tosafot on Menachot,17
 Jeremiah,Rashi on Job,17
 Ecclesiastes,Gra on Pirkei Avot,17
+Joel,Midrash Tanchuma,17
 Rashi on Exodus,Zevachim,17
 Chullin,Tosafot on Yoma,17
 Metzudat Zion on I Samuel,Psalms,17
@@ -3451,6 +3451,7 @@ Gittin,Torah Temimah on Psalms,17
 Psalms,Rabbeinu Chananel on Exodus,17
 Ein Yaakov (Glick Edition),Habakkuk,17
 Rashi on Deuteronomy,Rashi on Genesis,17
+Pirkei DeRabbi Eliezer,Rashi on Genesis,17
 II Chronicles,Mekhilta d'Rabbi Yishmael,17
 Drashot Maharal,Psalms,17
 Beit Yosef,Shevuot,17
@@ -3478,12 +3479,12 @@ Joshua,Sifrei Bamidbar,17
 Bava Kamma,Tosafot on Yevamot,17
 Genesis,Rashi on Jeremiah,17
 Tosafot on Pesachim,Yoma,17
+Leviticus,Rambam Introduction to the Mishnah,17
 Or HaChaim on Genesis,Sotah,17
 Chullin,Messilat Yesharim,17
 Hosea,Tanna Debei Eliyahu Rabbah,17
 Kiddushin,Rashi on Deuteronomy,17
 Isaiah,"Siddur, Sefard",17
-Bava Metzia,Rashi on Genesis,17
 Ketubot,Shney Luchot HaBrit,17
 Netzach Yisrael,Yevamot,17
 Esther,Otzar Midrashim,17
@@ -3604,6 +3605,7 @@ Maarechet Heidenheim on Pesach Haggadah,Psalms,16
 "Kessef Mishneh on Mishneh Torah, Fringes",Menachot,16
 Judges,Shadal on Exodus,16
 Or HaChaim on Numbers,Sotah,16
+Berakhot,Rashi on Genesis,16
 B'Mareh HaBazak Part Seven,"Mishneh Torah, Forbidden Intercourse",16
 "Mishneh Torah, Sacrificial Procedure",Rosh Hashanah,16
 Pesachim,Tzidkat HaTzadick,16
@@ -3694,7 +3696,6 @@ Eruvin,Leviticus,15
 Bartenura on Mishnah Shevuot,Leviticus,15
 Shabbat,Tosafot on Bekhorot,15
 Sanhedrin,Tosafot on Yoma,15
-Rashi on Genesis,Yoma,15
 Genesis,Metzudat Zion on II Kings,15
 Deuteronomy,"Mishneh Torah, Ritual Slaughter",15
 Ezekiel,Rashi on Jeremiah,15
@@ -3777,6 +3778,7 @@ Bava Batra,Tosafot on Pesachim,15
 Esther,JPS 1985 Footnotes,15
 Daf Shevui to Megillah,Numbers,15
 Metzudat Zion on Zechariah,Psalms,15
+Habakkuk,Midrash Tanchuma,15
 Joel,Mekhilta d'Rabbi Yishmael,15
 Exodus,Rashi on Eruvin,15
 Numbers,Rashi on Job,15
@@ -3827,7 +3829,6 @@ Job,Rashi on Numbers,15
 Bava Metzia,Orchot Tzadikim,15
 Deuteronomy,Rashba on Berakhot,15
 Or HaChaim on Numbers,Shabbat,15
-Midrash Tanchuma,Rashi on Genesis,15
 Deuteronomy,Metzudat Zion on Ezekiel,15
 Malachi,Sifra,15
 Deuteronomy,Pirkei Avot,15
@@ -3856,7 +3857,6 @@ Deuteronomy,Kli Yakar on Leviticus,15
 Isaiah,Ohr Chadash,15
 Ezekiel,Rashi on Job,15
 Deuteronomy,Jerusalem Talmud Chagigah,15
-Midrash Tanchuma,Nahum,14
 Chagigah,Proverbs,14
 Isaiah,Kli Yakar on Leviticus,14
 Nedarim,Rashi on Numbers,14
@@ -3864,7 +3864,6 @@ Chagigah,Job,14
 Genesis,Yad Ramah on Bava Batra,14
 Eruvin,Tosafot on Bava Metzia,14
 Pesachim,Tosafot on Gittin,14
-Job,Tanna Debei Eliyahu Rabbah,14
 I Chronicles,Sanhedrin,14
 Hechalot Rabbati,Isaiah,14
 Daat Zkenim on Numbers,Psalms,14
@@ -3904,6 +3903,7 @@ Lamentations,Mekhilta d'Rabbi Yishmael,14
 Avodah Zarah,Darashos HaRan,14
 Exodus,"Mishneh Torah, Murderer and the Preservation of Life",14
 Chagigah,Da'at Tevunoth,14
+Job,Tanna Debei Eliyahu Rabbah,14
 Bava Metzia,Rashi on Shabbat,14
 Sukkah,Torah Temimah on Psalms,14
 Ezekiel,Gevurot Hashem,14
@@ -4121,7 +4121,6 @@ Ecclesiastes,Or HaChaim on Genesis,13
 Deuteronomy,Pirkei DeRabbi Eliezer,13
 I Samuel,Rashi on Numbers,13
 Ramban on Genesis,Zechariah,13
-Pirkei DeRabbi Eliezer,Rashi on Genesis,13
 Job,Kli Yakar on Genesis,13
 Ezekiel,Sefer Kuzari,13
 Bava Batra,Yad Ramah on Sanhedrin,13
@@ -4272,6 +4271,7 @@ Akeidat Yitzchak,Chullin,12
 Boaz on Mishnah Shabbat,Shabbat,12
 Sotah,Tzidkat HaTzadick,12
 Gittin,Rashba on Bava Batra,12
+Ezra,Midrash Tanchuma,12
 Bava Kamma,Messilat Yesharim,12
 Kiddushin,Or HaChaim on Genesis,12
 Daat Zkenim on Genesis,Isaiah,12
@@ -4341,7 +4341,6 @@ I Kings,Rashi on Numbers,12
 Jonah,Radak on Genesis,12
 Jonah,Tikkunei Zohar,12
 Avodah Zarah,Rashi on Deuteronomy,12
-Berakhot,Rashi on Genesis,12
 Daniel,Kohelet Rabbah,12
 Niddah,Tosafot on Sanhedrin,12
 I Samuel,Sforno on Numbers,12
@@ -4382,6 +4381,7 @@ B'Mareh HaBazak Part Six,Berakhot,12
 Isaiah,Metzudat Zion on Amos,12
 Darashos HaRan,Leviticus,12
 Ketubot,Ramban on Exodus,12
+Midrash Tanchuma,Ruth,12
 Beit Yosef,Menachot,12
 Akeidat Yitzchak,Taanit,12
 Jeremiah,Tanna debei Eliyahu Zuta,12
@@ -4403,6 +4403,7 @@ Chullin,Isaiah,12
 Ecclesiastes,Kli Yakar on Deuteronomy,12
 Job,Rashi on Shabbat,12
 Mishnah Negaim,Ramban on Leviticus,12
+Haggai,Midrash Tanchuma,12
 Pesachim,Piskei Challah,12
 Metzudat Zion on Song of Songs,Psalms,12
 Leviticus,Mishnah Nazir,12
@@ -4445,6 +4446,7 @@ I Kings,Sifrei Bamidbar,11
 Ketubot,Tosafot on Sotah,11
 Ramban on Genesis,Yevamot,11
 Judges,Pesikta D'Rav Kahanna,11
+Midrash Tanchuma,Nehemiah,11
 Ramban on Genesis,Song of Songs,11
 Exodus,"Mishneh Torah, Forbidden Foods",11
 Bava Batra,Tosafot on Eruvin,11
@@ -4659,6 +4661,7 @@ Amos,Shabbat,11
 Bemidbar Rabbah,Micah,11
 Mishnah Pesachim,Pesach Haggadah,11
 I Kings,Ramban on Leviticus,11
+Berakhot,Rambam Introduction to the Mishnah,11
 Habakkuk,Shemot Rabbah,11
 Ezekiel,Gur Aryeh on Shemot,11
 Proverbs,Rashi on Job,11
@@ -4714,6 +4717,7 @@ Or HaChaim on Leviticus,Yoma,10
 Eruvin,"Kessef Mishneh on Mishneh Torah, Sabbath",10
 Rashi on Ketubot,Shabbat,10
 Sukkah,Zevachim,10
+Jonah,Midrash Tanchuma,10
 Chullin,"Mishneh Torah, Forbidden Foods",10
 Bemidbar Rabbah,Esther,10
 Deuteronomy,Mishnah Bava Kamma,10
@@ -4907,9 +4911,9 @@ Derech Chaim,Leviticus,10
 Daniel,Guide for the Perplexed,10
 Horayot,Sefer HaChinukh,10
 Bava Kamma,Gur Aryeh on Devarim,10
+Bava Kamma,Dina d'Garmei,10
 Exodus,Mishnah Eduyot,10
 Bartenura on Mishnah Terumot,Deuteronomy,10
-Leviticus,Rambam Introduction to the Mishnah,10
 Leviticus,Tosafot on Yevamot,10
 Daniel,Yoma,10
 Joshua,Shadal on Numbers,10
@@ -4986,6 +4990,7 @@ II Chronicles,II Kings,10
 Gur Aryeh on Bereishit,Niddah,10
 Malachi,Messilat Yesharim,10
 Eruvin,Ezekiel,10
+Midrash Tanchuma,Nahum,9
 Bava Metzia,Teshuvot haRashba part IV,9
 Pesachim,Siftei Hakhamim,9
 Akeidat Yitzchak,Chagigah,9
@@ -5060,7 +5065,6 @@ Gittin,Tosafot on Zevachim,9
 Rashba on Bava Metzia,Shabbat,9
 Ramban on Leviticus,Temurah,9
 Nazir,Tosafot on Pesachim,9
-Midrash Tanchuma,Song of Songs,9
 Deuteronomy,Jerusalem Talmud Ma'asrot,9
 Jeremiah,Menachot,9
 Ecclesiastes,Metzudat Zion on Isaiah,9
@@ -5072,7 +5076,6 @@ Ezekiel,Sforno on Leviticus,9
 Leviticus,Sforno on Exodus,9
 Exodus,Tosafot on Gittin,9
 Leviticus,Tosafot on Bekhorot,9
-Exodus,Rambam Introduction to the Mishnah,9
 Tosafot on Shevuot,Zevachim,9
 Exodus,Rashi on Gittin,9
 "Mishneh Torah, Sacrificial Procedure",Numbers,9
@@ -5134,7 +5137,6 @@ Berakhot,Rashi on Exodus,9
 Ibn Ezra on Genesis,Psalms,9
 Bereishit Rabbah,Ohr Chadash,9
 Midrash Tehillim,Zephaniah,9
-Kedushat Levi,Nedarim,9
 Ketubot,Netzach Yisrael,9
 "Shulchan Arukh, Choshen Mishpat","Shulchan Arukh, Choshen Mishpat",9
 Exodus,"Mishneh Torah, Sacrifices Rendered Unfit",9
@@ -5171,6 +5173,7 @@ Deuteronomy,Metzudat Zion on Hosea,9
 Jeremiah,Sforno on Leviticus,9
 Gur Aryeh on Devarim,Sotah,9
 Deuteronomy,Jerusalem Talmud Sukkah,9
+Kedushat Levi,Nedarim,9
 Eruvin,Kedushat Levi,9
 Megillah,Sukkah,9
 Leviticus,"Mishneh Torah, Diverse Species",9
@@ -5187,6 +5190,7 @@ Metzudat Zion on Isaiah,Micah,9
 Genesis,Rashbam on Leviticus,9
 Bava Metzia,Ramban on Leviticus,9
 Deuteronomy,Jerusalem Talmud Nedarim,9
+Rashi on Genesis,Rosh Hashanah,9
 Ramban on Deuteronomy,Sotah,9
 Daat Zkenim on Genesis,Job,9
 Chullin,I Samuel,9
@@ -5213,6 +5217,7 @@ Hosea,Metzudat Zion on Ezekiel,9
 Makkot,Or HaChaim on Genesis,9
 Esther,Esther Rabbah,9
 Eichah Rabbah,Joel,9
+Rashi on Genesis,Taanit,9
 Ezekiel,Rashi on Proverbs,9
 Joel,Likutei Moharan,9
 Leviticus,Rashi on II Chronicles,9
@@ -5314,7 +5319,6 @@ Bartenura on Mishnah Maaser Sheni,Deuteronomy,9
 Job,Yad Ramah on Sanhedrin,9
 Ezra,Seder Olam Rabbah,9
 Micah,Tanna Debei Eliyahu Rabbah,9
-Midrash Tanchuma,Obadiah,9
 Isaiah,Metzudat David on Jeremiah,9
 Ruth,Sefer haBachur,9
 Exodus,Metzudat Zion on Hosea,9
@@ -5425,7 +5429,6 @@ Derech Chaim,Kiddushin,8
 I Kings,Menachot,8
 Hosea,Metzudat Zion on Job,8
 Hosea,Metzudat Zion on Psalms,8
-Job,Sha'ar Ha'Gemul of the Ramban,8
 Ezekiel,Metzudat Zion on Judges,8
 Chidushei Halachot on Moed Katan,Tosafot on Moed Katan,8
 Chullin,Rashi on Avodah Zarah,8
@@ -5638,7 +5641,6 @@ Habakkuk,Ramban on Genesis,8
 Gur Aryeh on Bamidbar,Kiddushin,8
 Berakhot,Drashot Maharal,8
 "Mishneh Torah, Sabbatical Year and the Jubilee",Tur,8
-Rashi on Genesis,Taanit,8
 Boaz on Mishnah Gittin,Yachin on Mishnah Gittin,8
 Genesis,Metzudat Zion on Zechariah,8
 Or HaChaim on Numbers,Pesachim,8
@@ -5708,7 +5710,6 @@ Chagigah,Keter Shem Tov,8
 Leviticus,Mishnah Shekalim,8
 Leviticus,Tosafot Yom Tov on Mishnah Chullin,8
 Bava Kamma,Rashi on Deuteronomy,8
-Sanhedrin,Sha'ar Ha'Gemul of the Ramban,8
 Devarim Rabbah,Hosea,8
 I Samuel,Ohr Chadash,8
 Exodus,Rashi on Judges,8
@@ -5764,6 +5765,7 @@ Daat Zkenim on Genesis,Judges,8
 Deuteronomy,"Mishneh Torah, Things Forbidden on the Altar",8
 Leviticus,Mishnah Pesachim,8
 Nineteen Letters,Psalms,8
+Midrash Tanchuma,Obadiah,8
 Orchot Tzadikim,Song of Songs,8
 Berakhot,Rashi on Numbers,8
 Isaiah,Tosefta Sotah,8
@@ -5931,6 +5933,7 @@ Exodus,Metzudat Zion on Ecclesiastes,7
 Berakhot,Tanya,7
 Bartenura on Mishnah Kiddushin,Exodus,7
 Avodah Zarah,B'Mareh HaBazak Part Eight,7
+II Kings,Rambam Introduction to the Mishnah,7
 Ezekiel,Jerusalem Talmud Yoma,7
 Bava Metzia,Sukkah,7
 Exodus,Rashi on Joshua,7
@@ -6013,7 +6016,6 @@ Ibn Ezra on Genesis,Numbers,7
 Ecclesiastes,Malbim Beur Hamilot on Isaiah,7
 Exodus,Tosafot on Arakhin,7
 Kol Bo,Leviticus,7
-Judges,Malbim Beur Hamilot on Ezekiel,7
 Gur Aryeh on Vayikra,Shevuot,7
 Mishnah Berakhot,Psalms,7
 Ezekiel,Hechalot Rabbati,7
@@ -6024,6 +6026,7 @@ Chagigah,Ecclesiastes,7
 Deuteronomy,Mishnah Chagigah,7
 Makkot,Torah Temimah on Psalms,7
 Beit Yosef,I Samuel,7
+Jeremiah,Rambam Introduction to the Mishnah,7
 Arakhin,Kli Yakar on Exodus,7
 Pesachim,Rashba on Bava Batra,7
 Meshech Hochma,Pesachim,7
@@ -6076,7 +6079,6 @@ Exodus,Tosafot on Rosh Hashanah,7
 Isaiah,Mishnah Eduyot,7
 Ruth,Sefer HaChinukh,7
 Rashi on Numbers,Yevamot,7
-Nedarim,Rashi on Genesis,7
 Metzudat Zion on Ezekiel,Micah,7
 Rashi on Psalms,Zechariah,7
 Beit Yosef,Taanit,7
@@ -6092,7 +6094,6 @@ Deuteronomy,Tosefta Peah,7
 Amos,Zohar Chadash,7
 Pesachim,Rashba on Beitzah,7
 Numbers,Tosafot on Sotah,7
-Rashi on Genesis,Rosh Hashanah,7
 Mishnah Middot,Sefer HaChinukh,7
 Jeremiah,Rashi on Yoma,7
 Job,Rashi on Sotah,7
@@ -6145,7 +6146,6 @@ Isaiah,Sforno on Numbers,7
 Ketubot,Tosafot on Shabbat,7
 Deuteronomy,Tosafot Yom Tov on Mishnah Megillah,7
 Sukkah,Tosafot on Megillah,7
-Berakhot,Sha'ar Ha'Gemul of the Ramban,7
 Genesis,Tosafot Yom Tov on Mishnah Chullin,7
 Avodah Zarah,B'Mareh HaBazak Part Three,7
 Gur Aryeh on Devarim,Makkot,7
@@ -6234,6 +6234,7 @@ Gur Aryeh on Shemot,Joshua,7
 Esther,Mekhilta d'Rabbi Yishmael,7
 Jeremiah,Rashi on Lamentations,7
 Exodus,Tosafot on Shabbat,7
+Judges,Malbim Beur Hamilot on Ezekiel,7
 Bava Metzia,Rosh on Ketubot,7
 Deuteronomy,Mishnah Maaser Sheni,7
 Menachot,Proverbs,7
@@ -6303,6 +6304,7 @@ Sefer haBachur,Song of Songs,7
 Chullin,Meshech Hochma,7
 Sforno on Deuteronomy,Shabbat,7
 Proverbs,Rosh Hashanah,7
+I Kings,Rambam Introduction to the Mishnah,7
 Proverbs,Rif Yoma,7
 Deuteronomy,Malbim Beur Hamilot on Jeremiah,7
 I Samuel,Shadal on Numbers,7
@@ -6345,7 +6347,6 @@ Leviticus,Tosafot Yom Tov on Mishnah Pesachim,6
 Boaz on Mishnah Mikvaot,Zevachim,6
 Numbers,Rashi on Chagigah,6
 II Samuel,Mishnah Sotah,6
-Bava Batra,Sha'ar Ha'Gemul of the Ramban,6
 Judges,Rashi on Isaiah,6
 Eruvin,Magen Avraham,6
 Deuteronomy,Tosafot Yom Tov on Mishnah Sukkah,6
@@ -6681,6 +6682,7 @@ Ecclesiastes,Keter Shem Tov,6
 Deuteronomy,Shadal on Numbers,6
 Sukkah,Tosafot on Niddah,6
 Judges,Seder Olam Rabbah,6
+Nedarim,Rashi on Genesis,6
 I Kings,Moed Katan,6
 Genesis,Tosafot Yom Tov on Mishnah Shabbat,6
 Isaiah,Jerusalem Talmud Shekalim,6
@@ -6699,6 +6701,7 @@ Berakhot,Tosafot on Kiddushin,6
 Gur Aryeh on Shemot,Makkot,6
 Jeremiah,Metzudat Zion on Daniel,6
 "Mishneh Torah, Reading the Shema",Sukkah,6
+Rambam Introduction to the Mishnah,Sanhedrin,6
 Bava Batra,I Samuel,6
 Jerusalem Talmud Bikkurim,Leviticus,6
 Daf Shevui to Megillah,Isaiah,6
@@ -6707,7 +6710,6 @@ I Kings,Sefer Kuzari,6
 Rashi on Kiddushin,Sanhedrin,6
 Isaiah,Rashi on Shevuot,6
 Hadran,Psalms,6
-Berakhot,Tosafot on Bava Metzia,6
 "Mishneh Torah, The Sanhedrin and the Penalties within their Jurisdiction",Numbers,6
 Chullin,"Kessef Mishneh on Mishneh Torah, Ritual Slaughter",6
 Arakhin,Genesis,6
@@ -6818,6 +6820,7 @@ Chullin,Kli Yakar on Deuteronomy,6
 Bekhorot,Genesis,6
 Proverbs,Rashi on Ezekiel,6
 Leviticus,"Mishneh Torah, Rest on the Tenth of Tishrei",6
+Berakhot,Tosafot on Bava Metzia,6
 Isaiah,Or HaChaim on Genesis,6
 Leviticus,"Mishneh Torah, Rest on a Holiday",6
 Akeidat Yitzchak,Menachot,6
@@ -7019,7 +7022,6 @@ I Kings,Rashi on Taanit,5
 Bava Batra,Terumat HaDeshen,5
 Ketubot,Shev Shmat'ta,5
 Metzudat Zion on Jeremiah,Zephaniah,5
-Genesis,Rashba on Megillah,5
 Job,Rashi on Zechariah,5
 Menachot,Minchat Chinukh,5
 Chullin,Ikar Siftei Hachamim on Genesis,5
@@ -7039,6 +7041,7 @@ I Samuel,Orchot Tzadikim,5
 Daat Zkenim on Exodus,Joshua,5
 Daniel,"Mishneh Torah, Foundations of the Torah",5
 Ketubot,Or HaChaim on Exodus,5
+Isaiah,Rambam Introduction to the Mishnah,5
 Psalms,Temurah,5
 Kiddushin,Kli Yakar on Deuteronomy,5
 Radak on Genesis,Shevuot,5
@@ -7127,7 +7130,6 @@ Malachi,Metzudat Zion on Ezekiel,5
 Leviticus,Rashba on Eruvin,5
 Daniel,Rabbeinu Chananel on Exodus,5
 Kol Dodi Dofek,Psalms,5
-Bava Kamma,Tosafot on Moed Katan,5
 II Chronicles,Jerusalem Talmud Berakhot,5
 Habakkuk,Pele Yoetz,5
 Bava Metzia,Rashi on Exodus,5
@@ -7187,6 +7189,7 @@ Bava Metzia,Rabbeinu Yonah on Pirkei Avot,5
 Gittin,Tzidkat HaTzadick,5
 Likutei Moharan,Shevuot,5
 Deuteronomy,Metzudat David on II Samuel,5
+Midrash Tanchuma,Song of Songs,5
 Chullin,Rashba on Kiddushin,5
 Bava Kamma,Kli Yakar on Deuteronomy,5
 Moed Katan,Pele Yoetz,5
@@ -7233,7 +7236,6 @@ Eichah Rabbah,Job,5
 Chagigah,Daniel,5
 Yoma,Zechariah,5
 Daat Zkenim on Leviticus,Ecclesiastes,5
-II Kings,Rambam Introduction to the Mishnah,5
 Proverbs,Shadal on Deuteronomy,5
 Judges,Rashi on Sanhedrin,5
 Rashi on I Samuel,Yoma,5
@@ -7244,6 +7246,7 @@ Ezekiel,"Mishneh Torah, Mourning",5
 Rashi on Shabbat,Sanhedrin,5
 Isaiah,Rashba on Avodah Zarah,5
 Metzudat Zion on II Chronicles,Numbers,5
+Sforno on Deuteronomy,Sotah,5
 Leviticus,"Mishneh Torah, Torah Study",5
 II Samuel,Rif Moed Katan,5
 Hosea,Rashi on Numbers,5
@@ -7270,6 +7273,7 @@ Hosea,Metzudat Zion on II Kings,5
 Daat Zkenim on Genesis,Song of Songs,5
 Deuteronomy,Rashi on Nazir,5
 Mishnah Taanit,Psalms,5
+Genesis,Rashba on Megillah,5
 Jeremiah,"Siddur, Sefard",5
 Psalms,Rashi on Gittin,5
 Isaiah,Jerusalem Talmud Sukkah,5
@@ -7456,6 +7460,7 @@ Psalms,Rosh on Pesachim,5
 Midrash Mishlei,Ruth,5
 Mishnah Eruvin,Numbers,5
 Beitzah,Tosafot on Moed Katan,5
+Bava Kamma,Tosafot on Moed Katan,5
 Boaz on Mishnah Mikvaot,Gittin,5
 Isaiah,Rashi on Pesachim,5
 Job,Ohr Chadash,5
@@ -7501,7 +7506,6 @@ Job,Metzudat Zion on Habakkuk,5
 Daniel,Kli Yakar on Genesis,5
 Kedushat Levi,Shemot Rabbah,5
 Nehemiah,Sotah,5
-Rambam Introduction to the Mishnah,Sanhedrin,5
 Shabbat,Yachin on Pirkei Avot,5
 Genesis,Metzudat Zion on Zephaniah,5
 Daat Zkenim on Deuteronomy,Judges,5
@@ -7522,7 +7526,6 @@ Chagigah,Tosafot on Zevachim,5
 Bava Batra,Tosafot on Megillah,5
 Ketubot,Rif Sanhedrin,5
 Exodus,"Mishneh Torah, Borrowing and Deposit",5
-Sforno on Deuteronomy,Sotah,5
 Exodus,"Mishneh Torah, Rebels",5
 Nazir,Ramban on Genesis,5
 Avodah Zarah,Job,5
@@ -7533,7 +7536,6 @@ Berakhot,Piskei Challah,5
 Metzudat Zion on Jonah,Psalms,5
 II Chronicles,Psalms,5
 Jeremiah,Jerusalem Talmud Nedarim,5
-II Chronicles,Midrash Tanchuma,5
 Haamek Davar on Genesis,Psalms,5
 Keter Shem Tov,Leviticus,5
 Deuteronomy,Mishnah Pesachim,5
@@ -7604,6 +7606,7 @@ Arakhin,Teshuvot haRashba part V,5
 Eruvin,Tosafot on Beitzah,5
 Proverbs,Shmonah Kvatzim,5
 I Kings,Psalms,5
+I Kings,Rashi on Shabbat,5
 Deuteronomy,Jerusalem Talmud Hallah,5
 Leviticus,Malbim Beur Hamilot on Ezekiel,5
 Ecclesiastes,Ramban on Numbers,5
@@ -7619,10 +7622,10 @@ Job,Malbim on Isaiah,5
 Or HaChaim on Leviticus,Yevamot,5
 Bava Batra,Rashi on Avodah Zarah,5
 Leviticus,Mishnah Temurah,5
+I Samuel,Rambam Introduction to the Mishnah,5
 Kli Yakar on Leviticus,Pirkei Avot,5
 Ikar Siftei Hachamim on Genesis,Pesachim,5
 Ecclesiastes,Rabbeinu Chananel on Genesis,5
-I Kings,Rashi on Shabbat,5
 Esther,Rosh Hashanah,5
 Deuteronomy,Rif Rosh Hashanah,5
 Exodus,Tosafot Yom Tov on Mishnah Shekalim,5
@@ -7736,6 +7739,7 @@ Megillah,Nefesh HaChaim,5
 Ezra,Mishnah Shekalim,5
 Metzudat Zion on II Kings,Song of Songs,5
 Ecclesiastes,Rashbam on Exodus,5
+Mishnah Eduyot,Rambam Introduction to the Mishnah,5
 Malachi,Pirkei Avot,5
 Leviticus,Tosafot Yom Tov on Mishnah Berakhot,5
 "Mishneh Torah, Prayer and the Priestly Blessing",Psalms,5
@@ -7751,7 +7755,6 @@ Leviticus,Rambam on Mishnah Shabbat,5
 Boaz on Mishnah Bikkurim,Yachin on Mishnah Bikkurim,5
 Malbim Beur Hamilot on Jeremiah,Nehemiah,5
 Leviticus,Rashi on Avodah Zarah,5
-Berakhot,Rambam Introduction to the Mishnah,5
 Darashos HaRan,Obadiah,5
 Ketubot,Kli Yakar on Exodus,5
 Aruch HaShulchan,Ezekiel,5
@@ -7816,7 +7819,6 @@ Rashba on Rosh Hashanah,Shabbat,5
 Kiddushin,Rashba on Gittin,5
 Niddah,Rif Shevuot,5
 Daniel,Gevurot Hashem,5
-I Kings,Rambam Introduction to the Mishnah,5
 Bava Batra,Rashba on Eruvin,5
 Exodus,Tosafot on Taanit,5
 Judges,Rashbam on Numbers,5
@@ -8168,7 +8170,6 @@ I Samuel,Ketubot,4
 B'Mareh HaBazak Part Seven,Proverbs,4
 Arakhin,Rashi on Deuteronomy,4
 Joel,Metzudat Zion on Isaiah,4
-Gittin,Rashi on Genesis,4
 Lamentations,Rashi on Song of Songs,4
 Gittin,Kli Yakar on Exodus,4
 Mishnah Kilayim,Sefer HaChinukh,4
@@ -8252,7 +8253,6 @@ Da'at Tevunoth,Hosea,4
 Deuteronomy,"Mishneh Torah, Rest on a Holiday",4
 Rashi on Menachot,Sotah,4
 Amos,Da'at Tevunoth,4
-Micah,Sefer Kuzari,4
 Bereishit Rabbah,Da'at Tevunoth,4
 I Samuel,Ibn Ezra on Genesis,4
 Akeidat Yitzchak,Lamentations,4
@@ -8399,7 +8399,6 @@ Isaiah,Mishnah Megillah,4
 Kohelet Rabbah,Shney Luchot HaBrit,4
 Buber footnotes on Midrash Mishlei,Genesis,4
 Niddah,Rashba on Shevuot,4
-Jeremiah,Rambam Introduction to the Mishnah,4
 Leviticus,Tosafot Yom Tov on Pirkei Avot,4
 Isaiah,Metzudat David on II Chronicles,4
 Derech Chaim,Nedarim,4
@@ -8416,6 +8415,7 @@ Mekhilta d'Rabbi Yishmael,Micah,4
 Da'at Tevunoth,Makkot,4
 "Mishneh Torah, Forbidden Foods",Sukkah,4
 Makkot,Meshech Hochma,4
+Pirkei Avot,Rambam Introduction to the Mishnah,4
 Bekhorot,Ramban on Leviticus,4
 Ruth,Vayikra Rabbah,4
 Chullin,"Kessef Mishneh on Mishneh Torah, Forbidden Foods",4
@@ -8443,6 +8443,7 @@ Bava Kamma,Rashba on Yevamot,4
 "Mishneh Torah, Defilement by Leprosy",Sefer HaMitzvot LaRambam,4
 Bemidbar Rabbah,Rashi on Deuteronomy,4
 HaEmunot veHaDeot,Joshua,4
+Bava Batra,Ruth,4
 I Samuel,Kol Dodi Dofek,4
 Ezekiel,Or HaChaim on Genesis,4
 II Kings,Ketubot,4
@@ -8638,6 +8639,7 @@ Gur Aryeh on Shemot,Megillah,4
 Bava Batra,Hosea,4
 Bekhorot,Otzar Midrashim,4
 Abraham Cohen Footnotes to the English Translation of Masechet Berakhot,Leviticus,4
+Job,Rambam Introduction to the Mishnah,4
 Rashi on Niddah,Sukkah,4
 Ezra,Rashba on Rosh Hashanah,4
 Chiddushei Ramban on Sukkah,Sukkah,4
@@ -8685,7 +8687,6 @@ Nehemiah,Ramban on Deuteronomy,4
 Sanhedrin,Tosafot on Moed Katan,4
 Song of Songs,Tosafot Yom Tov on Mishnah Bava Batra,4
 Jeremiah,Yalkut Shimoni on Torah,4
-Bava Kamma,Kedushat Levi,4
 II Kings,Sforno on Deuteronomy,4
 Judges,Netzach Yisrael,4
 Leviticus,"Mishneh Torah, One Who Injures a Person or Property",4
@@ -8746,7 +8747,6 @@ Da'at Tevunoth,Pirkei Avot,4
 Eruvin,Tosafot on Moed Katan,4
 Drashot Maharal,II Kings,4
 "Mishneh Torah, Repentance",Sefer Mitzvot Gadol,4
-Bava Batra,Ruth,4
 Keritot,Rashba on Yevamot,4
 Nehemiah,Rashi on I Chronicles,4
 Bava Kamma,Rashi on Gittin,4
@@ -8979,6 +8979,8 @@ II Samuel,Tosafot on Sanhedrin,4
 Metzudat David on Joshua,Zevachim,4
 Bava Batra,Rashba on Beitzah,4
 Deuteronomy,Marbeh Lisaper on Pesach Haggadah,4
+Gittin,Rashi on Genesis,4
+Bava Kamma,Kedushat Levi,4
 Jeremiah,Pesachim,4
 Numbers,Rashba on Berakhot,4
 Kitzur Shulkhan Aruch Yalkut Yosef,Sotah,4
@@ -9018,6 +9020,7 @@ Chidushei Halachot on Megillah,Rashi on Megillah,4
 Maggid Devarav leYaakov,Proverbs,4
 Chagigah,Gur Aryeh on Devarim,4
 I Chronicles,Taanit,4
+Micah,Sefer Kuzari,4
 Hosea,Metzudat Zion on Proverbs,4
 Isaiah,Mishnah Sotah,4
 Nefesh HaChaim,Yoma,4
@@ -9111,7 +9114,6 @@ Leviticus,Tosafot Yom Tov on Mishnah Oktzin,3
 Derech Eretz Zuta,Ecclesiastes,3
 "Mishneh Torah, Defilement of Foods",Rosh Hashanah,3
 Ikar Siftei Hachamim on Genesis,Joshua,3
-Ran on Nedarim,Yoma,3
 Menachot,Sifrei Bamidbar,3
 Bekhorot,Tosafot on Kiddushin,3
 Mishnah Menachot,Numbers,3
@@ -9130,7 +9132,6 @@ Mishnah Kelim,Rashi on Sanhedrin,3
 Rashi on II Samuel,Sotah,3
 Bava Kamma,Rashba on Rosh Hashanah,3
 Metzudat Zion on Job,Ruth,3
-Isaiah,Rambam Introduction to the Mishnah,3
 Esther,Sifrei Bamidbar,3
 Gevurot Hashem,Taanit,3
 Proverbs,Tosefta Chagigah,3
@@ -9226,6 +9227,7 @@ Jeremiah,Metzudat Zion on Nehemiah,3
 Proverbs,Tosefta Berakhot,3
 Metzudat Zion on Ezekiel,Zechariah,3
 Gur Aryeh on Vayikra,Mishnah Middot,3
+Berakhot,Teshuvot haRashba Meyuchas LehaRamban,3
 Judges,Rashi on Beitzah,3
 Boaz on Mishnah Oholot,Yevamot,3
 Deuteronomy,Yalkut Shimoni on Torah,3
@@ -9262,7 +9264,6 @@ Niddah,Rif Yevamot,3
 I Kings,Rashbam on Deuteronomy,3
 Bava Batra,Gur Aryeh on Vayikra,3
 I Kings,Jerusalem Talmud Sukkah,3
-Jeremiah,Sha'ar Ha'Gemul of the Ramban,3
 Tanya,Zechariah,3
 Leviticus,Mishnah Parah,3
 Berakhot,Rif Megillah,3
@@ -9291,6 +9292,7 @@ Leviticus,Rashi on I Kings,3
 Genesis,"Mishneh Torah, Mourning",3
 "Mishneh Torah, Kings and Wars",Sefer HaChinukh,3
 "Kessef Mishneh on Mishneh Torah, Sheqel Dues",Ketubot,3
+Chagigah,Rambam Introduction to the Mishnah,3
 Malachi,Rashi on Genesis,3
 Kli Yakar on Genesis,Nedarim,3
 Eruvin,Rashi on Deuteronomy,3
@@ -9476,6 +9478,7 @@ Deuteronomy,Meilah,3
 "Kessef Mishneh on Mishneh Torah, Fringes",Shabbat,3
 Job,Tosafot on Sukkah,3
 "Mishneh Torah, Human Dispositions",Pesachim,3
+Megillah,Rambam Introduction to the Mishnah,3
 Jonah,Rashi on Genesis,3
 Darashos HaRan,Malachi,3
 Micah,Rashi on Ezekiel,3
@@ -9490,6 +9493,7 @@ Deuteronomy,Malbim Beur Hamilot on Ezekiel,3
 Job,Yad Ramah on Bava Batra,3
 Jeremiah,Malbim on II Kings,3
 Mishnah Terumot,Rashba on Bava Batra,3
+Kiddushin,Rambam Introduction to the Mishnah,3
 Deuteronomy,Ecclesiastes,3
 Habakkuk,Pirkei Avot,3
 Joshua,Metzudat Zion on Ezra,3
@@ -9499,7 +9503,6 @@ Mishnah Tahorot,Tosafot on Pesachim,3
 Boaz on Mishnah Eruvin,Nedarim,3
 Isaiah,Rashi on Yevamot,3
 "Mishneh Torah, Oaths",Numbers,3
-Leviticus,Tosafot Yom Tov on Mishnah Ketubot,3
 Ecclesiastes,Shadal on Exodus,3
 Jeremiah,Tosafot Yom Tov on Mishnah Bava Metzia,3
 Horayot,Rashi on Numbers,3
@@ -9531,7 +9534,6 @@ Genesis,Mishnah Kiddushin,3
 Megillah,Mishnah Chagigah,3
 Ramban on Deuteronomy,Ruth,3
 Joel,Radak on Psalms,3
-Rashi on Sanhedrin,Temurah,3
 I Samuel,Rashi on Micah,3
 Chullin,Rashba on Berakhot,3
 Ezra,Ketubot,3
@@ -9584,6 +9586,7 @@ Jeremiah,Meshech Hochma,3
 Shadal on Exodus,Song of Songs,3
 Proverbs,Rashbam on Deuteronomy,3
 Bartenura on Pirkei Avot,Ecclesiastes,3
+Proverbs,Rambam Introduction to the Mishnah,3
 Berakhot,Rosh on Taanit,3
 Joshua,Malbim on Isaiah,3
 Ketubot,Rashi on Nedarim,3
@@ -9606,6 +9609,7 @@ Proverbs,Rashi on Horayot,3
 I Kings,Siftei Hakhamim,3
 II Chronicles,Taanit,3
 Ketubot,Meshech Hochma,3
+Genesis,Rambam Introduction to the Mishnah,3
 Proverbs,Rambam on Mishnah Sanhedrin,3
 Psalms,Song of Songs,3
 Mishnah Mikvaot,Ramban on Exodus,3
@@ -9619,6 +9623,7 @@ Leviticus,Tanya,3
 Joshua,Malbim on II Samuel,3
 Joel,Malbim Beur Hamilot on Jeremiah,3
 Arakhin,Rashi on Bava Metzia,3
+Rashi on Genesis,Sifra,3
 "Mishneh Torah, Gifts to the Poor",Numbers,3
 B'Mareh HaBazak Part Seven,I Chronicles,3
 Lamentations,"Mishneh Torah, Repentance",3
@@ -9687,7 +9692,6 @@ Chiddushei Ramban on Yevamot,Ketubot,3
 Niddah,Rashba on Kiddushin,3
 Rashi on Sotah,Yoma,3
 Ezra,Ramban on Deuteronomy,3
-Midrash Tanchuma,Rashi on Numbers,3
 Judges,Tosefta Berakhot,3
 Shir HaShirim Rabbah,Shney Luchot HaBrit,3
 Bartenura on Mishnah Kelim,Jeremiah,3
@@ -9761,10 +9765,13 @@ II Kings,Jerusalem Talmud Yevamot,3
 Rashba on Beitzah,Zevachim,3
 Gittin,Rashi on Leviticus,3
 Megillah,Tosafot Yom Tov Introduction to the Mishnah,3
+Leviticus,Tosafot Yom Tov on Mishnah Ketubot,3
+Hilchos Talmud Torah,Kiddushin,3
 Tosafot on Eruvin,Zevachim,3
 Be'er HaGolah,Eruvin,3
 Malbim Beur Hamilot on Psalms,Numbers,3
 Esther,Orchot Tzadikim,3
+Bartenura on Pirkei Avot,Yoma,3
 Deuteronomy,Rashbam on Pesachim,3
 Daf Shevui to Sukkah,Mishnah Kelim,3
 Deuteronomy,Tosafot Yom Tov on Mishnah Moed Katan,3
@@ -9797,7 +9804,6 @@ Proverbs,Rashi on Sukkah,3
 Chagigah,Tosafot on Gittin,3
 II Kings,Yad Ramah on Sanhedrin,3
 Deuteronomy,"Mishneh Torah, Trespass",3
-I Chronicles,Midrash Tanchuma,3
 Kiddushin,Ohr Chadash,3
 Boaz on Mishnah Kilayim,Shabbat,3
 Genesis,Tosafot Yom Tov on Mishnah Bava Metzia,3
@@ -9830,6 +9836,7 @@ Joshua,Malbim Beur Hamilot on Ezekiel,3
 Exodus,"Mishneh Torah, Prayer and the Priestly Blessing",3
 Berakhot,Boaz on Mishnah Kelim,3
 Eruvin,Tosafot on Megillah,3
+Ketubot,Rambam Introduction to the Mishnah,3
 Ramban on Genesis,Zevachim,3
 Sanhedrin,Tanya,3
 Numbers,Tosafot Yom Tov on Mishnah Yoma,3
@@ -9855,6 +9862,7 @@ Esther,Ikar Siftei Hachamim on Genesis,3
 Numbers,Tosafot Yom Tov on Mishnah Eruvin,3
 Mekhilta d'Rabbi Yishmael,Pele Yoetz,3
 Berakhot,Boaz on Mishnah Mikvaot,3
+Mishnah Sheviit,Rambam Introduction to the Mishnah,3
 Jeremiah,Orot,3
 Mishnah Oholot,Rosh on Menachot,3
 I Kings,Sforno on Genesis,3
@@ -9880,7 +9888,6 @@ Ikar Tosafot Yom Tov on Mishnah Sheviit,Isaiah,3
 Gur Aryeh on Shemot,II Samuel,3
 Exodus,Tosafot Yom Tov on Mishnah Temurah,3
 "Kessef Mishneh on Mishneh Torah, Sanctification of the New Month","Mishneh Torah, Sanctification of the New Month",3
-Sha'ar Ha'Gemul of the Ramban,Shabbat,3
 Radak on Genesis,Yoma,3
 Taanit,Tosafot on Megillah,3
 Berakhot,Rashba on Bava Metzia,3
@@ -9895,6 +9902,7 @@ Genesis,Noda BeYehuda I,3
 Tosafot on Nedarim,Yevamot,3
 Psalms,Rashi on Nedarim,3
 Minhat Kenaot,Niddah,3
+Ran on Nedarim,Yoma,3
 Megillah,Ramban on Exodus,3
 Leviticus,Tosafot Yom Tov on Mishnah Rosh Hashanah,3
 Jeremiah,Metzudat David on Ezekiel,3
@@ -9965,7 +9973,6 @@ Magen Avraham,Sukkah,3
 Mishnah Shekalim,Torah Temimah on Psalms,3
 Maarechet Heidenheim on Pesach Haggadah,Song of Songs,3
 Jeremiah,Me'or Einayim,3
-Bartenura on Pirkei Avot,Yoma,3
 Rashbam on Bava Batra,Sotah,3
 Jeremiah,Rashi on Bava Batra,3
 II Kings,Sforno on Numbers,3
@@ -10057,6 +10064,7 @@ Bava Metzia,Divrei Emet,3
 Berakhot,Metzudat Zion on Job,3
 Metzudat David on Joshua,Numbers,3
 Chofetz Chaim,"Shulchan Arukh, Choshen Mishpat",3
+Rambam Introduction to the Mishnah,Sukkah,3
 Bava Kamma,Rashi on Shabbat,3
 Bava Kamma,Boaz on Mishnah Demai,3
 Bartenura on Mishnah Nedarim,Leviticus,3
@@ -10070,7 +10078,6 @@ Jerusalem Talmud Berakhot,Numbers,3
 Isaiah,Tosefta Ta'anit,3
 Ketubot,Rashi on Bava Metzia,3
 Judges,Rashi on Proverbs,3
-Midrash Tanchuma,Zephaniah,3
 Makkot,Rashi on Bava Kamma,3
 Eben Ezra on Lamentations,II Samuel,3
 Darashos HaRan,Jonah,3
@@ -10081,6 +10088,7 @@ Jerusalem Talmud Gittin,Numbers,3
 Keter Shem Tov,Menachot,3
 Metzudat Zion on II Kings,Numbers,3
 Joshua,Sefer HaChinukh,3
+Hilchos Talmud Torah,"Mishneh Torah, Torah Study",3
 Eruvin,Gur Aryeh on Bereishit,3
 Job,Or HaChaim on Numbers,3
 Ketubot,Rabbeinu Yonah on Pirkei Avot,3
@@ -10187,7 +10195,6 @@ Derech Hashem,Exodus,3
 I Chronicles,Rashi on Sotah,3
 Chiddushei Ramban on Moed Katan,Megillah,3
 Exodus,Tosefta Avodah Zarah,3
-Job,Rambam Introduction to the Mishnah,3
 Esther,Pesachim,3
 Proverbs,Tosefta Pesachim,3
 Job,Ran on Nedarim,3
@@ -10198,6 +10205,7 @@ II Samuel,Jerusalem Talmud Moed Kattan,3
 Amos,Ramban on Deuteronomy,3
 Deuteronomy,Mishnah Moed Katan,3
 Rashi on Sanhedrin,Sotah,3
+Rashi on Sanhedrin,Temurah,3
 Ezekiel,Rashi on Sotah,3
 Berakhot,Teshuvot haRambam,3
 Bekhorot,Ran on Nedarim,3
@@ -10256,7 +10264,6 @@ Bekhorot,Tosafot on Avodah Zarah,3
 I Kings,Perek Shirah,3
 Ezra,Taanit,3
 Amos,Makkot,3
-Sukkah,Tosafot on Shevuot,3
 Bartenura on Mishnah Chagigah,Exodus,3
 Metzudat Zion on II Chronicles,Yoma,3
 Derech Eretz Zuta,Judges,3
@@ -10352,7 +10359,6 @@ Isaiah,Zevachim,3
 Shabbat,Yad Ramah on Sanhedrin,3
 Isaiah,Rif Pesachim,3
 Numbers,Tosafot Yom Tov on Mishnah Taanit,3
-I Samuel,Rambam Introduction to the Mishnah,3
 Isaiah,Rashi on Daniel,3
 Rashi on I Samuel,Shabbat,3
 II Samuel,Orot,3
@@ -10384,6 +10390,7 @@ Mishnah Kelim,Tosafot on Zevachim,3
 Kiddushin,Tosafot on Sanhedrin,3
 Malachi,Shadal on Genesis,3
 I Chronicles,Ramban on Genesis,3
+Leviticus,"Mishneh Torah, Marriage",3
 Ezekiel,Rashi on Habakkuk,3
 Exodus,Mishnah Sheviit,3
 II Kings,Tosefta Sanhedrin,3
@@ -10463,6 +10470,7 @@ Marganita Tava al Sefer Hamitzvot,Yevamot,3
 Bava Kamma,Tosafot on Sotah,3
 Deuteronomy,Mishnah Peah,3
 Psalms,Tosefta Peah,3
+Menachot,Rashi on Genesis,3
 Shadal on Deuteronomy,Yevamot,3
 Ecclesiastes,Eichah Rabbah,3
 Genesis,"Mishneh Torah, Human Dispositions",3
@@ -10513,6 +10521,7 @@ Menachot,Nehemiah,3
 Beit Yosef,Mishnah Orlah,3
 Nehemiah,Ramban on Numbers,3
 Metzudat Zion on Habakkuk,Proverbs,3
+Kiddushin,Rashi on Genesis,3
 Jeremiah,Kli Yakar on Numbers,3
 Megillah,Rashi on II Kings,3
 Hosea,Metzudat Zion on Nahum,3
@@ -10656,6 +10665,7 @@ Ramban on Leviticus,Song of Songs,3
 Yevamot,Zephaniah,3
 Beitzah,Rosh on Avodah Zarah,3
 Gittin,Rashba on Eruvin,3
+Sukkah,Tosafot on Shevuot,3
 Deuteronomy,"Shulchan Arukh, Yoreh De'ah",3
 Abarbanel on Torah,Gittin,3
 Jonah,Psalms,3
@@ -10676,7 +10686,6 @@ Abarbanel on Torah,Yevamot,3
 Ezekiel,Pesach Haggadah,3
 Mishnah Peah,Tosafot on Kiddushin,3
 Numbers,Tosafot Yom Tov on Mishnah Niddah,3
-Chagigah,Sha'ar Ha'Gemul of the Ramban,3
 Daat Zkenim on Genesis,II Samuel,3
 Chullin,Rashba on Gittin,3
 Sforno on Genesis,Sukkah,3
@@ -10689,6 +10698,7 @@ Jonah,Metzudat Zion on Job,3
 Hakdamah Lesefer HaZohar,Sanhedrin,3
 "Kessef Mishneh on Mishneh Torah, Marriage",Kiddushin,3
 Genesis,Tosafot Yom Tov on Mishnah Rosh Hashanah,3
+Ecclesiastes,Rambam Introduction to the Mishnah,3
 Leviticus,Tosafot Yom Tov on Mishnah Zavim,3
 Leviticus,"Mishneh Torah, Sanctification of the New Month",3
 Ikar Siftei Hachamim on Genesis,Yoma,3
@@ -10748,7 +10758,7 @@ Leviticus,Rashi on Taanit,3
 Daf Shevui to Megillah,Judges,3
 I Kings,Mishnah Megillah,3
 Menachot,Ramban on Deuteronomy,3
-Leviticus,"Mishneh Torah, Marriage",3
+Deuteronomy,Hilchos Talmud Torah,3
 Gevurot Hashem,Sotah,3
 Esther,Gur Aryeh on Shemot,3
 Niddah,Rif Bava Batra,3
@@ -10795,8 +10805,8 @@ Nehemiah,Tosefta Berakhot,3
 Deuteronomy,Jerusalem Talmud Moed Kattan,3
 Leviticus,Ralbag on II Chronicles,3
 Daat Zkenim on Genesis,I Kings,3
-Berakhot,Teshuvot haRashba Meyuchas LehaRamban,3
 Habakkuk,Shaarei Teshuvah,3
+Chagigah,Rashi on Genesis,3
 Hadran,Proverbs,3
 Rashi on II Samuel,Yevamot,3
 I Kings,Pirkei Avot,3
@@ -10944,7 +10954,6 @@ Berakhot,Mishnah Berurah,2
 Isaiah,Rashi on Bekhorot,2
 Beit Yosef,Hosea,2
 Isaiah,Tosafot Yom Tov on Mishnah Sanhedrin,2
-Ezekiel,Tosefta Berakhot,2
 Bava Kamma,I Chronicles,2
 Chidushei Agadot on Berakhot,Sukkah,2
 II Kings,Rashi on Song of Songs,2
@@ -11034,6 +11043,7 @@ Bekhorot,Rashi on Beitzah,2
 Metzudat David on Amos,Zechariah,2
 Deuteronomy,Tosafot Yom Tov on Mishnah Zevachim,2
 Ezekiel,Jerusalem Talmud Ma'aser Sheni,2
+Joshua,Rambam Introduction to the Mishnah,2
 Darchei Moshe,Exodus,2
 Gur Aryeh on Devarim,Megillah,2
 Judges,Pesach Haggadah,2
@@ -11121,7 +11131,6 @@ Sefer HaYashar,Song of Songs,2
 B'Mareh HaBazak Part Six,Siftei Cohen on Yoreh De'ah,2
 Magen Avraham,Psalms,2
 Mishnah Maasrot,Sefer HaChinukh,2
-Bava Metzia,Sha'ar Ha'Gemul of the Ramban,2
 Deuteronomy,Rashi on Joel,2
 Rabbeinu Yonah on Pirkei Avot,Sanhedrin,2
 Menachot,Orchot Tzadikim,2
@@ -11159,7 +11168,6 @@ Exodus,Tosafot Yom Tov on Mishnah Chullin,2
 Genesis,Metzudat Zion on Haggai,2
 Proverbs,Tosafot on Avodah Zarah,2
 Ketubot,Tosafot on Temurah,2
-Arakhin,Sha'ar Ha'Gemul of the Ramban,2
 Shevuot,Tosafot on Arakhin,2
 Metzudat Zion on Song of Songs,Nehemiah,2
 Hasagot HaRamban al Sefer HaMitzvot,Nedarim,2
@@ -11270,6 +11278,7 @@ Joshua,Tosafot Yom Tov on Pirkei Avot,2
 Keritot,Minchat Chinukh,2
 Chullin,Footnotes on Mekhilta DeRabbi Shimon Bar Yochai,2
 Avodah Zarah,Mishnah Nedarim,2
+Pesachim,Yad Ramah on Sanhedrin,2
 I Samuel,Mishnah Megillah,2
 Bava Batra,For the Perplexed of the Generation,2
 Gur Aryeh on Devarim,Keritot,2
@@ -11318,7 +11327,6 @@ Mishnah Orlah,Pele Yoetz,2
 Daf Shevui to Megillah,Ezekiel,2
 Jeremiah,Metzudat Zion on Jonah,2
 Ezekiel,Rashi on Shevuot,2
-Exodus,Sha'ar Ha'Gemul of the Ramban,2
 Commentary on Sefer Hamitzvot of Rasag,Midrash Tanchuma,2
 Tosafot on Arakhin,Yoma,2
 Genesis,Rashbam on Pesachim,2
@@ -11584,7 +11592,6 @@ Bekhorot,"Kessef Mishneh on Mishneh Torah, Those Who Defile Bed or Seat",2
 Nineteen Letters,Yalkut Shimoni on Torah,2
 Beit Yosef,Jeremiah,2
 II Samuel,Tosafot Yom Tov on Mishnah Sotah,2
-Megillah,Rambam Introduction to the Mishnah,2
 Avodah Zarah,Ramban on Genesis,2
 Or HaChaim on Numbers,Shevuot,2
 Ikar Tosafot Yom Tov on Pirkei Avot,Ketubot,2
@@ -11772,6 +11779,7 @@ Gittin,"Kessef Mishneh on Mishneh Torah, Oaths",2
 Chiddushei Ramban on Bava Batra,Mishnah Terumot,2
 Chofetz Chaim,Kiddushin,2
 Job,Malbim on Psalms,2
+Mishnah Orlah,Rambam Introduction to the Mishnah,2
 Gevurot Hashem,Ketubot,2
 Isaiah,Rashba on Bava Batra,2
 Exodus,Rashi on Habakkuk,2
@@ -11780,7 +11788,6 @@ Boaz on Mishnah Temurah,Sanhedrin,2
 Bava Kamma,II Kings,2
 Ecclesiastes,II Chronicles,2
 Gittin,Ramban on Exodus,2
-Exodus,Tosefta Megillah,2
 Jeremiah,Jerusalem Talmud Shevi'it,2
 Haamek Davar on Genesis,Ketubot,2
 Joshua,Rabbeinu Chananel on Exodus,2
@@ -11857,6 +11864,7 @@ Berakhot,Rashbam on Bava Batra,2
 Bava Metzia,Prisha,2
 Boaz on Mishnah Oholot,Mishnah Zavim,2
 Kiddushin,Minchat Chinukh,2
+Mishnah Shekalim,Rambam Introduction to the Mishnah,2
 Mishnah Bikkurim,Psalms,2
 Judges,Rashi on Sotah,2
 Ecclesiastes,Sifra,2
@@ -11875,6 +11883,7 @@ Daniel,Malbim on Ezekiel,2
 Mishnah Sukkah,Yoma,2
 Berakhot,Yad Ramah on Bava Batra,2
 Bartenura on Mishnah Bava Metzia,Exodus,2
+Nahum,Sefer haBachur,2
 "Mishneh Torah, Gifts to the Poor",Rosh Hashanah,2
 Megillah,Tosafot on Chullin,2
 Isaiah,The Fathers According to Rabbi Nathan,2
@@ -11904,6 +11913,7 @@ Chullin,Rashi on Chagigah,2
 Nehemiah,Rashba on Berakhot,2
 Nedarim,Or HaChaim on Numbers,2
 Jerusalem Talmud Shabbat,Malachi,2
+Mishnah Eruvin,Rambam Introduction to the Mishnah,2
 Proverbs,Sha'arei Orah,2
 II Kings,Rashi on Zephaniah,2
 Gevurot Hashem,Lamentations,2
@@ -11938,6 +11948,7 @@ Jonah,Metzudat Zion on I Samuel,2
 Gittin,Keter Shem Tov,2
 Job,Sforno on Numbers,2
 "Kessef Mishneh on Mishneh Torah, Torah Study",Yoma,2
+Mishnah Kilayim,Rambam Introduction to the Mishnah,2
 II Kings,Rashi on Bekhorot,2
 II Samuel,Metzudat David on I Kings,2
 II Kings,Tosafot on Bava Batra,2
@@ -11948,6 +11959,7 @@ Joel,Rashi on Ecclesiastes,2
 Isaiah,Tosafot Yom Tov on Mishnah Chullin,2
 Beitzah,Shabbat,2
 Commentary on Sefer Hamitzvot of Rasag,Daniel,2
+Bava Kamma,Rambam Introduction to the Mishnah,2
 Rashi on Psalms,Song of Songs,2
 Nahum,Ramban on Numbers,2
 Ezekiel,Rif Yoma,2
@@ -11976,7 +11988,7 @@ Genesis,Kitzur Shulkhan Aruch Yalkut Yosef,2
 Bereishit Rabbah,Sha'ar Ha'Gemul of the Ramban,2
 Metzudat Zion on Psalms,Shabbat,2
 Beitzah,Or HaChaim on Genesis,2
-Sefer HaBahir,Sha'ar Ha'Gemul of the Ramban,2
+Shevuot,Tosafot on Chullin,2
 II Kings,Ibn Ezra on Exodus,2
 Nedarim,Rashi on Kiddushin,2
 Mekhilta d'Rabbi Yishmael,Sukkah,2
@@ -12006,6 +12018,7 @@ I Samuel,Ralbag on I Kings,2
 Joel,Rashi on Taanit,2
 Jeremiah,Keter Shem Tov,2
 Malbim Beur Hamilot on Psalms,Zephaniah,2
+Midrash Tanchuma,Rashi on Numbers,2
 Ecclesiastes,Gur Aryeh on Bamidbar,2
 Numbers,Rashi on Esther,2
 Hosea,Nazir,2
@@ -12199,6 +12212,7 @@ I Kings,Tosafot Yom Tov on Mishnah Shekalim,2
 B'Mareh HaBazak Part Seven,Siftei Cohen on Yoreh De'ah,2
 Rashi on Daniel,Zechariah,2
 Jerusalem Talmud Kiddushin,Micah,2
+Rambam Introduction to the Mishnah,Song of Songs,2
 Rashi on Numbers,Ruth,2
 Isaiah,"Mishneh Torah, Sanctification of the New Month",2
 Mishnah Shekalim,Pesikta Rabbati,2
@@ -12209,6 +12223,7 @@ Metzudat David on I Samuel,Shabbat,2
 II Chronicles,Ramban on Numbers,2
 Abarbanel on Torah,Beitzah,2
 Bartenura on Mishnah Kilayim,Psalms,2
+I Chronicles,Midrash Tanchuma,2
 Judges,Rif Moed Katan,2
 Genesis,Tosefta Avodah Zarah,2
 Lamentations,Rashi on Proverbs,2
@@ -12249,21 +12264,21 @@ Mishnah Tahorot,Tosafot on Keritot,2
 Ramban on Exodus,Temurah,2
 Avodah Zarah,B'Mareh HaBazak Part Four,2
 Habakkuk,Metzudat Zion on II Kings,2
+Numbers,Rambam Introduction to the Mishnah,2
 Isaiah,Tosefta Menahot,2
 B'Mareh HaBazak Part Seven,"Mishneh Torah, Rebels",2
 Moed Katan,Rashba on Rosh Hashanah,2
 Berakhot,"Mishneh Torah, Repentance",2
-Pirkei Avot,Rambam Introduction to the Mishnah,2
 Ecclesiastes,Rashbam on Numbers,2
 Judges,Sforno on Deuteronomy,2
 Gur Aryeh on Bamidbar,II Samuel,2
 Ikar Siftei Hachamim on Leviticus,Rosh Hashanah,2
 Bekhorot,Rashba on Bava Metzia,2
 Amos,Kedushat Levi,2
+Psalms,Rambam Introduction to the Mishnah,2
 Ramban on Numbers,Yevamot,2
 Be'er HaGolah,Judges,2
 Boaz on Mishnah Berakhot,Moed Katan,2
-Ketubot,Rambam Introduction to the Mishnah,2
 Jeremiah,Mishnah Moed Katan,2
 Song of Songs,Tosefta Yoma,2
 Jeremiah,Metzudat David on Hosea,2
@@ -12302,7 +12317,6 @@ Kli Yakar on Exodus,Zechariah,2
 Numbers,Tosafot on Berakhot,2
 Ezekiel,Metzudat Zion on Haggai,2
 Judges,Taanit,2
-Be'er HaGolah,Zevachim,2
 Malbim Beur Hamilot on Jeremiah,Psalms,2
 Metzudat Zion on I Samuel,Zechariah,2
 Kli Yakar on Genesis,Obadiah,2
@@ -12536,7 +12550,6 @@ Psalms,Tosafot on Arakhin,2
 Ketubot,"Mishneh Torah, Divorce",2
 Bava Metzia,Rif Shevuot,2
 Nehemiah,Rashi on Shevuot,2
-Malachi,Sha'ar Ha'Gemul of the Ramban,2
 Haggai,Vayikra Rabbah,2
 Boaz on Mishnah Berakhot,Niddah,2
 Gur Aryeh on Vayikra,Mishnah Kelim,2
@@ -12554,7 +12567,6 @@ Ezra,Tosefta Sanhedrin,2
 Kitzur Shulchan Aruch,Kitzur Shulchan Aruch,2
 Divrei Emet,I Samuel,2
 Ecclesiastes,Malbim Beur Hamilot on Ezekiel,2
-Nahum,Sefer haBachur,2
 Daniel,Or HaChaim on Leviticus,2
 Eichah Rabbah,Nahum,2
 B'Mareh HaBazak Part Three,Bava Kamma,2
@@ -12667,6 +12679,7 @@ B'Mareh HaBazak Part Three,Chagigah,2
 Mishnah Peah,Rashba on Berakhot,2
 I Chronicles,Sefer Kuzari,2
 Iggerot HaRambam,Judges,2
+Midrash Tanchuma,Zephaniah,2
 B'Mareh HaBazak Part Seven,Isaiah,2
 Mishnah Pesachim,Proverbs,2
 Proverbs,Tosafot Yom Tov on Mishnah Shabbat,2
@@ -12719,7 +12732,6 @@ Metzudat David on Ezekiel,Numbers,2
 Isaiah,Tosafot Yom Tov on Mishnah Eduyot,2
 II Kings,Rashi on Bava Metzia,2
 Rosh Hashanah,Tosafot on Megillah,2
-Avodah Zarah,Sha'ar Ha'Gemul of the Ramban,2
 Rosh Hashanah,Siftei Hakhamim,2
 Joshua,Nedarim,2
 Ezekiel,Ikar Tosafot Yom Tov on Mishnah Sheviit,2
@@ -12888,7 +12900,6 @@ Nehemiah,Seder Olam Rabbah,2
 "Mishneh Torah, Appraisals and Devoted Property",Psalms,2
 Footnotes on Orot,Orot,2
 Ecclesiastes,Horayot,2
-Esther,"Mishneh Torah, Fasts",2
 Otzar Midrashim,Zohar,2
 Kli Yakar on Exodus,Nedarim,2
 Megillah,Rashba on Berakhot,2
@@ -12994,6 +13005,7 @@ I Samuel,Megillat Taanit,2
 Akeidat Yitzchak,Niddah,2
 Haggai,Pirkei DeRabbi Eliezer,2
 II Chronicles,Rashi on Yoma,2
+Ezekiel,Tosefta Berakhot,2
 Iggeret HaRamban,Job,2
 Ezekiel,"Mishneh Torah, Kings and Wars",2
 Hosea,Rif Moed Katan,2
@@ -13123,6 +13135,7 @@ Exodus,Rashi on Meilah,2
 Bereishit Rabbah,Haggai,2
 Exodus,Tosafot Yom Tov on Mishnah Berakhot,2
 Deuteronomy,Tosafot on Ketubot,2
+Mishnah Terumot,Rambam Introduction to the Mishnah,2
 Job,Tosefta Bava Metzia,2
 Kli Yakar on Genesis,Tosefta Sotah,2
 Gittin,Tosafot on Nedarim,2
@@ -13182,10 +13195,10 @@ Psalms,Shadal on Numbers,2
 Nahum,Netzach Yisrael,2
 Bava Batra,Minhat Kenaot,2
 Bava Kamma,Rashi on Sukkah,2
-Pirkei Avot,Sha'ar Ha'Gemul of the Ramban,2
 Mishnah Oktzin,Proverbs,2
 II Kings,Metzudat Zion on Job,2
 "Mishneh Torah, Firstlings","Shulchan Arukh, Yoreh De'ah",2
+Be'er HaGolah,Zevachim,2
 Proverbs,Rashi on Nehemiah,2
 Mishnah Oholot,Tosafot on Moed Katan,2
 Beitzah,Rashi on Exodus,2
@@ -13228,6 +13241,7 @@ Bekhorot,Teshuvot haRashba part V,2
 Makkot,Orchot Tzadikim,2
 Bava Metzia,I Samuel,2
 Nahum,Ramban on Leviticus,2
+Exodus,Tosefta Megillah,2
 Genesis,Metzudat David on II Chronicles,2
 Leviticus,Metzudat Zion on Joel,2
 Meilah,Tosafot on Gittin,2
@@ -13311,7 +13325,6 @@ Or HaChaim on Genesis,Rosh Hashanah,2
 Judges,Metzudat Zion on Micah,2
 II Kings,Pirkei DeRabbi Eliezer,2
 Jerusalem Talmud Ta'anit,Nehemiah,2
-Menachot,Rashi on Genesis,2
 "Kessef Mishneh on Mishneh Torah, Sanctification of the New Month",Sanhedrin,2
 Metzudat Zion on I Chronicles,Shabbat,2
 Bartenura on Mishnah Oholot,Genesis,2
@@ -13320,6 +13333,7 @@ Or HaChaim on Numbers,Yevamot,2
 Bartenura on Mishnah Megillah,Genesis,2
 Isaiah,Tosefta Sukkah,2
 Chullin,"Kessef Mishneh on Mishneh Torah, Sacrificial Procedure",2
+Esther,"Mishneh Torah, Fasts",2
 Chullin,Joshua,2
 Eruvin,"Kessef Mishneh on Mishneh Torah, Blessings",2
 Gur Aryeh on Shemot,Nedarim,2
@@ -13333,7 +13347,6 @@ Eruvin,Rashba on Bava Metzia,2
 Pele Yoetz,Zephaniah,2
 II Kings,Mishnah Shekalim,2
 Obadiah,Rashi on Deuteronomy,2
-Pesachim,Yad Ramah on Sanhedrin,2
 Jeremiah,Tosafot on Moed Katan,2
 Psalms,Rashi on Nazir,2
 Chelkat Mechokek,Ezekiel,2
@@ -13418,7 +13431,6 @@ II Kings,Jerusalem Talmud Eiruvin,2
 "Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary",Sefer HaMitzvot LaRambam,2
 Makkot,Tosafot on Rosh Hashanah,2
 Deuteronomy,Noda BeYehuda I,2
-Kiddushin,Rashi on Genesis,2
 Leviticus,Rabbeinu Chananel on Exodus,2
 Metzudat David on Daniel,Obadiah,2
 Ketubot,Siftei Hakhamim,2
@@ -13449,6 +13461,7 @@ Esther,Tosafot on Avodah Zarah,2
 Bartenura on Mishnah Tevul Yom,Jeremiah,2
 Me'or Einayim,Sotah,2
 Niddah,Rashi on Zevachim,2
+Malachi,Rambam Introduction to the Mishnah,2
 Metzudat Zion on Isaiah,Mishnah Eduyot,2
 Mishnah Beitzah,Numbers,2
 Jerusalem Talmud Sukkah,Judges,2
@@ -13543,12 +13556,10 @@ Esther,Rashi on Song of Songs,2
 Ramban on Numbers,Song of Songs,2
 Ruth,Ruth Rabbah,2
 Ecclesiastes,Sukkah,2
-Shevuot,Tosafot on Chullin,2
 Micah,Ramban on Deuteronomy,2
 Mishnah Kelim,Rashba on Yevamot,2
 Leviticus,Mishnah Beitzah,2
 Nehemiah,Ralbag on II Chronicles,2
-Isaiah,Sha'ar Ha'Gemul of the Ramban,2
 Lamentations,Ramban on Deuteronomy,2
 I Samuel,Mishnah Nedarim,2
 Bartenura on Mishnah Ketubot,Leviticus,2
@@ -13600,7 +13611,6 @@ Gur Aryeh on Devarim,Mishnah Bikkurim,2
 Rashi on Joshua,Rashi on Numbers,2
 Ezra,Tosefta Arakhin,2
 Mishnah Shekalim,Or HaChaim on Exodus,2
-Mishnah Eduyot,Rambam Introduction to the Mishnah,2
 Daniel,Or HaChaim on Genesis,2
 Berakhot,Kol Bo,2
 Proverbs,Tosafot on Chullin,2
@@ -13616,6 +13626,7 @@ Deuteronomy,Tosafot on Sukkah,2
 Mishnah Kelim,Yachin on Mishnah Tamid,2
 II Chronicles,Mishnah Sanhedrin,2
 Deuteronomy,"Mishneh Torah, Vows",2
+Mishnah Yevamot,Rambam Introduction to the Mishnah,2
 II Kings,Rashi on Keritot,2
 Hosea,Makkot,2
 Ruth,Sotah,2
@@ -13860,6 +13871,7 @@ I Samuel,Metzudat David on Judges,2
 Ezekiel,Shevuot,2
 Isaiah,Tosafot on Sukkah,2
 Genesis,Malbim Beur Hamilot on Psalms,2
+Rashi on Genesis,Yalkut Shimoni on Torah,2
 "Mishneh Torah, Sheqel Dues",Rosh Hashanah,2
 Genesis,Metzudat Zion on Joel,2
 Chullin,Tur,2
@@ -14186,15 +14198,16 @@ Guide for the Perplexed,Sotah,1
 Zephaniah,Zohar Chadash,1
 Kiddushin,"Shulchan Arukh, Choshen Mishpat",1
 Esther,Kli Yakar on Leviticus,1
+Shir HaShirim Rabbah,Zephaniah,1
 Maarechet Heidenheim on Pesach Haggadah,Shemot Rabbah,1
 II Samuel,Rashi on Zevachim,1
+Hilchos Talmud Torah,Yalkut Shimoni on Torah,1
 Ezra,Metzudat Zion on Obadiah,1
 Mishnah Arakhin,Numbers,1
 Rashba on Ketubot,Sukkah,1
 Pirkei Avot,Rashba on Kiddushin,1
 Daf Shevui to Ketubot,Nedarim,1
 Yad Ramah on Sanhedrin,Zechariah,1
-Esther,Tanna Debei Eliyahu Rabbah,1
 "Ba'er Hetev on Shulchan Arukh, Orach Chayyim",Berakhot,1
 Mishnah Eduyot,Sukkah,1
 Derech Hashem,Rosh Hashanah,1
@@ -14221,6 +14234,7 @@ Lamentations,Rashi on Hosea,1
 Bartenura on Mishnah Shabbat,Zechariah,1
 Boaz on Mishnah Berakhot,Temurah,1
 Perek Shirah,Zechariah,1
+Rambam Introduction to the Mishnah,Shevuot,1
 Kiddushin,Me'or Einayim,1
 Psalms,Yachin on Mishnah Chullin,1
 Avodah Zarah,Minchat Chinukh,1
@@ -14293,6 +14307,7 @@ Rashi on Shabbat,Yevamot,1
 Rashi on I Samuel,Rosh Hashanah,1
 Psalms,Tosafot Yom Tov on Mishnah Demai,1
 Malachi,Metzudat Zion on Daniel,1
+Bava Metzia,"Kessef Mishneh on Mishneh Torah, Torah Study",1
 Job,Metzudat David on Daniel,1
 Hadran,Sukkah,1
 Ezekiel,Ikar Tosafot Yom Tov on Mishnah Maaser Sheni,1
@@ -14359,6 +14374,7 @@ II Chronicles,Mishnah Horayot,1
 Daniel,Derech Chaim,1
 Menachot,Nefesh HaChaim,1
 Horayot,Rashba on Ketubot,1
+Rashi on Genesis,Sukkah,1
 I Samuel,Song of Songs,1
 Hosea,Ibn Ezra on Genesis,1
 Pesachim,Rif Sanhedrin,1
@@ -14366,6 +14382,7 @@ Ezekiel,Metzudat David on Nahum,1
 Esther Rabbah,Ramban on Genesis,1
 "Kessef Mishneh on Mishneh Torah, Gifts to the Poor",Sanhedrin,1
 II Samuel,Jerusalem Talmud Megillah,1
+Psalms,Shita Mekubetzet on Sotah,1
 Esther,Jerusalem Talmud Yevamot,1
 Rashi on Judges,Shevuot,1
 Aramaic Targum to Song of Songs,Exodus,1
@@ -14450,7 +14467,6 @@ I Chronicles,Kiddushin,1
 Bartenura on Pirkei Avot,Megillah,1
 Kitzur Shulchan Aruch,Numbers,1
 Likutei Moharan,Tanna Debei Eliyahu Rabbah,1
-Joshua,Rambam Introduction to the Mishnah,1
 Kitzur Shulkhan Aruch Yalkut Yosef,Mishnah Shekalim,1
 Shabbat,Zohar,1
 Amos,Metzudat Zion on Joel,1
@@ -14545,7 +14561,6 @@ Kol Dodi Dofek,Nehemiah,1
 Pirkei Avot,Rashi on Nedarim,1
 "Ba'er Hetev on Shulchan Arukh, Choshen Mishpat",Kiddushin,1
 Judges,Temurah,1
-Mishnah Peah,Sha'ar Ha'Gemul of the Ramban,1
 Kli Yakar on Leviticus,Mishnah Terumot,1
 Eruvin,Rashi on Nedarim,1
 Mishnah Terumot,Ramban on Exodus,1
@@ -14689,6 +14704,7 @@ Eruvin,Rashi on Gittin,1
 Job,Tosefta Ma'aser Sheni,1
 Bava Kamma,Rashba on Beitzah,1
 Megillah,Rashba on Rosh Hashanah,1
+Hilchos Talmud Torah,Proverbs,1
 Ezra,Metzudat Zion on I Samuel,1
 Exodus,"Mishneh Torah, Those Who Defile Bed or Seat",1
 Nehemiah,Numbers,1
@@ -14730,6 +14746,7 @@ Joshua,Metzudat Zion on Haggai,1
 Esther,Ramban on Deuteronomy,1
 Proverbs,Tosafot Yom Tov on Mishnah Bava Batra,1
 Chiddushei Ramban on Moed Katan,Rosh Hashanah,1
+Berakhot,Maaseh Rav,1
 Haamek Davar on Deuteronomy,"Mishneh Torah, Kings and Wars",1
 Leviticus,Malbim Beur Hamilot on Jeremiah,1
 Esther,Ezra,1
@@ -14737,6 +14754,7 @@ Genesis,I Samuel,1
 Jonah,Rashi on Chullin,1
 Mishnah Bava Metzia,Proverbs,1
 Footnotes on Mekhilta DeRabbi Shimon Bar Yochai,Yoma,1
+Mishnah Tahorot,Rambam Introduction to the Mishnah,1
 Jeremiah,Obadiah,1
 Haggai,Tosafot Yom Tov on Mishnah Demai,1
 Menachot,Rashi on I Samuel,1
@@ -14860,7 +14878,6 @@ Exodus,Mishnah Peah,1
 Eruvin,Rosh on Ketubot,1
 Bartenura on Mishnah Tahorot,Exodus,1
 Mishnah Kilayim,Tosafot on Niddah,1
-Bava Metzia,Siftei Cohen on Yoreh De'ah,1
 Pesachim,"Shulchan Arukh, Even HaEzer",1
 Ein Yaakov (Glick Edition),Yevamot,1
 Job,Mishnah Kilayim,1
@@ -14883,6 +14900,7 @@ Joshua,Rashbam on Pesachim,1
 Chullin,Rashi on Daniel,1
 Pirkei Avot,Ramban on Genesis,1
 Ruth,Sforno on Numbers,1
+Rashi on Eruvin,Ruth,1
 Joel,Rashi on Sanhedrin,1
 Genesis,Radak on Nahum,1
 Malachi,Rashi on Zephaniah,1
@@ -15009,7 +15027,6 @@ Jonah,Rashi on Sotah,1
 I Samuel,Tosafot Yom Tov on Mishnah Keritot,1
 Yachin on Mishnah Middot,Zevachim,1
 Daat Zkenim on Numbers,Song of Songs,1
-Chagigah,Rambam Introduction to the Mishnah,1
 Boaz on Mishnah Shabbat,Job,1
 Rif Berakhot,Yoma,1
 "Ba'er Hetev on Shulchan Arukh, Orach Chayyim",Zohar,1
@@ -15046,7 +15063,6 @@ Ecclesiastes,Mishnah Sukkah,1
 I Kings,Tosafot on Chullin,1
 Joshua,Tosafot Yom Tov on Mishnah Arakhin,1
 Deuteronomy,Mishnah Yoma,1
-Pirkei DeRabbi Eliezer,Sha'ar Ha'Gemul of the Ramban,1
 II Kings,Numbers,1
 Bava Batra,Rif Ketubot,1
 Mishnah Kilayim,Rashi on Deuteronomy,1
@@ -15058,6 +15074,7 @@ II Samuel,Tosefta Avodah Zarah,1
 "Mishneh Torah, Creditor and Debtor",Pirkei Avot,1
 Beitzah,Gur Aryeh on Bamidbar,1
 "Mishneh Torah, Immersion Pools",Tur,1
+Bava Batra,Dina d'Garmei,1
 Bemidbar Rabbah,Ramban on Leviticus,1
 Genesis,Ikar Tosafot Yom Tov on Mishnah Terumot,1
 Mishnah Middot,Yad Ramah on Bava Batra,1
@@ -15083,6 +15100,7 @@ Mishnah Oktzin,Tosafot on Menachot,1
 Kli Yakar on Exodus,Nahum,1
 Joshua,Tosafot Yom Tov on Mishnah Kiddushin,1
 Genesis,Ibn Ezra on Leviticus,1
+Darchei Moshe,Hilchos Talmud Torah,1
 Pesachim,Pesikta D'Rav Kahanna,1
 Joel,Orot,1
 B'Mareh HaBazak Part Seven,"Mishneh Torah, Divorce",1
@@ -15199,6 +15217,7 @@ Boaz on Mishnah Sheviit,I Kings,1
 Genesis,Ralbag on II Chronicles,1
 Judges,Tosafot on Gittin,1
 Mishnah Middot,Rashi on Zevachim,1
+Eruvin,Ritva on Yoma,1
 Gur Aryeh on Shemot,Mishnah Kelim,1
 Ecclesiastes,Zechariah,1
 Berakhot,II Chronicles,1
@@ -15541,7 +15560,6 @@ Genesis,Metzudat David on Nehemiah,1
 "Kessef Mishneh on Mishneh Torah, Heave Offerings",Nedarim,1
 Ecclesiastes,Midbar Shur,1
 I Samuel,Rashi on Kiddushin,1
-Sha'ar Ha'Gemul of the Ramban,Taanit,1
 Magen Avraham,Sefer HaKana,1
 II Kings,Metzudat David on I Kings,1
 Boaz on Mishnah Demai,Yevamot,1
@@ -15569,6 +15587,7 @@ Exodus,Rashi on Ezra,1
 "Mishneh Torah, Heave Offerings",Niddah,1
 Avodah Zarah,Rabbeinu Bahya,1
 Gur Aryeh on Shemot,Mishnah Parah,1
+Hilchos Talmud Torah,Menachot,1
 Amos,Rashi on Shabbat,1
 Menachot,Rashbam on Leviticus,1
 Minchat Chinukh,Mishnah Challah,1
@@ -15579,6 +15598,7 @@ Berakhot,Rashbam on Genesis,1
 Boaz on Mishnah Terumot,Temurah,1
 HaEmunot veHaDeot,Moed Katan,1
 Bava Batra,Metzudat Zion on I Samuel,1
+Hilchos Talmud Torah,"Shulchan Arukh, Choshen Mishpat",1
 Darchei Moshe,Kiddushin,1
 Yachin on Mishnah Eruvin,Yoma,1
 Mishnah Sheviit,Rashi on Bava Metzia,1
@@ -15847,7 +15867,6 @@ Eruvin,Metzudat Zion on I Kings,1
 Bava Batra,Tosefta Peah,1
 Malachi,Rashi on Sanhedrin,1
 Psalms,Rashi on Moed Katan,1
-Kiddushin,Rambam Introduction to the Mishnah,1
 Tosafot on Gittin,Yoma,1
 Ezekiel,Naftali Seva Ratzon on Pesach Haggadah,1
 "Kessef Mishneh on Mishneh Torah, Rest on a Holiday",Pesachim,1
@@ -15902,6 +15921,7 @@ Bartenura on Pirkei Avot,Ezra,1
 Rabbeinu Chananel on Genesis,Sotah,1
 Nehemiah,Rashbam on Bava Batra,1
 "Mishneh Torah, Hiring",Rosh Hashanah,1
+Mishnah Sotah,Rambam Introduction to the Mishnah,1
 Rashi on Psalms,Zephaniah,1
 Daniel,Rashi on Proverbs,1
 Joshua,Menachot,1
@@ -16056,6 +16076,7 @@ Bartenura on Mishnah Shevuot,Numbers,1
 Deuteronomy,Metzudat David on Daniel,1
 Judges,Malbim on Psalms,1
 Ramban on Leviticus,Ruth,1
+Mishnah Yadayim,Rambam Introduction to the Mishnah,1
 Daat Zkenim on Genesis,Yoma,1
 Mishnah Challah,Shadal on Exodus,1
 Chiddushei Ramban on Rosh Hashanah,Yevamot,1
@@ -16254,8 +16275,10 @@ Chofetz Chaim,"Shulchan Arukh, Orach Chayim",1
 B'Mareh HaBazak Part Seven,Tosafot on Pesachim,1
 Ezekiel,Jerusalem Talmud Peah,1
 Exodus,Malbim on Psalms,1
+Hilchos Talmud Torah,Sanhedrin,1
 Bava Batra,"Kessef Mishneh on Mishneh Torah, Appraisals and Devoted Property",1
 Leviticus,Tosafot Yom Tov on Mishnah Taanit,1
+Psalms,Tosefta Kiddushin,1
 Haggai,Kiddushin,1
 Makkot,Shaarei Teshuvah,1
 Jeremiah,Tosefta Zevahim,1
@@ -16330,7 +16353,6 @@ Mishnah Maaser Sheni,Rashba on Bava Metzia,1
 Bekhorot,Ecclesiastes,1
 Temurah,Tosafot on Niddah,1
 Exodus,Rif Moed Katan,1
-Psalms,Shita Mekubetzet on Sotah,1
 Amos,Jerusalem Talmud Megillah,1
 Pesachim,Sforno on Exodus,1
 Joel,"Mishneh Torah, Fasts",1
@@ -16342,7 +16364,6 @@ Joshua,Messilat Yesharim,1
 Niddah,Rashbam on Pesachim,1
 I Samuel,Mishnah Rosh Hashanah,1
 Footnotes to Kohelet by Bruce Heitler,Numbers,1
-Proverbs,Rambam Introduction to the Mishnah,1
 Eight Chapters,Moed Katan,1
 Proverbs,Ralbag Ruth,1
 Daniel,Kli Yakar on Deuteronomy,1
@@ -16441,7 +16462,6 @@ I Samuel,Rashi on Shevuot,1
 Kiddushin,Rashi on Judges,1
 Bartenura on Pirkei Avot,Daniel,1
 Mishnah Berakhot,Niddah,1
-Genesis,Rambam Introduction to the Mishnah,1
 Nehemiah,Rashi on Bava Metzia,1
 Gittin,Rif Menachot,1
 Niddah,Yachin on Mishnah Kinnim,1
@@ -16568,6 +16588,7 @@ Bartenura on Mishnah Bava Batra,Proverbs,1
 Commentary on Sefer Hamitzvot of Rasag,Ezra,1
 Psalms,Tosafot Yom Tov on Mishnah Ketubot,1
 Metzudat Zion on Proverbs,Nazir,1
+Mishnah Shevuot,Rambam Introduction to the Mishnah,1
 Leviticus,Tosafot Yom Tov on Mishnah Avodah Zarah,1
 Bereishit Rabbah,Ramban on Numbers,1
 Ezekiel,Tosafot Yom Tov on Mishnah Zevachim,1
@@ -16584,7 +16605,6 @@ Ezekiel,Jerusalem Talmud Pesachim,1
 Deuteronomy,Metzudat David on Zechariah,1
 Orchot Tzadikim,Pirkei DeRabbi Eliezer,1
 Drisha,Numbers,1
-Ketubot,Sha'ar Ha'Gemul of the Ramban,1
 Jerusalem Talmud Ketubot,Judges,1
 II Kings,Tosafot Yom Tov on Mishnah Berakhot,1
 Avodah Zarah,Lamentations,1
@@ -16614,7 +16634,6 @@ Derech Chaim,II Kings,1
 Pesachim,Rashi on Bava Kamma,1
 Bava Kamma,Rabbeinu Chananel on Numbers,1
 Nehemiah,Rashi on Chullin,1
-Rashi on Eruvin,Ruth,1
 Chofetz Chaim,Gittin,1
 Metzudat Zion on Jonah,Micah,1
 Megillah,Rosh on Menachot,1
@@ -16639,7 +16658,6 @@ Chiddushei Ramban on Shabbat,Mishnah Makhshirin,1
 Midbar Shur,Psalms,1
 Joshua,Tosafot Yom Tov on Mishnah Sotah,1
 Beit Yosef,Malachi,1
-Bava Kamma,Rambam Introduction to the Mishnah,1
 II Kings,Mishnah Megillah,1
 Deuteronomy,Tosefta Bava Batra,1
 Yachin on Mishnah Shabbat,Yoma,1
@@ -16650,7 +16668,7 @@ Malbim on I Kings,Yoma,1
 Eruvin,Rashba on Yevamot,1
 Numbers,Tosafot Yom Tov on Mishnah Challah,1
 Malbim on Jeremiah,Zechariah,1
-Isaiah,Tosefta Eduyot,1
+II Samuel,Pesach Haggadah,1
 Joshua,Rashi on Niddah,1
 Amos,Jerusalem Talmud Moed Kattan,1
 I Chronicles,Rashi on II Kings,1
@@ -17058,7 +17076,6 @@ Leviticus,"Siddur, Edot HaMizrach",1
 Rashi on I Samuel,Zephaniah,1
 Sanhedrin,Teshuva MeAhava Part I,1
 B'Mareh HaBazak Part Three,Eruvin,1
-Moed Katan,Sha'ar Ha'Gemul of the Ramban,1
 Mishnah Maaser Sheni,Rashba on Bava Batra,1
 Psalms,Rashba on Ketubot,1
 Likutei Moharan,Mishnah Eduyot,1
@@ -17067,6 +17084,7 @@ Nahum,Sha'arei Orah,1
 Ezekiel,Tosafot on Shabbat,1
 Daat Zkenim on Numbers,Micah,1
 Makkot,Tosafot on Bekhorot,1
+Mishnah Shabbat,Rambam Introduction to the Mishnah,1
 B'Mareh HaBazak Part Five,Pesachim,1
 Ramban on Genesis,Sukkah,1
 Ezekiel,Rashi on Rosh Hashanah,1
@@ -17110,7 +17128,6 @@ Amos,Rambam on Mishnah Shabbat,1
 Beitzah,Boaz on Mishnah Peah,1
 Rashbam on Genesis,Yevamot,1
 Ecclesiastes,Metzudat Zion on II Samuel,1
-Rosh Hashanah,Yachin on Mishnah Eruvin,1
 Chagigah,Rashi on Beitzah,1
 Gittin,Rif Bava Kamma,1
 Habakkuk,Yalkut Shimoni on Torah,1
@@ -17122,7 +17139,6 @@ Bava Metzia,"Shulchan Arukh, Choshen Mishpat",1
 Leviticus,Yismach Yisrael on Pesach Haggadah,1
 Ezekiel,Tosefta Arakhin,1
 Boaz on Mishnah Terumot,Gittin,1
-Ezekiel,Tosefta Ta'anit,1
 Arakhin,Kitzur Shulchan Aruch,1
 Chullin,Shadal on Genesis,1
 Judges,Rashi on Bava Batra,1
@@ -17156,6 +17172,7 @@ B'Mareh HaBazak Part Six,Mishnah Oholot,1
 Deuteronomy,Sichot HaRan,1
 Kol Dodi Dofek,Ruth,1
 Mishnah Negaim,"Mishneh Torah, Defilement by Leprosy",1
+Jeremiah,Mei HaShiloach,1
 Chagigah,Rashi on Bava Kamma,1
 Gittin,"Kessef Mishneh on Mishneh Torah, Eruvin",1
 Proverbs,Ralbag on Judges,1
@@ -17257,7 +17274,6 @@ Bartenura on Mishnah Bava Batra,Isaiah,1
 Chagigah,"Kessef Mishneh on Mishneh Torah, Defilement by a Corpse",1
 Sotah,Zechariah,1
 Gur Aryeh on Shemot,Mishnah Challah,1
-Rambam Introduction to the Mishnah,Song of Songs,1
 Beitzah,Tosafot on Nedarim,1
 Bava Kamma,Yachin on Mishnah Bava Metzia,1
 "Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary","Mishneh Torah, Tithes",1
@@ -17383,7 +17399,6 @@ Haggai,Rashi on I Chronicles,1
 Bartenura on Mishnah Terumot,Haggai,1
 Pesachim,Prisha,1
 Ein Yaakov (Glick Edition),Seder Ma'amadot,1
-Numbers,Rambam Introduction to the Mishnah,1
 Leviticus,Metzudat David on Amos,1
 Pesachim,Rashi on Rosh Hashanah,1
 "Mishneh Torah, Nazariteship",Sukkah,1
@@ -17410,7 +17425,6 @@ Rashi on Sotah,Ruth,1
 Taanit,Tosafot on Zevachim,1
 II Kings,Zevachim,1
 Maggid Devarav leYaakov,Vayikra Rabbah,1
-Psalms,Rambam Introduction to the Mishnah,1
 Arakhin,Keter Shem Tov,1
 Joshua,Metzudat David on Ezra,1
 Rashi on Shabbat,Sotah,1
@@ -17469,7 +17483,7 @@ I Kings,Tosafot on Taanit,1
 Berakhot,Daf Shevui to Sukkah,1
 Hadran,Menachot,1
 Jerusalem Talmud Yoma,Micah,1
-Kedushat Levi,Zohar,1
+Gur Aryeh on Bamidbar,II Kings,1
 Lev Sameach,Sanhedrin,1
 Boaz on Mishnah Horayot,Yachin on Mishnah Horayot,1
 Deuteronomy,Ikar Tosafot Yom Tov on Mishnah Avodah Zarah,1
@@ -17515,6 +17529,7 @@ Bartenura on Pirkei Avot,Chullin,1
 Exodus,Tosafot Yom Tov on Mishnah Taanit,1
 Psalms,Tosafot on Beitzah,1
 Bartenura on Mishnah Horayot,Deuteronomy,1
+Mishnah Peah,Rambam Introduction to the Mishnah,1
 Deuteronomy,Malbim on Ezekiel,1
 "Mishneh Torah, Foundations of the Torah",Shevuot,1
 Bava Batra,Rashi on Bekhorot,1
@@ -17539,7 +17554,6 @@ Rashi on Chagigah,Shabbat,1
 Leviticus,Tosafot Yom Tov on Mishnah Beitzah,1
 Jeremiah,Rashi on Bava Metzia,1
 I Samuel,Shadal on Deuteronomy,1
-Mishnah Sheviit,Rambam Introduction to the Mishnah,1
 Malachi,Zevachim,1
 B'Mareh HaBazak Part Three,Rosh Hashanah,1
 Moed Katan,Shmonah Kvatzim,1
@@ -17743,12 +17757,12 @@ I Kings,Tosefta Shevi'it,1
 Jonah,Mishnah Taanit,1
 Proverbs,Rabbeinu Chananel on Leviticus,1
 Arakhin,Or HaChaim on Numbers,1
+Hilchos Talmud Torah,Hosea,1
 I Kings,Me'or Einayim,1
 Mishnah Kelim,Tosafot Yom Tov on Pirkei Avot,1
 "Kessef Mishneh on Mishneh Torah, Sabbatical Year and the Jubilee",Zevachim,1
 Terumat HaDeshen,Tosafot on Shabbat,1
 Deuteronomy,Siddur Ashkenaz,1
-Nedarim,Rashi on Zevachim,1
 Bartenura on Mishnah Chullin,I Kings,1
 Nahum,Tanna Debei Eliyahu Rabbah,1
 Jeremiah,Metzudat David on Ecclesiastes,1
@@ -17782,7 +17796,7 @@ Chizkuni,Ezekiel,1
 Rif Menachot,Sanhedrin,1
 Psalms,Tosafot on Niddah,1
 "Kessef Mishneh on Mishneh Torah, Forbidden Foods",Makkot,1
-Gra on Pirkei Avot,I Kings,1
+Avodah Zarah,Hilchos Talmud Torah,1
 Niddah,Rosh on Shevuot,1
 Deuteronomy,Tosafot Yom Tov on Mishnah Meilah,1
 Genesis,Rambam Introduction to Seder Kodashim,1
@@ -18219,6 +18233,7 @@ Lamentations,"Mishneh Torah, Fasts",1
 Deuteronomy,Metzudat David on Nehemiah,1
 Esther,Tosefta Sanhedrin,1
 Ezra,Malbim on Ezekiel,1
+I Chronicles,Rambam Introduction to the Mishnah,1
 Lamentations,Sforno on Leviticus,1
 Job,Rashi on Hosea,1
 Joshua,Rashbam on Deuteronomy,1
@@ -18289,7 +18304,7 @@ I Chronicles,"Mishneh Torah, Leavened and Unleavened Bread",1
 Bava Kamma,Boaz on Mishnah Bava Kamma,1
 Orot,Yevamot,1
 Exodus,Tosefta Terumot,1
-Shabbat,Tosafot on Arakhin,1
+Avodah Zarah,Avodat HaKodesh,1
 Ezra,Rif Moed Katan,1
 Haggai,Metzudat Zion on II Chronicles,1
 Mishnah Eduyot,Mishnah Oholot,1
@@ -18382,12 +18397,12 @@ Mishnah Oholot,Tosafot on Ketubot,1
 Metzudat David on II Kings,Tosefta Sotah,1
 Job,Tosafot Yom Tov on Mishnah Nedarim,1
 Pirkei Avot,Rashi on Bava Metzia,1
+Bemidbar Rabbah,Rashi on Genesis,1
 Leviticus,Tosefta Keritot,1
 Ner Mitzvah,Zechariah,1
 Haamek Davar on Genesis,Nehemiah,1
 Rashi on Exodus,Taanit,1
 Hosea,Sforno on Genesis,1
-Amos,Sha'ar Ha'Gemul of the Ramban,1
 Mishnah Pesachim,Zephaniah,1
 B'Mareh HaBazak Part Six,Mishnah Kilayim,1
 II Chronicles,"Mishneh Torah, Mourning",1
@@ -18403,6 +18418,7 @@ Kiddushin,Rashi on Ketubot,1
 Ikar Siftei Hachamim on Deuteronomy,Sanhedrin,1
 Exodus,Teshuvot HaRosh part VIII,1
 Judges,Rif Bava Batra,1
+Rosh Hashanah,Yachin on Mishnah Eruvin,1
 Ezekiel,Tosefta Keilim Metsia,1
 Joel,Mei HaShiloach,1
 Ibn Ezra on Exodus,Moed Katan,1
@@ -18431,7 +18447,7 @@ Judges,Tosafot Yom Tov on Mishnah Sotah,1
 Bartenura on Mishnah Keritot,Exodus,1
 Aruch HaShulchan,Jonah,1
 "Kessef Mishneh on Mishneh Torah, Paschal Offering",Yevamot,1
-Rambam Introduction to the Mishnah,Sukkah,1
+Mishnah Temurah,Rambam Introduction to the Mishnah,1
 Mishnah Bikkurim,Or HaChaim on Leviticus,1
 Daat Zkenim on Genesis,Midrash Tanchuma,1
 B'Mareh HaBazak Part Six,II Kings,1
@@ -18621,13 +18637,14 @@ Boaz on Mishnah Shabbat,Niddah,1
 Rashi on Jeremiah,Zechariah,1
 Ketubot,Mishnah Eduyot,1
 Gittin,"Kessef Mishneh on Mishneh Torah, Shofar, Sukkah and Lulav",1
-Jeremiah,Mei HaShiloach,1
+Esther,Tanna Debei Eliyahu Rabbah,1
 Jonah,Shaar Habitachon,1
 Shemot Rabbah,Tosafot on Gittin,1
 Melamed Leho'il Part II,Mishnah Shabbat,1
 Deuteronomy,Song of Songs,1
 Beitzah,Kitzur Shulchan Aruch,1
 Numbers,Pe'er HaDor Teshuvot HaRambam,1
+Bava Metzia,Siftei Cohen on Yoreh De'ah,1
 "Kessef Mishneh on Mishneh Torah, Oaths",Sotah,1
 "Kessef Mishneh on Mishneh Torah, Leavened and Unleavened Bread",Kiddushin,1
 Ezekiel,Tosafot Yom Tov on Mishnah Yoma,1
@@ -18696,6 +18713,7 @@ Lamentations,Tosafot on Yoma,1
 Bava Kamma,Metzudat Zion on I Samuel,1
 Boaz on Mishnah Bava Kamma,Gittin,1
 Bereishit Rabbah,Rashi on I Kings,1
+Gra on Pirkei Avot,I Kings,1
 Habakkuk,Rashi on Proverbs,1
 Proverbs,Tosafot Yom Tov on Mishnah Sanhedrin,1
 Genesis,Rashi on Esther,1
@@ -18719,6 +18737,7 @@ Mishnah Tahorot,Tosafot on Sotah,1
 "Mishneh Torah, Repentance",Sefer HaMitzvot LaRambam,1
 Sforno on Exodus,Yevamot,1
 Prisha,Sanhedrin,1
+Nedarim,Rashi on Zevachim,1
 Keritot,Ramban on Numbers,1
 Daniel,Ezra,1
 Avodah Zarah,Chofetz Chaim,1
@@ -18745,6 +18764,7 @@ Ezra,Jerusalem Talmud Berakhot,1
 I Samuel,Ran on Nedarim,1
 Judges,Rif Rosh Hashanah,1
 Noda Byehuda II,Psalms,1
+Mishnah Zevachim,Rambam Introduction to the Mishnah,1
 Footnotes on Mekhilta DeRabbi Shimon Bar Yochai,Sukkah,1
 Ketubot,Rashba on Berakhot,1
 Job,Tosefta Sanhedrin,1
@@ -18916,6 +18936,7 @@ Or HaChaim on Leviticus,Rosh Hashanah,1
 Sotah,Tanna debei Eliyahu Zuta,1
 Metzudat Zion on Amos,Zephaniah,1
 Bartenura on Mishnah Shabbat,Numbers,1
+Isaiah,Tosefta Eduyot,1
 Bava Batra,Rif Bava Kamma,1
 Niddah,Yachin on Mishnah Zavim,1
 Proverbs,Tosafot Yom Tov on Mishnah Middot,1
@@ -18936,6 +18957,7 @@ Bartenura on Mishnah Berakhot,Genesis,1
 Gur Aryeh on Shemot,Seder Olam Rabbah,1
 Micah,Rashi on Exodus,1
 Bemidbar Rabbah,Zephaniah,1
+Hilchos Talmud Torah,Pri Etz Chaim,1
 B'Mareh HaBazak Part Five,Mishnah Maaser Sheni,1
 Eight Chapters,Hosea,1
 Bava Metzia,Micah,1
@@ -19147,6 +19169,7 @@ Bartenura on Mishnah Tahorot,Jeremiah,1
 Metzudat David on Zechariah,Numbers,1
 Midrash Tehillim,Otzar Midrashim,1
 Chagigah,Hadran,1
+Avodah Zarah,Rambam Introduction to the Mishnah,1
 II Samuel,Rashi on Judges,1
 Footnotes to Kohelet by Bruce Heitler,Song of Songs,1
 Beitzah,Radak on Genesis,1
@@ -19214,6 +19237,7 @@ I Chronicles,Jerusalem Talmud Ketubot,1
 B'Mareh HaBazak Part Seven,Lamentations,1
 Rashba on Shabbat,Tamid,1
 Beitzah,Hadran,1
+Jerusalem Talmud Ta'anit,Rashi on Genesis,1
 Hasagot HaRamban al Sefer HaMitzvot,Mishnah Middot,1
 Ecclesiastes,Sefer Yetzirah Gra Version,1
 Nedarim,Rif Chullin,1
@@ -19364,7 +19388,6 @@ Rashi on Genesis,Shemot Rabbah,1
 Daniel,Tosafot on Ketubot,1
 Mishnah Terumot,Tosafot on Kiddushin,1
 Nahum,Shadal on Genesis,1
-Leviticus,Sha'ar Ha'Gemul of the Ramban,1
 Jerusalem Talmud Beitzah,Tosefta Megillah,1
 Chullin,Ikar Siftei Hachamim on Numbers,1
 Boaz on Mishnah Tamid,Mishnah Middot,1
@@ -19434,7 +19457,6 @@ Bava Metzia,Rambam Introduction to the Mishnah,1
 Bartenura on Mishnah Kilayim,I Kings,1
 Berakhot,"Kessef Mishneh on Mishneh Torah, Vessels of the Sanctuary and Those who Serve Therein",1
 Bartenura on Mishnah Niddah,Mishnah Parah,1
-II Kings,Tosafot on Beitzah,1
 Malachi,Mekhilta DeRabbi Shimon Bar Yochai,1
 Sotah,Teshuvot haRambam,1
 Sukkah,Yachin on Mishnah Shabbat,1
@@ -19453,6 +19475,7 @@ Kli Yakar on Leviticus,Nazir,1
 Mishnah Kelim,Pesikta Rabbati,1
 II Chronicles,The Fathers According to Rabbi Nathan,1
 Beitzah,Mishnah Terumot,1
+Genesis,Rashi on Temurah,1
 Mishnah Tahorot,Tosafot on Avodah Zarah,1
 Daat Zkenim on Numbers,Vayikra Rabbah,1
 Or HaChaim on Deuteronomy,Zevachim,1
@@ -19472,7 +19495,6 @@ Genesis,Malbim on Isaiah,1
 "Mishneh Torah, Appraisals and Devoted Property",Rashi on Leviticus,1
 Micah,Shadal on Numbers,1
 Gur Aryeh on Bereishit,Sifrei Bamidbar,1
-II Samuel,Pesach Haggadah,1
 Makkot,Tosafot on Eruvin,1
 Malachi,Malbim on Psalms,1
 I Kings,Rashi on Micah,1
@@ -19569,6 +19591,7 @@ Jerusalem Talmud Berakhot,Shadal on Genesis,1
 II Kings,Rif Menachot,1
 Chiddushei Ramban on Bava Metzia,Temurah,1
 Esther,Radak on Zechariah,1
+Pirkei Avot,Sha'ar Ha'Gemul of the Ramban,1
 "Kessef Mishneh on Mishneh Torah, Sacrifices Rendered Unfit",Yevamot,1
 "Kessef Mishneh on Mishneh Torah, Heave Offerings",Niddah,1
 Keritot,Rashba on Beitzah,1
@@ -19692,6 +19715,7 @@ Habakkuk,Rashi on I Kings,1
 Devarim Rabbah,Esther,1
 Minchat Chinukh,Sanhedrin,1
 Megillah,Metzudat David on Judges,1
+Mishnah Bava Metzia,Rambam Introduction to the Mishnah,1
 Jerusalem Talmud Megillah,Mishnah Megillah,1
 Ezekiel,Sha'arei Orah,1
 Habakkuk,Metzudat Zion on Micah,1
@@ -19810,7 +19834,7 @@ Rashi on Habakkuk,Zechariah,1
 Malachi,Tosafot on Bava Batra,1
 Derech Hashem,Shevuot,1
 Me'or Einayim,Song of Songs,1
-Gur Aryeh on Bamidbar,II Kings,1
+Kedushat Levi,Zohar,1
 B'Mareh HaBazak Part Four,Genesis,1
 II Chronicles,Jerusalem Talmud Rosh Hashanah,1
 Rashba on Shabbat,Tosefta Keilim Kamma,1
@@ -19832,6 +19856,7 @@ Tosafot on Berakhot,Yoma,1
 Amos,Rosh on Taanit,1
 Gittin,Rashba on Avodah Zarah,1
 Judges,Rabbeinu Yonah on Pirkei Avot,1
+Mishnah Negaim,Rambam Introduction to the Mishnah,1
 B'Mareh HaBazak Part Five,Beitzah,1
 Boaz on Mishnah Oholot,Mishnah Terumot,1
 Hasagot HaRamban al Sefer HaMitzvot,I Kings,1
@@ -19949,6 +19974,7 @@ Jerusalem Talmud Shevi'it,Job,1
 I Samuel,Metzudat Zion on Proverbs,1
 Chullin,"Kessef Mishneh on Mishneh Torah, Shofar, Sukkah and Lulav",1
 Metzudat David on Nahum,Psalms,1
+Ezekiel,Tosefta Ta'anit,1
 Jonah,Metzudat David on I Chronicles,1
 Aruch HaShulchan,Sefer Hasidim,1
 B'Mareh HaBazak Part Five,Chagigah,1
@@ -19960,7 +19986,7 @@ Amos,Rashi on Daniel,1
 Bava Kamma,Or HaChaim on Genesis,1
 Daniel,Rashi on Nehemiah,1
 Joshua,Tosafot Yom Tov on Mishnah Nedarim,1
-Shir HaShirim Rabbah,Zephaniah,1
+Megillah,Yachin on Mishnah Berakhot,1
 II Kings,Yachin on Mishnah Zevachim,1
 Rambam on Mishnah Sanhedrin,Sotah,1
 Mishnah Negaim,Tosefta Negaim,1
@@ -20161,7 +20187,6 @@ B'Mareh HaBazak Part Four,Eruvin,1
 Bartenura on Mishnah Nedarim,Ecclesiastes,1
 Jeremiah,Jerusalem Talmud Hallah,1
 Genesis,"Mishneh Torah, Other Sources of Defilement",1
-Malachi,Rambam Introduction to the Mishnah,1
 Chullin,Rif Sukkah,1
 Malachi,Siftei Hakhamim,1
 Hosea,Rashi on I Chronicles,1
@@ -20233,6 +20258,7 @@ Chagigah,Mishnah Megillah,1
 "Kessef Mishneh on Mishneh Torah, Red Heifer",Yoma,1
 Chofetz Chaim,Chullin,1
 Kedushat Levi,Vayikra Rabbah,1
+Mishnah Chagigah,Rambam Introduction to the Mishnah,1
 Rashi on Proverbs,Zechariah,1
 Bava Metzia,"Mishneh Torah, Positive Mitzvot",1
 Aruch HaShulchan,I Chronicles,1
@@ -20258,6 +20284,7 @@ Seder Olam Rabbah,Zephaniah,1
 II Kings,Shadal on Leviticus,1
 Bava Kamma,Chofetz Chaim,1
 I Samuel,Ikar Tosafot Yom Tov on Mishnah Berakhot,1
+Bartenura on Pirkei Avot,Hilchos Talmud Torah,1
 I Samuel,Tosafot Yom Tov on Mishnah Taanit,1
 Leviticus,Sefer HaKana,1
 Mishnah Kilayim,Tosafot on Avodah Zarah,1
@@ -20400,6 +20427,7 @@ Deuteronomy,Tosafot Yom Tov on Mishnah Zavim,1
 Bereishit Rabbah,Or HaChaim on Exodus,1
 Rashi on Sukkah,Yoma,1
 Bava Metzia,Ketubot,1
+Isaiah,Sha'ar Ha'Gemul of the Ramban,1
 Chidushei Agadot on Berakhot,Kiddushin,1
 Bartenura on Mishnah Sotah,Malachi,1
 Chidushei Agadot on Kiddushin,Yevamot,1
@@ -20496,6 +20524,7 @@ Deuteronomy,Shulchan Aruch HaRav,1
 Bereishit Rabbah,Rashi on II Samuel,1
 Malbim on I Kings,Menachot,1
 II Chronicles,Rashi on Gittin,1
+Horayot,Rambam Introduction to the Mishnah,1
 Job,Rashi on Jonah,1
 "Ba'er Hetev on Shulchan Arukh, Yoreh De'ah",Mishnah Makhshirin,1
 II Samuel,Ketubot,1
@@ -20505,6 +20534,7 @@ Bava Metzia,Tosafot on Berakhot,1
 Psalms,Tosefta Bikkurim,1
 Jonah,Rashi on Taanit,1
 Bava Metzia,Rambam on Mishnah Shabbat,1
+Hasagot HaRamban al Sefer HaMitzvot,Hilchos Talmud Torah,1
 Rashbam on Bava Batra,Taanit,1
 Deuteronomy,Tosefta Temurah,1
 Gittin,Micah,1
@@ -20581,7 +20611,6 @@ Bartenura on Mishnah Pesachim,Psalms,1
 Boaz on Mishnah Chullin,Sukkah,1
 B'Mareh HaBazak Part Six,Taanit,1
 Jeremiah,Mishnah Berurah,1
-Psalms,Tosefta Kiddushin,1
 Tosafot on Megillah,Tosafot on Pesachim,1
 Rashbam on Bava Batra,Sefer HaChinukh,1
 Rashi on Ezekiel,Zechariah,1
@@ -20632,6 +20661,7 @@ Rif Pesachim,Zephaniah,1
 Amos,"Shulchan Arukh, Even HaEzer",1
 Chagigah,Chidushei Agadot on Berakhot,1
 Bekhorot,Rif Bava Metzia,1
+Hilchos Talmud Torah,Yoma,1
 Ecclesiastes,Jerusalem Talmud Sukkah,1
 Mishnah Berakhot,Tanya,1
 Eruvin,Sefer HaMitzvot LaRambam,1
@@ -20679,7 +20709,6 @@ Rashba on Avodah Zarah,Sukkah,1
 Esther,Sefer HaBahir,1
 Boaz on Mishnah Middot,Mishnah Parah,1
 Boaz on Mishnah Chullin,Nedarim,1
-Kohelet Rabbah,Sha'ar Ha'Gemul of the Ramban,1
 Job,Tosafot Yom Tov on Mishnah Berakhot,1
 Jeremiah,Rambam on Mishnah Sotah,1
 Deuteronomy,Rashi on Ezra,1
@@ -20820,7 +20849,6 @@ Jeremiah,Metzudat David on Zephaniah,1
 Avodah Zarah,Haamek Davar on Genesis,1
 Ezra,Mishnah Berakhot,1
 Bekhorot,Rashi on Berakhot,1
-Ecclesiastes,Rambam Introduction to the Mishnah,1
 Job,Tosafot on Chagigah,1
 I Chronicles,Rashi on Yevamot,1
 Sanhedrin,Teshuvot HaRadbaz Volume 3,1
@@ -20885,7 +20913,6 @@ Malachi,Tosafot on Ketubot,1
 Bartenura on Mishnah Shabbat,Boaz on Mishnah Shabbat,1
 "Kessef Mishneh on Mishneh Torah, Prayer and the Priestly Blessing",Pesachim,1
 Chiddushei Ramban on Sanhedrin,Nazir,1
-Megillah,Yachin on Mishnah Berakhot,1
 Siddur Ashkenaz,Zohar,1
 Rashi on Bava Metzia,Sanhedrin,1
 Abraham Cohen Footnotes to the English Translation of Masechet Berakhot,II Samuel,1
@@ -21015,7 +21042,6 @@ Derekh Mitsvotekha,Malachi,1
 Berakhot,Minchat Chinukh,1
 Bartenura on Mishnah Bava Metzia,Zechariah,1
 "Kessef Mishneh on Mishneh Torah, The Sanhedrin and the Penalties within their Jurisdiction",Ketubot,1
-Genesis,Rashi on Temurah,1
 Daniel,Tosafot Yom Tov on Mishnah Niddah,1
 Chizkuni,Mishnah Sheviit,1
 Jerusalem Talmud Sukkah,Song of Songs,1
@@ -21035,6 +21061,7 @@ Bava Batra,Eight Chapters,1
 Ecclesiastes,Mishnah Yadayim,1
 Deuteronomy,Rashi on Daniel,1
 Nehemiah,Tanna Debei Eliyahu Rabbah,1
+II Kings,Tosafot on Beitzah,1
 Esther,Rif Pesachim,1
 Tosafot Yom Tov on Mishnah Tamid,Zevachim,1
 "Ba'er Hetev on Shulchan Arukh, Yoreh De'ah",Mishnah Demai,1
@@ -21052,7 +21079,6 @@ Chidushei Halachot on Berakhot,Tosafot on Berakhot,1
 Chofetz Chaim,Mishnah Eduyot,1
 Avodah Zarah,Ikar Siftei Hachamim on Genesis,1
 Ecclesiastes,Rashi on Jeremiah,1
-II Chronicles,Sha'ar Ha'Gemul of the Ramban,1
 II Samuel,Jerusalem Talmud Yoma,1
 Daniel,Tosefta Berakhot,1
 Hasagot HaRamban al Sefer HaMitzvot,Mishnah Eduyot,1
@@ -21127,6 +21153,7 @@ Keter Shem Tov,Sotah,1
 Ralbag on I Chronicles,Sanhedrin,1
 Haamek Davar on Numbers,Isaiah,1
 Leviticus,Ralbag Ruth,1
+Hilchos Talmud Torah,Rashi on Sotah,1
 Tamid,Yachin on Mishnah Middot,1
 Devarim Rabbah,Yismach Yisrael on Pesach Haggadah,1
 "Kessef Mishneh on Mishneh Torah, Firstlings",Zevachim,1
@@ -21215,6 +21242,7 @@ Bartenura on Mishnah Rosh Hashanah,Nehemiah,1
 Sotah,Tosafot Yom Tov on Mishnah Tahorot,1
 Malbim on Isaiah,Micah,1
 Jerusalem Talmud Chagigah,Messilat Yesharim,1
+Shabbat,Tosafot on Arakhin,1
 Leviticus,Rashi on Malachi,1
 Genesis,I Kings,1
 Ikar Tosafot Yom Tov on Mishnah Sotah,Psalms,1
@@ -21247,7 +21275,6 @@ Megillah,Mekhilta d'Rabbi Yishmael,1
 Chullin,Rambam on Mishnah Berakhot,1
 Rashi on Keritot,Yoma,1
 Exodus,Tosefta Keritot,1
-Rashi on Genesis,Yalkut Shimoni on Torah,1
 I Kings,Mishnah Eruvin,1
 Genesis,Jerusalem Talmud Bikkurim,1
 "Kessef Mishneh on Mishneh Torah, Service on the Day of Atonement",Menachot,1
@@ -21385,7 +21412,6 @@ Nehemiah,Rashi on Lamentations,1
 Beitzah,"Kessef Mishneh on Mishneh Torah, Forbidden Foods",1
 "Mishneh Torah, Immersion Pools","Shulchan Arukh, Yoreh De'ah",1
 Proverbs,Rif Moed Katan,1
-Chagigah,Rashi on Genesis,1
 Isaiah,Tosefta Ma'aser Sheni,1
 Rosh Hashanah,Sforno on Deuteronomy,1
 Chiddushei Ramban on Shabbat,Makkot,1
