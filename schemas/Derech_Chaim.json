@@ -8,7 +8,10 @@
     "heTitle": "דרך חיים", 
     "era": "AH", 
     "authors": [
-        "Maharal"
+        {
+            "en": "Maharal", 
+            "he": "מהר\"ל"
+        }
     ], 
     "titleVariants": [
         "The Way of Life", 
@@ -50,24 +53,24 @@
             }, 
             {
                 "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
                 "addressTypes": [
+                    "Integer", 
                     "Integer", 
                     "Integer"
                 ], 
-                "lengths": [
-                    6
-                ], 
-                "title": "", 
                 "heTitle": "", 
-                "default": true, 
-                "depth": 2, 
+                "depth": 3, 
                 "key": "default", 
                 "heSectionNames": [
                     "פרק", 
+                    "משנה", 
                     "פסקה"
                 ], 
                 "sectionNames": [
                     "Chapter", 
+                    "Mishnah", 
                     "Paragraph"
                 ]
             }
