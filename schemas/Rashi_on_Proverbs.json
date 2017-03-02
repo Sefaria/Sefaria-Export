@@ -1,28 +1,52 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Proverbs"
+    ], 
+    "title": "Rashi on Proverbs", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על משלי"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על משלי", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Prov", 
+        "Rashi on Pro", 
+        "Rashi on Prov.", 
+        "Rashi on Mishlei", 
+        "Rashi on Pro.", 
+        "Rashi on Proverbs"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rashi", 
+        "Writings"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Proverbs", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            31, 
-            915
-        ], 
+        "heTitle": "רש\"י על משלי", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Proverbs", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Prov"
@@ -47,19 +71,23 @@
                 "lang": "he", 
                 "text": "רש\"י על משלי", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Proverbs", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Proverbs", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Proverbs"
+    }
 }

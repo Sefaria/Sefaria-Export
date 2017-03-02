@@ -1,28 +1,50 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Ruth"
+    ], 
+    "title": "Malbim on Ruth", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Malbim", 
+    "heTitleVariants": [
+        "מלבי\"ם על רות"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "מלבי\"ם על רות", 
     "authors": [
         {
             "en": "Malbim", 
             "he": "מלבי\"ם"
         }
     ], 
+    "titleVariants": [
+        "Malbim on Rut", 
+        "Malbim Literary Commantary on Rut", 
+        "Malbim Literary Commantary on Ruth", 
+        "Malbim on Ruth"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Malbim", 
+        "Writings"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Malbim on Ruth", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            4, 
-            85
-        ], 
+        "heTitle": "מלבי\"ם על רות", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Malbim on Ruth", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Malbim on Rut"
@@ -39,19 +61,23 @@
                 "lang": "he", 
                 "text": "מלבי\"ם על רות", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Malbim on Ruth", 
+                "primary": true
             }
         ], 
         "key": "Malbim on Ruth", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Malbim"
-    ], 
-    "title": "Malbim on Ruth"
+    }
 }

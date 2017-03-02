@@ -1,28 +1,57 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Mishnah Kinnim"
+    ], 
+    "title": "Rambam on Mishnah Kinnim", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rambam", 
+    "heTitleVariants": [
+        "רמב\"ם על משנה קינים", 
+        "רמב\"ם על קינים", 
+        "רמב\"ם על קנים", 
+        "רמב\"ם על משנה קנים"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רמב\"ם על משנה קינים", 
     "authors": [
         {
             "en": "Rambam", 
             "he": "רמב\"ם"
         }
     ], 
+    "titleVariants": [
+        "Maimonides on M. Kinnim", 
+        "Maimonides on Mishna Kinnim", 
+        "Maimonides on M Kinnim", 
+        "Maimonides on Mishnah Kinnim", 
+        "Rambam on M. Kinnim", 
+        "Rambam on Mishna Kinnim", 
+        "Rambam on M Kinnim", 
+        "Rambam on Mishnah Kinnim"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Mishna", 
+        "Comment"
+    ], 
+    "categories": [
+        "Mishnah", 
+        "Commentary", 
+        "Rambam", 
+        "Seder Kodashim"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rambam on Mishnah Kinnim", 
         "addressTypes": [
             "Perek", 
             "Mishnah", 
             "Integer"
         ], 
-        "lengths": [
-            3, 
-            16
-        ], 
+        "heTitle": "רמב\"ם על משנה קינים", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rambam on Mishnah Kinnim", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Maimonides on M. Kinnim"
@@ -67,19 +96,23 @@
             {
                 "lang": "he", 
                 "text": "רמב\"ם על משנה קנים"
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rambam on Mishnah Kinnim", 
+                "primary": true
             }
         ], 
         "key": "Rambam on Mishnah Kinnim", 
+        "heSectionNames": [
+            "פרק", 
+            "משנה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Mishna", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Mishnah", 
-        "Commentary", 
-        "Rambam"
-    ], 
-    "title": "Rambam on Mishnah Kinnim"
+    }
 }

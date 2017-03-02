@@ -1,28 +1,48 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Ruth"
+    ], 
+    "title": "Rashi on Ruth", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על רות"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על רות", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Rut", 
+        "Rashi on Ruth"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rashi", 
+        "Writings"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Ruth", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            4, 
-            85
-        ], 
+        "heTitle": "רש\"י על רות", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Ruth", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Rut"
@@ -31,19 +51,23 @@
                 "lang": "he", 
                 "text": "רש\"י על רות", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Ruth", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Ruth", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Ruth"
+    }
 }

@@ -1,28 +1,62 @@
 {
+    "depth": 3, 
+    "is_cited": true, 
+    "base_text_titles": [
+        "Genesis"
+    ], 
+    "title": "Shadal on Genesis", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Shadal", 
+    "heTitleVariants": [
+        "שד\"ל על בראשית", 
+        "שד\"ל על ברא'", 
+        "שד\"ל על בר'", 
+        "שד\"ל על בר׳", 
+        "שד\"ל על ברא׳", 
+        "שד\"ל על בְּרֵאשִׁית"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "שד\"ל על בראשית", 
     "authors": [
         {
             "en": "Shadal", 
             "he": "שד\"ל"
         }
     ], 
+    "titleVariants": [
+        "Shadal on Bereshit", 
+        "Shadal on Gen", 
+        "Shadal on Gen.", 
+        "Shadal on Breishit", 
+        "Shadal on Ber", 
+        "Shadal on Bereishit", 
+        "Shadal on Ber.", 
+        "Shadal on Beresheet", 
+        "Shadal on Bereshith", 
+        "Shadal on Genesis"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Shadal", 
+        "Torah"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Shadal on Genesis", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            50, 
-            1533
-        ], 
+        "heTitle": "שד\"ל על בראשית", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Shadal on Genesis", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Shadal on Bereshit"
@@ -83,19 +117,23 @@
             {
                 "lang": "he", 
                 "text": "שד\"ל על בְּרֵאשִׁית"
+            }, 
+            {
+                "lang": "en", 
+                "text": "Shadal on Genesis", 
+                "primary": true
             }
         ], 
         "key": "Shadal on Genesis", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Shadal"
-    ], 
-    "title": "Shadal on Genesis"
+    }
 }

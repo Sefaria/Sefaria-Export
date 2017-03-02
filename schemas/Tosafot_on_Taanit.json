@@ -1,28 +1,54 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Taanit"
+    ], 
+    "title": "Tosafot on Taanit", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Tosafot", 
+    "heTitleVariants": [
+        "תוספות על תענית"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "תוספות על תענית", 
     "authors": [
         {
             "en": "Tosafot", 
             "he": "תוספות"
         }
     ], 
+    "titleVariants": [
+        "Tosafot on Taanith", 
+        "Tosafot on Ta'anit", 
+        "Tosafot on Ta'anith", 
+        "Tosafot on Masekhet Taanit", 
+        "Tosafot on Talmud Taanit", 
+        "Tosafot on Tractate Taanit", 
+        "Tosafot on Taanit"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Tosafot", 
+        "Seder Moed"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Tosafot on Taanit", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            59, 
-            3661
-        ], 
+        "heTitle": "תוספות על תענית", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Tosafot on Taanit", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Tosafot on Taanith"
@@ -51,19 +77,23 @@
                 "lang": "he", 
                 "text": "תוספות על תענית", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Tosafot on Taanit", 
+                "primary": true
             }
         ], 
         "key": "Tosafot on Taanit", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Tosafot"
-    ], 
-    "title": "Tosafot on Taanit"
+    }
 }

@@ -1,28 +1,62 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Psalms"
+    ], 
+    "title": "Metzudat David on Psalms", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Metzudat David", 
+    "heTitleVariants": [
+        "מצודת דוד על תהילים", 
+        "מצודת דוד על תהלים", 
+        "מצודת דוד על תְּהִלִּים", 
+        "מצודת דוד על תילים", 
+        "מצודת דוד על תהילות", 
+        "מצודת דוד על תהילי'", 
+        "מצודת דוד על תהילי׳", 
+        "מצודת דוד על תהלי׳", 
+        "מצודת דוד על תהלי'"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "מצודת דוד על תהילים", 
     "authors": [
         {
             "en": "David Altschuler", 
             "he": "רבי דוד אלטשולר"
         }
     ], 
+    "titleVariants": [
+        "Metzudat David on Ps", 
+        "Metzudat David on Ps.", 
+        "Metzudat David on Psa", 
+        "Metzudat David on Tehilim", 
+        "Metzudat David on Psa.", 
+        "Metzudat David on Psalm", 
+        "Metzudat David on Tehillim", 
+        "Metzudat David on Psalms"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Metzudat David", 
+        "Writings"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Metzudat David on Psalms", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            150, 
-            2529
-        ], 
+        "heTitle": "מצודת דוד על תהילים", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Metzudat David on Psalms", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Metzudat David on Ps"
@@ -87,19 +121,23 @@
             {
                 "lang": "he", 
                 "text": "מצודת דוד על תהלי'"
+            }, 
+            {
+                "lang": "en", 
+                "text": "Metzudat David on Psalms", 
+                "primary": true
             }
         ], 
         "key": "Metzudat David on Psalms", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Metzudat David"
-    ], 
-    "title": "Metzudat David on Psalms"
+    }
 }

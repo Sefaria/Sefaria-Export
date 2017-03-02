@@ -1,28 +1,50 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Esther"
+    ], 
+    "title": "Rashi on Esther", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על אסתר"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על אסתר", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Est.", 
+        "Rashi on Est", 
+        "Rashi on Ester", 
+        "Rashi on Esther"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rashi", 
+        "Writings"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Esther", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            10, 
-            167
-        ], 
+        "heTitle": "רש\"י על אסתר", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Esther", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Est."
@@ -39,19 +61,23 @@
                 "lang": "he", 
                 "text": "רש\"י על אסתר", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Esther", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Esther", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Esther"
+    }
 }

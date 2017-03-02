@@ -1,28 +1,53 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Isaiah"
+    ], 
+    "title": "Rashi on Isaiah", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על ישעיהו", 
+        "רש\"י על ישעיה", 
+        "רש\"י על ישעי׳", 
+        "רש\"י על ישעי'"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על ישעיהו", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Isa.", 
+        "Rashi on Yishayahu", 
+        "Rashi on Isa", 
+        "Rashi on Isaiah"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rashi", 
+        "Prophets"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Isaiah", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            66, 
-            1291
-        ], 
+        "heTitle": "רש\"י על ישעיהו", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Isaiah", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Isa."
@@ -51,19 +76,23 @@
             {
                 "lang": "he", 
                 "text": "רש\"י על ישעי'"
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Isaiah", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Isaiah", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Isaiah"
+    }
 }

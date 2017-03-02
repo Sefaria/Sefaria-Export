@@ -1,28 +1,55 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Keritot"
+    ], 
+    "title": "Rashi on Keritot", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על כריתות"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על כריתות", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Talmud Keritot", 
+        "Rashi on Masekhet Keritot", 
+        "Rashi on Tractate Keritot", 
+        "Rashi on Keritut", 
+        "Rashi on Talmud Keritut", 
+        "Rashi on Masekhet Keritut", 
+        "Rashi on Tractate Keritut", 
+        "Rashi on Keritot"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Kodashim"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Keritot", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            54, 
-            3648
-        ], 
+        "heTitle": "רש\"י על כריתות", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Keritot", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Talmud Keritot"
@@ -55,19 +82,23 @@
                 "lang": "he", 
                 "text": "רש\"י על כריתות", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Keritot", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Keritot", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Keritot"
+    }
 }

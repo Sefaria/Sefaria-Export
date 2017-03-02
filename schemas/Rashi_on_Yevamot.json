@@ -1,28 +1,52 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Yevamot"
+    ], 
+    "title": "Rashi on Yevamot", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על יבמות"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על יבמות", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Talmud Yevamot", 
+        "Rashi on Yevamoth", 
+        "Rashi on Tractate Yevamot", 
+        "Rashi on Masekhet Yevamot", 
+        "Rashi on Yevamot"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Nashim"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Yevamot", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            242, 
-            11745
-        ], 
+        "heTitle": "רש\"י על יבמות", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Yevamot", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Talmud Yevamot"
@@ -43,19 +67,23 @@
                 "lang": "he", 
                 "text": "רש\"י על יבמות", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Yevamot", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Yevamot", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Yevamot"
+    }
 }

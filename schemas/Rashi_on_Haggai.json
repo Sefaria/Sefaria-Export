@@ -1,28 +1,50 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Haggai"
+    ], 
+    "title": "Rashi on Haggai", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על חגי"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על חגי", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Chaggai", 
+        "Rashi on Hag", 
+        "Rashi on Hag.", 
+        "Rashi on Haggai"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rashi", 
+        "Prophets"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Haggai", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            2, 
-            38
-        ], 
+        "heTitle": "רש\"י על חגי", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Haggai", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Chaggai"
@@ -39,19 +61,23 @@
                 "lang": "he", 
                 "text": "רש\"י על חגי", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Haggai", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Haggai", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Haggai"
+    }
 }

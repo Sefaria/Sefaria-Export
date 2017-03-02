@@ -1,28 +1,51 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Ezekiel"
+    ], 
+    "title": "Rashi on Ezekiel", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על יחזקאל"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על יחזקאל", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Ezek", 
+        "Rashi on Ezek.", 
+        "Rashi on Yehezkel", 
+        "Rashi on Yechezkel", 
+        "Rashi on Ezekiel"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rashi", 
+        "Prophets"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Ezekiel", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            48, 
-            1273
-        ], 
+        "heTitle": "רש\"י על יחזקאל", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Ezekiel", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Ezek"
@@ -43,19 +66,23 @@
                 "lang": "he", 
                 "text": "רש\"י על יחזקאל", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Ezekiel", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Ezekiel", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Ezekiel"
+    }
 }

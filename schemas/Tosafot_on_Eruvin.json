@@ -1,28 +1,53 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Eruvin"
+    ], 
+    "title": "Tosafot on Eruvin", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Tosafot", 
+    "heTitleVariants": [
+        "תוספות על עירובין", 
+        "תוספות על ערובין"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "תוספות על עירובין", 
     "authors": [
         {
             "en": "Tosafot", 
             "he": "תוספות"
         }
     ], 
+    "titleVariants": [
+        "Tosafot on Talmud Eruvin", 
+        "Tosafot on Masekhet Eruvin", 
+        "Tosafot on Tractate Eruvin", 
+        "Tosafot on Eiruvin", 
+        "Tosafot on Eruvin"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Tosafot", 
+        "Seder Moed"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Tosafot on Eruvin", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            207, 
-            10184
-        ], 
+        "heTitle": "תוספות על עירובין", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Tosafot on Eruvin", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Tosafot on Talmud Eruvin"
@@ -47,19 +72,23 @@
             {
                 "lang": "he", 
                 "text": "תוספות על ערובין"
+            }, 
+            {
+                "lang": "en", 
+                "text": "Tosafot on Eruvin", 
+                "primary": true
             }
         ], 
         "key": "Tosafot on Eruvin", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Tosafot"
-    ], 
-    "title": "Tosafot on Eruvin"
+    }
 }

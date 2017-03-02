@@ -1,28 +1,48 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Joel"
+    ], 
+    "title": "Rashi on Joel", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על יואל"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על יואל", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Yoel", 
+        "Rashi on Joel"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rashi", 
+        "Prophets"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Joel", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            4, 
-            73
-        ], 
+        "heTitle": "רש\"י על יואל", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Joel", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Yoel"
@@ -31,19 +51,23 @@
                 "lang": "he", 
                 "text": "רש\"י על יואל", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Joel", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Joel", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Joel"
+    }
 }

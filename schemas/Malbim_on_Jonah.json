@@ -1,28 +1,54 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Jonah"
+    ], 
+    "title": "Malbim on Jonah", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Malbim", 
+    "heTitleVariants": [
+        "מלבי\"ם על יונה"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "מלבי\"ם על יונה", 
     "authors": [
         {
             "en": "Malbim", 
             "he": "מלבי\"ם"
         }
     ], 
+    "titleVariants": [
+        "Malbim on Yonah", 
+        "Malbim on Jon.", 
+        "Malbim on Jon", 
+        "Malbim Literary Commantary on Yonah", 
+        "Malbim Literary Commantary on Jon.", 
+        "Malbim Literary Commantary on Jon", 
+        "Malbim Literary Commantary on Jonah", 
+        "Malbim on Jonah"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Malbim", 
+        "Prophets"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Malbim on Jonah", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            4, 
-            48
-        ], 
+        "heTitle": "מלבי\"ם על יונה", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Malbim on Jonah", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Malbim on Yonah"
@@ -55,19 +81,23 @@
                 "lang": "he", 
                 "text": "מלבי\"ם על יונה", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Malbim on Jonah", 
+                "primary": true
             }
         ], 
         "key": "Malbim on Jonah", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Malbim"
-    ], 
-    "title": "Malbim on Jonah"
+    }
 }

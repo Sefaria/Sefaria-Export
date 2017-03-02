@@ -1,28 +1,53 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Shabbat"
+    ], 
+    "title": "Tosafot on Shabbat", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Tosafot", 
+    "heTitleVariants": [
+        "תוספות על שבת"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "תוספות על שבת", 
     "authors": [
         {
             "en": "Tosafot", 
             "he": "תוספות"
         }
     ], 
+    "titleVariants": [
+        "Tosafot on Masekhet Shabbat", 
+        "Tosafot on Shabbos", 
+        "Tosafot on Shabbath", 
+        "Tosafot on Talmud Shabbat", 
+        "Tosafot on Tractate Shabbat", 
+        "Tosafot on Shabbat"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Tosafot", 
+        "Seder Moed"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Tosafot on Shabbat", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            312, 
-            17165
-        ], 
+        "heTitle": "תוספות על שבת", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Tosafot on Shabbat", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Tosafot on Masekhet Shabbat"
@@ -47,19 +72,23 @@
                 "lang": "he", 
                 "text": "תוספות על שבת", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Tosafot on Shabbat", 
+                "primary": true
             }
         ], 
         "key": "Tosafot on Shabbat", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Tosafot"
-    ], 
-    "title": "Tosafot on Shabbat"
+    }
 }

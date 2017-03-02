@@ -1,28 +1,50 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Jonah"
+    ], 
+    "title": "Ibn Ezra on Jonah", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Ibn Ezra", 
+    "heTitleVariants": [
+        "אבן עזרא על יונה"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "אבן עזרא על יונה", 
     "authors": [
         {
             "en": "Ibn Ezra", 
             "he": "אבן עזרא"
         }
     ], 
+    "titleVariants": [
+        "Ibn Ezra on Yonah", 
+        "Ibn Ezra on Jon.", 
+        "Ibn Ezra on Jon", 
+        "Ibn Ezra on Jonah"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Ibn Ezra", 
+        "Prophets"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Ibn Ezra on Jonah", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            4, 
-            48
-        ], 
+        "heTitle": "אבן עזרא על יונה", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Ibn Ezra on Jonah", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Ibn Ezra on Yonah"
@@ -39,19 +61,23 @@
                 "lang": "he", 
                 "text": "אבן עזרא על יונה", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Ibn Ezra on Jonah", 
+                "primary": true
             }
         ], 
         "key": "Ibn Ezra on Jonah", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Ibn Ezra"
-    ], 
-    "title": "Ibn Ezra on Jonah"
+    }
 }

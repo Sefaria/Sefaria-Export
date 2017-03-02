@@ -1,28 +1,58 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Berakhot"
+    ], 
+    "title": "Rashi on Berakhot", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על ברכות", 
+        "רש\"י על בְּרָכוֹת"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על ברכות", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Berachoth", 
+        "Rashi on Berachot", 
+        "Rashi on Berakhoth", 
+        "Rashi on Brachot", 
+        "Rashi on Tractate Berakhot", 
+        "Rashi on Berachos", 
+        "Rashi on Masekhet Berakhot", 
+        "Rashi on Talmud Berakhot", 
+        "Rashi on Berakot", 
+        "Rashi on Berakhot"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Zeraim"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Berakhot", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            125, 
-            9861
-        ], 
+        "heTitle": "רש\"י על ברכות", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Berakhot", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Berachoth"
@@ -67,19 +97,23 @@
             {
                 "lang": "he", 
                 "text": "רש\"י על בְּרָכוֹת"
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Berakhot", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Berakhot", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Berakhot"
+    }
 }

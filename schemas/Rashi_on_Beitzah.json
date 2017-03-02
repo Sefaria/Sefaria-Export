@@ -1,28 +1,53 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Beitzah"
+    ], 
+    "title": "Rashi on Beitzah", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על ביצה"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על ביצה", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Talmud Beitzah", 
+        "Rashi on Masekhet Beitzah", 
+        "Rashi on Tractate Beitzah", 
+        "Rashi on Beiah", 
+        "Rashi on Beitza", 
+        "Rashi on Beitzah"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Moed"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Beitzah", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            78, 
-            3880
-        ], 
+        "heTitle": "רש\"י על ביצה", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Beitzah", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Talmud Beitzah"
@@ -47,19 +72,23 @@
                 "lang": "he", 
                 "text": "רש\"י על ביצה", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Beitzah", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Beitzah", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Beitzah"
+    }
 }

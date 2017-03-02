@@ -1,28 +1,49 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Job"
+    ], 
+    "title": "Rashi on Job", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על איוב"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על איוב", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Iyov", 
+        "Rashi on Iyyov", 
+        "Rashi on Job"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rashi", 
+        "Writings"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Job", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            42, 
-            1070
-        ], 
+        "heTitle": "רש\"י על איוב", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Job", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Iyov"
@@ -35,19 +56,23 @@
                 "lang": "he", 
                 "text": "רש\"י על איוב", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Job", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Job", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Job"
+    }
 }

@@ -1,28 +1,50 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Joel"
+    ], 
+    "title": "Malbim on Joel", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Malbim", 
+    "heTitleVariants": [
+        "מלבי\"ם על יואל"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "מלבי\"ם על יואל", 
     "authors": [
         {
             "en": "Malbim", 
             "he": "מלבי\"ם"
         }
     ], 
+    "titleVariants": [
+        "Malbim on Yoel", 
+        "Malbim Literary Commantary on Yoel", 
+        "Malbim Literary Commantary on Joel", 
+        "Malbim on Joel"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Malbim", 
+        "Prophets"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Malbim on Joel", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            4, 
-            73
-        ], 
+        "heTitle": "מלבי\"ם על יואל", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Malbim on Joel", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Malbim on Yoel"
@@ -39,19 +61,23 @@
                 "lang": "he", 
                 "text": "מלבי\"ם על יואל", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Malbim on Joel", 
+                "primary": true
             }
         ], 
         "key": "Malbim on Joel", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Malbim"
-    ], 
-    "title": "Malbim on Joel"
+    }
 }

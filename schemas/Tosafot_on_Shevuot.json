@@ -1,28 +1,51 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Shevuot"
+    ], 
+    "title": "Tosafot on Shevuot", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Tosafot", 
+    "heTitleVariants": [
+        "תוספות על שבועות"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "תוספות על שבועות", 
     "authors": [
         {
             "en": "Tosafot", 
             "he": "תוספות"
         }
     ], 
+    "titleVariants": [
+        "Tosafot on Masekhet Shevuot", 
+        "Tosafot on Talmud Shevuot", 
+        "Tosafot on Tractate Shevuot", 
+        "Tosafot on Shevuot"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Tosafot", 
+        "Seder Nezikin"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Tosafot on Shevuot", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            96, 
-            4842
-        ], 
+        "heTitle": "תוספות על שבועות", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Tosafot on Shevuot", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Tosafot on Masekhet Shevuot"
@@ -39,19 +62,23 @@
                 "lang": "he", 
                 "text": "תוספות על שבועות", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Tosafot on Shevuot", 
+                "primary": true
             }
         ], 
         "key": "Tosafot on Shevuot", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Tosafot"
-    ], 
-    "title": "Tosafot on Shevuot"
+    }
 }

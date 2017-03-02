@@ -1,28 +1,49 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Ezra"
+    ], 
+    "title": "Rashi on Ezra", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על עזרא"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על עזרא", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Ezr.", 
+        "Rashi on Ezr", 
+        "Rashi on Ezra"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rashi", 
+        "Writings"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Ezra", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            10, 
-            280
-        ], 
+        "heTitle": "רש\"י על עזרא", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Ezra", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Ezr."
@@ -35,19 +56,23 @@
                 "lang": "he", 
                 "text": "רש\"י על עזרא", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Ezra", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Ezra", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Ezra"
+    }
 }

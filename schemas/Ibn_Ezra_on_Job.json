@@ -1,28 +1,49 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Job"
+    ], 
+    "title": "Ibn Ezra on Job", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Ibn Ezra", 
+    "heTitleVariants": [
+        "אבן עזרא על איוב"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "אבן עזרא על איוב", 
     "authors": [
         {
             "en": "Ibn Ezra", 
             "he": "אבן עזרא"
         }
     ], 
+    "titleVariants": [
+        "Ibn Ezra on Iyov", 
+        "Ibn Ezra on Iyyov", 
+        "Ibn Ezra on Job"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Ibn Ezra", 
+        "Writings"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Ibn Ezra on Job", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            42, 
-            1070
-        ], 
+        "heTitle": "אבן עזרא על איוב", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Ibn Ezra on Job", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Ibn Ezra on Iyov"
@@ -35,19 +56,23 @@
                 "lang": "he", 
                 "text": "אבן עזרא על איוב", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Ibn Ezra on Job", 
+                "primary": true
             }
         ], 
         "key": "Ibn Ezra on Job", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Ibn Ezra"
-    ], 
-    "title": "Ibn Ezra on Job"
+    }
 }

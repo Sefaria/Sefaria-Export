@@ -1,28 +1,62 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Psalms"
+    ], 
+    "title": "Rashi on Psalms", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על תהילים", 
+        "רש\"י על תהלים", 
+        "רש\"י על תְּהִלִּים", 
+        "רש\"י על תילים", 
+        "רש\"י על תהילות", 
+        "רש\"י על תהילי'", 
+        "רש\"י על תהילי׳", 
+        "רש\"י על תהלי׳", 
+        "רש\"י על תהלי'"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על תהילים", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Ps", 
+        "Rashi on Ps.", 
+        "Rashi on Psa", 
+        "Rashi on Tehilim", 
+        "Rashi on Psa.", 
+        "Rashi on Psalm", 
+        "Rashi on Tehillim", 
+        "Rashi on Psalms"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rashi", 
+        "Writings"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Psalms", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            150, 
-            2529
-        ], 
+        "heTitle": "רש\"י על תהילים", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Psalms", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Ps"
@@ -87,19 +121,23 @@
             {
                 "lang": "he", 
                 "text": "רש\"י על תהלי'"
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Psalms", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Psalms", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Psalms"
+    }
 }

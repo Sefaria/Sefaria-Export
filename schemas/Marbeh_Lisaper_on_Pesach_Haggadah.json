@@ -1,18 +1,45 @@
 {
+    "base_text_titles": [
+        "Pesach Haggadah"
+    ], 
+    "title": "Marbeh Lisaper on Pesach Haggadah", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Marbeh Lisaper", 
+    "heTitleVariants": [
+        "מרבה לספר על הגדה של פסח"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "מרבה לספר על הגדה של פסח", 
     "authors": [
         {
             "en": "Yedidiah Tiah Weil", 
             "he": "ידידיה טיאה ווייל"
         }
     ], 
+    "titleVariants": [
+        "Marbeh Lisaper on Pesach Hagadah", 
+        "Marbeh Lisaper on Passover Haggadah", 
+        "Marbeh Lisaper on Passover Hagadah", 
+        "Marbeh Lisaper on Haggadah", 
+        "Marbeh Lisaper on Hagadah", 
+        "Marbeh Lisaper on Haggadah Shel Pesach", 
+        "Marbeh Lisaper on Pesach Haggadah"
+    ], 
+    "categories": [
+        "Liturgy", 
+        "Commentary", 
+        "Marbeh Lisaper"
+    ], 
     "schema": {
         "nodes": [
             {
                 "nodeType": "JaggedArrayNode", 
+                "title": "Kadesh", 
                 "addressTypes": [
                     "Integer", 
                     "Integer"
                 ], 
+                "heTitle": "קדש", 
                 "depth": 2, 
                 "titles": [
                     {
@@ -27,6 +54,10 @@
                     }
                 ], 
                 "key": "Kadesh", 
+                "heSectionNames": [
+                    "פסקה", 
+                    "פירוש"
+                ], 
                 "sectionNames": [
                     "Paragraph", 
                     "Comment"
@@ -34,10 +65,12 @@
             }, 
             {
                 "nodeType": "JaggedArrayNode", 
+                "title": "Urchatz", 
                 "addressTypes": [
                     "Integer", 
                     "Integer"
                 ], 
+                "heTitle": "ורחץ", 
                 "depth": 2, 
                 "titles": [
                     {
@@ -56,6 +89,10 @@
                     }
                 ], 
                 "key": "Urchatz", 
+                "heSectionNames": [
+                    "פסקה", 
+                    "פירוש"
+                ], 
                 "sectionNames": [
                     "Paragraph", 
                     "Comment"
@@ -63,10 +100,12 @@
             }, 
             {
                 "nodeType": "JaggedArrayNode", 
+                "title": "Karpas", 
                 "addressTypes": [
                     "Integer", 
                     "Integer"
                 ], 
+                "heTitle": "כרפס", 
                 "depth": 2, 
                 "titles": [
                     {
@@ -85,6 +124,10 @@
                     }
                 ], 
                 "key": "Karpas", 
+                "heSectionNames": [
+                    "פסקה", 
+                    "פירוש"
+                ], 
                 "sectionNames": [
                     "Paragraph", 
                     "Comment"
@@ -92,10 +135,12 @@
             }, 
             {
                 "nodeType": "JaggedArrayNode", 
+                "title": "Yachatz", 
                 "addressTypes": [
                     "Integer", 
                     "Integer"
                 ], 
+                "heTitle": "יחץ", 
                 "depth": 2, 
                 "titles": [
                     {
@@ -114,6 +159,10 @@
                     }
                 ], 
                 "key": "Yachatz", 
+                "heSectionNames": [
+                    "פסקה", 
+                    "פירוש"
+                ], 
                 "sectionNames": [
                     "Paragraph", 
                     "Comment"
@@ -123,10 +172,12 @@
                 "nodes": [
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Ha Lachma Anya", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "הא לחמא עניא", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -141,6 +192,10 @@
                             }
                         ], 
                         "key": "Ha Lachma Anya", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -148,10 +203,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Four Questions", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "מה נשתנה", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -174,6 +231,10 @@
                             }
                         ], 
                         "key": "Four Questions", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -181,10 +242,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "We Were Slaves in Egypt", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "עבדים היינו", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -199,6 +262,10 @@
                             }
                         ], 
                         "key": "We Were Slaves in Egypt", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -206,10 +273,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Story of the Five Rabbis", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "מעשה שהיה בבני ברק", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -224,6 +293,10 @@
                             }
                         ], 
                         "key": "Story of the Five Rabbis", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -231,10 +304,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Four Sons", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "כנגד ארבעה בנים", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -249,6 +324,10 @@
                             }
                         ], 
                         "key": "The Four Sons", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -256,10 +335,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Yechol Me'rosh Chodesh", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "יכול מראש חודש", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -274,6 +355,10 @@
                             }
                         ], 
                         "key": "Yechol Me'rosh Chodesh", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -281,10 +366,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "In the Beginning Our Fathers Were Idol Worshipers", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "מתחילה עובדי עבודה זרה היו אבותינו", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -299,6 +386,10 @@
                             }
                         ], 
                         "key": "In the Beginning Our Fathers Were Idol Worshipers", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -306,10 +397,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "First Fruits Declaration", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "ארמי אבד אבי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -324,6 +417,10 @@
                             }
                         ], 
                         "key": "First Fruits Declaration", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -331,10 +428,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Ten Plagues", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "עשרת המכות", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -349,6 +448,10 @@
                             }
                         ], 
                         "key": "The Ten Plagues", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -356,10 +459,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Dayenu", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "דיינו", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -374,6 +479,10 @@
                             }
                         ], 
                         "key": "Dayenu", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -381,10 +490,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Rabban Gamliel's Three Things", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "פסח מצה ומרור", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -399,6 +510,10 @@
                             }
                         ], 
                         "key": "Rabban Gamliel's Three Things", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -406,10 +521,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "First Half of Hallel", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "חצי הלל", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -424,6 +541,10 @@
                             }
                         ], 
                         "key": "First Half of Hallel", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -431,10 +552,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Second Cup of Wine", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "כוס שניה", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -449,6 +572,10 @@
                             }
                         ], 
                         "key": "Second Cup of Wine", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -467,14 +594,18 @@
                         "primary": true
                     }
                 ], 
-                "key": "Magid"
+                "heTitle": "מגיד", 
+                "key": "Magid", 
+                "title": "Magid"
             }, 
             {
                 "nodeType": "JaggedArrayNode", 
+                "title": "Rachtzah", 
                 "addressTypes": [
                     "Integer", 
                     "Integer"
                 ], 
+                "heTitle": "רחצה", 
                 "depth": 2, 
                 "titles": [
                     {
@@ -489,6 +620,10 @@
                     }
                 ], 
                 "key": "Rachtzah", 
+                "heSectionNames": [
+                    "פסקה", 
+                    "פירוש"
+                ], 
                 "sectionNames": [
                     "Paragraph", 
                     "Comment"
@@ -496,10 +631,12 @@
             }, 
             {
                 "nodeType": "JaggedArrayNode", 
+                "title": "Motzi Matzah", 
                 "addressTypes": [
                     "Integer", 
                     "Integer"
                 ], 
+                "heTitle": "מוציא מצה", 
                 "depth": 2, 
                 "titles": [
                     {
@@ -514,6 +651,10 @@
                     }
                 ], 
                 "key": "Motzi Matzah", 
+                "heSectionNames": [
+                    "פסקה", 
+                    "פירוש"
+                ], 
                 "sectionNames": [
                     "Paragraph", 
                     "Comment"
@@ -521,10 +662,12 @@
             }, 
             {
                 "nodeType": "JaggedArrayNode", 
+                "title": "Maror", 
                 "addressTypes": [
                     "Integer", 
                     "Integer"
                 ], 
+                "heTitle": "מרור", 
                 "depth": 2, 
                 "titles": [
                     {
@@ -539,6 +682,10 @@
                     }
                 ], 
                 "key": "Maror", 
+                "heSectionNames": [
+                    "פסקה", 
+                    "פירוש"
+                ], 
                 "sectionNames": [
                     "Paragraph", 
                     "Comment"
@@ -546,10 +693,12 @@
             }, 
             {
                 "nodeType": "JaggedArrayNode", 
+                "title": "Korech", 
                 "addressTypes": [
                     "Integer", 
                     "Integer"
                 ], 
+                "heTitle": "כורך", 
                 "depth": 2, 
                 "titles": [
                     {
@@ -564,6 +713,10 @@
                     }
                 ], 
                 "key": "Korech", 
+                "heSectionNames": [
+                    "פסקה", 
+                    "פירוש"
+                ], 
                 "sectionNames": [
                     "Paragraph", 
                     "Comment"
@@ -571,10 +724,12 @@
             }, 
             {
                 "nodeType": "JaggedArrayNode", 
+                "title": "Shulchan Orech", 
                 "addressTypes": [
                     "Integer", 
                     "Integer"
                 ], 
+                "heTitle": "שולחן עורך", 
                 "depth": 2, 
                 "titles": [
                     {
@@ -593,6 +748,10 @@
                     }
                 ], 
                 "key": "Shulchan Orech", 
+                "heSectionNames": [
+                    "פסקה", 
+                    "פירוש"
+                ], 
                 "sectionNames": [
                     "Paragraph", 
                     "Comment"
@@ -600,10 +759,12 @@
             }, 
             {
                 "nodeType": "JaggedArrayNode", 
+                "title": "Tzafun", 
                 "addressTypes": [
                     "Integer", 
                     "Integer"
                 ], 
+                "heTitle": "צפון", 
                 "depth": 2, 
                 "titles": [
                     {
@@ -626,6 +787,10 @@
                     }
                 ], 
                 "key": "Tzafun", 
+                "heSectionNames": [
+                    "פסקה", 
+                    "פירוש"
+                ], 
                 "sectionNames": [
                     "Paragraph", 
                     "Comment"
@@ -635,10 +800,12 @@
                 "nodes": [
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Birkat Hamazon", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "ברכת המזון", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -657,6 +824,10 @@
                             }
                         ], 
                         "key": "Birkat Hamazon", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -664,10 +835,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Third Cup of Wine", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "כוס שלישית", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -682,6 +855,10 @@
                             }
                         ], 
                         "key": "Third Cup of Wine", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -689,10 +866,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Pour Out Thy Wrath", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "שפוך חמתך", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -707,6 +886,10 @@
                             }
                         ], 
                         "key": "Pour Out Thy Wrath", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -725,16 +908,20 @@
                         "primary": true
                     }
                 ], 
-                "key": "Barech"
+                "heTitle": "ברך", 
+                "key": "Barech", 
+                "title": "Barech"
             }, 
             {
                 "nodes": [
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Second Half of Hallel", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "מסיימים את ההלל", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -749,6 +936,10 @@
                             }
                         ], 
                         "key": "Second Half of Hallel", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -756,10 +947,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Songs of Praise and Thanks", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "מזמורי הודיה", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -774,6 +967,10 @@
                             }
                         ], 
                         "key": "Songs of Praise and Thanks", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -781,10 +978,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Fourth Cup of Wine", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "כוס רביעית", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -799,6 +998,10 @@
                             }
                         ], 
                         "key": "Fourth Cup of Wine", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -817,16 +1020,20 @@
                         "primary": true
                     }
                 ], 
-                "key": "Hallel"
+                "heTitle": "הלל", 
+                "key": "Hallel", 
+                "title": "Hallel"
             }, 
             {
                 "nodes": [
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Chasal Siddur Pesach", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "חסל סידור פסח", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -841,6 +1048,10 @@
                             }
                         ], 
                         "key": "Chasal Siddur Pesach", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -848,10 +1059,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "L'Shana HaBaa", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "לשנה הבאה", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -866,6 +1079,10 @@
                             }
                         ], 
                         "key": "L'Shana HaBaa", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -873,10 +1090,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "And It Happened at Midnight", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "ויהי בחצי הלילה", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -891,6 +1110,10 @@
                             }
                         ], 
                         "key": "And It Happened at Midnight", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -898,10 +1121,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Zevach Pesach", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "זבח פסח", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -916,6 +1141,10 @@
                             }
                         ], 
                         "key": "Zevach Pesach", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -923,10 +1152,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Ki Lo Na'e", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "אדיר במלוכה", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -941,6 +1172,10 @@
                             }
                         ], 
                         "key": "Ki Lo Na'e", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -948,10 +1183,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Adir Hu", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "אדיר הוא", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -966,6 +1203,10 @@
                             }
                         ], 
                         "key": "Adir Hu", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -973,10 +1214,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Sefirat HaOmer", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "ספירת העומר", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -991,6 +1234,10 @@
                             }
                         ], 
                         "key": "Sefirat HaOmer", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -998,10 +1245,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Echad Mi Yodea", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "אחד מי יודע", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -1020,6 +1269,10 @@
                             }
                         ], 
                         "key": "Echad Mi Yodea", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -1027,10 +1280,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Chad Gadya", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "חד גדיא", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -1045,6 +1300,10 @@
                             }
                         ], 
                         "key": "Chad Gadya", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -1063,15 +1322,12 @@
                         "primary": true
                     }
                 ], 
-                "key": "Nirtzah"
+                "heTitle": "נרצה", 
+                "key": "Nirtzah", 
+                "title": "Nirtzah"
             }
         ], 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Marbeh Lisaper on Pesach Haggadah", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Marbeh Lisaper on Pesach Hagadah"
@@ -1100,14 +1356,15 @@
                 "lang": "he", 
                 "text": "מרבה לספר על הגדה של פסח", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Marbeh Lisaper on Pesach Haggadah", 
+                "primary": true
             }
         ], 
-        "key": "Marbeh Lisaper on Pesach Haggadah"
-    }, 
-    "categories": [
-        "Liturgy", 
-        "Commentary", 
-        "Marbeh Lisaper"
-    ], 
-    "title": "Marbeh Lisaper on Pesach Haggadah"
+        "heTitle": "מרבה לספר על הגדה של פסח", 
+        "key": "Marbeh Lisaper on Pesach Haggadah", 
+        "title": "Marbeh Lisaper on Pesach Haggadah"
+    }
 }

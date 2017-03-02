@@ -1,28 +1,50 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Lamentations"
+    ], 
+    "title": "Rashi on Lamentations", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על איכה"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על איכה", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Lam", 
+        "Rashi on Lam.", 
+        "Rashi on Eichah", 
+        "Rashi on Lamentations"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rashi", 
+        "Writings"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Lamentations", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            5, 
-            154
-        ], 
+        "heTitle": "רש\"י על איכה", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Lamentations", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Lam"
@@ -39,19 +61,23 @@
                 "lang": "he", 
                 "text": "רש\"י על איכה", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Lamentations", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Lamentations", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Lamentations"
+    }
 }

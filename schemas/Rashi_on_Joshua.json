@@ -1,28 +1,52 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Joshua"
+    ], 
+    "title": "Rashi on Joshua", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על יהושע"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על יהושע", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Jos", 
+        "Rashi on Yehoshua", 
+        "Rashi on Jos.", 
+        "Rashi on Josh", 
+        "Rashi on Josh.", 
+        "Rashi on Joshua"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rashi", 
+        "Prophets"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Joshua", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            24, 
-            658
-        ], 
+        "heTitle": "רש\"י על יהושע", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Joshua", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Jos"
@@ -47,19 +71,23 @@
                 "lang": "he", 
                 "text": "רש\"י על יהושע", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Joshua", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Joshua", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Joshua"
+    }
 }

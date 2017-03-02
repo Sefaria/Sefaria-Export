@@ -1,28 +1,52 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Horayot"
+    ], 
+    "title": "Rashi on Horayot", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על הוריות"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על הוריות", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Masekhet Horayot", 
+        "Rashi on Talmud Horayot", 
+        "Rashi on Tractate Horayot", 
+        "Rashi on Horiyot", 
+        "Rashi on Horayot"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Nezikin"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Horayot", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            25, 
-            1685
-        ], 
+        "heTitle": "רש\"י על הוריות", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Horayot", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Masekhet Horayot"
@@ -43,19 +67,23 @@
                 "lang": "he", 
                 "text": "רש\"י על הוריות", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Horayot", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Horayot", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Horayot"
+    }
 }

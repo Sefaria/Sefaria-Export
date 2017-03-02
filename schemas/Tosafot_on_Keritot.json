@@ -1,28 +1,55 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Keritot"
+    ], 
+    "title": "Tosafot on Keritot", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Tosafot", 
+    "heTitleVariants": [
+        "תוספות על כריתות"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "תוספות על כריתות", 
     "authors": [
         {
             "en": "Tosafot", 
             "he": "תוספות"
         }
     ], 
+    "titleVariants": [
+        "Tosafot on Talmud Keritot", 
+        "Tosafot on Masekhet Keritot", 
+        "Tosafot on Tractate Keritot", 
+        "Tosafot on Keritut", 
+        "Tosafot on Talmud Keritut", 
+        "Tosafot on Masekhet Keritut", 
+        "Tosafot on Tractate Keritut", 
+        "Tosafot on Keritot"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Tosafot", 
+        "Seder Kodashim"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Tosafot on Keritot", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            54, 
-            3648
-        ], 
+        "heTitle": "תוספות על כריתות", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Tosafot on Keritot", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Tosafot on Talmud Keritot"
@@ -55,19 +82,23 @@
                 "lang": "he", 
                 "text": "תוספות על כריתות", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Tosafot on Keritot", 
+                "primary": true
             }
         ], 
         "key": "Tosafot on Keritot", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Tosafot"
-    ], 
-    "title": "Tosafot on Keritot"
+    }
 }

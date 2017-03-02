@@ -1,28 +1,52 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Chullin"
+    ], 
+    "title": "Rashi on Chullin", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על חולין"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על חולין", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Tractate Chullin", 
+        "Rashi on Talmud Chullin", 
+        "Rashi on Masekhet Chullin", 
+        "Rashi on Hullin", 
+        "Rashi on Chullin"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Kodashim"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Chullin", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            281, 
-            13642
-        ], 
+        "heTitle": "רש\"י על חולין", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Chullin", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Tractate Chullin"
@@ -43,19 +67,23 @@
                 "lang": "he", 
                 "text": "רש\"י על חולין", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Chullin", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Chullin", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Chullin"
+    }
 }

@@ -1,28 +1,52 @@
 {
+    "depth": 3, 
+    "is_cited": true, 
+    "base_text_titles": [
+        "Numbers"
+    ], 
+    "title": "Rashi on Numbers", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על במדבר"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על במדבר", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Num.", 
+        "Rashi on Num", 
+        "Rashi on Bamidbar", 
+        "Rashi on Bemidbar", 
+        "Rashi on Numbers"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rashi", 
+        "Torah"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Numbers", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            36, 
-            1288
-        ], 
+        "heTitle": "רש\"י על במדבר", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Numbers", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Num."
@@ -43,19 +67,23 @@
                 "lang": "he", 
                 "text": "רש\"י על במדבר", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Numbers", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Numbers", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Numbers"
+    }
 }

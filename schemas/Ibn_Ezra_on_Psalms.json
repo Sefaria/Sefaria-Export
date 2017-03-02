@@ -1,28 +1,62 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Psalms"
+    ], 
+    "title": "Ibn Ezra on Psalms", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Ibn Ezra", 
+    "heTitleVariants": [
+        "אבן עזרא על תהילים", 
+        "אבן עזרא על תהלים", 
+        "אבן עזרא על תְּהִלִּים", 
+        "אבן עזרא על תילים", 
+        "אבן עזרא על תהילות", 
+        "אבן עזרא על תהילי'", 
+        "אבן עזרא על תהילי׳", 
+        "אבן עזרא על תהלי׳", 
+        "אבן עזרא על תהלי'"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "אבן עזרא על תהילים", 
     "authors": [
         {
             "en": "Ibn Ezra", 
             "he": "אבן עזרא"
         }
     ], 
+    "titleVariants": [
+        "Ibn Ezra on Ps", 
+        "Ibn Ezra on Ps.", 
+        "Ibn Ezra on Psa", 
+        "Ibn Ezra on Tehilim", 
+        "Ibn Ezra on Psa.", 
+        "Ibn Ezra on Psalm", 
+        "Ibn Ezra on Tehillim", 
+        "Ibn Ezra on Psalms"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Ibn Ezra", 
+        "Writings"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Ibn Ezra on Psalms", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            150, 
-            2529
-        ], 
+        "heTitle": "אבן עזרא על תהילים", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Ibn Ezra on Psalms", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Ibn Ezra on Ps"
@@ -87,19 +121,23 @@
             {
                 "lang": "he", 
                 "text": "אבן עזרא על תהלי'"
+            }, 
+            {
+                "lang": "en", 
+                "text": "Ibn Ezra on Psalms", 
+                "primary": true
             }
         ], 
         "key": "Ibn Ezra on Psalms", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Ibn Ezra"
-    ], 
-    "title": "Ibn Ezra on Psalms"
+    }
 }

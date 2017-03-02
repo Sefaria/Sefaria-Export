@@ -1,28 +1,59 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Moed Katan"
+    ], 
+    "title": "Rashi on Moed Katan", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על מועד קטן", 
+        "רש\"י על מ\"ק", 
+        "רש\"י על מו״ק", 
+        "רש\"י על מ״ק", 
+        "רש\"י על מו\"ק"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על מועד קטן", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Masekhet Moed Katan", 
+        "Rashi on Tractate Moed Katan", 
+        "Rashi on Talmud Moed Katan", 
+        "Rashi on Mo'ed Katan", 
+        "Rashi on Talmud Mo'ed Katan", 
+        "Rashi on Masekhet Mo'ed Katan", 
+        "Rashi on Tractate Mo'ed Katan", 
+        "Rashi on Moed Katan"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Moed"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Moed Katan", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            55, 
-            3322
-        ], 
+        "heTitle": "רש\"י על מועד קטן", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Moed Katan", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Masekhet Moed Katan"
@@ -71,19 +102,23 @@
             {
                 "lang": "he", 
                 "text": "רש\"י על מו\"ק"
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Moed Katan", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Moed Katan", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Moed Katan"
+    }
 }

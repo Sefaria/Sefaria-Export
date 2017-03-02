@@ -1,28 +1,59 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Moed Katan"
+    ], 
+    "title": "Tosafot on Moed Katan", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Tosafot", 
+    "heTitleVariants": [
+        "תוספות על מועד קטן", 
+        "תוספות על מ\"ק", 
+        "תוספות על מו״ק", 
+        "תוספות על מ״ק", 
+        "תוספות על מו\"ק"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "תוספות על מועד קטן", 
     "authors": [
         {
             "en": "Tosafot", 
             "he": "תוספות"
         }
     ], 
+    "titleVariants": [
+        "Tosafot on Masekhet Moed Katan", 
+        "Tosafot on Tractate Moed Katan", 
+        "Tosafot on Talmud Moed Katan", 
+        "Tosafot on Mo'ed Katan", 
+        "Tosafot on Talmud Mo'ed Katan", 
+        "Tosafot on Masekhet Mo'ed Katan", 
+        "Tosafot on Tractate Mo'ed Katan", 
+        "Tosafot on Moed Katan"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Tosafot", 
+        "Seder Moed"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Tosafot on Moed Katan", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            55, 
-            3322
-        ], 
+        "heTitle": "תוספות על מועד קטן", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Tosafot on Moed Katan", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Tosafot on Masekhet Moed Katan"
@@ -71,19 +102,23 @@
             {
                 "lang": "he", 
                 "text": "תוספות על מו\"ק"
+            }, 
+            {
+                "lang": "en", 
+                "text": "Tosafot on Moed Katan", 
+                "primary": true
             }
         ], 
         "key": "Tosafot on Moed Katan", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Tosafot"
-    ], 
-    "title": "Tosafot on Moed Katan"
+    }
 }

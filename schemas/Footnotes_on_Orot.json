@@ -1,5 +1,24 @@
 {
+    "base_text_titles": [
+        "Orot"
+    ], 
+    "title": "Footnotes on Orot", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Footnotes", 
+    "heTitleVariants": [
+        "הערות שוליים על אורות"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "הערות שוליים על אורות", 
     "authors": [], 
+    "titleVariants": [
+        "Footnotes on Orot"
+    ], 
+    "categories": [
+        "Philosophy", 
+        "Commentary", 
+        "Footnotes"
+    ], 
     "schema": {
         "nodes": [
             {
@@ -14,6 +33,8 @@
                         "lengths": [
                             8
                         ], 
+                        "title": "Land of Israel", 
+                        "heTitle": "ארץ ישראל", 
                         "depth": 3, 
                         "titles": [
                             {
@@ -28,6 +49,11 @@
                             }
                         ], 
                         "key": "Land of Israel", 
+                        "heSectionNames": [
+                            "פרק", 
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Chapter", 
                             "Paragraph", 
@@ -44,6 +70,8 @@
                         "lengths": [
                             10
                         ], 
+                        "title": "War", 
+                        "heTitle": "המלחמה", 
                         "depth": 3, 
                         "titles": [
                             {
@@ -58,6 +86,11 @@
                             }
                         ], 
                         "key": "War", 
+                        "heSectionNames": [
+                            "פרק", 
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Chapter", 
                             "Paragraph", 
@@ -74,6 +107,8 @@
                         "lengths": [
                             32
                         ], 
+                        "title": "Israel and its Rebirth", 
+                        "heTitle": "ישראל ותחיתו", 
                         "depth": 3, 
                         "titles": [
                             {
@@ -88,6 +123,11 @@
                             }
                         ], 
                         "key": "Israel and its Rebirth", 
+                        "heSectionNames": [
+                            "פרק", 
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Chapter", 
                             "Paragraph", 
@@ -104,6 +144,8 @@
                         "lengths": [
                             72
                         ], 
+                        "title": "Lights of Rebirth", 
+                        "heTitle": "אורות התחיה", 
                         "depth": 3, 
                         "titles": [
                             {
@@ -118,6 +160,11 @@
                             }
                         ], 
                         "key": "Lights of Rebirth", 
+                        "heSectionNames": [
+                            "פרק", 
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Chapter", 
                             "Paragraph", 
@@ -126,10 +173,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Great Calling", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "קריאה גדולה", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -144,6 +193,10 @@
                             }
                         ], 
                         "key": "Great Calling", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -162,10 +215,13 @@
                         "primary": true
                     }
                 ], 
-                "key": "from darkness"
+                "heTitle": "אורות מאופל", 
+                "key": "from darkness", 
+                "title": "Lights from Darkness"
             }, 
             {
-                "depth": 1, 
+                "nodeType": "JaggedArrayNode", 
+                "heTitle": "למהלך האידיאות בישראל", 
                 "titles": [
                     {
                         "lang": "he", 
@@ -178,21 +234,27 @@
                         "primary": true
                     }
                 ], 
-                "nodeType": "JaggedArrayNode", 
                 "key": "ideals", 
+                "heSectionNames": [
+                    "פרק"
+                ], 
                 "addressTypes": [
                     "Integer"
                 ], 
                 "lengths": [
                     6
                 ], 
+                "title": "The Process of Ideals in Israel", 
+                "depth": 1, 
                 "nodes": [
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Godly and the National Ideal in the Individual", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "האידיאה האלהית והאידיאה הלאומית באדם", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -207,6 +269,10 @@
                             }
                         ], 
                         "key": "The Godly and the National Ideal in the Individual", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -214,10 +280,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Godly and the National Ideal in Israel", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "האידיאה האלהית והאידיאה הלאומית בישראל", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -232,6 +300,10 @@
                             }
                         ], 
                         "key": "The Godly and the National Ideal in Israel", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -239,10 +311,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Dissolution of Ideals", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "מצב הירידה והפרוד בין האידיאות", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -257,6 +331,10 @@
                             }
                         ], 
                         "key": "Dissolution of Ideals", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -264,10 +342,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Situation in Exile", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "המצב בגלות", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -282,6 +362,10 @@
                             }
                         ], 
                         "key": "The Situation in Exile", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -289,10 +373,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The First and Second Temples; Religion", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "בית ראשון ובית שני. האידיאה הדתית. המצב הישראלי ויחוסו לאנושיות", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -307,6 +393,10 @@
                             }
                         ], 
                         "key": "The First and Second Temples; Religion", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -314,10 +404,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Unification of Ideals", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "התאחדות האידיאות בכנסת ישראל בתחיתה בארצה, רשמי דרכיה ופעולותיה", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -332,6 +424,10 @@
                             }
                         ], 
                         "key": "Unification of Ideals", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -343,7 +439,8 @@
                 ]
             }, 
             {
-                "depth": 1, 
+                "nodeType": "JaggedArrayNode", 
+                "heTitle": "זרעונים", 
                 "titles": [
                     {
                         "lang": "he", 
@@ -356,21 +453,27 @@
                         "primary": true
                     }
                 ], 
-                "nodeType": "JaggedArrayNode", 
                 "key": "seeds", 
+                "heSectionNames": [
+                    "פרק"
+                ], 
                 "addressTypes": [
                     "Integer"
                 ], 
                 "lengths": [
                     8
                 ], 
+                "title": "Seeds", 
+                "depth": 1, 
                 "nodes": [
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Thirst for the Living God", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "צמאון לאל חי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -385,6 +488,10 @@
                             }
                         ], 
                         "key": "Thirst for the Living God", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -392,10 +499,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Wise is Preferable to Prophet", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "חכם עדיף מנביא", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -410,6 +519,10 @@
                             }
                         ], 
                         "key": "The Wise is Preferable to Prophet", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -417,10 +530,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Souls of the World of Chaos", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "הנשמות של עולם התוהו", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -435,6 +550,10 @@
                             }
                         ], 
                         "key": "The Souls of the World of Chaos", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -442,10 +561,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Acts of Creation", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "מעשי יצירה", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -460,6 +581,10 @@
                             }
                         ], 
                         "key": "Acts of Creation", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -467,10 +592,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Suffering Cleanses", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "יסורים ממרקים", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -485,6 +612,10 @@
                             }
                         ], 
                         "key": "Suffering Cleanses", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -492,10 +623,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The War of Ideas", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "למלחמת הדעות והאמונות", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -510,6 +643,10 @@
                             }
                         ], 
                         "key": "The War of Ideas", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -517,10 +654,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "National Soul and Body", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "נשמת הלאומיות וגופה", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -535,6 +674,10 @@
                             }
                         ], 
                         "key": "National Soul and Body", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -542,10 +685,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Value of Rebirth", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "ערך התחיה", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -560,6 +705,10 @@
                             }
                         ], 
                         "key": "The Value of Rebirth", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -571,7 +720,8 @@
                 ]
             }, 
             {
-                "depth": 1, 
+                "nodeType": "JaggedArrayNode", 
+                "heTitle": "אורות ישראל", 
                 "titles": [
                     {
                         "lang": "he", 
@@ -584,14 +734,18 @@
                         "primary": true
                     }
                 ], 
-                "nodeType": "JaggedArrayNode", 
                 "key": "israel", 
+                "heSectionNames": [
+                    "פרק"
+                ], 
                 "addressTypes": [
                     "Integer"
                 ], 
                 "lengths": [
                     9
                 ], 
+                "title": "Lights of Israel", 
+                "depth": 1, 
                 "nodes": [
                     {
                         "nodeType": "JaggedArrayNode", 
@@ -602,6 +756,8 @@
                         "lengths": [
                             16
                         ], 
+                        "title": "The Essence of Israel", 
+                        "heTitle": "מהות כנסת ישראל ותכונה חייה", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -616,6 +772,10 @@
                             }
                         ], 
                         "key": "The Essence of Israel", 
+                        "heSectionNames": [
+                            "", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Subsection", 
                             "Comment"
@@ -630,6 +790,8 @@
                         "lengths": [
                             8
                         ], 
+                        "title": "The Individual and the Collective", 
+                        "heTitle": "קשר היחיד והכלל בישראל", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -644,6 +806,10 @@
                             }
                         ], 
                         "key": "The Individual and the Collective", 
+                        "heSectionNames": [
+                            "", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Subsection", 
                             "Comment"
@@ -658,6 +824,8 @@
                         "lengths": [
                             11
                         ], 
+                        "title": "Connection to the Collective", 
+                        "heTitle": "התדבקות והתקשרות בכללות ישראל", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -672,6 +840,10 @@
                             }
                         ], 
                         "key": "Connection to the Collective", 
+                        "heSectionNames": [
+                            "", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Subsection", 
                             "Comment"
@@ -686,6 +858,8 @@
                         "lengths": [
                             10
                         ], 
+                        "title": "Love of Israel", 
+                        "heTitle": "אהבת ישראל", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -700,6 +874,10 @@
                             }
                         ], 
                         "key": "Love of Israel", 
+                        "heSectionNames": [
+                            "", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Subsection", 
                             "Comment"
@@ -714,6 +892,8 @@
                         "lengths": [
                             16
                         ], 
+                        "title": "Israel and the Nations", 
+                        "heTitle": "ישראל ואומות העולם", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -728,6 +908,10 @@
                             }
                         ], 
                         "key": "Israel and the Nations", 
+                        "heSectionNames": [
+                            "", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Subsection", 
                             "Comment"
@@ -742,6 +926,8 @@
                         "lengths": [
                             9
                         ], 
+                        "title": "Nationhood of Israel", 
+                        "heTitle": "לומיות ישראל", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -756,6 +942,10 @@
                             }
                         ], 
                         "key": "Nationhood of Israel", 
+                        "heSectionNames": [
+                            "", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Subsection", 
                             "Comment"
@@ -770,6 +960,8 @@
                         "lengths": [
                             19
                         ], 
+                        "title": "Israel's Soul and its Rebirth", 
+                        "heTitle": "שלמות נשמת ישראל ותחיתו", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -784,6 +976,10 @@
                             }
                         ], 
                         "key": "Israel's Soul and its Rebirth", 
+                        "heSectionNames": [
+                            "", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Subsection", 
                             "Comment"
@@ -798,6 +994,8 @@
                         "lengths": [
                             9
                         ], 
+                        "title": "Preciousness of Israel", 
+                        "heTitle": "סגולת ישראל", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -812,6 +1010,10 @@
                             }
                         ], 
                         "key": "Preciousness of Israel", 
+                        "heSectionNames": [
+                            "", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Subsection", 
                             "Comment"
@@ -826,6 +1028,8 @@
                         "lengths": [
                             9
                         ], 
+                        "title": "Holiness of Israel", 
+                        "heTitle": "קדושת ישראל", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -840,6 +1044,10 @@
                             }
                         ], 
                         "key": "Holiness of Israel", 
+                        "heSectionNames": [
+                            "", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Subsection", 
                             "Comment"
@@ -853,22 +1061,18 @@
         ], 
         "titles": [
             {
-                "lang": "en", 
-                "text": "Footnotes on Orot", 
-                "primary": true
-            }, 
-            {
                 "lang": "he", 
                 "text": "הערות שוליים על אורות", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Footnotes on Orot", 
+                "primary": true
             }
         ], 
-        "key": "Footnotes on Orot"
-    }, 
-    "categories": [
-        "Philosophy", 
-        "Commentary", 
-        "Footnotes"
-    ], 
-    "title": "Footnotes on Orot"
+        "heTitle": "הערות שוליים על אורות", 
+        "key": "Footnotes on Orot", 
+        "title": "Footnotes on Orot"
+    }
 }

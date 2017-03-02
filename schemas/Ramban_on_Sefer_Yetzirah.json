@@ -1,24 +1,48 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Sefer Yetzirah"
+    ], 
+    "title": "Ramban on Sefer Yetzirah", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Ramban", 
+    "heTitleVariants": [
+        "רמב\"ן על ספר יצירה"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רמב\"ן על ספר יצירה", 
     "authors": [
         {
             "en": "Ramban", 
             "he": "רמב״ן"
         }
     ], 
+    "titleVariants": [
+        "Nachmanides on Sefer Yetzirah", 
+        "Rabbi Moshe Ben Nachman on Sefer Yetzirah", 
+        "Ramban on Sefer Yetzirah"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Mishnah", 
+        "Comment"
+    ], 
+    "categories": [
+        "Kabbalah", 
+        "Commentary", 
+        "Ramban"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Ramban on Sefer Yetzirah", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
+        "heTitle": "רמב\"ן על ספר יצירה", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Ramban on Sefer Yetzirah", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Nachmanides on Sefer Yetzirah"
@@ -31,19 +55,23 @@
                 "lang": "he", 
                 "text": "רמב\"ן על ספר יצירה", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Ramban on Sefer Yetzirah", 
+                "primary": true
             }
         ], 
         "key": "Ramban on Sefer Yetzirah", 
+        "heSectionNames": [
+            "פרק", 
+            "משנה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Mishnah", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Kabbalah", 
-        "Commentary", 
-        "Ramban"
-    ], 
-    "title": "Ramban on Sefer Yetzirah"
+    }
 }

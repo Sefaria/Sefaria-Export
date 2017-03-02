@@ -1,28 +1,54 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Esther"
+    ], 
+    "title": "Malbim on Esther", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Malbim", 
+    "heTitleVariants": [
+        "מלבי\"ם על אסתר"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "מלבי\"ם על אסתר", 
     "authors": [
         {
             "en": "Malbim", 
             "he": "מלבי\"ם"
         }
     ], 
+    "titleVariants": [
+        "Malbim on Est.", 
+        "Malbim on Est", 
+        "Malbim on Ester", 
+        "Malbim Literary Commantary on Est.", 
+        "Malbim Literary Commantary on Est", 
+        "Malbim Literary Commantary on Ester", 
+        "Malbim Literary Commantary on Esther", 
+        "Malbim on Esther"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Malbim", 
+        "Writings"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Malbim on Esther", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            10, 
-            167
-        ], 
+        "heTitle": "מלבי\"ם על אסתר", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Malbim on Esther", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Malbim on Est."
@@ -55,19 +81,23 @@
                 "lang": "he", 
                 "text": "מלבי\"ם על אסתר", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Malbim on Esther", 
+                "primary": true
             }
         ], 
         "key": "Malbim on Esther", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Malbim"
-    ], 
-    "title": "Malbim on Esther"
+    }
 }

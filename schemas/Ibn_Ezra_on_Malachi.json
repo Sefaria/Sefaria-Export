@@ -1,28 +1,49 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Malachi"
+    ], 
+    "title": "Ibn Ezra on Malachi", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Ibn Ezra", 
+    "heTitleVariants": [
+        "אבן עזרא על מלאכי"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "אבן עזרא על מלאכי", 
     "authors": [
         {
             "en": "Ibn Ezra", 
             "he": "אבן עזרא"
         }
     ], 
+    "titleVariants": [
+        "Ibn Ezra on Mal.", 
+        "Ibn Ezra on Mal", 
+        "Ibn Ezra on Malachi"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Ibn Ezra", 
+        "Prophets"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Ibn Ezra on Malachi", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            3, 
-            55
-        ], 
+        "heTitle": "אבן עזרא על מלאכי", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Ibn Ezra on Malachi", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Ibn Ezra on Mal."
@@ -35,19 +56,23 @@
                 "lang": "he", 
                 "text": "אבן עזרא על מלאכי", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Ibn Ezra on Malachi", 
+                "primary": true
             }
         ], 
         "key": "Ibn Ezra on Malachi", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Ibn Ezra"
-    ], 
-    "title": "Ibn Ezra on Malachi"
+    }
 }

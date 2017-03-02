@@ -1,28 +1,51 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Sanhedrin"
+    ], 
+    "title": "Rashi on Sanhedrin", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על סנהדרין"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על סנהדרין", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Tractate Sanhedrin", 
+        "Rashi on Talmud Sanhedrin", 
+        "Rashi on Masekhet Sanhedrin", 
+        "Rashi on Sanhedrin"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Nezikin"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Sanhedrin", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            224, 
-            13487
-        ], 
+        "heTitle": "רש\"י על סנהדרין", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Sanhedrin", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Tractate Sanhedrin"
@@ -39,19 +62,23 @@
                 "lang": "he", 
                 "text": "רש\"י על סנהדרין", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Sanhedrin", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Sanhedrin", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Sanhedrin"
+    }
 }

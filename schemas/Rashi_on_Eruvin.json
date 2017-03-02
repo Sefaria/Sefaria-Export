@@ -1,28 +1,53 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Eruvin"
+    ], 
+    "title": "Rashi on Eruvin", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על עירובין", 
+        "רש\"י על ערובין"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על עירובין", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Talmud Eruvin", 
+        "Rashi on Masekhet Eruvin", 
+        "Rashi on Tractate Eruvin", 
+        "Rashi on Eiruvin", 
+        "Rashi on Eruvin"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Moed"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Eruvin", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            207, 
-            10184
-        ], 
+        "heTitle": "רש\"י על עירובין", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Eruvin", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Talmud Eruvin"
@@ -47,19 +72,23 @@
             {
                 "lang": "he", 
                 "text": "רש\"י על ערובין"
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Eruvin", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Eruvin", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Eruvin"
+    }
 }

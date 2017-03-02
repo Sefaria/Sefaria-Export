@@ -1,18 +1,39 @@
 {
+    "base_text_titles": [
+        "Torat HaBayit HaAroch"
+    ], 
+    "title": "Bedek HaBayit on Torat HaBayit HaAroch", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Bedek HaBayit", 
+    "heTitleVariants": [
+        "בדק הבית על תורת הבית הארוך"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "בדק הבית על תורת הבית הארוך", 
     "authors": [
         {
             "en": "Ra'ah", 
             "he": "רא\"ה"
         }
     ], 
+    "titleVariants": [
+        "Bedek HaBayit on Torat HaBayit HaAroch"
+    ], 
+    "categories": [
+        "Halakhah", 
+        "Commentary", 
+        "Bedek HaBayit"
+    ], 
     "schema": {
         "nodes": [
             {
                 "nodeType": "JaggedArrayNode", 
+                "title": "Introduction", 
                 "addressTypes": [
                     "Integer", 
                     "Integer"
                 ], 
+                "heTitle": "הקדמה", 
                 "depth": 2, 
                 "titles": [
                     {
@@ -27,6 +48,10 @@
                     }
                 ], 
                 "key": "intro", 
+                "heSectionNames": [
+                    "פסקה", 
+                    "פירוש"
+                ], 
                 "sectionNames": [
                     "Paragraph", 
                     "Comment"
@@ -36,10 +61,12 @@
                 "nodes": [
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The First Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער הראשון", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -54,6 +81,10 @@
                             }
                         ], 
                         "key": "gate0", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -61,10 +92,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Second Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השני", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -79,6 +112,10 @@
                             }
                         ], 
                         "key": "gate1", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -86,10 +123,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Third Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השלישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -104,6 +143,10 @@
                             }
                         ], 
                         "key": "gate2", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -111,10 +154,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Fourth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער הרביעי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -129,6 +174,10 @@
                             }
                         ], 
                         "key": "gate3", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -136,10 +185,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Fifth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער החמישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -154,6 +205,10 @@
                             }
                         ], 
                         "key": "gate4", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -172,16 +227,20 @@
                         "primary": true
                     }
                 ], 
-                "key": "house0"
+                "heTitle": "הבית הראשון", 
+                "key": "house0", 
+                "title": "The First House"
             }, 
             {
                 "nodes": [
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The First Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער הראשון", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -196,6 +255,10 @@
                             }
                         ], 
                         "key": "gate0", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -203,10 +266,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Second Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השני", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -221,6 +286,10 @@
                             }
                         ], 
                         "key": "gate1", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -228,10 +297,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Third Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השלישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -246,6 +317,10 @@
                             }
                         ], 
                         "key": "gate2", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -253,10 +328,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Fourth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער הרביעי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -271,6 +348,10 @@
                             }
                         ], 
                         "key": "gate3", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -278,10 +359,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Fifth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער החמישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -296,6 +379,10 @@
                             }
                         ], 
                         "key": "gate4", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -314,16 +401,20 @@
                         "primary": true
                     }
                 ], 
-                "key": "house1"
+                "heTitle": "הבית השני", 
+                "key": "house1", 
+                "title": "The Second House"
             }, 
             {
                 "nodes": [
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The First Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער הראשון", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -338,6 +429,10 @@
                             }
                         ], 
                         "key": "gate0", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -345,10 +440,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Second Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השני", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -363,6 +460,10 @@
                             }
                         ], 
                         "key": "gate1", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -370,10 +471,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Third Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השלישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -388,6 +491,10 @@
                             }
                         ], 
                         "key": "gate2", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -395,10 +502,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Fourth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער הרביעי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -413,6 +522,10 @@
                             }
                         ], 
                         "key": "gate3", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -420,10 +533,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Fifth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער החמישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -438,6 +553,10 @@
                             }
                         ], 
                         "key": "gate4", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -445,10 +564,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Sixth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -463,6 +584,10 @@
                             }
                         ], 
                         "key": "gate5", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -470,10 +595,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Seventh Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השביעי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -488,6 +615,10 @@
                             }
                         ], 
                         "key": "gate6", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -506,16 +637,20 @@
                         "primary": true
                     }
                 ], 
-                "key": "house2"
+                "heTitle": "הבית השלישי", 
+                "key": "house2", 
+                "title": "The Third House"
             }, 
             {
                 "nodes": [
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The First Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער הראשון", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -530,6 +665,10 @@
                             }
                         ], 
                         "key": "gate0", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -537,10 +676,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Second Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השני", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -555,6 +696,10 @@
                             }
                         ], 
                         "key": "gate1", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -562,10 +707,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Third Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השלישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -580,6 +727,10 @@
                             }
                         ], 
                         "key": "gate2", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -587,10 +738,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Fourth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער הרביעי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -605,6 +758,10 @@
                             }
                         ], 
                         "key": "gate3", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -623,16 +780,20 @@
                         "primary": true
                     }
                 ], 
-                "key": "house3"
+                "heTitle": "הבית הרביעי", 
+                "key": "house3", 
+                "title": "The Fourth House"
             }, 
             {
                 "nodes": [
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The First Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער הראשון", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -647,6 +808,10 @@
                             }
                         ], 
                         "key": "gate0", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -654,10 +819,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Second Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השני", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -672,6 +839,10 @@
                             }
                         ], 
                         "key": "gate1", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -679,10 +850,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Third Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השלישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -697,6 +870,10 @@
                             }
                         ], 
                         "key": "gate2", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -704,10 +881,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Fourth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער הרביעי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -722,6 +901,10 @@
                             }
                         ], 
                         "key": "gate3", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -729,10 +912,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Fifth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער החמישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -747,6 +932,10 @@
                             }
                         ], 
                         "key": "gate4", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -754,10 +943,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Sixth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -772,6 +963,10 @@
                             }
                         ], 
                         "key": "gate5", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -790,16 +985,20 @@
                         "primary": true
                     }
                 ], 
-                "key": "house4"
+                "heTitle": "הבית החמישי", 
+                "key": "house4", 
+                "title": "The Fifth House"
             }, 
             {
                 "nodes": [
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The First Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער הראשון", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -814,6 +1013,10 @@
                             }
                         ], 
                         "key": "gate0", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -821,10 +1024,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Second Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השני", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -839,6 +1044,10 @@
                             }
                         ], 
                         "key": "gate1", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -846,10 +1055,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Third Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השלישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -864,6 +1075,10 @@
                             }
                         ], 
                         "key": "gate2", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -871,10 +1086,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Fourth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער הרביעי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -889,6 +1106,10 @@
                             }
                         ], 
                         "key": "gate3", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -896,10 +1117,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Fifth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער החמישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -914,6 +1137,10 @@
                             }
                         ], 
                         "key": "gate4", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -932,16 +1159,20 @@
                         "primary": true
                     }
                 ], 
-                "key": "house5"
+                "heTitle": "הבית השישי", 
+                "key": "house5", 
+                "title": "The Sixth House"
             }, 
             {
                 "nodes": [
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "Introduction", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "הקדמה", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -956,6 +1187,10 @@
                             }
                         ], 
                         "key": "intro_gate", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -963,10 +1198,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The First Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער הראשון", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -981,6 +1218,10 @@
                             }
                         ], 
                         "key": "gate0", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -988,10 +1229,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Second Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השני", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -1006,6 +1249,10 @@
                             }
                         ], 
                         "key": "gate1", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -1013,10 +1260,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Third Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השלישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -1031,6 +1280,10 @@
                             }
                         ], 
                         "key": "gate2", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -1038,10 +1291,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Fourth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער הרביעי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -1056,6 +1311,10 @@
                             }
                         ], 
                         "key": "gate3", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -1063,10 +1322,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Fifth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער החמישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -1081,6 +1342,10 @@
                             }
                         ], 
                         "key": "gate4", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -1088,10 +1353,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Sixth Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השישי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -1106,6 +1373,10 @@
                             }
                         ], 
                         "key": "gate5", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -1113,10 +1384,12 @@
                     }, 
                     {
                         "nodeType": "JaggedArrayNode", 
+                        "title": "The Seventh Gate", 
                         "addressTypes": [
                             "Integer", 
                             "Integer"
                         ], 
+                        "heTitle": "השער השביעי", 
                         "depth": 2, 
                         "titles": [
                             {
@@ -1131,6 +1404,10 @@
                             }
                         ], 
                         "key": "gate6", 
+                        "heSectionNames": [
+                            "פסקה", 
+                            "פירוש"
+                        ], 
                         "sectionNames": [
                             "Paragraph", 
                             "Comment"
@@ -1149,27 +1426,25 @@
                         "primary": true
                     }
                 ], 
-                "key": "house6"
+                "heTitle": "הבית השביעי: בית הנשים", 
+                "key": "house6", 
+                "title": "The Seventh House, The Women's House"
             }
         ], 
         "titles": [
             {
-                "lang": "en", 
-                "text": "Bedek HaBayit on Torat HaBayit HaAroch", 
-                "primary": true
-            }, 
-            {
                 "lang": "he", 
                 "text": "בדק הבית על תורת הבית הארוך", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Bedek HaBayit on Torat HaBayit HaAroch", 
+                "primary": true
             }
         ], 
-        "key": "Bedek HaBayit on Torat HaBayit HaAroch"
-    }, 
-    "categories": [
-        "Halakhah", 
-        "Commentary", 
-        "Bedek HaBayit"
-    ], 
-    "title": "Bedek HaBayit on Torat HaBayit HaAroch"
+        "heTitle": "בדק הבית על תורת הבית הארוך", 
+        "key": "Bedek HaBayit on Torat HaBayit HaAroch", 
+        "title": "Bedek HaBayit on Torat HaBayit HaAroch"
+    }
 }

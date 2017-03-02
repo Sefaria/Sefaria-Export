@@ -1,28 +1,49 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Ezra"
+    ], 
+    "title": "Ibn Ezra on Ezra", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Ibn Ezra", 
+    "heTitleVariants": [
+        "אבן עזרא על עזרא"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "אבן עזרא על עזרא", 
     "authors": [
         {
             "en": "Ibn Ezra", 
             "he": "אבן עזרא"
         }
     ], 
+    "titleVariants": [
+        "Ibn Ezra on Ezr.", 
+        "Ibn Ezra on Ezr", 
+        "Ibn Ezra on Ezra"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Ibn Ezra", 
+        "Writings"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Ibn Ezra on Ezra", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            10, 
-            280
-        ], 
+        "heTitle": "אבן עזרא על עזרא", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Ibn Ezra on Ezra", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Ibn Ezra on Ezr."
@@ -35,19 +56,23 @@
                 "lang": "he", 
                 "text": "אבן עזרא על עזרא", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Ibn Ezra on Ezra", 
+                "primary": true
             }
         ], 
         "key": "Ibn Ezra on Ezra", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Ibn Ezra"
-    ], 
-    "title": "Ibn Ezra on Ezra"
+    }
 }

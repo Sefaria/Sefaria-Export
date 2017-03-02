@@ -1,28 +1,52 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Nedarim"
+    ], 
+    "title": "Rashi on Nedarim", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על נדרים"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על נדרים", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Tractate Nedarim", 
+        "Rashi on Masekhet Nedarim", 
+        "Rashi on Talmud Nedarim", 
+        "Rashi on Ned.", 
+        "Rashi on Nedarim"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Nashim"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Nedarim", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            180, 
-            5010
-        ], 
+        "heTitle": "רש\"י על נדרים", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Nedarim", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Tractate Nedarim"
@@ -43,19 +67,23 @@
                 "lang": "he", 
                 "text": "רש\"י על נדרים", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Nedarim", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Nedarim", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Nedarim"
+    }
 }

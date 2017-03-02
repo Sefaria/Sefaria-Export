@@ -1,28 +1,53 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Beitzah"
+    ], 
+    "title": "Tosafot on Beitzah", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Tosafot", 
+    "heTitleVariants": [
+        "תוספות על ביצה"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "תוספות על ביצה", 
     "authors": [
         {
             "en": "Tosafot", 
             "he": "תוספות"
         }
     ], 
+    "titleVariants": [
+        "Tosafot on Talmud Beitzah", 
+        "Tosafot on Masekhet Beitzah", 
+        "Tosafot on Tractate Beitzah", 
+        "Tosafot on Beiah", 
+        "Tosafot on Beitza", 
+        "Tosafot on Beitzah"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Tosafot", 
+        "Seder Moed"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Tosafot on Beitzah", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            78, 
-            3880
-        ], 
+        "heTitle": "תוספות על ביצה", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Tosafot on Beitzah", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Tosafot on Talmud Beitzah"
@@ -47,19 +72,23 @@
                 "lang": "he", 
                 "text": "תוספות על ביצה", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Tosafot on Beitzah", 
+                "primary": true
             }
         ], 
         "key": "Tosafot on Beitzah", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Tosafot"
-    ], 
-    "title": "Tosafot on Beitzah"
+    }
 }

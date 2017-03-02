@@ -1,28 +1,54 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Chagigah"
+    ], 
+    "title": "Rashi on Chagigah", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על חגיגה"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על חגיגה", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Talmud Chagigah", 
+        "Rashi on Chag.", 
+        "Rashi on Chagiga", 
+        "Rashi on Masekhet Chagigah", 
+        "Rashi on Tractate Chagigah", 
+        "Rashi on Hagiga", 
+        "Rashi on Chagigah"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Moed"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Chagigah", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            51, 
-            2482
-        ], 
+        "heTitle": "רש\"י על חגיגה", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Chagigah", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Talmud Chagigah"
@@ -51,19 +77,23 @@
                 "lang": "he", 
                 "text": "רש\"י על חגיגה", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Chagigah", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Chagigah", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Chagigah"
+    }
 }

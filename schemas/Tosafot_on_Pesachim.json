@@ -1,28 +1,52 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Pesachim"
+    ], 
+    "title": "Tosafot on Pesachim", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Tosafot", 
+    "heTitleVariants": [
+        "תוספות על פסחים"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "תוספות על פסחים", 
     "authors": [
         {
             "en": "Tosafot", 
             "he": "תוספות"
         }
     ], 
+    "titleVariants": [
+        "Tosafot on Masekhet Pesachim", 
+        "Tosafot on Talmud Pesachim", 
+        "Tosafot on Tractate Pesachim", 
+        "Tosafot on Pesahim", 
+        "Tosafot on Pesachim"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Tosafot", 
+        "Seder Moed"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Tosafot on Pesachim", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            240, 
-            11546
-        ], 
+        "heTitle": "תוספות על פסחים", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Tosafot on Pesachim", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Tosafot on Masekhet Pesachim"
@@ -43,19 +67,23 @@
                 "lang": "he", 
                 "text": "תוספות על פסחים", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Tosafot on Pesachim", 
+                "primary": true
             }
         ], 
         "key": "Tosafot on Pesachim", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Tosafot"
-    ], 
-    "title": "Tosafot on Pesachim"
+    }
 }

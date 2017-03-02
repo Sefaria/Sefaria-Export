@@ -1,28 +1,51 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Gittin"
+    ], 
+    "title": "Rashi on Gittin", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על גיטין"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על גיטין", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Tractate Gittin", 
+        "Rashi on Talmud Gittin", 
+        "Rashi on Masekhet Gittin", 
+        "Rashi on Gittin"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Nashim"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Gittin", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            178, 
-            8860
-        ], 
+        "heTitle": "רש\"י על גיטין", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Gittin", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Tractate Gittin"
@@ -39,19 +62,23 @@
                 "lang": "he", 
                 "text": "רש\"י על גיטין", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Gittin", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Gittin", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Gittin"
+    }
 }

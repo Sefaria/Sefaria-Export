@@ -1,28 +1,55 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Rosh Hashanah"
+    ], 
+    "title": "Rashi on Rosh Hashanah", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על ראש השנה", 
+        "רש\"י על ר\"ה", 
+        "רש\"י על ר״ה"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על ראש השנה", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Talmud Rosh Hashanah", 
+        "Rashi on Tractate Rosh Hashanah", 
+        "Rashi on Rosh HaShanah", 
+        "Rashi on Masekhet Rosh Hashanah", 
+        "Rashi on Rosh HaShana", 
+        "Rashi on Rosh Hashanah"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Moed"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Rosh Hashanah", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            67, 
-            3168
-        ], 
+        "heTitle": "רש\"י על ראש השנה", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Rosh Hashanah", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Talmud Rosh Hashanah"
@@ -55,19 +82,23 @@
             {
                 "lang": "he", 
                 "text": "רש\"י על ר״ה"
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Rosh Hashanah", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Rosh Hashanah", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Rosh Hashanah"
+    }
 }

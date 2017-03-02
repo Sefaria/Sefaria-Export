@@ -1,28 +1,51 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Yoma"
+    ], 
+    "title": "Rashi on Yoma", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על יומא"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על יומא", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Talmud Yoma", 
+        "Rashi on Tractate Yoma", 
+        "Rashi on Masekhet Yoma", 
+        "Rashi on Yoma"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Moed"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Yoma", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            173, 
-            7753
-        ], 
+        "heTitle": "רש\"י על יומא", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Yoma", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Talmud Yoma"
@@ -39,19 +62,23 @@
                 "lang": "he", 
                 "text": "רש\"י על יומא", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Yoma", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Yoma", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Yoma"
+    }
 }

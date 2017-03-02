@@ -1,28 +1,52 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Judges"
+    ], 
+    "title": "Rashi on Judges", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על שופטים"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על שופטים", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Shoftim", 
+        "Rashi on Jdg", 
+        "Rashi on Judg", 
+        "Rashi on Jdg.", 
+        "Rashi on Judg.", 
+        "Rashi on Judges"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rashi", 
+        "Prophets"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Judges", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            21, 
-            618
-        ], 
+        "heTitle": "רש\"י על שופטים", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Judges", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Shoftim"
@@ -47,19 +71,23 @@
                 "lang": "he", 
                 "text": "רש\"י על שופטים", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Judges", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Judges", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Judges"
+    }
 }

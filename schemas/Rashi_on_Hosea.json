@@ -1,28 +1,50 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Hosea"
+    ], 
+    "title": "Rashi on Hosea", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על הושע"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על הושע", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Hos.", 
+        "Rashi on Hos", 
+        "Rashi on Hoshea", 
+        "Rashi on Hosea"
+    ], 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Comment"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rashi", 
+        "Prophets"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Hosea", 
         "addressTypes": [
             "Integer", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            14, 
-            197
-        ], 
+        "heTitle": "רש\"י על הושע", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Hosea", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Hos."
@@ -39,19 +61,23 @@
                 "lang": "he", 
                 "text": "רש\"י על הושע", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Hosea", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Hosea", 
+        "heSectionNames": [
+            "פרק", 
+            "פסוק", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Chapter", 
             "Verse", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Hosea"
+    }
 }

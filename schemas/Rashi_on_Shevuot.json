@@ -1,28 +1,51 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Shevuot"
+    ], 
+    "title": "Rashi on Shevuot", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על שבועות"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על שבועות", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Masekhet Shevuot", 
+        "Rashi on Talmud Shevuot", 
+        "Rashi on Tractate Shevuot", 
+        "Rashi on Shevuot"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Nezikin"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Shevuot", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            96, 
-            4842
-        ], 
+        "heTitle": "רש\"י על שבועות", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Shevuot", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Masekhet Shevuot"
@@ -39,19 +62,23 @@
                 "lang": "he", 
                 "text": "רש\"י על שבועות", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Shevuot", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Shevuot", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Shevuot"
+    }
 }

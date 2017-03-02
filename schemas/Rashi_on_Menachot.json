@@ -1,28 +1,52 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Menachot"
+    ], 
+    "title": "Rashi on Menachot", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על מנחות"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על מנחות", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Masekhet Menachot", 
+        "Rashi on Talmud Menachot", 
+        "Rashi on Tractate Menachot", 
+        "Rashi on Menahot", 
+        "Rashi on Menachot"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Kodashim"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Menachot", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            217, 
-            10533
-        ], 
+        "heTitle": "רש\"י על מנחות", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Menachot", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Masekhet Menachot"
@@ -43,19 +67,23 @@
                 "lang": "he", 
                 "text": "רש\"י על מנחות", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Menachot", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Menachot", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Menachot"
+    }
 }

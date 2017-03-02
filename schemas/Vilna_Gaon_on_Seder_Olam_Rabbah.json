@@ -1,18 +1,59 @@
 {
+    "base_text_titles": [
+        "Seder Olam Rabbah"
+    ], 
+    "title": "Vilna Gaon on Seder Olam Rabbah", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Vilna Gaon", 
+    "heTitleVariants": [
+        "גר\"א על סדר עולם רבה", 
+        "הגר\"א על סדר עולם רבה", 
+        "הגר\"א על סדר עולם", 
+        "גר\"א על סדר עולם", 
+        "אליהו מוולנא על סדר עולם רבה", 
+        "אליהו מוולנא על סדר עולם"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "גר\"א על סדר עולם רבה", 
     "authors": [
         {
             "en": "Vilna Gaon", 
             "he": "אליהו בן שלומו זלמן מווילנה "
         }
     ], 
+    "titleVariants": [
+        "GR\"A on Seder Olam", 
+        "GR\"A on Olam Rabbah", 
+        "GR\"A on Seder Olam Rabbah", 
+        "Eliyahu of Vilna on Seder Olam", 
+        "Eliyahu of Vilna on Olam Rabbah", 
+        "Eliyahu of Vilna on Seder Olam Rabbah", 
+        "Vilna Gaon on Seder Olam", 
+        "Vilna Gaon on Olam Rabbah", 
+        "GRA on Seder Olam", 
+        "GRA on Olam Rabbah", 
+        "GRA on Seder Olam Rabbah", 
+        "Gra on Seder Olam", 
+        "Gra on Olam Rabbah", 
+        "Gra on Seder Olam Rabbah", 
+        "Vilna Gaon on Seder Olam Rabbah"
+    ], 
+    "categories": [
+        "Midrash", 
+        "Commentary", 
+        "Vilna Gaon", 
+        "Aggadic Midrash"
+    ], 
     "schema": {
         "nodes": [
             {
                 "nodeType": "JaggedArrayNode", 
+                "title": "Introduction", 
                 "addressTypes": [
                     "Integer", 
                     "Integer"
                 ], 
+                "heTitle": "הקדמה", 
                 "depth": 2, 
                 "titles": [
                     {
@@ -27,6 +68,10 @@
                     }
                 ], 
                 "key": "Introduction", 
+                "heSectionNames": [
+                    "פסקה", 
+                    "פירוש"
+                ], 
                 "sectionNames": [
                     "Paragraph", 
                     "Comment"
@@ -34,14 +79,21 @@
             }, 
             {
                 "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
                 "addressTypes": [
                     "Integer", 
                     "Integer", 
                     "Integer"
                 ], 
-                "default": true, 
+                "heTitle": "", 
                 "depth": 3, 
                 "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסקה", 
+                    "פירוש"
+                ], 
                 "sectionNames": [
                     "Chapter", 
                     "Paragraph", 
@@ -50,11 +102,6 @@
             }
         ], 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Vilna Gaon on Seder Olam Rabbah", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "GR\"A on Seder Olam"
@@ -135,14 +182,15 @@
             {
                 "lang": "he", 
                 "text": "אליהו מוולנא על סדר עולם"
+            }, 
+            {
+                "lang": "en", 
+                "text": "Vilna Gaon on Seder Olam Rabbah", 
+                "primary": true
             }
         ], 
-        "key": "Vilna Gaon on Seder Olam Rabbah"
-    }, 
-    "categories": [
-        "Midrash", 
-        "Commentary", 
-        "Vilna Gaon"
-    ], 
-    "title": "Vilna Gaon on Seder Olam Rabbah"
+        "heTitle": "גר\"א על סדר עולם רבה", 
+        "key": "Vilna Gaon on Seder Olam Rabbah", 
+        "title": "Vilna Gaon on Seder Olam Rabbah"
+    }
 }

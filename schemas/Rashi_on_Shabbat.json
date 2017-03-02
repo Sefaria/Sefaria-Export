@@ -1,28 +1,53 @@
 {
+    "depth": 3, 
+    "base_text_titles": [
+        "Shabbat"
+    ], 
+    "title": "Rashi on Shabbat", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": "Rashi", 
+    "heTitleVariants": [
+        "רש\"י על שבת"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "רש\"י על שבת", 
     "authors": [
         {
             "en": "Rashi", 
             "he": "רש״י"
         }
     ], 
+    "titleVariants": [
+        "Rashi on Masekhet Shabbat", 
+        "Rashi on Shabbos", 
+        "Rashi on Shabbath", 
+        "Rashi on Talmud Shabbat", 
+        "Rashi on Tractate Shabbat", 
+        "Rashi on Shabbat"
+    ], 
+    "sectionNames": [
+        "Daf", 
+        "Line", 
+        "Comment"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Moed"
+    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
+        "title": "Rashi on Shabbat", 
         "addressTypes": [
             "Talmud", 
             "Integer", 
             "Integer"
         ], 
-        "lengths": [
-            312, 
-            17165
-        ], 
+        "heTitle": "רש\"י על שבת", 
         "depth": 3, 
         "titles": [
-            {
-                "lang": "en", 
-                "text": "Rashi on Shabbat", 
-                "primary": true
-            }, 
             {
                 "lang": "en", 
                 "text": "Rashi on Masekhet Shabbat"
@@ -47,19 +72,23 @@
                 "lang": "he", 
                 "text": "רש\"י על שבת", 
                 "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Rashi on Shabbat", 
+                "primary": true
             }
         ], 
         "key": "Rashi on Shabbat", 
+        "heSectionNames": [
+            "דף", 
+            "שורה", 
+            "פירוש"
+        ], 
         "sectionNames": [
             "Daf", 
             "Line", 
             "Comment"
         ]
-    }, 
-    "categories": [
-        "Talmud", 
-        "Commentary", 
-        "Rashi"
-    ], 
-    "title": "Rashi on Shabbat"
+    }
 }
