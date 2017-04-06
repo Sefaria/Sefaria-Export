@@ -1,8 +1,9 @@
 {
     "is_cited": true, 
-    "sectionNames": [
-        "Chapter", 
-        "Midrash"
+    "heCategories": [
+        "מדרש", 
+        "מדרש אגדה", 
+        "מדרש רבה"
     ], 
     "pubDate": "", 
     "title": "Ruth Rabbah", 
@@ -10,7 +11,6 @@
     "pubPlace": "", 
     "compPlace": "", 
     "enDesc": "", 
-    "depth": 2, 
     "heTitleVariants": [
         "רות רבה"
     ], 
@@ -33,14 +33,56 @@
         "Midrash Rabbah"
     ], 
     "schema": {
-        "nodeType": "JaggedArrayNode", 
-        "title": "Ruth Rabbah", 
-        "addressTypes": [
-            "Integer", 
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Petichta", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "פתיחתא", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Petichta", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "פתיחתא", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Petichta", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 2, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "מדרש"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Midrash"
+                ]
+            }
         ], 
-        "heTitle": "רות רבה", 
-        "depth": 2, 
         "titles": [
             {
                 "lang": "en", 
@@ -65,14 +107,8 @@
                 "primary": true
             }
         ], 
+        "heTitle": "רות רבה", 
         "key": "Ruth Rabbah", 
-        "heSectionNames": [
-            "פרק", 
-            "מדרש"
-        ], 
-        "sectionNames": [
-            "Chapter", 
-            "Midrash"
-        ]
+        "title": "Ruth Rabbah"
     }
 }

@@ -1,4 +1,7 @@
 {
+    "heCategories": [
+        "ספרי מוסר"
+    ], 
     "pubDate": "1740", 
     "title": "Messilat Yesharim", 
     "compDate": "1738", 
@@ -7,14 +10,13 @@
     "heTitleVariants": [
         "מסילת ישרים"
     ], 
-    "depth": 2, 
-    "compDateString": {
-        "en": " (1738 CE)", 
-        "he": " (1738 לספירה)"
-    }, 
     "compPlaceString": {
         "en": "Amsterdam", 
         "he": "אמסטרדם"
+    }, 
+    "compDateString": {
+        "en": " (1738 CE)", 
+        "he": " (1738 לספירה)"
     }, 
     "heTitle": "מסילת ישרים", 
     "era": "AH", 
@@ -32,22 +34,60 @@
         "Mesilat Yesharim", 
         "Messilat Yesharim"
     ], 
-    "sectionNames": [
-        "Perek", 
-        "Pasuk"
-    ], 
     "categories": [
         "Musar"
     ], 
     "schema": {
-        "nodeType": "JaggedArrayNode", 
-        "title": "Messilat Yesharim", 
-        "addressTypes": [
-            "Integer", 
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Introduction", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "הקדמה", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Introduction", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "הקדמה", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Introduction", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 2, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסוק"
+                ], 
+                "sectionNames": [
+                    "Perek", 
+                    "Pasuk"
+                ]
+            }
         ], 
-        "heTitle": "מסילת ישרים", 
-        "depth": 2, 
         "titles": [
             {
                 "lang": "en", 
@@ -80,14 +120,8 @@
                 "primary": true
             }
         ], 
+        "heTitle": "מסילת ישרים", 
         "key": "Messilat Yesharim", 
-        "heSectionNames": [
-            "פרק", 
-            "פסוק"
-        ], 
-        "sectionNames": [
-            "Perek", 
-            "Pasuk"
-        ]
+        "title": "Messilat Yesharim"
     }
 }

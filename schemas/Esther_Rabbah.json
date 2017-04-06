@@ -1,26 +1,26 @@
 {
     "is_cited": true, 
-    "sectionNames": [
-        "Chapter", 
-        "Paragraph"
+    "heCategories": [
+        "מדרש", 
+        "מדרש אגדה", 
+        "מדרש רבה"
     ], 
-    "compDateString": {
-        "en": " (c.1100  - c.1300 CE)", 
-        "he": " (1100 - 1300 לספירה בקירוב)"
-    }, 
     "pubDate": "1519", 
     "title": "Esther Rabbah", 
     "compDate": "1200", 
     "pubPlace": "Istanbul", 
     "compPlace": "Talmudic Israel/Babylon", 
     "enDesc": "Esther Rabbah (The Great Esther) is the midrash to the Book of Esther. Except in the Vilna and Warsaw editions with their modern and arbitrary divisions, this Midrash consists of six \"parashiyyot\" (chapters, sections; singular = \"parashah\") introduced by one or more proems. From its plan and scope it is apparently an incomplete collection derived from the rich haggadic material on Esther. The book draws from earlier Midrashim and was expanded over the centuries. It was probably written around the 10th Century though others date it to the 12th or 13th century.", 
-    "depth": 2, 
-    "heTitleVariants": [
-        "אסתר רבה"
-    ], 
     "compPlaceString": {
         "en": "Talmudic Israel/Babylon", 
         "he": "ישראל / בבל התלמודית"
+    }, 
+    "heTitleVariants": [
+        "אסתר רבה"
+    ], 
+    "compDateString": {
+        "en": " (c.1100  - c.1300 CE)", 
+        "he": " (1100 - 1300 לספירה בקירוב)"
     }, 
     "heTitle": "אסתר רבה", 
     "era": "RI", 
@@ -40,14 +40,56 @@
         "Midrash Rabbah"
     ], 
     "schema": {
-        "nodeType": "JaggedArrayNode", 
-        "title": "Esther Rabbah", 
-        "addressTypes": [
-            "Integer", 
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Petichta", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "פתיחתא", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Petichta", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "פתיחתא", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Petichta", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 2, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Paragraph"
+                ]
+            }
         ], 
-        "heTitle": "אסתר רבה", 
-        "depth": 2, 
         "titles": [
             {
                 "lang": "en", 
@@ -72,14 +114,8 @@
                 "primary": true
             }
         ], 
+        "heTitle": "אסתר רבה", 
         "key": "Esther Rabbah", 
-        "heSectionNames": [
-            "פרק", 
-            "פסקה"
-        ], 
-        "sectionNames": [
-            "Chapter", 
-            "Paragraph"
-        ]
+        "title": "Esther Rabbah"
     }
 }
