@@ -1,0 +1,101 @@
+{
+    "base_text_titles": [
+        {
+            "en": "Pirkei Avot", 
+            "he": "משנה אבות"
+        }
+    ], 
+    "heCategories": [
+        "משנה", 
+        "מפרשים", 
+        "סדר נזיקין"
+    ], 
+    "title": "Magen Avot", 
+    "collective_title": {
+        "en": "Magen Avot", 
+        "he": "מגן אבות"
+    }, 
+    "heTitleVariants": [
+        "מגן אבות"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "מגן אבות", 
+    "titleVariants": [
+        "Magen Avot"
+    ], 
+    "categories": [
+        "Mishnah", 
+        "Commentary", 
+        "Seder Nezikin"
+    ], 
+    "schema": {
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Introduction", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "הקדמה", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Introduction", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "הקדמה", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Introduction", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 3, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "משנה", 
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Mishna", 
+                    "Paragraph"
+                ]
+            }
+        ], 
+        "titles": [
+            {
+                "lang": "he", 
+                "text": "מגן אבות", 
+                "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Magen Avot", 
+                "primary": true
+            }
+        ], 
+        "heTitle": "מגן אבות", 
+        "key": "Magen Avot", 
+        "title": "Magen Avot"
+    }
+}
