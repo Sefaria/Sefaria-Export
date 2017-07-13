@@ -1,5 +1,5 @@
 {
-    "depth": 3, 
+    "is_cited": true, 
     "base_text_titles": [
         {
             "en": "Isaiah", 
@@ -12,11 +12,11 @@
         "אבן עזרא", 
         "נביאים"
     ], 
-    "pubDate": "1524", 
     "title": "Ibn Ezra on Isaiah", 
-    "base_text_mapping": "many_to_one", 
-    "pubPlace": "Venice", 
-    "compPlace": "Middle-Age France/Italy/England", 
+    "collective_title": {
+        "en": "Ibn Ezra", 
+        "he": "אבן עזרא"
+    }, 
     "heTitleVariants": [
         "אבן עזרא על ישעיהו", 
         "אבן עזרא על ישעיה", 
@@ -24,12 +24,7 @@
         "אבן עזרא על ישעי'"
     ], 
     "dependence": "Commentary", 
-    "compPlaceString": {
-        "en": "Middle-Age France/Italy/England", 
-        "he": "צרפת / איטליה / אנגליה של ימי הביניים"
-    }, 
     "heTitle": "אבן עזרא על ישעיהו", 
-    "era": "RI", 
     "authors": [
         {
             "en": "Ibn Ezra", 
@@ -42,15 +37,6 @@
         "Ibn Ezra on Isa", 
         "Ibn Ezra on Isaiah"
     ], 
-    "collective_title": {
-        "en": "Ibn Ezra", 
-        "he": "אבן עזרא"
-    }, 
-    "sectionNames": [
-        "Chapter", 
-        "Verse", 
-        "Comment"
-    ], 
     "categories": [
         "Tanakh", 
         "Commentary", 
@@ -58,15 +44,87 @@
         "Prophets"
     ], 
     "schema": {
-        "nodeType": "JaggedArrayNode", 
-        "title": "Ibn Ezra on Isaiah", 
-        "addressTypes": [
-            "Integer", 
-            "Integer", 
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Prelude", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "פתיחה", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Prelude", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "פתיחה", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Prelude", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 3, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסוק", 
+                    "פירוש"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Verse", 
+                    "Comment"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Translators Foreword", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "הקדמת המתרגם", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Translators Foreword", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "הקדמת המתרגם", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Translators Foreword", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }
         ], 
-        "heTitle": "אבן עזרא על ישעיהו", 
-        "depth": 3, 
         "titles": [
             {
                 "lang": "en", 
@@ -103,16 +161,8 @@
                 "primary": true
             }
         ], 
+        "heTitle": "אבן עזרא על ישעיהו", 
         "key": "Ibn Ezra on Isaiah", 
-        "heSectionNames": [
-            "פרק", 
-            "פסוק", 
-            "פירוש"
-        ], 
-        "sectionNames": [
-            "Chapter", 
-            "Verse", 
-            "Comment"
-        ]
+        "title": "Ibn Ezra on Isaiah"
     }
 }

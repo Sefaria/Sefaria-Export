@@ -3,8 +3,7 @@
     "language": "en", 
     "title": "Sefer Mitzvot Gadol", 
     "text": {
-        "Volume One": [], 
-        "Volume Two": {
+        "Positive Commandments": {
             "": [
                 [], 
                 [], 
@@ -51,11 +50,20 @@
                     "Laws of Shofar - It is a positive commandment to sound the shofar on Rosh Hashana, as the Torah states \"A day of Teruah it shall be for you\"."
                 ]
             ], 
+            "Introduction": [], 
+            "Remazim": []
+        }, 
+        "Negative Commandments": {
+            "": [], 
+            "Introduction": [], 
+            "Remazim": []
+        }, 
+        "Rabbinic Commandments": {
             "Laws of Eruvin": [], 
-            "Laws of Megillah": [], 
-            "Laws of Mourning": [], 
+            "Laws of Tisha B'Av": [], 
             "Laws of Chanukah": [], 
-            "Laws of Tisha B'Av": []
+            "Laws of Megillah": [], 
+            "Laws of Mourning": []
         }
     }, 
     "versions": [
@@ -73,16 +81,44 @@
         "heTitle": "ספר מצוות גדול", 
         "nodes": [
             {
-                "heTitle": "חלק הלאוין", 
-                "enTitle": "Volume One"
-            }, 
-            {
-                "heTitle": "חלק העשין", 
+                "heTitle": "לאוין", 
                 "nodes": [
+                    {
+                        "heTitle": "הקדמה", 
+                        "enTitle": "Introduction"
+                    }, 
+                    {
+                        "heTitle": "רמזים", 
+                        "enTitle": "Remazim"
+                    }, 
                     {
                         "heTitle": "", 
                         "enTitle": ""
+                    }
+                ], 
+                "enTitle": "Negative Commandments"
+            }, 
+            {
+                "heTitle": "עשין", 
+                "nodes": [
+                    {
+                        "heTitle": "הקדמה", 
+                        "enTitle": "Introduction"
                     }, 
+                    {
+                        "heTitle": "רמזים", 
+                        "enTitle": "Remazim"
+                    }, 
+                    {
+                        "heTitle": "", 
+                        "enTitle": ""
+                    }
+                ], 
+                "enTitle": "Positive Commandments"
+            }, 
+            {
+                "heTitle": "עשין דרבנן", 
+                "nodes": [
                     {
                         "heTitle": "הלכות עירובין", 
                         "enTitle": "Laws of Eruvin"
@@ -104,7 +140,7 @@
                         "enTitle": "Laws of Chanukah"
                     }
                 ], 
-                "enTitle": "Volume Two"
+                "enTitle": "Rabbinic Commandments"
             }
         ], 
         "key": "Sefer Mitzvot Gadol", 

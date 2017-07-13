@@ -8,6 +8,13 @@
         "סמ\"ג"
     ], 
     "heTitle": "ספר מצוות גדול", 
+    "era": "RI", 
+    "authors": [
+        {
+            "en": "Moses ben Jacob of Coucy", 
+            "he": "משה בן יעקב מקוצי"
+        }
+    ], 
     "titleVariants": [
         "SeMaG", 
         "Sefer Mitzvot Gadol"
@@ -18,38 +25,158 @@
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Volume One", 
-                "addressTypes": [
-                    "Integer", 
-                    "Integer"
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode", 
+                        "title": "Introduction", 
+                        "addressTypes": [
+                            "Integer"
+                        ], 
+                        "heTitle": "הקדמה", 
+                        "depth": 1, 
+                        "titles": [
+                            {
+                                "lang": "en", 
+                                "text": "Introduction", 
+                                "primary": true
+                            }, 
+                            {
+                                "lang": "he", 
+                                "text": "הקדמה", 
+                                "primary": true
+                            }
+                        ], 
+                        "key": "intro0", 
+                        "heSectionNames": [
+                            "פסקה"
+                        ], 
+                        "sectionNames": [
+                            "Paragraph"
+                        ]
+                    }, 
+                    {
+                        "nodeType": "JaggedArrayNode", 
+                        "title": "Remazim", 
+                        "addressTypes": [
+                            "Integer"
+                        ], 
+                        "heTitle": "רמזים", 
+                        "depth": 1, 
+                        "titles": [
+                            {
+                                "lang": "en", 
+                                "text": "Remazim", 
+                                "primary": true
+                            }, 
+                            {
+                                "lang": "he", 
+                                "text": "רמזים", 
+                                "primary": true
+                            }
+                        ], 
+                        "key": "remazim0", 
+                        "heSectionNames": [
+                            "פסקה"
+                        ], 
+                        "sectionNames": [
+                            "Paragraph"
+                        ]
+                    }, 
+                    {
+                        "nodeType": "JaggedArrayNode", 
+                        "title": "", 
+                        "default": true, 
+                        "addressTypes": [
+                            "Integer", 
+                            "Integer"
+                        ], 
+                        "heTitle": "", 
+                        "depth": 2, 
+                        "key": "default", 
+                        "heSectionNames": [
+                            "מצות לא תעשה", 
+                            "פסקה"
+                        ], 
+                        "sectionNames": [
+                            "Negative Mitzvah", 
+                            "Paragraph"
+                        ]
+                    }
                 ], 
-                "heTitle": "חלק הלאוין", 
-                "depth": 2, 
                 "titles": [
                     {
                         "lang": "en", 
-                        "text": "Volume One", 
+                        "text": "Negative Commandments", 
                         "primary": true
                     }, 
                     {
                         "lang": "he", 
-                        "text": "חלק הלאוין", 
+                        "text": "לאוין", 
                         "primary": true
                     }
                 ], 
+                "heTitle": "לאוין", 
                 "key": "vol1", 
-                "heSectionNames": [
-                    "מצות לא תעשה", 
-                    "פסקה"
-                ], 
-                "sectionNames": [
-                    "Negative Mitzvah", 
-                    "Paragraph"
-                ]
+                "title": "Negative Commandments"
             }, 
             {
                 "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode", 
+                        "title": "Introduction", 
+                        "addressTypes": [
+                            "Integer"
+                        ], 
+                        "heTitle": "הקדמה", 
+                        "depth": 1, 
+                        "titles": [
+                            {
+                                "lang": "en", 
+                                "text": "Introduction", 
+                                "primary": true
+                            }, 
+                            {
+                                "lang": "he", 
+                                "text": "הקדמה", 
+                                "primary": true
+                            }
+                        ], 
+                        "key": "intro1", 
+                        "heSectionNames": [
+                            "פסקה"
+                        ], 
+                        "sectionNames": [
+                            "Paragraph"
+                        ]
+                    }, 
+                    {
+                        "nodeType": "JaggedArrayNode", 
+                        "title": "Remazim", 
+                        "addressTypes": [
+                            "Integer"
+                        ], 
+                        "heTitle": "רמזים", 
+                        "depth": 1, 
+                        "titles": [
+                            {
+                                "lang": "en", 
+                                "text": "Remazim", 
+                                "primary": true
+                            }, 
+                            {
+                                "lang": "he", 
+                                "text": "רמזים", 
+                                "primary": true
+                            }
+                        ], 
+                        "key": "remazim1", 
+                        "heSectionNames": [
+                            "פסקה"
+                        ], 
+                        "sectionNames": [
+                            "Paragraph"
+                        ]
+                    }, 
                     {
                         "nodeType": "JaggedArrayNode", 
                         "title": "", 
@@ -69,7 +196,26 @@
                             "Positive Mitzvah", 
                             "Paragraph"
                         ]
+                    }
+                ], 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Positive Commandments", 
+                        "primary": true
                     }, 
+                    {
+                        "lang": "he", 
+                        "text": "עשין", 
+                        "primary": true
+                    }
+                ], 
+                "heTitle": "עשין", 
+                "key": "vol2", 
+                "title": "Positive Commandments"
+            }, 
+            {
+                "nodes": [
                     {
                         "nodeType": "JaggedArrayNode", 
                         "title": "Laws of Eruvin", 
@@ -80,13 +226,13 @@
                         "depth": 1, 
                         "titles": [
                             {
-                                "lang": "he", 
-                                "text": "הלכות עירובין", 
+                                "lang": "en", 
+                                "text": "Laws of Eruvin", 
                                 "primary": true
                             }, 
                             {
-                                "lang": "en", 
-                                "text": "Laws of Eruvin", 
+                                "lang": "he", 
+                                "text": "הלכות עירובין", 
                                 "primary": true
                             }
                         ], 
@@ -108,13 +254,13 @@
                         "depth": 1, 
                         "titles": [
                             {
-                                "lang": "he", 
-                                "text": "הלכות אבילות", 
+                                "lang": "en", 
+                                "text": "Laws of Mourning", 
                                 "primary": true
                             }, 
                             {
-                                "lang": "en", 
-                                "text": "Laws of Mourning", 
+                                "lang": "he", 
+                                "text": "הלכות אבילות", 
                                 "primary": true
                             }
                         ], 
@@ -136,13 +282,13 @@
                         "depth": 1, 
                         "titles": [
                             {
-                                "lang": "he", 
-                                "text": "הלכות תשעה באב", 
+                                "lang": "en", 
+                                "text": "Laws of Tisha B'Av", 
                                 "primary": true
                             }, 
                             {
-                                "lang": "en", 
-                                "text": "Laws of Tisha B'Av", 
+                                "lang": "he", 
+                                "text": "הלכות תשעה באב", 
                                 "primary": true
                             }
                         ], 
@@ -164,13 +310,13 @@
                         "depth": 1, 
                         "titles": [
                             {
-                                "lang": "he", 
-                                "text": "הלכות מגילה", 
+                                "lang": "en", 
+                                "text": "Laws of Megillah", 
                                 "primary": true
                             }, 
                             {
-                                "lang": "en", 
-                                "text": "Laws of Megillah", 
+                                "lang": "he", 
+                                "text": "הלכות מגילה", 
                                 "primary": true
                             }
                         ], 
@@ -192,13 +338,13 @@
                         "depth": 1, 
                         "titles": [
                             {
-                                "lang": "he", 
-                                "text": "הלכות חנוכה", 
+                                "lang": "en", 
+                                "text": "Laws of Chanukah", 
                                 "primary": true
                             }, 
                             {
-                                "lang": "en", 
-                                "text": "Laws of Chanukah", 
+                                "lang": "he", 
+                                "text": "הלכות חנוכה", 
                                 "primary": true
                             }
                         ], 
@@ -214,18 +360,18 @@
                 "titles": [
                     {
                         "lang": "en", 
-                        "text": "Volume Two", 
+                        "text": "Rabbinic Commandments", 
                         "primary": true
                     }, 
                     {
                         "lang": "he", 
-                        "text": "חלק העשין", 
+                        "text": "עשין דרבנן", 
                         "primary": true
                     }
                 ], 
-                "heTitle": "חלק העשין", 
-                "key": "vol2", 
-                "title": "Volume Two"
+                "heTitle": "עשין דרבנן", 
+                "key": "Rabbinic Commandments", 
+                "title": "Rabbinic Commandments"
             }
         ], 
         "titles": [

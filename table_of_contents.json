@@ -2483,14 +2483,13 @@
                                         "base_text_titles": [
                                             "Isaiah"
                                         ], 
-                                        "firstSection": "Ibn Ezra on Isaiah 1:1", 
-                                        "base_text_mapping": "many_to_one", 
+                                        "firstSection": "Ibn Ezra on Isaiah, Prelude", 
                                         "title": "Ibn Ezra on Isaiah", 
                                         "dependence": "Commentary", 
                                         "order": 12, 
                                         "heCommentator": "אבן עזרא", 
                                         "heTitle": "אבן עזרא על ישעיהו", 
-                                        "sparseness": 4, 
+                                        "sparseness": 3, 
                                         "heCollectiveTitle": "אבן עזרא", 
                                         "collectiveTitle": "Ibn Ezra", 
                                         "commentator": "Ibn Ezra", 
@@ -6493,6 +6492,44 @@
                         ]
                     }, 
                     {
+                        "category": "Mizrachi", 
+                        "heCategory": "מזרחי", 
+                        "contents": [
+                            {
+                                "category": "Torah", 
+                                "heCategory": "תורה", 
+                                "contents": [
+                                    {
+                                        "base_text_titles": [
+                                            "Genesis", 
+                                            "Exodus", 
+                                            "Leviticus", 
+                                            "Numbers", 
+                                            "Deuteronomy"
+                                        ], 
+                                        "firstSection": "Mizrachi, Genesis 1:1", 
+                                        "title": "Mizrachi", 
+                                        "dependence": "Commentary", 
+                                        "order": 5, 
+                                        "heCommentator": "מזרחי", 
+                                        "heTitle": "מזרחי", 
+                                        "sparseness": 2, 
+                                        "heCollectiveTitle": "מזרחי", 
+                                        "collectiveTitle": "Mizrachi", 
+                                        "commentator": "Mizrachi", 
+                                        "primary_category": "Commentary", 
+                                        "categories": [
+                                            "Tanakh", 
+                                            "Commentary", 
+                                            "Mizrachi", 
+                                            "Torah"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
                         "category": "Or HaChaim", 
                         "heCategory": "אור החיים", 
                         "contents": [
@@ -10356,7 +10393,7 @@
                                 "order": 39, 
                                 "heCommentator": "מגן אבות", 
                                 "heTitle": "מגן אבות", 
-                                "sparseness": 2, 
+                                "sparseness": 4, 
                                 "heCollectiveTitle": "מגן אבות", 
                                 "collectiveTitle": "Magen Avot", 
                                 "commentator": "Magen Avot", 
@@ -18335,6 +18372,41 @@
                                     "Mishnah", 
                                     "Commentary", 
                                     "Rash MiShantz"
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "Rashi", 
+                        "heCategory": "רש\"י", 
+                        "contents": [
+                            {
+                                "category": "Seder Nezikin", 
+                                "heCategory": "סדר נזיקין", 
+                                "contents": [
+                                    {
+                                        "base_text_titles": [
+                                            "Pirkei Avot"
+                                        ], 
+                                        "firstSection": "Rashi on Avot 6:1", 
+                                        "base_text_mapping": "many_to_one", 
+                                        "title": "Rashi on Avot", 
+                                        "dependence": "Commentary", 
+                                        "order": 39, 
+                                        "heCommentator": "רש\"י", 
+                                        "heTitle": "רש\"י על משנה אבות", 
+                                        "sparseness": 3, 
+                                        "heCollectiveTitle": "רש\"י", 
+                                        "collectiveTitle": "Rashi", 
+                                        "commentator": "Rashi", 
+                                        "primary_category": "Commentary", 
+                                        "categories": [
+                                            "Mishnah", 
+                                            "Commentary", 
+                                            "Rashi", 
+                                            "Seder Nezikin"
+                                        ]
+                                    }
                                 ]
                             }
                         ]
@@ -38766,7 +38838,7 @@
                 ]
             }, 
             {
-                "firstSection": "Sefer Mitzvot Gadol, Volume One 1", 
+                "firstSection": "Sefer Mitzvot Gadol, Negative Commandments, Introduction", 
                 "title": "Sefer Mitzvot Gadol", 
                 "dependence": false, 
                 "heTitle": "ספר מצוות גדול", 
@@ -41432,6 +41504,23 @@
                                 ]
                             }
                         ]
+                    }, 
+                    {
+                        "base_text_titles": [
+                            "Sefer Mitzvot Gadol"
+                        ], 
+                        "firstSection": "Brit Moshe, Negative Commandments 1:1", 
+                        "title": "Brit Moshe", 
+                        "dependence": "Commentary", 
+                        "collectiveTitle": "Brit Moshe", 
+                        "heTitle": "ברית משה", 
+                        "sparseness": 2, 
+                        "heCollectiveTitle": "ברית משה", 
+                        "primary_category": "Commentary", 
+                        "categories": [
+                            "Halakhah", 
+                            "Commentary"
+                        ]
                     }
                 ]
             }
@@ -43330,17 +43419,6 @@
                 ]
             }, 
             {
-                "firstSection": "Orchot Tzadikim 1", 
-                "title": "Orchot Tzadikim", 
-                "dependence": false, 
-                "heTitle": "אורחות צדיקים", 
-                "sparseness": 4, 
-                "primary_category": "Musar", 
-                "categories": [
-                    "Musar"
-                ]
-            }, 
-            {
                 "firstSection": "Pele Yoetz 1", 
                 "title": "Pele Yoetz", 
                 "dependence": false, 
@@ -43412,6 +43490,17 @@
                 "dependence": false, 
                 "heTitle": "יערות דבש", 
                 "sparseness": 4, 
+                "primary_category": "Musar", 
+                "categories": [
+                    "Musar"
+                ]
+            }, 
+            {
+                "firstSection": "Orchot Tzadikim, Introduction", 
+                "title": "Orchot Tzadikim", 
+                "dependence": false, 
+                "heTitle": "אורחות צדיקים", 
+                "sparseness": 3, 
                 "primary_category": "Musar", 
                 "categories": [
                     "Musar"
@@ -44316,7 +44405,7 @@
                 "firstSection": "Footnotes to Kohelet by Bruce Heitler 1", 
                 "title": "Footnotes to Kohelet by Bruce Heitler", 
                 "dependence": false, 
-                "heTitle": "הערות לקהלת מעת ברוס הייטלר", 
+                "heTitle": "הערות לקהלת מאת ברוס הייטלר", 
                 "sparseness": 4, 
                 "primary_category": "Modern Works", 
                 "categories": [
@@ -44338,7 +44427,7 @@
                 "firstSection": "Contemporary Halakhic Problems, Vol IV, Editor's Foreword", 
                 "title": "Contemporary Halakhic Problems, Vol IV", 
                 "dependence": false, 
-                "heTitle": "בעיות הלכתיות עכשוויות, כרך 4", 
+                "heTitle": "בעיות הלכתיות עכשוויות, כרך ד", 
                 "sparseness": 3, 
                 "primary_category": "Modern Works", 
                 "categories": [
