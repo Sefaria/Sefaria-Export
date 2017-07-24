@@ -8,6 +8,7 @@
     "heCategories": [
         "מחשבת ישראל", 
         "מפרשים", 
+        "מרפא לנפש", 
         "חובות הלבבות"
     ], 
     "title": "Marpeh la'Nefesh", 
@@ -20,18 +21,13 @@
     ], 
     "dependence": "Commentary", 
     "heTitle": "מרפא לנפש", 
-    "authors": [
-        {
-            "en": "Raphael ben Zechariah Mendel", 
-            "he": "רפאל בן זכריה מנדל"
-        }
-    ], 
     "titleVariants": [
         "Marpeh la'Nefesh"
     ], 
     "categories": [
         "Philosophy", 
         "Commentary", 
+        "Marpeh la'Nefesh", 
         "Duties of the Heart"
     ], 
     "schema": {
@@ -46,17 +42,17 @@
                 "depth": 1, 
                 "titles": [
                     {
-                        "lang": "he", 
-                        "text": "הקדמת המפרש", 
-                        "primary": true
-                    }, 
-                    {
                         "lang": "en", 
                         "text": "Introduction to Commentary", 
                         "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "הקדמת המפרש", 
+                        "primary": true
                     }
                 ], 
-                "key": "Commentor's Introduction", 
+                "key": "Introduction to Commentary", 
                 "heSectionNames": [
                     "פסקה"
                 ], 
@@ -225,6 +221,73 @@
                 "heTitle": "שער שני - שער הבחינה", 
                 "key": "Second Treatise on Examination", 
                 "title": "Second Treatise on Examination"
+            }, 
+            {
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode", 
+                        "title": "Introduction", 
+                        "addressTypes": [
+                            "Integer"
+                        ], 
+                        "heTitle": "הקדמה", 
+                        "depth": 1, 
+                        "titles": [
+                            {
+                                "lang": "en", 
+                                "text": "Introduction", 
+                                "primary": true
+                            }, 
+                            {
+                                "lang": "he", 
+                                "text": "הקדמה", 
+                                "primary": true
+                            }
+                        ], 
+                        "key": "Introduction", 
+                        "heSectionNames": [
+                            "פירוש"
+                        ], 
+                        "sectionNames": [
+                            "Comment"
+                        ]
+                    }, 
+                    {
+                        "nodeType": "JaggedArrayNode", 
+                        "title": "", 
+                        "default": true, 
+                        "addressTypes": [
+                            "Integer", 
+                            "Integer"
+                        ], 
+                        "heTitle": "", 
+                        "depth": 2, 
+                        "key": "default", 
+                        "heSectionNames": [
+                            "פרק", 
+                            "פירוש"
+                        ], 
+                        "sectionNames": [
+                            "Chapter", 
+                            "Comment"
+                        ]
+                    }
+                ], 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Third Treatise on Service of God", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "שער שלישי - שער עבודת האלוהים", 
+                        "primary": true
+                    }
+                ], 
+                "heTitle": "שער שלישי - שער עבודת האלוהים", 
+                "key": "Third Treatise on Service of God", 
+                "title": "Third Treatise on Service of God"
             }, 
             {
                 "nodes": [
