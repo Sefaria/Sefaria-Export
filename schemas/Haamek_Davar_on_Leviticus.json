@@ -1,5 +1,4 @@
 {
-    "depth": 3, 
     "is_cited": true, 
     "base_text_titles": [
         {
@@ -55,11 +54,6 @@
         "en": "Haamek Davar", 
         "he": "העמק דבר"
     }, 
-    "sectionNames": [
-        "Chapter", 
-        "Verse", 
-        "Comment"
-    ], 
     "categories": [
         "Tanakh", 
         "Commentary", 
@@ -67,15 +61,59 @@
         "Torah"
     ], 
     "schema": {
-        "nodeType": "JaggedArrayNode", 
-        "title": "Haamek Davar on Leviticus", 
-        "addressTypes": [
-            "Integer", 
-            "Integer", 
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Introduction to Leviticus", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "פתיחה לספר ויקרא", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Introduction to Leviticus", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "פתיחה לספר ויקרא", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Introduction to Leviticus", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 3, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסוק", 
+                    "פירוש"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Verse", 
+                    "Comment"
+                ]
+            }
         ], 
-        "heTitle": "העמק דבר על ויקרא", 
-        "depth": 3, 
         "titles": [
             {
                 "lang": "en", 
@@ -140,16 +178,8 @@
                 "primary": true
             }
         ], 
+        "heTitle": "העמק דבר על ויקרא", 
         "key": "Haamek Davar on Leviticus", 
-        "heSectionNames": [
-            "פרק", 
-            "פסוק", 
-            "פירוש"
-        ], 
-        "sectionNames": [
-            "Chapter", 
-            "Verse", 
-            "Comment"
-        ]
+        "title": "Haamek Davar on Leviticus"
     }
 }

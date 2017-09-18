@@ -1,5 +1,4 @@
 {
-    "depth": 3, 
     "is_cited": true, 
     "base_text_titles": [
         {
@@ -73,11 +72,6 @@
         "en": "Haamek Davar", 
         "he": "העמק דבר"
     }, 
-    "sectionNames": [
-        "Chapter", 
-        "Verse", 
-        "Comment"
-    ], 
     "categories": [
         "Tanakh", 
         "Commentary", 
@@ -85,15 +79,59 @@
         "Torah"
     ], 
     "schema": {
-        "nodeType": "JaggedArrayNode", 
-        "title": "Haamek Davar on Exodus", 
-        "addressTypes": [
-            "Integer", 
-            "Integer", 
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Introduction to Exodus", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "פתיחה לספר שמות", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Introduction to Exodus", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "פתיחה לספר שמות", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Introduction to Exodus", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 3, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסוק", 
+                    "פירוש"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Verse", 
+                    "Comment"
+                ]
+            }
         ], 
-        "heTitle": "העמק דבר על שמות", 
-        "depth": 3, 
         "titles": [
             {
                 "lang": "en", 
@@ -230,16 +268,8 @@
                 "primary": true
             }
         ], 
+        "heTitle": "העמק דבר על שמות", 
         "key": "Haamek Davar on Exodus", 
-        "heSectionNames": [
-            "פרק", 
-            "פסוק", 
-            "פירוש"
-        ], 
-        "sectionNames": [
-            "Chapter", 
-            "Verse", 
-            "Comment"
-        ]
+        "title": "Haamek Davar on Exodus"
     }
 }

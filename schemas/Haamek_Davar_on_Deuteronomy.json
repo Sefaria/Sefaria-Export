@@ -1,5 +1,4 @@
 {
-    "depth": 3, 
     "is_cited": true, 
     "base_text_titles": [
         {
@@ -67,11 +66,6 @@
         "en": "Haamek Davar", 
         "he": "העמק דבר"
     }, 
-    "sectionNames": [
-        "Chapter", 
-        "Verse", 
-        "Comment"
-    ], 
     "categories": [
         "Tanakh", 
         "Commentary", 
@@ -79,15 +73,59 @@
         "Torah"
     ], 
     "schema": {
-        "nodeType": "JaggedArrayNode", 
-        "title": "Haamek Davar on Deuteronomy", 
-        "addressTypes": [
-            "Integer", 
-            "Integer", 
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Introduction to Deuteronomy", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "פתיחה לספר דברים", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Introduction to Deuteronomy", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "פתיחה לספר דברים", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Introduction to Deuteronomy", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 3, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסוק", 
+                    "פירוש"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Verse", 
+                    "Comment"
+                ]
+            }
         ], 
-        "heTitle": "העמק דבר על דברים", 
-        "depth": 3, 
         "titles": [
             {
                 "lang": "en", 
@@ -200,16 +238,8 @@
                 "primary": true
             }
         ], 
+        "heTitle": "העמק דבר על דברים", 
         "key": "Haamek Davar on Deuteronomy", 
-        "heSectionNames": [
-            "פרק", 
-            "פסוק", 
-            "פירוש"
-        ], 
-        "sectionNames": [
-            "Chapter", 
-            "Verse", 
-            "Comment"
-        ]
+        "title": "Haamek Davar on Deuteronomy"
     }
 }
