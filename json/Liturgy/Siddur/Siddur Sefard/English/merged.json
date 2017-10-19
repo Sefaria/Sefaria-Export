@@ -1,7 +1,16 @@
 {
     "versionTitle": "merged", 
     "language": "en", 
-    "title": "Siddur Sefard", 
+    "versions": [
+        [
+            "Sefaria Community Translation", 
+            "http://www.sefaria.org"
+        ], 
+        [
+            "Rabbi Yoni Dahlen's translation", 
+            "https://www.sefaria.org/sheets/81234"
+        ]
+    ], 
     "text": {
         "Shabbat Day Meal": {
             "Seder Tikunei Shabbat": [], 
@@ -16,9 +25,9 @@
         "Various Blessings": {
             "Circumcision": [], 
             "Marriage Blessings": [], 
-            "Sheva Berachot": [], 
             "Redeeming Firstborn": [], 
-            "Geula LeBrit Milah": []
+            "Geula LeBrit Milah": [], 
+            "Sheva Berachot": []
         }, 
         "Torah Readings": {
             "Torah Reading for Chol Hamoed Pesach": [], 
@@ -28,33 +37,13 @@
             "Fast Day Mincha Haftara": [], 
             "Torah Reading for Shabbat Mincha & Monday, Thursday": []
         }, 
-        "Holidays": {
-            "Maariv, Shacharit & Mincha Amidah": [], 
-            "Prayer for Rain": [], 
-            "Yizkor": [], 
-            "Prayer Upon Entering Sukkah": [], 
-            "Yom Tov Musaf Amidah": [], 
-            "Kaddish Before Maariv Amidah": [], 
-            "Yom Tov Eve Kiddush": [], 
-            "Yom Tov Daytime Kiddush": [], 
-            "Prayer for Dew": []
+        "Chanukah": {
+            "Menorah Lighting": [], 
+            "Torah Reading": [], 
+            "Song for Shabbat Chanuka": []
         }, 
-        "Pesach Haggadah": {
-            "Hallel": [], 
-            "Maggid": [], 
-            "Korech": [], 
-            "Motzi, Matzah": [], 
-            "Urchatz": [], 
-            "Rochtzoh": [], 
-            "Karpas": [], 
-            "Shulchan Orech": [], 
-            "Yachatz": [], 
-            "Tzafun": [], 
-            "Nirtzah": [], 
-            "Kadesh": [], 
-            "Barech": [], 
-            "Shir HaShirim": [], 
-            "Maror": []
+        "Eruv Tavshilin": {
+            "Eruv Tavshilin": []
         }, 
         "Various Prayers & Segulot": {
             "Awesome Prayer of Rabbeinu Tam": [], 
@@ -65,7 +54,9 @@
             "Parashat Haman Reading for Tuesday Beshalach": []
         }, 
         "Weekday Maariv": {
-            "The Shema": [], 
+            "The Shema": [
+                "Allow us, HaShem Elokeynu, to lie down in peace. Grant us, our King, to wake and rise to a life of goodness and peace. Spread over us the sukkah of your peace and guide us with your good counsel..."
+            ], 
             "Amidah": [], 
             "Sefirat HaOmer": [], 
             "Motzaei Shabbat": []
@@ -82,38 +73,58 @@
             "Chapter of Manna": [], 
             "Supplications After Prayers": []
         }, 
-        "Eruv Tavshilin": {
-            "Eruv Tavshilin": []
+        "Pesach Haggadah": {
+            "Hallel": [], 
+            "Maggid": [], 
+            "Korech": [], 
+            "Motzi, Matzah": [], 
+            "Urchatz": [], 
+            "Rochtzoh": [], 
+            "Karpas": [], 
+            "Shulchan Orech": [], 
+            "Tzafun": [], 
+            "Nirtzah": [], 
+            "Kadesh": [], 
+            "Barech": [], 
+            "Shir HaShirim": [], 
+            "Maror": [], 
+            "Yachatz": []
         }, 
         "Weekday Shacharit": {
             "L'David Hashem": [], 
-            "B'raita d'Rabi Yishmael": [], 
             "Morning Blessings": [], 
             "Aleinu": [], 
-            "Morning Prayer": [], 
-            "Amidah": [], 
-            "Barchi Nafshi": [], 
-            "Hodu": [], 
             "Ashrei": [], 
-            "For Monday & Thursday": [], 
-            "The Shema": [], 
+            "Tachanun": [], 
+            "Blessings on Torah": [], 
             "Song of the Day": [], 
+            "Yishtabach": [], 
+            "Barchi Nafshi": [], 
+            "For Monday & Thursday": [], 
+            "Kaveh": [], 
+            "Hodu": [], 
             "Korbanot": [], 
             "Beit Yaakov": [], 
-            "Blessings on Torah": [], 
-            "Kaveh": [], 
+            "Morning Prayer": [], 
+            "The Shema": [], 
             "Avinu Malkeinu": [], 
-            "Tachanun": [], 
+            "Amidah": [], 
             "Torah Reading": [], 
-            "Yishtabach": []
+            "B'raita d'Rabi Yishmael": []
         }, 
         "Shaking Lulav": {
             "Shaking Lulav": []
         }, 
-        "Chanukah": {
-            "Menorah Lighting": [], 
-            "Torah Reading": [], 
-            "Song for Shabbat Chanuka": []
+        "Holidays": {
+            "Maariv, Shacharit & Mincha Amidah": [], 
+            "Prayer for Rain": [], 
+            "Yizkor": [], 
+            "Prayer Upon Entering Sukkah": [], 
+            "Yom Tov Musaf Amidah": [], 
+            "Kaddish Before Maariv Amidah": [], 
+            "Yom Tov Eve Kiddush": [], 
+            "Yom Tov Daytime Kiddush": [], 
+            "Prayer for Dew": []
         }, 
         "Purim": {
             "Order of Purim Day": [], 
@@ -173,13 +184,13 @@
             "Selichot for 20 Sivan": [], 
             "Selichot for 17 Tamuz": [], 
             "Selichot for BaHaB": [], 
-            "Selichot for Concluding Monday": [], 
+            "Selichot for Childrens' Illness": [], 
             "Selichot for Taanit Esther": [], 
             "El Maleh Prayer": [], 
             "Yom Kippur Katan": [], 
             "Selichot for First Monday": [], 
             "Selichot for Asara B'Tevet": [], 
-            "Selichot for Childrens' Illness": [], 
+            "Selichot for Concluding Monday": [], 
             "Selichot for Thursday": []
         }, 
         "Kiddush Levanah": {
@@ -192,11 +203,11 @@
             "Sabbath": []
         }, 
         "Nissan": {
+            "Burning Hametz": [], 
             "Letter of Rav Shimshon of Ostropol": [], 
             "The'Nasi' Readings": [], 
-            "Burning Hametz": [], 
-            "Pesach Offering": [], 
-            "Search for Hametz": []
+            "Search for Hametz": [], 
+            "Pesach Offering": []
         }, 
         "Shabbat Candle Lighting": {
             "Shabbat Candle Lighting": []
@@ -204,9 +215,9 @@
         "Shabbat Morning Services": {
             "Shabbat Torah Reading": [], 
             "Prayer for Oleh": [], 
-            "Blessings on Torah Reading": [], 
-            "Thanksgiving Blessing": [], 
             "Prayer for Mother after Chilbirth": [], 
+            "Thanksgiving Blessing": [], 
+            "Blessings on Torah Reading": [], 
             "BaHaB Blessing": [], 
             "Shema & Blessings": [
                 "", 
@@ -219,9 +230,9 @@
             "Blessing of New Month": [], 
             "Bar Mitzva": [], 
             "Hagbahah": [], 
-            "Haftarah Blessings": [], 
-            "Pesukei D'Zimrah": [], 
             "Prayer for Deceased": [], 
+            "Pesukei D'Zimrah": [], 
+            "Haftarah Blessings": [], 
             "Amidah": [], 
             "Av HaRachamim": []
         }, 
@@ -243,9 +254,9 @@
             "Birchat HaMazon": []
         }, 
         "Weekday Mincha": {
-            "Amidah": [], 
-            "Torah Reading for Fast Day": [], 
             "Tachanun": [], 
+            "Torah Reading for Fast Day": [], 
+            "Amidah": [], 
             "Korbanot": [], 
             "Avinu Malkeinu": []
         }, 
@@ -335,12 +346,7 @@
             "Introductory Prayers": []
         }
     }, 
-    "versions": [
-        [
-            "Sefaria Community Translation", 
-            "http://www.sefaria.org"
-        ]
-    ], 
+    "title": "Siddur Sefard", 
     "versionSource": "https://www.sefaria.org/Siddur_Sefard", 
     "heTitle": "סידור ספרד", 
     "categories": [
