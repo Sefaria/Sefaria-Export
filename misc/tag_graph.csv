@@ -30,12 +30,12 @@ High Holidays,Yom Kippur,100.0
 Tshuva,Yom Kippur,98.0
 Eretz Yisrael,Land,92.0
 Sin,Tshuva,92.0
-God,Knowing God,90.0
+God,Knowing God,92.0
 Rosh Hashanah,Shofar,89.0
 Shavuot,Torah,88.0
 Creation,Parashat Bereishit,85.0
+Leadership,Moses,84.0
 Law,Prayer,83.0
-Leadership,Moses,82.0
 Justice,Tzedakah,80.0
 Law,Tefilla,80.0
 Repentance,Sin,79.0
@@ -47,10 +47,10 @@ High Holidays,Rosh Hashanah,72.0
 Revelation,Shavuot,71.0
 Eating,Law,71.0
 Israel,Land,70.0
+God,Theology,70.0
 Commandments,Torah,69.0
 Children,Parents,68.0
 Holidays,Tanakh,68.0
-God,Theology,67.0
 Torah,Torah Study,67.0
 Prophets,Tanakh,66.0
 Kashrut,Law,65.0
@@ -62,11 +62,12 @@ Maimonides,Tshuva,63.0
 Parashat Yitro,Shavuot,62.0
 Eretz Yisrael,Israel,62.0
 Law,Shabbat,61.0
+Abraham,Parashat Lech Lecha,61.0
 Mitzvot,Prayer,60.0
+Abraham,Parashat Vayera,59.0
 Commandments,Prayer,58.0
 God,Prayer,58.0
-Abraham,Parashat Lech Lecha,58.0
-Abraham,Parashat Vayera,57.0
+Noah,Parashat Noach,57.0
 Land,Zionism,56.0
 Maimonides,Repentance,56.0
 Social Justice,Tikkun Olam,56.0
@@ -75,22 +76,21 @@ Prayer,Women,55.0
 Elul,Repentance,55.0
 Holidays,Mitzvot,55.0
 Commandments,Holidays,55.0
+Abraham,Isaac,55.0
 Elul,Tshuva,54.0
-Abraham,Isaac,54.0
 Commandments,Tefilla,53.0
 Eretz Yisrael,Zionism,53.0
 Sin,Yom Kippur,53.0
 Mitzvot,Tefilla,53.0
 Adam,Creation,52.0
 Ruth,Shavuot,52.0
-Noah,Parashat Noach,52.0
 Food,Kashrut,52.0
+Community,Leadership,51.0
 Economic Justice,Tzedakah,51.0
 Law,Women,51.0
 Blessings,Prayer,51.0
 Mitzvot,Shabbat,51.0
 Commandments,Shabbat,51.0
-Community,Leadership,50.0
 Law,Tshuva,50.0
 God,Tefilla,50.0
 Land,Shemitah,50.0
@@ -116,6 +116,7 @@ Law,Maimonides,46.0
 Holidays,Joy,46.0
 High Holidays,Rambam,45.0
 Parashat Yitro,Revelation,45.0
+Community,People,45.0
 Economic Justice,Justice,45.0
 Elul,High Holidays,45.0
 Choice,Free Will,45.0
@@ -123,7 +124,6 @@ High Holidays,Maimonides,45.0
 Justice,Obligation,45.0
 High Holidays,Sin,45.0
 God,Middot,44.0
-Community,People,44.0
 Adam,Parashat Bereishit,44.0
 Esau,Jacob,44.0
 Blessings,Tefilla,43.0
@@ -136,6 +136,7 @@ Hillel,Shammai,43.0
 Commandments,Food,43.0
 Repentance,Rosh Hashanah,42.0
 Haman,Purim,42.0
+God,Parashat Bereishit,42.0
 Teaching,Torah,42.0
 Mitzvot,Torah Study,41.0
 Joy,Yom Tov,41.0
@@ -146,7 +147,7 @@ Commandments,Torah Study,41.0
 Ecology,Environment,41.0
 Pirkei Avot,Torah,41.0
 Sukkot,Tanakh,41.0
-God,Parashat Bereishit,41.0
+Drinking,Law,41.0
 Tanakh,Tefilla,41.0
 Prayer,Tanakh,41.0
 LGBT,Transgender,40.0
@@ -154,7 +155,6 @@ Learning,Teaching,40.0
 Learning,Torah,40.0
 Tefilla,Women,40.0
 Aaron,Moses,40.0
-Drinking,Law,40.0
 Tanakh,Women in Tanach,39.0
 Obligation,Prayer,39.0
 Commandments,Eating,39.0
@@ -175,6 +175,7 @@ Theology,Tshuva,38.0
 Mitzvot,Sacrifices,38.0
 Commandments,Sacrifices,38.0
 Poverty,Tzedakah,38.0
+Abraham,Akeidah,38.0
 Tanakh,Tshuva,38.0
 Repentance,Theology,38.0
 Jacob,Parashat Vayeitzey,38.0
@@ -187,7 +188,6 @@ Economic Justice,Social Justice,37.0
 Community,Mitzvot,37.0
 Tanakh,Yom Kippur,37.0
 Abraham,Moses,37.0
-Abraham,Akeidah,37.0
 Chesed,Kindness,37.0
 Children,Mitzvot,37.0
 Abraham,Sarah,36.0
@@ -220,6 +220,8 @@ Jacob,Parashat Vayishlach,34.0
 Esther,Mordechai,34.0
 Gender,LGBT,34.0
 Parashat Yitro,Torah,34.0
+Abraham,Noah,34.0
+Ethics,Tzelem Elohim,34.0
 Esther,Haman,34.0
 LGBT,Trans Torah,34.0
 Education,Teachers,34.0
@@ -233,9 +235,7 @@ Maimonides,Sin,33.0
 Abraham,Land,33.0
 High Holidays,Law,33.0
 Justice,Law,33.0
-Abraham,Noah,33.0
 Commandments,Kashrut,33.0
-Ethics,Tzelem Elohim,33.0
 Kashrut,Mitzvot,33.0
 Law,Yom Kippur,32.0
 Matzah,Passover,32.0
@@ -250,15 +250,19 @@ Gender,Transgender,32.0
 New Year,Rosh Hashanah,32.0
 Creation,Tanakh,32.0
 Shema,Tefilla,32.0
+Chassidut,God,31.0
 David,Shmuel,31.0
 Parashat Emor,Sukkot,31.0
 Holidays,Purim,31.0
+Chassidut,Theology,31.0
 Israel,Obligation,31.0
 Egypt,Pesach,31.0
+Parashat Bereishit,Tzelem Elohim,31.0
 Community,Obligation,31.0
 Tanakh,Yom Tov,31.0
 High Holidays,Tanakh,31.0
 Tefilla,Thanksgiving,31.0
+Law,Tanakh,31.0
 Sin,Theology,31.0
 Art,Judaism and Art,30.0
 Siddur,Tefilla,30.0
@@ -270,32 +274,29 @@ Chametz,Passover,30.0
 Gender Fluid,Trans Torah,30.0
 Prophecy,Tanakh,30.0
 Abraham,Mitzvot,30.0
-Parashat Bereishit,Tzelem Elohim,30.0
 Shabbat,Theology,30.0
+Drinking,Wine,30.0
 Gender,Gender Fluid,30.0
 Matzah,Pesach,30.0
-Law,Tanakh,30.0
 Abraham,Eretz Yisrael,30.0
 Jonah,Tanakh,30.0
 Abraham,Jacob,30.0
+Akeidah,Isaac,30.0
 Nature,Tu B'Shvat,30.0
 Commandments,Theology,29.0
-Chassidut,God,29.0
 Judges,Justice,29.0
 Philosophy,Repentance,29.0
 Elul,Maimonides,29.0
-Chassidut,Theology,29.0
 Mitzvot,Theology,29.0
 Creation,God,29.0
 Shavuos,Shavuot,29.0
 David,Tanakh,29.0
-Drinking,Wine,29.0
 Gender Fluid,LGBT,29.0
 High Holidays,Shofar,29.0
 Elul,Rambam,29.0
 Trans Torah,Transgender,29.0
+Abraham,God,29.0
 Law,Torah,29.0
-Akeidah,Isaac,29.0
 Abraham,Commandments,28.0
 Law,Sukkot,28.0
 Sex,Sexuality,28.0
@@ -317,6 +318,7 @@ Gender,Gender in Kabbalah,28.0
 Philosophy,Tshuva,28.0
 Gender in Kabbalah,Trans Torah,28.0
 Community,Pirkei Avot,28.0
+God,Tzelem Elohim,28.0
 Art,Jewish Identity,28.0
 Abraham,Tefilla,28.0
 Gender Fluid,Gender in Kabbalah,28.0
@@ -330,13 +332,12 @@ HaChovel,Homework,27.0
 Jewish Identity,Judaism and Art,27.0
 Esther,Masks,27.0
 Kabbalah,LGBT,27.0
+Philosophy,Shabbat,27.0
 Gender,Kabbalah,27.0
 High Holidays,Middot,27.0
 Ethics,Torah,27.0
 Theology,Yom Kippur,27.0
 Kabbalah,Trans Torah,27.0
-God,Tzelem Elohim,27.0
-Abraham,God,27.0
 Community,Tanakh,27.0
 Food,Parashat Eikev,27.0
 Esther,Mitzvot,26.0
@@ -348,11 +349,11 @@ Moses,Torah,26.0
 Gittin,Homework,26.0
 High Holidays,Philosophy,26.0
 Mitzvot,Revelation,26.0
-Philosophy,Shabbat,26.0
 Holidays,Parashat Emor,26.0
 Community,Learning,26.0
 God,Tshuva,26.0
 God,Liturgy,26.0
+Leadership,Pirkei Avot,26.0
 Liturgy,Theology,26.0
 Prayer,Tshuva,26.0
 Commandments,Tanakh,26.0
@@ -369,7 +370,6 @@ Law,Sexuality,25.0
 Covenant,Land,25.0
 Chassidut,Philosophy,25.0
 Pirkei Avot,Teaching,25.0
-Leadership,Pirkei Avot,25.0
 Land,Law,25.0
 Kindness,Love,25.0
 Obligation,Tzedakah,25.0
@@ -404,6 +404,7 @@ Health,Law,24.0
 Gender Fluid,Transgender,24.0
 Covenant,Eretz Yisrael,24.0
 Moses,Revelation,24.0
+Community,Teaching,24.0
 Land,Obligation,24.0
 Maimonides,Middot,24.0
 Sacrifices,Tefilla,24.0
@@ -413,6 +414,7 @@ Kabbalah,Mysticism,24.0
 Berachot,Food,24.0
 LGBT,Transgender in Judaism,24.0
 Law,Middot,24.0
+Parashat Noach,Yetzer Hara,24.0
 Abraham,Prayer,24.0
 Berachot,Tefilla,24.0
 Law,Sin,24.0
@@ -421,6 +423,7 @@ Berachot,Thanksgiving,24.0
 God,High Holidays,24.0
 Nisan,Rosh Hashanah,23.0
 Rosh Hashanah,Tishrei,23.0
+Abraham,Theology,23.0
 Love,Torah,23.0
 New Year,Parashat Tzav,23.0
 Mitzvot,Philosophy,23.0
@@ -435,7 +438,7 @@ Food,Passover,23.0
 Fasting,Tanakh,23.0
 Jonah,Prophets,23.0
 Berachot,Eating,23.0
-Community,Teaching,23.0
+Parashat Bereishit,Parashat Noach,23.0
 Community,Shabbat,23.0
 Learning Torah,Torah Study,23.0
 Abraham,Torah,23.0
@@ -449,17 +452,19 @@ Kindness,Tzelem Elohim,23.0
 Gender in Kabbalah,Transgender in Judaism,23.0
 Blessings,Parashat Eikev,23.0
 Covenant,Zionism,23.0
-Parashat Noach,Yetzer Hara,23.0
 Law,Pesach,23.0
 New Year,Tishrei,23.0
 Parashat Tzav,Tishrei,23.0
 Blessings,Law,23.0
+Ethics,God,23.0
 Esther,Prophets,23.0
 Law,Passover,23.0
 Law,Minhag,23.0
 Parashat Tzav,Rosh Hashanah,23.0
+Exodus,Passover,23.0
 Leadership,Miriam,23.0
 High Holidays,Theology,23.0
+Knowing God,Theology,23.0
 Nisan,Tishrei,23.0
 Food,Pesach,22.0
 Tefilla,Tzedakah,22.0
@@ -482,7 +487,6 @@ Moses,Speech,22.0
 Mishkan,Parashat Terumah,22.0
 Purim,Tanakh,22.0
 Geula,Redemption,22.0
-Parashat Bereishit,Parashat Noach,22.0
 Law,Theology,22.0
 Student,Teaching,22.0
 Fasting,Jonah,22.0
@@ -501,7 +505,7 @@ Ecology,Environmentalism,22.0
 Economic Justice,Land,22.0
 Mitzvot,Social Justice,22.0
 Purim,Wine,22.0
-Ethics,God,22.0
+Akeidah,Parashat Vayera,22.0
 Parashat Yitro,Ten Commandments,22.0
 Gender Fluid,Kabbalah,22.0
 Food,God,22.0
@@ -516,7 +520,6 @@ Eretz Yisrael,Obligation,22.0
 Chosenness,Parashat Yitro,21.0
 Abraham,Welcoming Guests,21.0
 Hillel and Shammai,Korach,21.0
-Abraham,Theology,21.0
 Community,Disagreement,21.0
 Conversion,Law,21.0
 God,Thanksgiving,21.0
@@ -528,6 +531,7 @@ Eating,God,21.0
 Creation,Tzelem Elohim,21.0
 High Holidays,Jonah,21.0
 Economic Justice,Shemitah,21.0
+Isaac,Parashat Vayera,21.0
 Tanakh,Women,21.0
 Tefilla,Yom Kippur,21.0
 Covenant,Obligation,21.0
@@ -537,14 +541,11 @@ Eco,Ecology,21.0
 Leadership,Torah,21.0
 Liturgy,Tefilla,21.0
 Law,Leadership,21.0
-Akeidah,Parashat Vayera,21.0
 Obligation,Zionism,21.0
 Cain,Parashat Bereishit,21.0
 Moses,Obligation,21.0
 Gender,Law,21.0
 Blessings,Commandments,21.0
-Exodus,Passover,21.0
-Knowing God,Theology,21.0
 Blessings,Mitzvot,21.0
 Law,Shofar,20.0
 Light,Mitzvot,20.0
@@ -564,7 +565,6 @@ ELI,Education,20.0
 God,Yom Kippur,20.0
 Economic Justice,Mitzvot,20.0
 Education,Student,20.0
-Isaac,Parashat Vayera,20.0
 Beit Hamikdash,Tisha B'av,20.0
 Bal Tashchit,Tikkun Olam,20.0
 Sin,Yetzer Hara,20.0
@@ -576,6 +576,7 @@ High Holidays,Knowing God,20.0
 Commandments,Economic Justice,20.0
 Parashat Kedoshim,Sexuality,20.0
 Theology,Torah,20.0
+Parashat Noach,People,20.0
 Student,Torah Study,20.0
 Disagreement,Machloket,20.0
 Prayer,Shmuel,20.0
@@ -665,6 +666,7 @@ Israel,Redemption,18.0
 Hillel,Torah Study,18.0
 High Holidays,Liturgy,18.0
 Yetzer Hara,Yetzer Hatov,18.0
+Moses,Moshe,18.0
 Alcohol,Wine,18.0
 Fasting,Yom Tov,18.0
 Commandments,Parashat Eikev,18.0
@@ -697,7 +699,6 @@ Student,Teachers,18.0
 Love,Mitzvot,18.0
 Middot,Theology,18.0
 Creation,Theology,18.0
-Parashat Noach,People,18.0
 Prophets,Purim,18.0
 Eco,Environment,18.0
 Berachot,God,18.0
@@ -730,6 +731,7 @@ Sinai,Ten Commandments,17.0
 Hannah,Tefilla,17.0
 Obligation,Social Justice,17.0
 Jewish LGBT,Kabbalah,17.0
+Punishment,Theology,17.0
 Justice,Leadership,17.0
 Minhag,Passover,17.0
 God,Mishkan,17.0
@@ -738,6 +740,7 @@ Holidays,Prophets,17.0
 Judgement,Prayer,17.0
 Eco,Nature,17.0
 Chassidut,Shofar,17.0
+Law,Wine,17.0
 Akeidah,Shofar,17.0
 God,Prophets,17.0
 Justice,Love,17.0
@@ -753,6 +756,7 @@ Holidays,Mishnah,17.0
 Holidays,Jonah,17.0
 Gender in Kabbalah,Jewish LGBT,17.0
 Berachot,Tzedakah,17.0
+Abraham,Parashat Noach,17.0
 Animals,Food,17.0
 Beit Hamikdash,Tanakh,17.0
 High Holidays,Mitzvot,17.0
@@ -788,7 +792,6 @@ Judgement,Media,16.0
 Tanakh,Tisha B'av,16.0
 Angels,Parashat Nitzavim,16.0
 Creation,Philosophy,16.0
-Moses,Moshe,16.0
 Clothing,Purim,16.0
 Gender in Judaism,Transgender,16.0
 Children,Jacob,16.0
@@ -796,7 +799,6 @@ Gender Fluid,Gender in Judaism,16.0
 Commandments,Tshuva,16.0
 Mitzvot,Tshuva,16.0
 Honor,Respect,16.0
-Punishment,Theology,16.0
 Community,Tshuva,16.0
 Book of Life,Media,16.0
 Esau,Parashat Toldot,16.0
@@ -807,7 +809,6 @@ Book of Life,Judgement,16.0
 Mitzvot,Sinai,16.0
 Community,Middot,16.0
 Leah,Rachel,16.0
-Law,Wine,16.0
 Judges,Law,16.0
 Memory,Tanakh,16.0
 Parsha Questions (Lamdut),שאלות בפרשה בלמדות,16.0
@@ -829,6 +830,7 @@ Philosophy,Torah,16.0
 Parashat Va'etchanan,Shema,16.0
 Individual,Law,16.0
 Afterlife,Death,16.0
+Ethics,Parashat Bereishit,16.0
 Book of Life,Prayer,16.0
 Justice,Pirkei Avot,16.0
 Parashat Bereishit,Sin,16.0
@@ -840,7 +842,6 @@ Media,Rosh Hashanah,16.0
 Eating,Tzedakah,16.0
 Death,Olam Haba,16.0
 Pirkei Avot,Tikkun Olam,16.0
-Abraham,Parashat Noach,16.0
 Poverty,Tikkun Olam,16.0
 Beit Hamikdash,Holidays,16.0
 Drinking,Eating,16.0
@@ -851,6 +852,7 @@ Mishnah,Passover,16.0
 Language,Torah,16.0
 Disagreement,Korach,16.0
 Shmirat Ha-Guf,Wellness,16.0
+Abraham,Chassidut,16.0
 Community,Tikkun Olam,16.0
 Omer,Parashat Emor,16.0
 Food,Tzedakah,16.0
@@ -876,6 +878,7 @@ Chassidut,Jacob,15.0
 Tikkun Olam,Tzedakah,15.0
 Ethics,Values,15.0
 Justice,Sin,15.0
+Mysticism,Theology,15.0
 Kings,Shmuel,15.0
 Chassidut,Love,15.0
 Counting,Omer,15.0
@@ -908,6 +911,7 @@ Lulav,Sukkot,15.0
 Prayer,Song,15.0
 Land,Moses,15.0
 Prayer,Women in Tanach,15.0
+Joshua,Leadership,15.0
 Shammai,Torah Study,15.0
 Holidays,Passover,15.0
 Mitzvot,Yom Tov,15.0
@@ -931,9 +935,9 @@ Gardening,Nature,15.0
 Hasidus,LGBT,15.0
 Love,Sinai,15.0
 Authority,Shammai,15.0
+Chassidut,Mysticism,15.0
 Abraham,Community,15.0
 Esther,Obligation,15.0
-Ethics,Parashat Bereishit,15.0
 Language,Tzelem Elohim,15.0
 Berachot,Commandments,15.0
 Middot,NCSY JOLT,15.0
@@ -976,6 +980,7 @@ Commandments,Covenant,15.0
 Rosh Hashanah,Tefilla,15.0
 Law,Parashat Kedoshim,15.0
 Miriam,Women,15.0
+Leadership,Teaching,15.0
 Eretz Yisrael,Moses,15.0
 Covenant,Moses,15.0
 Gender in Judaism,Kabbalah,14.0
@@ -987,6 +992,7 @@ Gentile,Law,14.0
 Berachot,Parashat Eikev,14.0
 Judges,Moses,14.0
 Gender,Mitzvot,14.0
+Chassidut,Knowing God,14.0
 Justice,Kindness,14.0
 Law,Parashat Yitro,14.0
 Shavuot,Tikkun,14.0
@@ -1015,7 +1021,6 @@ Passover,Wine,14.0
 Esther,Mishloach Manot,14.0
 Mishloach Manot,Purim,14.0
 Jacob,Rebecca,14.0
-Joshua,Leadership,14.0
 Parashat Bereishit,Parashat Lech Lecha,14.0
 Language,Prophecy,14.0
 Trees,Tu B'shvat,14.0
@@ -1030,6 +1035,7 @@ Food,Tefilla,14.0
 Knowing God,Tshuva,14.0
 Parashat Yitro,Yitro,14.0
 Parashat Eikev,Tefilla,14.0
+Leadership,Moshe,14.0
 Abraham,Parashat Bereishit,14.0
 Commandments,Noah,14.0
 Hasidus,Kabbalah,14.0
@@ -1054,7 +1060,6 @@ Music,Song,14.0
 Planting,Trees,14.0
 Covenant,Theology,14.0
 Parashat Lech Lecha,Parashat Vayera,14.0
-Abraham,Chassidut,14.0
 Community,Machloket,14.0
 Naaseh Ve'nishma,Yitro,14.0
 Gender in Judaism,Gender in Kabbalah,14.0
@@ -1070,18 +1075,18 @@ Freedom,Pesach,14.0
 Children,Parashat Yitro,14.0
 God,Purim,14.0
 God,Parashat Eikev,14.0
-Leadership,Teaching,14.0
 Moses,Zionism,14.0
 Egypt,Seder,14.0
 Humility,Leadership,13.0
+Ethics,Image,13.0
 God,Mordechai,13.0
-Mysticism,Theology,13.0
 Rut,Ruth,13.0
 Matanot Levyonim,Mikrah Megillah,13.0
 Civil Discourse,Debate,13.0
 Community,Israel,13.0
 Commandments,Repentance,13.0
 Holidays,Yamim Noraim,13.0
+Parashat Noach,Tzelem Elohim,13.0
 Pesach,Women,13.0
 Matanot Levyonim,Mitzvot,13.0
 Chametz,Kashrut,13.0
@@ -1115,6 +1120,7 @@ Moses,Song,13.0
 Commandments,Land,13.0
 Miriam,Speech,13.0
 Mishloach Manot,Mitzvot,13.0
+Community,Education,13.0
 Conversion,Shavuot,13.0
 Revelation,Theology,13.0
 Beit Hamikdash,God,13.0
@@ -1137,10 +1143,12 @@ Children,Rebecca,13.0
 Eating,Minhag,13.0
 Egypt,Women in Tanach,13.0
 Matan Torah,Torah,13.0
+God,Image,13.0
 Mikrah Megillah,Mitzvot,13.0
 Prophecy,Speech,13.0
 Pesach,Strangers,13.0
 Leprosy,Miriam,13.0
+Moses,Passover,13.0
 Esther,Torah,13.0
 Students,Teaching,13.0
 Mikrah Megillah,Seudat Purim,13.0
@@ -1167,7 +1175,6 @@ Israel,Parashat Lech Lecha,13.0
 Bat Kol,Civil Discourse,13.0
 Lamentations,Tisha B'av,13.0
 Mitzvot,Seudat Purim,13.0
-Chassidut,Mysticism,13.0
 Mikrah Megillah,Mishloach Manot,13.0
 Chosenness,Sinai,13.0
 Ethics,Love,13.0
@@ -1210,6 +1217,7 @@ Passover,Song of Songs,13.0
 Commandments,Middot,13.0
 Miriam,Passover,13.0
 Masks,Mordechai,13.0
+God,Parashat Noach,13.0
 Creation,Middot,13.0
 God,Masks,13.0
 Beit Hamikdash,Mashiach,13.0
@@ -1217,6 +1225,7 @@ Parashat Bereishit,Yetzer Hara,13.0
 Chassidut,Tanakh,13.0
 Civil Discourse,Discussion,13.0
 Chametz,Minhag,13.0
+Education,Teaching,13.0
 Joseph,Parashat Vayigash,13.0
 Chanukah,Law,13.0
 Kavanah,Shofar,13.0
@@ -1225,7 +1234,6 @@ Gay,Homosexuality,13.0
 Medicine,Parashat Bechukotai,12.0
 Four Questions,Pesach,12.0
 Memory,Midrash,12.0
-Ethics,Image,12.0
 LGBTQA,Transgender,12.0
 Chanukah,Miracles,12.0
 Chesed,Yom Kippur,12.0
@@ -1236,12 +1244,10 @@ Parashat Acharei Mot,Yom Kippur,12.0
 Middot,Yetzer Hara,12.0
 Mitzvot,Parashat Yitro,12.0
 Esau,Rebecca,12.0
-Chassidut,Knowing God,12.0
 Chosenness,Teens,12.0
 Adam,Community,12.0
 LGBTQ,Lesbian,12.0
 Light,Shabbat,12.0
-Parashat Noach,Tzelem Elohim,12.0
 Environmentalism,Parashat Bereishit,12.0
 Parashat Ki Tissa,Revelation,12.0
 Homosexuality,LGBTQ,12.0
@@ -1271,6 +1277,7 @@ Faith,Medicine,12.0
 Lesbian,Sexuality,12.0
 Maimonides,Parashat Bechukotai,12.0
 Justice,Tanakh,12.0
+God,Parashat Lech Lecha,12.0
 Gratitude,Thanksgiving,12.0
 LGBTQA,Lesbian,12.0
 Egypt,Midrash,12.0
@@ -1278,11 +1285,11 @@ Parents,Teaching Torah,12.0
 Gay,Transgender,12.0
 Chanukah,Dark,12.0
 Gender,LGBTQ,12.0
+Babel,Parashat Noach,12.0
 Rava,יהרג ואל יעבר,12.0
 Siddur,Theology,12.0
 Chassidut,Kabbalah,12.0
 Blessings,Parashat Naso,12.0
-Community,Education,12.0
 Agriculture,Economic Justice,12.0
 Justice,Parashat Re'eh,12.0
 מגילת אסתר,פורים,12.0
@@ -1301,8 +1308,8 @@ Food,Shabbat,12.0
 Idolatry,עד דלא ידע,12.0
 Shavuot,TikkunLeyl,12.0
 Faith,Parashat Bechukotai,12.0
+Community,Parashat Noach,12.0
 Gay,LGBTQA,12.0
-God,Image,12.0
 Drinking on Purim,Purim,12.0
 LGBT,Lesbian,12.0
 Food,Torah,12.0
@@ -1326,7 +1333,6 @@ LGBTQ,Sexuality,12.0
 Intention,Mitzvot,12.0
 Commandments,Parashat Yitro,12.0
 Blessings,Moses,12.0
-Leadership,Moshe,12.0
 Healing,Parashat Bechukotai,12.0
 Conversion,Shavuos,12.0
 Kings,Leadership,12.0
@@ -1356,6 +1362,7 @@ Knowing God,Philosophy,12.0
 Children,Parashat Toldot,12.0
 Gay,LGBTQ,12.0
 Parashat Shemot,Parashat Va'era,12.0
+Parashat Bereishit,People,12.0
 Punishment,Reward,12.0
 Parashat Beshalach,Women,12.0
 Environmentalism,Tikkun Olam,12.0
@@ -1378,21 +1385,21 @@ Memory,Redemption,12.0
 Holidays,Maimonides,12.0
 Rava,עד דלא ידע,12.0
 American Judaism,Passover,12.0
+Babel,Community,12.0
 Drinking on Purim,עד דלא ידע,12.0
 Philosophy,Prayer,12.0
 LGBTQ,LGBTQA,12.0
-God,Parashat Noach,12.0
 Purim,רבא,12.0
 Holidays,Rambam,12.0
 Death Penalty,Punishment,12.0
 Esther,Revelation,12.0
 Purim,עד דלא ידע,12.0
-Education,Teaching,12.0
 Children,Isaac,12.0
 יהרג ואל יעבר,רבא,12.0
 Sexuality,Transgender,12.0
 B'tzelem Elohim,Ethics,12.0
 Dark,Light,12.0
+Abraham,Knowing God,12.0
 Listening,Shema,12.0
 Esther,Sinai,12.0
 Parashat Yitro,TikkunHatzot,12.0
@@ -1430,6 +1437,7 @@ Sacrifices,Vayikra,11.0
 Chevruta,Friendship,11.0
 Gender in Judaism,Jewish LGBT,11.0
 Animal Rights,Hypocrisy,11.0
+Ethics,People,11.0
 Choice,Repentance,11.0
 Mei Merivah,Moshe and Aharon's Real Sin,11.0
 Torah,Wisdom,11.0
@@ -1450,10 +1458,12 @@ Agriculture,Sustainability,11.0
 Choice,Coercion,11.0
 Jacob,Parents,11.0
 Isaac,Rosh Hashanah,11.0
+Idolatry,Superstition,11.0
 Family,Peace,11.0
 Middot,Peace,11.0
 Golden Calf,Waiting,11.0
 Community,ELI,11.0
+Kevah,Superstition,11.0
 Body,Middot,11.0
 Coercion,Free Will,11.0
 Abraham,Adam,11.0
@@ -1463,7 +1473,6 @@ Individual,Repentance,11.0
 Education,Haggadah,11.0
 Children,Ten Commandments,11.0
 Liturgy,Shabbat,11.0
-Babel,Parashat Noach,11.0
 Gender,Women in Tanach,11.0
 Sukkot,Unity,11.0
 Jewish Identity,Tikkun Olam,11.0
@@ -1499,13 +1508,11 @@ Four Cups,Seder,11.0
 Meribah,Moshe and Aharon's Real Sin,11.0
 Study,Torah Study,11.0
 Repentance,Yetzer Hara,11.0
-Community,Parashat Noach,11.0
 Sex,Women,11.0
 Ecology,Law,11.0
 Drinking,Holidays,11.0
 Yirmiyahu,ירמיהו,11.0
 Angels,Tshuva,11.0
-Moses,Passover,11.0
 Holidays,Shabbat,11.0
 Knowing,Waiting,11.0
 Death,Prayer,11.0
@@ -1551,7 +1558,6 @@ Conversion,Covenant,11.0
 God,Sin,11.0
 Chesed,God,11.0
 Fear,Theology,11.0
-Parashat Bereishit,People,11.0
 Mei Merivah,Sin,11.0
 Philosophy,Yetzer Hara,11.0
 Language,Law,11.0
@@ -1573,6 +1579,7 @@ Law,Moses,11.0
 Ethics,Theology,11.0
 Parashat Bereishit,Theology,11.0
 God,Jacob,11.0
+Babel,People,11.0
 Choice,Covenant,11.0
 Elul,God,11.0
 Charity,Ecology,11.0
@@ -1585,10 +1592,10 @@ Dairy,Shavuot,11.0
 Korbanot,Vayikra,11.0
 Community,Social Justice,11.0
 Elul,Sin,11.0
-Babel,Community,11.0
 Chassidut,Middot,11.0
 Tanakh,Water,11.0
 Community,Theology,11.0
+Idolatry,Kevah,11.0
 Aaron,Moshe and Aharon's Real Sin,11.0
 Prayer,Torah,11.0
 Parashat Vayakhel,Shabbat,11.0
@@ -1636,6 +1643,7 @@ Parashat Bereishit,Philosophy,10.0
 Esther,Fixing Mistakes,10.0
 Conservative Yeshiva,Passover,10.0
 Ecology,Social Justice,10.0
+Babel,Yetzer Hara,10.0
 Egypt,Spreading the Light 2015,10.0
 Commandments,Shofar,10.0
 Jacob,Korbanot,10.0
@@ -1652,7 +1660,6 @@ Mitzvot,Parashat Emor,10.0
 Immigrants,Immigration,10.0
 Tanakh,Tzelem Elohim,10.0
 Yitro,יתרו,10.0
-Ethics,People,10.0
 LGBTQ,Transgender in Judaism,10.0
 College,Hillel,10.0
 Eating,Parashat Re'eh,10.0
@@ -1681,10 +1688,7 @@ Niddah,Purity,10.0
 Jewish Identity,Purim,10.0
 Body,Sexuality,10.0
 Food,Judaism and Art,10.0
-Idolatry,Superstition,10.0
 Commandments,Parashat Noach,10.0
-Kevah,Superstition,10.0
-God,Parashat Lech Lecha,10.0
 Babel,Language,10.0
 Authority,Power,10.0
 Korbanot,Parashat Noach,10.0
@@ -1745,6 +1749,7 @@ Education,Pirkei Avot,10.0
 American Judaism,Justice,10.0
 Noah,Yetzer Hara,10.0
 Purim,Revelation,10.0
+Community,Yetzer Hara,10.0
 Kings,Sin,10.0
 Mitzvot,Moses,10.0
 Community,Economic Justice,10.0
@@ -1847,7 +1852,6 @@ Immigrants,Refugees,10.0
 Mishna,Mishnayos,10.0
 Chanukah,Mitzvot,10.0
 Jacob,Mitzvot,10.0
-Babel,People,10.0
 Community,Parashat Bereishit,10.0
 Commandments,Parashat Emor,10.0
 Mitzvot,Parashat Noach,10.0
@@ -1863,7 +1867,6 @@ Rachel,Women,10.0
 Choice,God,10.0
 Punishment,Sin,10.0
 Action,Torah,10.0
-Idolatry,Kevah,10.0
 Beit Hamikdash,Commandments,10.0
 Mikvah,Niddah,10.0
 Music,Wedding,10.0
@@ -1888,11 +1891,11 @@ Rambam,Tzedakah,10.0
 Mikvah,Purity,10.0
 Joseph,Slavery,10.0
 Commandments,Ethics,10.0
+People,Yetzer Hara,10.0
 Refugees,גר,10.0
 Kashrut,Parashat Re'eh,10.0
 Individual,Minhag,10.0
 Conservative Judaism,Rambam,10.0
-Abraham,Knowing God,10.0
 Korbanot,Noah,10.0
 Minhag,Repentance,10.0
 Immigrants,Strangers,10.0
@@ -1952,8 +1955,8 @@ Commandments,Jewish Identity,9.0
 Ad d'Lo Yada,Esther,9.0
 Compassion,Kindness,9.0
 Pluralism,Strangers,9.0
-Babel,Yetzer Hara,9.0
 Ad d'Lo Yada,Justice,9.0
+Noah,Tanakh,9.0
 Haman,עד דלא ידע,9.0
 Eliyahu,Prayer,9.0
 Parents,Torah Study,9.0
@@ -1974,6 +1977,7 @@ Purim,Women,9.0
 Korbanot,Thanksgiving,9.0
 Happiness,Purim,9.0
 Mordechai,אסתר,9.0
+Image,Parashat Noach,9.0
 Shimon Bar Yochai,Zohar,9.0
 Jacob,Moses,9.0
 Shavuos,שבועות,9.0
@@ -1995,6 +1999,7 @@ Haman,Megilat Esther,9.0
 Middot,Tikkun Olam,9.0
 Holidays,עד דלא ידע,9.0
 Pluralism,Social Justice,9.0
+Parashat Noach,Parashat Vayera,9.0
 Theology,Torat Chovevei,9.0
 Rava,פורים,9.0
 Cardinal Sins,עבודה זרה,9.0
@@ -2077,6 +2082,7 @@ Cardinal Sins,Sin,9.0
 Ad d'Lo Yada,Drinking,9.0
 Adam,Philosophy,9.0
 Justice,מרדכי,9.0
+Torah Study,Women,9.0
 Idolatry,פורים,9.0
 Justice,אסתר,9.0
 Midrash,Purim,9.0
@@ -2094,6 +2100,7 @@ Drinking on Purim,פורים,9.0
 Mishnah,Torah,9.0
 Drinking on Purim,מרדכי,9.0
 Obligation,פורים,9.0
+God,People,9.0
 Ecology,Farming,9.0
 Eco,Farming,9.0
 Ad d'Lo Yada,יהרג ואל יעבר,9.0
@@ -2119,6 +2126,7 @@ High Holidays,Parashat Bereishit,9.0
 High Holidays,Mishnah,9.0
 Drinking,Obligation,9.0
 Cardinal Sins,רבא,9.0
+Image,Parashat Bereishit,9.0
 Esther,יהרג ואל יעבר,9.0
 Cardinal Sins,Haman,9.0
 Haman,יהרג ואל יעבר,9.0
@@ -2140,7 +2148,6 @@ Obligation,אסתר,9.0
 Sin,Tefilla,9.0
 Lamentations,Tanakh,9.0
 מגילת אסתר,עד דלא ידע,9.0
-Community,Yetzer Hara,9.0
 Cardinal Sins,פורים,9.0
 Parashat Yitro,Tikkun,9.0
 Conversion,קבלת מצות,9.0
@@ -2152,6 +2159,7 @@ Purim,עבודה זרה,9.0
 Environmentalism,Nature,9.0
 Conversion,Yitro,9.0
 Holidays,אסתר,9.0
+Ethics,Parashat Noach,9.0
 Ad d'Lo Yada,Megilat Esther,9.0
 Esther,המן,9.0
 Ad d'Lo Yada,המן,9.0
@@ -2218,7 +2226,6 @@ Cardinal Sins,Holidays,9.0
 Sin,אסתר,9.0
 Commandments,Liturgy,9.0
 Drinking on Purim,Obligation,9.0
-Drinking,Megilat Esther,9.0
 Korbanot,Yom Kippur,9.0
 Isaac,Sarah,9.0
 Love,Social Justice,9.0
@@ -2238,11 +2245,13 @@ Parashat Re'eh,Parashat Shemini,9.0
 Maimonides,Yom Tov,9.0
 Drinking,עבודה זרה,9.0
 Ethics,Slavery,9.0
+Animals,Law,9.0
 Eretz Yisrael,Parashat Lech Lecha,9.0
 Drinking,מרדכי,9.0
 Rava,מרדכי,9.0
 Drinking,מגילת אסתר,9.0
 Holidays,יהרג ואל יעבר,9.0
+Parashat Lech Lecha,Theology,9.0
 Knowing God,Tefilla,9.0
 Abraham,Particularism,9.0
 מרדכי,עבודה זרה,9.0
@@ -2257,7 +2266,9 @@ Rava,מגילת אסתר,9.0
 Holidays,Mashiach,9.0
 Sin,רבא,9.0
 Creation,Psalms,9.0
+People,Tzelem Elohim,9.0
 Cardinal Sins,Obligation,9.0
+Idolatry,Theology,9.0
 Mordechai,פורים,9.0
 ELI,Spirituality,9.0
 Change,Tshuva,9.0
@@ -2269,6 +2280,7 @@ Beit Hamikdash,Kings,9.0
 God,Names,9.0
 Creation,Ethics,9.0
 Drinking on Purim,Justice,9.0
+Drinking,Megilat Esther,9.0
 Ad d'Lo Yada,פורים,9.0
 Pirkei Avot,Proverbs,9.0
 Acceptance of Mitzvot,Conversion,9.0
@@ -2279,9 +2291,11 @@ Holidays,המן,9.0
 Ad d'Lo Yada,Drinking on Purim,9.0
 Drinking on Purim,המן,9.0
 Joseph,Parashat Miketz,9.0
+Image,People,9.0
 Mordechai,רבא,9.0
 Gender in Kabbalah,Hasidus,9.0
 Rava,עבודה זרה,9.0
+Image,Tzelem Elohim,9.0
 Joshua,Tanakh,9.0
 Art,Creativity,9.0
 Obligation,Rava,9.0
@@ -2330,6 +2344,7 @@ Children,Conversion,9.0
 Kabbalat Hatorah,Shavuot,9.0
 Middot,Tefilla,9.0
 Theology,YCT,9.0
+God,Mysticism,9.0
 Disagreement,Hillel,9.0
 Megilat Esther,עבודה זרה,9.0
 אסתר,עד דלא ידע,9.0
@@ -2373,7 +2388,6 @@ Adam,Tanakh,9.0
 Kol Isha,Women,9.0
 המן,יהרג ואל יעבר,9.0
 Captives,Tikkun Olam,9.0
-People,Yetzer Hara,9.0
 מגילת אסתר,עבודה זרה,9.0
 המן,רבא,9.0
 אסתר,יהרג ואל יעבר,9.0
@@ -2506,7 +2520,6 @@ Commandments,Hillel,8.0
 Idolatry,Wine,8.0
 Am Yisrael,Coercion,8.0
 B'tzelem Elohim,Ona'at d'Varim,8.0
-Noah,Tanakh,8.0
 Holidays,Rosh Hashanah,8.0
 Chabura,Theology,8.0
 Should Torah Be a Choice,שבועות,8.0
@@ -2557,7 +2570,6 @@ Shavuos,פרשת יתרו,8.0
 Acceptance of Mitzvot,Am Yisrael,8.0
 Should Torah Be a Choice,פרשת יתרו,8.0
 Korbanot,Repentance,8.0
-Image,Parashat Noach,8.0
 Covenant,Morality,8.0
 Covenant,יתרו,8.0
 Commandments,קבלת מצות,8.0
@@ -2597,7 +2609,6 @@ Peace,Speech,8.0
 Commandments,Free Will,8.0
 B'tzelem Elohim,Values,8.0
 Children,Kabbalat Hatorah,8.0
-Parashat Noach,Parashat Vayera,8.0
 Animals,Ethics,8.0
 Am Yisrael,Yitro,8.0
 Sacrifices,Thanks,8.0
@@ -2683,6 +2694,7 @@ Yitro,קבלת מצות,8.0
 Torat Chovevei,מתן תורה,8.0
 Prayer,Prophets,8.0
 Chabura,Free Will,8.0
+Sotah,Women,8.0
 Kashrut,Sacrifices,8.0
 Charity,Earth,8.0
 Covenant,Ethics,8.0
@@ -2809,7 +2821,6 @@ Kafa Aleihem Har KeGigit,קבלת מצות,8.0
 Matan Torah,Theology,8.0
 Parashat Tzav,Prayer,8.0
 Shavuos,יתרו,8.0
-Torah Study,Women,8.0
 Creation,Women in Tanach,8.0
 Shavuos,כפה עליהם הר כגיגית,8.0
 Freedom,Yitro,8.0
@@ -2860,7 +2871,6 @@ Leadership,Organizational Strategy,8.0
 Child Raising,שבועות,8.0
 Commandments,Shavous,8.0
 Law,Money,8.0
-God,People,8.0
 Abraham,Egypt,8.0
 American Judaism,Social Justice,8.0
 Sefirat Haomer,Shimon Bar Yohai,8.0
@@ -2935,7 +2945,6 @@ Ethics,Tzedek,8.0
 Naaseh Ve'nishma,פרשת יתרו,8.0
 Fear,Mitzvot,8.0
 Akiva,Bar Kokhba,8.0
-Image,Parashat Bereishit,8.0
 Kabbalat Mitzvot,בחירה,8.0
 Hochiach Tochiach,Ona'at d'Varim,8.0
 Knowing God,Maimonides,8.0
@@ -2997,7 +3006,6 @@ Commandments,Study,8.0
 Moses,Prophecy,8.0
 Environmentalism,Trees,8.0
 Ona'at d'Varim,Tzniut,8.0
-Ethics,Parashat Noach,8.0
 Bar Kokhba,Omer,8.0
 Megillat Ruth,Rut,8.0
 Language,Peace,8.0
@@ -3124,6 +3132,7 @@ Mitzvot,גיור,8.0
 Death Penalty,Judgement,8.0
 Rechilut,Tzedek,8.0
 Naaseh Ve'nishma,Torah,8.0
+Magic,Sorcery,8.0
 Hillel,Study,8.0
 Kabbalat Hatorah,קבלת מצות,8.0
 Free Will,שבועות,8.0
@@ -3290,8 +3299,6 @@ Kabbalat Hatorah,Parashat Yitro,8.0
 Pirkei Avot,Tefilla,8.0
 Rabbinic Authority,Torah Study,8.0
 Shimon Bar Yochai,Shimon Bar Yohai,8.0
-People,Tzelem Elohim,8.0
-Idolatry,Theology,8.0
 Choice,Mitzvot,8.0
 Parashat Va'etchanan,Torah Study,8.0
 Hochiach Tochiach,Lashon Hara,8.0
@@ -3323,6 +3330,7 @@ Torat Chovevei,כפה עליהם הר כגיגית,8.0
 Korbanot,Sukkot,8.0
 Haggadah,Torah Study,8.0
 Ethics,Law,8.0
+Noah,Theology,8.0
 Child Raising,Parashat Yitro,8.0
 Parashat Bereishit,Parashat Devarim,8.0
 Conversion,Theology,8.0
@@ -3373,11 +3381,9 @@ Naaseh Ve'nishma,שבועות,8.0
 Chabura,Parashat Yitro,8.0
 Kabbalat Mitzvot,Torat Chovevei,8.0
 Am Yisrael,Child Raising,8.0
-Image,People,8.0
 Kabbalat Hatorah,Shavous,8.0
 Yitro,גיור,8.0
 Mitzvot,Torat Chovevei,8.0
-Image,Tzelem Elohim,8.0
 Child Raising,פרשת יתרו,8.0
 Community,Revelation,8.0
 Ona'at d'Varim,Tzedek,8.0
@@ -3391,6 +3397,7 @@ Shavuos,Should Torah Be a Choice,8.0
 Jew Curious,Sex,8.0
 Should Torah Be a Choice,Torah,8.0
 God,Parashat Ki Tissa,8.0
+Noah,Righteous,8.0
 Bar Kokhba,Bar Kokhva,8.0
 Cyberbullying,Gossip,8.0
 Kashrut,Shabbat,8.0
@@ -3765,6 +3772,7 @@ Prophets,Women in Tanach,7.0
 Abraham,Parashat Nitzavim,7.0
 Hillel and Shammai,Torah Study,7.0
 Geula,Parashat Lech Lecha,7.0
+Noah,Parashat Vayera,7.0
 Parashat Shemini,Philosophy,7.0
 Hillel,Kindness,7.0
 Morality,Parashat Acharei Mot,7.0
@@ -3802,7 +3810,6 @@ Shammai,Truth,7.0
 Language,Tefilla,7.0
 Choice,Parashat Beshalach,7.0
 Death,Moses,7.0
-Sotah,Women,7.0
 blood moon,moon,7.0
 Parashat Lech Lecha,Parashat Toldot,7.0
 Eating,Learning Torah,7.0
@@ -4006,7 +4013,6 @@ Community,The Four Sons,7.0
 Consent,Sex,7.0
 Israel,Parashat Nitzavim,7.0
 Land,Parashat Nitzavim,7.0
-Magic,Sorcery,7.0
 Ecology,Shemitah,7.0
 Eliyahu,Kings,7.0
 Freedom,Seder,7.0
@@ -4052,10 +4058,8 @@ Parashat Vayera,Parashat Vayishlach,7.0
 Justice,Speech,7.0
 astronomy,solar,7.0
 God,Heschel,7.0
-Animals,Law,7.0
 High Holidays,Torah,7.0
 Light,Prayer,7.0
-Parashat Lech Lecha,Theology,7.0
 Parashat Beshalach,Sinai,7.0
 Individual,Sin,7.0
 Marriage,Parashat Vayeitzey,7.0
@@ -4088,7 +4092,6 @@ Kindness,Language,7.0
 Parashat Emor,Tanakh,7.0
 Parashat Vayeitzey,Women in Tanach,7.0
 Poverty,Purim,7.0
-Noah,Theology,7.0
 Energy,Pirkei Avot,7.0
 Ethics,Kabbalah,7.0
 Beit Hamikdash,Freedom,7.0
@@ -4122,7 +4125,6 @@ Choice,Mishkan,7.0
 Hillel and Shammai,Torah,7.0
 New Year,Philosophy,7.0
 ELI,Prayer,7.0
-Noah,Righteous,7.0
 Land,Parashat Behar,7.0
 Yetzer Hara,Yom Kippur,7.0
 Creation,Reform Judaism,7.0
@@ -4171,7 +4173,6 @@ Global Day,Tu B'shvat,7.0
 Moses,Vayikra,7.0
 Parashat Bereishit,Parashat Beshalach,7.0
 Abraham,Judges,7.0
-God,Mysticism,7.0
 Covenant,Parashat Shoftim,7.0
 Parashat Lech Lecha,Redemption,7.0
 Ezekiel,Tanakh,7.0
@@ -4249,7 +4250,6 @@ Justice,Tisha B'av,6.0
 Ehyeh,Names,6.0
 Captives,Women,6.0
 Bread,Parashat Eikev,6.0
-Jerusalem,Punishment,6.0
 Ehyeh,Parashat Shemot,6.0
 Chassidut,Counting,6.0
 Chesed,Tshuva,6.0
@@ -4367,7 +4367,6 @@ Jerusalem,Tisha B'av,6.0
 Kabbalah,Mishkan,6.0
 Drinking,Health,6.0
 Art,Mitzvot,6.0
-Noah,Parashat Vayera,6.0
 Crowdsourcing,Differentiated Learning,6.0
 Kabbalah,Kabbalat Shabbat,6.0
 Kashrut,Priesthood,6.0
@@ -4383,6 +4382,7 @@ MIddot,Social Justice,6.0
 Parashat Mishpatim,Shammai,6.0
 Community,Holy People,6.0
 Chesed,Repentance,6.0
+Drinking,Tanakh,6.0
 Fear,Parashat Ki Tavo,6.0
 Holidays,Wine,6.0
 Genesis,Noah,6.0
@@ -4480,6 +4480,7 @@ Law,Taanit,6.0
 R. Yaakov Herzog,Zionism,6.0
 Amalek,Doubt,6.0
 Eating,Health,6.0
+Parashat Noach,Righteous,6.0
 Memory,Siddur,6.0
 Hasidut,Heidegger,6.0
 Parashat Yitro,Parents,6.0
@@ -4528,6 +4529,7 @@ ELI,Judaism,6.0
 American Judaism,Freedom,6.0
 Gender,Transgender Theology,6.0
 Judges,Rosh Hashanah,6.0
+Exodus,Moses,6.0
 Jonah,Law,6.0
 Habad,Meontology,6.0
 R. Yaakov Herzog,Rambam,6.0
@@ -4570,6 +4572,7 @@ Jerusalem,Jiudgement,6.0
 Law,Responsibility,6.0
 Justice,Martin Luther King,6.0
 Complaining,Moses,6.0
+Belief,God,6.0
 Jewish History,Tshuva,6.0
 Maimonides,Mishnah,6.0
 Jewish History,Tanakh,6.0
@@ -4610,6 +4613,7 @@ Ecology,Eretz Yisrael,6.0
 Gender,Tanakh,6.0
 Redemption,Seder,6.0
 Doubt,Purim,6.0
+Leadership,Passover,6.0
 Hunger,Maimonides,6.0
 Jewish History,Law,6.0
 Abraham,Women in Tanach,6.0
@@ -4645,6 +4649,7 @@ Ecology,Tanakh,6.0
 New Year,Tshuva,6.0
 Food,Health,6.0
 Parashat Nitzavim,Sin,6.0
+Education,Leadership,6.0
 Slavery,Tanakh,6.0
 Korbanot,Simchat Torah,6.0
 Kriyat Shema,VBM,6.0
@@ -4782,6 +4787,7 @@ Food,Parashat Shemini,6.0
 High Holidays,Yom Tov,6.0
 Israel,R. Aharon Lichtenstein,6.0
 Bible,Old Testament,6.0
+Jerusalem,Punishment,6.0
 Esther,Water,6.0
 Bergson,Post-Messianic Messianism,6.0
 Bergson,Habad,6.0
@@ -4841,6 +4847,7 @@ Planting,Tu Bishvat,6.0
 Rabbi Yishmael,Revelation,6.0
 Aaron,Complaining,6.0
 Old Testament,Translation,6.0
+Parashat Lekh Lekha,Parashat Vayera,6.0
 Reincarnation,Resurrection,6.0
 Food,Maimonides,6.0
 Fasting,Water,6.0
@@ -4949,6 +4956,7 @@ Parashat Ki Tissa,Yom Kippur,6.0
 Justice,Tzelem Elohim,6.0
 Hillel,Machloket,6.0
 Jewish History,Repentance,6.0
+Abraham,Parashat Lekh Lekha,6.0
 Jerusalem,Temple,6.0
 Melody,Wolfson,6.0
 Pesach,Sacrifices,6.0
@@ -4970,6 +4978,7 @@ Authority,Hillel and Shammai,6.0
 Cain,Jonah,6.0
 Prayer,VBM,6.0
 Chassidut,Parashat Nitzavim,6.0
+Parashat Lekh Lekha,Parashat Noach,6.0
 Punishment,Temple,6.0
 Meontology,Niggun,6.0
 Political Theory,R. Aharon Lichtenstein,6.0
@@ -5036,6 +5045,7 @@ Rebuke,Tochecha,6.0
 Jerusalem,Theology,6.0
 Creation,Jacob,6.0
 Justice,Rabbinic Authority,6.0
+Noah,Parashat Lekh Lekha,6.0
 Ethics,Learning,6.0
 Jewish Mysticism,Kabbalah,6.0
 Habad,Niggun,6.0
@@ -5180,6 +5190,7 @@ Parashat Bereishit,Pirkei Avot,5.0
 Parashat Va'era,Rambam,5.0
 Sex,Tanakh,5.0
 Kindness,Soul,5.0
+Idolatry,Punishment,5.0
 Philosophy,Tikkun Olam,5.0
 Chanukkah,Hanukkah,5.0
 Jacob,Slavery,5.0
@@ -5251,6 +5262,7 @@ Parashat Ki Tavo,Parashat Nitzavim,5.0
 Commandments,Ruth,5.0
 Parashat Bo,Theology,5.0
 Gender,Taanit,5.0
+Global Day,Moshe,5.0
 High Holidays,Women in Tanach,5.0
 Free Will,Theodicy,5.0
 Chesed,Parashat Re'eh,5.0
@@ -5266,7 +5278,6 @@ Parashat Ki Tissa,Sin,5.0
 Kashrut,Noah,5.0
 Mitzvot,Tefillin,5.0
 Fasting,Obligation,5.0
-Drinking,Tanakh,5.0
 Bereishit,Ethics,5.0
 Diet,Ethics,5.0
 Redemption,Wine,5.0
@@ -5323,6 +5334,7 @@ Management,Organizational Strategy,5.0
 Society,Torat Chovevei,5.0
 Hunger,Social Justice,5.0
 Learning,Learning Torah,5.0
+Global Day,Leadership,5.0
 Ten Commandments,Torah,5.0
 Justice,Parashat Bo,5.0
 ELI,Wonder,5.0
@@ -5373,6 +5385,7 @@ Rabbi,Woman,5.0
 Global Day,Land,5.0
 Moses,Rock,5.0
 Esther,Garments,5.0
+Education,Talmud,5.0
 Parashat Lech Lecha,Tefilla,5.0
 Psychology,Spirituality,5.0
 Omer,Rabbi Akiva,5.0
@@ -5404,6 +5417,7 @@ Alcohol,Midrash,5.0
 Justice,Passover,5.0
 Elul,Philosophy,5.0
 Responsibility,Sukkot,5.0
+Idolatry,Noah,5.0
 Psalms,Theology,5.0
 Lot,Tanakh,5.0
 Economic Justice,Pesach,5.0
@@ -5412,6 +5426,7 @@ Isaac,Torah,5.0
 Egypt,Parashat Lech Lecha,5.0
 Clothing,Parashat Bereishit,5.0
 Bal Tashchit,Environment,5.0
+Moshe,Passover,5.0
 Neighbors,Parashat Kedoshim,5.0
 Sex,Women in Tanach,5.0
 Korban,Pesach,5.0
@@ -5436,7 +5451,6 @@ Gush,Sinai,5.0
 Prayer,Wonder,5.0
 Parashat Va'era,Shemot,5.0
 Parashat Nitzavim,Teshuvah,5.0
-Parashat Noach,Righteous,5.0
 Jewish Values,Violence,5.0
 Vegan,Vegetarian,5.0
 Ethics,Idolatry,5.0
@@ -5488,6 +5502,7 @@ Gossip,Law,5.0
 Healing,Mourning,5.0
 Land,Messiah,5.0
 Death,Korbanot,5.0
+Exodus,Moshe,5.0
 Chassidut,Language,5.0
 Parashat Lech Lecha,Passover,5.0
 Environment,Trees,5.0
@@ -5497,6 +5512,7 @@ Gush,Sin,5.0
 Alan Lew,Refuge,5.0
 Ancestors,Ecology,5.0
 Pesach,Ten Plagues,5.0
+Knowing God,Parashat Lech Lecha,5.0
 Angels,Philosophy,5.0
 Booths,Sukkah,5.0
 Parents,Torah,5.0
@@ -5580,7 +5596,6 @@ Maimonides,Purity,5.0
 Love,Neighbors,5.0
 Love,Mourning,5.0
 Jewish Queer,Transgender,5.0
-Belief,God,5.0
 Chevruta,Tzedakah,5.0
 Darkness,Justice,5.0
 Esther,Messiah,5.0
@@ -5624,6 +5639,7 @@ Mishnah,Sukkah,5.0
 Parashat Bo,Rambam,5.0
 Money,Wealth,5.0
 Accomplishment,Responsibility,5.0
+Global Day,Moses,5.0
 Heart,Mind,5.0
 Environment,Responsibility,5.0
 Jewish Queer,Kabbalah,5.0
@@ -5650,7 +5666,6 @@ Talmud,Torah,5.0
 Freedom,Strangers,5.0
 Accomplishment,Tu B'shvat,5.0
 Jewish Values,Noah,5.0
-Education,Leadership,5.0
 Teachers,Teaching Torah,5.0
 Hineini,Psychology,5.0
 Booths,Mishnah,5.0
@@ -5693,7 +5708,6 @@ Philosophy,Rav A.I. Kook,5.0
 Adam Harishon,Food,5.0
 Economic Justice,Matanot l'Evyonim,5.0
 Adam,Food,5.0
-Kashrut,Non-Jews,5.0
 Parashat Nitzavim,R. Aharon Lichtenstein,5.0
 Psychology,Wellness,5.0
 Messiah,Torah Study,5.0
@@ -5748,6 +5762,7 @@ Eretz Yisrael,Global Day,5.0
 Economic Justice,Food,5.0
 Water,Women,5.0
 Diet,Noah,5.0
+Exodus,Leadership,5.0
 Clothing,Esau,5.0
 Kind,Vegan,5.0
 Place,Tanakh,5.0
@@ -5786,8 +5801,10 @@ Body,Ethics,5.0
 Parashat Balak,Tzelem Elohim,5.0
 Calendar,Shabbat,5.0
 Redemption,Teaching Torah,5.0
+Noah,Punishment,5.0
 Jewish Queer,LGBT,5.0
 Kashrut,Violence,5.0
+Kashrut,Non-Jews,5.0
 Pirkei Avot,Purim,5.0
 Tefilla,Ten Plagues,5.0
 Pesach,פסח,5.0
@@ -5816,6 +5833,7 @@ Money,Obligation,5.0
 Soul,Vegan,5.0
 Rachel,Women in Tanach,5.0
 Environment,Tu B'shvat,5.0
+Exodus,Global Day,5.0
 Psychology,Shame,5.0
 Parashat Bereishit,Women in Tanach,5.0
 Noah,Vegetarianism,5.0
@@ -5928,7 +5946,6 @@ Reform Judaism,Spies,5.0
 Community,Isaiah,5.0
 Messiah,Planting,5.0
 Judgement,Parashat Yitro,5.0
-Parashat Lekh Lekha,Parashat Vayera,5.0
 Chassidut,Peace,5.0
 Protest,Women's March,5.0
 Adam,Jewish Values,5.0
@@ -5970,6 +5987,7 @@ Marches,Protest,5.0
 Creation,Messiah,5.0
 Compassion,Kind,5.0
 Kindness,Vegan,5.0
+Global Day,Passover,5.0
 God's Name,Leadership,5.0
 Food,Genesis,5.0
 Parashat Bechukotai,Parashat Behar,5.0
@@ -6037,6 +6055,7 @@ Commandments,People,5.0
 Children,Parashat Vayechi,5.0
 Identity,Jacob,5.0
 Ancestors,Creation,5.0
+2017,Chumash,5.0
 Prophets,Rain,5.0
 Hillel and Shammai,Pirkei Avot,5.0
 Egypt,Sacrifices,5.0
@@ -6082,7 +6101,6 @@ Sukkot,סוכות,5.0
 Mitzvot,Rain,5.0
 Mishpatim,Sorcery,5.0
 Nehemiah,Tanakh,5.0
-Abraham,Parashat Lekh Lekha,5.0
 Bible,Torah,5.0
 Rosh Chodesh,Rosh Hashanah,5.0
 God,Spirtuality,5.0
@@ -6112,7 +6130,6 @@ Afterlife,Prayer,5.0
 Middot,Obligation,5.0
 Purity,Yom Kippur,5.0
 Gush,R. Aharon Lichtenstein,5.0
-Parashat Lekh Lekha,Parashat Noach,5.0
 Community,Tzelem Elohim,5.0
 Matan,Torah,5.0
 Ecology,Parashat Bereishit,5.0
@@ -6227,7 +6244,6 @@ Korbanot,Parashat Metzorah,5.0
 Responsibility,Welcoming Guests,5.0
 Liturgy,Mysticism,5.0
 Business,Management,5.0
-Noah,Parashat Lekh Lekha,5.0
 Ishmael,Parashat Vayera,5.0
 Moses,Rabbinic Authority,5.0
 Miriam,The Song of the Sea,5.0
@@ -6261,6 +6277,7 @@ Creation,Welcoming Guests,4.0
 Soul,מאד,4.0
 Golden Calf,Slichot,4.0
 Deuteronomist,Documentary Hypothesis,4.0
+Chassidut,Intention,4.0
 Mordechai,Writings,4.0
 Tikkun Olam,Trees,4.0
 Economic Justice,Machloket,4.0
@@ -6465,7 +6482,6 @@ Femininst,Transgender,4.0
 Afterlife,Gehenna,4.0
 Joy,Purim,4.0
 Learning,Sefaria,4.0
-Idolatry,Punishment,4.0
 Ethics,United States Law,4.0
 Israel,נחלה,4.0
 Prophecy,Redemption,4.0
@@ -6687,7 +6703,6 @@ Parashat Ki Tavo,Wellness,4.0
 Responsibility,Torah Study,4.0
 Nefesh,Shema,4.0
 Hillel,Shemitah,4.0
-Abraham,Arguement,4.0
 Body,Spreading the Light 2015,4.0
 Bob Dylan,Haazinu,4.0
 Betzalel,Mishkan,4.0
@@ -6730,7 +6745,6 @@ Night,Wisdom,4.0
 Halacha,Non-Jews,4.0
 Luria,Presence,4.0
 Megillas Rus,Shavuot,4.0
-Education,Talmud,4.0
 Eretz Yisrael,Jewish History,4.0
 Courage,Rosh Chodesh,4.0
 Concordance,Nefesh,4.0
@@ -6740,6 +6754,7 @@ Amalek,Shabbat,4.0
 Olam Haba,Reincarnation,4.0
 Might,Mind,4.0
 Parashat Lech Lecha,Pharaoh,4.0
+Joshua,Prophets,4.0
 Eating,Environmentalism,4.0
 Liturgy,Vows,4.0
 Israel,People,4.0
@@ -6779,7 +6794,6 @@ Abel,Cain,4.0
 Might,Translation,4.0
 Parashat Shemot,Rashi,4.0
 Eating,Ecology,4.0
-Idolatry,Noah,4.0
 Teaching,Values,4.0
 Philosophy,Religious Humanism,4.0
 Berakhot,Holidays,4.0
@@ -6905,6 +6919,7 @@ Parashat Ki Teitzei,Religious Humanism,4.0
 Beginnings,Courage,4.0
 Golden Calf,Moses,4.0
 Bible,לבב,4.0
+David,Samuel,4.0
 Tanakh,Tashlich,4.0
 Judaism and Liberalism,Theology,4.0
 Mishnah,Rosh Chodesh,4.0
@@ -6924,8 +6939,8 @@ Health,Parashat Ki Tavo,4.0
 Angels,God,4.0
 Kaddish,קדיש,4.0
 Democracy,Kings,4.0
-Exodus,Moses,4.0
 Gilgul,Resurrection,4.0
+Education,Rabbinics,4.0
 History,Shmuel,4.0
 Leadership,Noah,4.0
 Natan Salon,Rambam,4.0
@@ -6946,6 +6961,7 @@ Humans,Image,4.0
 Parashat Chayei Sarah,Rebecca,4.0
 Shemot,Utilizing the Physical,4.0
 Creativity,Wisdom,4.0
+Abraham,Arguement,4.0
 Mind,V'ahavta,4.0
 Parsha Questions (Lamdut),Passover,4.0
 Parashat Shemot,Passover,4.0
@@ -7011,8 +7027,10 @@ Blowin' in the Wind,Parashat Haazinu,4.0
 Jewish Thought,Non-Jews,4.0
 Idolatry,Sex,4.0
 Femininst,Gender Fluid,4.0
+Pluralism,Theology,4.0
 Hanukah,Light,4.0
 התבודדות,קבלה,4.0
+Government,Law,4.0
 D'varim,Torah,4.0
 Joy,Poverty,4.0
 Egypt,Exodus,4.0
@@ -7100,7 +7118,6 @@ Might,Old Testament,4.0
 Gerut,Shavuot,4.0
 Community,Universalism,4.0
 B'tzelem Elohim,Bereishit,4.0
-Leadership,Passover,4.0
 Parashat Haazinu,Song,4.0
 Language,Parashat Metzorah,4.0
 Human Rights,Religious Humanism,4.0
@@ -7309,6 +7326,7 @@ Esther,Ruth,4.0
 Joshua,Shmuel,4.0
 Environmental Justice,Tanakh,4.0
 Holidays,Prayer,4.0
+Belief,Theology,4.0
 Gerus,Megillat Rut,4.0
 God,Olam Haba,4.0
 Sacrifices,Ten Commandments,4.0
@@ -7326,6 +7344,7 @@ Kings,Yom Kippur,4.0
 Blessings,Parashat Vayechi,4.0
 Breslov,Nachman of Breslov,4.0
 Justice,Mishnah,4.0
+Noah,Wine,4.0
 Gentile,Non-Jews,4.0
 Machloket,Social Justice,4.0
 Song,Ten Songs of the Bible,4.0
@@ -7397,10 +7416,10 @@ Obligation,Parashat Acharei Mot,4.0
 Jew Curious,Niddah,4.0
 Privilege,Rabbi Joshua,4.0
 Candles,Motzi,4.0
-Noah,Punishment,4.0
 Law,Tzelem Elohim,4.0
 Documentary Hypothesis,Torah,4.0
 Datan,Raising Hand,4.0
+Leadership,Prophets,4.0
 Fear,Light,4.0
 Mourning,Suffering,4.0
 Business Ethics,Ethics,4.0
@@ -7492,6 +7511,7 @@ Law,Siddur,4.0
 Job,Tanakh,4.0
 Mt. Sinai,Torah,4.0
 Beit Hamikdash,Land,4.0
+Belief,Pluralism,4.0
 Abraham,Debate,4.0
 Appreciation,Moderation,4.0
 Joseph,Wine,4.0
@@ -7516,6 +7536,7 @@ Body,Clothing,4.0
 Rabbinic Authority,Tanakh,4.0
 Law,Religious Humanism,4.0
 KJV,לבב,4.0
+Witchcraft,Wizardry,4.0
 Grudges,Kindness,4.0
 Ma'aser,Tithe,4.0
 Chesed,Listening,4.0
@@ -7523,6 +7544,7 @@ Intermarriage,Law,4.0
 Parashat Naso,Psalms,4.0
 Leadership,Strangers,4.0
 Messiah,Reincarnation,4.0
+Leadership,Spreading the Light 2015,4.0
 Chesed,Education,4.0
 Economic Justice,Revelation,4.0
 Berachot,Liturgy,4.0
@@ -7597,6 +7619,7 @@ Middot,Strangers,4.0
 Holocaust,Pesach,4.0
 ELI,Innovation,4.0
 Parashat Shoftim,Tanakh,4.0
+Pirkei Avot,Spreading the Light 2015,4.0
 Kindness,Luria,4.0
 Mishnayos,Taharah,4.0
 Rabbinic Judaism,Values,4.0
@@ -7674,6 +7697,7 @@ Memory,Passover,4.0
 Art,Betzalel,4.0
 Animal Welfare,Ecology,4.0
 Health,Parashat Bereishit,4.0
+Abraham,Mysticism,4.0
 Parsha Shemot,Raising Hand,4.0
 Creation,Rambam,4.0
 David,Sexuality,4.0
@@ -7684,6 +7708,7 @@ Agriculture,Justice,4.0
 Gerut,Megillas Rus,4.0
 Parashat Bereishit,Parashat Ki Teitzei,4.0
 Haazinu,Song,4.0
+Sotah,Torah Study,4.0
 Drink,Law,4.0
 Akiva,Mourning,4.0
 Healing,Medical Ethics,4.0
@@ -7840,13 +7865,11 @@ Femininst,LGBT,4.0
 Choice,Fate,4.0
 People,Sinai,4.0
 Mysticism,קבלה,4.0
-Chassidut,Intention,4.0
 Omer,Tshuva,4.0
 Group Project,HaChovel,4.0
 Joy,Tzedakah,4.0
 Calendar,Witnesses,4.0
 Samuel Stern,Tzedakah,4.0
-2017,Chumash,4.0
 Instruments,Music,4.0
 Parashat Terumah,Sanctuary,4.0
 Gehenna,Resurrection,4.0
@@ -7936,6 +7959,7 @@ Disability,ELI,4.0
 Hashkiveinu,Night,4.0
 Lecha Dodi,Sephirot,4.0
 Adulthood,Puberty,4.0
+God,Pluralism,4.0
 Light,Night Time,4.0
 Ethics,Judging,4.0
 Breath,Mindfulness,4.0
@@ -8204,6 +8228,7 @@ Revelation,יתרו,3.0
 Revelation,Shavous,3.0
 David,Elijah,3.0
 Faith,Suffering,3.0
+Joshua,Spreading the Light 2015,3.0
 Parashat Behalotecha,Yannai,3.0
 ASBI Congregation,Oral Torah,3.0
 Elementary School,Planting,3.0
@@ -8434,6 +8459,7 @@ Meat,Vegetarianism,3.0
 Agriculture,Ruth,3.0
 Jewish Thought,Modernity,3.0
 Moses Rock,Moses Striking the Rock,3.0
+Knowing God,Mysticism,3.0
 Knowing God,Parashat Yitro,3.0
 Megilla,Purim,3.0
 Abraham,Peoplehood,3.0
@@ -8480,12 +8506,12 @@ Class Activity,Jacob,3.0
 Cardinal sins,Rabbi Zeira,3.0
 Complaining,Enter the Promised Lan,3.0
 Judah Halevi,Translation,3.0
-Kelipot,Vessels,3.0
 Death,Rambam,3.0
 Parashat Toldot,Torah,3.0
 Halloween,King Saul,3.0
 Conservative,Resources,3.0
 Idolatry,Purim shpiel,3.0
+Mysticism,Parashat Lech Lecha,3.0
 Beit Hamikdash,Hillel,3.0
 Leader,Leadership,3.0
 King,Shepherd,3.0
@@ -8520,6 +8546,7 @@ Creation,Miriam,3.0
 Revelation,Shemitah,3.0
 Hechalot,Kabbalah,3.0
 Keilim,Shevirah,3.0
+Talmud,Teaching,3.0
 Middot,Poverty,3.0
 American Judaism,Gemara Lawyer Project,3.0
 Love Story,פרק ב,3.0
@@ -8644,7 +8671,6 @@ Giving,Planting,3.0
 Food,Pleasure,3.0
 Parashat Vayechi,Samson,3.0
 Environmentalism,Women,3.0
-Global Day,Moshe,3.0
 Chanukkah,Sukkot,3.0
 Children,Respect,3.0
 Midrash,Torah,3.0
@@ -8841,7 +8867,7 @@ Creation,Prophets,3.0
 Creation,Sinai,3.0
 MASHAV,Or l'Goyim,3.0
 Law,Simcha,3.0
-Global Day,Leadership,3.0
+Prophets,Spreading the Light 2015,3.0
 Kabbalah,Myth,3.0
 Golden Calf,Parashat Korach,3.0
 Mindfulness,T'filah,3.0
@@ -8973,7 +8999,6 @@ Creation,Orthodox Judaism,3.0
 Gratitude,Modim,3.0
 Education,Proverbs,3.0
 Immersion,Mikveh,3.0
-Joshua,Prophets,3.0
 Korbanot,Parah Adumah,3.0
 Social Media,Tower of Babel,3.0
 Evil,Myth,3.0
@@ -9061,7 +9086,6 @@ Marriage,Revelation,3.0
 Dignity,Mensch,3.0
 Chapter 2,Perek Bet,3.0
 Chanukah,Maimonides,3.0
-Moshe,Passover,3.0
 Heretics,Jerusalem,3.0
 Leadership,Social Justice,3.0
 Chanukah,Moses,3.0
@@ -9105,6 +9129,7 @@ Jeremiah,Jerusalem,3.0
 Mitzvot,Yom Kippur,3.0
 Prayer,Rebecca,3.0
 Jacob,Sarah,3.0
+eco,nature,3.0
 Free Will,Revelation,3.0
 Ezekiel,Messiah,3.0
 Parashat Bechukotai,Presence,3.0
@@ -9182,7 +9207,6 @@ Parashat Vayeshev,Women,3.0
 Purim,Vashti,3.0
 "Lashon Harah,",Mensch,3.0
 Beit Hamikdash,Disagreement,3.0
-Accomplishment,Giving,3.0
 Jerusalem,אמידה,3.0
 Calling,Covenant,3.0
 Eretz Yisrael,Proverbs,3.0
@@ -9282,8 +9306,6 @@ Amalek,Torah,3.0
 Michael Danziger,Tzedakah,3.0
 Joy,Parashat Re'eh,3.0
 Prayer,Visiting the Sick,3.0
-David,Samuel,3.0
-Exodus,Moshe,3.0
 Love,פרק ב,3.0
 Listening,Tshuva,3.0
 Refugees,Social Justice,3.0
@@ -9308,7 +9330,6 @@ Mishna,Rosh HaShanah,3.0
 Golden Calf,Nadav and Avihu,3.0
 Cain and Abel,Fratricide,3.0
 Kipa,אשה סוטה,3.0
-Knowing God,Parashat Lech Lecha,3.0
 Family Education,Parent Resources,3.0
 Eye for an Eye,Punishment,3.0
 post-zionism,zionism,3.0
@@ -9326,7 +9347,6 @@ Acceptance of Mitzvot,Revelation,3.0
 Shpiel,רבא,3.0
 Family,Searching,3.0
 Children,Revelation,3.0
-Education,Rabbinics,3.0
 Scholem,Vessels,3.0
 God,Love Story,3.0
 Love Story,Yirmiyahu,3.0
@@ -9460,13 +9480,11 @@ three oaths,zionism,3.0
 Eco,Steinsaltz,3.0
 Chayei Sarah,Happiness,3.0
 Fear,Joy,3.0
-Pluralism,Theology,3.0
 Agriculture,Shmittah,3.0
 Parashat Vayetze,Rashi,3.0
 Parashat Noach,Parashat Vayigash,3.0
 Hunger,Proverbs,3.0
 Abraham,Children,3.0
-Government,Law,3.0
 Ki Tissa,Tablets,3.0
 Medical Ethics,Sarah,3.0
 Judah Halevi,Metaphor,3.0
@@ -9648,7 +9666,6 @@ Psalms,Water,3.0
 Ezekiel,Judah Halevi,3.0
 Influence,Light,3.0
 Kelipot,Scholem,3.0
-Global Day,Moses,3.0
 Blessings,Philosophy,3.0
 Heretics,Mindfulness,3.0
 Fear,Happiness,3.0
@@ -9768,8 +9785,10 @@ Tzedakah,l'Or Goyim,3.0
 german,post-zionism,3.0
 Isaac,Israel,3.0
 Being a Good Person,Human Dignity,3.0
+environment,nature,3.0
 God,Presence,3.0
 Education,Keva,3.0
+ecology,nature,3.0
 Haggadah,Oppression,3.0
 Creation,Moses,3.0
 Fasting,Halachah,3.0
@@ -9835,6 +9854,7 @@ Mindfulness,כוונה,3.0
 Parashat Behaalotchah,Parashat Behalotecha,3.0
 Food,Trees,3.0
 Authority,YCT,3.0
+Chassidut,Parashat Lech Lecha,3.0
 Gemara,Talmud,3.0
 Conversion,Matrilineal Descent,3.0
 Parashat Korach,Yannai,3.0
@@ -9903,6 +9923,7 @@ Parashat Vayera,Tanakh,3.0
 Activities,Trees,3.0
 Torah,Truth,3.0
 Moon,Rosh Hodesh,3.0
+Avraham,Lech Lecha,3.0
 Haggadah,Learning,3.0
 Conservative,Parent Resources,3.0
 ָAmidah,שמונה עשרה,3.0
@@ -9976,7 +9997,6 @@ Parashat Lech Lecha,Parashat Miketz,3.0
 Grief,Mourning,3.0
 Fear,Yirat Hashem,3.0
 Or l'Goyim,Tikkun Olam,3.0
-Belief,Theology,3.0
 Ethics,Modernity,3.0
 Peace,Slavery,3.0
 Bible,Psalm 23,3.0
@@ -9999,7 +10019,6 @@ Purim shpiel,רבי זירא,3.0
 Ecology,Steinsaltz,3.0
 Parashat Naso,Sexuality,3.0
 Bible,God,3.0
-Noah,Wine,3.0
 Alcohol,Commandments,3.0
 Blessings,Parents,3.0
 Lurianic,Other Side,3.0
@@ -10014,7 +10033,6 @@ Activities,Responsibility,3.0
 Bnei Yisrael,בני ישראל,3.0
 Land,Sacrifices,3.0
 Family,Hunger,3.0
-Exodus,Leadership,3.0
 Shevirah,Tzimtzum,3.0
 Law,Pleasure,3.0
 Martin Luther King Jr.,Shema,3.0
@@ -10093,6 +10111,7 @@ Tzimtzum,Vessels,3.0
 Perception,Zohar,3.0
 Peace,Proverbs,3.0
 Cairo Geniza,ָAmidah,3.0
+eco,ecology,3.0
 Conservative Judaism,Women,3.0
 Sheep,Tzaar Baalei Chayim,3.0
 Comfort,King,3.0
@@ -10126,7 +10145,6 @@ Elementary,Parent Resources,3.0
 Joshua Ben Levi,Judah Halevi,3.0
 בני ישראל,ירמיהו,3.0
 Israel,Light Unto the Nations,3.0
-Leadership,Prophets,3.0
 Jewish Texts,Rodger Kamenetz,3.0
 Ancestors,Giving,3.0
 Community,Teachers,3.0
@@ -10201,7 +10219,6 @@ Descendants,Giving,3.0
 Limmud BA,Tfilla,3.0
 Martyrdom,Purim feast,3.0
 Idolatry,Shpiel,3.0
-Exodus,Global Day,3.0
 Relationships,Steinsaltz,3.0
 HUC-JIR,Israel Discussion,3.0
 MASHAV,Thesis,3.0
@@ -10251,7 +10268,6 @@ Mishnayos,Yadayim,3.0
 Food,Gardening,3.0
 Hekhalot,Merkavah,3.0
 Havruta,JETI,3.0
-Belief,Pluralism,3.0
 Abaye,Cardinal sins,3.0
 Idolatry,Ohr Gedaliyahu,3.0
 Noach,Totalitarianism,3.0
@@ -10296,6 +10312,7 @@ Brit Milah,Menstruation,3.0
 Israel Discussion,Tikkun Olam,3.0
 B'tzelem Elohim,Heschel,3.0
 Jacob,Vayigash,3.0
+Kelipot,Vessels,3.0
 Abaye,Rabbi Zeira,3.0
 Parashat Kedoshim,Thanksgiving,3.0
 Parashat Re'eh,Philosophy,3.0
@@ -10315,7 +10332,6 @@ Assimilation,State,3.0
 Foreign Aid,Tzedakah,3.0
 Change,Tanakh,3.0
 Chanuka,Example,3.0
-Witchcraft,Wizardry,3.0
 Activities,Ancestors,3.0
 Comfort,Leadership,3.0
 Leader,Psalm 23,3.0
@@ -10328,7 +10344,6 @@ Instruments,Musical Instruments,3.0
 Reform Judaism,Rib,3.0
 Yirmiyahu,בני ישראל,3.0
 Naomi,Ruth,3.0
-Leadership,Spreading the Light 2015,3.0
 Isaiah,Israel,3.0
 Death,Sarah,3.0
 Cardinal sins,Martyrdom,3.0
@@ -10370,6 +10385,7 @@ Family,Middot,3.0
 Parah Adumah,Rambam,3.0
 כיפה,מנהג של קישוט,3.0
 Shmoneh Esreh,Sim Shalom,3.0
+Pirkei Avot,Prophets,3.0
 Mourning,Social Justice,3.0
 Rav Rehumi,Steinsaltz,3.0
 Danziger,Megilat HaAtzma'ut,3.0
@@ -10443,7 +10459,6 @@ Change,Justice,3.0
 Arrogance,Responsibility,3.0
 Mishkan,Pekudei,3.0
 Chosen People,Peoplehood,3.0
-Pirkei Avot,Spreading the Light 2015,3.0
 Creation,Sitra Achra,3.0
 Conservative Judaism,Orthodox Judaism,3.0
 Ancestors,Elementary School,3.0
@@ -10462,6 +10477,7 @@ Authority,Feminism,3.0
 David,אמידה,3.0
 Covenant,Parashat V'zot Haberachah,3.0
 ,Ki Tisa,3.0
+ecology,environment,3.0
 Law,Science,3.0
 ELI,Religion,3.0
 Cairo Geniza,Geniza,3.0
@@ -10563,7 +10579,6 @@ Martyrdom,יהרג ואל יעבר,3.0
 Eretz Yisrael,Parashat Vayera,3.0
 Society,Yannai,3.0
 Talmud,Temple,3.0
-Sotah,Torah Study,3.0
 Halakha,Yetziat Mitzraim,3.0
 Healing,Prayer,3.0
 Moses Rock,Not Enter the Promised Land,3.0
@@ -10627,7 +10642,6 @@ Oppression,Pharaoh,3.0
 Kafa Aleihem Har KeGigit,Revelation,3.0
 Land,Poverty,3.0
 Moses Striking the Rock,Striking the Rock,3.0
-Global Day,Passover,3.0
 Meribah,Moshe,3.0
 Liturgy,Memory,3.0
 Other Side,Vessels,3.0
@@ -10721,6 +10735,7 @@ Social Action,Social Justice,3.0
 Moon,Shechinah,3.0
 Holiness,Image,3.0
 Faith,Tefilla,3.0
+eco,environment,3.0
 Hillel,Maimonides,3.0
 Israel Discussion,Tzedakah,3.0
 Darkness,Stranger,3.0
@@ -10799,6 +10814,7 @@ Evil,Kelipot,3.0
 Sheep,Vegetarianism,3.0
 Parashat Miketz,Parashat Noach,3.0
 Shammai,Tisha B'av,3.0
+Joshua,Pirkei Avot,3.0
 Chanukah,Theology,3.0
 Parashat Behaalotcha,YCT,3.0
 Rib,Sex,3.0
@@ -10903,12 +10919,12 @@ Megilat HaAtzma'ut,Thesis,3.0
 Parashat Vayeira,Theology,3.0
 Fruit,Parashat Bereishit,3.0
 Giving,Philanthropy,3.0
-God,Pluralism,3.0
 Ba'al Shemtov,Perception,3.0
 Mishna,Shekalim,3.0
 Korach,YCT,3.0
 Love,Steinsaltz,3.0
 Chapter 2,Love,3.0
+Leadership,Talmud,3.0
 Chocolate,Idolatry,3.0
 Animals,Shepherds,3.0
 Death,Eden,3.0
@@ -11238,6 +11254,7 @@ Medical Ethics,Prayer,3.0
 Parashat Behaalotchah,YCT,3.0
 Jacob,Revelation,3.0
 High School,Resources,3.0
+Accomplishment,Giving,3.0
 NEXT,Pirkei Avot,3.0
 Being a Good Person,"Lashon Harah,",3.0
 Education,Tzedakah,3.0
@@ -11452,7 +11469,6 @@ Adam,Kenegdo,2.0
 Frum,Modesty,2.0
 Kidushin,Weddings,2.0
 History,Spirituality,2.0
-Joshua,Spreading the Light 2015,2.0
 Haftarah,Tree,2.0
 Eating,Mishnah,2.0
 Faith,Intention,2.0
@@ -11534,6 +11550,7 @@ Think Good and It'll Be Good,Yalkut Shimoni,2.0
 Megaleh Hester,Pesach,2.0
 American Judaism,Interfaith,2.0
 Ezra,Navi,2.0
+Gilgamesh,The Flood,2.0
 Love,Teffilin,2.0
 DAT,Leap Year,2.0
 Nedarim,Parashat Ki Teitze,2.0
@@ -11578,12 +11595,14 @@ Madness,Rebbe Nachman,2.0
 Costume,Pesach,2.0
 Java,Kenegdo,2.0
 ,Kiddush,2.0
+Naso,Women,2.0
 Mitzvot,Moadim,2.0
 Respect,Tikkun Olam,2.0
 Chofetz Chaim,Speech,2.0
 Jewish Identity,Spreading the Light 2015,2.0
 ELI,Interconnection,2.0
 Mishnah,Moed,2.0
+Community,Talmud,2.0
 Breishit,Gender,2.0
 Chametz,פסח,2.0
 Beit Hamikdash,Prophecy,2.0
@@ -11728,6 +11747,7 @@ Charity,Nonprofit,2.0
 Modesty,Queer,2.0
 DAT,Megilla,2.0
 Adar,Megillas Esther,2.0
+Noach,Noah,2.0
 Kohelet,Meaning,2.0
 Abraham,Esther,2.0
 Abraham,Righteous,2.0
@@ -11888,6 +11908,7 @@ Moon,מגילת אסתר,2.0
 Ger,Love,2.0
 Death,Suffering,2.0
 Animal Cruelty,Torah,2.0
+Sorcery,Wizardry,2.0
 Parashat Vayera,Repentance,2.0
 Economic Justice,Rambam,2.0
 Parashat Emor,Sekhakh,2.0
@@ -11985,12 +12006,14 @@ Parashat Noach,Rabbinic Authority,2.0
 Moses,Ruth,2.0
 Love,V'etchanan,2.0
 Liturgy,Prophecy,2.0
+Drinking,Noah,2.0
 Breishit,Genesis,2.0
 Faith,Learning Torah,2.0
 Fire,Middot,2.0
 Korbanot,Vows,2.0
 Care,Curiosity,2.0
 מגילה,פורים קטן,2.0
+Sota,Torah Study,2.0
 Abuse,Modesty,2.0
 architecture,law,2.0
 Kindness,Welcoming Guests,2.0
@@ -12036,7 +12059,6 @@ Jacob,Place,2.0
 DAT,Moon,2.0
 Tumah,Yadaim,2.0
 Ner Chanukah,Yakov,2.0
-Talmud,Teaching,2.0
 Democracy,Election,2.0
 Kol Gadol,Revelation,2.0
 Folklore,Ring,2.0
@@ -12207,7 +12229,6 @@ Jacob,Law,2.0
 Tshuva,War,2.0
 Chagigah,Moed,2.0
 Elisheva,Tzipporah,2.0
-Parashat Korach,Tzedakah,2.0
 Education,Empathy,2.0
 Programming,Spontaneity,2.0
 Kabbalat Shabbat,Shavuot,2.0
@@ -12408,6 +12429,7 @@ Antisemitism,Upside Down World,2.0
 Korach,Misconceptions,2.0
 Big Ideas,Sacred Time,2.0
 Ki Teitze,Yom Kippur,2.0
+Experiential Education,Talmud,2.0
 Death,Rachel,2.0
 Chametz,מצה,2.0
 Conservative,Mitzvot,2.0
@@ -12544,7 +12566,6 @@ Build,Yom Tov,2.0
 Parashat Ki Teitze,Philosophy,2.0
 Moab,Parashat Vayera,2.0
 Christianity,Intermarriage,2.0
-Prophets,Spreading the Light 2015,2.0
 Folklore,This Too Shall Pass,2.0
 Chabura,אדר,2.0
 Speech,Understanding,2.0
@@ -12552,6 +12573,7 @@ Healing,Law,2.0
 Chol HaMoed Sukkot,Sukkot,2.0
 Creation,Liturgy,2.0
 Eating,Language,2.0
+Education,Experiential Education,2.0
 T'rumah,Torah,2.0
 Abortion,Jewish,2.0
 Midrash,Pesach,2.0
@@ -12812,6 +12834,7 @@ Shavuot,count,2.0
 JETI,Partnership,2.0
 Astronomy,Megillas Esther,2.0
 Passover,מצה,2.0
+Naso,Torah Study,2.0
 shechinah,sinai,2.0
 Hekesh Project,Torah Study,2.0
 Ester,Geulah,2.0
@@ -12851,6 +12874,7 @@ Creation,Torah Study,2.0
 חג פורים,תיקון עולם,2.0
 Ester,Hidden,2.0
 Chidon Hatanakh,US Bible Contest,2.0
+Gilgamesh,Parashat Noah,2.0
 Midrash,Sex,2.0
 God,Water,2.0
 Eliyahu,Parashat Pinchas,2.0
@@ -12886,6 +12910,7 @@ Megaleh Hester,Purim,2.0
 Food,Language,2.0
 Medical Ethics,Personal Injury Law,2.0
 Doubt,God,2.0
+Leadership,Rabbinics,2.0
 Heroine,Purim,2.0
 connection,life,2.0
 Drinking,Tisha B'av,2.0
@@ -12926,6 +12951,7 @@ Esau,Genesis 25:29-34,2.0
 Arctic Circle,Tefilla,2.0
 Parashat Kedoshim,Personal Injury Law,2.0
 Spontaneity,Trust,2.0
+Rabbinics,Talmud,2.0
 Bo,Nachman,2.0
 Construction,Sekhakh,2.0
 Leadership,Parashat Pinchas,2.0
@@ -12953,7 +12979,6 @@ Kashrut,Slavery,2.0
 Ethics,Universalism,2.0
 Parashat Ki Tetze,Vows,2.0
 Korbanot,Speech,2.0
-eco,nature,2.0
 Megillah,Trope,2.0
 Environmental Justice,Food Justice,2.0
 Moshe,Tanakh,2.0
@@ -12968,6 +12993,7 @@ Asceticism,Avodat Bgashmiut,2.0
 Joseph,Sexuality,2.0
 Idolatry,Tattoo,2.0
 ,מזרחיות,2.0
+Noah,The Flood,2.0
 Bilhah,Civil Disobedience,2.0
 Kabbalat Shabbat,Tu B'Shvat,2.0
 Costume,Megaleh Hester,2.0
@@ -13046,6 +13072,7 @@ Halacha,Paradigm Shift,2.0
 Love,Unity,2.0
 Assimilation,Immigration,2.0
 Authoritarianism,Pesach,2.0
+Experiential Education,Leadership,2.0
 Halachot,מגילה,2.0
 Moses,Parashat Pinchas,2.0
 Feminism,Redemption,2.0
@@ -13152,6 +13179,7 @@ Seventeen,Tammuz,2.0
 Moab,Shavuot,2.0
 Oneg,Simcha,2.0
 Education,Outreach,2.0
+Sota,Sotah,2.0
 Choni,Hannah,2.0
 Jacob,Parashat Bereishit,2.0
 Creativity,Trust,2.0
@@ -13658,7 +13686,6 @@ Astronomy,Megilla,2.0
 Torah study,מצוות תלמוד תורה,2.0
 Community,Faith,2.0
 Joy,Pleasure,2.0
-haomer,sefiras,2.0
 Lunar Cycle,Purim Kattan,2.0
 Heaven,Olam HaBa,2.0
 Chicken,Milk,2.0
@@ -13972,6 +13999,8 @@ Environmentalism,Justice,2.0
 Jethro,יתרו,2.0
 Jewish Identity,Law,2.0
 Categories,Halacha,2.0
+Parashat Korach,Tzedakah,2.0
+Naso,Sotah,2.0
 Mishnah,Purity,2.0
 Holidays,Kings,2.0
 Animals,Society,2.0
@@ -14072,12 +14101,10 @@ Build,DIY,2.0
 Descendants,Seeds,2.0
 Free Will,High Holidays,2.0
 Astronomy,Leap Year,2.0
-environment,nature,2.0
 Jacob,Speech,2.0
 Calendar,Yom Tov Sheini,2.0
 Mitzvot,Sekhakh,2.0
 Joshua,Parashat Vayelech,2.0
-ecology,nature,2.0
 Egypt,Levitical Priests,2.0
 Rabbinic Judaism,Study,2.0
 Eretz Yisrael,Prophecy,2.0
@@ -14229,6 +14256,7 @@ Leadership,Samson,2.0
 Lot,Moav,2.0
 connection,red heifer,2.0
 Emunah,Shabbat,2.0
+Rabbinics,Teaching,2.0
 Parashat Ki Teitze,Slavery,2.0
 Ki Teitze,Reform Judaism,2.0
 Megillas Esther,Purim,2.0
@@ -14252,6 +14280,7 @@ Commandments,Leadership,2.0
 Asceticism,Spirituality,2.0
 Rabbinics,Sexuality,2.0
 Gemillut Chassadim,Tzedakah,2.0
+Magic,Wizardry,2.0
 contemporary,culture,2.0
 Suffering,Torat Chovevei,2.0
 Grants,Organizational Design,2.0
@@ -14286,7 +14315,6 @@ Astronomy,פורים,2.0
 Tithe,Torah,2.0
 Astronomy,Megillat Esther,2.0
 Parashat Ki Tavo,Peshat,2.0
-Avraham,Lech Lecha,2.0
 Environmentalism,Parashat Ki Teitzei,2.0
 Leadership,Nazir,2.0
 Parashat Shemot,Revelation,2.0
@@ -14378,6 +14406,7 @@ Egypt,Fire,2.0
 Fire,Witnesses,2.0
 Power,Sass,2.0
 Dam,Don't Stand Idly By,2.0
+haomer,sefiras,2.0
 Animals,Slavery,2.0
 Parashat Vayeitzey,Tefilla,2.0
 Emunah,Faith,2.0
@@ -14589,6 +14618,7 @@ Hametz,מצה,2.0
 Chanuka,School Activity,2.0
 Abraham,Protest,2.0
 Joshua,Transition,2.0
+Experiential Education,Teaching,2.0
 Aaron,Korach,2.0
 Hasidus,Jewish History,2.0
 Golden Calf,Priesthood,2.0
@@ -14610,7 +14640,6 @@ Jewish Law,Secrets,2.0
 Exile,Prophecy,2.0
 Intention,Parashat Terumah,2.0
 Chanukah,Holiday,2.0
-eco,ecology,2.0
 ,Immigration,2.0
 Close Reading,Korach,2.0
 Moshe,Shirat Ha'yam,2.0
@@ -14671,6 +14700,7 @@ This Too Shall Pass,גם זה יעבור,2.0
 Judges,Sodom,2.0
 Parashat Ki Tavo,נחלה,2.0
 High School,Hospitality,2.0
+Magic,Witchcraft,2.0
 Sex,Song of Songs,2.0
 Sacrifices,Shofar,2.0
 Blood,Niddah,2.0
@@ -14713,6 +14743,7 @@ Biblical Timeline,Prophecy,2.0
 Disability,Synagogue,2.0
 Chukat,Law,2.0
 Moshe,Yosef,2.0
+Parashat Noah,The Flood,2.0
 Adam,Tikkun Olam,2.0
 Middle School,Trees,2.0
 Ba'al Shem Tov,Overcoming Challenges,2.0
@@ -15092,10 +15123,10 @@ Epiphany,Vayetzei,2.0
 Parashat Shemini,Tshuva,2.0
 Adar Sheini,Lunar Cycle,2.0
 Malachi,Navi,2.0
+Naso,Sota,2.0
 Adar,Lunar Cycle,2.0
 Audacity,Choni,2.0
 Vashti,Women,2.0
-Pirkei Avot,Prophets,2.0
 Faith,War,2.0
 Tani Cohen,sefirah,2.0
 Korbanot,Shofar,2.0
@@ -15280,7 +15311,6 @@ Isaiah,Monotheism,2.0
 Authority,Sass,2.0
 Inclusivity,Synagogue,2.0
 Spreading the Light 2015,עיר מקלט,2.0
-ecology,environment,2.0
 Chanukah,Shabbat 21b,2.0
 Parashat Matot,Torah Study,2.0
 Appointing a King,Kings,2.0
@@ -15398,6 +15428,7 @@ Feminism,Rabbinic Literature,2.0
 Blood,Mitzvot,2.0
 ELI Talk,Responsibility,2.0
 Brachos,Tefilla,2.0
+Sota,Women,2.0
 David,Yom Kippur,2.0
 Elazar Ben Arach,Madness,2.0
 Moses,Wisdom,2.0
@@ -15460,7 +15491,6 @@ Dream,Gideon,2.0
 Meiri,Moshe Feinstein,2.0
 Parashat Acharei Mot,Parashat Vayera,2.0
 Judgement,Parashat Vayera,2.0
-Abraham,Mysticism,2.0
 Chassidut,Parashat Chayei Sarah,2.0
 Lunar Cycle,Megilla,2.0
 Maimonides,Nonprofit,2.0
@@ -15616,6 +15646,7 @@ Chosenness,Moshe Feinstein,2.0
 Haggadah,Judges,2.0
 Avodah Zarah,Jewish Identity,2.0
 Navi,Shmuel I,2.0
+Community,Rabbinics,2.0
 Birth,Childbirth,2.0
 Maimonides,Prophets,2.0
 Law,Signs,2.0
@@ -15639,6 +15670,7 @@ Bereshit,Kenegdo,2.0
 Chassidut,Land,2.0
 Parashat Bo,Speech,2.0
 Hillel and Shammai,Parashat Kedoshim,2.0
+Noah,Parashat Noah,2.0
 Adar 2,Drinking,2.0
 Land,Leadership,2.0
 Torah,Vessels,2.0
@@ -15809,7 +15841,6 @@ Religion,Spirituality,2.0
 Shofar,Wisdom,2.0
 Joseph,Parashat Vayeitzey,2.0
 God's Love,מצה,2.0
-eco,environment,2.0
 Re'eh,Social Action,2.0
 Adar Sheini,Purim Kattan,2.0
 Bilhah,Serach Bat Asher,2.0
@@ -15952,6 +15983,7 @@ Eating,Sukkot,2.0
 Parashat Bereishit,Siddur,2.0
 Feminism,Feminist,2.0
 Sarcasm,Satire,2.0
+Community,Experiential Education,2.0
 Abraham,Maoz Tzur,2.0
 Giving,Management,2.0
 Authority,Daughters of Tzelofchad,2.0
@@ -15987,7 +16019,6 @@ Idolatry,Ruth,2.0
 Society,Suffering,2.0
 Justice,Queer,2.0
 Mitzvot,Seder,2.0
-Joshua,Pirkei Avot,2.0
 Conservative,Parashat Emor,2.0
 Bible,Money,2.0
 Health,Prayer,2.0
@@ -16163,12 +16194,12 @@ Kindness,Medical Ethics,2.0
 Adam,Trees,2.0
 Ecokashrut,Kashrut,2.0
 Conversion,Mikvah,2.0
-Leadership,Talmud,2.0
 Fibbing,Lying,2.0
 counting,sefirah,2.0
 NCSY JOLT,Rambam,2.0
 Food,Tzelem Elohim,2.0
 Chosenness,Mitzvot,2.0
+Sorcery,Witchcraft,2.0
 DAT,Lunar Cycle,2.0
 Tikkun Olam,פורים,2.0
 Disability,Tourettes,2.0
@@ -16375,6 +16406,7 @@ Eating,Rosh Hashanah,2.0
 Fidelity,Second Temple,2.0
 Beauty,Sukkos,2.0
 Kol,Soul,2.0
+Gilgamesh,Noah,2.0
 Haman's Children Learning Torah,Purim,2.0
 Jewish Law,Simcha,2.0
 Obligation,Sodom,2.0
@@ -16467,6 +16499,7 @@ Idolatry,War,2.0
 Economy,Torah,2.0
 Crowdsourcing,Fruit,2.0
 Food,Midrash,2.0
+Experiential Education,Rabbinics,2.0
 Rabbis,Talmud,2.0
 Punishment,Witnesses,2.0
 Interfaith Dialogue,Parashat Re'eh,2.0
@@ -16877,6 +16910,7 @@ Yehudit,נשים,1.0
 German,Reward,1.0
 Berit,Har Sinai,1.0
 Law,R. Aharon Lichtenstein,1.0
+eco,farm,1.0
 Law,R. Joseph Soloveitchik,1.0
 Emotions,Parashat Chukat,1.0
 Engagement,Relationships,1.0
@@ -16950,7 +16984,7 @@ Noah,Selfhood,1.0
 סליחה,סליחות,1.0
 God,Mount Sinai,1.0
 ,R. Eliezer,1.0
-Gleaning,Sustainability,1.0
+Kedushah,Mtei,1.0
 DAPL,Talmud,1.0
 Education,Memory,1.0
 Chanukah,Sisters,1.0
@@ -16964,6 +16998,7 @@ Judgment,Ki Teitzei,1.0
 Purim,Student Work,1.0
 Meaning,Prophecy,1.0
 Standing Rock,Water,1.0
+methodology,study,1.0
 Hermeneutics,Kal Vachomer,1.0
 Machshava,Torah,1.0
 Ki Teitzei,Lashes,1.0
@@ -17243,6 +17278,7 @@ chesed,learning,1.0
 Reform Judaism,Talit,1.0
 Olam Habah,Shabbat,1.0
 Peace,Tisha B'Av,1.0
+earth,ecology,1.0
 Greeting,Teaching,1.0
 breathe,nose,1.0
 בית המקדש,יין,1.0
@@ -17269,7 +17305,6 @@ Passover,אלגביש,1.0
 Chassidut,Rabbi Nachman,1.0
 Kippah,Tifara,1.0
 Kabbolos Ohl Malchus Shamayim,Shema,1.0
-Gilgamesh,The Flood,1.0
 Birthright,Inheritance,1.0
 Elul,Obligation,1.0
 Divorce,Government,1.0
@@ -17348,7 +17383,6 @@ Parashat Terumah,תרומה,1.0
 Creation,Teens,1.0
 Business,Camp Ramah,1.0
 "I the LORD Am Your God, Who Brought You Out of the Land of Egypt to Be Your God: I, the LORD Your God.",Instructions,1.0
-Naso,Women,1.0
 Abraham,The Last Trial,1.0
 מצריים,פליטי סוריה,1.0
 Lulav,New Moon,1.0
@@ -17367,7 +17401,6 @@ Angels,Moshe,1.0
 Forest,Garden,1.0
 Angels,Ishmael,1.0
 Four Species,ד' מינים,1.0
-Community,Talmud,1.0
 Prophecy,Purim,1.0
 Loyalty,Prayer,1.0
 Avraham,Burning Bush,1.0
@@ -17498,6 +17531,7 @@ arvei pesachim,gemara,1.0
 Kibud Av Va'em,Shiluach Haken,1.0
 Bullying,Upstander,1.0
 Bible,Shmuel,1.0
+Rebirth,mourning,1.0
 Elul,Parshat Nitzavim,1.0
 Shmini Atzeres,d'veikus,1.0
 Devarim,Parshat Devarim,1.0
@@ -17563,6 +17597,7 @@ DAPL,Protest,1.0
 Fasting,Ta'anit,1.0
 Parashat Naso,Tzedaka,1.0
 Crossing the Sea,Singing,1.0
+Body and Soul,Soul,1.0
 Judaism for Christians,Rabbinic Judaism,1.0
 Din,Judge,1.0
 Article Response,Science,1.0
@@ -17706,7 +17741,6 @@ Moon,Moshe,1.0
 Hillel,תורה על רגל אחת,1.0
 Etz Chayim,Torah Service,1.0
 Good and Evil,Shema,1.0
-Noach,Noah,1.0
 Farm,Nature,1.0
 Individual,Torah,1.0
 Postmodernism,The Left,1.0
@@ -17800,6 +17834,7 @@ Book of Lamentations,Eicha,1.0
 Kavanah,Soloveitchik,1.0
 Mekabel,Wax,1.0
 Rabbis,Teachers,1.0
+chevruta,dvar torah,1.0
 MTEI,Spies,1.0
 Bayit Rishon,Biblical Instruments,1.0
 Rambam,Rav A.I. Kook,1.0
@@ -17815,6 +17850,7 @@ Israel,Jewish People,1.0
 High Holy Days,Sheep,1.0
 Race,Religion,1.0
 Individual,Parashat Bemidbar,1.0
+farm,garden,1.0
 Eve,Punishment,1.0
 Tzelem Elohim,Value of Human Life,1.0
 Rosh Hashanah,Seder,1.0
@@ -18043,7 +18079,6 @@ Mishpatim,Torah,1.0
 Ramban,Shmone Esrei,1.0
 Peoplehood,War,1.0
 Beshallach,Trust,1.0
-Knowing God,Mysticism,1.0
 Authority,Patriarchy,1.0
 In Every Generation,Rabban Gamliel,1.0
 Selichos,Shofar,1.0
@@ -18080,7 +18115,6 @@ Ecology,Wealth,1.0
 Aaron,High Holidays,1.0
 יין,כסות,1.0
 kedushah,mourner's kaddish,1.0
-Sorcery,Wizardry,1.0
 fun,kashrut,1.0
 Dance,Mitzvot,1.0
 High Holidays,Parashat Re'eh,1.0
@@ -18230,6 +18264,7 @@ Community,Racism,1.0
 Persia,Torah,1.0
 Particularism,Tzedakah,1.0
 Listening,Nishmah,1.0
+Torah,methodology,1.0
 Chevra Kadisha,Death,1.0
 Hadar,Minyan,1.0
 Darwin,Evolution,1.0
@@ -18267,7 +18302,6 @@ Repentance,Unetaneh Tokef,1.0
 Ecology,Tshuva,1.0
 Respect,Sefirat Haomer,1.0
 Home,Spiritual Life,1.0
-Mysticism,Parashat Lech Lecha,1.0
 Conservative Yeshiva,King David,1.0
 A Due for All Time,Priesthood,1.0
 Brachot,ברכות,1.0
@@ -18338,7 +18372,6 @@ Chassidut,Holidays,1.0
 ברד,הגדה,1.0
 LGBT,Purim,1.0
 Demons,Moses,1.0
-Drinking,Noah,1.0
 Hermeneutics,Qal Vachomer,1.0
 Kedusha,Yom Kippur,1.0
 rosh hashanah,yom hadin,1.0
@@ -18352,7 +18385,6 @@ Everyday Mt. Sinai,Revelation,1.0
 Israel,Tshuva,1.0
 Community,Discrimination,1.0
 Anti-Semitism,Israel Education,1.0
-Sota,Torah Study,1.0
 Amidah,Shmoneh Esrei,1.0
 Personal Injury Law,Torah,1.0
 Interfaith Dialogue,Non-Jewish Religions,1.0
@@ -18896,6 +18928,7 @@ Government,Non-Jews,1.0
 Exile,Geula,1.0
 Parashat Vayeshev,Water,1.0
 Parashat Balak,Pinchas,1.0
+Noach,Parashat Noach,1.0
 OLIVES,Tu B'shvat,1.0
 Interpersonal,Yom Kippur,1.0
 Compromise,דין,1.0
@@ -19249,6 +19282,7 @@ God,Humor,1.0
 Holidays,Omer,1.0
 Assimilation,Choice,1.0
 Burial,יין,1.0
+farm,nature,1.0
 Elul,yom kippur,1.0
 Empathy,Israel,1.0
 Home,Vulnerability,1.0
@@ -19411,7 +19445,6 @@ Creation,Terah,1.0
 Empathy,Social Skills,1.0
 Sefirat Ha'omer,Spiritual Growth,1.0
 Pe'ah,Tzedakah,1.0
-Experiential Education,Talmud,1.0
 Parashat Mishpatim,Parashat Va'etchanan,1.0
 Torah,UST,1.0
 Liturgy,Miriam,1.0
@@ -19449,6 +19482,7 @@ Integration,Pesach,1.0
 Names,Zelda,1.0
 Marriage,Midrash,1.0
 Aliyah,Kibbud Av V'Em,1.0
+eco,garden,1.0
 Clothing,Rite of Passage,1.0
 Numbers,Throughout the Ages,1.0
 Selfhood,כבוד,1.0
@@ -19715,6 +19749,7 @@ Jeremiah,Prayer,1.0
 Shalosh Regalim,Shavuot,1.0
 Berachot,Witnesses,1.0
 Arrogance,Gaava,1.0
+Torah,chevruta,1.0
 Mishna,Tisha Bav,1.0
 Powers,Salvation,1.0
 Midrash,Rabbah Bar Bar Hana,1.0
@@ -19736,7 +19771,6 @@ Curses,Life,1.0
 Famous Quotes,Wisdom,1.0
 Jewish History,Mishnah,1.0
 Rabbinics,Stewardship,1.0
-Education,Experiential Education,1.0
 Hara,Torah,1.0
 Knowing God,Miriam,1.0
 Covering,Respect,1.0
@@ -19797,6 +19831,7 @@ Emma Goldman,Social Justice,1.0
 Siddur,Sleep,1.0
 Chanuka,Working on Chanuka,1.0
 Alternative Energy,Solar Power,1.0
+2 Samuel,Samuel,1.0
 Hostages,Lot,1.0
 God,Signs,1.0
 Bereshit,Blessing,1.0
@@ -19893,6 +19928,7 @@ Eye for an Eye,Moses,1.0
 Choice,Lot,1.0
 Election 2016,Refugees,1.0
 Exploitation,Money,1.0
+Parashat Noach,teshuva,1.0
 Birchos Hashachar,Yaakov,1.0
 Bilaam,Parashat Lech Lecha,1.0
 Avraham,Kedoshim,1.0
@@ -20380,7 +20416,6 @@ Nitzavim,Parashat Nitzavim,1.0
 Chanukah,Obligation,1.0
 Sukkot,Travelers,1.0
 Revelation,Women in Tanach,1.0
-Naso,Torah Study,1.0
 Eden,Stars,1.0
 Spiritual Downfall,שאלות בפרשת השבוע,1.0
 Faith,Parashat Balak,1.0
@@ -20478,7 +20513,6 @@ Help,Justice,1.0
 Birkhat HaChama,Rabbi Daniel Goldfarb,1.0
 Environment,Peah,1.0
 Birrur,Primordial Kings,1.0
-Gilgamesh,Parashat Noah,1.0
 בני ישראל,פחד מפני זרים,1.0
 Aggadah,Early Christianity,1.0
 Adam,Beit Hamikdash,1.0
@@ -20563,7 +20597,6 @@ Doppelter Konstrukt,Mischna,1.0
 Rabbi Mordechai Silverstein,Teshuva,1.0
 Magen Avraham,Shemone Esrei,1.0
 Numbers,TYG,1.0
-Leadership,Rabbinics,1.0
 Love Your Neighbor / Fellow Man,ואהבת לרעך כמוך,1.0
 Jew Curious,Shema,1.0
 גדול המצווה ועושה,דמא בן נתינה,1.0
@@ -20599,6 +20632,7 @@ Ezekiel,Joshua,1.0
 mission,yom hadin,1.0
 Israelites,Jethro,1.0
 Passover,Wisdom,1.0
+garden,nature,1.0
 Bayit Sheni,Biblical Instruments,1.0
 Gender Roles,Hair,1.0
 Fasting,Witnesses,1.0
@@ -20641,6 +20675,7 @@ Abraham,Emunah,1.0
 Matzahs,מצות,1.0
 Ki Seitzei;,Love,1.0
 Kavana,Rosh Hashanah,1.0
+Government,"Taxes,",1.0
 Accepting Torah,Identity,1.0
 Queer,Rosh Hashanah,1.0
 Katan,Mitzvot,1.0
@@ -20666,7 +20701,6 @@ Moses,Va'etchanan,1.0
 Eliyahu,End of Days,1.0
 Add Sources,Find Connectioins,1.0
 Contemporary,Economics,1.0
-Rabbinics,Talmud,1.0
 Canaan,Land of Israel,1.0
 Marriage,Relationships,1.0
 Esau,Koach,1.0
@@ -20684,6 +20718,7 @@ Shir Shel Yom,Zohar,1.0
 Act Up,Not Stand Idly By,1.0
 10 Commandments,Talmud,1.0
 Prayer,Rabbis,1.0
+dvar torah,methodology,1.0
 Etrog,Kiddush,1.0
 Haggadah Shel Pesach,Mishnah,1.0
 Geocentric Universe,Size of World,1.0
@@ -20756,7 +20791,6 @@ Exodus,Hesed,1.0
 Zugos,Zugot,1.0
 Differentiation,Pirkei Avot,1.0
 Ethics,Killing,1.0
-Noah,The Flood,1.0
 Kings,Priests,1.0
 יום כיפור,ירצה את חברו,1.0
 Honoring Mother and Father,Kibud Av V'em,1.0
@@ -20915,6 +20949,7 @@ Cherubim,Time,1.0
 Ecclesiastes,Simchat Torah,1.0
 Kurshner,Rav Kook,1.0
 Tiferes,Yarmulka,1.0
+Tanakh,Wine,1.0
 Lost Property,Wealth,1.0
 Israelites,Moses,1.0
 Conservative Yeshiva,Harry Potter,1.0
@@ -20935,7 +20970,6 @@ Loans,Usury,1.0
 Action,Holocaust,1.0
 Jobs,Mitzvot,1.0
 Family,Gratitude,1.0
-Experiential Education,Leadership,1.0
 Depression,Samson,1.0
 Jewish Philosophy,Kinyan Ha'torah,1.0
 Interdating,Intermarriage,1.0
@@ -21038,6 +21072,7 @@ Ezekiel,Psalms,1.0
 הילל,תורה על רגל אחת,1.0
 Leadership,Work,1.0
 Darkness,Revelation,1.0
+chevruta,methodology,1.0
 Natan Salon,Tanakh,1.0
 Prayer,Science,1.0
 Miracles,Terumah,1.0
@@ -21090,6 +21125,7 @@ Melton,Qur'An,1.0
 Pesach,Yom Kippur,1.0
 Akeidah,Moshe,1.0
 Eliezer,Tanur Shel Achnai,1.0
+Kabbalah,Kings,1.0
 Parashat Bechukotai,Tanakh,1.0
 Days of Awe,Kedusha,1.0
 Ethics,Fantasy,1.0
@@ -21150,7 +21186,6 @@ Jewish History,Shir HaShirim,1.0
 Nazir,Prayer,1.0
 Avraham,Tefilla,1.0
 Kedusha,Unetaneh Tokef,1.0
-Sota,Sotah,1.0
 First Machlokes,Zugos,1.0
 Compassion,Environment,1.0
 Niggun,Tefilla,1.0
@@ -21243,6 +21278,7 @@ Parashat Nitzavim,Parshat Nitzavim,1.0
 Selective Memory,Yom HaZikaron,1.0
 פורים,שאלןת בפרשה בלמדות,1.0
 colleagues,reflection,1.0
+earth,nature,1.0
 Being a Good Neighbor,Being a Good Person,1.0
 Mussar,RaMBaM,1.0
 Ethics,Hospitality,1.0
@@ -21469,6 +21505,7 @@ Astrology,Sun,1.0
 Sun,Yehoshua,1.0
 Inclusion,NFTY,1.0
 Noah,עבדות,1.0
+earth,eco,1.0
 ושתי,פורים,1.0
 Ezekiel,Vision,1.0
 Jewish Philosophy,Shavout,1.0
@@ -22049,6 +22086,7 @@ Eating,Middot,1.0
 Avot,Meir,1.0
 Parashat Va'etchanan,Shomea KeOneh,1.0
 Abraham,Parsha,1.0
+dvar torah,simhat torah,1.0
 Five Cups,Four Cups,1.0
 Achnai's Oven,R. Eliezer,1.0
 Chag HaPesach,Korban Pesach,1.0
@@ -22343,6 +22381,7 @@ Inquiry,Learner,1.0
 Avraham,Ruth,1.0
 Crowd Mentality,Individual,1.0
 Hearken,Observe,1.0
+Shabbat,Texts,1.0
 Rambam,Shemitah,1.0
 Happiness,Mysticism,1.0
 Haggadah,אלגביש,1.0
@@ -22434,6 +22473,7 @@ New Year,Simanim,1.0
 Parshat Tazria,Tazria,1.0
 Hiring,Mitzvot,1.0
 Commandments,World to Come,1.0
+earth,farm,1.0
 Animals,COMPASSION,1.0
 Bracha,Yehoshua,1.0
 Christianity,Egypt,1.0
@@ -22501,6 +22541,7 @@ Judges,Prophets,1.0
 Fear,Law,1.0
 Maimonides,Parashat Shoftim,1.0
 talmud shabbat,words,1.0
+simhat torah,study,1.0
 Chapter 3,Pirkei Avot,1.0
 ,Sports,1.0
 High Holidays,Rebirth,1.0
@@ -22752,6 +22793,7 @@ Commandments,Music,1.0
 ELI,Sisters,1.0
 Conservative Yeshiva,Simchat Torah,1.0
 Midrash,Sarah,1.0
+methodology,resources,1.0
 Mitzvot,Siddur,1.0
 Shmini,Torah,1.0
 Awareness,Transcendence,1.0
@@ -22894,6 +22936,7 @@ Election,Guns,1.0
 Burial,Dignity,1.0
 Covenant,Rosh Hashanah,1.0
 Judges,Parashat Lech Lecha,1.0
+Parashat Noach,righteousness,1.0
 Kapparot,Minhag,1.0
 Not Done,Theory,1.0
 First Three,Last Three,1.0
@@ -23243,6 +23286,7 @@ Datan and Aviram,Ekev,1.0
 Jacob,Responsibility,1.0
 Ritual,Science,1.0
 Rosh Chodesh,Time,1.0
+Torah,study,1.0
 Mishkan,Noah,1.0
 Mishná,Rambam,1.0
 Death and Resurrection,Isaac,1.0
@@ -23269,7 +23313,6 @@ Learning From Kosher and Non-Kosher Animals,שמיני,1.0
 Intelligentism,Stephen Hawking,1.0
 Parashat Tezaveh,פרשת תצוה,1.0
 Community,Sanctuary,1.0
-Naso,Sotah,1.0
 Hellenism,Oraitaism,1.0
 Eating,Priests,1.0
 John Stuart Mills,TRUTH Fallacy,1.0
@@ -23519,7 +23562,7 @@ Judaism,Space,1.0
 Friendship,Pirkei Avot,1.0
 Negiah,Shomer,1.0
 Parashat Vayigash,Trust,1.0
-Rebirth,mourning,1.0
+Avraham,Resilience,1.0
 Kindness,Tolerance,1.0
 Self-Doubt,Zelda,1.0
 History,Zionism,1.0
@@ -23749,10 +23792,12 @@ AGW,Cultural Marxism,1.0
 Torah,learning,1.0
 Mashpia,Wax,1.0
 Days of Awe,Unetaneh Tokef,1.0
+Akeidah,CBJ,1.0
 Angel,Chariot,1.0
 Adam,Rashi,1.0
 Kabbalah,Shekhinah,1.0
 Kavanah,Megillah,1.0
+righteousness,teshuva,1.0
 Liturgy,Women,1.0
 Idol Worship,Kashrut,1.0
 Cities of Refuge,Yachad,1.0
@@ -23806,6 +23851,7 @@ Individual,Shomea KeOneh,1.0
 Beit Midrash,Elitism,1.0
 929,בציר,1.0
 Stereotypes,Toldot,1.0
+Philosophy,Texts,1.0
 Acceptance of Mitzvot,Halacha,1.0
 Family,Yaakov,1.0
 Industry,Turn of the Century,1.0
@@ -23840,7 +23886,6 @@ Isaac,Loss,1.0
 Family,Gilmore Girls,1.0
 Moses,Shavuot,1.0
 Jewish LGBT,Teshuva,1.0
-Chassidut,Parashat Lech Lecha,1.0
 High Holy Days,Leader,1.0
 Hiring,Inclusion,1.0
 Chanukah,Psalms,1.0
@@ -23968,7 +24013,6 @@ College,Mitzvot,1.0
 pesachim,talmud,1.0
 half kaddish,kaddish,1.0
 Ham,Land of Israel,1.0
-Rabbinics,Teaching,1.0
 Shoftim,Tzedaka,1.0
 Shlach Lecha,Stranger,1.0
 Parshat Masei,Parshat Matot,1.0
@@ -24034,7 +24078,6 @@ Parashat Ki Tavo,Parashat Va'era,1.0
 Eliyahu,Help,1.0
 ELI,Rap,1.0
 Philosphy,Theology,1.0
-Magic,Wizardry,1.0
 Joseph,Parashat Ki Teitzei,1.0
 sinai,words,1.0
 Solar Power,Sustainability,1.0
@@ -24147,6 +24190,7 @@ Gay,Modern Orthodox,1.0
 Blessings,Tfilla,1.0
 Haym Soloveitchik,K'Zayit,1.0
 Prophets,Talmud,1.0
+Torah,resources,1.0
 Akeidah,Revelation,1.0
 Repentance,Women in Tanach,1.0
 Taking Action,Upstander,1.0
@@ -24261,6 +24305,7 @@ Gerar,Wells,1.0
 Creation,Spreading the Light 2015,1.0
 Pesach,כוס,1.0
 Death,high holidays,1.0
+Book of Daniel,Daniel,1.0
 Kings,Malchitzedek,1.0
 Financial Justice,Interest,1.0
 Shalom,Trauma,1.0
@@ -24270,6 +24315,7 @@ Four Cups of Wine,Seder,1.0
 Vbm,חמץ,1.0
 Feminism,Subversive,1.0
 Cairo,Hebrew Poetry,1.0
+ecology,farm,1.0
 Genesis,Queer,1.0
 Kiddush,Sukkot,1.0
 Afkeinhu,Law,1.0
@@ -24286,6 +24332,7 @@ Indigo Girls,Queer Torah,1.0
 chumash,devarim,1.0
 Parsha Questions (Lamdut),שוחד,1.0
 Dwell,Travelers,1.0
+Law,"Taxes,",1.0
 ELI,Genetics,1.0
 Healing,Integration,1.0
 Commandments,Reward,1.0
@@ -24346,6 +24393,7 @@ Ki Tisa,Parashat Ki Tisa,1.0
 Agriculture,Yeshiva,1.0
 Barry Holtz,MTEI,1.0
 Rashi,Sarah,1.0
+Noach,teshuva,1.0
 Jewish Identity,Shomea KeOneh,1.0
 ,Mishneh Torah,1.0
 Kal Vachomer,Rabbi Ishmael,1.0
@@ -24400,6 +24448,7 @@ Monarchy,Samuel,1.0
 Bread,Garden of Eden,1.0
 Guests,Halakhah,1.0
 Grief,Youth Advisors,1.0
+Noah,teshuva,1.0
 Pekudei,Torah,1.0
 Kaddish,Kibbutz,1.0
 Beis Shammai,Zugot,1.0
@@ -24807,7 +24856,6 @@ Pesach,Rabbi Joel Levy,1.0
 Ashet Chayil,Sarah,1.0
 Rosh Chodesh,השמש והירח,1.0
 Bribery,שוחד,1.0
-Experiential Education,Teaching,1.0
 Adversity,Dance,1.0
 Love,Loving God,1.0
 mission,task,1.0
@@ -24861,6 +24909,7 @@ Cain,Hilchot Teshuvah,1.0
 Glory,Sukkah,1.0
 Song,Students,1.0
 Hold,Touch,1.0
+environment,farm,1.0
 Berachot,Pesach,1.0
 Dance,Happiness,1.0
 Parashat Toldot,Wife-Sister,1.0
@@ -24950,6 +24999,7 @@ Body,V'Ahavta,1.0
 ELI,Mizrahi,1.0
 God,Hashem,1.0
 Dignity,Slavery,1.0
+Torah,simhat torah,1.0
 Rabbinate,Temple,1.0
 Meraglim,Tzitzit,1.0
 Hermeneutics,Rabbi Ishmael,1.0
@@ -25011,7 +25061,6 @@ Genesis,Kedusha,1.0
 Brothers,Responsibility,1.0
 Justice,Parashat Emor,1.0
 Purpose,Roots and Wings,1.0
-Magic,Witchcraft,1.0
 Memory,Sacrifice,1.0
 Abel,Brothers,1.0
 Amazement,Birkat Hamazon,1.0
@@ -25133,7 +25182,6 @@ abraham,philosophy,1.0
 Song,Zohar,1.0
 Harry Potter,Rosh Hashanah,1.0
 Anti-Semitism,Book of Lamentations,1.0
-Parashat Noah,The Flood,1.0
 Anthropomorphic,Omniscient,1.0
 ELI,Sephardi,1.0
 Commentators,Parshanut,1.0
@@ -25520,6 +25568,7 @@ Animals,כשרות בעלי חיים,1.0
 Financial Justice,Poverty,1.0
 Jubilee,Loans,1.0
 Desert,Water,1.0
+earth,garden,1.0
 Crown,Head Covering,1.0
 Art,Transcendence,1.0
 Brit,Kedushah,1.0
@@ -25531,7 +25580,7 @@ Erich Fromm,Yitz Greenberg,1.0
 Bible,Education,1.0
 Devil,NT Quote,1.0
 Amalek,Shabbat Hachodesh,1.0
-Atara,Tiferes,1.0
+CBJ,Parashat Vayera,1.0
 HaNosein LeYaeif Koach,Yaakov,1.0
 Parashat Tezaveh,מינוי אהרן הכהן,1.0
 Ohr,Torah,1.0
@@ -25558,6 +25607,7 @@ Shofetim,Shoftim,1.0
 Eight,Festival,1.0
 Intelligentism,Pharisaism,1.0
 Assimilation,Miketz and Diaspora,1.0
+methodology,simhat torah,1.0
 Brit,Buber,1.0
 Holyworld,Vayetze,1.0
 God,Omniscient,1.0
@@ -25633,10 +25683,12 @@ Leadership,Spies,1.0
 Gifts,Numbers,1.0
 Meaning,Rebecca,1.0
 Efrayim,Grandparents,1.0
+ecology,garden,1.0
 Amidah,First Three,1.0
 Eretz Yisrael,slavery,1.0
 אנושות,פחד זרים,1.0
 Prayer,Rabbinate,1.0
+resources,study,1.0
 Thanks,Water,1.0
 Parashat Kedoshim,תורה על רגל אחת,1.0
 environment,social justice,1.0
@@ -25648,7 +25700,6 @@ Pharaoh,Sarah,1.0
 kedushah d'sidrah,mourner's kaddish,1.0
 Pirkei Avot,Social-Emotional Development,1.0
 Brisk,Hayyim Soloveitchik,1.0
-Kedushah,Mtei,1.0
 Advocacy,Social Justice,1.0
 Passover,פרשת החודש,1.0
 Dating,Marriage,1.0
@@ -25902,6 +25953,7 @@ Midrash,Mitzvot,1.0
 Bar Mitzvah,Transmission of Values,1.0
 Betzalel,Parashat Vayakhel,1.0
 Halachah,Phylacteries,1.0
+Noah,righteousness,1.0
 Judaism,Machloket,1.0
 Intention,Rambam,1.0
 Rashi,Rebecca,1.0
@@ -25989,7 +26041,6 @@ Eli Talks,Teshuva,1.0
 Parashat Shemot,Parashat Va'eirah,1.0
 Peace,Temple,1.0
 Bava Batra,Talmud,1.0
-Naso,Sota,1.0
 Hellenism,History,1.0
 Chanukah,Jacob,1.0
 Temple,Tenth of Tevet,1.0
@@ -26134,6 +26185,7 @@ Learning From Kosher and Non-Kosher Animals,Parsha Questions (Lamdut),1.0
 Mystical,Tshuva,1.0
 Succos,Sukkot,1.0
 Olam Haba,Tfilla,1.0
+dvar torah,study,1.0
 Harsh Punishments of Not Watching the Eyes,Mastering Your Eyes,1.0
 Moshe and Aharon's Real Sin,Science,1.0
 Prevention,Teens,1.0
@@ -26680,7 +26732,6 @@ Amidah,Meaning in Prayer,1.0
 Zaken,שופטים,1.0
 ELI,Social-Emotional Development,1.0
 דבר המלכה,מגילת אסתר,1.0
-Sota,Women,1.0
 Conservative Yeshiva,Rabbi Gail Diamond,1.0
 Shmitah,Yovel,1.0
 Passover,מרים,1.0
@@ -26907,6 +26958,7 @@ Mishkan,Parashat Pikudei,1.0
 high holidays,leadership,1.0
 Minyan,Tefilla,1.0
 David,Revelation,1.0
+environment,garden,1.0
 Shmone Esrei,שמונה עשרה,1.0
 Burial,Honor,1.0
 Parsha Questions (Lamdut),ואהבת לרעך כמוך,1.0
@@ -27219,6 +27271,7 @@ Aguna,Law,1.0
 Bible,Suffering Servant,1.0
 Monarchy,Shmuel,1.0
 Shacharit,Sleep,1.0
+earth,environment,1.0
 Eliya,Eliyahu,1.0
 Being a Good Person,Bystander,1.0
 Disability,Race,1.0
@@ -27233,7 +27286,6 @@ Channukah,German,1.0
 Love Your Neighbor / Fellow Man,Rabbi Akiva,1.0
 Harbonah,Megillah,1.0
 American Judaism,Parashat Ki Tavo,1.0
-Community,Rabbinics,1.0
 Exodus,פסח,1.0
 Animals,שאלות בפרשה בלמדות,1.0
 Chofetz Chaim,Temple,1.0
@@ -27244,6 +27296,7 @@ K´zait,Shiur,1.0
 Halacha,Mishna,1.0
 Eulogy,Sarah,1.0
 Aaron,Purity,1.0
+CBJ,Isaac,1.0
 Zaken,זקן,1.0
 Abraham,Stranger,1.0
 Holidays,Women in Tanach,1.0
@@ -27259,6 +27312,7 @@ Bystander,Not Stand Idly By,1.0
 ,Avos,1.0
 Covenant,Judges,1.0
 Parashat Ki Teitze,Parashat Yitro,1.0
+Chanuka Assignment,High School,1.0
 Oral Law,Torah Sheba'al Peh,1.0
 Psalm 23,Unetaneh Tokef,1.0
 Mishnah,Storytelling,1.0
@@ -27277,7 +27331,6 @@ Hutner,Philosophy,1.0
 Death,Gosses,1.0
 Energy,Environment,1.0
 10 Commandments,Yitro,1.0
-Noah,Parashat Noah,1.0
 Family,Kings,1.0
 Bible,High Holidays,1.0
 Israel,Liturgy,1.0
@@ -27679,6 +27732,7 @@ ELI,Ecotheologian,1.0
 psychology,self confidence,1.0
 Aaron,Hillel,1.0
 Hamaavir,Shacharit,1.0
+2 Samuel,David,1.0
 Coffee,Matot,1.0
 Jacob,Water,1.0
 Doctors,Healing,1.0
@@ -27890,6 +27944,7 @@ Prayer,Yeshaya,1.0
 Shechina,Tikunim,1.0
 Judith,Wine,1.0
 Life,Mitzvot,1.0
+Gleaning,Sustainability,1.0
 Miriam,Seder,1.0
 Commandments,לא תעמוד,1.0
 Crowdsourcing,Differentiation,1.0
@@ -27950,7 +28005,6 @@ Ibn Ezra,Parshanut,1.0
 Lag Beomer,Relationships,1.0
 Science,Worldviews,1.0
 Bechukotai,Punishment,1.0
-Community,Experiential Education,1.0
 Dying,Mysticism,1.0
 Ladino,Music,1.0
 Tefilla,Tithing,1.0
@@ -28062,6 +28116,7 @@ Literal,Tefilin,1.0
 Joseph,Tanakh,1.0
 Chesed,Fences,1.0
 בגד,נח,1.0
+chevruta,simhat torah,1.0
 Anger,Identity,1.0
 Phylacteries,Rashbam,1.0
 Chronologicalness,Resolutions,1.0
@@ -28483,6 +28538,7 @@ Compassion,Law,1.0
 End of Days,Moses,1.0
 Language,Parashat Chayei Sarah,1.0
 Fertility,Women in Tanach,1.0
+Body and Soul,Concept of Soul,1.0
 Swimming,Transmission of Values,1.0
 Fear,Organizational Strategy,1.0
 Birth,Torah,1.0
@@ -28585,7 +28641,6 @@ Chagigah,Taharah,1.0
 Metaphor,Phylacteries,1.0
 Baruch SheAmar,Moshe,1.0
 Jewish Day School,Talmud,1.0
-Sorcery,Witchcraft,1.0
 Law,Society,1.0
 Parsha Questions (Lamdut),בנית המשכן,1.0
 Hillel,Teshuvah,1.0
@@ -28635,6 +28690,7 @@ midrash,rape,1.0
 Gemillut Chassadim,Introduction to Judaism,1.0
 ELI,Philathropy,1.0
 Industry,Rite of Passage,1.0
+Torah,dvar torah,1.0
 Ishmael,Parashat Chayei Sarah,1.0
 הילל בן שחר,קציר,1.0
 Healing,Passover,1.0
@@ -28711,6 +28767,7 @@ Elul,Perspective,1.0
 ,Holy Community,1.0
 Amalek,Tanakh,1.0
 Israel,Reform Judaism,1.0
+Perfect,Wholehearted,1.0
 Creation,Ten Plagues,1.0
 Access to Knowledge,Democracy,1.0
 Avot,Pirkey Avot,1.0
@@ -28942,6 +28999,7 @@ Ecclesiastes,Kohelet,1.0
 Halacha,Interpersonal,1.0
 American,Millennials,1.0
 Joshua,Parashat Chayei Sarah,1.0
+chevruta,study,1.0
 Clothing,Kavod,1.0
 Art,Parashat Lech Lecha,1.0
 Parashat Emor,Ruth,1.0
@@ -29117,7 +29175,6 @@ Ekev,Korach,1.0
 Law,Talmud,1.0
 Damages,Torah,1.0
 Parashat Bereishit,Rabbinic Authority,1.0
-Gilgamesh,Noah,1.0
 Beautiful Captive,War,1.0
 Darwin,Intelligent Design,1.0
 Book of Job,Book of Lamentations,1.0
@@ -29144,6 +29201,7 @@ Community,Connection,1.0
 Parasha,Toldot,1.0
 Edpuzzle,Roots and Wings,1.0
 Judge,Judging,1.0
+Abraham,CBJ,1.0
 פגימת הלבנה,ראש חודש,1.0
 Avigayil,Love,1.0
 Agriculture,Stealing,1.0
@@ -29288,6 +29346,7 @@ Eulogy,Midrash,1.0
 70 Languages,Devarim,1.0
 Science,Scientific Method,1.0
 Congregation,Synagogue,1.0
+Law,Noah,1.0
 Mishkan,Nehama Leibowitz,1.0
 Pirkei Avot,Shimon the Righteous,1.0
 Tefilla,Vocation,1.0
@@ -29298,6 +29357,7 @@ Article Response,Neo-Marxism,1.0
 Holiness,Torah Study,1.0
 Lulav,Rosh Hashanah,1.0
 Community,Questions,1.0
+Noach,righteousness,1.0
 Empiricality Criterion,Hypothesis,1.0
 Eating,Rebecca,1.0
 Hip Hop,Oral Tradition,1.0
@@ -29332,7 +29392,6 @@ Injustice,Social Action,1.0
 ELI,Siblings,1.0
 Machtseet Hashekel,Parashat Ki Tisa,1.0
 Changing Yourself,Rebbe,1.0
-Experiential Education,Rabbinics,1.0
 Masculinity,Pre-Zionism,1.0
 בבל,תמוז,1.0
 Edpuzzle,Rejoice,1.0
@@ -29545,6 +29604,7 @@ conflict,shammai,1.0
 Capitalism,Yovel,1.0
 Haidt,Plato,1.0
 Law,Shotrim,1.0
+Atara,Tiferes,1.0
 Tefilla,אברהם,1.0
 Lepers,Shavout,1.0
 Hope,Moses,1.0
@@ -29688,6 +29748,7 @@ Aaron,Parashat Vayeshev,1.0
 Gentile,Olam Haba,1.0
 זקן,שופטים,1.0
 Better World,Holyworld,1.0
+Concept of Soul,Soul,1.0
 Persecution,Temple,1.0
 Shabbat 88b,Torah,1.0
 Breslov,Women,1.0
@@ -29726,7 +29787,7 @@ Maimonides,Passover,1.0
 High Holidays,Rabbi Shlomo Zacharow,1.0
 Gratitude,Torah,1.0
 Tekvin,Yaratılış,1.0
-Perfect,Wholehearted,1.0
+Lech Lecha,Resilience,1.0
 Kabbalah,Tzorekh Gavoha,1.0
 Kosher Animals,Parsha Questions (Lamdut),1.0
 Kindness,Responsibilty,1.0
@@ -29757,6 +29818,7 @@ Holiday,Mitzvot,1.0
 Instructions,The LORD Said to Moses,1.0
 Death,Hospital,1.0
 Parashat Kedoshim,Torah on One Foot,1.0
+resources,simhat torah,1.0
 Cultural Marxism,Tikkun Olam,1.0
 משכן,עבודה זרה,1.0
 African American Narrative,Harvard,1.0
@@ -29777,6 +29839,7 @@ Kiddush,New Moon,1.0
 Kedushah,Time,1.0
 Holiness,d'veikus,1.0
 Kal V'chomer,Shofar,1.0
+chevruta,resources,1.0
 Bet Hamikdash,Covering,1.0
 Chumash,Highlighter,1.0
 Adon Olam,Tefilla,1.0
@@ -29862,7 +29925,6 @@ Hearken,Obey,1.0
 Shaul,Tzitzit,1.0
 Halakha,שהחיינו,1.0
 Halakha,גיור,1.0
-Kabbalah,Kings,1.0
 Immigration,Tenement,1.0
 Animals,Tsaar Baaley Hayyim,1.0
 Happiness,Sukkos,1.0
@@ -30109,6 +30171,7 @@ Ten Commandments,Terah,1.0
 Fasting,Rachamim,1.0
 Political Thought,פחד מפני זרים,1.0
 פרשת קדושים,שאלות בפרשה בלמדות,1.0
+dvar torah,resources,1.0
 Os Habris,Torah Patterns,1.0
 Diaspora,Zion,1.0
 Parsha Questions (Lamdut),Parshat Shemini,1.0
