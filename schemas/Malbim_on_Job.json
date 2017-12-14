@@ -1,0 +1,109 @@
+{
+    "base_text_titles": [
+        {
+            "en": "Job", 
+            "he": "איוב"
+        }
+    ], 
+    "heCategories": [
+        "תנ\"ך", 
+        "מפרשים", 
+        "מלבי\"ם", 
+        "כתובים"
+    ], 
+    "title": "Malbim on Job", 
+    "base_text_mapping": null, 
+    "collective_title": {
+        "en": "Malbim", 
+        "he": "מלבי\"ם"
+    }, 
+    "heTitleVariants": [
+        "מלבי\"ם על איוב"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "מלבי\"ם על איוב", 
+    "titleVariants": [
+        "Malbim on Job"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Malbim", 
+        "Writings"
+    ], 
+    "schema": {
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "title": "Introduction", 
+                "heTitle": "הקדמה", 
+                "sharedTitle": "Introduction", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Introduction", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "הקדמה", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "מבוא"
+                    }
+                ], 
+                "key": "intro", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 3, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסוק", 
+                    "פירוש"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Verse", 
+                    "Comment"
+                ]
+            }
+        ], 
+        "titles": [
+            {
+                "lang": "he", 
+                "text": "מלבי\"ם על איוב", 
+                "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Malbim on Job", 
+                "primary": true
+            }
+        ], 
+        "heTitle": "מלבי\"ם על איוב", 
+        "key": "Malbim on Job", 
+        "title": "Malbim on Job"
+    }
+}
