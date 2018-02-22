@@ -28,21 +28,65 @@
         "en": "Middle-Age Spain", 
         "he": "ספרד של ימי הביניים"
     }, 
-    "sectionNames": [
-        "Chapter", 
-        "Verse", 
-        "Comment"
-    ], 
     "schema": {
-        "nodeType": "JaggedArrayNode", 
-        "title": "Ramban on Numbers", 
-        "addressTypes": [
-            "Integer", 
-            "Integer", 
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "title": "Introduction", 
+                "heTitle": "הקדמה", 
+                "sharedTitle": "Introduction", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Introduction", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "הקדמה", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "מבוא"
+                    }
+                ], 
+                "key": "intro", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 3, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסוק", 
+                    "פירוש"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Verse", 
+                    "Comment"
+                ]
+            }
         ], 
-        "heTitle": "רמב\"ן על במדבר", 
-        "depth": 3, 
         "titles": [
             {
                 "lang": "en", 
@@ -111,17 +155,9 @@
                 "primary": true
             }
         ], 
+        "heTitle": "רמב\"ן על במדבר", 
         "key": "Ramban on Numbers", 
-        "heSectionNames": [
-            "פרק", 
-            "פסוק", 
-            "פירוש"
-        ], 
-        "sectionNames": [
-            "Chapter", 
-            "Verse", 
-            "Comment"
-        ]
+        "title": "Ramban on Numbers"
     }, 
     "heTitleVariants": [
         "רמב\"ן על במדבר"
@@ -160,7 +196,6 @@
         "he": "רמב\"ן"
     }, 
     "dependence": "Commentary", 
-    "depth": 3, 
     "era": "RI", 
     "base_text_mapping": "many_to_one"
 }
