@@ -5,7 +5,7 @@ Structured Jewish texts and metadata with free public licenses, exported from Se
 
 This repo contains texts, bibliographical information and lists of intertextual connections created by [Sefaria](http://www.sefaria.org).
 
-A MongoDB dump of Sefaria's database is also available for download [here](http://dev.sefaria.org/static/dump.tar.gz) or a smaller version (without text edit history) [here](http://dev.sefaria.org/static/dump_small.tar.gz). Download this file, extract it and use [`mongorestore`](http://docs.mongodb.org/v2.2/reference/mongorestore/) to load into your local DB.
+A MongoDB dump of Sefaria's database is also available for download [here](https://storage.googleapis.com/sefaria-mongo-backup/dump.tar.gz) or a smaller version (without text edit history) [here](https://storage.googleapis.com/sefaria-mongo-backup/dump_small.tar.gz). Download this file, extract it and use [`mongorestore`](http://docs.mongodb.org/v2.2/reference/mongorestore/) to load into your local DB.
 
 From the parent of the downloaded `dump` folder, run:
 
