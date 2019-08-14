@@ -1,0 +1,113 @@
+{
+    "base_text_titles": [
+        {
+            "en": "Mishnah Bekhorot", 
+            "he": "משנה בכורות"
+        }
+    ], 
+    "heCategories": [
+        "יצירות מודרניות", 
+        "ביאור אנגלי על המשנה", 
+        "סדר קדשים"
+    ], 
+    "title": "English Explanation of Mishnah Bekhorot", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": {
+        "en": "English Explanation of Mishnah", 
+        "he": "ביאור אנגלי על המשנה"
+    }, 
+    "heTitleVariants": [
+        "ביאור אנגלי על משנה בכורות"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "ביאור אנגלי על משנה בכורות", 
+    "authors": [
+        {
+            "en": "Joshua Kulp", 
+            "he": "יהושע מנחם קולפ"
+        }
+    ], 
+    "titleVariants": [
+        "English Explanation of Mishnah Bekhorot"
+    ], 
+    "categories": [
+        "Modern Works", 
+        "English Explanation of Mishnah", 
+        "Seder Kodashim"
+    ], 
+    "schema": {
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "title": "Introduction", 
+                "heTitle": "הקדמה", 
+                "sharedTitle": "Introduction", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Introduction", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "הקדמה", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "מבוא"
+                    }
+                ], 
+                "key": "intro", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Mishnah", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 3, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "משנה", 
+                    "פירוש"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Mishnah", 
+                    "Comment"
+                ]
+            }
+        ], 
+        "titles": [
+            {
+                "lang": "he", 
+                "text": "ביאור אנגלי על משנה בכורות", 
+                "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "English Explanation of Mishnah Bekhorot", 
+                "primary": true
+            }
+        ], 
+        "heTitle": "ביאור אנגלי על משנה בכורות", 
+        "key": "English Explanation of Mishnah Bekhorot", 
+        "title": "English Explanation of Mishnah Bekhorot"
+    }
+}

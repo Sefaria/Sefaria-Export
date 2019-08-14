@@ -9,7 +9,7 @@
     "compPlace": "Toledo, Spain", 
     "enDesc": "Abridgement of the Torah commentary written by Jacob ben Asher, Ba’al HaTurim. The author was a halakhic scholar and biblical commentator in Medieval Spain. ", 
     "heTitle": "קיצור בעל הטורים על במדבר", 
-    "errorMargin": "1300", 
+    "errorMargin": 0, 
     "is_cited": true, 
     "heCategories": [
         "תנ\"ך", 
@@ -19,7 +19,11 @@
     ], 
     "pubDate": "1514", 
     "title": "Kitzur Baal Haturim on Numbers", 
-    "base_text_mapping": "many_to_one", 
+    "compDate": "1300", 
+    "compDateString": {
+        "en": " (1300 CE)", 
+        "he": " (1300 לספירה)"
+    }, 
     "compPlaceString": {
         "en": "Toledo, Spain", 
         "he": "טולדו, ספרד"
@@ -33,7 +37,7 @@
         "nodeType": "JaggedArrayNode", 
         "title": "Kitzur Baal Haturim on Numbers", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer", 
             "Integer"
         ], 
@@ -107,5 +111,6 @@
     }, 
     "dependence": "Commentary", 
     "depth": 3, 
-    "era": "RI"
+    "era": "RI", 
+    "base_text_mapping": "many_to_one"
 }

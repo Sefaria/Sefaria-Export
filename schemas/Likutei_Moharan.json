@@ -28,6 +28,10 @@
             "he": "נחמן מברסלב‎"
         }
     ], 
+    "dedication": {
+        "en": "Dedicated by Mo and Elisa Septimus in honor of R. Chaim Kramer, R. Nasan Maimon, the Ostrova-Biala Rebbe, and all chasidim of R. Nachman.", 
+        "he": "מוקדש על ידי מוֹ ואליסה ספטימוס לכבוד הרב חיים קרמר שליט\"א, הרב נתן מיימון שליט\"א, האדמו\"ר מאוסטרובה־ביאלא שליט\"א, ולזכות כלל חסידיו של רבי נחמן מברסלב"
+    }, 
     "titleVariants": [
         "Likutei Moharan Kama", 
         "Likutei Moharan"
@@ -125,33 +129,38 @@
             }, 
             {
                 "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
                 "addressTypes": [
+                    "Integer", 
                     "Integer", 
                     "Integer"
                 ], 
+                "default": true, 
+                "title": "", 
                 "heTitle": "", 
-                "depth": 2, 
+                "depth": 3, 
                 "key": "default", 
                 "heSectionNames": [
                     "תורה", 
-                    "חלק"
+                    "חלק", 
+                    "פירוש"
                 ], 
                 "sectionNames": [
                     "Torah", 
-                    "Section"
-                ]
+                    "Section", 
+                    "Comment"
+                ], 
+                "toc_zoom": 2
             }, 
             {
                 "nodeType": "JaggedArrayNode", 
-                "title": "Part II", 
                 "addressTypes": [
+                    "Integer", 
                     "Integer", 
                     "Integer"
                 ], 
+                "title": "Part II", 
                 "heTitle": "תנינא", 
-                "depth": 2, 
+                "depth": 3, 
                 "titles": [
                     {
                         "lang": "en", 
@@ -171,12 +180,15 @@
                 "key": "Tinyana", 
                 "heSectionNames": [
                     "תורה", 
-                    "חלק"
+                    "חלק", 
+                    "פירוש"
                 ], 
                 "sectionNames": [
                     "Torah", 
-                    "Section"
-                ]
+                    "Section", 
+                    "Comment"
+                ], 
+                "toc_zoom": 2
             }, 
             {
                 "nodeType": "JaggedArrayNode", 

@@ -1,5 +1,12 @@
 {
-    "depth": 3, 
+    "base_text_titles": [
+        {
+            "en": "II Kings", 
+            "he": "מלכים ב"
+        }
+    ], 
+    "pubPlace": "Mantua", 
+    "compPlace": "Provence, France", 
     "heTitleVariants": [
         "רלב\"ג על מלכים ב", 
         "רלב\"ג על מ\"ב", 
@@ -7,12 +14,8 @@
         "רלב\"ג על מלכים ב׳", 
         "רלב\"ג על מלכים ב'"
     ], 
-    "base_text_titles": [
-        {
-            "en": "II Kings", 
-            "he": "מלכים ב"
-        }
-    ], 
+    "heTitle": "רלב\"ג על מלכים ב", 
+    "errorMargin": "10", 
     "heCategories": [
         "תנ\"ך", 
         "מפרשים", 
@@ -21,61 +24,25 @@
     ], 
     "pubDate": "1480", 
     "title": "Ralbag on II Kings", 
-    "base_text_mapping": "many_to_one", 
-    "pubPlace": "Mantua", 
-    "compPlace": "Provence, France", 
-    "enDesc": "A commentary written by Rabbi Levi ben Gershon (1288–1344) of Provence. Ralbag was a Talmudist, mathematician and astronomer. He was a rationalist which is reflected in his approach to angels and miracles in his commentary. The commentary is divided into 3 parts: the lexicon (bi’ur ha-milot), exegesis (bi’ur ha-parasha), and the lessons (to’alot). ", 
-    "dependence": "Commentary", 
+    "compDate": "1335", 
+    "compDateString": {
+        "en": " (c.1325  - c.1345 CE)", 
+        "he": " (1325 - 1345 לספירה בקירוב)"
+    }, 
     "compPlaceString": {
         "en": "Provence, France", 
         "he": "פרובנס, צרפת"
-    }, 
-    "heTitle": "רלב\"ג על מלכים ב", 
-    "era": "RI", 
-    "authors": [
-        {
-            "en": "Ralbag", 
-            "he": "רלב\"ג"
-        }
-    ], 
-    "titleVariants": [
-        "Ralbag on Melachim Bet", 
-        "Ralbag on Melachim II", 
-        "Ralbag on Second Kings", 
-        "Ralbag on 2 Kings", 
-        "Ralbag on II Melachim", 
-        "Ralbag on Kings II", 
-        "Ralbag on II Melakhim", 
-        "Gersonides on Melachim Bet", 
-        "Gersonides on Melachim II", 
-        "Gersonides on Second Kings", 
-        "Gersonides on 2 Kings", 
-        "Gersonides on II Melachim", 
-        "Gersonides on Kings II", 
-        "Gersonides on II Melakhim", 
-        "Gersonides on II Kings", 
-        "Ralbag on II Kings"
-    ], 
-    "collective_title": {
-        "en": "Ralbag", 
-        "he": "רלב\"ג"
     }, 
     "sectionNames": [
         "Chapter", 
         "Verse", 
         "Comment"
     ], 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Ralbag", 
-        "Prophets"
-    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "title": "Ralbag on II Kings", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer", 
             "Integer"
         ], 
@@ -180,5 +147,44 @@
             "Verse", 
             "Comment"
         ]
-    }
+    }, 
+    "enDesc": "A commentary written by Rabbi Levi ben Gershon (1288–1344) of Provence. Ralbag was a Talmudist, mathematician and astronomer. He was a rationalist which is reflected in his approach to angels and miracles in his commentary. The commentary is divided into 3 parts: the lexicon (bi’ur ha-milot), exegesis (bi’ur ha-parasha), and the lessons (to’alot). ", 
+    "authors": [
+        {
+            "en": "Ralbag", 
+            "he": "רלב\"ג"
+        }
+    ], 
+    "titleVariants": [
+        "Ralbag on Melachim Bet", 
+        "Ralbag on Melachim II", 
+        "Ralbag on Second Kings", 
+        "Ralbag on 2 Kings", 
+        "Ralbag on II Melachim", 
+        "Ralbag on Kings II", 
+        "Ralbag on II Melakhim", 
+        "Gersonides on Melachim Bet", 
+        "Gersonides on Melachim II", 
+        "Gersonides on Second Kings", 
+        "Gersonides on 2 Kings", 
+        "Gersonides on II Melachim", 
+        "Gersonides on Kings II", 
+        "Gersonides on II Melakhim", 
+        "Gersonides on II Kings", 
+        "Ralbag on II Kings"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Ralbag", 
+        "Prophets"
+    ], 
+    "collective_title": {
+        "en": "Ralbag", 
+        "he": "רלב\"ג"
+    }, 
+    "dependence": "Commentary", 
+    "depth": 3, 
+    "era": "RI", 
+    "base_text_mapping": "many_to_one"
 }

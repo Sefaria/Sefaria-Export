@@ -1,5 +1,12 @@
 {
-    "depth": 3, 
+    "base_text_titles": [
+        {
+            "en": "I Samuel", 
+            "he": "שמואל א"
+        }
+    ], 
+    "pubPlace": "Mantua", 
+    "compPlace": "Provence, France", 
     "heTitleVariants": [
         "רלב\"ג על שמואל א", 
         "רלב\"ג על ש״א", 
@@ -9,12 +16,8 @@
         "רלב\"ג על שמ״א", 
         "רלב\"ג על שמ\"א"
     ], 
-    "base_text_titles": [
-        {
-            "en": "I Samuel", 
-            "he": "שמואל א"
-        }
-    ], 
+    "heTitle": "רלב\"ג על שמואל א", 
+    "errorMargin": "10", 
     "heCategories": [
         "תנ\"ך", 
         "מפרשים", 
@@ -23,69 +26,25 @@
     ], 
     "pubDate": "1480", 
     "title": "Ralbag on I Samuel", 
-    "base_text_mapping": "many_to_one", 
-    "pubPlace": "Mantua", 
-    "compPlace": "Provence, France", 
-    "enDesc": "A commentary written by Rabbi Levi ben Gershon (1288–1344) of Provence. Ralbag was a Talmudist, mathematician and astronomer. He was a rationalist which is reflected in his approach to angels and miracles in his commentary. The commentary is divided into 3 parts: the lexicon (bi’ur ha-milot), exegesis (bi’ur ha-parasha), and the lessons (to’alot). ", 
-    "dependence": "Commentary", 
+    "compDate": "1335", 
+    "compDateString": {
+        "en": " (c.1325  - c.1345 CE)", 
+        "he": " (1325 - 1345 לספירה בקירוב)"
+    }, 
     "compPlaceString": {
         "en": "Provence, France", 
         "he": "פרובנס, צרפת"
-    }, 
-    "heTitle": "רלב\"ג על שמואל א", 
-    "era": "RI", 
-    "authors": [
-        {
-            "en": "Ralbag", 
-            "he": "רלב\"ג"
-        }
-    ], 
-    "titleVariants": [
-        "Ralbag on I Sam.", 
-        "Ralbag on 1Sam.", 
-        "Ralbag on First Samuel", 
-        "Ralbag on Shmuel Aleph", 
-        "Ralbag on 1Sam", 
-        "Ralbag on I Shmuel", 
-        "Ralbag on Samuel I", 
-        "Ralbag on Shmuel I", 
-        "Ralbag on 1 Samuel", 
-        "Ralbag on I Sam", 
-        "Ralbag on I Shemuel", 
-        "Gersonides on I Sam.", 
-        "Gersonides on 1Sam.", 
-        "Gersonides on First Samuel", 
-        "Gersonides on Shmuel Aleph", 
-        "Gersonides on 1Sam", 
-        "Gersonides on I Shmuel", 
-        "Gersonides on Samuel I", 
-        "Gersonides on Shmuel I", 
-        "Gersonides on 1 Samuel", 
-        "Gersonides on I Sam", 
-        "Gersonides on I Shemuel", 
-        "Gersonides on I Samuel", 
-        "Ralbag on I Samuel"
-    ], 
-    "collective_title": {
-        "en": "Ralbag", 
-        "he": "רלב\"ג"
     }, 
     "sectionNames": [
         "Chapter", 
         "Verse", 
         "Comment"
     ], 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Ralbag", 
-        "Prophets"
-    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "title": "Ralbag on I Samuel", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer", 
             "Integer"
         ], 
@@ -230,5 +189,52 @@
             "Verse", 
             "Comment"
         ]
-    }
+    }, 
+    "enDesc": "A commentary written by Rabbi Levi ben Gershon (1288–1344) of Provence. Ralbag was a Talmudist, mathematician and astronomer. He was a rationalist which is reflected in his approach to angels and miracles in his commentary. The commentary is divided into 3 parts: the lexicon (bi’ur ha-milot), exegesis (bi’ur ha-parasha), and the lessons (to’alot). ", 
+    "authors": [
+        {
+            "en": "Ralbag", 
+            "he": "רלב\"ג"
+        }
+    ], 
+    "titleVariants": [
+        "Ralbag on I Sam.", 
+        "Ralbag on 1Sam.", 
+        "Ralbag on First Samuel", 
+        "Ralbag on Shmuel Aleph", 
+        "Ralbag on 1Sam", 
+        "Ralbag on I Shmuel", 
+        "Ralbag on Samuel I", 
+        "Ralbag on Shmuel I", 
+        "Ralbag on 1 Samuel", 
+        "Ralbag on I Sam", 
+        "Ralbag on I Shemuel", 
+        "Gersonides on I Sam.", 
+        "Gersonides on 1Sam.", 
+        "Gersonides on First Samuel", 
+        "Gersonides on Shmuel Aleph", 
+        "Gersonides on 1Sam", 
+        "Gersonides on I Shmuel", 
+        "Gersonides on Samuel I", 
+        "Gersonides on Shmuel I", 
+        "Gersonides on 1 Samuel", 
+        "Gersonides on I Sam", 
+        "Gersonides on I Shemuel", 
+        "Gersonides on I Samuel", 
+        "Ralbag on I Samuel"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Ralbag", 
+        "Prophets"
+    ], 
+    "collective_title": {
+        "en": "Ralbag", 
+        "he": "רלב\"ג"
+    }, 
+    "dependence": "Commentary", 
+    "depth": 3, 
+    "era": "RI", 
+    "base_text_mapping": "many_to_one"
 }

@@ -1,14 +1,17 @@
 {
-    "depth": 3, 
-    "heTitleVariants": [
-        "רלב\"ג על משלי"
-    ], 
     "base_text_titles": [
         {
             "en": "Proverbs", 
             "he": "משלי"
         }
     ], 
+    "pubPlace": "Mantua", 
+    "compPlace": "Provence, France", 
+    "heTitleVariants": [
+        "רלב\"ג על משלי"
+    ], 
+    "heTitle": "רלב\"ג על משלי", 
+    "errorMargin": "10", 
     "heCategories": [
         "תנ\"ך", 
         "מפרשים", 
@@ -17,57 +20,25 @@
     ], 
     "pubDate": "1480", 
     "title": "Ralbag on Proverbs", 
-    "base_text_mapping": "many_to_one", 
-    "pubPlace": "Mantua", 
-    "compPlace": "Provence, France", 
-    "enDesc": "A commentary written by Rabbi Levi ben Gershon (1288–1344) of Provence. Ralbag was a Talmudist, mathematician and astronomer. He was a rationalist which is reflected in his approach to angels and miracles in his commentary. The commentary is divided into 3 parts: the lexicon (bi’ur ha-milot), exegesis (bi’ur ha-parasha), and the lessons (to’alot). ", 
-    "dependence": "Commentary", 
+    "compDate": "1335", 
+    "compDateString": {
+        "en": " (c.1325  - c.1345 CE)", 
+        "he": " (1325 - 1345 לספירה בקירוב)"
+    }, 
     "compPlaceString": {
         "en": "Provence, France", 
         "he": "פרובנס, צרפת"
-    }, 
-    "heTitle": "רלב\"ג על משלי", 
-    "era": "RI", 
-    "authors": [
-        {
-            "en": "Ralbag", 
-            "he": "רלב\"ג"
-        }
-    ], 
-    "titleVariants": [
-        "Ralbag on Prov", 
-        "Ralbag on Pro", 
-        "Ralbag on Prov.", 
-        "Ralbag on Mishlei", 
-        "Ralbag on Pro.", 
-        "Gersonides on Prov", 
-        "Gersonides on Pro", 
-        "Gersonides on Prov.", 
-        "Gersonides on Mishlei", 
-        "Gersonides on Pro.", 
-        "Gersonides on Proverbs", 
-        "Ralbag on Proverbs"
-    ], 
-    "collective_title": {
-        "en": "Ralbag", 
-        "he": "רלב\"ג"
     }, 
     "sectionNames": [
         "Chapter", 
         "Verse", 
         "Comment"
     ], 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Ralbag", 
-        "Writings"
-    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "title": "Ralbag on Proverbs", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer", 
             "Integer"
         ], 
@@ -140,5 +111,40 @@
             "Verse", 
             "Comment"
         ]
-    }
+    }, 
+    "enDesc": "A commentary written by Rabbi Levi ben Gershon (1288–1344) of Provence. Ralbag was a Talmudist, mathematician and astronomer. He was a rationalist which is reflected in his approach to angels and miracles in his commentary. The commentary is divided into 3 parts: the lexicon (bi’ur ha-milot), exegesis (bi’ur ha-parasha), and the lessons (to’alot). ", 
+    "authors": [
+        {
+            "en": "Ralbag", 
+            "he": "רלב\"ג"
+        }
+    ], 
+    "titleVariants": [
+        "Ralbag on Prov", 
+        "Ralbag on Pro", 
+        "Ralbag on Prov.", 
+        "Ralbag on Mishlei", 
+        "Ralbag on Pro.", 
+        "Gersonides on Prov", 
+        "Gersonides on Pro", 
+        "Gersonides on Prov.", 
+        "Gersonides on Mishlei", 
+        "Gersonides on Pro.", 
+        "Gersonides on Proverbs", 
+        "Ralbag on Proverbs"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Ralbag", 
+        "Writings"
+    ], 
+    "collective_title": {
+        "en": "Ralbag", 
+        "he": "רלב\"ג"
+    }, 
+    "dependence": "Commentary", 
+    "depth": 3, 
+    "era": "RI", 
+    "base_text_mapping": "many_to_one"
 }

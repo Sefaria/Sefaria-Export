@@ -1,0 +1,83 @@
+{
+    "heCategories": [
+        "ספרי מוסר"
+    ], 
+    "title": "Ahavat David", 
+    "heTitleVariants": [
+        "אהבת דוד"
+    ], 
+    "heTitle": "אהבת דוד", 
+    "titleVariants": [
+        "Ahavat David"
+    ], 
+    "categories": [
+        "Musar"
+    ], 
+    "schema": {
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Title", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "שער", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Title", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "שער", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Title", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 2, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Paragraph"
+                ]
+            }
+        ], 
+        "titles": [
+            {
+                "lang": "he", 
+                "text": "אהבת דוד", 
+                "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Ahavat David", 
+                "primary": true
+            }
+        ], 
+        "heTitle": "אהבת דוד", 
+        "key": "Ahavat David", 
+        "title": "Ahavat David"
+    }
+}

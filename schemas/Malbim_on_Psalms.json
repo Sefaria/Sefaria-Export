@@ -1,5 +1,11 @@
 {
-    "depth": 3, 
+    "base_text_titles": [
+        {
+            "en": "Psalms", 
+            "he": "תהילים"
+        }
+    ], 
+    "pubPlace": "Warsaw", 
     "heTitleVariants": [
         "מלבי\"ם על תהילים", 
         "מלבי\"ם על תהלים", 
@@ -11,12 +17,8 @@
         "מלבי\"ם על תהלי׳", 
         "מלבי\"ם על תהלי'"
     ], 
-    "base_text_titles": [
-        {
-            "en": "Psalms", 
-            "he": "תהילים"
-        }
-    ], 
+    "heTitle": "מלבי\"ם על תהילים", 
+    "errorMargin": "15", 
     "heCategories": [
         "תנ\"ך", 
         "מפרשים", 
@@ -25,57 +27,21 @@
     ], 
     "pubDate": "1874", 
     "title": "Malbim on Psalms", 
-    "base_text_mapping": "many_to_one", 
-    "pubPlace": "Warsaw", 
-    "collective_title": {
-        "en": "Malbim", 
-        "he": "מלבי\"ם"
+    "compDate": "1859", 
+    "compDateString": {
+        "en": " (c.1844  - c.1874 CE)", 
+        "he": " (1844 - 1874 לספירה בקירוב)"
     }, 
-    "enDesc": "Written and published between 1845 and 1870 by Rabbi Meir Leibush ben Yehiel Michel Wisser (Malbim). A trademark of the Malbim’s commentary is his belief that there are no synonyms or repetition in the Tanakh. Each word represents a different idea or concept. ", 
-    "dependence": "Commentary", 
-    "heDesc": "ביאור בדרך הפשט על כל הנ\"ך (מלבד המגילות רות, איכה ואסתר), המבוסס בעיקרו על פירושו של הרד\"ק ועוד ראשונים. המחבר, ר' דוד אלטשולר, כתב את ספרו כפירוש אחד, אך כשהשלימו בנו, יחיאל הלל, לאחר מותו, חילקו לשני חלקים – \"מצודת דוד\" המבאר את ענייני הפסוקים ופשטם, ו\"מצודת ציון\" המיועד לפרש מילים וביטויים קשים בתנ\"ך.", 
-    "heTitle": "מלבי\"ם על תהילים", 
-    "era": "AH", 
-    "authors": [
-        {
-            "en": "Malbim", 
-            "he": "מלבי\"ם"
-        }
-    ], 
-    "titleVariants": [
-        "Malbim on Ps", 
-        "Malbim on Ps.", 
-        "Malbim on Psa", 
-        "Malbim on Tehilim", 
-        "Malbim on Psa.", 
-        "Malbim on Psalm", 
-        "Malbim on Tehillim", 
-        "Malbim Literary Commantary on Ps", 
-        "Malbim Literary Commantary on Ps.", 
-        "Malbim Literary Commantary on Psa", 
-        "Malbim Literary Commantary on Tehilim", 
-        "Malbim Literary Commantary on Psa.", 
-        "Malbim Literary Commantary on Psalm", 
-        "Malbim Literary Commantary on Tehillim", 
-        "Malbim Literary Commantary on Psalms", 
-        "Malbim on Psalms"
-    ], 
     "sectionNames": [
         "Chapter", 
         "Verse", 
         "Comment"
     ], 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Malbim", 
-        "Writings"
-    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "title": "Malbim on Psalms", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer", 
             "Integer"
         ], 
@@ -196,5 +162,45 @@
             "Verse", 
             "Comment"
         ]
-    }
+    }, 
+    "enDesc": "Written and published between 1845 and 1870 by Rabbi Meir Leibush ben Yehiel Michel Wisser (Malbim). A trademark of the Malbim’s commentary is his belief that there are no synonyms or repetition in the Tanakh. Each word represents a different idea or concept.", 
+    "heDesc": "פירוש על תנ\"ך של ר' מאיר לייבוש בן יחיאל מיכל ויסר (מלבי\"ם), שחיבר והדפיס בין השנים 1845-1876. בפירושו לחומש הוא מביא את מדרשי ההלכה ודן בהם בהשוואה לפשט הפסוקים תוך דיוקים בדקדוק המקרא. המלבי\"ם נודע בדרך ייחודית בפירושו למקרא, ולשיטתו אין שום חזרה וכפילות בפסוקים ('מילים נרדפות' כפי שכונה על ידי מפרשים אחרים), אלא כל מילה מייצגת מושג או רעיון אחר.", 
+    "authors": [
+        {
+            "en": "Malbim", 
+            "he": "מלבי\"ם"
+        }
+    ], 
+    "titleVariants": [
+        "Malbim on Ps", 
+        "Malbim on Ps.", 
+        "Malbim on Psa", 
+        "Malbim on Tehilim", 
+        "Malbim on Psa.", 
+        "Malbim on Psalm", 
+        "Malbim on Tehillim", 
+        "Malbim Literary Commantary on Ps", 
+        "Malbim Literary Commantary on Ps.", 
+        "Malbim Literary Commantary on Psa", 
+        "Malbim Literary Commantary on Tehilim", 
+        "Malbim Literary Commantary on Psa.", 
+        "Malbim Literary Commantary on Psalm", 
+        "Malbim Literary Commantary on Tehillim", 
+        "Malbim Literary Commantary on Psalms", 
+        "Malbim on Psalms"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Malbim", 
+        "Writings"
+    ], 
+    "collective_title": {
+        "en": "Malbim", 
+        "he": "מלבי\"ם"
+    }, 
+    "dependence": "Commentary", 
+    "depth": 3, 
+    "era": "AH", 
+    "base_text_mapping": "many_to_one"
 }

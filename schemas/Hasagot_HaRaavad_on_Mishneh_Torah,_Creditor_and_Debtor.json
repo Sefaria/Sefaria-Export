@@ -1,14 +1,16 @@
 {
-    "depth": 3, 
-    "heTitleVariants": [
-        "השגות הראב\"ד על משנה תורה, הלכות מלווה ולווה"
-    ], 
     "base_text_titles": [
         {
             "en": "Mishneh Torah, Creditor and Debtor", 
             "he": "משנה תורה, הלכות מלווה ולווה"
         }
     ], 
+    "compPlace": "Provence, France", 
+    "heTitleVariants": [
+        "השגות הראב\"ד על משנה תורה, הלכות מלווה ולווה"
+    ], 
+    "heTitle": "השגות הראב\"ד על משנה תורה, הלכות מלווה ולווה", 
+    "errorMargin": "10", 
     "heCategories": [
         "הלכה", 
         "משנה תורה", 
@@ -17,43 +19,26 @@
         "ספר משפטים"
     ], 
     "title": "Hasagot HaRaavad on Mishneh Torah, Creditor and Debtor", 
-    "base_text_mapping": "many_to_one", 
-    "collective_title": {
-        "en": "Hasagot HaRaavad", 
-        "he": "השגות הראב\"ד"
+    "compDate": "1185", 
+    "compDateString": {
+        "en": " (c.1175  - c.1195 CE)", 
+        "he": " (1175 - 1195 לספירה בקירוב)"
     }, 
-    "enDesc": "Raavad's glosses on Rambam's Mishneh Torah expressing his dissenting opinion.", 
-    "dependence": "Commentary", 
-    "heDesc": "הגהותיו של הראב\"ד על המשנה תורה של הרמב\"ם, המבטאות את דעתו החולקת.", 
-    "heTitle": "השגות הראב\"ד על משנה תורה, הלכות מלווה ולווה", 
-    "era": "RI", 
-    "authors": [
-        {
-            "en": "Ra'avad", 
-            "he": "ראב\"ד"
-        }
-    ], 
-    "titleVariants": [
-        "Hasagot HaRaavad on Mishneh Torah, Creditor and Debtor"
-    ], 
+    "compPlaceString": {
+        "en": "Provence, France", 
+        "he": "פרובנס, צרפת"
+    }, 
     "sectionNames": [
         "Chapter", 
         "Halakhah", 
         "Comment"
     ], 
-    "categories": [
-        "Halakhah", 
-        "Mishneh Torah", 
-        "Commentary", 
-        "Hasagot HaRaavad", 
-        "Sefer Mishpatim"
-    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "title": "Hasagot HaRaavad on Mishneh Torah, Creditor and Debtor", 
         "addressTypes": [
-            "Integer", 
-            "Integer", 
+            "Perek", 
+            "Halakhah", 
             "Integer"
         ], 
         "heTitle": "השגות הראב\"ד על משנה תורה, הלכות מלווה ולווה", 
@@ -81,5 +66,31 @@
             "Halakhah", 
             "Comment"
         ]
-    }
+    }, 
+    "enDesc": "Raavad's glosses on Rambam's Mishneh Torah expressing his dissenting opinion.", 
+    "heDesc": "הגהותיו של הראב\"ד על המשנה תורה של הרמב\"ם, המבטאות את דעתו החולקת.", 
+    "authors": [
+        {
+            "en": "Ra'avad", 
+            "he": "ראב\"ד"
+        }
+    ], 
+    "titleVariants": [
+        "Hasagot HaRaavad on Mishneh Torah, Creditor and Debtor"
+    ], 
+    "categories": [
+        "Halakhah", 
+        "Mishneh Torah", 
+        "Commentary", 
+        "Hasagot HaRaavad", 
+        "Sefer Mishpatim"
+    ], 
+    "collective_title": {
+        "en": "Hasagot HaRaavad", 
+        "he": "השגות הראב\"ד"
+    }, 
+    "dependence": "Commentary", 
+    "depth": 3, 
+    "era": "RI", 
+    "base_text_mapping": "many_to_one"
 }

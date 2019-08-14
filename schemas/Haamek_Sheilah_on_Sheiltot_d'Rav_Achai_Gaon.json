@@ -1,4 +1,7 @@
 {
+    "heTitleVariants": [
+        "העמק שאלה על שאילתות דרב אחאי גאון"
+    ], 
     "base_text_titles": [
         {
             "en": "Sheiltot d'Rav Achai Gaon", 
@@ -9,19 +12,37 @@
         "הלכה", 
         "מפרשים"
     ], 
+    "pubDate": "1861 - 1867", 
     "title": "Haamek Sheilah on Sheiltot d'Rav Achai Gaon", 
+    "compDate": "1850", 
+    "pubPlace": "Vilna", 
     "collective_title": {
         "en": "Haamek Sheilah", 
         "he": "העמק שאלה"
     }, 
-    "heTitleVariants": [
-        "העמק שאלה על שאילתות דרב אחאי גאון"
-    ], 
+    "enDesc": "Extensive commentary on Sheiltot D'Rav Achai by Rabbi Naphtali Tzvi Yehuda Belin (Netziv).", 
     "dependence": "Commentary", 
+    "compDateString": {
+        "en": " (c.1840  - c.1860 CE)", 
+        "he": " (1840 - 1860 לספירה בקירוב)"
+    }, 
+    "heDesc": "באור רחב על השאלתות של רב אחאי גאון לר' נפתלי צבי יהודה ברלין.", 
     "heTitle": "העמק שאלה על שאילתות דרב אחאי גאון", 
+    "era": "AH", 
+    "authors": [
+        {
+            "en": "Naphtali Zevi Yehudah Berlin", 
+            "he": "נפתלי צבי יהודה ברלין"
+        }
+    ], 
+    "dedication": {
+        "en": "The translation of 'The Path of Torah (Kidmat HaEmek)' is sponsored by Raquel and Aryeh Rubin", 
+        "he": "טקסט הקדמת 'קדמת העמק' מוקדש על ידי אריה ורחל רובין"
+    }, 
     "titleVariants": [
         "Haamek Sheilah on Sheiltot d'Rav Achai Gaon"
     ], 
+    "errorMargin": "10", 
     "categories": [
         "Halakhah", 
         "Commentary"
@@ -29,14 +50,101 @@
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Kidmat HaEmek", 
-                "addressTypes": [
-                    "Integer", 
-                    "Integer"
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode", 
+                        "title": "Part I", 
+                        "addressTypes": [
+                            "Integer", 
+                            "Integer"
+                        ], 
+                        "heTitle": "קדמת הראשון", 
+                        "depth": 2, 
+                        "titles": [
+                            {
+                                "lang": "en", 
+                                "text": "Part I", 
+                                "primary": true
+                            }, 
+                            {
+                                "lang": "he", 
+                                "text": "קדמת הראשון", 
+                                "primary": true
+                            }
+                        ], 
+                        "key": "Part I", 
+                        "heSectionNames": [
+                            "פרק", 
+                            "פסקה"
+                        ], 
+                        "sectionNames": [
+                            "Chapter", 
+                            "Paragraph"
+                        ]
+                    }, 
+                    {
+                        "nodeType": "JaggedArrayNode", 
+                        "title": "Part II", 
+                        "addressTypes": [
+                            "Integer", 
+                            "Integer"
+                        ], 
+                        "heTitle": "קדמת השני", 
+                        "depth": 2, 
+                        "titles": [
+                            {
+                                "lang": "en", 
+                                "text": "Part II", 
+                                "primary": true
+                            }, 
+                            {
+                                "lang": "he", 
+                                "text": "קדמת השני", 
+                                "primary": true
+                            }
+                        ], 
+                        "key": "Part II", 
+                        "heSectionNames": [
+                            "פרק", 
+                            "פסקה"
+                        ], 
+                        "sectionNames": [
+                            "Chapter", 
+                            "Paragraph"
+                        ]
+                    }, 
+                    {
+                        "nodeType": "JaggedArrayNode", 
+                        "title": "Part III", 
+                        "addressTypes": [
+                            "Integer", 
+                            "Integer"
+                        ], 
+                        "heTitle": "קדמת השלישי", 
+                        "depth": 2, 
+                        "titles": [
+                            {
+                                "lang": "en", 
+                                "text": "Part III", 
+                                "primary": true
+                            }, 
+                            {
+                                "lang": "he", 
+                                "text": "קדמת השלישי", 
+                                "primary": true
+                            }
+                        ], 
+                        "key": "Part III", 
+                        "heSectionNames": [
+                            "פרק", 
+                            "פסקה"
+                        ], 
+                        "sectionNames": [
+                            "Chapter", 
+                            "Paragraph"
+                        ]
+                    }
                 ], 
-                "heTitle": "קדמת העמק", 
-                "depth": 2, 
                 "titles": [
                     {
                         "lang": "en", 
@@ -49,25 +157,106 @@
                         "primary": true
                     }
                 ], 
+                "heTitle": "קדמת העמק", 
                 "key": "Kidmat HaEmek", 
-                "heSectionNames": [
-                    "פרק", 
-                    "פסקה"
-                ], 
-                "sectionNames": [
-                    "Chapter", 
-                    "Paragraph"
-                ]
+                "title": "Kidmat HaEmek"
             }, 
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Petach HaEmek", 
-                "addressTypes": [
-                    "Integer", 
-                    "Integer"
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode", 
+                        "title": "Part I", 
+                        "addressTypes": [
+                            "Integer", 
+                            "Integer"
+                        ], 
+                        "heTitle": "פתח הראשון", 
+                        "depth": 2, 
+                        "titles": [
+                            {
+                                "lang": "en", 
+                                "text": "Part I", 
+                                "primary": true
+                            }, 
+                            {
+                                "lang": "he", 
+                                "text": "פתח הראשון", 
+                                "primary": true
+                            }
+                        ], 
+                        "key": "Part I", 
+                        "heSectionNames": [
+                            "פרק", 
+                            "פסקה"
+                        ], 
+                        "sectionNames": [
+                            "Chapter", 
+                            "Paragraph"
+                        ]
+                    }, 
+                    {
+                        "nodeType": "JaggedArrayNode", 
+                        "title": "Part II", 
+                        "addressTypes": [
+                            "Integer", 
+                            "Integer"
+                        ], 
+                        "heTitle": "פתח השני", 
+                        "depth": 2, 
+                        "titles": [
+                            {
+                                "lang": "en", 
+                                "text": "Part II", 
+                                "primary": true
+                            }, 
+                            {
+                                "lang": "he", 
+                                "text": "פתח השני", 
+                                "primary": true
+                            }
+                        ], 
+                        "key": "Part II", 
+                        "heSectionNames": [
+                            "פרק", 
+                            "פסקה"
+                        ], 
+                        "sectionNames": [
+                            "Chapter", 
+                            "Paragraph"
+                        ]
+                    }, 
+                    {
+                        "nodeType": "JaggedArrayNode", 
+                        "title": "Part III", 
+                        "addressTypes": [
+                            "Integer", 
+                            "Integer"
+                        ], 
+                        "heTitle": "פתח השלישי", 
+                        "depth": 2, 
+                        "titles": [
+                            {
+                                "lang": "en", 
+                                "text": "Part III", 
+                                "primary": true
+                            }, 
+                            {
+                                "lang": "he", 
+                                "text": "פתח השלישי", 
+                                "primary": true
+                            }
+                        ], 
+                        "key": "Part III", 
+                        "heSectionNames": [
+                            "פרק", 
+                            "פסקה"
+                        ], 
+                        "sectionNames": [
+                            "Chapter", 
+                            "Paragraph"
+                        ]
+                    }
                 ], 
-                "heTitle": "פתח העמק", 
-                "depth": 2, 
                 "titles": [
                     {
                         "lang": "en", 
@@ -80,15 +269,9 @@
                         "primary": true
                     }
                 ], 
+                "heTitle": "פתח העמק", 
                 "key": "Petach HaEmek", 
-                "heSectionNames": [
-                    "פרק", 
-                    "פסקה"
-                ], 
-                "sectionNames": [
-                    "Chapter", 
-                    "Paragraph"
-                ]
+                "title": "Petach HaEmek"
             }, 
             {
                 "nodeType": "JaggedArrayNode", 

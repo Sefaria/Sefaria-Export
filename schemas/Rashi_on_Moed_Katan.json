@@ -1,5 +1,12 @@
 {
-    "depth": 3, 
+    "base_text_titles": [
+        {
+            "en": "Moed Katan", 
+            "he": "מועד קטן"
+        }
+    ], 
+    "pubPlace": "Venice", 
+    "compPlace": "Middle-Age France", 
     "heTitleVariants": [
         "רש\"י על מועד קטן", 
         "רש\"י על מ\"ק", 
@@ -7,12 +14,8 @@
         "רש\"י על מ״ק", 
         "רש\"י על מו\"ק"
     ], 
-    "base_text_titles": [
-        {
-            "en": "Moed Katan", 
-            "he": "מועד קטן"
-        }
-    ], 
+    "heTitle": "רש\"י על מועד קטן", 
+    "errorMargin": "15", 
     "heCategories": [
         "תלמוד", 
         "בבלי", 
@@ -22,48 +25,19 @@
     ], 
     "pubDate": "1520", 
     "title": "Rashi on Moed Katan", 
-    "base_text_mapping": "many_to_one", 
-    "pubPlace": "Venice", 
-    "compPlace": "Middle-Age France", 
-    "enDesc": "Classic commentary on the Talmud written by Rashi (1040 - 1105). Rashi’s commentary is known for its concise and clear explanations. It is invaluable to all Talmud learners - beginner and advanced alike.", 
-    "dependence": "Commentary", 
+    "compDate": "1090", 
+    "compDateString": {
+        "en": " (c.1075  - c.1105 CE)", 
+        "he": " (1075 - 1105 לספירה בקירוב)"
+    }, 
     "compPlaceString": {
         "en": "Middle-Age France", 
         "he": "צרפת של ימי הביניים"
-    }, 
-    "heTitle": "רש\"י על מועד קטן", 
-    "era": "RI", 
-    "authors": [
-        {
-            "en": "Rashi", 
-            "he": "רש״י"
-        }
-    ], 
-    "titleVariants": [
-        "Rashi on Masekhet Moed Katan", 
-        "Rashi on Tractate Moed Katan", 
-        "Rashi on Talmud Moed Katan", 
-        "Rashi on Mo'ed Katan", 
-        "Rashi on Talmud Mo'ed Katan", 
-        "Rashi on Masekhet Mo'ed Katan", 
-        "Rashi on Tractate Mo'ed Katan", 
-        "Rashi on Moed Katan"
-    ], 
-    "collective_title": {
-        "en": "Rashi", 
-        "he": "רש\"י"
     }, 
     "sectionNames": [
         "Daf", 
         "Line", 
         "Comment"
-    ], 
-    "categories": [
-        "Talmud", 
-        "Bavli", 
-        "Commentary", 
-        "Rashi", 
-        "Seder Moed"
     ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
@@ -142,5 +116,37 @@
             "Line", 
             "Comment"
         ]
-    }
+    }, 
+    "enDesc": "Classic commentary on the Talmud written by Rashi (1040 - 1105). Rashi’s commentary is known for its concise and clear explanations. It is invaluable to all Talmud learners - beginner and advanced alike.", 
+    "authors": [
+        {
+            "en": "Rashi", 
+            "he": "רש״י"
+        }
+    ], 
+    "titleVariants": [
+        "Rashi on Masekhet Moed Katan", 
+        "Rashi on Tractate Moed Katan", 
+        "Rashi on Talmud Moed Katan", 
+        "Rashi on Mo'ed Katan", 
+        "Rashi on Talmud Mo'ed Katan", 
+        "Rashi on Masekhet Mo'ed Katan", 
+        "Rashi on Tractate Mo'ed Katan", 
+        "Rashi on Moed Katan"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Rashi", 
+        "Seder Moed"
+    ], 
+    "collective_title": {
+        "en": "Rashi", 
+        "he": "רש\"י"
+    }, 
+    "dependence": "Commentary", 
+    "depth": 3, 
+    "era": "RI", 
+    "base_text_mapping": "many_to_one"
 }

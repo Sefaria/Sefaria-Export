@@ -1,13 +1,17 @@
 {
-    "heTitleVariants": [
-        " דברי חמודות על נדה"
-    ], 
     "base_text_titles": [
         {
             "en": "Niddah", 
             "he": "נידה"
         }
     ], 
+    "pubPlace": "Prague", 
+    "compPlace": "Leopoldstadt, Austria", 
+    "heTitleVariants": [
+        " דברי חמודות על נדה"
+    ], 
+    "heTitle": " דברי חמודות על נדה", 
+    "errorMargin": "13", 
     "heCategories": [
         "תלמוד", 
         "בבלי", 
@@ -15,37 +19,17 @@
         "דברי חמודות", 
         "סדר טהרות"
     ], 
+    "pubDate": "1628", 
     "title": "Divrey Chamudot on Niddah", 
-    "base_text_mapping": null, 
-    "compPlace": "Leopoldstadt, Austria", 
-    "enDesc": "Commentary on the Rosh by the author of \"Tosafot Yom Tov\".", 
-    "dependence": "Commentary", 
+    "compDate": "1615", 
+    "compDateString": {
+        "en": " (c.1602  - c.1628 CE)", 
+        "he": " (1602 - 1628 לספירה בקירוב)"
+    }, 
     "compPlaceString": {
         "en": "Leopoldstadt, Austria", 
         "he": "לאופולדשטאט"
     }, 
-    "heTitle": " דברי חמודות על נדה", 
-    "era": "AH", 
-    "authors": [
-        {
-            "en": "Yom-Tov Lipmann Heller", 
-            "he": "יום-טוב ליפמן הלר"
-        }
-    ], 
-    "titleVariants": [
-        "Divrey Chamudot on Niddah"
-    ], 
-    "collective_title": {
-        "en": "Divrey Chamudot", 
-        "he": "דברי חמודות"
-    }, 
-    "categories": [
-        "Talmud", 
-        "Bavli", 
-        "Commentary", 
-        "Divrey Chamudot", 
-        "Seder Tahorot"
-    ], 
     "schema": {
         "nodes": [
             {
@@ -53,7 +37,7 @@
                 "title": "", 
                 "default": true, 
                 "addressTypes": [
-                    "Integer"
+                    "Siman"
                 ], 
                 "heTitle": "", 
                 "depth": 1, 
@@ -69,7 +53,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Hilchot Kilay Begadim", 
                 "addressTypes": [
-                    "Integer"
+                    "Siman"
                 ], 
                 "heTitle": "הלכות כלאי בגדים", 
                 "depth": 1, 
@@ -97,7 +81,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Hilchot Mikvaot", 
                 "addressTypes": [
-                    "Integer"
+                    "Siman"
                 ], 
                 "heTitle": "הלכות מקוואות", 
                 "depth": 1, 
@@ -137,5 +121,29 @@
         "heTitle": " דברי חמודות על נדה", 
         "key": "Divrey Chamudot on Niddah", 
         "title": "Divrey Chamudot on Niddah"
-    }
+    }, 
+    "enDesc": "Commentary on the Rosh by the author of \"Tosafot Yom Tov\".", 
+    "authors": [
+        {
+            "en": "Yom-Tov Lipmann Heller", 
+            "he": "יום-טוב ליפמן הלר"
+        }
+    ], 
+    "titleVariants": [
+        "Divrey Chamudot on Niddah"
+    ], 
+    "categories": [
+        "Talmud", 
+        "Bavli", 
+        "Commentary", 
+        "Divrey Chamudot", 
+        "Seder Tahorot"
+    ], 
+    "collective_title": {
+        "en": "Divrey Chamudot", 
+        "he": "דברי חמודות"
+    }, 
+    "dependence": "Commentary", 
+    "era": "AH", 
+    "base_text_mapping": null
 }

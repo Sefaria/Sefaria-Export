@@ -1,16 +1,26 @@
 {
+    "heTitleVariants": [
+        "נצח ישראל"
+    ], 
     "heCategories": [
         "מחשבת ישראל", 
         "מהר\"ל מפראג"
     ], 
     "pubDate": "1599", 
     "title": "Netzach Yisrael", 
-    "heTitleVariants": [
-        "נצח ישראל"
-    ], 
+    "compDate": "1594", 
     "pubPlace": "Prague", 
+    "compPlace": "Prague", 
     "enDesc": "Netzach Yisrael, written by the Maharal of Prague (Rabbi Judah Loew ben Bezalel c.1512 - 1609), discusses exile and redemption. ", 
-    "depth": 2, 
+    "compPlaceString": {
+        "en": "Prague", 
+        "he": "פראג"
+    }, 
+    "compDateString": {
+        "en": " (c.1589  - c.1599 CE)", 
+        "he": " (1589 - 1599 לספירה בקירוב)"
+    }, 
+    "heDesc": "ספרו של המהר\"ל מפראג העוסק בגלות ישראל ובגאולתו העתידה. הספר מחולק לשנים: חלקו הראשון עוסק בביאור הגלות, עניינה ותכליתה. חלקו השני עוסק בגאולה העתידה, בביאת המשיח ובהכנה לעולם הבא.   ", 
     "heTitle": "נצח ישראל", 
     "era": "AH", 
     "authors": [
@@ -22,23 +32,67 @@
     "titleVariants": [
         "Netzach Yisrael"
     ], 
-    "sectionNames": [
-        "Chapter", 
-        "Paragraph"
-    ], 
+    "errorMargin": "5", 
     "categories": [
         "Philosophy", 
         "Maharal"
     ], 
     "schema": {
-        "nodeType": "JaggedArrayNode", 
-        "title": "Netzach Yisrael", 
-        "addressTypes": [
-            "Integer", 
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "title": "Introduction", 
+                "heTitle": "הקדמה", 
+                "sharedTitle": "Introduction", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Introduction", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "הקדמה", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "מבוא"
+                    }
+                ], 
+                "key": "intro", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 2, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Paragraph"
+                ]
+            }
         ], 
-        "heTitle": "נצח ישראל", 
-        "depth": 2, 
         "titles": [
             {
                 "lang": "he", 
@@ -51,14 +105,8 @@
                 "primary": true
             }
         ], 
+        "heTitle": "נצח ישראל", 
         "key": "Netzach Yisrael", 
-        "heSectionNames": [
-            "פרק", 
-            "פסקה"
-        ], 
-        "sectionNames": [
-            "Chapter", 
-            "Paragraph"
-        ]
+        "title": "Netzach Yisrael"
     }
 }

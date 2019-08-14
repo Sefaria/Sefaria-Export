@@ -6,9 +6,7 @@
     ], 
     "pubDate": "1921", 
     "title": "Ein Yaakov (Glick Edition)", 
-    "heTitleVariants": [
-        "עין יעקב (מאת שמואל צבי גליק)"
-    ], 
+    "compDate": "1911", 
     "pubPlace": "Chicago", 
     "compPlace": "Chicago", 
     "enDesc": "Ein Yaakov (Well of Jacob‎) is a compilation of all the Aggadic material in the Talmud together with commentaries. Its introduction contains an account of the history of Talmudic censorship and the term Gemara. It was compiled by Jacob ibn Habib and (after his death) by his son Rabbi Levi ibn Habib. An English version in 5 volumes appeared in 1921, prepared by Rabbi Shmuel Tzvi-Hirsch Glick of Chicago. It presents the original text on the right column of each page, with the corresponding English version to its left. It doesn't include any of the commentaries that appear in the classic version, but Rabbi Glick's translation and accompanying footnotes suffice for comprehension.  The release and digitization of this book was kindly sponsored by Fred and Joyce Claar.", 
@@ -16,7 +14,14 @@
         "en": "Chicago", 
         "he": "שיקגו"
     }, 
+    "heTitleVariants": [
+        "עין יעקב (מאת שמואל צבי גליק)"
+    ], 
     "heDesc": "עין יעקב הינו אוסף של כל החומר האגדי בתלמוד, בצירוף פירושים. ההקדמה לספר מציגה את ההיסטוריה של הצנזורה על התלמוד ושל המונח \"גמרא\". הספר חובר בידי יעקב בן חביב, ולאחר מותו על ידי בנו, רבי לוי בן חביב. גרסה אנגלית של החיבור בחמישה כרכים, בהכנתו של רבי שמואל צבי-הירש גליק משיקגו, הודפסה בשנת 1921. גרסה זו מציגה את הטקסט המקורי בטור הימני של כל עמוד, עם התרגום האנגלי משמאלו. מהדורה זו אינה כוללת אף אחד מהפירושים המופיעים בגרסה הקלאסית, אך תרגומו והערותיו של הרב גליק מציעים מידע מספק, עבור הקורא האנגלי, להבנת הטקסט.", 
+    "compDateString": {
+        "en": " (c.1901  - c.1921 CE)", 
+        "he": " (1901 - 1921 לספירה בקירוב)"
+    }, 
     "heTitle": "עין יעקב (מאת שמואל צבי גליק)", 
     "era": "AH", 
     "authors": [], 
@@ -24,6 +29,7 @@
         "En Jacob", 
         "Ein Yaakov (Glick Edition)"
     ], 
+    "errorMargin": "10", 
     "categories": [
         "Midrash", 
         "Aggadic Midrash"
@@ -34,7 +40,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Berakhot", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "ברכות", 
@@ -65,7 +71,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Shabbat", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "שבת", 
@@ -96,7 +102,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Eiruvin", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "עירובין", 
@@ -127,7 +133,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Pesakhim", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "פסחים", 
@@ -158,7 +164,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Yoma", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "יומא", 
@@ -189,7 +195,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Sukkah", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "סוכה", 
@@ -220,7 +226,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Beitzah", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "ביצה", 
@@ -251,7 +257,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Rosh Hashanah", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "ראש השנה", 
@@ -282,7 +288,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Taanit", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "תענית", 
@@ -313,7 +319,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Megillah", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "מגילה", 
@@ -344,7 +350,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Moed Katan", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "מועד קטן", 
@@ -375,7 +381,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Khagigah", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "חגיגה", 
@@ -406,7 +412,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Yevamot", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "יבמות", 
@@ -437,7 +443,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Ketubot", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "כתובות", 
@@ -468,7 +474,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Nedarim", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "נדרים", 
@@ -499,7 +505,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Nazir", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "נזיר", 
@@ -530,7 +536,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Gittin", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "גיטין", 
@@ -561,7 +567,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Sotah", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "סוטה", 
@@ -592,7 +598,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Kiddushin", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "קידושין", 
@@ -623,7 +629,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Bava Kama", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "בבא קמא", 
@@ -654,7 +660,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Bava Metzia", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "בבא מציעא", 
@@ -685,7 +691,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Bava Batra", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "בבא בתרא", 
@@ -716,7 +722,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Sanhedrin", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "סנהדרין", 
@@ -747,7 +753,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Makkot", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "מכות", 
@@ -778,7 +784,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Shevuot", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "שבועות", 
@@ -809,7 +815,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Eduyot", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "עדיות", 
@@ -840,7 +846,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Avodah Zarah ", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "עבודה זרה", 
@@ -871,7 +877,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Horayot ", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "הוריות", 
@@ -902,7 +908,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Zevachim", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "זבחים", 
@@ -933,7 +939,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Menachot", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "מנחות", 
@@ -964,7 +970,7 @@
                 "nodeType": "JaggedArrayNode", 
                 "title": "Chullin", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer"
                 ], 
                 "heTitle": "חולין", 

@@ -16,14 +16,25 @@
         "נביאים"
     ], 
     "title": "Radak on Habakkuk", 
-    "base_text_mapping": "many_to_one", 
-    "collective_title": {
-        "en": "Radak", 
-        "he": "רד\"ק"
-    }, 
-    "enDesc": "A commentary on the Tanakh written by Rabbi David Kimchi, Radak (1160–1236). Radak, the most famous Bible commentator of his time, was a grammarian, which is reflected in his commentary.  ", 
+    "compDate": "1210", 
+    "compPlace": "Provence, France", 
+    "enDesc": "A commentary on the Tanakh written by Rabbi David Kimchi, Radak (1160–1236). Radak, one of the the most famous Bible commentators of his time, was a grammarian, which is reflected in his commentary.  ", 
     "dependence": "Commentary", 
+    "compDateString": {
+        "en": " (c.1185  - c.1235 CE)", 
+        "he": " (1185 - 1235 לספירה בקירוב)"
+    }, 
+    "base_text_mapping": "many_to_one", 
     "heTitle": "רד\"ק על חבקוק", 
+    "compPlaceString": {
+        "en": "Provence, France", 
+        "he": "פרובנס, צרפת"
+    }, 
+    "sectionNames": [
+        "Chapter", 
+        "Verse", 
+        "Paragraph"
+    ], 
     "authors": [
         {
             "en": "Radak", 
@@ -33,11 +44,11 @@
     "titleVariants": [
         "Radak on Habakkuk"
     ], 
-    "sectionNames": [
-        "Chapter", 
-        "Verse", 
-        "Paragraph"
-    ], 
+    "collective_title": {
+        "en": "Radak", 
+        "he": "רד\"ק"
+    }, 
+    "errorMargin": "25", 
     "categories": [
         "Tanakh", 
         "Commentary", 
@@ -47,7 +58,7 @@
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer", 
             "Integer"
         ], 

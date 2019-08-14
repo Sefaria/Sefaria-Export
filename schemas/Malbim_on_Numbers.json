@@ -1,46 +1,38 @@
 {
-    "depth": 3, 
     "base_text_titles": [
         {
             "en": "Numbers", 
             "he": "במדבר"
         }
     ], 
+    "pubPlace": "Warsaw", 
+    "heTitleVariants": [
+        "מלבי\"ם על במדבר"
+    ], 
+    "heTitle": "מלבי\"ם על במדבר", 
+    "errorMargin": "15", 
     "heCategories": [
         "תנ\"ך", 
         "מפרשים", 
         "מלבי\"ם", 
         "תורה"
     ], 
+    "pubDate": "1845", 
     "title": "Malbim on Numbers", 
-    "base_text_mapping": "many_to_one", 
-    "collective_title": {
-        "en": "Malbim", 
-        "he": "מלבי\"ם"
+    "compDate": "1860", 
+    "compDateString": {
+        "en": " (c.1845  - c.1875 CE)", 
+        "he": " (1845 - 1875 לספירה בקירוב)"
     }, 
-    "heTitleVariants": [
-        "מלבי\"ם על במדבר"
-    ], 
-    "dependence": "Commentary", 
-    "heTitle": "מלבי\"ם על במדבר", 
-    "titleVariants": [
-        "Malbim on Numbers"
-    ], 
     "sectionNames": [
         "Chapter", 
         "Verse", 
         "Comment"
     ], 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Malbim", 
-        "Torah"
-    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer", 
             "Integer"
         ], 
@@ -71,5 +63,30 @@
             "Comment"
         ], 
         "toc_zoom": 2
-    }
+    }, 
+    "enDesc": "Popular Biblical commentary by Rabbi Meir Leibush ben Yehiel Michel Wisser (Malbim). A trademark of the Malbim’s commentary is his belief that there are no synonyms or repetition in the Tanakh. Each word represents a different idea or concept.", 
+    "heDesc": "פירוש על תנ\"ך של ר' מאיר לייבוש בן יחיאל מיכל ויסר (מלבי\"ם), שחיבר והדפיס בין השנים 1845-1876. בפירושו לחומש הוא מביא את מדרשי ההלכה ודן בהם בהשוואה לפשט הפסוקים תוך דיוקים בדקדוק המקרא. המלבי\"ם נודע בדרך ייחודית בפירושו למקרא, ולשיטתו אין שום חזרה וכפילות בפסוקים ('מילים נרדפות' כפי שכונה על ידי מפרשים אחרים), אלא כל מילה מייצגת מושג או רעיון אחר.", 
+    "authors": [
+        {
+            "en": "Malbim", 
+            "he": "מלבי\"ם"
+        }
+    ], 
+    "titleVariants": [
+        "Malbim on Numbers"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Malbim", 
+        "Torah"
+    ], 
+    "collective_title": {
+        "en": "Malbim", 
+        "he": "מלבי\"ם"
+    }, 
+    "dependence": "Commentary", 
+    "depth": 3, 
+    "era": "AH", 
+    "base_text_mapping": "many_to_one"
 }

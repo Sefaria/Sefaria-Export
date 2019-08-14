@@ -20,7 +20,9 @@
         "מ\"ב", 
         "מ״ב", 
         "מלכים ב׳", 
-        "מלכים ב'"
+        "מלכים ב'", 
+        "מל\"ב", 
+        "מל״ב"
     ], 
     "compPlaceString": {
         "en": "Judea/Israel", 
@@ -39,6 +41,9 @@
         "II Melachim", 
         "Kings II", 
         "II Melakhim", 
+        "Kin. II", 
+        "II. Kings", 
+        "2 Kgs.", 
         "II Kings"
     ], 
     "errorMargin": "100", 
@@ -53,7 +58,7 @@
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer"
         ], 
         "lengths": [
@@ -93,6 +98,18 @@
                 "text": "II Melakhim"
             }, 
             {
+                "lang": "en", 
+                "text": "Kin. II"
+            }, 
+            {
+                "lang": "en", 
+                "text": "II. Kings"
+            }, 
+            {
+                "lang": "en", 
+                "text": "2 Kgs."
+            }, 
+            {
                 "lang": "he", 
                 "text": "מלכים ב", 
                 "primary": true
@@ -112,6 +129,14 @@
             {
                 "lang": "he", 
                 "text": "מלכים ב'"
+            }, 
+            {
+                "lang": "he", 
+                "text": "מל\"ב"
+            }, 
+            {
+                "lang": "he", 
+                "text": "מל״ב"
             }, 
             {
                 "lang": "en", 

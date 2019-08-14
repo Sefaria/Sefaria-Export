@@ -1,12 +1,16 @@
 {
-    "depth": 3, 
-    "is_cited": true, 
     "base_text_titles": [
         {
             "en": "Numbers", 
             "he": "במדבר"
         }
     ], 
+    "pubPlace": "Venice", 
+    "compPlace": "Middle-Age France / Germany / Italy / England", 
+    "enDesc": "Daat Zekenim is a Torah commentary compiled by later generations of scholars from the writings of the Franco-German school in the 12th-13th century (Ba’alei HaTosafot).", 
+    "heTitle": "דעת זקנים על במדבר", 
+    "errorMargin": "100", 
+    "is_cited": true, 
     "heCategories": [
         "תנ\"ך", 
         "מפרשים", 
@@ -15,60 +19,25 @@
     ], 
     "pubDate": "1524", 
     "title": "Daat Zkenim on Numbers", 
-    "base_text_mapping": "many_to_one", 
-    "pubPlace": "Venice", 
-    "collective_title": {
-        "en": "Daat Zkenim", 
-        "he": "דעת זקנים"
+    "compDate": "1200", 
+    "compDateString": {
+        "en": " (c.1100  - c.1300 CE)", 
+        "he": " (1100 - 1300 לספירה בקירוב)"
     }, 
-    "enDesc": "Daat Zekenim is a Torah commentary compiled by later generations of scholars from the Franco-German (Ba’alei HaTosafot) school in the 13th century.", 
-    "dependence": "Commentary", 
-    "heTitleVariants": [
-        "דעת זקנים על במדבר", 
-        "דעת זקנים בעלי התוספות על במדבר", 
-        "דעת זקנים על התורה על במדבר"
-    ], 
-    "heTitle": "דעת זקנים על במדבר", 
-    "era": "RI", 
-    "authors": [
-        {
-            "en": "Tosafot", 
-            "he": "תוספות"
-        }
-    ], 
-    "titleVariants": [
-        "Minchat yehuda baaley hatosfot on Num.", 
-        "Minchat yehuda baaley hatosfot on Num", 
-        "Minchat yehuda baaley hatosfot on Bamidbar", 
-        "Minchat yehuda baaley hatosfot on Bemidbar", 
-        "Minchat yehuda baaley hatosfot on Numbers", 
-        "Daat zkenim al hatora on Num.", 
-        "Daat zkenim al hatora on Num", 
-        "Daat zkenim al hatora on Bamidbar", 
-        "Daat zkenim al hatora on Bemidbar", 
-        "Daat zkenim al hatora on Numbers", 
-        "Daat Zkenim on Num.", 
-        "Daat Zkenim on Num", 
-        "Daat Zkenim on Bamidbar", 
-        "Daat Zkenim on Bemidbar", 
-        "Daat Zkenim on Numbers"
-    ], 
+    "compPlaceString": {
+        "en": "Middle-Age France / Germany / Italy / England", 
+        "he": "צרפת / גרמניה / איטליה / אנגליה של ימי הביניים"
+    }, 
     "sectionNames": [
         "Chapter", 
         "Verse", 
         "Comment"
     ], 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Daat Zkenim", 
-        "Torah"
-    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "title": "Daat Zkenim on Numbers", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer", 
             "Integer"
         ], 
@@ -161,5 +130,48 @@
             "Verse", 
             "Comment"
         ]
-    }
+    }, 
+    "heTitleVariants": [
+        "דעת זקנים על במדבר", 
+        "דעת זקנים בעלי התוספות על במדבר", 
+        "דעת זקנים על התורה על במדבר"
+    ], 
+    "heDesc": "פירוש לתורה שנלקט מכתבי בעלי התוספות.", 
+    "authors": [
+        {
+            "en": "Tosafot", 
+            "he": "תוספות"
+        }
+    ], 
+    "titleVariants": [
+        "Minchat yehuda baaley hatosfot on Num.", 
+        "Minchat yehuda baaley hatosfot on Num", 
+        "Minchat yehuda baaley hatosfot on Bamidbar", 
+        "Minchat yehuda baaley hatosfot on Bemidbar", 
+        "Minchat yehuda baaley hatosfot on Numbers", 
+        "Daat zkenim al hatora on Num.", 
+        "Daat zkenim al hatora on Num", 
+        "Daat zkenim al hatora on Bamidbar", 
+        "Daat zkenim al hatora on Bemidbar", 
+        "Daat zkenim al hatora on Numbers", 
+        "Daat Zkenim on Num.", 
+        "Daat Zkenim on Num", 
+        "Daat Zkenim on Bamidbar", 
+        "Daat Zkenim on Bemidbar", 
+        "Daat Zkenim on Numbers"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Daat Zkenim", 
+        "Torah"
+    ], 
+    "collective_title": {
+        "en": "Daat Zkenim", 
+        "he": "דעת זקנים"
+    }, 
+    "dependence": "Commentary", 
+    "depth": 3, 
+    "era": "RI", 
+    "base_text_mapping": "many_to_one"
 }

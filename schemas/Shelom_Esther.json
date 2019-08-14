@@ -1,0 +1,97 @@
+{
+    "base_text_titles": [
+        {
+            "en": "Esther", 
+            "he": "אסתר"
+        }
+    ], 
+    "heCategories": [
+        "תנ\"ך", 
+        "מפרשים"
+    ], 
+    "title": "Shelom Esther", 
+    "base_text_mapping": "many_to_one", 
+    "heTitleVariants": [
+        "שלום אסתר"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "שלום אסתר", 
+    "titleVariants": [
+        "Shelom Esther"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary"
+    ], 
+    "schema": {
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "Introduction", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "heTitle": "פתיחה", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Introduction", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "פתיחה", 
+                        "primary": true
+                    }
+                ], 
+                "key": "Introduction", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer", 
+                    "Integer"
+                ], 
+                "default": true, 
+                "title": "", 
+                "heTitle": "", 
+                "depth": 3, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסוק", 
+                    "פירוש"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Verse", 
+                    "Comment"
+                ], 
+                "toc_zoom": 2
+            }
+        ], 
+        "titles": [
+            {
+                "lang": "he", 
+                "text": "שלום אסתר", 
+                "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Shelom Esther", 
+                "primary": true
+            }
+        ], 
+        "heTitle": "שלום אסתר", 
+        "key": "Shelom Esther", 
+        "title": "Shelom Esther"
+    }
+}

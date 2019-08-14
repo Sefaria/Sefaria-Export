@@ -20,7 +20,9 @@
         "מ״א", 
         "מ\"א", 
         "מלכים א׳", 
-        "מלכים א'"
+        "מלכים א'", 
+        "מל\"א", 
+        "מל״א"
     ], 
     "compPlaceString": {
         "en": "Judea/Israel", 
@@ -39,6 +41,9 @@
         "1 Kings", 
         "First Kings", 
         "I Melakhim", 
+        "Kin. I", 
+        "I. Kings", 
+        "1 Kgs.", 
         "I Kings"
     ], 
     "errorMargin": "100", 
@@ -53,7 +58,7 @@
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer"
         ], 
         "lengths": [
@@ -93,6 +98,18 @@
                 "text": "I Melakhim"
             }, 
             {
+                "lang": "en", 
+                "text": "Kin. I"
+            }, 
+            {
+                "lang": "en", 
+                "text": "I. Kings"
+            }, 
+            {
+                "lang": "en", 
+                "text": "1 Kgs."
+            }, 
+            {
                 "lang": "he", 
                 "text": "מלכים א", 
                 "primary": true
@@ -112,6 +129,14 @@
             {
                 "lang": "he", 
                 "text": "מלכים א'"
+            }, 
+            {
+                "lang": "he", 
+                "text": "מל\"א"
+            }, 
+            {
+                "lang": "he", 
+                "text": "מל״א"
             }, 
             {
                 "lang": "en", 

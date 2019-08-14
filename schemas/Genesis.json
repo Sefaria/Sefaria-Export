@@ -38,12 +38,12 @@
         "Gen", 
         "Gen.", 
         "Breishit", 
-        "Ber", 
         "Bereishit", 
-        "Ber.", 
         "Beresheet", 
         "Bereshith", 
         "Bereishis", 
+        "B’resh.", 
+        "B’reshith", 
         "Genesis"
     ], 
     "errorMargin": "500", 
@@ -142,6 +142,10 @@
                         {
                             "lang": "en", 
                             "text": "Noah"
+                        }, 
+                        {
+                            "lang": "en", 
+                            "text": "Parshat Noah"
                         }
                     ], 
                     "nodeType": "ArrayMapNode", 
@@ -690,15 +694,7 @@
                 }, 
                 {
                     "lang": "en", 
-                    "text": "Ber"
-                }, 
-                {
-                    "lang": "en", 
                     "text": "Bereishit"
-                }, 
-                {
-                    "lang": "en", 
-                    "text": "Ber."
                 }, 
                 {
                     "lang": "en", 
@@ -711,6 +707,14 @@
                 {
                     "lang": "en", 
                     "text": "Bereishis"
+                }, 
+                {
+                    "lang": "en", 
+                    "text": "B’resh."
+                }, 
+                {
+                    "lang": "en", 
+                    "text": "B’reshith"
                 }, 
                 {
                     "lang": "he", 
@@ -758,7 +762,7 @@
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer"
         ], 
         "lengths": [
@@ -787,15 +791,7 @@
             }, 
             {
                 "lang": "en", 
-                "text": "Ber"
-            }, 
-            {
-                "lang": "en", 
                 "text": "Bereishit"
-            }, 
-            {
-                "lang": "en", 
-                "text": "Ber."
             }, 
             {
                 "lang": "en", 
@@ -808,6 +804,14 @@
             {
                 "lang": "en", 
                 "text": "Bereishis"
+            }, 
+            {
+                "lang": "en", 
+                "text": "B’resh."
+            }, 
+            {
+                "lang": "en", 
+                "text": "B’reshith"
             }, 
             {
                 "lang": "he", 

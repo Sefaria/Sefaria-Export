@@ -1,5 +1,12 @@
 {
-    "depth": 3, 
+    "base_text_titles": [
+        {
+            "en": "II Chronicles", 
+            "he": "דברי הימים ב"
+        }
+    ], 
+    "pubPlace": "Mantua", 
+    "compPlace": "Provence, France", 
     "heTitleVariants": [
         "רלב\"ג על דברי הימים ב", 
         "רלב\"ג על דברי הימים ב׳", 
@@ -7,12 +14,8 @@
         "רלב\"ג על דה\"ב", 
         "רלב\"ג על דה״ב"
     ], 
-    "base_text_titles": [
-        {
-            "en": "II Chronicles", 
-            "he": "דברי הימים ב"
-        }
-    ], 
+    "heTitle": "רלב\"ג על דברי הימים ב", 
+    "errorMargin": "10", 
     "heCategories": [
         "תנ\"ך", 
         "מפרשים", 
@@ -21,77 +24,25 @@
     ], 
     "pubDate": "1480", 
     "title": "Ralbag on II Chronicles", 
-    "base_text_mapping": "many_to_one", 
-    "pubPlace": "Mantua", 
-    "compPlace": "Provence, France", 
-    "enDesc": "A commentary written by Rabbi Levi ben Gershon (1288–1344) of Provence. Ralbag was a Talmudist, mathematician and astronomer. He was a rationalist which is reflected in his approach to angels and miracles in his commentary. The commentary is divided into 3 parts: the lexicon (bi’ur ha-milot), exegesis (bi’ur ha-parasha), and the lessons (to’alot). ", 
-    "dependence": "Commentary", 
+    "compDate": "1335", 
+    "compDateString": {
+        "en": " (c.1325  - c.1345 CE)", 
+        "he": " (1325 - 1345 לספירה בקירוב)"
+    }, 
     "compPlaceString": {
         "en": "Provence, France", 
         "he": "פרובנס, צרפת"
-    }, 
-    "heTitle": "רלב\"ג על דברי הימים ב", 
-    "era": "RI", 
-    "authors": [
-        {
-            "en": "Ralbag", 
-            "he": "רלב\"ג"
-        }
-    ], 
-    "titleVariants": [
-        "Ralbag on 2 Chronicles", 
-        "Ralbag on II Divrei HaYamim", 
-        "Ralbag on Second Chronicles", 
-        "Ralbag on 2 Chron", 
-        "Ralbag on 2 Chron.", 
-        "Ralbag on 2Ch.", 
-        "Ralbag on II Chr.", 
-        "Ralbag on Chronicles II", 
-        "Ralbag on 2Ch", 
-        "Ralbag on II Chr", 
-        "Ralbag on 2 Chr", 
-        "Ralbag on Divrei HaYamim II", 
-        "Ralbag on Divrei HaYamim Bet", 
-        "Ralbag on II Divrei Ha-yamim", 
-        "Ralbag on II Divrei Ha-Yamim", 
-        "Gersonides on 2 Chronicles", 
-        "Gersonides on II Divrei HaYamim", 
-        "Gersonides on Second Chronicles", 
-        "Gersonides on 2 Chron", 
-        "Gersonides on 2 Chron.", 
-        "Gersonides on 2Ch.", 
-        "Gersonides on II Chr.", 
-        "Gersonides on Chronicles II", 
-        "Gersonides on 2Ch", 
-        "Gersonides on II Chr", 
-        "Gersonides on 2 Chr", 
-        "Gersonides on Divrei HaYamim II", 
-        "Gersonides on Divrei HaYamim Bet", 
-        "Gersonides on II Divrei Ha-yamim", 
-        "Gersonides on II Divrei Ha-Yamim", 
-        "Gersonides on II Chronicles", 
-        "Ralbag on II Chronicles"
-    ], 
-    "collective_title": {
-        "en": "Ralbag", 
-        "he": "רלב\"ג"
     }, 
     "sectionNames": [
         "Chapter", 
         "Verse", 
         "Comment"
     ], 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Ralbag", 
-        "Writings"
-    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "title": "Ralbag on II Chronicles", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer", 
             "Integer"
         ], 
@@ -260,5 +211,60 @@
             "Verse", 
             "Comment"
         ]
-    }
+    }, 
+    "enDesc": "A commentary written by Rabbi Levi ben Gershon (1288–1344) of Provence. Ralbag was a Talmudist, mathematician and astronomer. He was a rationalist which is reflected in his approach to angels and miracles in his commentary. The commentary is divided into 3 parts: the lexicon (bi’ur ha-milot), exegesis (bi’ur ha-parasha), and the lessons (to’alot). ", 
+    "authors": [
+        {
+            "en": "Ralbag", 
+            "he": "רלב\"ג"
+        }
+    ], 
+    "titleVariants": [
+        "Ralbag on 2 Chronicles", 
+        "Ralbag on II Divrei HaYamim", 
+        "Ralbag on Second Chronicles", 
+        "Ralbag on 2 Chron", 
+        "Ralbag on 2 Chron.", 
+        "Ralbag on 2Ch.", 
+        "Ralbag on II Chr.", 
+        "Ralbag on Chronicles II", 
+        "Ralbag on 2Ch", 
+        "Ralbag on II Chr", 
+        "Ralbag on 2 Chr", 
+        "Ralbag on Divrei HaYamim II", 
+        "Ralbag on Divrei HaYamim Bet", 
+        "Ralbag on II Divrei Ha-yamim", 
+        "Ralbag on II Divrei Ha-Yamim", 
+        "Gersonides on 2 Chronicles", 
+        "Gersonides on II Divrei HaYamim", 
+        "Gersonides on Second Chronicles", 
+        "Gersonides on 2 Chron", 
+        "Gersonides on 2 Chron.", 
+        "Gersonides on 2Ch.", 
+        "Gersonides on II Chr.", 
+        "Gersonides on Chronicles II", 
+        "Gersonides on 2Ch", 
+        "Gersonides on II Chr", 
+        "Gersonides on 2 Chr", 
+        "Gersonides on Divrei HaYamim II", 
+        "Gersonides on Divrei HaYamim Bet", 
+        "Gersonides on II Divrei Ha-yamim", 
+        "Gersonides on II Divrei Ha-Yamim", 
+        "Gersonides on II Chronicles", 
+        "Ralbag on II Chronicles"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Ralbag", 
+        "Writings"
+    ], 
+    "collective_title": {
+        "en": "Ralbag", 
+        "he": "רלב\"ג"
+    }, 
+    "dependence": "Commentary", 
+    "depth": 3, 
+    "era": "RI", 
+    "base_text_mapping": "many_to_one"
 }

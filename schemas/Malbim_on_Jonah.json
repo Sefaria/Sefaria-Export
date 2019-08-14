@@ -1,61 +1,39 @@
 {
-    "depth": 3, 
-    "heTitleVariants": [
-        "מלבי\"ם על יונה"
-    ], 
     "base_text_titles": [
         {
             "en": "Jonah", 
             "he": "יונה הנביא"
         }
     ], 
+    "pubPlace": "Warsaw", 
+    "heTitleVariants": [
+        "מלבי\"ם על יונה"
+    ], 
+    "heTitle": "מלבי\"ם על יונה", 
+    "errorMargin": "15", 
     "heCategories": [
         "תנ\"ך", 
         "מפרשים", 
         "מלבי\"ם", 
         "נביאים"
     ], 
+    "pubDate": "1874", 
     "title": "Malbim on Jonah", 
-    "base_text_mapping": "many_to_one", 
-    "collective_title": {
-        "en": "Malbim", 
-        "he": "מלבי\"ם"
+    "compDate": "1859", 
+    "compDateString": {
+        "en": " (c.1844  - c.1874 CE)", 
+        "he": " (1844 - 1874 לספירה בקירוב)"
     }, 
-    "enDesc": "Written and published between 1845 and 1870 by Rabbi Meir Leibush ben Yehiel Michel Wisser (Malbim). A trademark of the Malbim’s commentary is his belief that there are no synonyms or repetition in the Tanakh. Each word represents a different idea or concept. ", 
-    "dependence": "Commentary", 
-    "heTitle": "מלבי\"ם על יונה", 
-    "authors": [
-        {
-            "en": "Malbim", 
-            "he": "מלבי\"ם"
-        }
-    ], 
-    "titleVariants": [
-        "Malbim on Yonah", 
-        "Malbim on Jon.", 
-        "Malbim on Jon", 
-        "Malbim Literary Commantary on Yonah", 
-        "Malbim Literary Commantary on Jon.", 
-        "Malbim Literary Commantary on Jon", 
-        "Malbim Literary Commantary on Jonah", 
-        "Malbim on Jonah"
-    ], 
     "sectionNames": [
         "Chapter", 
         "Verse", 
         "Comment"
     ], 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Malbim", 
-        "Prophets"
-    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "title": "Malbim on Jonah", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer", 
             "Integer"
         ], 
@@ -112,5 +90,37 @@
             "Verse", 
             "Comment"
         ]
-    }
+    }, 
+    "enDesc": "Popular Biblical commentary by Rabbi Meir Leibush ben Yehiel Michel Wisser (Malbim). A trademark of the Malbim’s commentary is his belief that there are no synonyms or repetition in the Tanakh. Each word represents a different idea or concept.", 
+    "heDesc": "פירוש על תנ\"ך של ר' מאיר לייבוש בן יחיאל מיכל ויסר (מלבי\"ם), שחיבר והדפיס בין השנים 1845-1876. בפירושו לחומש הוא מביא את מדרשי ההלכה ודן בהם בהשוואה לפשט הפסוקים תוך דיוקים בדקדוק המקרא. המלבי\"ם נודע בדרך ייחודית בפירושו למקרא, ולשיטתו אין שום חזרה וכפילות בפסוקים ('מילים נרדפות' כפי שכונה על ידי מפרשים אחרים), אלא כל מילה מייצגת מושג או רעיון אחר.", 
+    "authors": [
+        {
+            "en": "Malbim", 
+            "he": "מלבי\"ם"
+        }
+    ], 
+    "titleVariants": [
+        "Malbim on Yonah", 
+        "Malbim on Jon.", 
+        "Malbim on Jon", 
+        "Malbim Literary Commantary on Yonah", 
+        "Malbim Literary Commantary on Jon.", 
+        "Malbim Literary Commantary on Jon", 
+        "Malbim Literary Commantary on Jonah", 
+        "Malbim on Jonah"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Malbim", 
+        "Prophets"
+    ], 
+    "collective_title": {
+        "en": "Malbim", 
+        "he": "מלבי\"ם"
+    }, 
+    "dependence": "Commentary", 
+    "depth": 3, 
+    "era": "AH", 
+    "base_text_mapping": "many_to_one"
 }

@@ -1,0 +1,113 @@
+{
+    "base_text_titles": [
+        {
+            "en": "Mishnah Horayot", 
+            "he": "משנה הוריות"
+        }
+    ], 
+    "heCategories": [
+        "יצירות מודרניות", 
+        "ביאור אנגלי על המשנה", 
+        "סדר נזיקין"
+    ], 
+    "title": "English Explanation of Mishnah Horayot", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": {
+        "en": "English Explanation of Mishnah", 
+        "he": "ביאור אנגלי על המשנה"
+    }, 
+    "heTitleVariants": [
+        "ביאור אנגלי על משנה הוריות"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "ביאור אנגלי על משנה הוריות", 
+    "authors": [
+        {
+            "en": "Joshua Kulp", 
+            "he": "יהושע מנחם קולפ"
+        }
+    ], 
+    "titleVariants": [
+        "English Explanation of Mishnah Horayot"
+    ], 
+    "categories": [
+        "Modern Works", 
+        "English Explanation of Mishnah", 
+        "Seder Nezikin"
+    ], 
+    "schema": {
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "title": "Introduction", 
+                "heTitle": "הקדמה", 
+                "sharedTitle": "Introduction", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Introduction", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "הקדמה", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "מבוא"
+                    }
+                ], 
+                "key": "intro", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Mishnah", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 3, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "משנה", 
+                    "פירוש"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Mishnah", 
+                    "Comment"
+                ]
+            }
+        ], 
+        "titles": [
+            {
+                "lang": "he", 
+                "text": "ביאור אנגלי על משנה הוריות", 
+                "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "English Explanation of Mishnah Horayot", 
+                "primary": true
+            }
+        ], 
+        "heTitle": "ביאור אנגלי על משנה הוריות", 
+        "key": "English Explanation of Mishnah Horayot", 
+        "title": "English Explanation of Mishnah Horayot"
+    }
+}

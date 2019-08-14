@@ -1,0 +1,113 @@
+{
+    "base_text_titles": [
+        {
+            "en": "Mishnah Orlah", 
+            "he": "משנה ערלה"
+        }
+    ], 
+    "heCategories": [
+        "יצירות מודרניות", 
+        "ביאור אנגלי על המשנה", 
+        "סדר זרעים"
+    ], 
+    "title": "English Explanation of Mishnah Orlah", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": {
+        "en": "English Explanation of Mishnah", 
+        "he": "ביאור אנגלי על המשנה"
+    }, 
+    "heTitleVariants": [
+        "ביאור אנגלי על משנה ערלה"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "ביאור אנגלי על משנה ערלה", 
+    "authors": [
+        {
+            "en": "Joshua Kulp", 
+            "he": "יהושע מנחם קולפ"
+        }
+    ], 
+    "titleVariants": [
+        "English Explanation of Mishnah Orlah"
+    ], 
+    "categories": [
+        "Modern Works", 
+        "English Explanation of Mishnah", 
+        "Seder Zeraim"
+    ], 
+    "schema": {
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "title": "Introduction", 
+                "heTitle": "הקדמה", 
+                "sharedTitle": "Introduction", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Introduction", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "הקדמה", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "מבוא"
+                    }
+                ], 
+                "key": "intro", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Mishnah", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 3, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "משנה", 
+                    "פירוש"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Mishnah", 
+                    "Comment"
+                ]
+            }
+        ], 
+        "titles": [
+            {
+                "lang": "he", 
+                "text": "ביאור אנגלי על משנה ערלה", 
+                "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "English Explanation of Mishnah Orlah", 
+                "primary": true
+            }
+        ], 
+        "heTitle": "ביאור אנגלי על משנה ערלה", 
+        "key": "English Explanation of Mishnah Orlah", 
+        "title": "English Explanation of Mishnah Orlah"
+    }
+}

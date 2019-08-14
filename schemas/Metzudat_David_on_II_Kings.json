@@ -1,5 +1,11 @@
 {
-    "depth": 3, 
+    "base_text_titles": [
+        {
+            "en": "II Kings", 
+            "he": "מלכים ב"
+        }
+    ], 
+    "pubPlace": "Berlin", 
     "heTitleVariants": [
         "מצודת דוד על מלכים ב", 
         "מצודת דוד על מ\"ב", 
@@ -7,12 +13,8 @@
         "מצודת דוד על מלכים ב׳", 
         "מצודת דוד על מלכים ב'"
     ], 
-    "base_text_titles": [
-        {
-            "en": "II Kings", 
-            "he": "מלכים ב"
-        }
-    ], 
+    "heTitle": "מצודת דוד על מלכים ב", 
+    "errorMargin": "20", 
     "heCategories": [
         "תנ\"ך", 
         "מפרשים", 
@@ -21,49 +23,21 @@
     ], 
     "pubDate": "1770", 
     "title": "Metzudat David on II Kings", 
-    "base_text_mapping": "many_to_one", 
-    "pubPlace": "Berlin", 
-    "collective_title": {
-        "en": "Metzudat David", 
-        "he": "מצודת דוד"
+    "compDate": "1760", 
+    "compDateString": {
+        "en": " (c.1740  - c.1780 CE)", 
+        "he": " (1740 - 1780 לספירה בקירוב)"
     }, 
-    "enDesc": "Commentary on the Prophets and Writings (Nach) written by Rabbi David Altschuler in the 18th century. It is primarily based on the commentary of Radak, but also draws on other sources. After Rabbi David Altschuler’s death, his works were completed by his son, Rabbi Hillel Altschuler, who instituted the division of the commentary into two parts. Known collectively as \"Metzudot\", Metzudat Tzion explains unfamiliar and difficult words found in the text, while Metzudat David delves into the meaning of the text.  ", 
-    "dependence": "Commentary", 
-    "heDesc": "ביאור בדרך הפשט על כל הנ\"ך (מלבד המגילות רות, איכה ואסתר), המבוסס בעיקרו על פירושו של הרד\"ק ועוד ראשונים. המחבר, ר' דוד אלטשולר, כתב את ספרו כפירוש אחד, אך כשהשלימו בנו, יחיאל הלל, לאחר מותו, חילקו לשני חלקים – \"מצודת דוד\" המבאר את ענייני הפסוקים ופשטם, ו\"מצודת ציון\" המיועד לפרש מילים וביטויים קשים בתנ\"ך.", 
-    "heTitle": "מצודת דוד על מלכים ב", 
-    "era": "AH", 
-    "authors": [
-        {
-            "en": "David Altschuler", 
-            "he": "רבי דוד אלטשולר"
-        }
-    ], 
-    "titleVariants": [
-        "Metzudat David on Melachim Bet", 
-        "Metzudat David on Melachim II", 
-        "Metzudat David on Second Kings", 
-        "Metzudat David on 2 Kings", 
-        "Metzudat David on II Melachim", 
-        "Metzudat David on Kings II", 
-        "Metzudat David on II Melakhim", 
-        "Metzudat David on II Kings"
-    ], 
     "sectionNames": [
         "Chapter", 
         "Verse", 
         "Comment"
     ], 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Metzudat David", 
-        "Prophets"
-    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "title": "Metzudat David on II Kings", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer", 
             "Integer"
         ], 
@@ -136,5 +110,37 @@
             "Verse", 
             "Comment"
         ]
-    }
+    }, 
+    "enDesc": "Commentary on the Prophets and Writings (Nach) written by Rabbi David Altschuler in the 18th century. It is primarily based on the commentary of Radak, but also draws on other sources. After Rabbi David Altschuler’s death, his works were completed by his son, Rabbi Hillel Altschuler, who instituted the division of the commentary into two parts. Known collectively as \"Metzudot\", Metzudat Tzion explains unfamiliar and difficult words found in the text, while Metzudat David delves into the meaning of the text.  ", 
+    "heDesc": "ביאור בדרך הפשט על כל הנ\"ך (מלבד המגילות רות, איכה ואסתר), המבוסס בעיקרו על פירושו של הרד\"ק ועוד ראשונים. המחבר, ר' דוד אלטשולר, כתב את ספרו כפירוש אחד, אך כשהשלימו בנו, יחיאל הלל, לאחר מותו, חילקו לשני חלקים – \"מצודת דוד\" המבאר את ענייני הפסוקים ופשטם, ו\"מצודת ציון\" המיועד לפרש מילים וביטויים קשים בתנ\"ך.", 
+    "authors": [
+        {
+            "en": "David Altschuler", 
+            "he": "רבי דוד אלטשולר"
+        }
+    ], 
+    "titleVariants": [
+        "Metzudat David on Melachim Bet", 
+        "Metzudat David on Melachim II", 
+        "Metzudat David on Second Kings", 
+        "Metzudat David on 2 Kings", 
+        "Metzudat David on II Melachim", 
+        "Metzudat David on Kings II", 
+        "Metzudat David on II Melakhim", 
+        "Metzudat David on II Kings"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Metzudat David", 
+        "Prophets"
+    ], 
+    "collective_title": {
+        "en": "Metzudat David", 
+        "he": "מצודת דוד"
+    }, 
+    "dependence": "Commentary", 
+    "depth": 3, 
+    "era": "AH", 
+    "base_text_mapping": "many_to_one"
 }

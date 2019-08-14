@@ -3,27 +3,34 @@
     "heTitleVariants": [
         "ביאור הלכה"
     ], 
-    "base_text_titles": [
-        {
-            "en": "Shulchan Arukh, Orach_Chayim", 
-            "he": "אורח חיים"
-        }
-    ], 
+    "errorMargin": "15", 
     "heCategories": [
         "הלכה", 
         "מפרשים", 
         "שולחן ערוך"
     ], 
     "title": "Biur Halacha", 
-    "base_text_mapping": "commentary_increment_base_text_depth", 
-    "enDesc": "R' Israel Meir Kagan's (\"Hafetz Chaim\") Biur Halacha - \"Explanation of the Law\" - is a commentary tangential to the Mishna Berurah, providing complex analysis of the legal rulings of earlier halachic authorities", 
-    "dependence": "Commentary", 
-    "heTitle": "ביאור הלכה", 
     "sectionNames": [
         "Siman", 
         "Seif", 
         "Comment"
     ], 
+    "compDate": "1890", 
+    "enDesc": "R' Israel Meir Kagan's (\"Hafetz Chaim\") Biur Halacha - \"Explanation of the Law\" - is a commentary tangential to the Mishna Berurah, providing complex analysis of the legal rulings of earlier halachic authorities", 
+    "dependence": "Commentary", 
+    "compDateString": {
+        "en": " (c.1875  - c.1905 CE)", 
+        "he": " (1875 - 1905 לספירה בקירוב)"
+    }, 
+    "base_text_mapping": "commentary_increment_base_text_depth", 
+    "heTitle": "ביאור הלכה", 
+    "base_text_titles": [
+        {
+            "en": "Shulchan Arukh, Orach_Chayim", 
+            "he": "אורח חיים"
+        }
+    ], 
+    "era": "AH", 
     "authors": [
         {
             "en": "Israel Meir Kagan", 
@@ -31,19 +38,29 @@
         }
     ], 
     "titleVariants": [
+        "Mishneh Berurah, Bi'ur Halakhah", 
+        "Bi'ur Halakhah", 
         "Biur Halacha"
     ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "addressTypes": [
-            "Integer", 
-            "Integer", 
+            "Siman", 
+            "Seif", 
             "Integer"
         ], 
         "title": "Biur Halacha", 
         "heTitle": "ביאור הלכה", 
         "depth": 3, 
         "titles": [
+            {
+                "lang": "en", 
+                "text": "Mishneh Berurah, Bi'ur Halakhah"
+            }, 
+            {
+                "lang": "en", 
+                "text": "Bi'ur Halakhah"
+            }, 
             {
                 "lang": "he", 
                 "text": "ביאור הלכה", 
@@ -84,7 +101,7 @@
                         "Biur Halacha 7"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות הנהגת האדם בבוקר", 
                     "depth": 1, 
@@ -130,7 +147,7 @@
                         "Biur Halacha 24"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות ציצית", 
                     "depth": 1, 
@@ -181,7 +198,7 @@
                         "Biur Halacha 46"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות תפילין", 
                     "depth": 1, 
@@ -221,7 +238,7 @@
                         "Biur Halacha 57"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות ברכות השחר ושאר ברכות", 
                     "depth": 1, 
@@ -281,7 +298,7 @@
                         "Biur Halacha 88"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות קריאת שמע", 
                     "depth": 1, 
@@ -349,7 +366,7 @@
                         "Biur Halacha 127"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות תפילה", 
                     "depth": 1, 
@@ -386,7 +403,7 @@
                         "Biur Halacha 135"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות נשיאת כפים", 
                     "depth": 1, 
@@ -429,7 +446,7 @@
                         "Biur Halacha 149"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות קריאת התורה", 
                     "depth": 1, 
@@ -465,7 +482,7 @@
                         "Biur Halacha 156"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות בית הכנסת", 
                     "depth": 1, 
@@ -503,7 +520,7 @@
                         "Biur Halacha 165"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות נטילת ידים", 
                     "depth": 1, 
@@ -568,7 +585,7 @@
                         "Biur Halacha 201"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות סעודה", 
                     "depth": 1, 
@@ -610,7 +627,7 @@
                         "Biur Halacha 214"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות ברכת הפירות", 
                     "depth": 1, 
@@ -666,7 +683,7 @@
                         "Biur Halacha 241"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות שאר ברכות", 
                     "depth": 1, 
@@ -798,7 +815,7 @@
                         "Biur Halacha 344"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות שבת", 
                     "depth": 1, 
@@ -878,7 +895,7 @@
                         "Biur Halacha 395"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות ערובין", 
                     "depth": 1, 
@@ -919,7 +936,7 @@
                         "Biur Halacha 407"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות תחומין", 
                     "depth": 1, 
@@ -957,7 +974,7 @@
                         "Biur Halacha 416"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות עירובי תחומין", 
                     "depth": 1, 
@@ -998,7 +1015,7 @@
                         "Biur Halacha 428"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות ראש חודש", 
                     "depth": 1, 
@@ -1093,7 +1110,7 @@
                         "Biur Halacha 494"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות פסח", 
                     "depth": 1, 
@@ -1157,7 +1174,7 @@
                         "Biur Halacha 529"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות יום טוב", 
                     "depth": 1, 
@@ -1205,7 +1222,7 @@
                         "Biur Halacha 548"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות חול המועד", 
                     "depth": 1, 
@@ -1247,7 +1264,7 @@
                         "Biur Halacha 561"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות תשעה באב ושאר תעניות", 
                     "depth": 1, 
@@ -1295,7 +1312,7 @@
                         "Biur Halacha 580"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות תעניות", 
                     "depth": 1, 
@@ -1347,7 +1364,7 @@
                         "Biur Halacha 603"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות ראש השנה", 
                     "depth": 1, 
@@ -1397,7 +1414,7 @@
                         "Biur Halacha 624"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות יום הכיפורים", 
                     "depth": 1, 
@@ -1446,7 +1463,7 @@
                         "Biur Halacha 644"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות סוכה", 
                     "depth": 1, 
@@ -1500,7 +1517,7 @@
                         "Biur Halacha 669"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות לולב", 
                     "depth": 1, 
@@ -1545,7 +1562,7 @@
                         "Biur Halacha 685"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות חנוכה", 
                     "depth": 1, 
@@ -1586,7 +1603,7 @@
                         "Biur Halacha 697"
                     ], 
                     "addressTypes": [
-                        "Integer"
+                        "Seif"
                     ], 
                     "heTitle": "הלכות מגילה", 
                     "depth": 1, 
@@ -1611,6 +1628,14 @@
                 }
             ], 
             "titles": [
+                {
+                    "lang": "en", 
+                    "text": "Mishneh Berurah, Bi'ur Halakhah"
+                }, 
+                {
+                    "lang": "en", 
+                    "text": "Bi'ur Halakhah"
+                }, 
                 {
                     "lang": "he", 
                     "text": "ביאור הלכה", 

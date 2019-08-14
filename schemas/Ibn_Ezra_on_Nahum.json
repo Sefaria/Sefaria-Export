@@ -1,14 +1,16 @@
 {
-    "depth": 3, 
-    "heTitleVariants": [
-        "אבן עזרא על נחום"
-    ], 
     "base_text_titles": [
         {
             "en": "Nahum", 
             "he": "נחום"
         }
     ], 
+    "pubPlace": "Venice", 
+    "compPlace": "Middle-Age France/Italy/England", 
+    "heTitleVariants": [
+        "אבן עזרא על נחום"
+    ], 
+    "heTitle": "אבן עזרא על נחום", 
     "heCategories": [
         "תנ\"ך", 
         "מפרשים", 
@@ -17,48 +19,25 @@
     ], 
     "pubDate": "1524", 
     "title": "Ibn Ezra on Nahum", 
-    "base_text_mapping": "many_to_one", 
-    "pubPlace": "Venice", 
-    "compPlace": "Middle-Age France/Italy/England", 
-    "enDesc": "Ibn Ezra’s commentary on the Tanakh reflects his knowledge as a Hebrew grammarian and philologist. His commentary is terse and aims to discover the pshat, the contextual meaning, of the text. Ibn Ezra was known for his independent ideas which aroused much controversy. Many view Ibn Ezra as the forefather of Biblical criticism. As an example, in the last chapter of Sefer Devarim (34:10), Ibn Ezra comments that Joshua, and not Moshe, wrote from this point until the end of the Torah.  ", 
-    "dependence": "Commentary", 
+    "compDate": "1156", 
+    "compDateString": {
+        "en": " (1156 CE)", 
+        "he": " (1156 לספירה)"
+    }, 
     "compPlaceString": {
         "en": "Middle-Age France/Italy/England", 
         "he": "צרפת / איטליה / אנגליה של ימי הביניים"
-    }, 
-    "heTitle": "אבן עזרא על נחום", 
-    "era": "RI", 
-    "authors": [
-        {
-            "en": "Ibn Ezra", 
-            "he": "אבן עזרא"
-        }
-    ], 
-    "titleVariants": [
-        "Ibn Ezra on Nah.", 
-        "Ibn Ezra on Nah", 
-        "Ibn Ezra on Nahum"
-    ], 
-    "collective_title": {
-        "en": "Ibn Ezra", 
-        "he": "אבן עזרא"
     }, 
     "sectionNames": [
         "Chapter", 
         "Verse", 
         "Comment"
     ], 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Ibn Ezra", 
-        "Prophets"
-    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "title": "Ibn Ezra on Nahum", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer", 
             "Integer"
         ], 
@@ -95,5 +74,31 @@
             "Verse", 
             "Comment"
         ]
-    }
+    }, 
+    "enDesc": "Ibn Ezra’s commentary on the Tanakh reflects his knowledge as a Hebrew grammarian and philologist. His commentary is terse and aims to discover the pshat, the contextual meaning, of the text. Ibn Ezra was known for his independent ideas which aroused much controversy. Many view Ibn Ezra as the forefather of Biblical criticism. As an example, in the last chapter of Sefer Devarim (34:10), Ibn Ezra comments that Joshua, and not Moshe, wrote from this point until the end of the Torah.  ", 
+    "authors": [
+        {
+            "en": "Ibn Ezra", 
+            "he": "אבן עזרא"
+        }
+    ], 
+    "titleVariants": [
+        "Ibn Ezra on Nah.", 
+        "Ibn Ezra on Nah", 
+        "Ibn Ezra on Nahum"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Ibn Ezra", 
+        "Prophets"
+    ], 
+    "collective_title": {
+        "en": "Ibn Ezra", 
+        "he": "אבן עזרא"
+    }, 
+    "dependence": "Commentary", 
+    "depth": 3, 
+    "era": "RI", 
+    "base_text_mapping": "many_to_one"
 }

@@ -1,14 +1,16 @@
 {
-    "depth": 3, 
-    "heTitleVariants": [
-        "רד\"ק על יונה"
-    ], 
     "base_text_titles": [
         {
             "en": "Jonah", 
             "he": "יונה הנביא"
         }
     ], 
+    "compPlace": "Provence, France", 
+    "heTitleVariants": [
+        "רד\"ק על יונה"
+    ], 
+    "heTitle": "רד\"ק על יונה", 
+    "errorMargin": "25", 
     "heCategories": [
         "תנ\"ך", 
         "מפרשים", 
@@ -16,44 +18,24 @@
         "נביאים"
     ], 
     "title": "Radak on Jonah", 
-    "base_text_mapping": "many_to_one", 
-    "compPlace": "Provence, France", 
-    "enDesc": "A commentary on the Tanakh written by Rabbi David Kimchi, Radak (1160–1236). Radak, the most famous Bible commentator of his time, was a grammarian, which is reflected in his commentary.  ", 
-    "dependence": "Commentary", 
+    "compDate": "1210", 
+    "compDateString": {
+        "en": " (c.1185  - c.1235 CE)", 
+        "he": " (1185 - 1235 לספירה בקירוב)"
+    }, 
     "compPlaceString": {
         "en": "Provence, France", 
         "he": "פרובנס, צרפת"
-    }, 
-    "heTitle": "רד\"ק על יונה", 
-    "era": "RI", 
-    "authors": [
-        {
-            "en": "Radak", 
-            "he": "רד\"ק"
-        }
-    ], 
-    "titleVariants": [
-        "Radak on Jonah"
-    ], 
-    "collective_title": {
-        "en": "Radak", 
-        "he": "רד\"ק"
     }, 
     "sectionNames": [
         "Chapter", 
         "Verse", 
         "Paragraph"
     ], 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Radak", 
-        "Prophets"
-    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer", 
             "Integer"
         ], 
@@ -84,5 +66,29 @@
             "Paragraph"
         ], 
         "toc_zoom": 2
-    }
+    }, 
+    "enDesc": "A commentary on the Tanakh written by Rabbi David Kimchi, Radak (1160–1236). Radak, one of the the most famous Bible commentators of his time, was a grammarian, which is reflected in his commentary.  ", 
+    "authors": [
+        {
+            "en": "Radak", 
+            "he": "רד\"ק"
+        }
+    ], 
+    "titleVariants": [
+        "Radak on Jonah"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Radak", 
+        "Prophets"
+    ], 
+    "collective_title": {
+        "en": "Radak", 
+        "he": "רד\"ק"
+    }, 
+    "dependence": "Commentary", 
+    "depth": 3, 
+    "era": "RI", 
+    "base_text_mapping": "many_to_one"
 }

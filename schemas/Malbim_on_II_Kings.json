@@ -1,5 +1,11 @@
 {
-    "depth": 3, 
+    "base_text_titles": [
+        {
+            "en": "II Kings", 
+            "he": "מלכים ב"
+        }
+    ], 
+    "pubPlace": "Warsaw", 
     "heTitleVariants": [
         "מלבי\"ם על מלכים ב", 
         "מלבי\"ם על מ\"ב", 
@@ -7,12 +13,8 @@
         "מלבי\"ם על מלכים ב׳", 
         "מלבי\"ם על מלכים ב'"
     ], 
-    "base_text_titles": [
-        {
-            "en": "II Kings", 
-            "he": "מלכים ב"
-        }
-    ], 
+    "heTitle": "מלבי\"ם על מלכים ב", 
+    "errorMargin": "15", 
     "heCategories": [
         "תנ\"ך", 
         "מפרשים", 
@@ -21,56 +23,21 @@
     ], 
     "pubDate": "1874", 
     "title": "Malbim on II Kings", 
-    "base_text_mapping": "many_to_one", 
-    "pubPlace": "Warsaw", 
-    "collective_title": {
-        "en": "Malbim", 
-        "he": "מלבי\"ם"
+    "compDate": "1859", 
+    "compDateString": {
+        "en": " (c.1844  - c.1874 CE)", 
+        "he": " (1844 - 1874 לספירה בקירוב)"
     }, 
-    "enDesc": "Written and published between 1845 and 1870 by Rabbi Meir Leibush ben Yehiel Michel Wisser (Malbim). A trademark of the Malbim’s commentary is his belief that there are no synonyms or repetition in the Tanakh. Each word represents a different idea or concept. ", 
-    "dependence": "Commentary", 
-    "heTitle": "מלבי\"ם על מלכים ב", 
-    "era": "AH", 
-    "authors": [
-        {
-            "en": "Malbim", 
-            "he": "מלבי\"ם"
-        }
-    ], 
-    "titleVariants": [
-        "Malbim on Melachim Bet", 
-        "Malbim on Melachim II", 
-        "Malbim on Second Kings", 
-        "Malbim on 2 Kings", 
-        "Malbim on II Melachim", 
-        "Malbim on Kings II", 
-        "Malbim on II Melakhim", 
-        "Malbim Literary Commantary on Melachim Bet", 
-        "Malbim Literary Commantary on Melachim II", 
-        "Malbim Literary Commantary on Second Kings", 
-        "Malbim Literary Commantary on 2 Kings", 
-        "Malbim Literary Commantary on II Melachim", 
-        "Malbim Literary Commantary on Kings II", 
-        "Malbim Literary Commantary on II Melakhim", 
-        "Malbim Literary Commantary on II Kings", 
-        "Malbim on II Kings"
-    ], 
     "sectionNames": [
         "Chapter", 
         "Verse", 
         "Comment"
     ], 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Malbim", 
-        "Prophets"
-    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "title": "Malbim on II Kings", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer", 
             "Integer"
         ], 
@@ -175,5 +142,45 @@
             "Verse", 
             "Comment"
         ]
-    }
+    }, 
+    "enDesc": "Written and published between 1845 and 1870 by Rabbi Meir Leibush ben Yehiel Michel Wisser (Malbim). A trademark of the Malbim’s commentary is his belief that there are no synonyms or repetition in the Tanakh. Each word represents a different idea or concept.", 
+    "heDesc": "פירוש על תנ\"ך של ר' מאיר לייבוש בן יחיאל מיכל ויסר (מלבי\"ם), שחיבר והדפיס בין השנים 1845-1876. בפירושו לחומש הוא מביא את מדרשי ההלכה ודן בהם בהשוואה לפשט הפסוקים תוך דיוקים בדקדוק המקרא. המלבי\"ם נודע בדרך ייחודית בפירושו למקרא, ולשיטתו אין שום חזרה וכפילות בפסוקים ('מילים נרדפות' כפי שכונה על ידי מפרשים אחרים), אלא כל מילה מייצגת מושג או רעיון אחר.", 
+    "authors": [
+        {
+            "en": "Malbim", 
+            "he": "מלבי\"ם"
+        }
+    ], 
+    "titleVariants": [
+        "Malbim on Melachim Bet", 
+        "Malbim on Melachim II", 
+        "Malbim on Second Kings", 
+        "Malbim on 2 Kings", 
+        "Malbim on II Melachim", 
+        "Malbim on Kings II", 
+        "Malbim on II Melakhim", 
+        "Malbim Literary Commantary on Melachim Bet", 
+        "Malbim Literary Commantary on Melachim II", 
+        "Malbim Literary Commantary on Second Kings", 
+        "Malbim Literary Commantary on 2 Kings", 
+        "Malbim Literary Commantary on II Melachim", 
+        "Malbim Literary Commantary on Kings II", 
+        "Malbim Literary Commantary on II Melakhim", 
+        "Malbim Literary Commantary on II Kings", 
+        "Malbim on II Kings"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Malbim", 
+        "Prophets"
+    ], 
+    "collective_title": {
+        "en": "Malbim", 
+        "he": "מלבי\"ם"
+    }, 
+    "dependence": "Commentary", 
+    "depth": 3, 
+    "era": "AH", 
+    "base_text_mapping": "many_to_one"
 }

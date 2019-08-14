@@ -1,17 +1,19 @@
 {
-    "depth": 3, 
-    "heTitleVariants": [
-        "מלבי\"ם על ירמיהו", 
-        "מלבי\"ם על ירמיה", 
-        "מלבי\"ם על ירמי׳", 
-        "מלבי\"ם על ירמי'"
-    ], 
     "base_text_titles": [
         {
             "en": "Jeremiah", 
             "he": "ירמיהו"
         }
     ], 
+    "pubPlace": "Warsaw", 
+    "heTitleVariants": [
+        "מלבי\"ם על ירמיהו", 
+        "מלבי\"ם על ירמיה", 
+        "מלבי\"ם על ירמי׳", 
+        "מלבי\"ם על ירמי'"
+    ], 
+    "heTitle": "מלבי\"ם על ירמיהו", 
+    "errorMargin": "15", 
     "heCategories": [
         "תנ\"ך", 
         "מפרשים", 
@@ -20,50 +22,21 @@
     ], 
     "pubDate": "1874", 
     "title": "Malbim on Jeremiah", 
-    "base_text_mapping": "many_to_one", 
-    "pubPlace": "Warsaw", 
-    "collective_title": {
-        "en": "Malbim", 
-        "he": "מלבי\"ם"
+    "compDate": "1859", 
+    "compDateString": {
+        "en": " (c.1844  - c.1874 CE)", 
+        "he": " (1844 - 1874 לספירה בקירוב)"
     }, 
-    "enDesc": "Written and published between 1845 and 1870 by Rabbi Meir Leibush ben Yehiel Michel Wisser (Malbim). A trademark of the Malbim’s commentary is his belief that there are no synonyms or repetition in the Tanakh. Each word represents a different idea or concept. ", 
-    "dependence": "Commentary", 
-    "heTitle": "מלבי\"ם על ירמיהו", 
-    "era": "AH", 
-    "authors": [
-        {
-            "en": "Malbim", 
-            "he": "מלבי\"ם"
-        }
-    ], 
-    "titleVariants": [
-        "Malbim on Yirmiyahu", 
-        "Malbim on Jer", 
-        "Malbim on Jer.", 
-        "Malbim on Yirmiyohu", 
-        "Malbim Literary Commantary on Yirmiyahu", 
-        "Malbim Literary Commantary on Jer", 
-        "Malbim Literary Commantary on Jer.", 
-        "Malbim Literary Commantary on Yirmiyohu", 
-        "Malbim Literary Commantary on Jeremiah", 
-        "Malbim on Jeremiah"
-    ], 
     "sectionNames": [
         "Chapter", 
         "Verse", 
         "Comment"
     ], 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Malbim", 
-        "Prophets"
-    ], 
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "title": "Malbim on Jeremiah", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer", 
             "Integer"
         ], 
@@ -140,5 +113,39 @@
             "Verse", 
             "Comment"
         ]
-    }
+    }, 
+    "enDesc": "Written and published between 1845 and 1870 by Rabbi Meir Leibush ben Yehiel Michel Wisser (Malbim). A trademark of the Malbim’s commentary is his belief that there are no synonyms or repetition in the Tanakh. Each word represents a different idea or concept.", 
+    "heDesc": "פירוש על תנ\"ך של ר' מאיר לייבוש בן יחיאל מיכל ויסר (מלבי\"ם), שחיבר והדפיס בין השנים 1845-1876. בפירושו לחומש הוא מביא את מדרשי ההלכה ודן בהם בהשוואה לפשט הפסוקים תוך דיוקים בדקדוק המקרא. המלבי\"ם נודע בדרך ייחודית בפירושו למקרא, ולשיטתו אין שום חזרה וכפילות בפסוקים ('מילים נרדפות' כפי שכונה על ידי מפרשים אחרים), אלא כל מילה מייצגת מושג או רעיון אחר.", 
+    "authors": [
+        {
+            "en": "Malbim", 
+            "he": "מלבי\"ם"
+        }
+    ], 
+    "titleVariants": [
+        "Malbim on Yirmiyahu", 
+        "Malbim on Jer", 
+        "Malbim on Jer.", 
+        "Malbim on Yirmiyohu", 
+        "Malbim Literary Commantary on Yirmiyahu", 
+        "Malbim Literary Commantary on Jer", 
+        "Malbim Literary Commantary on Jer.", 
+        "Malbim Literary Commantary on Yirmiyohu", 
+        "Malbim Literary Commantary on Jeremiah", 
+        "Malbim on Jeremiah"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Malbim", 
+        "Prophets"
+    ], 
+    "collective_title": {
+        "en": "Malbim", 
+        "he": "מלבי\"ם"
+    }, 
+    "dependence": "Commentary", 
+    "depth": 3, 
+    "era": "AH", 
+    "base_text_mapping": "many_to_one"
 }

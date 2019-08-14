@@ -24,8 +24,8 @@
             "The Jewish Pope": [], 
             "Story with Rabbi Judah the Pious": [], 
             "The Woman Who Was Stoned": [], 
-            "Story of Rabbi Eliezer &amp; Rabbi Joshua on Pilgrimage": [], 
             "Story of the Big Miser": [], 
+            "Story of Rabbi Eliezer & Rabbi Joshua on Pilgrimage": [], 
             "Story of Ben Sabar": [], 
             "Story of the Jew Who Went to Land of Kedar": [], 
             "Story of the Man with the Beloved Son": [], 
@@ -68,6 +68,7 @@
         }, 
         "Midrash Chazita": [], 
         "Pirkei Ben Azzai": [], 
+        "Mordechai & Esther": [], 
         "Midrash 'As an Apple Tree Among the Trees of the Forest'": {
             "Introduction": [], 
             "": []
@@ -147,19 +148,9 @@
             "Midrash on the Death of Aharon": []
         }, 
         "Midrash on Job": [], 
-        "Shamchazai &amp; Azael": {
-            "Introduction": [], 
-            "": []
-        }, 
         "Baraita on Mazalot": {
             "Introduction": [], 
             "": []
-        }, 
-        "Maaseh Beraishit &amp; Maaseh Merkavah": {
-            "Introduction": [], 
-            "Baraita of Maaseh Beraishit": [], 
-            "Zeh Maaseh Beraishit (Work of Creation)": [], 
-            "Seder Rabbah d'Beraishit d'Merkavah": []
         }, 
         "Midrashim on Sefer Yonah": {
             "Introduction": [], 
@@ -196,10 +187,10 @@
             "Introduction": [], 
             "": []
         }, 
-        "Keri &amp; K'tiv": {
+        "Midrash Sechel Tov": [], 
+        "Shamchazai & Azael": {
             "Introduction": [], 
-            "Midrash Keri V'lo Ketiv": [], 
-            "Midrash Ketiv V'lo Keri": []
+            "": []
         }, 
         "Kedusha": {
             "Introduction": [], 
@@ -239,6 +230,12 @@
             "": []
         }, 
         "Midrash Vayissu ('And They Journeyed')": [], 
+        "Maaseh Beraishit & Maaseh Merkavah": {
+            "Introduction": [], 
+            "Baraita of Maaseh Beraishit": [], 
+            "Zeh Maaseh Beraishit (Work of Creation)": [], 
+            "Seder Rabbah d'Beraishit d'Merkavah": []
+        }, 
         "Book of Noah": {
             "Introduction": [], 
             "": []
@@ -459,7 +456,6 @@
             "Introduction": [], 
             "Last Composition from Midrash Yelamdenu": []
         }, 
-        "Mordechai &amp; Esther": [], 
         "Siphra D'Tzniuta": [], 
         "Midrashim on the Ten Lost Tribes": {
             "Introduction": [], 
@@ -593,6 +589,7 @@
             "Introduction": [], 
             "Letter of Yehoshua bin Nun": []
         }, 
+        "Idra Rabba & Idra Zuta": [], 
         "Midrash Minayin": {
             "Introduction": [], 
             "": []
@@ -605,7 +602,10 @@
         "Midrash Ezra": [], 
         "Targumim": [], 
         "Midrash Tanchuma": [], 
-        "Midrash Sechel Tov": [], 
+        "Shimusha Rabba & Zuta": {
+            "Introduction": [], 
+            "Shimusha Rabba": []
+        }, 
         "Midrash 'And He Passed Before Them'": [], 
         "Midrash 'These I Recall' (Eleh Ezkerah)": [], 
         "Ethics of the Fathers": [], 
@@ -671,11 +671,6 @@
             "Introduction": [], 
             "": []
         }, 
-        "Idra Rabba &amp; Idra Zuta": [], 
-        "Shimusha Rabba &amp; Zuta": {
-            "Introduction": [], 
-            "Shimusha Rabba": []
-        }, 
         "Agadat Olam Katan": {
             "Introduction": [], 
             "": []
@@ -707,6 +702,11 @@
         }, 
         "Midrash Peliah ('Wondrous Midrash')": [], 
         "Midrash Hagadol": [], 
+        "Keri & K'tiv": {
+            "Introduction": [], 
+            "Midrash Keri V'lo Ketiv": [], 
+            "Midrash Ketiv V'lo Keri": []
+        }, 
         "Torat Kohanim": [], 
         "Midrash Lekach Tov": [], 
         "The Weasel and the Pit": {
@@ -717,7 +717,7 @@
     }, 
     "versionTitleInHebrew": "רבי מייק פוייר, לקט ירושלים", 
     "heTitle": "אוצר מדרשים", 
-    "versionSource": "http://www.sefaria.org", 
+    "versionSource": "https://www.sefaria.org", 
     "categories": [
         "Midrash", 
         "Aggadic Midrash"
@@ -803,7 +803,7 @@
             }, 
             {
                 "heTitle": "אדרא רבא ואדרא זוטא", 
-                "enTitle": "Idra Rabba &amp; Idra Zuta"
+                "enTitle": "Idra Rabba & Idra Zuta"
             }, 
             {
                 "heTitle": "אהרן", 
@@ -1135,7 +1135,7 @@
                         "enTitle": "Introduction"
                     }, 
                     {
-                        "heTitle": "מסכת גן אדן", 
+                        "heTitle": "מסכת גן עדן", 
                         "enTitle": "Tractate of Gan Eden"
                     }, 
                     {
@@ -2047,7 +2047,7 @@
                         "enTitle": "Baraita of Maaseh Beraishit"
                     }
                 ], 
-                "enTitle": "Maaseh Beraishit &amp; Maaseh Merkavah"
+                "enTitle": "Maaseh Beraishit & Maaseh Merkavah"
             }, 
             {
                 "heTitle": "מעשה תורה דרבינו הקדוש", 
@@ -2078,7 +2078,7 @@
                     }, 
                     {
                         "heTitle": "מעשה ברבי אליעזר ורבי יהושע שעלו לרגל", 
-                        "enTitle": "Story of Rabbi Eliezer &amp; Rabbi Joshua on Pilgrimage"
+                        "enTitle": "Story of Rabbi Eliezer & Rabbi Joshua on Pilgrimage"
                     }, 
                     {
                         "heTitle": "מעשה באיש תלמיד חכם חסיד ועניו", 
@@ -2245,7 +2245,7 @@
             }, 
             {
                 "heTitle": "מרדכי דאסתר", 
-                "enTitle": "Mordechai &amp; Esther"
+                "enTitle": "Mordechai & Esther"
             }, 
             {
                 "heTitle": "מדרשים על משה רבינו", 
@@ -2651,7 +2651,7 @@
                         "enTitle": "Midrash Ketiv V'lo Keri"
                     }
                 ], 
-                "enTitle": "Keri &amp; K'tiv"
+                "enTitle": "Keri & K'tiv"
             }, 
             {
                 "heTitle": "אגדת קרני ראמים", 
@@ -2849,7 +2849,7 @@
                         "enTitle": "Shimusha Rabba"
                     }
                 ], 
-                "enTitle": "Shimusha Rabba &amp; Zuta"
+                "enTitle": "Shimusha Rabba & Zuta"
             }, 
             {
                 "heTitle": "שמחזי ועזאל", 
@@ -2863,7 +2863,7 @@
                         "enTitle": ""
                     }
                 ], 
-                "enTitle": "Shamchazai &amp; Azael"
+                "enTitle": "Shamchazai & Azael"
             }, 
             {
                 "heTitle": "אגדת שמע ישראל", 

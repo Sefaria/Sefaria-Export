@@ -1,0 +1,109 @@
+{
+    "base_text_titles": [
+        {
+            "en": "Ecclesiastes", 
+            "he": "קהלת"
+        }
+    ], 
+    "heCategories": [
+        "תנ\"ך", 
+        "מפרשים", 
+        "אבן עזרא", 
+        "כתובים"
+    ], 
+    "title": "Ibn Ezra on Ecclesiastes", 
+    "base_text_mapping": "many_to_one", 
+    "collective_title": {
+        "en": "Ibn Ezra", 
+        "he": "אבן עזרא"
+    }, 
+    "heTitleVariants": [
+        "אבן עזרא על קהלת"
+    ], 
+    "dependence": "Commentary", 
+    "heTitle": "אבן עזרא על קהלת", 
+    "titleVariants": [
+        "Ibn Ezra on Ecclesiastes"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Ibn Ezra", 
+        "Writings"
+    ], 
+    "schema": {
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode", 
+                "addressTypes": [
+                    "Integer"
+                ], 
+                "title": "Introduction", 
+                "heTitle": "הקדמה", 
+                "sharedTitle": "Introduction", 
+                "depth": 1, 
+                "titles": [
+                    {
+                        "lang": "en", 
+                        "text": "Introduction", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "הקדמה", 
+                        "primary": true
+                    }, 
+                    {
+                        "lang": "he", 
+                        "text": "מבוא"
+                    }
+                ], 
+                "key": "intro", 
+                "heSectionNames": [
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Paragraph"
+                ]
+            }, 
+            {
+                "nodeType": "JaggedArrayNode", 
+                "title": "", 
+                "default": true, 
+                "addressTypes": [
+                    "Integer", 
+                    "Integer", 
+                    "Integer"
+                ], 
+                "heTitle": "", 
+                "depth": 3, 
+                "key": "default", 
+                "heSectionNames": [
+                    "פרק", 
+                    "פסוק", 
+                    "פסקה"
+                ], 
+                "sectionNames": [
+                    "Chapter", 
+                    "Verse", 
+                    "Paragraph"
+                ]
+            }
+        ], 
+        "titles": [
+            {
+                "lang": "he", 
+                "text": "אבן עזרא על קהלת", 
+                "primary": true
+            }, 
+            {
+                "lang": "en", 
+                "text": "Ibn Ezra on Ecclesiastes", 
+                "primary": true
+            }
+        ], 
+        "heTitle": "אבן עזרא על קהלת", 
+        "key": "Ibn Ezra on Ecclesiastes", 
+        "title": "Ibn Ezra on Ecclesiastes"
+    }
+}

@@ -17,7 +17,8 @@
     "enDesc": "Bezah (Eggs) belongs to the second order, Moed (Festivals) and discusses the rules to be observed on Festivals. It has four chapters.", 
     "depth": 2, 
     "heTitleVariants": [
-        "תוספתא ביצה"
+        "תוספתא ביצה", 
+        "תוספתא יום טוב"
     ], 
     "compPlaceString": {
         "en": "Talmudic Israel", 
@@ -36,6 +37,7 @@
         "Tos. Beitzah", 
         "T. Beitsah,", 
         "Tos. Beitsah", 
+        "Tosef. Bets.", 
         "Tosefta Beitsah"
     ], 
     "errorMargin": "20", 
@@ -50,7 +52,7 @@
     "schema": {
         "nodeType": "JaggedArrayNode", 
         "addressTypes": [
-            "Integer", 
+            "Perek", 
             "Integer"
         ], 
         "lengths": [
@@ -81,9 +83,17 @@
                 "text": "Tos. Beitsah"
             }, 
             {
+                "lang": "en", 
+                "text": "Tosef. Bets."
+            }, 
+            {
                 "lang": "he", 
                 "text": "תוספתא ביצה", 
                 "primary": true
+            }, 
+            {
+                "lang": "he", 
+                "text": "תוספתא יום טוב"
             }, 
             {
                 "lang": "en", 

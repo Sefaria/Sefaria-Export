@@ -1,5 +1,4 @@
 {
-    "is_cited": true, 
     "base_text_titles": [
         {
             "en": "Genesis", 
@@ -22,6 +21,12 @@
             "he": "ספר דברים"
         }
     ], 
+    "pubPlace": "Middle-Age Spain", 
+    "compPlace": "Middle-Age Spain", 
+    "enDesc": "A commentary on the Torah written by Rabbi Bahya ben Asher, 1255-1340, in Spain. Rabbeinu Bachya’s commentary includes the pshat (contextual meaning) along with aggadah, philosophy and Kabbalah. ", 
+    "heTitle": "רבנו בחיי", 
+    "errorMargin": "10", 
+    "is_cited": true, 
     "heCategories": [
         "תנ\"ך", 
         "מפרשים", 
@@ -29,30 +34,15 @@
     ], 
     "pubDate": "1492", 
     "title": "Rabbeinu Bahya", 
-    "base_text_mapping": null, 
-    "pubPlace": "Middle-Age Spain", 
-    "collective_title": {
-        "en": "Rabbeinu Bahya", 
-        "he": "רבנו בחיי"
+    "compDate": "1300", 
+    "compDateString": {
+        "en": " (c.1290  - c.1310 CE)", 
+        "he": " (1290 - 1310 לספירה בקירוב)"
     }, 
-    "enDesc": "A commentary on the Torah written by Rabbi Bahya ben Asher, 1255-1340, in Spain. Rabbeinu Bachya’s commentary includes the pshat (contextual meaning) along with aggadah, philosophy and Kabbalah. ", 
-    "dependence": "Commentary", 
-    "heTitleVariants": [
-        "רבנו בחיי", 
-        "רבינו בחיי"
-    ], 
-    "heTitle": "רבנו בחיי", 
-    "era": "RI", 
-    "authors": [
-        {
-            "en": "Bachya ben Asher", 
-            "he": "בחיי בן אשר"
-        }
-    ], 
-    "titleVariants": [
-        "Rabbeinu Behaye", 
-        "Rabbeinu Bahya"
-    ], 
+    "compPlaceString": {
+        "en": "Middle-Age Spain", 
+        "he": "ספרד של ימי הביניים"
+    }, 
     "schema": {
         "nodes": [
             {
@@ -86,7 +76,7 @@
             {
                 "nodeType": "JaggedArrayNode", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer", 
                     "Integer"
                 ], 
@@ -125,7 +115,7 @@
             {
                 "nodeType": "JaggedArrayNode", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer", 
                     "Integer"
                 ], 
@@ -164,7 +154,7 @@
             {
                 "nodeType": "JaggedArrayNode", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer", 
                     "Integer"
                 ], 
@@ -203,7 +193,7 @@
             {
                 "nodeType": "JaggedArrayNode", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer", 
                     "Integer"
                 ], 
@@ -242,7 +232,7 @@
             {
                 "nodeType": "JaggedArrayNode", 
                 "addressTypes": [
-                    "Integer", 
+                    "Perek", 
                     "Integer", 
                     "Integer"
                 ], 
@@ -303,6 +293,33 @@
         "key": "Rabbeinu Bahya", 
         "title": "Rabbeinu Bahya"
     }, 
+    "heTitleVariants": [
+        "רבנו בחיי", 
+        "רבינו בחיי"
+    ], 
+    "authors": [
+        {
+            "en": "Bachya ben Asher", 
+            "he": "בחיי בן אשר"
+        }
+    ], 
+    "titleVariants": [
+        "Rabbeinu Behaye", 
+        "Rabbeinu Bahya"
+    ], 
+    "categories": [
+        "Tanakh", 
+        "Commentary", 
+        "Rabbeinu Bahya"
+    ], 
+    "collective_title": {
+        "en": "Rabbeinu Bahya", 
+        "he": "רבנו בחיי"
+    }, 
+    "dependence": "Commentary", 
+    "era": "RI", 
+    "base_text_mapping": null, 
+    "default_struct": "Parasha", 
     "alts": {
         "By Parasha": {
             "nodes": [
@@ -592,6 +609,10 @@
                                 {
                                     "lang": "en", 
                                     "text": "Noah"
+                                }, 
+                                {
+                                    "lang": "en", 
+                                    "text": "Parshat Noah"
                                 }
                             ], 
                             "heTitle": "נח", 
@@ -4700,6 +4721,14 @@
                                 {
                                     "lang": "he", 
                                     "text": "פרשת בחוקותי"
+                                }, 
+                                {
+                                    "lang": "en", 
+                                    "text": "Bekhukotai"
+                                }, 
+                                {
+                                    "lang": "he", 
+                                    "text": "בחקתי"
                                 }
                             ], 
                             "heTitle": "בחוקתי", 
@@ -7571,11 +7600,5 @@
             "heTitle": "רבנו בחיי", 
             "title": "Rabbeinu Bahya"
         }
-    }, 
-    "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Rabbeinu Bahya"
-    ], 
-    "default_struct": "Parasha"
+    }
 }
