@@ -1,125 +1,125 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Mishnah Maasrot", 
-            "he": "משנה מעשרות"
-        }
-    ], 
-    "pubPlace": "Prague", 
-    "compPlace": "Prague", 
-    "heTitleVariants": [
-        "תוספות יום טוב על משנה מעשרות"
-    ], 
-    "heTitle": "תוספות יום טוב על משנה מעשרות", 
-    "errorMargin": "2", 
-    "heCategories": [
-        "משנה", 
-        "מפרשים", 
-        "תוספות יום טוב", 
-        "סדר זרעים"
-    ], 
-    "pubDate": "1614-1617", 
-    "title": "Tosafot Yom Tov on Mishnah Maasrot", 
-    "compDate": "1615", 
-    "compDateString": {
-        "en": " (c.1613  - c.1617 CE)", 
-        "he": " (1613 - 1617 לספירה בקירוב)"
-    }, 
-    "compPlaceString": {
-        "en": "Prague", 
-        "he": "פראג"
-    }, 
+    "title": "Tosafot Yom Tov on Mishnah Maasrot",
+    "categories": [
+        "Mishnah",
+        "Commentary",
+        "Tosafot Yom Tov",
+        "Seder Zeraim"
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Mishnah Maasrot, Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "משנה מעשרות, הקדמה", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Mishnah Maasrot, Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "משנה מעשרות, הקדמה", 
-                        "primary": true
-                    }
-                ], 
-                "key": "introMishnah Maasrot", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
-                "addressTypes": [
-                    "Perek", 
-                    "Mishnah", 
-                    "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Mishnah Maasrot, Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "משנה מעשרות, הקדמה",
+                        "primary": true
+                    }
+                ],
+                "title": "Mishnah Maasrot, Introduction",
+                "heTitle": "משנה מעשרות, הקדמה",
                 "heSectionNames": [
-                    "פרק", 
-                    "משנה", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "introMishnah Maasrot"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Mishnah",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Mishnah", 
+                    "Chapter",
+                    "Mishnah",
                     "Comment"
-                ]
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "משנה",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "תוספות יום טוב על משנה מעשרות", 
+                "lang": "he",
+                "text": "תוספות יום טוב על משנה מעשרות",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Tosafot Yom Tov on Mishnah Maasrot", 
+                "lang": "en",
+                "text": "Tosafot Yom Tov on Mishnah Maasrot",
                 "primary": true
             }
-        ], 
-        "heTitle": "תוספות יום טוב על משנה מעשרות", 
-        "key": "Tosafot Yom Tov on Mishnah Maasrot", 
-        "title": "Tosafot Yom Tov on Mishnah Maasrot"
-    }, 
-    "enDesc": "The release and digitization of this work was kindly sponsored by Nicole and Raanan Agus.", 
+        ],
+        "title": "Tosafot Yom Tov on Mishnah Maasrot",
+        "heTitle": "תוספות יום טוב על משנה מעשרות",
+        "key": "Tosafot Yom Tov on Mishnah Maasrot"
+    },
     "authors": [
         {
-            "en": "Yom-Tov Lipmann Heller", 
+            "en": "Yom-Tov Lipmann Heller",
             "he": "יום-טוב ליפמן הלר"
         }
-    ], 
+    ],
+    "enDesc": "The release and digitization of this work was kindly sponsored by Nicole and Raanan Agus.",
+    "pubDate": "1614-1617",
+    "compDate": "1615",
+    "compPlace": "Prague",
+    "pubPlace": "Prague",
+    "errorMargin": "2",
+    "era": "AH",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Mishnah Maasrot",
+            "he": "משנה מעשרות"
+        }
+    ],
+    "base_text_mapping": null,
+    "collective_title": {
+        "en": "Tosafot Yom Tov",
+        "he": "תוספות יום טוב"
+    },
+    "heTitle": "תוספות יום טוב על משנה מעשרות",
     "titleVariants": [
         "Tosafot Yom Tov on Mishnah Maasrot"
-    ], 
-    "categories": [
-        "Mishnah", 
-        "Commentary", 
-        "Tosafot Yom Tov", 
-        "Seder Zeraim"
-    ], 
-    "collective_title": {
-        "en": "Tosafot Yom Tov", 
-        "he": "תוספות יום טוב"
-    }, 
-    "dependence": "Commentary", 
-    "era": "AH", 
-    "base_text_mapping": null
+    ],
+    "heTitleVariants": [
+        "תוספות יום טוב על משנה מעשרות"
+    ],
+    "heCategories": [
+        "משנה",
+        "מפרשים",
+        "תוספות יום טוב",
+        "סדר זרעים"
+    ],
+    "compDateString": {
+        "en": " (c.1613  - c.1617 CE)",
+        "he": " (1613 - 1617 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Prague",
+        "he": "פראג"
+    }
 }

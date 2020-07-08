@@ -1,131 +1,131 @@
 {
-    "heTitleVariants": [
-        "דברים ניחומים על איכה", 
-        "אלשיך על איכה"
-    ], 
-    "base_text_titles": [
-        {
-            "en": "Lamentations", 
-            "he": "איכה"
-        }
-    ], 
-    "heCategories": [
-        "תנ\"ך", 
-        "מפרשים", 
-        "אלשיך", 
-        "כתובים"
-    ], 
-    "pubDate": "1601", 
-    "title": "Devarim Nichumim on Lamentations", 
-    "compDate": "1567", 
-    "pubPlace": "Venice", 
-    "collective_title": {
-        "en": "Alshich", 
-        "he": "אלשיך"
-    }, 
-    "enDesc": "Commentary of R' Moshe Alshikh on Lamentations.", 
-    "dependence": "Commentary", 
-    "compDateString": {
-        "en": " (c.1542  - c.1592 CE)", 
-        "he": " (1542 - 1592 לספירה בקירוב)"
-    }, 
-    "heDesc": "פירושו של ר' משה אלשיך על מגילת איכה.", 
-    "heTitle": "דברים ניחומים על איכה", 
-    "era": "AH", 
-    "authors": [
-        {
-            "en": "Alshikh", 
-            "he": "אלשיך"
-        }
-    ], 
-    "titleVariants": [
-        "Alshich on Lamentations", 
-        "Devarim Nichumim on Lamentations"
-    ], 
-    "errorMargin": "25", 
+    "title": "Devarim Nichumim on Lamentations",
     "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Alshich", 
+        "Tanakh",
+        "Commentary",
+        "Alshich",
         "Writings"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "הקדמה", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "הקדמה", 
-                        "primary": true
-                    }
-                ], 
-                "key": "Introduction", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "addressTypes": [
-                    "Perek", 
-                    "Integer", 
-                    "Integer"
-                ], 
-                "default": true, 
-                "title": "", 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "titles": [
+                    {
+                        "primary": true,
+                        "text": "Introduction",
+                        "lang": "en"
+                    },
+                    {
+                        "primary": true,
+                        "text": "הקדמה",
+                        "lang": "he"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Integer",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
+                    "Chapter",
+                    "Verse",
                     "Comment"
-                ], 
-                "toc_zoom": 2
+                ],
+                "toc_zoom": 2,
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "en", 
-                "text": "Alshich on Lamentations"
-            }, 
+                "text": "Alshich on Lamentations",
+                "lang": "en"
+            },
             {
-                "lang": "he", 
-                "text": "דברים ניחומים על איכה", 
-                "primary": true
-            }, 
+                "primary": true,
+                "text": "דברים ניחומים על איכה",
+                "lang": "he"
+            },
             {
-                "lang": "he", 
-                "text": "אלשיך על איכה"
-            }, 
+                "text": "אלשיך על איכה",
+                "lang": "he"
+            },
             {
-                "lang": "en", 
-                "text": "Devarim Nichumim on Lamentations", 
-                "primary": true
+                "primary": true,
+                "text": "Devarim Nichumim on Lamentations",
+                "lang": "en"
             }
-        ], 
-        "heTitle": "דברים ניחומים על איכה", 
-        "key": "Devarim Nichumim on Lamentations", 
-        "title": "Devarim Nichumim on Lamentations"
+        ],
+        "title": "Devarim Nichumim on Lamentations",
+        "heTitle": "דברים ניחומים על איכה",
+        "key": "Devarim Nichumim on Lamentations"
+    },
+    "authors": [
+        {
+            "en": "Alshikh",
+            "he": "אלשיך"
+        }
+    ],
+    "enDesc": "Commentary of R' Moshe Alshikh on Lamentations.",
+    "heDesc": "פירושו של ר' משה אלשיך על מגילת איכה.",
+    "pubDate": "1601",
+    "compDate": "1567",
+    "pubPlace": "Venice",
+    "errorMargin": "25",
+    "era": "AH",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Lamentations",
+            "he": "איכה"
+        }
+    ],
+    "collective_title": {
+        "en": "Alshich",
+        "he": "אלשיך"
+    },
+    "heTitle": "דברים ניחומים על איכה",
+    "titleVariants": [
+        "Alshich on Lamentations",
+        "Devarim Nichumim on Lamentations"
+    ],
+    "heTitleVariants": [
+        "דברים ניחומים על איכה",
+        "אלשיך על איכה"
+    ],
+    "heCategories": [
+        "תנ\"ך",
+        "מפרשים",
+        "אלשיך",
+        "כתובים"
+    ],
+    "compDateString": {
+        "en": " (c.1542  - c.1592 CE)",
+        "he": " (1542 - 1592 לספירה בקירוב)"
     }
 }

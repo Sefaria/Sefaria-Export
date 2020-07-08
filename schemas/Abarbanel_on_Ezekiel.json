@@ -1,104 +1,104 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Ezekiel", 
-            "he": "יחזקאל"
-        }
-    ], 
-    "heCategories": [
-        "תנ\"ך", 
-        "מפרשים", 
-        "אברבנאל", 
-        "נביאים"
-    ], 
-    "title": "Abarbanel on Ezekiel", 
-    "collective_title": {
-        "en": "Abarbanel", 
-        "he": "אברבנאל"
-    }, 
-    "heTitleVariants": [
-        "אברבנאל על יחזקאל"
-    ], 
-    "dependence": "Commentary", 
-    "heTitle": "אברבנאל על יחזקאל", 
-    "titleVariants": [
-        "Abarbanel on Ezekiel"
-    ], 
+    "title": "Abarbanel on Ezekiel",
     "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Abarbanel", 
+        "Tanakh",
+        "Commentary",
+        "Abarbanel",
         "Prophets"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "הקדמה", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "הקדמה", 
-                        "primary": true
-                    }
-                ], 
-                "key": "Introduction", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "addressTypes": [
-                    "Integer", 
-                    "Integer", 
-                    "Integer"
-                ], 
-                "default": true, 
-                "title": "", 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "titles": [
+                    {
+                        "text": "Introduction",
+                        "primary": true,
+                        "lang": "en"
+                    },
+                    {
+                        "text": "הקדמה",
+                        "primary": true,
+                        "lang": "he"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Integer",
+                    "Integer",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
+                    "Chapter",
+                    "Verse",
                     "Comment"
-                ], 
-                "toc_zoom": 2
+                ],
+                "toc_zoom": 2,
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "אברבנאל על יחזקאל", 
-                "primary": true
-            }, 
+                "text": "אברבנאל על יחזקאל",
+                "primary": true,
+                "lang": "he"
+            },
             {
-                "lang": "en", 
-                "text": "Abarbanel on Ezekiel", 
-                "primary": true
+                "text": "Abarbanel on Ezekiel",
+                "primary": true,
+                "lang": "en"
             }
-        ], 
-        "heTitle": "אברבנאל על יחזקאל", 
-        "key": "Abarbanel on Ezekiel", 
-        "title": "Abarbanel on Ezekiel"
-    }
+        ],
+        "title": "Abarbanel on Ezekiel",
+        "heTitle": "אברבנאל על יחזקאל",
+        "key": "Abarbanel on Ezekiel"
+    },
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Ezekiel",
+            "he": "יחזקאל"
+        }
+    ],
+    "collective_title": {
+        "en": "Abarbanel",
+        "he": "אברבנאל"
+    },
+    "heTitle": "אברבנאל על יחזקאל",
+    "titleVariants": [
+        "Abarbanel on Ezekiel"
+    ],
+    "heTitleVariants": [
+        "אברבנאל על יחזקאל"
+    ],
+    "heCategories": [
+        "תנ\"ך",
+        "מפרשים",
+        "אברבנאל",
+        "נביאים"
+    ]
 }

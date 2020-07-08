@@ -1,183 +1,183 @@
 {
-    "heTitleVariants": [
-        "שיחת מלאכי השרת"
-    ], 
-    "heCategories": [
-        "חסידות", 
-        "ר' צדוק הכוהן"
-    ], 
-    "title": "Sichat Malachei HaSharet", 
-    "compDate": "1870", 
-    "enDesc": "Comments on the status and role of the angels, and their rank vis-a-vis the nation of Israel, as described in the Talmud and Midrashim.", 
-    "compDateString": {
-        "en": " (c.1840  - c.1900 CE)", 
-        "he": " (1840 - 1900 לספירה בקירוב)"
-    }, 
-    "heDesc": "ביאורים על עניינם ותפקידם של המלאכים, ומדרגתם לעומת ישראל, כפי שנמצא אודותם בתלמוד ובמדרשים.", 
-    "heTitle": "שיחת מלאכי השרת", 
-    "authors": [
-        {
-            "en": "Tzadok HaKohen Rabinowitz", 
-            "he": "צדוק הכהן רבינוביץ"
-        }
-    ], 
-    "titleVariants": [
-        "Sichat Malachei HaSharet"
-    ], 
-    "errorMargin": "30", 
+    "title": "Sichat Malachei HaSharet",
     "categories": [
-        "Chasidut", 
+        "Chasidut",
         "R' Tzadok HaKohen"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
                 "addressTypes": [
-                    "Perek", 
+                    "Perek",
                     "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 2, 
-                "key": "default", 
-                "heSectionNames": [
-                    "פרק", 
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
-                    "Chapter", 
+                    "Chapter",
                     "Paragraph"
-                ]
-            }, 
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסקה"
+                ],
+                "key": "default"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "From Yerushalmi", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "מירושלמי", 
-                "depth": 1, 
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "From Yerushalmi", 
-                        "primary": true
-                    }, 
+                        "primary": true,
+                        "text": "From Yerushalmi",
+                        "lang": "en"
+                    },
                     {
-                        "lang": "he", 
-                        "text": "מירושלמי", 
-                        "primary": true
+                        "primary": true,
+                        "text": "מירושלמי",
+                        "lang": "he"
                     }
-                ], 
-                "key": "From Yerushalmi", 
+                ],
+                "title": "From Yerushalmi",
+                "heTitle": "מירושלמי",
                 "heSectionNames": [
                     "פסקה"
-                ], 
-                "sectionNames": [
-                    "Paragraph"
-                ]
-            }, 
+                ],
+                "key": "From Yerushalmi"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "From Tanchuma", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "מתנחומא", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "From Tanchuma", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "מתנחומא", 
-                        "primary": true
-                    }
-                ], 
-                "key": "From Tanchuma", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
+                ],
+                "titles": [
+                    {
+                        "primary": true,
+                        "text": "From Tanchuma",
+                        "lang": "en"
+                    },
+                    {
+                        "primary": true,
+                        "text": "מתנחומא",
+                        "lang": "he"
+                    }
+                ],
+                "title": "From Tanchuma",
+                "heTitle": "מתנחומא",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "From Tanchuma"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "From Zohar", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "בזוהר הקדוש", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "From Zohar", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "בזוהר הקדוש", 
-                        "primary": true
-                    }
-                ], 
-                "key": "From Zohar", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
+                ],
+                "titles": [
+                    {
+                        "primary": true,
+                        "text": "From Zohar",
+                        "lang": "en"
+                    },
+                    {
+                        "primary": true,
+                        "text": "בזוהר הקדוש",
+                        "lang": "he"
+                    }
+                ],
+                "title": "From Zohar",
+                "heTitle": "בזוהר הקדוש",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "From Zohar"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "A Note on Angels' Names", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "ביאור שמות מלאכים", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "A Note on Angels' Names", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "ביאור שמות מלאכים", 
-                        "primary": true
-                    }
-                ], 
-                "key": "A Note on Angels' Names", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
+                ],
+                "titles": [
+                    {
+                        "primary": true,
+                        "text": "A Note on Angels' Names",
+                        "lang": "en"
+                    },
+                    {
+                        "primary": true,
+                        "text": "ביאור שמות מלאכים",
+                        "lang": "he"
+                    }
+                ],
+                "title": "A Note on Angels' Names",
+                "heTitle": "ביאור שמות מלאכים",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "A Note on Angels' Names"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "שיחת מלאכי השרת", 
-                "primary": true
-            }, 
+                "primary": true,
+                "text": "שיחת מלאכי השרת",
+                "lang": "he"
+            },
             {
-                "lang": "en", 
-                "text": "Sichat Malachei HaSharet", 
-                "primary": true
+                "primary": true,
+                "text": "Sichat Malachei HaSharet",
+                "lang": "en"
             }
-        ], 
-        "heTitle": "שיחת מלאכי השרת", 
-        "key": "Sichat Malachei HaSharet", 
-        "title": "Sichat Malachei HaSharet"
+        ],
+        "title": "Sichat Malachei HaSharet",
+        "heTitle": "שיחת מלאכי השרת",
+        "key": "Sichat Malachei HaSharet"
+    },
+    "authors": [
+        {
+            "en": "Tzadok HaKohen of Lublin",
+            "he": "צדוק הכהן רבינוביץ"
+        }
+    ],
+    "enDesc": "Comments on the status and role of the angels, and their rank vis-a-vis the nation of Israel, as described in the Talmud and Midrashim.",
+    "heDesc": "ביאורים על עניינם ותפקידם של המלאכים, ומדרגתם לעומת ישראל, כפי שנמצא אודותם בתלמוד ובמדרשים.",
+    "compDate": "1870",
+    "errorMargin": "30",
+    "heTitle": "שיחת מלאכי השרת",
+    "titleVariants": [
+        "Sichat Malachei HaSharet"
+    ],
+    "heTitleVariants": [
+        "שיחת מלאכי השרת"
+    ],
+    "heCategories": [
+        "חסידות",
+        "ר' צדוק הכוהן"
+    ],
+    "compDateString": {
+        "en": " (c.1840  - c.1900 CE)",
+        "he": " (1840 - 1900 לספירה בקירוב)"
     }
 }

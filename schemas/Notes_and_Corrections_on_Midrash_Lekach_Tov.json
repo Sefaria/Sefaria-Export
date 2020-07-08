@@ -1,124 +1,130 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Midrash Lekach Tov", 
-            "he": "מדרש לקח טוב"
-        }
-    ], 
-    "heCategories": [
-        "מדרש", 
-        "מדרש אגדה", 
-        "מדרש לקח טוב", 
-        "מפרשים"
-    ], 
-    "title": "Notes and Corrections on Midrash Lekach Tov", 
-    "collective_title": {
-        "en": "Notes and Corrections", 
-        "he": "הערות ותיקונים"
-    }, 
-    "heTitleVariants": [
-        "הערות ותיקונים על מדרש לקח טוב", 
-        "הערות ותיקונים על מדרש לקח טוב על תורה"
-    ], 
-    "dependence": "Commentary", 
-    "heTitle": "הערות ותיקונים על מדרש לקח טוב", 
-    "titleVariants": [
-        "Notes and Corrections on Midrash Lekach Tov on Torah", 
-        "Notes and Corrections on Midrash Lekach Tov"
-    ], 
+    "title": "Notes and Corrections on Midrash Lekach Tov",
     "categories": [
-        "Midrash", 
-        "Aggadic Midrash", 
-        "Midrash Lekach Tov", 
+        "Midrash",
+        "Aggadic Midrash",
+        "Midrash Lekach Tov",
         "Commentary"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Genesis", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
                 "addressTypes": [
-                    "Integer", 
+                    "Integer",
                     "Integer"
-                ], 
-                "heTitle": "בראשית", 
-                "depth": 2, 
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Comment"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Genesis", 
-                        "primary": true
-                    }, 
+                        "primary": true,
+                        "lang": "en",
+                        "text": "Genesis"
+                    },
                     {
-                        "lang": "he", 
-                        "text": "בראשית", 
-                        "primary": true
+                        "primary": true,
+                        "lang": "he",
+                        "text": "בראשית"
                     }
-                ], 
-                "key": "Genesis", 
+                ],
+                "title": "Genesis",
+                "heTitle": "בראשית",
                 "heSectionNames": [
-                    "פרק", 
+                    "פרק",
                     "פירוש"
-                ], 
-                "sectionNames": [
-                    "Chapter", 
-                    "Comment"
-                ]
-            }, 
+                ],
+                "key": "Genesis"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Exodus", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
                 "addressTypes": [
-                    "Integer", 
+                    "Integer",
                     "Integer"
-                ], 
-                "heTitle": "שמות", 
-                "depth": 2, 
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Comment"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Exodus", 
-                        "primary": true
-                    }, 
+                        "primary": true,
+                        "lang": "en",
+                        "text": "Exodus"
+                    },
                     {
-                        "lang": "he", 
-                        "text": "שמות", 
-                        "primary": true
+                        "primary": true,
+                        "lang": "he",
+                        "text": "שמות"
                     }
-                ], 
-                "key": "Exodus", 
+                ],
+                "title": "Exodus",
+                "heTitle": "שמות",
                 "heSectionNames": [
-                    "פרק", 
+                    "פרק",
                     "פירוש"
-                ], 
-                "sectionNames": [
-                    "Chapter", 
-                    "Comment"
-                ]
+                ],
+                "key": "Exodus"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Notes and Corrections on Midrash Lekach Tov on Torah"
-            }, 
+            },
             {
-                "lang": "he", 
-                "text": "הערות ותיקונים על מדרש לקח טוב", 
-                "primary": true
-            }, 
+                "primary": true,
+                "lang": "he",
+                "text": "הערות ותיקונים על מדרש לקח טוב"
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "הערות ותיקונים על מדרש לקח טוב על תורה"
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Notes and Corrections on Midrash Lekach Tov", 
-                "primary": true
+                "primary": true,
+                "lang": "en",
+                "text": "Notes and Corrections on Midrash Lekach Tov"
             }
-        ], 
-        "heTitle": "הערות ותיקונים על מדרש לקח טוב", 
-        "key": "Notes and Corrections on Midrash Lekach Tov", 
-        "title": "Notes and Corrections on Midrash Lekach Tov"
-    }
+        ],
+        "title": "Notes and Corrections on Midrash Lekach Tov",
+        "heTitle": "הערות ותיקונים על מדרש לקח טוב",
+        "key": "Notes and Corrections on Midrash Lekach Tov"
+    },
+    "authors": [
+        {
+            "en": "Solomon Buber",
+            "he": "שלמה בובר"
+        }
+    ],
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Midrash Lekach Tov",
+            "he": "מדרש לקח טוב"
+        }
+    ],
+    "collective_title": {
+        "en": "Notes and Corrections",
+        "he": "הערות ותיקונים"
+    },
+    "heTitle": "הערות ותיקונים על מדרש לקח טוב",
+    "titleVariants": [
+        "Notes and Corrections on Midrash Lekach Tov on Torah",
+        "Notes and Corrections on Midrash Lekach Tov"
+    ],
+    "heTitleVariants": [
+        "הערות ותיקונים על מדרש לקח טוב",
+        "הערות ותיקונים על מדרש לקח טוב על תורה"
+    ],
+    "heCategories": [
+        "מדרש",
+        "מדרש אגדה",
+        "מדרש לקח טוב",
+        "מפרשים"
+    ]
 }

@@ -1,110 +1,110 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Esther", 
-            "he": "אסתר"
-        }
-    ], 
-    "heCategories": [
-        "תנ\"ך", 
-        "מפרשים", 
-        "מגילת סתרים"
-    ], 
-    "title": "Megillat Setarim on Esther", 
-    "heTitleVariants": [
-        "מגילת סתרים על אסתר"
-    ], 
-    "collective_title": {
-        "en": "Megillat Setarim", 
-        "he": "מגילת סתרים"
-    }, 
-    "enDesc": "Commentary of the author of 'Netivot HaMishpat' on Megilat Esther.", 
-    "dependence": "Commentary", 
-    "heDesc": "פירוש על מגילת אסתר להרב מליסא, בעל 'נתיבות המשפט'.", 
-    "heTitle": "מגילת סתרים על אסתר", 
-    "authors": [
-        {
-            "en": "Yaakov Lorberbaum", 
-            "he": "יעקב בן יעקב משה מליסא"
-        }
-    ], 
-    "titleVariants": [
-        "Megillat Setarim on Esther"
-    ], 
+    "title": "Megillat Setarim on Esther",
     "categories": [
-        "Tanakh", 
-        "Commentary", 
+        "Tanakh",
+        "Commentary",
         "Megillat Setarim"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "הקדמה", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "הקדמה", 
-                        "primary": true
-                    }
-                ], 
-                "key": "Introduction", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "addressTypes": [
-                    "Perek", 
-                    "Integer", 
-                    "Integer"
-                ], 
-                "default": true, 
-                "title": "", 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Integer",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
+                    "Chapter",
+                    "Verse",
                     "Comment"
-                ], 
-                "toc_zoom": 2
+                ],
+                "toc_zoom": 2,
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "מגילת סתרים על אסתר", 
+                "lang": "he",
+                "text": "מגילת סתרים על אסתר",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Megillat Setarim on Esther", 
+                "lang": "en",
+                "text": "Megillat Setarim on Esther",
                 "primary": true
             }
-        ], 
-        "heTitle": "מגילת סתרים על אסתר", 
-        "key": "Megillat Setarim on Esther", 
-        "title": "Megillat Setarim on Esther"
-    }
+        ],
+        "title": "Megillat Setarim on Esther",
+        "heTitle": "מגילת סתרים על אסתר",
+        "key": "Megillat Setarim on Esther"
+    },
+    "authors": [
+        {
+            "en": "Yaakov Lorberbaum",
+            "he": "יעקב בן יעקב משה מליסא"
+        }
+    ],
+    "enDesc": "Commentary of the author of 'Netivot HaMishpat' on Megilat Esther.",
+    "heDesc": "פירוש על מגילת אסתר להרב מליסא, בעל 'נתיבות המשפט'.",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Esther",
+            "he": "אסתר"
+        }
+    ],
+    "collective_title": {
+        "en": "Megillat Setarim",
+        "he": "מגילת סתרים"
+    },
+    "heTitle": "מגילת סתרים על אסתר",
+    "titleVariants": [
+        "Megillat Setarim on Esther"
+    ],
+    "heTitleVariants": [
+        "מגילת סתרים על אסתר"
+    ],
+    "heCategories": [
+        "תנ\"ך",
+        "מפרשים",
+        "מגילת סתרים"
+    ]
 }

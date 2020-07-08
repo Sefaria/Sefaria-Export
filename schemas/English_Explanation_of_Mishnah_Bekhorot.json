@@ -1,113 +1,114 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Mishnah Bekhorot", 
-            "he": "משנה בכורות"
-        }
-    ], 
-    "heCategories": [
-        "יצירות מודרניות", 
-        "ביאור אנגלי על המשנה", 
-        "סדר קדשים"
-    ], 
-    "title": "English Explanation of Mishnah Bekhorot", 
-    "base_text_mapping": "many_to_one", 
-    "collective_title": {
-        "en": "English Explanation of Mishnah", 
-        "he": "ביאור אנגלי על המשנה"
-    }, 
-    "heTitleVariants": [
-        "ביאור אנגלי על משנה בכורות"
-    ], 
-    "dependence": "Commentary", 
-    "heTitle": "ביאור אנגלי על משנה בכורות", 
-    "authors": [
-        {
-            "en": "Joshua Kulp", 
-            "he": "יהושע מנחם קולפ"
-        }
-    ], 
-    "titleVariants": [
-        "English Explanation of Mishnah Bekhorot"
-    ], 
+    "title": "English Explanation of Mishnah Bekhorot",
     "categories": [
-        "Modern Works", 
-        "English Explanation of Mishnah", 
+        "Modern Works",
+        "English Explanation of Mishnah",
         "Seder Kodashim"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "title": "Introduction", 
-                "heTitle": "הקדמה", 
-                "sharedTitle": "Introduction", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "הקדמה", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "מבוא"
-                    }
-                ], 
-                "key": "intro", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
-                "addressTypes": [
-                    "Integer", 
-                    "Mishnah", 
-                    "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
-                    "פרק", 
-                    "משנה", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "intro"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Integer",
+                    "Mishnah",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Mishnah", 
+                    "Chapter",
+                    "Mishnah",
                     "Comment"
-                ]
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "משנה",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "ביאור אנגלי על משנה בכורות", 
-                "primary": true
-            }, 
+                "primary": true,
+                "lang": "he",
+                "text": "ביאור אנגלי על משנה בכורות"
+            },
             {
-                "lang": "en", 
-                "text": "English Explanation of Mishnah Bekhorot", 
-                "primary": true
+                "primary": true,
+                "lang": "en",
+                "text": "English Explanation of Mishnah Bekhorot"
             }
-        ], 
-        "heTitle": "ביאור אנגלי על משנה בכורות", 
-        "key": "English Explanation of Mishnah Bekhorot", 
-        "title": "English Explanation of Mishnah Bekhorot"
-    }
+        ],
+        "title": "English Explanation of Mishnah Bekhorot",
+        "heTitle": "ביאור אנגלי על משנה בכורות",
+        "key": "English Explanation of Mishnah Bekhorot"
+    },
+    "authors": [
+        {
+            "en": "Joshua Kulp",
+            "he": "יהושע מנחם קולפ"
+        }
+    ],
+    "era": "CO",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Mishnah Bekhorot",
+            "he": "משנה בכורות"
+        }
+    ],
+    "base_text_mapping": "many_to_one",
+    "collective_title": {
+        "en": "English Explanation of Mishnah",
+        "he": "ביאור אנגלי על המשנה"
+    },
+    "heTitle": "ביאור אנגלי על משנה בכורות",
+    "titleVariants": [
+        "English Explanation of Mishnah Bekhorot"
+    ],
+    "heTitleVariants": [
+        "ביאור אנגלי על משנה בכורות"
+    ],
+    "heCategories": [
+        "יצירות מודרניות",
+        "ביאור אנגלי על המשנה",
+        "סדר קדשים"
+    ]
 }

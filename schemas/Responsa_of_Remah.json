@@ -1,141 +1,149 @@
 {
-    "heCategories": [
-        "שו\"ת"
-    ], 
-    "title": "Responsa of Remah", 
-    "heTitleVariants": [
-        "שאלות ותשובות רמ\"א", 
-        "שו\"ת רמ\"א", 
-        "תשובות רמ\"א"
-    ], 
-    "heTitle": "שאלות ותשובות רמ\"א", 
-    "titleVariants": [
-        "Teshuvot Rema", 
-        "Responsa of Rema", 
-        "Responsa Rema", 
-        "Responsa of Remah"
-    ], 
+    "title": "Responsa of Remah",
     "categories": [
         "Responsa"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "title": "Introduction", 
-                "heTitle": "הקדמה", 
-                "sharedTitle": "Introduction", 
-                "depth": 1, 
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Introduction", 
+                        "lang": "en",
+                        "text": "Introduction",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "הקדמה", 
+                        "lang": "he",
+                        "text": "הקדמה",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
+                        "lang": "he",
                         "text": "מבוא"
                     }
-                ], 
-                "key": "intro", 
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
                     "פסקה"
-                ], 
-                "sectionNames": [
-                    "Paragraph"
-                ]
-            }, 
+                ],
+                "key": "intro"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Index", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "לוח המפתחות", 
-                "depth": 1, 
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Index", 
-                        "primary": true
-                    }, 
+                        "primary": true,
+                        "lang": "en",
+                        "text": "Index"
+                    },
                     {
-                        "lang": "he", 
-                        "text": "לוח המפתחות", 
-                        "primary": true
+                        "primary": true,
+                        "lang": "he",
+                        "text": "לוח המפתחות"
                     }
-                ], 
-                "key": "Index", 
+                ],
+                "title": "Index",
+                "heTitle": "לוח המפתחות",
                 "heSectionNames": [
                     "פסקה"
-                ], 
-                "sectionNames": [
-                    "Paragraph"
-                ]
-            }, 
+                ],
+                "key": "Index"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
                 "addressTypes": [
-                    "Siman", 
+                    "Siman",
                     "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 2, 
-                "key": "default", 
-                "heSectionNames": [
-                    "סימן", 
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
-                    "Siman", 
+                    "Siman",
                     "Paragraph"
-                ]
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "סימן",
+                    "פסקה"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Teshuvot Rema"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Responsa of Rema"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Responsa Rema"
-            }, 
+            },
             {
-                "lang": "he", 
-                "text": "שאלות ותשובות רמ\"א", 
-                "primary": true
-            }, 
+                "primary": true,
+                "lang": "he",
+                "text": "שאלות ותשובות רמ\"א"
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "שו\"ת רמ\"א"
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "תשובות רמ\"א"
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Responsa of Remah", 
-                "primary": true
+                "primary": true,
+                "lang": "en",
+                "text": "Responsa of Remah"
             }
-        ], 
-        "heTitle": "שאלות ותשובות רמ\"א", 
-        "key": "Responsa of Remah", 
-        "title": "Responsa of Remah"
-    }
+        ],
+        "title": "Responsa of Remah",
+        "heTitle": "שאלות ותשובות רמ\"א",
+        "key": "Responsa of Remah"
+    },
+    "authors": [
+        {
+            "en": "Moses Isserles",
+            "he": "משה בן ישראל איסרלישׂ"
+        }
+    ],
+    "enDesc": "Responsa by the author of the glosses to Shulchan Arukh (Remah).",
+    "era": "AH",
+    "heTitle": "שאלות ותשובות רמ\"א",
+    "titleVariants": [
+        "Teshuvot Rema",
+        "Responsa of Rema",
+        "Responsa Rema",
+        "Responsa of Remah"
+    ],
+    "heTitleVariants": [
+        "שאלות ותשובות רמ\"א",
+        "שו\"ת רמ\"א",
+        "תשובות רמ\"א"
+    ],
+    "heCategories": [
+        "שו\"ת"
+    ]
 }

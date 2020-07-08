@@ -1,131 +1,131 @@
 {
-    "heTitleVariants": [
-        "דברים טובים על קהלת", 
-        "אלשיך על קהלת"
-    ], 
-    "base_text_titles": [
-        {
-            "en": "Ecclesiastes", 
-            "he": "קהלת"
-        }
-    ], 
-    "heCategories": [
-        "תנ\"ך", 
-        "מפרשים", 
-        "אלשיך", 
-        "כתובים"
-    ], 
-    "pubDate": "1601", 
-    "title": "Devarim Tovim on Ecclesiastes", 
-    "compDate": "1567", 
-    "pubPlace": "Venice", 
-    "collective_title": {
-        "en": "Alshich", 
-        "he": "אלשיך"
-    }, 
-    "enDesc": "Commentary of R' Moshe Alshikh on Ecclestiastes.", 
-    "dependence": "Commentary", 
-    "compDateString": {
-        "en": " (c.1542  - c.1592 CE)", 
-        "he": " (1542 - 1592 לספירה בקירוב)"
-    }, 
-    "heDesc": "פירושו של ר' משה אלשיך על מגילת קהלת.", 
-    "heTitle": "דברים טובים על קהלת", 
-    "era": "AH", 
-    "authors": [
-        {
-            "en": "Alshikh", 
-            "he": "אלשיך"
-        }
-    ], 
-    "titleVariants": [
-        "Alshich on Ecclesiastes", 
-        "Devarim Tovim on Ecclesiastes"
-    ], 
-    "errorMargin": "25", 
+    "title": "Devarim Tovim on Ecclesiastes",
     "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Alshich", 
+        "Tanakh",
+        "Commentary",
+        "Alshich",
         "Writings"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "הקדמה", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "הקדמה", 
-                        "primary": true
-                    }
-                ], 
-                "key": "Introduction", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "addressTypes": [
-                    "Perek", 
-                    "Integer", 
-                    "Integer"
-                ], 
-                "default": true, 
-                "title": "", 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "titles": [
+                    {
+                        "primary": true,
+                        "text": "Introduction",
+                        "lang": "en"
+                    },
+                    {
+                        "primary": true,
+                        "text": "הקדמה",
+                        "lang": "he"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Integer",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
+                    "Chapter",
+                    "Verse",
                     "Comment"
-                ], 
-                "toc_zoom": 2
+                ],
+                "toc_zoom": 2,
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "en", 
-                "text": "Alshich on Ecclesiastes"
-            }, 
+                "text": "Alshich on Ecclesiastes",
+                "lang": "en"
+            },
             {
-                "lang": "he", 
-                "text": "דברים טובים על קהלת", 
-                "primary": true
-            }, 
+                "primary": true,
+                "text": "דברים טובים על קהלת",
+                "lang": "he"
+            },
             {
-                "lang": "he", 
-                "text": "אלשיך על קהלת"
-            }, 
+                "text": "אלשיך על קהלת",
+                "lang": "he"
+            },
             {
-                "lang": "en", 
-                "text": "Devarim Tovim on Ecclesiastes", 
-                "primary": true
+                "primary": true,
+                "text": "Devarim Tovim on Ecclesiastes",
+                "lang": "en"
             }
-        ], 
-        "heTitle": "דברים טובים על קהלת", 
-        "key": "Devarim Tovim on Ecclesiastes", 
-        "title": "Devarim Tovim on Ecclesiastes"
+        ],
+        "title": "Devarim Tovim on Ecclesiastes",
+        "heTitle": "דברים טובים על קהלת",
+        "key": "Devarim Tovim on Ecclesiastes"
+    },
+    "authors": [
+        {
+            "en": "Alshikh",
+            "he": "אלשיך"
+        }
+    ],
+    "enDesc": "Commentary of R' Moshe Alshikh on Ecclestiastes.",
+    "heDesc": "פירושו של ר' משה אלשיך על מגילת קהלת.",
+    "pubDate": "1601",
+    "compDate": "1567",
+    "pubPlace": "Venice",
+    "errorMargin": "25",
+    "era": "AH",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Ecclesiastes",
+            "he": "קהלת"
+        }
+    ],
+    "collective_title": {
+        "en": "Alshich",
+        "he": "אלשיך"
+    },
+    "heTitle": "דברים טובים על קהלת",
+    "titleVariants": [
+        "Alshich on Ecclesiastes",
+        "Devarim Tovim on Ecclesiastes"
+    ],
+    "heTitleVariants": [
+        "דברים טובים על קהלת",
+        "אלשיך על קהלת"
+    ],
+    "heCategories": [
+        "תנ\"ך",
+        "מפרשים",
+        "אלשיך",
+        "כתובים"
+    ],
+    "compDateString": {
+        "en": " (c.1542  - c.1592 CE)",
+        "he": " (1542 - 1592 לספירה בקירוב)"
     }
 }

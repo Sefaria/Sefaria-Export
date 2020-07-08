@@ -1,240 +1,240 @@
 {
-    "heTitleVariants": [
-        "בית שמואל"
-    ], 
-    "base_text_titles": [
-        {
-            "en": "Shulchan Arukh, Even HaEzer", 
-            "he": "אבן העזר"
-        }
-    ], 
-    "heCategories": [
-        "הלכה", 
-        "שולחן ערוך", 
-        "מפרשים", 
-        "בית שמואל"
-    ], 
-    "pubDate": "1691", 
-    "title": "Beit Shmuel", 
-    "compDate": "1689", 
-    "pubPlace": "Dyhernfurth", 
-    "compPlace": "Szydłów, Poland", 
-    "enDesc": "Beit Shmuel is a commentary on the Shulhan Arukh, Even Ha-Ezer. It is printed alongside R. Moses ‎Lima’s Helqat Mehoqeq. The book has two editions; the first was published in 1691 in Dyhrenfurth; the the second, revised edition was published in 1694 at Fürth. It is the second edition which ‎now appears in most versions of the Shulhan Arukh.‎", 
-    "dependence": "Commentary", 
-    "compDateString": {
-        "en": " (c.1684  - c.1694 CE)", 
-        "he": " (1684 - 1694 לספירה בקירוב)"
-    }, 
-    "heDesc": "אחד מנושאי כלים העקריים על שולחן ערוך אבן העזר, נדפס ליד דברי המחבר במקביל לה\"חלקת מחוקק\". יש שתי מהדורות של הספר: הראשון נדפס בשנת 1691 בדיהרנפורט; המהדורה השנייה, המתוקנת, פורסמה ב-1694 בפיורדא, והיא המהדורה אשר מופיעה כעת ברוב הדפוסים של השולחן ערוך.", 
-    "heTitle": "בית שמואל", 
-    "era": "AH", 
-    "authors": [
-        {
-            "en": "Samuel ben Uri Shraga Phoebus", 
-            "he": "שמואל בן ר' אורי שרגא פייבוש"
-        }
-    ], 
-    "titleVariants": [
-        "Bet Shmu'el, Even ha-Ezer", 
-        "<i>Bet Shmu'el, Even ha-Ezer</i>", 
-        "Beit Shmuel"
-    ], 
-    "collective_title": {
-        "en": "Beit Shmuel", 
-        "he": "בית שמואל"
-    }, 
-    "errorMargin": "5", 
+    "title": "Beit Shmuel",
     "categories": [
-        "Halakhah", 
-        "Shulchan Arukh", 
-        "Commentary", 
+        "Halakhah",
+        "Shulchan Arukh",
+        "Commentary",
         "Beit Shmuel"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
                 "addressTypes": [
-                    "Siman", 
+                    "Siman",
                     "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 2, 
-                "key": "default", 
-                "heSectionNames": [
-                    "סימן", 
-                    "סעיף קטן"
-                ], 
+                ],
                 "sectionNames": [
-                    "Siman", 
+                    "Siman",
                     "Seif Katan"
-                ]
-            }, 
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "סימן",
+                    "סעיף קטן"
+                ],
+                "key": "default"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Introduction to Section on Names", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "בית שמואל שמות אנשים ונשים הקדמה", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction to Section on Names", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "בית שמואל שמות אנשים ונשים הקדמה", 
-                        "primary": true
-                    }
-                ], 
-                "key": "intro", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
+                ],
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction to Section on Names",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "בית שמואל שמות אנשים ונשים הקדמה",
+                        "primary": true
+                    }
+                ],
+                "title": "Introduction to Section on Names",
+                "heTitle": "בית שמואל שמות אנשים ונשים הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "intro"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Beit Shmuel on Names for Men", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "בית שמואל שמות אנשים ונשים שמות אנשים", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Beit Shmuel on Names for Men", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "בית שמואל שמות אנשים ונשים שמות אנשים", 
-                        "primary": true
-                    }
-                ], 
-                "key": "men", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
+                ],
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Beit Shmuel on Names for Men",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "בית שמואל שמות אנשים ונשים שמות אנשים",
+                        "primary": true
+                    }
+                ],
+                "title": "Beit Shmuel on Names for Men",
+                "heTitle": "בית שמואל שמות אנשים ונשים שמות אנשים",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "men"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Beit Shmuel on Names for Women", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "בית שמואל שמות אנשים ונשים שמות נשים", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Beit Shmuel on Names for Women", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "בית שמואל שמות אנשים ונשים שמות נשים", 
-                        "primary": true
-                    }
-                ], 
-                "key": "women", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
+                ],
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Beit Shmuel on Names for Women",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "בית שמואל שמות אנשים ונשים שמות נשים",
+                        "primary": true
+                    }
+                ],
+                "title": "Beit Shmuel on Names for Women",
+                "heTitle": "בית שמואל שמות אנשים ונשים שמות נשים",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "women"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Beit Shmuel on Names of Rivers", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "בית שמואל שמות אנשים ונשים שמות עיירות ונהרות", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Beit Shmuel on Names of Rivers", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "בית שמואל שמות אנשים ונשים שמות עיירות ונהרות", 
-                        "primary": true
-                    }
-                ], 
-                "key": "rivers", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
+                ],
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Beit Shmuel on Names of Rivers",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "בית שמואל שמות אנשים ונשים שמות עיירות ונהרות",
+                        "primary": true
+                    }
+                ],
+                "title": "Beit Shmuel on Names of Rivers",
+                "heTitle": "בית שמואל שמות אנשים ונשים שמות עיירות ונהרות",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "rivers"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Beit Shmuel on Names", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "בית שמואל שמות אנשים ונשים כללים", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Beit Shmuel on Names", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "בית שמואל שמות אנשים ונשים כללים", 
-                        "primary": true
-                    }
-                ], 
-                "key": "final", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
+                ],
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Beit Shmuel on Names",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "בית שמואל שמות אנשים ונשים כללים",
+                        "primary": true
+                    }
+                ],
+                "title": "Beit Shmuel on Names",
+                "heTitle": "בית שמואל שמות אנשים ונשים כללים",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "final"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Bet Shmu'el, Even ha-Ezer"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "<i>Bet Shmu'el, Even ha-Ezer</i>"
-            }, 
+            },
             {
-                "lang": "he", 
-                "text": "בית שמואל", 
+                "lang": "he",
+                "text": "בית שמואל",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Beit Shmuel", 
+                "lang": "en",
+                "text": "Beit Shmuel",
                 "primary": true
             }
-        ], 
-        "heTitle": "בית שמואל", 
-        "key": "Beit Shmuel", 
-        "title": "Beit Shmuel"
+        ],
+        "title": "Beit Shmuel",
+        "heTitle": "בית שמואל",
+        "key": "Beit Shmuel"
+    },
+    "authors": [
+        {
+            "en": "Samuel ben Uri Shraga Phoebus",
+            "he": "שמואל בן ר' אורי שרגא פייבוש"
+        }
+    ],
+    "enDesc": "Beit Shmuel is a commentary on the Shulhan Arukh, Even Ha-Ezer. It is printed alongside R. Moses ‎Lima’s Helqat Mehoqeq. The book has two editions; the first was published in 1691 in Dyhrenfurth; the the second, revised edition was published in 1694 at Fürth. It is the second edition which ‎now appears in most versions of the Shulhan Arukh.‎",
+    "heDesc": "אחד מנושאי כלים העקריים על שולחן ערוך אבן העזר, נדפס ליד דברי המחבר במקביל לה\"חלקת מחוקק\". יש שתי מהדורות של הספר: הראשון נדפס בשנת 1691 בדיהרנפורט; המהדורה השנייה, המתוקנת, פורסמה ב-1694 בפיורדא, והיא המהדורה אשר מופיעה כעת ברוב הדפוסים של השולחן ערוך.",
+    "pubDate": "1691",
+    "compDate": "1689",
+    "compPlace": "Szydłów, Poland",
+    "pubPlace": "Dyhernfurth",
+    "errorMargin": "5",
+    "era": "AH",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Shulchan Arukh, Even HaEzer",
+            "he": "אבן העזר"
+        }
+    ],
+    "collective_title": {
+        "en": "Beit Shmuel",
+        "he": "בית שמואל"
+    },
+    "heTitle": "בית שמואל",
+    "titleVariants": [
+        "Bet Shmu'el, Even ha-Ezer",
+        "<i>Bet Shmu'el, Even ha-Ezer</i>",
+        "Beit Shmuel"
+    ],
+    "heTitleVariants": [
+        "בית שמואל"
+    ],
+    "heCategories": [
+        "הלכה",
+        "שולחן ערוך",
+        "מפרשים",
+        "בית שמואל"
+    ],
+    "compDateString": {
+        "en": " (c.1684  - c.1694 CE)",
+        "he": " (1684 - 1694 לספירה בקירוב)"
     }
 }

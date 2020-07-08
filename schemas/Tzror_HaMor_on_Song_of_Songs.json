@@ -1,136 +1,136 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Song of Songs", 
-            "he": "שיר השירים"
-        }
-    ], 
-    "heCategories": [
-        "תנ\"ך", 
-        "מפרשים"
-    ], 
-    "title": "Tzror HaMor on Song of Songs", 
-    "heTitleVariants": [
-        "צרור המור על שיר השירים"
-    ], 
-    "collective_title": {
-        "en": "Tzror HaMor", 
-        "he": "צרור המור"
-    }, 
-    "enDesc": "Commentary on the 'Song of Songs' by the author of 'Netivot HaMishpat.'", 
-    "dependence": "Commentary", 
-    "heDesc": "פירוש על שיר השירים להרב מליסא, בעל 'נתיבות המשפט'.", 
-    "heTitle": "צרור המור על שיר השירים", 
-    "authors": [
-        {
-            "en": "Yaakov Lorberbaum", 
-            "he": "יעקב בן יעקב משה מליסא"
-        }
-    ], 
-    "titleVariants": [
-        "Tzror HaMor on Song of Songs"
-    ], 
+    "title": "Tzror HaMor on Song of Songs",
     "categories": [
-        "Tanakh", 
+        "Tanakh",
         "Commentary"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "הקדמה", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "הקדמה", 
-                        "primary": true
-                    }
-                ], 
-                "key": "Introduction", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Foreword", 
-                "addressTypes": [
-                    "Integer"
-                ], 
-                "heTitle": "פתיחה", 
-                "depth": 1, 
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Foreword", 
+                        "lang": "en",
+                        "text": "Introduction",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "פתיחה", 
+                        "lang": "he",
+                        "text": "הקדמה",
                         "primary": true
                     }
-                ], 
-                "key": "Foreword", 
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
                     "פסקה"
-                ], 
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "addressTypes": [
-                    "Perek", 
-                    "Integer", 
-                    "Integer"
-                ], 
-                "default": true, 
-                "title": "", 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Foreword",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "פתיחה",
+                        "primary": true
+                    }
+                ],
+                "title": "Foreword",
+                "heTitle": "פתיחה",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "Foreword"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Integer",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
+                    "Chapter",
+                    "Verse",
                     "Comment"
-                ], 
-                "toc_zoom": 2
+                ],
+                "toc_zoom": 2,
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "צרור המור על שיר השירים", 
+                "lang": "he",
+                "text": "צרור המור על שיר השירים",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Tzror HaMor on Song of Songs", 
+                "lang": "en",
+                "text": "Tzror HaMor on Song of Songs",
                 "primary": true
             }
-        ], 
-        "heTitle": "צרור המור על שיר השירים", 
-        "key": "Tzror HaMor on Song of Songs", 
-        "title": "Tzror HaMor on Song of Songs"
-    }
+        ],
+        "title": "Tzror HaMor on Song of Songs",
+        "heTitle": "צרור המור על שיר השירים",
+        "key": "Tzror HaMor on Song of Songs"
+    },
+    "authors": [
+        {
+            "en": "Yaakov Lorberbaum",
+            "he": "יעקב בן יעקב משה מליסא"
+        }
+    ],
+    "enDesc": "Commentary on the 'Song of Songs' by the author of 'Netivot HaMishpat.'",
+    "heDesc": "פירוש על שיר השירים להרב מליסא, בעל 'נתיבות המשפט'.",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Song of Songs",
+            "he": "שיר השירים"
+        }
+    ],
+    "collective_title": {
+        "en": "Tzror HaMor",
+        "he": "צרור המור"
+    },
+    "heTitle": "צרור המור על שיר השירים",
+    "titleVariants": [
+        "Tzror HaMor on Song of Songs"
+    ],
+    "heTitleVariants": [
+        "צרור המור על שיר השירים"
+    ],
+    "heCategories": [
+        "תנ\"ך",
+        "מפרשים"
+    ]
 }

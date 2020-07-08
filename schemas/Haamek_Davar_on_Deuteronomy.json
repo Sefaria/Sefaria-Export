@@ -1,246 +1,246 @@
 {
-    "is_cited": true, 
-    "base_text_titles": [
-        {
-            "en": "Deuteronomy", 
-            "he": "ספר דברים"
-        }
-    ], 
-    "heCategories": [
-        "תנ\"ך", 
-        "מפרשים", 
-        "העמק דבר", 
-        "תורה"
-    ], 
-    "pubDate": "1879", 
-    "title": "Haamek Davar on Deuteronomy", 
-    "base_text_mapping": "many_to_one", 
-    "pubPlace": "Vilna", 
-    "compPlace": "Valozhyn", 
-    "enDesc": "Written by Naftali Zvi Yehuda Berlin (1816-1893), also known as the Netziv, Haamek Davar is a commentary on the Torah. The commentary is mostly based on the Netziv’s Parashat Hashavua shiur in the Volozhin Yeshiva.", 
-    "dependence": "Commentary", 
-    "heTitleVariants": [
-        "העמק דבר על דברים", 
-        "העמק דבר על התורה על דברים", 
-        "העמק דבר על התורה על דברי'", 
-        "העמק דבר על התורה על דברי׳", 
-        "העמק דבר על דברי'", 
-        "העמק דבר על דברי׳", 
-        "הנצ\"יב על התורה על דברים", 
-        "הנצ\"יב על התורה על דברי'", 
-        "הנצ\"יב על התורה על דברי׳"
-    ], 
-    "compPlaceString": {
-        "en": "Valozhyn", 
-        "he": "וולוז'ין"
-    }, 
-    "heDesc": "נכתב על ידי ר' נפתלי צבי יהודה ברלין (1816-1893), הידוע גם בשם \"הנצי\"ב\". \"העמק דבר\" הוא פירוש על התורה, המבוסס בעיקר על שיעורים בפרשת השבוע שמסר הנצי\"ב בישיבת וולוז'ין.", 
-    "heTitle": "העמק דבר על דברים", 
-    "era": "AH", 
-    "authors": [
-        {
-            "en": "Naphtali Zevi Yehudah Berlin", 
-            "he": "נפתלי צבי יהודה ברלין"
-        }
-    ], 
-    "titleVariants": [
-        "Hanatziv on the tora on Deu.", 
-        "Hanatziv on the tora on Devarim", 
-        "Hanatziv on the tora on Deu", 
-        "Hanatziv on the tora on Deut.", 
-        "Hanatziv on the tora on Deut", 
-        "Hanatziv on the tora on Deuteronomy", 
-        "Haamek Davar on the tora on Deu.", 
-        "Haamek Davar on the tora on Devarim", 
-        "Haamek Davar on the tora on Deu", 
-        "Haamek Davar on the tora on Deut.", 
-        "Haamek Davar on the tora on Deut", 
-        "Haamek Davar on the tora on Deuteronomy", 
-        "Haamek Davar on Deu.", 
-        "Haamek Davar on Devarim", 
-        "Haamek Davar on Deu", 
-        "Haamek Davar on Deut.", 
-        "Haamek Davar on Deut", 
-        "Haamek Davar on Deuteronomy"
-    ], 
-    "collective_title": {
-        "en": "Haamek Davar", 
-        "he": "העמק דבר"
-    }, 
+    "title": "Haamek Davar on Deuteronomy",
     "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Haamek Davar", 
+        "Tanakh",
+        "Commentary",
+        "Haamek Davar",
         "Torah"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Introduction to Deuteronomy", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "פתיחה לספר דברים", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction to Deuteronomy", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "פתיחה לספר דברים", 
-                        "primary": true
-                    }
-                ], 
-                "key": "Introduction to Deuteronomy", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
-                "addressTypes": [
-                    "Perek", 
-                    "Integer", 
-                    "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction to Deuteronomy",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "פתיחה לספר דברים",
+                        "primary": true
+                    }
+                ],
+                "title": "Introduction to Deuteronomy",
+                "heTitle": "פתיחה לספר דברים",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "Introduction to Deuteronomy"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Integer",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
+                    "Chapter",
+                    "Verse",
                     "Comment"
-                ]
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Hanatziv on the tora on Deu."
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Hanatziv on the tora on Devarim"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Hanatziv on the tora on Deu"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Hanatziv on the tora on Deut."
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Hanatziv on the tora on Deut"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Hanatziv on the tora on Deuteronomy"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Haamek Davar on the tora on Deu."
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Haamek Davar on the tora on Devarim"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Haamek Davar on the tora on Deu"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Haamek Davar on the tora on Deut."
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Haamek Davar on the tora on Deut"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Haamek Davar on the tora on Deuteronomy"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Haamek Davar on Deu."
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Haamek Davar on Devarim"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Haamek Davar on Deu"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Haamek Davar on Deut."
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Haamek Davar on Deut"
-            }, 
+            },
             {
-                "lang": "he", 
-                "text": "העמק דבר על דברים", 
+                "lang": "he",
+                "text": "העמק דבר על דברים",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "העמק דבר על התורה על דברים"
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "העמק דבר על התורה על דברי'"
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "העמק דבר על התורה על דברי׳"
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "העמק דבר על דברי'"
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "העמק דבר על דברי׳"
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "הנצ\"יב על התורה על דברים"
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "הנצ\"יב על התורה על דברי'"
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "הנצ\"יב על התורה על דברי׳"
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Haamek Davar on Deuteronomy", 
+                "lang": "en",
+                "text": "Haamek Davar on Deuteronomy",
                 "primary": true
             }
-        ], 
-        "heTitle": "העמק דבר על דברים", 
-        "key": "Haamek Davar on Deuteronomy", 
-        "title": "Haamek Davar on Deuteronomy"
+        ],
+        "title": "Haamek Davar on Deuteronomy",
+        "heTitle": "העמק דבר על דברים",
+        "key": "Haamek Davar on Deuteronomy"
+    },
+    "authors": [
+        {
+            "en": "Naphtali Zevi Yehudah Berlin",
+            "he": "נפתלי צבי יהודה ברלין"
+        }
+    ],
+    "enDesc": "Written by Naftali Zvi Yehuda Berlin (1816-1893), also known as the Netziv, Haamek Davar is a commentary on the Torah. The commentary is mostly based on the Netziv’s Parashat Hashavua shiur in the Volozhin Yeshiva.",
+    "heDesc": "נכתב על ידי ר' נפתלי צבי יהודה ברלין (1816-1893), הידוע גם בשם \"הנצי\"ב\". \"העמק דבר\" הוא פירוש על התורה, המבוסס בעיקר על שיעורים בפרשת השבוע שמסר הנצי\"ב בישיבת וולוז'ין.",
+    "pubDate": "1879",
+    "compPlace": "Valozhyn",
+    "pubPlace": "Vilna",
+    "era": "AH",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Deuteronomy",
+            "he": "ספר דברים"
+        }
+    ],
+    "base_text_mapping": "many_to_one",
+    "collective_title": {
+        "en": "Haamek Davar",
+        "he": "העמק דבר"
+    },
+    "is_cited": true,
+    "heTitle": "העמק דבר על דברים",
+    "titleVariants": [
+        "Hanatziv on the tora on Deu.",
+        "Hanatziv on the tora on Devarim",
+        "Hanatziv on the tora on Deu",
+        "Hanatziv on the tora on Deut.",
+        "Hanatziv on the tora on Deut",
+        "Hanatziv on the tora on Deuteronomy",
+        "Haamek Davar on the tora on Deu.",
+        "Haamek Davar on the tora on Devarim",
+        "Haamek Davar on the tora on Deu",
+        "Haamek Davar on the tora on Deut.",
+        "Haamek Davar on the tora on Deut",
+        "Haamek Davar on the tora on Deuteronomy",
+        "Haamek Davar on Deu.",
+        "Haamek Davar on Devarim",
+        "Haamek Davar on Deu",
+        "Haamek Davar on Deut.",
+        "Haamek Davar on Deut",
+        "Haamek Davar on Deuteronomy"
+    ],
+    "heTitleVariants": [
+        "העמק דבר על דברים",
+        "העמק דבר על התורה על דברים",
+        "העמק דבר על התורה על דברי'",
+        "העמק דבר על התורה על דברי׳",
+        "העמק דבר על דברי'",
+        "העמק דבר על דברי׳",
+        "הנצ\"יב על התורה על דברים",
+        "הנצ\"יב על התורה על דברי'",
+        "הנצ\"יב על התורה על דברי׳"
+    ],
+    "heCategories": [
+        "תנ\"ך",
+        "מפרשים",
+        "העמק דבר",
+        "תורה"
+    ],
+    "compPlaceString": {
+        "en": "Valozhyn",
+        "he": "וולוז'ין"
     }
 }

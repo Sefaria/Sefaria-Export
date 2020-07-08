@@ -1,113 +1,113 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Tractate Derekh Eretz Zuta", 
-            "he": "מסכת דרך ארץ זוטא"
-        }
-    ], 
-    "heCategories": [
-        "ספרות תנאית", 
-        "מפרשים", 
-        "נחלת יעקב", 
-        "מסכתות קטנות"
-    ], 
-    "title": "Nahalat Yaakov on Tractate Derekh Eretz Zuta", 
-    "heTitleVariants": [
-        "נחלת יעקב על מסכת דרך ארץ זוטא"
-    ], 
-    "collective_title": {
-        "en": "Nahalat Yaakov", 
-        "he": "נחלת יעקב"
-    }, 
-    "enDesc": "Commentary on the minor tractates of the Talmud, written by Rabbi Jacob Naumberg (Germany, C.1560 - C.1938). Nahalat Yaakov is printed in the Vilna edition. ", 
-    "dependence": "Commentary", 
-    "heTitle": "נחלת יעקב על מסכת דרך ארץ זוטא", 
-    "authors": [
-        {
-            "en": "Jacob Naumberg", 
-            "he": "יעקב (יאקב) נאומבורג"
-        }
-    ], 
-    "titleVariants": [
-        "Nahalat Yaakov on Tractate Derekh Eretz Zuta"
-    ], 
+    "title": "Nahalat Yaakov on Tractate Derekh Eretz Zuta",
     "categories": [
-        "Tanaitic", 
-        "Commentary", 
-        "Nahalat Yaakov", 
+        "Tanaitic",
+        "Commentary",
+        "Nahalat Yaakov",
         "Minor Tractates"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Halakhah", 
+                    "Perek",
+                    "Halakhah",
                     "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
-                "heSectionNames": [
-                    "פרק", 
-                    "הלכה", 
-                    "פירוש"
-                ], 
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Halakhah", 
+                    "Chapter",
+                    "Halakhah",
                     "Comment"
-                ]
-            }, 
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "הלכה",
+                    "פירוש"
+                ],
+                "key": "default"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Section on Peace", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
                 "addressTypes": [
-                    "Halakhah", 
+                    "Halakhah",
                     "Integer"
-                ], 
-                "heTitle": "פרק השלום", 
-                "depth": 2, 
+                ],
+                "sectionNames": [
+                    "Halakhah",
+                    "Comment"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Section on Peace", 
+                        "lang": "en",
+                        "text": "Section on Peace",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "פרק השלום", 
+                        "lang": "he",
+                        "text": "פרק השלום",
                         "primary": true
                     }
-                ], 
-                "key": "Section on Peace", 
+                ],
+                "title": "Section on Peace",
+                "heTitle": "פרק השלום",
                 "heSectionNames": [
-                    "הלכה", 
+                    "הלכה",
                     "פירוש"
-                ], 
-                "sectionNames": [
-                    "Halakhah", 
-                    "Comment"
-                ]
+                ],
+                "key": "Section on Peace"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "נחלת יעקב על מסכת דרך ארץ זוטא", 
+                "lang": "he",
+                "text": "נחלת יעקב על מסכת דרך ארץ זוטא",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Nahalat Yaakov on Tractate Derekh Eretz Zuta", 
+                "lang": "en",
+                "text": "Nahalat Yaakov on Tractate Derekh Eretz Zuta",
                 "primary": true
             }
-        ], 
-        "heTitle": "נחלת יעקב על מסכת דרך ארץ זוטא", 
-        "key": "Nahalat Yaakov on Tractate Derekh Eretz Zuta", 
-        "title": "Nahalat Yaakov on Tractate Derekh Eretz Zuta"
-    }
+        ],
+        "title": "Nahalat Yaakov on Tractate Derekh Eretz Zuta",
+        "heTitle": "נחלת יעקב על מסכת דרך ארץ זוטא",
+        "key": "Nahalat Yaakov on Tractate Derekh Eretz Zuta"
+    },
+    "authors": [
+        {
+            "en": "Jacob Naumberg",
+            "he": "יעקב (יאקב) נאומבורג"
+        }
+    ],
+    "enDesc": "Commentary on the minor tractates of the Talmud, written by Rabbi Jacob Naumberg (Germany, C.1560 - C.1938). Nahalat Yaakov is printed in the Vilna edition. ",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Tractate Derekh Eretz Zuta",
+            "he": "מסכת דרך ארץ זוטא"
+        }
+    ],
+    "collective_title": {
+        "en": "Nahalat Yaakov",
+        "he": "נחלת יעקב"
+    },
+    "heTitle": "נחלת יעקב על מסכת דרך ארץ זוטא",
+    "titleVariants": [
+        "Nahalat Yaakov on Tractate Derekh Eretz Zuta"
+    ],
+    "heTitleVariants": [
+        "נחלת יעקב על מסכת דרך ארץ זוטא"
+    ],
+    "heCategories": [
+        "ספרות תנאית",
+        "מפרשים",
+        "נחלת יעקב",
+        "מסכתות קטנות"
+    ]
 }

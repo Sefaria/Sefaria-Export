@@ -1,97 +1,106 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Esther", 
-            "he": "אסתר"
-        }
-    ], 
-    "heCategories": [
-        "תנ\"ך", 
-        "מפרשים"
-    ], 
-    "title": "Shelom Esther", 
-    "base_text_mapping": "many_to_one", 
-    "heTitleVariants": [
-        "שלום אסתר"
-    ], 
-    "dependence": "Commentary", 
-    "heTitle": "שלום אסתר", 
-    "titleVariants": [
-        "Shelom Esther"
-    ], 
+    "title": "Shelom Esther",
     "categories": [
-        "Tanakh", 
+        "Tanakh",
         "Commentary"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "פתיחה", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "פתיחה", 
-                        "primary": true
-                    }
-                ], 
-                "key": "Introduction", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "addressTypes": [
-                    "Integer", 
-                    "Integer", 
-                    "Integer"
-                ], 
-                "default": true, 
-                "title": "", 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "titles": [
+                    {
+                        "primary": true,
+                        "lang": "en",
+                        "text": "Introduction"
+                    },
+                    {
+                        "primary": true,
+                        "lang": "he",
+                        "text": "פתיחה"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "פתיחה",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Integer",
+                    "Integer",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
+                    "Chapter",
+                    "Verse",
                     "Comment"
-                ], 
-                "toc_zoom": 2
+                ],
+                "toc_zoom": 2,
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "שלום אסתר", 
-                "primary": true
-            }, 
+                "primary": true,
+                "lang": "he",
+                "text": "שלום אסתר"
+            },
             {
-                "lang": "en", 
-                "text": "Shelom Esther", 
-                "primary": true
+                "primary": true,
+                "lang": "en",
+                "text": "Shelom Esther"
             }
-        ], 
-        "heTitle": "שלום אסתר", 
-        "key": "Shelom Esther", 
-        "title": "Shelom Esther"
-    }
+        ],
+        "title": "Shelom Esther",
+        "heTitle": "שלום אסתר",
+        "key": "Shelom Esther"
+    },
+    "authors": [
+        {
+            "en": "Yitzhak ben Mordekhai Gershon",
+            "he": "יצחק בן מרדכי גרשון"
+        }
+    ],
+    "pubDate": "1580",
+    "pubPlace": "Constantinople",
+    "era": "AH",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Esther",
+            "he": "אסתר"
+        }
+    ],
+    "base_text_mapping": "many_to_one",
+    "heTitle": "שלום אסתר",
+    "titleVariants": [
+        "Shelom Esther"
+    ],
+    "heTitleVariants": [
+        "שלום אסתר"
+    ],
+    "heCategories": [
+        "תנ\"ך",
+        "מפרשים"
+    ]
 }

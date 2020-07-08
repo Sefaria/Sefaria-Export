@@ -1,80 +1,81 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Mishnah Berakhot", 
-            "he": "משנה ברכות"
-        }
-    ], 
-    "heCategories": [
-        "יצירות מודרניות", 
-        "ביאור אנגלי על המשנה", 
-        "סדר זרעים"
-    ], 
-    "title": "English Explanation of Mishnah Berakhot", 
-    "base_text_mapping": "many_to_one", 
-    "collective_title": {
-        "en": "English Explanation of Mishnah", 
-        "he": "ביאור אנגלי על המשנה"
-    }, 
-    "heTitleVariants": [
-        "ביאור אנגלי על משנה ברכות"
-    ], 
-    "dependence": "Commentary", 
-    "heTitle": "ביאור אנגלי על משנה ברכות", 
-    "authors": [
-        {
-            "en": "Joshua Kulp", 
-            "he": "יהושע מנחם קולפ"
-        }
-    ], 
-    "titleVariants": [
-        "English Explanation of Mishnah Berakhot"
-    ], 
+    "title": "English Explanation of Mishnah Berakhot",
     "categories": [
-        "Modern Works", 
-        "English Explanation of Mishnah", 
+        "Modern Works",
+        "English Explanation of Mishnah",
         "Seder Zeraim"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Integer", 
-                    "Mishnah", 
+                    "Integer",
+                    "Mishnah",
                     "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
-                "heSectionNames": [
-                    "פרק", 
-                    "משנה", 
-                    "פירוש"
-                ], 
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Mishnah", 
+                    "Chapter",
+                    "Mishnah",
                     "Comment"
-                ]
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "משנה",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "ביאור אנגלי על משנה ברכות", 
-                "primary": true
-            }, 
+                "primary": true,
+                "lang": "he",
+                "text": "ביאור אנגלי על משנה ברכות"
+            },
             {
-                "lang": "en", 
-                "text": "English Explanation of Mishnah Berakhot", 
-                "primary": true
+                "primary": true,
+                "lang": "en",
+                "text": "English Explanation of Mishnah Berakhot"
             }
-        ], 
-        "heTitle": "ביאור אנגלי על משנה ברכות", 
-        "key": "English Explanation of Mishnah Berakhot", 
-        "title": "English Explanation of Mishnah Berakhot"
-    }
+        ],
+        "title": "English Explanation of Mishnah Berakhot",
+        "heTitle": "ביאור אנגלי על משנה ברכות",
+        "key": "English Explanation of Mishnah Berakhot"
+    },
+    "authors": [
+        {
+            "en": "Joshua Kulp",
+            "he": "יהושע מנחם קולפ"
+        }
+    ],
+    "era": "CO",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Mishnah Berakhot",
+            "he": "משנה ברכות"
+        }
+    ],
+    "base_text_mapping": "many_to_one",
+    "collective_title": {
+        "en": "English Explanation of Mishnah",
+        "he": "ביאור אנגלי על המשנה"
+    },
+    "heTitle": "ביאור אנגלי על משנה ברכות",
+    "titleVariants": [
+        "English Explanation of Mishnah Berakhot"
+    ],
+    "heTitleVariants": [
+        "ביאור אנגלי על משנה ברכות"
+    ],
+    "heCategories": [
+        "יצירות מודרניות",
+        "ביאור אנגלי על המשנה",
+        "סדר זרעים"
+    ]
 }

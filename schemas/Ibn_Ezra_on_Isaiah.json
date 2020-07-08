@@ -1,183 +1,183 @@
 {
-    "is_cited": true, 
-    "base_text_titles": [
-        {
-            "en": "Isaiah", 
-            "he": "ישעיהו"
-        }
-    ], 
-    "heCategories": [
-        "תנ\"ך", 
-        "מפרשים", 
-        "אבן עזרא", 
-        "נביאים"
-    ], 
-    "pubDate": "1524", 
-    "title": "Ibn Ezra on Isaiah", 
-    "compDate": "1160", 
-    "pubPlace": "Venice", 
-    "compPlace": "Middle-Age France/Italy/England", 
-    "enDesc": "Ibn Ezra’s commentary on the Tanakh reflects his knowledge as a Hebrew grammarian and philologist. His commentary is terse and aims to discover the pshat, the contextual meaning, of the text. Ibn Ezra was known for his independent ideas which aroused much controversy. Many view Ibn Ezra as the forefather of Biblical criticism. As an example, in the last chapter of Sefer Devarim (34:10), Ibn Ezra comments that Joshua, and not Moshe, wrote from this point until the end of the Torah.  ", 
-    "dependence": "Commentary", 
-    "heTitleVariants": [
-        "אבן עזרא על ישעיהו", 
-        "אבן עזרא על ישעיה", 
-        "אבן עזרא על ישעי׳", 
-        "אבן עזרא על ישעי'"
-    ], 
-    "compPlaceString": {
-        "en": "Middle-Age France/Italy/England", 
-        "he": "צרפת / איטליה / אנגליה של ימי הביניים"
-    }, 
-    "compDateString": {
-        "en": " (c.1155  - c.1165 CE)", 
-        "he": " (1155 - 1165 לספירה בקירוב)"
-    }, 
-    "heTitle": "אבן עזרא על ישעיהו", 
-    "era": "RI", 
-    "authors": [
-        {
-            "en": "Ibn Ezra", 
-            "he": "אבן עזרא"
-        }
-    ], 
-    "titleVariants": [
-        "Ibn Ezra on Isa.", 
-        "Ibn Ezra on Yishayahu", 
-        "Ibn Ezra on Isa", 
-        "Ibn Ezra on Isaiah"
-    ], 
-    "collective_title": {
-        "en": "Ibn Ezra", 
-        "he": "אבן עזרא"
-    }, 
-    "errorMargin": "5", 
+    "title": "Ibn Ezra on Isaiah",
     "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Ibn Ezra", 
+        "Tanakh",
+        "Commentary",
+        "Ibn Ezra",
         "Prophets"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Prelude", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "פתיחה", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Prelude", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "פתיחה", 
-                        "primary": true
-                    }
-                ], 
-                "key": "Prelude", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
-                "addressTypes": [
-                    "Perek", 
-                    "Integer", 
-                    "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Prelude",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "פתיחה",
+                        "primary": true
+                    }
+                ],
+                "title": "Prelude",
+                "heTitle": "פתיחה",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "Prelude"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Integer",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
+                    "Chapter",
+                    "Verse",
                     "Comment"
-                ]
-            }, 
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Translators Foreword", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "הקדמת המתרגם", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Translators Foreword", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "הקדמת המתרגם", 
-                        "primary": true
-                    }
-                ], 
-                "key": "Translators Foreword", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
+                ],
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Translators Foreword",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמת המתרגם",
+                        "primary": true
+                    }
+                ],
+                "title": "Translators Foreword",
+                "heTitle": "הקדמת המתרגם",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Translators Foreword"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Ibn Ezra on Isa."
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Ibn Ezra on Yishayahu"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Ibn Ezra on Isa"
-            }, 
+            },
             {
-                "lang": "he", 
-                "text": "אבן עזרא על ישעיהו", 
+                "lang": "he",
+                "text": "אבן עזרא על ישעיהו",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "אבן עזרא על ישעיה"
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "אבן עזרא על ישעי׳"
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "אבן עזרא על ישעי'"
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Ibn Ezra on Isaiah", 
+                "lang": "en",
+                "text": "Ibn Ezra on Isaiah",
                 "primary": true
             }
-        ], 
-        "heTitle": "אבן עזרא על ישעיהו", 
-        "key": "Ibn Ezra on Isaiah", 
-        "title": "Ibn Ezra on Isaiah"
+        ],
+        "title": "Ibn Ezra on Isaiah",
+        "heTitle": "אבן עזרא על ישעיהו",
+        "key": "Ibn Ezra on Isaiah"
+    },
+    "authors": [
+        {
+            "en": "Ibn Ezra",
+            "he": "אבן עזרא"
+        }
+    ],
+    "enDesc": "Ibn Ezra’s commentary on the Tanakh reflects his knowledge as a Hebrew grammarian and philologist. His commentary is terse and aims to discover the pshat, the contextual meaning, of the text. Ibn Ezra was known for his independent ideas which aroused much controversy. Many view Ibn Ezra as the forefather of Biblical criticism. As an example, in the last chapter of Sefer Devarim (34:10), Ibn Ezra comments that Joshua, and not Moshe, wrote from this point until the end of the Torah.  ",
+    "pubDate": "1524",
+    "compDate": "1160",
+    "compPlace": "Middle-Age France/Italy/England",
+    "pubPlace": "Venice",
+    "errorMargin": "5",
+    "era": "RI",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Isaiah",
+            "he": "ישעיהו"
+        }
+    ],
+    "collective_title": {
+        "en": "Ibn Ezra",
+        "he": "אבן עזרא"
+    },
+    "is_cited": true,
+    "heTitle": "אבן עזרא על ישעיהו",
+    "titleVariants": [
+        "Ibn Ezra on Isa.",
+        "Ibn Ezra on Yishayahu",
+        "Ibn Ezra on Isa",
+        "Ibn Ezra on Isaiah"
+    ],
+    "heTitleVariants": [
+        "אבן עזרא על ישעיהו",
+        "אבן עזרא על ישעיה",
+        "אבן עזרא על ישעי׳",
+        "אבן עזרא על ישעי'"
+    ],
+    "heCategories": [
+        "תנ\"ך",
+        "מפרשים",
+        "אבן עזרא",
+        "נביאים"
+    ],
+    "compDateString": {
+        "en": " (c.1155  - c.1165 CE)",
+        "he": " (1155 - 1165 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Middle-Age France/Italy/England",
+        "he": "צרפת / איטליה / אנגליה של ימי הביניים"
     }
 }

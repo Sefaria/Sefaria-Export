@@ -1,117 +1,117 @@
 {
-    "heTitleVariants": [
-        "מחיר יין"
-    ], 
-    "base_text_titles": [
-        {
-            "en": "Esther", 
-            "he": "אסתר"
-        }
-    ], 
-    "heCategories": [
-        "תנ\"ך", 
-        "מפרשים"
-    ], 
-    "pubDate": "1559", 
-    "title": "Mechir Yayin on Esther", 
-    "compDate": "1555", 
-    "pubPlace": "Cremona", 
-    "compPlace": "Szydłów, Poland", 
-    "enDesc": "Allegorical commentary on the Book of Esther by R' Moshe Isserlis (Rama). It was written in his youth one Purim under difficult circumstances, and presented to his family in lieu of mishloach manot.", 
-    "dependence": "Commentary", 
-    "compDateString": {
-        "en": " (1555 CE)", 
-        "he": " (1555 לספירה)"
-    }, 
-    "heDesc": "חיבורו של הרמ\"א על מגילת אסתר, בו הוא מדמה את סיפורי המגילה לימי חייו של אדם מצעירותו ועד סוף ימיו. הרקע לחיבור הספר - בשנת 1555 פרצה באזור העיר קרקוב מגיפה, ומשפחת המחבר נאלצה לנדוד מן המקום ולהגר לעיירה שידלוב. חייהם של הפליטים שם היו קשים ביותר, ומצבם הכלכלי לא אפשר להם לקיים את מצוות הפורים (סעודה, משלוח מנות ומתנות לאביונים). המחבר הצעיר, כבן 17, הקדיש את החיבור לאביו, במקום משלוח מנות שלא היה בהישג ידו. שם הספר 'מחיר יין' לקוח מספר ישעיה (נ\"ה,א) \"הוֹי כָּל צָמֵא לְכוּ לַמַּיִם, וַאֲשֶׁר אֵין לוֹ כָּסֶף; לְכוּ שִׁבְרוּ, וֶאֱכֹלוּ, וּלְכוּ שִׁבְרוּ בְּלוֹא כֶסֶף וּבְלוֹא מְחִיר, יַיִן וְחָלָב\", כשהכוונה היא כי במחירו של יין, אותו היה אמור לתת כמשלוח מנות לאביו, הוא נותן לו את פירושו למגילת אסתר.", 
-    "heTitle": "מחיר יין", 
-    "era": "AH", 
-    "authors": [
-        {
-            "en": "Moses Isserles", 
-            "he": "משה בן ישראל איסרלישׂ"
-        }
-    ], 
-    "titleVariants": [
-        "Mechir Yayin on Esther"
-    ], 
-    "collective_title": {
-        "en": "Mechir Yayin", 
-        "he": "מחיר יין"
-    }, 
+    "title": "Mechir Yayin on Esther",
     "categories": [
-        "Tanakh", 
+        "Tanakh",
         "Commentary"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "הקדמה", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "הקדמה", 
-                        "primary": true
-                    }
-                ], 
-                "key": "Introduction", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "addressTypes": [
-                    "Perek", 
-                    "Integer", 
-                    "Integer"
-                ], 
-                "default": true, 
-                "title": "", 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "titles": [
+                    {
+                        "primary": true,
+                        "text": "Introduction",
+                        "lang": "en"
+                    },
+                    {
+                        "primary": true,
+                        "text": "הקדמה",
+                        "lang": "he"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Integer",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
+                    "Chapter",
+                    "Verse",
                     "Comment"
-                ], 
-                "toc_zoom": 2
+                ],
+                "toc_zoom": 2,
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "מחיר יין", 
-                "primary": true
-            }, 
+                "primary": true,
+                "text": "מחיר יין",
+                "lang": "he"
+            },
             {
-                "lang": "en", 
-                "text": "Mechir Yayin on Esther", 
-                "primary": true
+                "primary": true,
+                "text": "Mechir Yayin on Esther",
+                "lang": "en"
             }
-        ], 
-        "heTitle": "מחיר יין", 
-        "key": "Mechir Yayin on Esther", 
-        "title": "Mechir Yayin on Esther"
+        ],
+        "title": "Mechir Yayin on Esther",
+        "heTitle": "מחיר יין",
+        "key": "Mechir Yayin on Esther"
+    },
+    "authors": [
+        {
+            "en": "Moses Isserles",
+            "he": "משה בן ישראל איסרלישׂ"
+        }
+    ],
+    "enDesc": "Allegorical commentary on the Book of Esther by R' Moshe Isserlis (Rama). It was written in his youth one Purim under difficult circumstances, and presented to his family in lieu of mishloach manot.",
+    "heDesc": "חיבורו של הרמ\"א על מגילת אסתר, בו הוא מדמה את סיפורי המגילה לימי חייו של אדם מצעירותו ועד סוף ימיו. הרקע לחיבור הספר - בשנת 1555 פרצה באזור העיר קרקוב מגיפה, ומשפחת המחבר נאלצה לנדוד מן המקום ולהגר לעיירה שידלוב. חייהם של הפליטים שם היו קשים ביותר, ומצבם הכלכלי לא אפשר להם לקיים את מצוות הפורים (סעודה, משלוח מנות ומתנות לאביונים). המחבר הצעיר, כבן 17, הקדיש את החיבור לאביו, במקום משלוח מנות שלא היה בהישג ידו. שם הספר 'מחיר יין' לקוח מספר ישעיה (נ\"ה,א) \"הוֹי כָּל צָמֵא לְכוּ לַמַּיִם, וַאֲשֶׁר אֵין לוֹ כָּסֶף; לְכוּ שִׁבְרוּ, וֶאֱכֹלוּ, וּלְכוּ שִׁבְרוּ בְּלוֹא כֶסֶף וּבְלוֹא מְחִיר, יַיִן וְחָלָב\", כשהכוונה היא כי במחירו של יין, אותו היה אמור לתת כמשלוח מנות לאביו, הוא נותן לו את פירושו למגילת אסתר.",
+    "pubDate": "1559",
+    "compDate": "1555",
+    "compPlace": "Szydłów, Poland",
+    "pubPlace": "Cremona",
+    "era": "AH",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Esther",
+            "he": "אסתר"
+        }
+    ],
+    "collective_title": {
+        "en": "Mechir Yayin",
+        "he": "מחיר יין"
+    },
+    "heTitle": "מחיר יין",
+    "titleVariants": [
+        "Mechir Yayin on Esther"
+    ],
+    "heTitleVariants": [
+        "מחיר יין"
+    ],
+    "heCategories": [
+        "תנ\"ך",
+        "מפרשים"
+    ],
+    "compDateString": {
+        "en": " (1555 CE)",
+        "he": " (1555 לספירה)"
     }
 }

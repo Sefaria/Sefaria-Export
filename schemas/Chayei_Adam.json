@@ -1,795 +1,795 @@
 {
-    "heTitleVariants": [
-        "חיי אדם"
-    ], 
-    "errorMargin": "10", 
-    "heCategories": [
-        "הלכה"
-    ], 
-    "pubDate": "1810", 
-    "title": "Chayei Adam", 
-    "compDate": "1800", 
-    "pubPlace": "Vilna", 
-    "compPlace": "Vilna", 
-    "enDesc": "Chayei Adam (\"The Life of Man\") is a code of Jewish law, similar to Kitzur  Shulchan Aruch, dealing with the laws discussed in the Orach Chayim section of the Shulchan Aruch. It is divided into 224 sections - 69 dealing with daily conduct and prayer, and 155 with Shabbos (Sabbath) and Yom Tov (holidays). The rulings of the Chayei Adam are often cited in later works, especially the Mishnah Berurah.", 
-    "compPlaceString": {
-        "en": "Vilna", 
-        "he": "וילנה"
-    }, 
-    "compDateString": {
-        "en": " (c.1790  - c.1810 CE)", 
-        "he": " (1790 - 1810 לספירה בקירוב)"
-    }, 
-    "heDesc": "קיצור ההלכות הנהוגות בחיי היום-יום. 69 פרקים עוסקים בהלכות על סדר היום ועוד 155 פרקים בהלכות שבת וחגים. הספר נחשב לאחד הספרים ההלכתיים היסודיים באחרונים ומוזכר פעמים רבות בספרי האחרונים, ובפרט בספר משנה ברורה.", 
-    "heTitle": "חיי אדם", 
-    "era": "AH", 
-    "authors": [
-        {
-            "en": "Abraham Danzig", 
-            "he": "אברהם דנציג"
-        }
-    ], 
-    "titleVariants": [
-        "Ḥayyei Adam", 
-        "Hayyei Adam", 
-        "Chayei Adam"
-    ], 
+    "title": "Chayei Adam",
+    "categories": [
+        "Halakhah"
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Author's Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "הקדמת המחבר", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Author's Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "הקדמת המחבר", 
-                        "primary": true
-                    }
-                ], 
-                "key": "Author's Introduction", 
-                "heSectionNames": [
-                    "פירוש"
-                ], 
+                ],
                 "sectionNames": [
                     "Comment"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
-                "addressTypes": [
-                    "Integer", 
-                    "Siman"
-                ], 
-                "heTitle": "", 
-                "depth": 2, 
-                "key": "default", 
-                "heSectionNames": [
-                    "כלל", 
-                    "סימן"
-                ], 
-                "sectionNames": [
-                    "Klal", 
-                    "Siman"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Shabbat and Festivals", 
-                "addressTypes": [
-                    "Integer", 
-                    "Siman"
-                ], 
-                "heTitle": "שבת ומועדים", 
-                "depth": 2, 
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Shabbat and Festivals", 
-                        "primary": true
-                    }, 
+                        "primary": true,
+                        "text": "Author's Introduction",
+                        "lang": "en"
+                    },
                     {
-                        "lang": "he", 
-                        "text": "שבת ומועדים", 
-                        "primary": true
+                        "primary": true,
+                        "text": "הקדמת המחבר",
+                        "lang": "he"
                     }
-                ], 
-                "key": "Shabbat and Festivals", 
+                ],
+                "title": "Author's Introduction",
+                "heTitle": "הקדמת המחבר",
                 "heSectionNames": [
-                    "כלל", 
-                    "סימן"
-                ], 
-                "sectionNames": [
-                    "Klal", 
+                    "פירוש"
+                ],
+                "key": "Author's Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
                     "Siman"
-                ]
+                ],
+                "sectionNames": [
+                    "Klal",
+                    "Siman"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "כלל",
+                    "סימן"
+                ],
+                "key": "default"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
+                    "Siman"
+                ],
+                "sectionNames": [
+                    "Klal",
+                    "Siman"
+                ],
+                "titles": [
+                    {
+                        "primary": true,
+                        "text": "Shabbat and Festivals",
+                        "lang": "en"
+                    },
+                    {
+                        "primary": true,
+                        "text": "שבת ומועדים",
+                        "lang": "he"
+                    }
+                ],
+                "title": "Shabbat and Festivals",
+                "heTitle": "שבת ומועדים",
+                "heSectionNames": [
+                    "כלל",
+                    "סימן"
+                ],
+                "key": "Shabbat and Festivals"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "en", 
-                "text": "Ḥayyei Adam"
-            }, 
+                "text": "Ḥayyei Adam",
+                "lang": "en"
+            },
             {
-                "lang": "en", 
-                "text": "Hayyei Adam"
-            }, 
+                "text": "Hayyei Adam",
+                "lang": "en"
+            },
             {
-                "lang": "he", 
-                "text": "חיי אדם", 
-                "primary": true
-            }, 
+                "primary": true,
+                "text": "חיי אדם",
+                "lang": "he"
+            },
             {
-                "lang": "en", 
-                "text": "Chayei Adam", 
-                "primary": true
+                "primary": true,
+                "text": "Chayei Adam",
+                "lang": "en"
             }
-        ], 
-        "heTitle": "חיי אדם", 
-        "key": "Chayei Adam", 
-        "title": "Chayei Adam"
-    }, 
+        ],
+        "title": "Chayei Adam",
+        "heTitle": "חיי אדם",
+        "key": "Chayei Adam"
+    },
+    "default_struct": "Topic",
+    "authors": [
+        {
+            "en": "Abraham Danzig",
+            "he": "אברהם דנציג"
+        }
+    ],
+    "enDesc": "Chayei Adam (\"The Life of Man\") is a code of Jewish law, similar to Kitzur  Shulchan Aruch, dealing with the laws discussed in the Orach Chayim section of the Shulchan Aruch. It is divided into 224 sections - 69 dealing with daily conduct and prayer, and 155 with Shabbos (Sabbath) and Yom Tov (holidays). The rulings of the Chayei Adam are often cited in later works, especially the Mishnah Berurah.",
+    "heDesc": "קיצור ההלכות הנהוגות בחיי היום-יום. 69 פרקים עוסקים בהלכות על סדר היום ועוד 155 פרקים בהלכות שבת וחגים. הספר נחשב לאחד הספרים ההלכתיים היסודיים באחרונים ומוזכר פעמים רבות בספרי האחרונים, ובפרט בספר משנה ברורה.",
+    "pubDate": "1810",
+    "compDate": "1800",
+    "compPlace": "Vilna",
+    "pubPlace": "Vilna",
+    "errorMargin": "10",
+    "era": "AH",
+    "heTitle": "חיי אדם",
+    "titleVariants": [
+        "Ḥayyei Adam",
+        "Hayyei Adam",
+        "Chayei Adam"
+    ],
+    "heTitleVariants": [
+        "חיי אדם"
+    ],
     "alts": {
         "Topic": {
             "nodes": [
                 {
-                    "wholeRef": "Chayei Adam, Author's Introduction", 
-                    "title": "Author's Introduction", 
-                    "heTitle": "הקדמת המחבר", 
-                    "depth": 0, 
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Chayei Adam, Author's Introduction",
                     "titles": [
                         {
-                            "lang": "en", 
-                            "text": "Author's Introduction", 
-                            "primary": true
-                        }, 
+                            "primary": true,
+                            "text": "Author's Introduction",
+                            "lang": "en"
+                        },
                         {
-                            "lang": "he", 
-                            "text": "הקדמת המחבר", 
-                            "primary": true
+                            "primary": true,
+                            "text": "הקדמת המחבר",
+                            "lang": "he"
                         }
-                    ], 
-                    "nodeType": "ArrayMapNode"
-                }, 
+                    ],
+                    "title": "Author's Introduction",
+                    "heTitle": "הקדמת המחבר"
+                },
                 {
-                    "wholeRef": "Chayei Adam.1-35", 
-                    "title": "Laws of Prayer and Blessings", 
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Chayei Adam.1-35",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Laws of Prayer and Blessings",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "הלכות תפילה וברכות",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Laws of Prayer and Blessings",
+                    "heTitle": "הלכות תפילה וברכות",
                     "refs": [
-                        "Chayei Adam 1", 
-                        "Chayei Adam 2", 
-                        "Chayei Adam 3", 
-                        "Chayei Adam 4", 
-                        "Chayei Adam 5", 
-                        "Chayei Adam 6", 
-                        "Chayei Adam 7", 
-                        "Chayei Adam 8", 
-                        "Chayei Adam 9", 
-                        "Chayei Adam 10", 
-                        "Chayei Adam 11", 
-                        "Chayei Adam 12", 
-                        "Chayei Adam 13", 
-                        "Chayei Adam 14", 
-                        "Chayei Adam 15", 
-                        "Chayei Adam 16", 
-                        "Chayei Adam 17", 
-                        "Chayei Adam 18", 
-                        "Chayei Adam 19", 
-                        "Chayei Adam 20", 
-                        "Chayei Adam 21", 
-                        "Chayei Adam 22", 
-                        "Chayei Adam 23", 
-                        "Chayei Adam 24", 
-                        "Chayei Adam 25", 
-                        "Chayei Adam 26", 
-                        "Chayei Adam 27", 
-                        "Chayei Adam 28", 
-                        "Chayei Adam 29", 
-                        "Chayei Adam 30", 
-                        "Chayei Adam 31", 
-                        "Chayei Adam 32", 
-                        "Chayei Adam 33", 
-                        "Chayei Adam 34", 
+                        "Chayei Adam 1",
+                        "Chayei Adam 2",
+                        "Chayei Adam 3",
+                        "Chayei Adam 4",
+                        "Chayei Adam 5",
+                        "Chayei Adam 6",
+                        "Chayei Adam 7",
+                        "Chayei Adam 8",
+                        "Chayei Adam 9",
+                        "Chayei Adam 10",
+                        "Chayei Adam 11",
+                        "Chayei Adam 12",
+                        "Chayei Adam 13",
+                        "Chayei Adam 14",
+                        "Chayei Adam 15",
+                        "Chayei Adam 16",
+                        "Chayei Adam 17",
+                        "Chayei Adam 18",
+                        "Chayei Adam 19",
+                        "Chayei Adam 20",
+                        "Chayei Adam 21",
+                        "Chayei Adam 22",
+                        "Chayei Adam 23",
+                        "Chayei Adam 24",
+                        "Chayei Adam 25",
+                        "Chayei Adam 26",
+                        "Chayei Adam 27",
+                        "Chayei Adam 28",
+                        "Chayei Adam 29",
+                        "Chayei Adam 30",
+                        "Chayei Adam 31",
+                        "Chayei Adam 32",
+                        "Chayei Adam 33",
+                        "Chayei Adam 34",
                         "Chayei Adam 35"
-                    ], 
+                    ],
                     "addressTypes": [
                         "Integer"
-                    ], 
-                    "heTitle": "הלכות תפילה וברכות", 
-                    "depth": 1, 
-                    "titles": [
-                        {
-                            "lang": "en", 
-                            "text": "Laws of Prayer and Blessings", 
-                            "primary": true
-                        }, 
-                        {
-                            "lang": "he", 
-                            "text": "הלכות תפילה וברכות", 
-                            "primary": true
-                        }
-                    ], 
-                    "offset": 0, 
-                    "nodeType": "ArrayMapNode", 
+                    ],
                     "sectionNames": [
                         "Klal"
-                    ], 
-                    "includeSections": true
-                }, 
+                    ],
+                    "offset": 0
+                },
                 {
-                    "wholeRef": "Chayei Adam.36-48", 
-                    "title": "Laws of Washing Hands and Laws of the Meal", 
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Chayei Adam.36-48",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Laws of Washing Hands and Laws of the Meal",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "הלכות נטילת ידיים וברכת המזון",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Laws of Washing Hands and Laws of the Meal",
+                    "heTitle": "הלכות נטילת ידיים וברכת המזון",
                     "refs": [
-                        "Chayei Adam 36", 
-                        "Chayei Adam 37", 
-                        "Chayei Adam 38", 
-                        "Chayei Adam 39", 
-                        "Chayei Adam 40", 
-                        "Chayei Adam 41", 
-                        "Chayei Adam 42", 
-                        "Chayei Adam 43", 
-                        "Chayei Adam 44", 
-                        "Chayei Adam 45", 
-                        "Chayei Adam 46", 
-                        "Chayei Adam 47", 
+                        "Chayei Adam 36",
+                        "Chayei Adam 37",
+                        "Chayei Adam 38",
+                        "Chayei Adam 39",
+                        "Chayei Adam 40",
+                        "Chayei Adam 41",
+                        "Chayei Adam 42",
+                        "Chayei Adam 43",
+                        "Chayei Adam 44",
+                        "Chayei Adam 45",
+                        "Chayei Adam 46",
+                        "Chayei Adam 47",
                         "Chayei Adam 48"
-                    ], 
+                    ],
                     "addressTypes": [
                         "Integer"
-                    ], 
-                    "heTitle": "הלכות נטילת ידיים וברכת המזון", 
-                    "depth": 1, 
-                    "titles": [
-                        {
-                            "lang": "en", 
-                            "text": "Laws of Washing Hands and Laws of the Meal", 
-                            "primary": true
-                        }, 
-                        {
-                            "lang": "he", 
-                            "text": "הלכות נטילת ידיים וברכת המזון", 
-                            "primary": true
-                        }
-                    ], 
-                    "offset": 35, 
-                    "nodeType": "ArrayMapNode", 
+                    ],
                     "sectionNames": [
                         "Klal"
-                    ], 
-                    "includeSections": true
-                }, 
+                    ],
+                    "offset": 35
+                },
                 {
-                    "wholeRef": "Chayei Adam.49-69", 
-                    "title": "Laws of Birkhot HaNehenin", 
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Chayei Adam.49-69",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Laws of Birkhot HaNehenin",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "הלכות ברכות הנהנין",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Laws of Birkhot HaNehenin",
+                    "heTitle": "הלכות ברכות הנהנין",
                     "refs": [
-                        "Chayei Adam 49", 
-                        "Chayei Adam 50", 
-                        "Chayei Adam 51", 
-                        "Chayei Adam 52", 
-                        "Chayei Adam 53", 
-                        "Chayei Adam 54", 
-                        "Chayei Adam 55", 
-                        "Chayei Adam 56", 
-                        "Chayei Adam 57", 
-                        "Chayei Adam 58", 
-                        "Chayei Adam 59", 
-                        "Chayei Adam 60", 
-                        "Chayei Adam 61", 
-                        "Chayei Adam 62", 
-                        "Chayei Adam 63", 
-                        "Chayei Adam 64", 
-                        "Chayei Adam 65", 
-                        "Chayei Adam 66", 
-                        "Chayei Adam 67", 
-                        "Chayei Adam 68", 
+                        "Chayei Adam 49",
+                        "Chayei Adam 50",
+                        "Chayei Adam 51",
+                        "Chayei Adam 52",
+                        "Chayei Adam 53",
+                        "Chayei Adam 54",
+                        "Chayei Adam 55",
+                        "Chayei Adam 56",
+                        "Chayei Adam 57",
+                        "Chayei Adam 58",
+                        "Chayei Adam 59",
+                        "Chayei Adam 60",
+                        "Chayei Adam 61",
+                        "Chayei Adam 62",
+                        "Chayei Adam 63",
+                        "Chayei Adam 64",
+                        "Chayei Adam 65",
+                        "Chayei Adam 66",
+                        "Chayei Adam 67",
+                        "Chayei Adam 68",
                         "Chayei Adam 69"
-                    ], 
+                    ],
                     "addressTypes": [
                         "Integer"
-                    ], 
-                    "heTitle": "הלכות ברכות הנהנין", 
-                    "depth": 1, 
-                    "titles": [
-                        {
-                            "lang": "en", 
-                            "text": "Laws of Birkhot HaNehenin", 
-                            "primary": true
-                        }, 
-                        {
-                            "lang": "he", 
-                            "text": "הלכות ברכות הנהנין", 
-                            "primary": true
-                        }
-                    ], 
-                    "offset": 48, 
-                    "nodeType": "ArrayMapNode", 
+                    ],
                     "sectionNames": [
                         "Klal"
-                    ], 
-                    "includeSections": true
-                }, 
+                    ],
+                    "offset": 48
+                },
                 {
-                    "wholeRef": "Chayei Adam, Shabbat and Festivals.1-78", 
-                    "title": "Laws of Shabbat", 
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Chayei Adam, Shabbat and Festivals.1-78",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Laws of Shabbat",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "הלכות שבת",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Laws of Shabbat",
+                    "heTitle": "הלכות שבת",
                     "refs": [
-                        "Chayei Adam, Shabbat and Festivals 1", 
-                        "Chayei Adam, Shabbat and Festivals 2", 
-                        "Chayei Adam, Shabbat and Festivals 3", 
-                        "Chayei Adam, Shabbat and Festivals 4", 
-                        "Chayei Adam, Shabbat and Festivals 5", 
-                        "Chayei Adam, Shabbat and Festivals 6", 
-                        "Chayei Adam, Shabbat and Festivals 7", 
-                        "Chayei Adam, Shabbat and Festivals 8", 
-                        "Chayei Adam, Shabbat and Festivals 9", 
-                        "Chayei Adam, Shabbat and Festivals 10", 
-                        "Chayei Adam, Shabbat and Festivals 11", 
-                        "Chayei Adam, Shabbat and Festivals 12", 
-                        "Chayei Adam, Shabbat and Festivals 13", 
-                        "Chayei Adam, Shabbat and Festivals 14", 
-                        "Chayei Adam, Shabbat and Festivals 15", 
-                        "Chayei Adam, Shabbat and Festivals 16", 
-                        "Chayei Adam, Shabbat and Festivals 17", 
-                        "Chayei Adam, Shabbat and Festivals 18", 
-                        "Chayei Adam, Shabbat and Festivals 19", 
-                        "Chayei Adam, Shabbat and Festivals 20", 
-                        "Chayei Adam, Shabbat and Festivals 21", 
-                        "Chayei Adam, Shabbat and Festivals 22", 
-                        "Chayei Adam, Shabbat and Festivals 23", 
-                        "Chayei Adam, Shabbat and Festivals 24", 
-                        "Chayei Adam, Shabbat and Festivals 25", 
-                        "Chayei Adam, Shabbat and Festivals 26", 
-                        "Chayei Adam, Shabbat and Festivals 27", 
-                        "Chayei Adam, Shabbat and Festivals 28", 
-                        "Chayei Adam, Shabbat and Festivals 29", 
-                        "Chayei Adam, Shabbat and Festivals 30", 
-                        "Chayei Adam, Shabbat and Festivals 31", 
-                        "Chayei Adam, Shabbat and Festivals 32", 
-                        "Chayei Adam, Shabbat and Festivals 33", 
-                        "Chayei Adam, Shabbat and Festivals 34", 
-                        "Chayei Adam, Shabbat and Festivals 35", 
-                        "Chayei Adam, Shabbat and Festivals 36", 
-                        "Chayei Adam, Shabbat and Festivals 37", 
-                        "Chayei Adam, Shabbat and Festivals 38", 
-                        "Chayei Adam, Shabbat and Festivals 39", 
-                        "Chayei Adam, Shabbat and Festivals 40", 
-                        "Chayei Adam, Shabbat and Festivals 41", 
-                        "Chayei Adam, Shabbat and Festivals 42", 
-                        "Chayei Adam, Shabbat and Festivals 43", 
-                        "Chayei Adam, Shabbat and Festivals 44", 
-                        "Chayei Adam, Shabbat and Festivals 45", 
-                        "Chayei Adam, Shabbat and Festivals 46", 
-                        "Chayei Adam, Shabbat and Festivals 47", 
-                        "Chayei Adam, Shabbat and Festivals 48", 
-                        "Chayei Adam, Shabbat and Festivals 49", 
-                        "Chayei Adam, Shabbat and Festivals 50", 
-                        "Chayei Adam, Shabbat and Festivals 51", 
-                        "Chayei Adam, Shabbat and Festivals 52", 
-                        "Chayei Adam, Shabbat and Festivals 53", 
-                        "Chayei Adam, Shabbat and Festivals 54", 
-                        "Chayei Adam, Shabbat and Festivals 55", 
-                        "Chayei Adam, Shabbat and Festivals 56", 
-                        "Chayei Adam, Shabbat and Festivals 57", 
-                        "Chayei Adam, Shabbat and Festivals 58", 
-                        "Chayei Adam, Shabbat and Festivals 59", 
-                        "Chayei Adam, Shabbat and Festivals 60", 
-                        "Chayei Adam, Shabbat and Festivals 61", 
-                        "Chayei Adam, Shabbat and Festivals 62", 
-                        "Chayei Adam, Shabbat and Festivals 63", 
-                        "Chayei Adam, Shabbat and Festivals 64", 
-                        "Chayei Adam, Shabbat and Festivals 65", 
-                        "Chayei Adam, Shabbat and Festivals 66", 
-                        "Chayei Adam, Shabbat and Festivals 67", 
-                        "Chayei Adam, Shabbat and Festivals 68", 
-                        "Chayei Adam, Shabbat and Festivals 69", 
-                        "Chayei Adam, Shabbat and Festivals 70", 
-                        "Chayei Adam, Shabbat and Festivals 71", 
-                        "Chayei Adam, Shabbat and Festivals 72", 
-                        "Chayei Adam, Shabbat and Festivals 73", 
-                        "Chayei Adam, Shabbat and Festivals 74", 
-                        "Chayei Adam, Shabbat and Festivals 75", 
-                        "Chayei Adam, Shabbat and Festivals 76", 
-                        "Chayei Adam, Shabbat and Festivals 77", 
+                        "Chayei Adam, Shabbat and Festivals 1",
+                        "Chayei Adam, Shabbat and Festivals 2",
+                        "Chayei Adam, Shabbat and Festivals 3",
+                        "Chayei Adam, Shabbat and Festivals 4",
+                        "Chayei Adam, Shabbat and Festivals 5",
+                        "Chayei Adam, Shabbat and Festivals 6",
+                        "Chayei Adam, Shabbat and Festivals 7",
+                        "Chayei Adam, Shabbat and Festivals 8",
+                        "Chayei Adam, Shabbat and Festivals 9",
+                        "Chayei Adam, Shabbat and Festivals 10",
+                        "Chayei Adam, Shabbat and Festivals 11",
+                        "Chayei Adam, Shabbat and Festivals 12",
+                        "Chayei Adam, Shabbat and Festivals 13",
+                        "Chayei Adam, Shabbat and Festivals 14",
+                        "Chayei Adam, Shabbat and Festivals 15",
+                        "Chayei Adam, Shabbat and Festivals 16",
+                        "Chayei Adam, Shabbat and Festivals 17",
+                        "Chayei Adam, Shabbat and Festivals 18",
+                        "Chayei Adam, Shabbat and Festivals 19",
+                        "Chayei Adam, Shabbat and Festivals 20",
+                        "Chayei Adam, Shabbat and Festivals 21",
+                        "Chayei Adam, Shabbat and Festivals 22",
+                        "Chayei Adam, Shabbat and Festivals 23",
+                        "Chayei Adam, Shabbat and Festivals 24",
+                        "Chayei Adam, Shabbat and Festivals 25",
+                        "Chayei Adam, Shabbat and Festivals 26",
+                        "Chayei Adam, Shabbat and Festivals 27",
+                        "Chayei Adam, Shabbat and Festivals 28",
+                        "Chayei Adam, Shabbat and Festivals 29",
+                        "Chayei Adam, Shabbat and Festivals 30",
+                        "Chayei Adam, Shabbat and Festivals 31",
+                        "Chayei Adam, Shabbat and Festivals 32",
+                        "Chayei Adam, Shabbat and Festivals 33",
+                        "Chayei Adam, Shabbat and Festivals 34",
+                        "Chayei Adam, Shabbat and Festivals 35",
+                        "Chayei Adam, Shabbat and Festivals 36",
+                        "Chayei Adam, Shabbat and Festivals 37",
+                        "Chayei Adam, Shabbat and Festivals 38",
+                        "Chayei Adam, Shabbat and Festivals 39",
+                        "Chayei Adam, Shabbat and Festivals 40",
+                        "Chayei Adam, Shabbat and Festivals 41",
+                        "Chayei Adam, Shabbat and Festivals 42",
+                        "Chayei Adam, Shabbat and Festivals 43",
+                        "Chayei Adam, Shabbat and Festivals 44",
+                        "Chayei Adam, Shabbat and Festivals 45",
+                        "Chayei Adam, Shabbat and Festivals 46",
+                        "Chayei Adam, Shabbat and Festivals 47",
+                        "Chayei Adam, Shabbat and Festivals 48",
+                        "Chayei Adam, Shabbat and Festivals 49",
+                        "Chayei Adam, Shabbat and Festivals 50",
+                        "Chayei Adam, Shabbat and Festivals 51",
+                        "Chayei Adam, Shabbat and Festivals 52",
+                        "Chayei Adam, Shabbat and Festivals 53",
+                        "Chayei Adam, Shabbat and Festivals 54",
+                        "Chayei Adam, Shabbat and Festivals 55",
+                        "Chayei Adam, Shabbat and Festivals 56",
+                        "Chayei Adam, Shabbat and Festivals 57",
+                        "Chayei Adam, Shabbat and Festivals 58",
+                        "Chayei Adam, Shabbat and Festivals 59",
+                        "Chayei Adam, Shabbat and Festivals 60",
+                        "Chayei Adam, Shabbat and Festivals 61",
+                        "Chayei Adam, Shabbat and Festivals 62",
+                        "Chayei Adam, Shabbat and Festivals 63",
+                        "Chayei Adam, Shabbat and Festivals 64",
+                        "Chayei Adam, Shabbat and Festivals 65",
+                        "Chayei Adam, Shabbat and Festivals 66",
+                        "Chayei Adam, Shabbat and Festivals 67",
+                        "Chayei Adam, Shabbat and Festivals 68",
+                        "Chayei Adam, Shabbat and Festivals 69",
+                        "Chayei Adam, Shabbat and Festivals 70",
+                        "Chayei Adam, Shabbat and Festivals 71",
+                        "Chayei Adam, Shabbat and Festivals 72",
+                        "Chayei Adam, Shabbat and Festivals 73",
+                        "Chayei Adam, Shabbat and Festivals 74",
+                        "Chayei Adam, Shabbat and Festivals 75",
+                        "Chayei Adam, Shabbat and Festivals 76",
+                        "Chayei Adam, Shabbat and Festivals 77",
                         "Chayei Adam, Shabbat and Festivals 78"
-                    ], 
+                    ],
                     "addressTypes": [
                         "Integer"
-                    ], 
-                    "heTitle": "הלכות שבת", 
-                    "depth": 1, 
-                    "titles": [
-                        {
-                            "lang": "en", 
-                            "text": "Laws of Shabbat", 
-                            "primary": true
-                        }, 
-                        {
-                            "lang": "he", 
-                            "text": "הלכות שבת", 
-                            "primary": true
-                        }
-                    ], 
-                    "offset": 0, 
-                    "nodeType": "ArrayMapNode", 
+                    ],
                     "sectionNames": [
                         "Klal"
-                    ], 
-                    "includeSections": true
-                }, 
+                    ],
+                    "offset": 0
+                },
                 {
-                    "wholeRef": "Chayei Adam, Shabbat and Festivals.79-117", 
-                    "title": "Laws of the Festivals", 
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Chayei Adam, Shabbat and Festivals.79-117",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Laws of the Festivals",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "הלכות יום טוב",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Laws of the Festivals",
+                    "heTitle": "הלכות יום טוב",
                     "refs": [
-                        "Chayei Adam, Shabbat and Festivals 79", 
-                        "Chayei Adam, Shabbat and Festivals 80", 
-                        "Chayei Adam, Shabbat and Festivals 81", 
-                        "Chayei Adam, Shabbat and Festivals 82", 
-                        "Chayei Adam, Shabbat and Festivals 83", 
-                        "Chayei Adam, Shabbat and Festivals 84", 
-                        "Chayei Adam, Shabbat and Festivals 85", 
-                        "Chayei Adam, Shabbat and Festivals 86", 
-                        "Chayei Adam, Shabbat and Festivals 87", 
-                        "Chayei Adam, Shabbat and Festivals 88", 
-                        "Chayei Adam, Shabbat and Festivals 89", 
-                        "Chayei Adam, Shabbat and Festivals 90", 
-                        "Chayei Adam, Shabbat and Festivals 91", 
-                        "Chayei Adam, Shabbat and Festivals 92", 
-                        "Chayei Adam, Shabbat and Festivals 93", 
-                        "Chayei Adam, Shabbat and Festivals 94", 
-                        "Chayei Adam, Shabbat and Festivals 95", 
-                        "Chayei Adam, Shabbat and Festivals 96", 
-                        "Chayei Adam, Shabbat and Festivals 97", 
-                        "Chayei Adam, Shabbat and Festivals 98", 
-                        "Chayei Adam, Shabbat and Festivals 99", 
-                        "Chayei Adam, Shabbat and Festivals 100", 
-                        "Chayei Adam, Shabbat and Festivals 101", 
-                        "Chayei Adam, Shabbat and Festivals 102", 
-                        "Chayei Adam, Shabbat and Festivals 103", 
-                        "Chayei Adam, Shabbat and Festivals 104", 
-                        "Chayei Adam, Shabbat and Festivals 105", 
-                        "Chayei Adam, Shabbat and Festivals 106", 
-                        "Chayei Adam, Shabbat and Festivals 107", 
-                        "Chayei Adam, Shabbat and Festivals 108", 
-                        "Chayei Adam, Shabbat and Festivals 109", 
-                        "Chayei Adam, Shabbat and Festivals 110", 
-                        "Chayei Adam, Shabbat and Festivals 111", 
-                        "Chayei Adam, Shabbat and Festivals 112", 
-                        "Chayei Adam, Shabbat and Festivals 113", 
-                        "Chayei Adam, Shabbat and Festivals 114", 
-                        "Chayei Adam, Shabbat and Festivals 115", 
-                        "Chayei Adam, Shabbat and Festivals 116", 
+                        "Chayei Adam, Shabbat and Festivals 79",
+                        "Chayei Adam, Shabbat and Festivals 80",
+                        "Chayei Adam, Shabbat and Festivals 81",
+                        "Chayei Adam, Shabbat and Festivals 82",
+                        "Chayei Adam, Shabbat and Festivals 83",
+                        "Chayei Adam, Shabbat and Festivals 84",
+                        "Chayei Adam, Shabbat and Festivals 85",
+                        "Chayei Adam, Shabbat and Festivals 86",
+                        "Chayei Adam, Shabbat and Festivals 87",
+                        "Chayei Adam, Shabbat and Festivals 88",
+                        "Chayei Adam, Shabbat and Festivals 89",
+                        "Chayei Adam, Shabbat and Festivals 90",
+                        "Chayei Adam, Shabbat and Festivals 91",
+                        "Chayei Adam, Shabbat and Festivals 92",
+                        "Chayei Adam, Shabbat and Festivals 93",
+                        "Chayei Adam, Shabbat and Festivals 94",
+                        "Chayei Adam, Shabbat and Festivals 95",
+                        "Chayei Adam, Shabbat and Festivals 96",
+                        "Chayei Adam, Shabbat and Festivals 97",
+                        "Chayei Adam, Shabbat and Festivals 98",
+                        "Chayei Adam, Shabbat and Festivals 99",
+                        "Chayei Adam, Shabbat and Festivals 100",
+                        "Chayei Adam, Shabbat and Festivals 101",
+                        "Chayei Adam, Shabbat and Festivals 102",
+                        "Chayei Adam, Shabbat and Festivals 103",
+                        "Chayei Adam, Shabbat and Festivals 104",
+                        "Chayei Adam, Shabbat and Festivals 105",
+                        "Chayei Adam, Shabbat and Festivals 106",
+                        "Chayei Adam, Shabbat and Festivals 107",
+                        "Chayei Adam, Shabbat and Festivals 108",
+                        "Chayei Adam, Shabbat and Festivals 109",
+                        "Chayei Adam, Shabbat and Festivals 110",
+                        "Chayei Adam, Shabbat and Festivals 111",
+                        "Chayei Adam, Shabbat and Festivals 112",
+                        "Chayei Adam, Shabbat and Festivals 113",
+                        "Chayei Adam, Shabbat and Festivals 114",
+                        "Chayei Adam, Shabbat and Festivals 115",
+                        "Chayei Adam, Shabbat and Festivals 116",
                         "Chayei Adam, Shabbat and Festivals 117"
-                    ], 
+                    ],
                     "addressTypes": [
                         "Integer"
-                    ], 
-                    "heTitle": "הלכות יום טוב", 
-                    "depth": 1, 
-                    "titles": [
-                        {
-                            "lang": "en", 
-                            "text": "Laws of the Festivals", 
-                            "primary": true
-                        }, 
-                        {
-                            "lang": "he", 
-                            "text": "הלכות יום טוב", 
-                            "primary": true
-                        }
-                    ], 
-                    "offset": 78, 
-                    "nodeType": "ArrayMapNode", 
+                    ],
                     "sectionNames": [
                         "Klal"
-                    ], 
-                    "includeSections": true
-                }, 
+                    ],
+                    "offset": 78
+                },
                 {
-                    "wholeRef": "Chayei Adam, Shabbat and Festivals.118-118", 
-                    "title": "Laws of Rosh Chodesh", 
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Chayei Adam, Shabbat and Festivals.118-118",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Laws of Rosh Chodesh",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "הלכות ראש חודש",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Laws of Rosh Chodesh",
+                    "heTitle": "הלכות ראש חודש",
                     "refs": [
                         "Chayei Adam, Shabbat and Festivals 118"
-                    ], 
+                    ],
                     "addressTypes": [
                         "Integer"
-                    ], 
-                    "heTitle": "הלכות ראש חודש", 
-                    "depth": 1, 
-                    "titles": [
-                        {
-                            "lang": "en", 
-                            "text": "Laws of Rosh Chodesh", 
-                            "primary": true
-                        }, 
-                        {
-                            "lang": "he", 
-                            "text": "הלכות ראש חודש", 
-                            "primary": true
-                        }
-                    ], 
-                    "offset": 117, 
-                    "nodeType": "ArrayMapNode", 
+                    ],
                     "sectionNames": [
                         "Klal"
-                    ], 
-                    "includeSections": true
-                }, 
+                    ],
+                    "offset": 117
+                },
                 {
-                    "wholeRef": "Chayei Adam, Shabbat and Festivals.119-131", 
-                    "title": "Laws of Passover", 
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Chayei Adam, Shabbat and Festivals.119-131",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Laws of Passover",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "הלכות פסח",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Laws of Passover",
+                    "heTitle": "הלכות פסח",
                     "refs": [
-                        "Chayei Adam, Shabbat and Festivals 119", 
-                        "Chayei Adam, Shabbat and Festivals 120", 
-                        "Chayei Adam, Shabbat and Festivals 121", 
-                        "Chayei Adam, Shabbat and Festivals 122", 
-                        "Chayei Adam, Shabbat and Festivals 123", 
-                        "Chayei Adam, Shabbat and Festivals 124", 
-                        "Chayei Adam, Shabbat and Festivals 125", 
-                        "Chayei Adam, Shabbat and Festivals 126", 
-                        "Chayei Adam, Shabbat and Festivals 127", 
-                        "Chayei Adam, Shabbat and Festivals 128", 
-                        "Chayei Adam, Shabbat and Festivals 129", 
-                        "Chayei Adam, Shabbat and Festivals 130", 
+                        "Chayei Adam, Shabbat and Festivals 119",
+                        "Chayei Adam, Shabbat and Festivals 120",
+                        "Chayei Adam, Shabbat and Festivals 121",
+                        "Chayei Adam, Shabbat and Festivals 122",
+                        "Chayei Adam, Shabbat and Festivals 123",
+                        "Chayei Adam, Shabbat and Festivals 124",
+                        "Chayei Adam, Shabbat and Festivals 125",
+                        "Chayei Adam, Shabbat and Festivals 126",
+                        "Chayei Adam, Shabbat and Festivals 127",
+                        "Chayei Adam, Shabbat and Festivals 128",
+                        "Chayei Adam, Shabbat and Festivals 129",
+                        "Chayei Adam, Shabbat and Festivals 130",
                         "Chayei Adam, Shabbat and Festivals 131"
-                    ], 
+                    ],
                     "addressTypes": [
                         "Integer"
-                    ], 
-                    "heTitle": "הלכות פסח", 
-                    "depth": 1, 
-                    "titles": [
-                        {
-                            "lang": "en", 
-                            "text": "Laws of Passover", 
-                            "primary": true
-                        }, 
-                        {
-                            "lang": "he", 
-                            "text": "הלכות פסח", 
-                            "primary": true
-                        }
-                    ], 
-                    "offset": 118, 
-                    "nodeType": "ArrayMapNode", 
+                    ],
                     "sectionNames": [
                         "Klal"
-                    ], 
-                    "includeSections": true
-                }, 
+                    ],
+                    "offset": 118
+                },
                 {
-                    "wholeRef": "Chayei Adam, Shabbat and Festivals.132-132", 
-                    "title": "Laws of Fast Days", 
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Chayei Adam, Shabbat and Festivals.132-132",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Laws of Fast Days",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "הלכות תענית",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Laws of Fast Days",
+                    "heTitle": "הלכות תענית",
                     "refs": [
                         "Chayei Adam, Shabbat and Festivals 132"
-                    ], 
+                    ],
                     "addressTypes": [
                         "Integer"
-                    ], 
-                    "heTitle": "הלכות תענית", 
-                    "depth": 1, 
-                    "titles": [
-                        {
-                            "lang": "en", 
-                            "text": "Laws of Fast Days", 
-                            "primary": true
-                        }, 
-                        {
-                            "lang": "he", 
-                            "text": "הלכות תענית", 
-                            "primary": true
-                        }
-                    ], 
-                    "offset": 131, 
-                    "nodeType": "ArrayMapNode", 
+                    ],
                     "sectionNames": [
                         "Klal"
-                    ], 
-                    "includeSections": true
-                }, 
+                    ],
+                    "offset": 131
+                },
                 {
-                    "wholeRef": "Chayei Adam, Shabbat and Festivals.133-142", 
-                    "title": "Laws of the Ninth of Av", 
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Chayei Adam, Shabbat and Festivals.133-142",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Laws of the Ninth of Av",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "הלכות תשעה באב",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Laws of the Ninth of Av",
+                    "heTitle": "הלכות תשעה באב",
                     "refs": [
-                        "Chayei Adam, Shabbat and Festivals 133", 
-                        "Chayei Adam, Shabbat and Festivals 134", 
-                        "Chayei Adam, Shabbat and Festivals 135", 
-                        "Chayei Adam, Shabbat and Festivals 136", 
-                        "Chayei Adam, Shabbat and Festivals 137", 
-                        "Chayei Adam, Shabbat and Festivals 138", 
-                        "Chayei Adam, Shabbat and Festivals 139", 
-                        "Chayei Adam, Shabbat and Festivals 140", 
-                        "Chayei Adam, Shabbat and Festivals 141", 
+                        "Chayei Adam, Shabbat and Festivals 133",
+                        "Chayei Adam, Shabbat and Festivals 134",
+                        "Chayei Adam, Shabbat and Festivals 135",
+                        "Chayei Adam, Shabbat and Festivals 136",
+                        "Chayei Adam, Shabbat and Festivals 137",
+                        "Chayei Adam, Shabbat and Festivals 138",
+                        "Chayei Adam, Shabbat and Festivals 139",
+                        "Chayei Adam, Shabbat and Festivals 140",
+                        "Chayei Adam, Shabbat and Festivals 141",
                         "Chayei Adam, Shabbat and Festivals 142"
-                    ], 
+                    ],
                     "addressTypes": [
                         "Integer"
-                    ], 
-                    "heTitle": "הלכות תשעה באב", 
-                    "depth": 1, 
-                    "titles": [
-                        {
-                            "lang": "en", 
-                            "text": "Laws of the Ninth of Av", 
-                            "primary": true
-                        }, 
-                        {
-                            "lang": "he", 
-                            "text": "הלכות תשעה באב", 
-                            "primary": true
-                        }
-                    ], 
-                    "offset": 132, 
-                    "nodeType": "ArrayMapNode", 
+                    ],
                     "sectionNames": [
                         "Klal"
-                    ], 
-                    "includeSections": true
-                }, 
+                    ],
+                    "offset": 132
+                },
                 {
-                    "wholeRef": "Chayei Adam, Shabbat and Festivals.143-145", 
-                    "title": "Laws of Yom Kippur", 
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Chayei Adam, Shabbat and Festivals.143-145",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Laws of Yom Kippur",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "הלכות יום כפור",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Laws of Yom Kippur",
+                    "heTitle": "הלכות יום כפור",
                     "refs": [
-                        "Chayei Adam, Shabbat and Festivals 143", 
-                        "Chayei Adam, Shabbat and Festivals 144", 
+                        "Chayei Adam, Shabbat and Festivals 143",
+                        "Chayei Adam, Shabbat and Festivals 144",
                         "Chayei Adam, Shabbat and Festivals 145"
-                    ], 
+                    ],
                     "addressTypes": [
                         "Integer"
-                    ], 
-                    "heTitle": "הלכות יום כפור", 
-                    "depth": 1, 
-                    "titles": [
-                        {
-                            "lang": "en", 
-                            "text": "Laws of Yom Kippur", 
-                            "primary": true
-                        }, 
-                        {
-                            "lang": "he", 
-                            "text": "הלכות יום כפור", 
-                            "primary": true
-                        }
-                    ], 
-                    "offset": 142, 
-                    "nodeType": "ArrayMapNode", 
+                    ],
                     "sectionNames": [
                         "Klal"
-                    ], 
-                    "includeSections": true
-                }, 
+                    ],
+                    "offset": 142
+                },
                 {
-                    "wholeRef": "Chayei Adam, Shabbat and Festivals.146-153", 
-                    "title": "Laws of Sukkot", 
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Chayei Adam, Shabbat and Festivals.146-153",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Laws of Sukkot",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "הלכות סוכה",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Laws of Sukkot",
+                    "heTitle": "הלכות סוכה",
                     "refs": [
-                        "Chayei Adam, Shabbat and Festivals 146", 
-                        "Chayei Adam, Shabbat and Festivals 147", 
-                        "Chayei Adam, Shabbat and Festivals 148", 
-                        "Chayei Adam, Shabbat and Festivals 149", 
-                        "Chayei Adam, Shabbat and Festivals 150", 
-                        "Chayei Adam, Shabbat and Festivals 151", 
-                        "Chayei Adam, Shabbat and Festivals 152", 
+                        "Chayei Adam, Shabbat and Festivals 146",
+                        "Chayei Adam, Shabbat and Festivals 147",
+                        "Chayei Adam, Shabbat and Festivals 148",
+                        "Chayei Adam, Shabbat and Festivals 149",
+                        "Chayei Adam, Shabbat and Festivals 150",
+                        "Chayei Adam, Shabbat and Festivals 151",
+                        "Chayei Adam, Shabbat and Festivals 152",
                         "Chayei Adam, Shabbat and Festivals 153"
-                    ], 
+                    ],
                     "addressTypes": [
                         "Integer"
-                    ], 
-                    "heTitle": "הלכות סוכה", 
-                    "depth": 1, 
-                    "titles": [
-                        {
-                            "lang": "en", 
-                            "text": "Laws of Sukkot", 
-                            "primary": true
-                        }, 
-                        {
-                            "lang": "he", 
-                            "text": "הלכות סוכה", 
-                            "primary": true
-                        }
-                    ], 
-                    "offset": 145, 
-                    "nodeType": "ArrayMapNode", 
+                    ],
                     "sectionNames": [
                         "Klal"
-                    ], 
-                    "includeSections": true
-                }, 
+                    ],
+                    "offset": 145
+                },
                 {
-                    "wholeRef": "Chayei Adam, Shabbat and Festivals.154-154", 
-                    "title": "Laws of Chanukah", 
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Chayei Adam, Shabbat and Festivals.154-154",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Laws of Chanukah",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "הלכות חנוכה",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Laws of Chanukah",
+                    "heTitle": "הלכות חנוכה",
                     "refs": [
                         "Chayei Adam, Shabbat and Festivals 154"
-                    ], 
+                    ],
                     "addressTypes": [
                         "Integer"
-                    ], 
-                    "heTitle": "הלכות חנוכה", 
-                    "depth": 1, 
-                    "titles": [
-                        {
-                            "lang": "en", 
-                            "text": "Laws of Chanukah", 
-                            "primary": true
-                        }, 
-                        {
-                            "lang": "he", 
-                            "text": "הלכות חנוכה", 
-                            "primary": true
-                        }
-                    ], 
-                    "offset": 153, 
-                    "nodeType": "ArrayMapNode", 
+                    ],
                     "sectionNames": [
                         "Klal"
-                    ], 
-                    "includeSections": true
-                }, 
+                    ],
+                    "offset": 153
+                },
                 {
-                    "wholeRef": "Chayei Adam, Shabbat and Festivals.155-155", 
-                    "title": "Laws of Purim", 
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Chayei Adam, Shabbat and Festivals.155-155",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Laws of Purim",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "הלכות מגילה",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Laws of Purim",
+                    "heTitle": "הלכות מגילה",
                     "refs": [
                         "Chayei Adam, Shabbat and Festivals 155"
-                    ], 
+                    ],
                     "addressTypes": [
                         "Integer"
-                    ], 
-                    "heTitle": "הלכות מגילה", 
-                    "depth": 1, 
-                    "titles": [
-                        {
-                            "lang": "en", 
-                            "text": "Laws of Purim", 
-                            "primary": true
-                        }, 
-                        {
-                            "lang": "he", 
-                            "text": "הלכות מגילה", 
-                            "primary": true
-                        }
-                    ], 
-                    "offset": 154, 
-                    "nodeType": "ArrayMapNode", 
+                    ],
                     "sectionNames": [
                         "Klal"
-                    ], 
-                    "includeSections": true
+                    ],
+                    "offset": 154
                 }
-            ], 
+            ],
             "titles": [
                 {
-                    "lang": "en", 
-                    "text": "Ḥayyei Adam"
-                }, 
+                    "text": "Ḥayyei Adam",
+                    "lang": "en"
+                },
                 {
-                    "lang": "en", 
-                    "text": "Hayyei Adam"
-                }, 
+                    "text": "Hayyei Adam",
+                    "lang": "en"
+                },
                 {
-                    "lang": "he", 
-                    "text": "חיי אדם", 
-                    "primary": true
-                }, 
+                    "primary": true,
+                    "text": "חיי אדם",
+                    "lang": "he"
+                },
                 {
-                    "lang": "en", 
-                    "text": "Chayei Adam", 
-                    "primary": true
+                    "primary": true,
+                    "text": "Chayei Adam",
+                    "lang": "en"
                 }
-            ], 
-            "heTitle": "חיי אדם", 
-            "title": "Chayei Adam"
+            ],
+            "title": "Chayei Adam",
+            "heTitle": "חיי אדם"
         }
-    }, 
-    "categories": [
-        "Halakhah"
-    ], 
-    "default_struct": "Topic"
+    },
+    "heCategories": [
+        "הלכה"
+    ],
+    "compDateString": {
+        "en": " (c.1790  - c.1810 CE)",
+        "he": " (1790 - 1810 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Vilna",
+        "he": "וילנה"
+    }
 }

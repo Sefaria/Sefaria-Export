@@ -1,99 +1,121 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Ketubot", 
-            "he": "כתובות"
-        }
-    ], 
-    "heCategories": [
-        "תלמוד", 
-        "בבלי", 
-        "מפרשים"
-    ], 
-    "title": "Haflaah on Ketubot", 
-    "heTitleVariants": [
-        "הפלאה על כתובות"
-    ], 
-    "dependence": "Commentary", 
-    "heTitle": "הפלאה על כתובות", 
-    "titleVariants": [
-        "Haflaah on Ketubot"
-    ], 
+    "title": "Haflaah on Ketubot",
     "categories": [
-        "Talmud", 
-        "Bavli", 
+        "Talmud",
+        "Bavli",
         "Commentary"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "title": "Introduction", 
-                "heTitle": "הקדמה", 
-                "sharedTitle": "Introduction", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "הקדמה", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "מבוא"
-                    }
-                ], 
-                "key": "intro", 
-                "heSectionNames": [
-                    "פירוש"
-                ], 
+                ],
                 "sectionNames": [
                     "Comment"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
-                "addressTypes": [
-                    "Talmud", 
-                    "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 2, 
-                "key": "default", 
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
-                    "דף", 
-                    "פסקה"
-                ], 
+                    "פירוש"
+                ],
+                "key": "intro"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Talmud",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Daf", 
+                    "Daf",
                     "Paragraph"
-                ]
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "דף",
+                    "פסקה"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "הפלאה על כתובות", 
-                "primary": true
-            }, 
+                "primary": true,
+                "lang": "he",
+                "text": "הפלאה על כתובות"
+            },
             {
-                "lang": "en", 
-                "text": "Haflaah on Ketubot", 
-                "primary": true
+                "primary": true,
+                "lang": "en",
+                "text": "Haflaah on Ketubot"
             }
-        ], 
-        "heTitle": "הפלאה על כתובות", 
-        "key": "Haflaah on Ketubot", 
-        "title": "Haflaah on Ketubot"
+        ],
+        "title": "Haflaah on Ketubot",
+        "heTitle": "הפלאה על כתובות",
+        "key": "Haflaah on Ketubot"
+    },
+    "authors": [
+        {
+            "en": "Pinchas Horowitz",
+            "he": "פנחס הלוי איש הורוויץ"
+        }
+    ],
+    "enDesc": "Talmudic novellae on Tractate Ketubot by Rabbi Pinchas Horowitz of Frankfurt.",
+    "heDesc": "פירוש על מסכת כתובות מאת רבה של פרנקפורט דמיין, רבי פנחס הלוי איש הורוויץ. שם הספר מורכב מראשי התיבות של שמו: הקטן פנחס הלוי איש הורוויץ.",
+    "pubDate": "1787",
+    "compDate": "1770",
+    "compPlace": "Frankfurt am Main, Germany",
+    "pubPlace": "Offenbach",
+    "errorMargin": "15",
+    "era": "AH",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Ketubot",
+            "he": "כתובות"
+        }
+    ],
+    "heTitle": "הפלאה על כתובות",
+    "titleVariants": [
+        "Haflaah on Ketubot"
+    ],
+    "heTitleVariants": [
+        "הפלאה על כתובות"
+    ],
+    "heCategories": [
+        "תלמוד",
+        "בבלי",
+        "מפרשים"
+    ],
+    "compDateString": {
+        "en": " (c.1755  - c.1785 CE)",
+        "he": " (1755 - 1785 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Frankfurt am Main, Germany",
+        "he": "פרנקפורט, גרמניה"
     }
 }

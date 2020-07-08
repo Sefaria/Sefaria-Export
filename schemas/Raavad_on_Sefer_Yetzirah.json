@@ -1,227 +1,227 @@
 {
-    "heTitleVariants": [
-        "פירוש הראב\"ד על ספר יצירה"
-    ], 
-    "base_text_titles": [
-        {
-            "en": "Sefer Yetzirah", 
-            "he": "ספר יצירה"
-        }
-    ], 
-    "heCategories": [
-        "קבלה", 
-        "מפרשים", 
-        "ראב\"ד"
-    ], 
-    "title": "Raavad on Sefer Yetzirah", 
-    "base_text_mapping": null, 
-    "collective_title": {
-        "en": "Raavad", 
-        "he": "ראב\"ד"
-    }, 
-    "enDesc": "Commentary on Sefer Yetzirah mistakenly attributed to Raavad, ascribed by Moses Kordovero and Chida to Yosef ben Shlomo Ashkenazi, an early 14th century Kabbalist.", 
-    "dependence": "Commentary", 
-    "heDesc": "פירוש על ספר יצירה מיוחס להראב\"ד, אך המחבר האמיתי (המזוהה על ידי רמ\"ק וחיד\"א) הוא המקובל ר' יוסף בן שלום אשכנזי.", 
-    "heTitle": "פירוש הראב\"ד על ספר יצירה", 
-    "authors": [
-        {
-            "en": "Yosef ben Sholom Ashkenazi", 
-            "he": "יוסף בן שלום אשכנזי"
-        }
-    ], 
-    "titleVariants": [
-        "Raavad on Sefer Yetzirah"
-    ], 
+    "title": "Raavad on Sefer Yetzirah",
     "categories": [
-        "Kabbalah", 
-        "Commentary", 
+        "Kabbalah",
+        "Commentary",
         "Raavad"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
                 "nodes": [
                     {
-                        "nodeType": "JaggedArrayNode", 
-                        "title": "The Fifty Gates of Understanding", 
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 3,
                         "addressTypes": [
-                            "Integer", 
-                            "Integer", 
+                            "Integer",
+                            "Integer",
                             "Integer"
-                        ], 
-                        "heTitle": "חמשים שערי בינה", 
-                        "depth": 3, 
+                        ],
+                        "sectionNames": [
+                            "Chapter",
+                            "Paragraph",
+                            "Segment"
+                        ],
                         "titles": [
                             {
-                                "lang": "en", 
-                                "text": "The Fifty Gates of Understanding", 
+                                "lang": "en",
+                                "text": "The Fifty Gates of Understanding",
                                 "primary": true
-                            }, 
+                            },
                             {
-                                "lang": "he", 
-                                "text": "חמשים שערי בינה", 
+                                "lang": "he",
+                                "text": "חמשים שערי בינה",
                                 "primary": true
                             }
-                        ], 
-                        "key": "The Fifty Gates of Understanding", 
+                        ],
+                        "title": "The Fifty Gates of Understanding",
+                        "heTitle": "חמשים שערי בינה",
                         "heSectionNames": [
-                            "פרק", 
-                            "פסקה", 
+                            "פרק",
+                            "פסקה",
                             ""
-                        ], 
-                        "sectionNames": [
-                            "Chapter", 
-                            "Paragraph", 
-                            "Segment"
-                        ]
-                    }, 
+                        ],
+                        "key": "The Fifty Gates of Understanding"
+                    },
                     {
                         "nodes": [
                             {
-                                "nodeType": "JaggedArrayNode", 
-                                "title": "Introduction", 
+                                "nodeType": "JaggedArrayNode",
+                                "depth": 1,
                                 "addressTypes": [
                                     "Integer"
-                                ], 
-                                "heTitle": "הקדמה", 
-                                "depth": 1, 
-                                "titles": [
-                                    {
-                                        "lang": "en", 
-                                        "text": "Introduction", 
-                                        "primary": true
-                                    }, 
-                                    {
-                                        "lang": "he", 
-                                        "text": "הקדמה", 
-                                        "primary": true
-                                    }
-                                ], 
-                                "key": "Introduction", 
-                                "heSectionNames": [
-                                    "פסקה"
-                                ], 
+                                ],
                                 "sectionNames": [
                                     "Paragraph"
-                                ]
-                            }, 
-                            {
-                                "nodeType": "JaggedArrayNode", 
-                                "title": "", 
-                                "default": true, 
-                                "addressTypes": [
-                                    "Integer"
-                                ], 
-                                "heTitle": "", 
-                                "depth": 1, 
-                                "key": "default", 
-                                "heSectionNames": [
-                                    "נתיב"
-                                ], 
-                                "sectionNames": [
-                                    "Path"
-                                ]
-                            }, 
-                            {
-                                "nodeType": "JaggedArrayNode", 
-                                "title": "The Thirty Two Paths Explained", 
-                                "addressTypes": [
-                                    "Integer"
-                                ], 
-                                "heTitle": "פירוש ל\"ב נתיבות חכמה", 
-                                "depth": 1, 
+                                ],
                                 "titles": [
                                     {
-                                        "lang": "en", 
-                                        "text": "The Thirty Two Paths Explained", 
+                                        "lang": "en",
+                                        "text": "Introduction",
                                         "primary": true
-                                    }, 
+                                    },
                                     {
-                                        "lang": "he", 
-                                        "text": "פירוש ל\"ב נתיבות חכמה", 
+                                        "lang": "he",
+                                        "text": "הקדמה",
                                         "primary": true
                                     }
-                                ], 
-                                "key": "The Thirty Two Paths Explained", 
+                                ],
+                                "title": "Introduction",
+                                "heTitle": "הקדמה",
                                 "heSectionNames": [
-                                    "נתיב"
-                                ], 
+                                    "פסקה"
+                                ],
+                                "key": "Introduction"
+                            },
+                            {
+                                "nodeType": "JaggedArrayNode",
+                                "depth": 1,
+                                "addressTypes": [
+                                    "Integer"
+                                ],
                                 "sectionNames": [
                                     "Path"
-                                ]
+                                ],
+                                "default": true,
+                                "title": "",
+                                "heTitle": "",
+                                "heSectionNames": [
+                                    "נתיב"
+                                ],
+                                "key": "default"
+                            },
+                            {
+                                "nodeType": "JaggedArrayNode",
+                                "depth": 1,
+                                "addressTypes": [
+                                    "Integer"
+                                ],
+                                "sectionNames": [
+                                    "Path"
+                                ],
+                                "titles": [
+                                    {
+                                        "lang": "en",
+                                        "text": "The Thirty Two Paths Explained",
+                                        "primary": true
+                                    },
+                                    {
+                                        "lang": "he",
+                                        "text": "פירוש ל\"ב נתיבות חכמה",
+                                        "primary": true
+                                    }
+                                ],
+                                "title": "The Thirty Two Paths Explained",
+                                "heTitle": "פירוש ל\"ב נתיבות חכמה",
+                                "heSectionNames": [
+                                    "נתיב"
+                                ],
+                                "key": "The Thirty Two Paths Explained"
                             }
-                        ], 
+                        ],
                         "titles": [
                             {
-                                "lang": "en", 
-                                "text": "The Thirty Two Paths of Wisdom", 
+                                "lang": "en",
+                                "text": "The Thirty Two Paths of Wisdom",
                                 "primary": true
-                            }, 
+                            },
                             {
-                                "lang": "he", 
-                                "text": "ל\"ב נתיבות חכמה", 
+                                "lang": "he",
+                                "text": "ל\"ב נתיבות חכמה",
                                 "primary": true
                             }
-                        ], 
-                        "heTitle": "ל\"ב נתיבות חכמה", 
-                        "key": "The Thirty Two Paths of Wisdom", 
-                        "title": "The Thirty Two Paths of Wisdom"
+                        ],
+                        "title": "The Thirty Two Paths of Wisdom",
+                        "heTitle": "ל\"ב נתיבות חכמה",
+                        "key": "The Thirty Two Paths of Wisdom"
                     }
-                ], 
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Introduction", 
+                        "lang": "en",
+                        "text": "Introduction",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "הקדמה", 
+                        "lang": "he",
+                        "text": "הקדמה",
                         "primary": true
                     }
-                ], 
-                "heTitle": "הקדמה", 
-                "key": "Introduction", 
-                "title": "Introduction"
-            }, 
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "key": "Introduction"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Integer", 
+                    "Perek",
+                    "Integer",
                     "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
-                "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
-                    "פירוש"
-                ], 
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
+                    "Chapter",
+                    "Verse",
                     "Comment"
-                ]
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "פירוש הראב\"ד על ספר יצירה", 
+                "lang": "he",
+                "text": "פירוש הראב\"ד על ספר יצירה",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Raavad on Sefer Yetzirah", 
+                "lang": "en",
+                "text": "Raavad on Sefer Yetzirah",
                 "primary": true
             }
-        ], 
-        "heTitle": "פירוש הראב\"ד על ספר יצירה", 
-        "key": "Raavad on Sefer Yetzirah", 
-        "title": "Raavad on Sefer Yetzirah"
-    }
+        ],
+        "title": "Raavad on Sefer Yetzirah",
+        "heTitle": "פירוש הראב\"ד על ספר יצירה",
+        "key": "Raavad on Sefer Yetzirah"
+    },
+    "authors": [
+        {
+            "en": "Yosef ben Sholom Ashkenazi",
+            "he": "יוסף בן שלום אשכנזי"
+        }
+    ],
+    "enDesc": "Commentary on Sefer Yetzirah mistakenly attributed to Raavad, ascribed by Moses Kordovero and Chida to Yosef ben Shlomo Ashkenazi, an early 14th century Kabbalist.",
+    "heDesc": "פירוש על ספר יצירה מיוחס להראב\"ד, אך המחבר האמיתי (המזוהה על ידי רמ\"ק וחיד\"א) הוא המקובל ר' יוסף בן שלום אשכנזי.",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Sefer Yetzirah",
+            "he": "ספר יצירה"
+        }
+    ],
+    "base_text_mapping": null,
+    "collective_title": {
+        "en": "Raavad",
+        "he": "ראב\"ד"
+    },
+    "heTitle": "פירוש הראב\"ד על ספר יצירה",
+    "titleVariants": [
+        "Raavad on Sefer Yetzirah"
+    ],
+    "heTitleVariants": [
+        "פירוש הראב\"ד על ספר יצירה"
+    ],
+    "heCategories": [
+        "קבלה",
+        "מפרשים",
+        "ראב\"ד"
+    ]
 }

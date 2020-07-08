@@ -1,109 +1,109 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Pirkei Avot", 
-            "he": "פרקי אבות"
-        }
-    ], 
-    "heCategories": [
-        "משנה", 
-        "מפרשים", 
-        "סדר נזיקין"
-    ], 
-    "title": "Magen Avot", 
-    "heTitleVariants": [
-        "מגן אבות"
-    ], 
-    "collective_title": {
-        "en": "Magen Avot", 
-        "he": "מגן אבות"
-    }, 
-    "enDesc": "Magen Avot is R’ Simeon ben Zemah Duran’s (Rashbaz) commentary on Avot. The commentary is the fourth part of his elaborate philosophical work of the same title. ", 
-    "dependence": "Commentary", 
-    "heDesc": "ביאור לפרקי אבות משמעון בן צמח דוראן (רשב\"ץ). הביאור הוא חלק רביעי מספרו הגדול \"מגן אבות\" בעניני פילוסופיה.", 
-    "heTitle": "מגן אבות", 
-    "authors": [
-        {
-            "en": "Shimon ben Tzemach Duran", 
-            "he": "שמעון בן צמח דוראן"
-        }
-    ], 
-    "titleVariants": [
-        "Magen Avot"
-    ], 
+    "title": "Magen Avot",
     "categories": [
-        "Mishnah", 
-        "Commentary", 
+        "Mishnah",
+        "Commentary",
         "Seder Nezikin"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "הקדמה", 
-                "depth": 1, 
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Introduction", 
+                        "lang": "en",
+                        "text": "Introduction",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "הקדמה", 
+                        "lang": "he",
+                        "text": "הקדמה",
                         "primary": true
                     }
-                ], 
-                "key": "Introduction", 
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
                     "פסקה"
-                ], 
-                "sectionNames": [
-                    "Paragraph"
-                ]
-            }, 
+                ],
+                "key": "Introduction"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Mishnah", 
+                    "Perek",
+                    "Mishnah",
                     "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
-                "heSectionNames": [
-                    "פרק", 
-                    "משנה", 
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Mishnah", 
+                    "Chapter",
+                    "Mishnah",
                     "Paragraph"
-                ]
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "משנה",
+                    "פסקה"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "מגן אבות", 
+                "lang": "he",
+                "text": "מגן אבות",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Magen Avot", 
+                "lang": "en",
+                "text": "Magen Avot",
                 "primary": true
             }
-        ], 
-        "heTitle": "מגן אבות", 
-        "key": "Magen Avot", 
-        "title": "Magen Avot"
-    }
+        ],
+        "title": "Magen Avot",
+        "heTitle": "מגן אבות",
+        "key": "Magen Avot"
+    },
+    "authors": [
+        {
+            "en": "Shimon ben Tzemach Duran",
+            "he": "שמעון בן צמח דוראן"
+        }
+    ],
+    "enDesc": "Magen Avot is R’ Simeon ben Zemah Duran’s (Rashbaz) commentary on Avot. The commentary is the fourth part of his elaborate philosophical work of the same title. ",
+    "heDesc": "ביאור לפרקי אבות משמעון בן צמח דוראן (רשב\"ץ). הביאור הוא חלק רביעי מספרו הגדול \"מגן אבות\" בעניני פילוסופיה.",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Pirkei Avot",
+            "he": "פרקי אבות"
+        }
+    ],
+    "collective_title": {
+        "en": "Magen Avot",
+        "he": "מגן אבות"
+    },
+    "heTitle": "מגן אבות",
+    "titleVariants": [
+        "Magen Avot"
+    ],
+    "heTitleVariants": [
+        "מגן אבות"
+    ],
+    "heCategories": [
+        "משנה",
+        "מפרשים",
+        "סדר נזיקין"
+    ]
 }

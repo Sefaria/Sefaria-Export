@@ -1,154 +1,154 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Mekhilta DeRabbi Shimon Bar Yochai", 
-            "he": "מכילתא דרבי שמעון בר יוחאי"
-        }
-    ], 
-    "heCategories": [
-        "מדרש", 
-        "מפרשים", 
-        "הערות שוליים", 
-        "מדרש הלכה"
-    ], 
-    "pubDate": "1900-1903", 
-    "title": "Footnotes on Mekhilta DeRabbi Shimon Bar Yochai", 
-    "base_text_mapping": "many_to_one", 
-    "pubPlace": "Berlin", 
-    "collective_title": {
-        "en": "Footnotes", 
-        "he": "הערות שוליים"
-    }, 
-    "heTitleVariants": [
-        "הערות שוליים על מכילתא דרבי שמעון בר יוחאי", 
-        "הערות שוליים על מכילתא דרבי שמעון ", 
-        "הערות שוליים על מכילתא דרשב\"י"
-    ], 
-    "dependence": "Commentary", 
-    "heTitle": "הערות שוליים על מכילתא דרבי שמעון בר יוחאי", 
-    "era": "AH", 
-    "authors": [], 
-    "titleVariants": [
-        "Footnotes on Mekhilta DeRabbi Shimon", 
-        "Footnotes on Mekhilta DeRashbi", 
-        "Footnotes on Mechilta DeRabbi Shimon Bar Yochai", 
-        "Footnotes on Mechilta DeRashbi", 
-        "Footnotes on Mekhilta of Rabbi Shimon Bar Yochai", 
-        "Footnotes on Mechilta of Rabbi Shimon Bar Yochai", 
-        "Footnotes on Mekhilta DeRabbi Shimon Bar Yochai"
-    ], 
+    "title": "Footnotes on Mekhilta DeRabbi Shimon Bar Yochai",
     "categories": [
-        "Midrash", 
-        "Commentary", 
-        "Footnotes", 
+        "Midrash",
+        "Commentary",
+        "Footnotes",
         "Halachic Midrash"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Integer", 
+                    "Perek",
+                    "Integer",
                     "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
-                "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
-                    "פירוש"
-                ], 
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
+                    "Chapter",
+                    "Verse",
                     "Comment"
-                ]
-            }, 
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Additions", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Integer", 
+                    "Perek",
+                    "Integer",
                     "Integer"
-                ], 
-                "heTitle": "הוספה", 
-                "depth": 3, 
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Verse",
+                    "Comment"
+                ],
                 "titles": [
                     {
-                        "lang": "he", 
-                        "text": "הוספה", 
+                        "lang": "he",
+                        "text": "הוספה",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "en", 
-                        "text": "Additions", 
+                        "lang": "en",
+                        "text": "Additions",
                         "primary": true
                     }
-                ], 
-                "key": "Additions", 
+                ],
+                "title": "Additions",
+                "heTitle": "הוספה",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
+                    "פרק",
+                    "פסוק",
                     "פירוש"
-                ], 
-                "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
-                    "Comment"
-                ]
+                ],
+                "key": "Additions"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Footnotes on Mekhilta DeRabbi Shimon"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Footnotes on Mekhilta DeRashbi"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Footnotes on Mechilta DeRabbi Shimon Bar Yochai"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Footnotes on Mechilta DeRashbi"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Footnotes on Mekhilta of Rabbi Shimon Bar Yochai"
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Footnotes on Mechilta of Rabbi Shimon Bar Yochai"
-            }, 
+            },
             {
-                "lang": "he", 
-                "text": "הערות שוליים על מכילתא דרבי שמעון בר יוחאי", 
+                "lang": "he",
+                "text": "הערות שוליים על מכילתא דרבי שמעון בר יוחאי",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "הערות שוליים על מכילתא דרבי שמעון "
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "הערות שוליים על מכילתא דרשב\"י"
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Footnotes on Mekhilta DeRabbi Shimon Bar Yochai", 
+                "lang": "en",
+                "text": "Footnotes on Mekhilta DeRabbi Shimon Bar Yochai",
                 "primary": true
             }
-        ], 
-        "heTitle": "הערות שוליים על מכילתא דרבי שמעון בר יוחאי", 
-        "key": "Footnotes on Mekhilta DeRabbi Shimon Bar Yochai", 
-        "title": "Footnotes on Mekhilta DeRabbi Shimon Bar Yochai"
-    }
+        ],
+        "title": "Footnotes on Mekhilta DeRabbi Shimon Bar Yochai",
+        "heTitle": "הערות שוליים על מכילתא דרבי שמעון בר יוחאי",
+        "key": "Footnotes on Mekhilta DeRabbi Shimon Bar Yochai"
+    },
+    "authors": [],
+    "pubDate": "1900-1903",
+    "pubPlace": "Berlin",
+    "era": "AH",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Mekhilta DeRabbi Shimon Bar Yochai",
+            "he": "מכילתא דרבי שמעון בר יוחאי"
+        }
+    ],
+    "base_text_mapping": "many_to_one",
+    "collective_title": {
+        "en": "Footnotes",
+        "he": "הערות שוליים"
+    },
+    "heTitle": "הערות שוליים על מכילתא דרבי שמעון בר יוחאי",
+    "titleVariants": [
+        "Footnotes on Mekhilta DeRabbi Shimon",
+        "Footnotes on Mekhilta DeRashbi",
+        "Footnotes on Mechilta DeRabbi Shimon Bar Yochai",
+        "Footnotes on Mechilta DeRashbi",
+        "Footnotes on Mekhilta of Rabbi Shimon Bar Yochai",
+        "Footnotes on Mechilta of Rabbi Shimon Bar Yochai",
+        "Footnotes on Mekhilta DeRabbi Shimon Bar Yochai"
+    ],
+    "heTitleVariants": [
+        "הערות שוליים על מכילתא דרבי שמעון בר יוחאי",
+        "הערות שוליים על מכילתא דרבי שמעון ",
+        "הערות שוליים על מכילתא דרשב\"י"
+    ],
+    "heCategories": [
+        "מדרש",
+        "מפרשים",
+        "הערות שוליים",
+        "מדרש הלכה"
+    ]
 }

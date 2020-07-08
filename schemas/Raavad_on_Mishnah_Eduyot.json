@@ -1,102 +1,102 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Mishnah Eduyot", 
-            "he": "משנה עדיות"
-        }
-    ], 
-    "heCategories": [
-        "משנה", 
-        "מפרשים", 
-        "ראב\"ד"
-    ], 
-    "title": "Raavad on Mishnah Eduyot", 
-    "collective_title": {
-        "en": "Raavad", 
-        "he": "ראב\"ד"
-    }, 
-    "heTitleVariants": [
-        "ראב\"ד על משנה עדיות"
-    ], 
-    "dependence": "Commentary", 
-    "heTitle": "ראב\"ד על משנה עדיות", 
-    "titleVariants": [
-        "Raavad on Mishnah Eduyot"
-    ], 
+    "title": "Raavad on Mishnah Eduyot",
     "categories": [
-        "Mishnah", 
-        "Commentary", 
+        "Mishnah",
+        "Commentary",
         "Raavad"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "הקדמה", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "הקדמה", 
-                        "primary": true
-                    }
-                ], 
-                "key": "Introduction", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "addressTypes": [
-                    "Perek", 
-                    "Mishnah", 
-                    "Integer"
-                ], 
-                "default": true, 
-                "title": "", 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "titles": [
+                    {
+                        "lang": "en",
+                        "primary": true,
+                        "text": "Introduction"
+                    },
+                    {
+                        "lang": "he",
+                        "primary": true,
+                        "text": "הקדמה"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
-                    "פרק", 
-                    "משנה", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Mishnah",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Mishnah", 
+                    "Chapter",
+                    "Mishnah",
                     "Comment"
-                ], 
-                "toc_zoom": 2
+                ],
+                "toc_zoom": 2,
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "משנה",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "ראב\"ד על משנה עדיות", 
-                "primary": true
-            }, 
+                "lang": "he",
+                "primary": true,
+                "text": "ראב\"ד על משנה עדיות"
+            },
             {
-                "lang": "en", 
-                "text": "Raavad on Mishnah Eduyot", 
-                "primary": true
+                "lang": "en",
+                "primary": true,
+                "text": "Raavad on Mishnah Eduyot"
             }
-        ], 
-        "heTitle": "ראב\"ד על משנה עדיות", 
-        "key": "Raavad on Mishnah Eduyot", 
-        "title": "Raavad on Mishnah Eduyot"
-    }
+        ],
+        "title": "Raavad on Mishnah Eduyot",
+        "heTitle": "ראב\"ד על משנה עדיות",
+        "key": "Raavad on Mishnah Eduyot"
+    },
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Mishnah Eduyot",
+            "he": "משנה עדיות"
+        }
+    ],
+    "collective_title": {
+        "en": "Raavad",
+        "he": "ראב\"ד"
+    },
+    "heTitle": "ראב\"ד על משנה עדיות",
+    "titleVariants": [
+        "Raavad on Mishnah Eduyot"
+    ],
+    "heTitleVariants": [
+        "ראב\"ד על משנה עדיות"
+    ],
+    "heCategories": [
+        "משנה",
+        "מפרשים",
+        "ראב\"ד"
+    ]
 }

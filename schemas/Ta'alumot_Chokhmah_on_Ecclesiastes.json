@@ -1,110 +1,110 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Ecclesiastes", 
-            "he": "קהלת"
-        }
-    ], 
-    "heCategories": [
-        "תנ\"ך", 
-        "מפרשים", 
-        "תעלומות חכמה"
-    ], 
-    "title": "Ta'alumot Chokhmah on Ecclesiastes", 
-    "heTitleVariants": [
-        "תעלומות חכמה על קהלת"
-    ], 
-    "collective_title": {
-        "en": "Ta'alumot Chokhmah", 
-        "he": "תעלומות חכמה"
-    }, 
-    "enDesc": "Commentary on Megilat Kohelet by the author of 'Netivot HaMishpat.'", 
-    "dependence": "Commentary", 
-    "heDesc": "פירוש על מגילת קהלת לבעל 'נתיבות המשפט'.", 
-    "heTitle": "תעלומות חכמה על קהלת", 
-    "authors": [
-        {
-            "en": "Yaakov Lorberbaum", 
-            "he": "יעקב בן יעקב משה מליסא"
-        }
-    ], 
-    "titleVariants": [
-        "Ta'alumot Chokhmah on Ecclesiastes"
-    ], 
+    "title": "Ta'alumot Chokhmah on Ecclesiastes",
     "categories": [
-        "Tanakh", 
-        "Commentary", 
+        "Tanakh",
+        "Commentary",
         "Ta'alumot Chokhmah"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "הקדמה", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "הקדמה", 
-                        "primary": true
-                    }
-                ], 
-                "key": "Introduction", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "addressTypes": [
-                    "Perek", 
-                    "Integer", 
-                    "Integer"
-                ], 
-                "default": true, 
-                "title": "", 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Integer",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
+                    "Chapter",
+                    "Verse",
                     "Comment"
-                ], 
-                "toc_zoom": 2
+                ],
+                "toc_zoom": 2,
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "תעלומות חכמה על קהלת", 
+                "lang": "he",
+                "text": "תעלומות חכמה על קהלת",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Ta'alumot Chokhmah on Ecclesiastes", 
+                "lang": "en",
+                "text": "Ta'alumot Chokhmah on Ecclesiastes",
                 "primary": true
             }
-        ], 
-        "heTitle": "תעלומות חכמה על קהלת", 
-        "key": "Ta'alumot Chokhmah on Ecclesiastes", 
-        "title": "Ta'alumot Chokhmah on Ecclesiastes"
-    }
+        ],
+        "title": "Ta'alumot Chokhmah on Ecclesiastes",
+        "heTitle": "תעלומות חכמה על קהלת",
+        "key": "Ta'alumot Chokhmah on Ecclesiastes"
+    },
+    "authors": [
+        {
+            "en": "Yaakov Lorberbaum",
+            "he": "יעקב בן יעקב משה מליסא"
+        }
+    ],
+    "enDesc": "Commentary on Megilat Kohelet by the author of 'Netivot HaMishpat.'",
+    "heDesc": "פירוש על מגילת קהלת לבעל 'נתיבות המשפט'.",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Ecclesiastes",
+            "he": "קהלת"
+        }
+    ],
+    "collective_title": {
+        "en": "Ta'alumot Chokhmah",
+        "he": "תעלומות חכמה"
+    },
+    "heTitle": "תעלומות חכמה על קהלת",
+    "titleVariants": [
+        "Ta'alumot Chokhmah on Ecclesiastes"
+    ],
+    "heTitleVariants": [
+        "תעלומות חכמה על קהלת"
+    ],
+    "heCategories": [
+        "תנ\"ך",
+        "מפרשים",
+        "תעלומות חכמה"
+    ]
 }

@@ -1,112 +1,123 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Tractate Derekh Eretz Zuta", 
-            "he": "מסכת דרך ארץ זוטא"
-        }
-    ], 
-    "heCategories": [
-        "ספרות תנאית", 
-        "מפרשים", 
-        "נוסחת הגר״א", 
-        "מסכתות קטנות"
-    ], 
-    "title": "Gra's Nuschah on Tractate Derekh Eretz Zuta", 
-    "collective_title": {
-        "en": "Gra's Nuschah", 
-        "he": "נוסחת הגר״א"
-    }, 
-    "heTitleVariants": [
-        "נוסחת הגר״א על מסכת דרך ארץ זוטא"
-    ], 
-    "dependence": "Commentary", 
-    "heTitle": "נוסחת הגר״א על מסכת דרך ארץ זוטא", 
-    "authors": [
-        {
-            "en": "Vilna Gaon", 
-            "he": "אליהו בן שלומו זלמן מווילנה"
-        }
-    ], 
-    "titleVariants": [
-        "Gra's Nuschah on Tractate Derekh Eretz Zuta"
-    ], 
+    "title": "Gra's Nuschah on Tractate Derekh Eretz Zuta",
     "categories": [
-        "Tanaitic", 
-        "Commentary", 
-        "Gra's Nuschah", 
+        "Tanaitic",
+        "Commentary",
+        "Gra's Nuschah",
         "Minor Tractates"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Halakhah", 
+                    "Perek",
+                    "Halakhah",
                     "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
-                "heSectionNames": [
-                    "פרק", 
-                    "הלכה", 
-                    "פירוש"
-                ], 
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Halakhah", 
+                    "Chapter",
+                    "Halakhah",
                     "Comment"
-                ]
-            }, 
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "הלכה",
+                    "פירוש"
+                ],
+                "key": "default"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Section on Peace", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
                 "addressTypes": [
-                    "Halakhah", 
+                    "Halakhah",
                     "Integer"
-                ], 
-                "heTitle": "פרק השלום", 
-                "depth": 2, 
+                ],
+                "sectionNames": [
+                    "Halakhah",
+                    "Comment"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Section on Peace", 
-                        "primary": true
-                    }, 
+                        "primary": true,
+                        "lang": "en",
+                        "text": "Section on Peace"
+                    },
                     {
-                        "lang": "he", 
-                        "text": "פרק השלום", 
-                        "primary": true
+                        "primary": true,
+                        "lang": "he",
+                        "text": "פרק השלום"
                     }
-                ], 
-                "key": "Section on Peace", 
+                ],
+                "title": "Section on Peace",
+                "heTitle": "פרק השלום",
                 "heSectionNames": [
-                    "הלכה", 
+                    "הלכה",
                     "פירוש"
-                ], 
-                "sectionNames": [
-                    "Halakhah", 
-                    "Comment"
-                ]
+                ],
+                "key": "Section on Peace"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "נוסחת הגר״א על מסכת דרך ארץ זוטא", 
-                "primary": true
-            }, 
+                "primary": true,
+                "lang": "he",
+                "text": "נוסחת הגר״א על מסכת דרך ארץ זוטא"
+            },
             {
-                "lang": "en", 
-                "text": "Gra's Nuschah on Tractate Derekh Eretz Zuta", 
-                "primary": true
+                "primary": true,
+                "lang": "en",
+                "text": "Gra's Nuschah on Tractate Derekh Eretz Zuta"
             }
-        ], 
-        "heTitle": "נוסחת הגר״א על מסכת דרך ארץ זוטא", 
-        "key": "Gra's Nuschah on Tractate Derekh Eretz Zuta", 
-        "title": "Gra's Nuschah on Tractate Derekh Eretz Zuta"
+        ],
+        "title": "Gra's Nuschah on Tractate Derekh Eretz Zuta",
+        "heTitle": "נוסחת הגר״א על מסכת דרך ארץ זוטא",
+        "key": "Gra's Nuschah on Tractate Derekh Eretz Zuta"
+    },
+    "authors": [
+        {
+            "en": "Vilna Gaon",
+            "he": "אליהו בן שלומו זלמן מווילנה"
+        }
+    ],
+    "compDate": "1750",
+    "compPlace": "Vilna",
+    "errorMargin": "20",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Tractate Derekh Eretz Zuta",
+            "he": "מסכת דרך ארץ זוטא"
+        }
+    ],
+    "collective_title": {
+        "en": "Gra's Nuschah",
+        "he": "נוסחת הגר״א"
+    },
+    "heTitle": "נוסחת הגר״א על מסכת דרך ארץ זוטא",
+    "titleVariants": [
+        "Gra's Nuschah on Tractate Derekh Eretz Zuta"
+    ],
+    "heTitleVariants": [
+        "נוסחת הגר״א על מסכת דרך ארץ זוטא"
+    ],
+    "heCategories": [
+        "ספרות תנאית",
+        "מפרשים",
+        "נוסחת הגר״א",
+        "מסכתות קטנות"
+    ],
+    "compDateString": {
+        "en": " (c.1730  - c.1770 CE)",
+        "he": " (1730 - 1770 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Vilna",
+        "he": "וילנה"
     }
 }

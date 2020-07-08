@@ -1,115 +1,129 @@
 {
-    "heTitleVariants": [
-        "דרך חיים"
-    ], 
-    "heCategories": [
-        "מחשבת ישראל", 
-        "מהר\"ל מפראג"
-    ], 
-    "pubDate": "1588", 
-    "title": "Derech Chaim", 
-    "compDate": "1583", 
-    "pubPlace": "Krakow", 
-    "compPlace": "Prague", 
-    "enDesc": "Derech Chaim is a commentary on Pirkei Avot written by the Maharal of Prague (Rabbi Judah Loew ben Bezalel c.1512 - 1609). ", 
-    "compPlaceString": {
-        "en": "Prague", 
-        "he": "פראג"
-    }, 
-    "compDateString": {
-        "en": " (c.1578  - c.1588 CE)", 
-        "he": " (1578 - 1588 לספירה בקירוב)"
-    }, 
-    "heDesc": "ביאור על פרקי אבות מהמהר\"ל מפראג.", 
-    "heTitle": "דרך חיים", 
-    "era": "AH", 
-    "authors": [
-        {
-            "en": "Maharal", 
-            "he": "מהר\"ל"
-        }
-    ], 
-    "titleVariants": [
-        "The Way of Life", 
-        "Derech Chaim"
-    ], 
-    "errorMargin": "5", 
+    "title": "Derech Chaim",
     "categories": [
-        "Philosophy", 
-        "Maharal"
-    ], 
+        "Mishnah",
+        "Commentary"
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Author's Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "הקדמה המחבר", 
-                "depth": 1, 
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
                 "titles": [
                     {
-                        "lang": "he", 
-                        "text": "הקדמה המחבר", 
+                        "lang": "en",
+                        "text": "Introduction",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "en", 
-                        "text": "Author's Introduction", 
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "intro"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "Kol Yisrael; The Opening Mishna",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "משנת 'כל ישראל'",
+                        "lang": "he",
                         "primary": true
                     }
-                ], 
-                "key": "intro", 
+                ],
+                "title": "Kol Yisrael; The Opening Mishna",
+                "heTitle": "משנת 'כל ישראל'",
                 "heSectionNames": [
                     "פסקה"
-                ], 
-                "sectionNames": [
-                    "Paragraph"
-                ]
-            }, 
+                ],
+                "key": "Kol Yisrael; The Opening Mishna"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Mishnah", 
+                    "Integer",
+                    "Mishnah",
                     "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
-                "heSectionNames": [
-                    "פרק", 
-                    "משנה", 
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Mishnah", 
+                    "Chapter",
+                    "Mishnah",
                     "Paragraph"
-                ]
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "משנה",
+                    "פסקה"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "en", 
-                "text": "The Way of Life"
-            }, 
-            {
-                "lang": "he", 
-                "text": "דרך חיים", 
+                "text": "דרך חיים",
+                "lang": "he",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Derech Chaim", 
+                "text": "Derech Chaim",
+                "lang": "en",
                 "primary": true
             }
-        ], 
-        "heTitle": "דרך חיים", 
-        "key": "Derech Chaim", 
-        "title": "Derech Chaim"
-    }
+        ],
+        "title": "Derech Chaim",
+        "heTitle": "דרך חיים",
+        "key": "Derech Chaim"
+    },
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Pirkei Avot",
+            "he": "פרקי אבות"
+        }
+    ],
+    "base_text_mapping": "",
+    "heTitle": "דרך חיים",
+    "titleVariants": [
+        "Derech Chaim"
+    ],
+    "heTitleVariants": [
+        "דרך חיים"
+    ],
+    "heCategories": [
+        "משנה",
+        "מפרשים"
+    ]
 }

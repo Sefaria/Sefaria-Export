@@ -1,104 +1,104 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Judges", 
-            "he": "שופטים"
-        }
-    ], 
-    "heCategories": [
-        "תנ\"ך", 
-        "מפרשים", 
-        "אברבנאל", 
-        "נביאים"
-    ], 
-    "title": "Abarbanel on Judges", 
-    "collective_title": {
-        "en": "Abarbanel", 
-        "he": "אברבנאל"
-    }, 
-    "heTitleVariants": [
-        "אברבנאל על שופטים"
-    ], 
-    "dependence": "Commentary", 
-    "heTitle": "אברבנאל על שופטים", 
-    "titleVariants": [
-        "Abarbanel on Judges"
-    ], 
+    "title": "Abarbanel on Judges",
     "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Abarbanel", 
+        "Tanakh",
+        "Commentary",
+        "Abarbanel",
         "Prophets"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "הקדמה", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "הקדמה", 
-                        "primary": true
-                    }
-                ], 
-                "key": "Introduction", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "addressTypes": [
-                    "Integer", 
-                    "Integer", 
-                    "Integer"
-                ], 
-                "default": true, 
-                "title": "", 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "titles": [
+                    {
+                        "text": "Introduction",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "הקדמה",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Integer",
+                    "Integer",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
+                    "Chapter",
+                    "Verse",
                     "Comment"
-                ], 
-                "toc_zoom": 2
+                ],
+                "toc_zoom": 2,
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "אברבנאל על שופטים", 
+                "text": "אברבנאל על שופטים",
+                "lang": "he",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Abarbanel on Judges", 
+                "text": "Abarbanel on Judges",
+                "lang": "en",
                 "primary": true
             }
-        ], 
-        "heTitle": "אברבנאל על שופטים", 
-        "key": "Abarbanel on Judges", 
-        "title": "Abarbanel on Judges"
-    }
+        ],
+        "title": "Abarbanel on Judges",
+        "heTitle": "אברבנאל על שופטים",
+        "key": "Abarbanel on Judges"
+    },
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Judges",
+            "he": "שופטים"
+        }
+    ],
+    "collective_title": {
+        "en": "Abarbanel",
+        "he": "אברבנאל"
+    },
+    "heTitle": "אברבנאל על שופטים",
+    "titleVariants": [
+        "Abarbanel on Judges"
+    ],
+    "heTitleVariants": [
+        "אברבנאל על שופטים"
+    ],
+    "heCategories": [
+        "תנ\"ך",
+        "מפרשים",
+        "אברבנאל",
+        "נביאים"
+    ]
 }

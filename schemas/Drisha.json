@@ -1,179 +1,179 @@
 {
-    "heCategories": [
-        "הלכה", 
-        "טור ומפרשיו"
-    ], 
-    "title": "Drisha", 
-    "heTitleVariants": [
-        "דרישה"
-    ], 
-    "heTitle": "דרישה", 
-    "authors": [
-        {
-            "en": "Joshua Falk", 
-            "he": "יהושע פלק‏ בן אלכסנדר הכהן"
-        }
-    ], 
-    "titleVariants": [
-        "Drisha"
-    ], 
+    "title": "Drisha",
     "categories": [
-        "Halakhah", 
+        "Halakhah",
         "Tur and Commentaries"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Orach Chaim", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Siman", 
-                    "Integer", 
+                    "Siman",
+                    "Integer",
                     "Integer"
-                ], 
-                "heTitle": "אורח חיים", 
-                "depth": 3, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Orach Chaim", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "אורח חיים", 
-                        "primary": true
-                    }
-                ], 
-                "key": "OrachChaim", 
-                "heSectionNames": [
-                    "סימן", 
-                    "סעיף קטן", 
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
-                    "Siman", 
-                    "Seif Katan", 
+                    "Siman",
+                    "Seif Katan",
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Yoreh Deah", 
-                "addressTypes": [
-                    "Siman", 
-                    "Integer", 
-                    "Integer"
-                ], 
-                "heTitle": "יורה דעה", 
-                "depth": 3, 
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Yoreh Deah", 
+                        "lang": "en",
+                        "text": "Orach Chaim",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "יורה דעה", 
+                        "lang": "he",
+                        "text": "אורח חיים",
                         "primary": true
                     }
-                ], 
-                "key": "YorehDeah", 
+                ],
+                "title": "Orach Chaim",
+                "heTitle": "אורח חיים",
                 "heSectionNames": [
-                    "סימן", 
-                    "סעיף קטן", 
+                    "סימן",
+                    "סעיף קטן",
                     "פסקה"
-                ], 
-                "sectionNames": [
-                    "Siman", 
-                    "Seif Katan", 
-                    "Paragraph"
-                ]
-            }, 
+                ],
+                "key": "OrachChaim"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Even HaEzer", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Siman", 
-                    "Integer", 
+                    "Siman",
+                    "Integer",
                     "Integer"
-                ], 
-                "heTitle": "אבן העזר", 
-                "depth": 3, 
+                ],
+                "sectionNames": [
+                    "Siman",
+                    "Seif Katan",
+                    "Paragraph"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Even HaEzer", 
+                        "lang": "en",
+                        "text": "Yoreh Deah",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "אבן העזר", 
+                        "lang": "he",
+                        "text": "יורה דעה",
                         "primary": true
                     }
-                ], 
-                "key": "EvenHaEzer", 
+                ],
+                "title": "Yoreh Deah",
+                "heTitle": "יורה דעה",
                 "heSectionNames": [
-                    "סימן", 
-                    "סעיף קטן", 
+                    "סימן",
+                    "סעיף קטן",
                     "פסקה"
-                ], 
-                "sectionNames": [
-                    "Siman", 
-                    "Seif Katan", 
-                    "Paragraph"
-                ]
-            }, 
+                ],
+                "key": "YorehDeah"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Choshen Mishpat", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Siman", 
-                    "Seif", 
+                    "Siman",
+                    "Integer",
                     "Integer"
-                ], 
-                "heTitle": "חושן משפט", 
-                "depth": 3, 
+                ],
+                "sectionNames": [
+                    "Siman",
+                    "Seif Katan",
+                    "Paragraph"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Choshen Mishpat", 
+                        "lang": "en",
+                        "text": "Even HaEzer",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "חושן משפט", 
+                        "lang": "he",
+                        "text": "אבן העזר",
                         "primary": true
                     }
-                ], 
-                "key": "ChoshenMishpat", 
+                ],
+                "title": "Even HaEzer",
+                "heTitle": "אבן העזר",
                 "heSectionNames": [
-                    "סימן", 
-                    "סעיף", 
-                    "סעיף קטן"
-                ], 
+                    "סימן",
+                    "סעיף קטן",
+                    "פסקה"
+                ],
+                "key": "EvenHaEzer"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Siman",
+                    "Seif",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Siman", 
-                    "Seif", 
+                    "Siman",
+                    "Seif",
                     "Seif Katan"
-                ]
+                ],
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Choshen Mishpat",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "חושן משפט",
+                        "primary": true
+                    }
+                ],
+                "title": "Choshen Mishpat",
+                "heTitle": "חושן משפט",
+                "heSectionNames": [
+                    "סימן",
+                    "סעיף",
+                    "סעיף קטן"
+                ],
+                "key": "ChoshenMishpat"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "דרישה", 
+                "lang": "he",
+                "text": "דרישה",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Drisha", 
+                "lang": "en",
+                "text": "Drisha",
                 "primary": true
             }
-        ], 
-        "heTitle": "דרישה", 
-        "key": "Drisha", 
-        "title": "Drisha"
-    }
+        ],
+        "title": "Drisha",
+        "heTitle": "דרישה",
+        "key": "Drisha"
+    },
+    "authors": [
+        {
+            "en": "Joshua Falk",
+            "he": "יהושע פלק‏ בן אלכסנדר הכהן"
+        }
+    ],
+    "heTitle": "דרישה",
+    "titleVariants": [
+        "Drisha"
+    ],
+    "heTitleVariants": [
+        "דרישה"
+    ],
+    "heCategories": [
+        "הלכה",
+        "טור ומפרשיו"
+    ]
 }

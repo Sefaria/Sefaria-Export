@@ -1,125 +1,125 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Mishnah Chullin", 
-            "he": "משנה חולין"
-        }
-    ], 
-    "pubPlace": "Prague", 
-    "compPlace": "Prague", 
-    "heTitleVariants": [
-        "תוספות יום טוב על משנה חולין"
-    ], 
-    "heTitle": "תוספות יום טוב על משנה חולין", 
-    "errorMargin": "2", 
-    "heCategories": [
-        "משנה", 
-        "מפרשים", 
-        "תוספות יום טוב", 
-        "סדר קדשים"
-    ], 
-    "pubDate": "1614-1617", 
-    "title": "Tosafot Yom Tov on Mishnah Chullin", 
-    "compDate": "1615", 
-    "compDateString": {
-        "en": " (c.1613  - c.1617 CE)", 
-        "he": " (1613 - 1617 לספירה בקירוב)"
-    }, 
-    "compPlaceString": {
-        "en": "Prague", 
-        "he": "פראג"
-    }, 
+    "title": "Tosafot Yom Tov on Mishnah Chullin",
+    "categories": [
+        "Mishnah",
+        "Commentary",
+        "Tosafot Yom Tov",
+        "Seder Kodashim"
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Mishnah Chullin, Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "משנה חולין, הקדמה", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Mishnah Chullin, Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "משנה חולין, הקדמה", 
-                        "primary": true
-                    }
-                ], 
-                "key": "introMishnah Chullin", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
-                "addressTypes": [
-                    "Perek", 
-                    "Mishnah", 
-                    "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Mishnah Chullin, Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "משנה חולין, הקדמה",
+                        "primary": true
+                    }
+                ],
+                "title": "Mishnah Chullin, Introduction",
+                "heTitle": "משנה חולין, הקדמה",
                 "heSectionNames": [
-                    "פרק", 
-                    "משנה", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "introMishnah Chullin"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Mishnah",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Mishnah", 
+                    "Chapter",
+                    "Mishnah",
                     "Comment"
-                ]
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "משנה",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "תוספות יום טוב על משנה חולין", 
+                "lang": "he",
+                "text": "תוספות יום טוב על משנה חולין",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Tosafot Yom Tov on Mishnah Chullin", 
+                "lang": "en",
+                "text": "Tosafot Yom Tov on Mishnah Chullin",
                 "primary": true
             }
-        ], 
-        "heTitle": "תוספות יום טוב על משנה חולין", 
-        "key": "Tosafot Yom Tov on Mishnah Chullin", 
-        "title": "Tosafot Yom Tov on Mishnah Chullin"
-    }, 
-    "enDesc": "The release and digitization of this work was kindly sponsored by Nicole and Raanan Agus.", 
+        ],
+        "title": "Tosafot Yom Tov on Mishnah Chullin",
+        "heTitle": "תוספות יום טוב על משנה חולין",
+        "key": "Tosafot Yom Tov on Mishnah Chullin"
+    },
     "authors": [
         {
-            "en": "Yom-Tov Lipmann Heller", 
+            "en": "Yom-Tov Lipmann Heller",
             "he": "יום-טוב ליפמן הלר"
         }
-    ], 
+    ],
+    "enDesc": "The release and digitization of this work was kindly sponsored by Nicole and Raanan Agus.",
+    "pubDate": "1614-1617",
+    "compDate": "1615",
+    "compPlace": "Prague",
+    "pubPlace": "Prague",
+    "errorMargin": "2",
+    "era": "AH",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Mishnah Chullin",
+            "he": "משנה חולין"
+        }
+    ],
+    "base_text_mapping": null,
+    "collective_title": {
+        "en": "Tosafot Yom Tov",
+        "he": "תוספות יום טוב"
+    },
+    "heTitle": "תוספות יום טוב על משנה חולין",
     "titleVariants": [
         "Tosafot Yom Tov on Mishnah Chullin"
-    ], 
-    "categories": [
-        "Mishnah", 
-        "Commentary", 
-        "Tosafot Yom Tov", 
-        "Seder Kodashim"
-    ], 
-    "collective_title": {
-        "en": "Tosafot Yom Tov", 
-        "he": "תוספות יום טוב"
-    }, 
-    "dependence": "Commentary", 
-    "era": "AH", 
-    "base_text_mapping": null
+    ],
+    "heTitleVariants": [
+        "תוספות יום טוב על משנה חולין"
+    ],
+    "heCategories": [
+        "משנה",
+        "מפרשים",
+        "תוספות יום טוב",
+        "סדר קדשים"
+    ],
+    "compDateString": {
+        "en": " (c.1613  - c.1617 CE)",
+        "he": " (1613 - 1617 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Prague",
+        "he": "פראג"
+    }
 }

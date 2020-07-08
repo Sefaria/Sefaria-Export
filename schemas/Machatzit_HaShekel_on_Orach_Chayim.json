@@ -1,108 +1,130 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Shulchan Arukh, Orach Chayim", 
-            "he": "אורח חיים"
-        }, 
-        {
-            "en": "Magen Avraham", 
-            "he": "מגן אברהם"
-        }
-    ], 
-    "heCategories": [
-        "הלכה", 
-        "שולחן ערוך", 
-        "מפרשים", 
-        "מחצית השקל"
-    ], 
-    "title": "Machatzit HaShekel on Orach Chayim", 
-    "collective_title": {
-        "en": "Machatzit HaShekel", 
-        "he": "מחצית השקל"
-    }, 
-    "heTitleVariants": [
-        "מחצית השקל על אורח חיים"
-    ], 
-    "dependence": "Commentary", 
-    "heTitle": "מחצית השקל על אורח חיים", 
-    "titleVariants": [
-        "Machatzit HaShekel on Orach Chayim"
-    ], 
+    "title": "Machatzit HaShekel on Orach Chayim",
     "categories": [
-        "Halakhah", 
-        "Shulchan Arukh", 
-        "Commentary", 
+        "Halakhah",
+        "Shulchan Arukh",
+        "Commentary",
         "Machatzit HaShekel"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "הקדמת המחבר", 
-                "depth": 1, 
+                ],
+                "sectionNames": [
+                    "Comment"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Introduction", 
-                        "primary": true
-                    }, 
+                        "primary": true,
+                        "lang": "en",
+                        "text": "Introduction"
+                    },
                     {
-                        "lang": "he", 
-                        "text": "הקדמת המחבר", 
-                        "primary": true
+                        "primary": true,
+                        "lang": "he",
+                        "text": "הקדמת המחבר"
                     }
-                ], 
-                "key": "Introduction", 
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמת המחבר",
                 "heSectionNames": [
                     "פירוש"
-                ], 
-                "sectionNames": [
-                    "Comment"
-                ]
-            }, 
+                ],
+                "key": "Introduction"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Siman", 
-                    "Seif", 
+                    "Siman",
+                    "Seif",
                     "Integer"
-                ], 
-                "default": true, 
-                "title": "", 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
-                "heSectionNames": [
-                    "סימן", 
-                    "סעיף", 
-                    "פירוש"
-                ], 
+                ],
                 "sectionNames": [
-                    "Siman", 
-                    "Seif", 
+                    "Siman",
+                    "Seif",
                     "Comment"
-                ], 
-                "toc_zoom": 2
+                ],
+                "toc_zoom": 2,
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "סימן",
+                    "סעיף",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "מחצית השקל על אורח חיים", 
-                "primary": true
-            }, 
+                "primary": true,
+                "lang": "he",
+                "text": "מחצית השקל על אורח חיים"
+            },
             {
-                "lang": "en", 
-                "text": "Machatzit HaShekel on Orach Chayim", 
-                "primary": true
+                "primary": true,
+                "lang": "en",
+                "text": "Machatzit HaShekel on Orach Chayim"
             }
-        ], 
-        "heTitle": "מחצית השקל על אורח חיים", 
-        "key": "Machatzit HaShekel on Orach Chayim", 
-        "title": "Machatzit HaShekel on Orach Chayim"
+        ],
+        "title": "Machatzit HaShekel on Orach Chayim",
+        "heTitle": "מחצית השקל על אורח חיים",
+        "key": "Machatzit HaShekel on Orach Chayim"
+    },
+    "authors": [
+        {
+            "en": "Samuel Kolin",
+            "he": "שמואל קעלין"
+        }
+    ],
+    "enDesc": "Comprehensive subcommentary on Abraham Abele Gombiner's \"Magen Abraham\" on Shulchan Arukh Orach Chayim, printed in most editions.",
+    "heDesc": "ביאור ארוך על פירוש 'מגן אברהם' לשולחן ערוך אורח חיים, נדפס על הדף ברוב מהדורות השלחן ערוך.",
+    "pubDate": "1807",
+    "compDate": "1780",
+    "compPlace": "Boskovice",
+    "pubPlace": "Vienna",
+    "errorMargin": "25",
+    "era": "AH",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Shulchan Arukh, Orach Chayim",
+            "he": "אורח חיים"
+        },
+        {
+            "en": "Magen Avraham",
+            "he": "מגן אברהם"
+        }
+    ],
+    "collective_title": {
+        "en": "Machatzit HaShekel",
+        "he": "מחצית השקל"
+    },
+    "heTitle": "מחצית השקל על אורח חיים",
+    "titleVariants": [
+        "Machatzit HaShekel on Orach Chayim"
+    ],
+    "heTitleVariants": [
+        "מחצית השקל על אורח חיים"
+    ],
+    "heCategories": [
+        "הלכה",
+        "שולחן ערוך",
+        "מפרשים",
+        "מחצית השקל"
+    ],
+    "compDateString": {
+        "en": " (c.1755  - c.1805 CE)",
+        "he": " (1755 - 1805 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Boskovice",
+        "he": "בוסקוביצה"
     }
 }

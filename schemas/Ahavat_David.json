@@ -1,83 +1,83 @@
 {
-    "heCategories": [
-        "ספרי מוסר"
-    ], 
-    "title": "Ahavat David", 
-    "heTitleVariants": [
-        "אהבת דוד"
-    ], 
-    "heTitle": "אהבת דוד", 
-    "titleVariants": [
-        "Ahavat David"
-    ], 
+    "title": "Ahavat David",
     "categories": [
         "Musar"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Title", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "שער", 
-                "depth": 1, 
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Title", 
-                        "primary": true
-                    }, 
+                        "lang": "en",
+                        "primary": true,
+                        "text": "Title"
+                    },
                     {
-                        "lang": "he", 
-                        "text": "שער", 
-                        "primary": true
+                        "lang": "he",
+                        "primary": true,
+                        "text": "שער"
                     }
-                ], 
-                "key": "Title", 
+                ],
+                "title": "Title",
+                "heTitle": "שער",
                 "heSectionNames": [
                     "פסקה"
-                ], 
-                "sectionNames": [
-                    "Paragraph"
-                ]
-            }, 
+                ],
+                "key": "Title"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
                 "addressTypes": [
-                    "Integer", 
+                    "Integer",
                     "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 2, 
-                "key": "default", 
-                "heSectionNames": [
-                    "פרק", 
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
-                    "Chapter", 
+                    "Chapter",
                     "Paragraph"
-                ]
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסקה"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "אהבת דוד", 
-                "primary": true
-            }, 
+                "lang": "he",
+                "primary": true,
+                "text": "אהבת דוד"
+            },
             {
-                "lang": "en", 
-                "text": "Ahavat David", 
-                "primary": true
+                "lang": "en",
+                "primary": true,
+                "text": "Ahavat David"
             }
-        ], 
-        "heTitle": "אהבת דוד", 
-        "key": "Ahavat David", 
-        "title": "Ahavat David"
-    }
+        ],
+        "title": "Ahavat David",
+        "heTitle": "אהבת דוד",
+        "key": "Ahavat David"
+    },
+    "heTitle": "אהבת דוד",
+    "titleVariants": [
+        "Ahavat David"
+    ],
+    "heTitleVariants": [
+        "אהבת דוד"
+    ],
+    "heCategories": [
+        "ספרי מוסר"
+    ]
 }

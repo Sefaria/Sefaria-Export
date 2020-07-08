@@ -1,256 +1,256 @@
 {
-    "heTitleVariants": [
-        "הטור הארוך"
-    ], 
-    "heCategories": [
-        "תנ\"ך", 
-        "מפרשים", 
-        "הטור הארוך"
-    ], 
-    "title": "Tur HaAroch", 
-    "base_text_mapping": null, 
-    "collective_title": {
-        "en": "Tur HaAroch", 
-        "he": "הטור הארוך"
-    }, 
-    "enDesc": "Tur HaAroch, a commentary on the Torah, is written by R’ Jacob ben Asher (c. 1269 - c. 1343), known as Ba’al ha-Turim. While his concise introductory \"Parperaot\" (lit. appetizers) gained wide popularity and is printed in most standard Chumashim, his commentary body is less known. The English translation is by Rabbi Eliyahu Munk. ", 
-    "dependence": "Commentary", 
-    "heDesc": "הפירוש המלא על התורה מר' יעקב בעל הטורים. (הפירוש הנדפס בחומשים בשם \"בעל הטורים\" הוא רק ההקדמות לכל פרשה, בהם כתב המחבר \"מעט פרפראות וגימטריאות וטעמי המסורות להמשיך הלב\").", 
-    "heTitle": "הטור הארוך", 
-    "authors": [
-        {
-            "en": "Jacob ben Asher", 
-            "he": "יעקב בן אשר"
-        }
-    ], 
-    "titleVariants": [
-        "Tur HaAroch"
-    ], 
+    "title": "Tur HaAroch",
     "categories": [
-        "Tanakh", 
-        "Commentary", 
+        "Tanakh",
+        "Commentary",
         "Tur HaAroch"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Introduction", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "heTitle": "הקדמה", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "הקדמה", 
-                        "primary": true
-                    }
-                ], 
-                "key": "Introduction", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "addressTypes": [
-                    "Perek", 
-                    "Integer", 
-                    "Integer"
-                ], 
-                "title": "Genesis", 
-                "heTitle": "בראשית", 
-                "depth": 3, 
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Genesis", 
+                        "lang": "en",
+                        "text": "Introduction",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "בראשית", 
+                        "lang": "he",
+                        "text": "הקדמה",
                         "primary": true
                     }
-                ], 
-                "key": "Genesis", 
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
-                    "פירוש"
-                ], 
-                "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
-                    "Comment"
-                ], 
-                "toc_zoom": 2
-            }, 
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Integer", 
+                    "Perek",
+                    "Integer",
                     "Integer"
-                ], 
-                "title": "Exodus", 
-                "heTitle": "שמות", 
-                "depth": 3, 
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Verse",
+                    "Comment"
+                ],
+                "toc_zoom": 2,
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Exodus", 
+                        "lang": "en",
+                        "text": "Genesis",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "שמות", 
+                        "lang": "he",
+                        "text": "בראשית",
                         "primary": true
                     }
-                ], 
-                "key": "Exodus", 
+                ],
+                "title": "Genesis",
+                "heTitle": "בראשית",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
+                    "פרק",
+                    "פסוק",
                     "פירוש"
-                ], 
-                "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
-                    "Comment"
-                ], 
-                "toc_zoom": 2
-            }, 
+                ],
+                "key": "Genesis"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Integer", 
+                    "Perek",
+                    "Integer",
                     "Integer"
-                ], 
-                "title": "Leviticus", 
-                "heTitle": "ויקרא", 
-                "depth": 3, 
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Verse",
+                    "Comment"
+                ],
+                "toc_zoom": 2,
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Leviticus", 
+                        "lang": "en",
+                        "text": "Exodus",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "ויקרא", 
+                        "lang": "he",
+                        "text": "שמות",
                         "primary": true
                     }
-                ], 
-                "key": "Leviticus", 
+                ],
+                "title": "Exodus",
+                "heTitle": "שמות",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
+                    "פרק",
+                    "פסוק",
                     "פירוש"
-                ], 
-                "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
-                    "Comment"
-                ], 
-                "toc_zoom": 2
-            }, 
+                ],
+                "key": "Exodus"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Integer", 
+                    "Perek",
+                    "Integer",
                     "Integer"
-                ], 
-                "title": "Numbers", 
-                "heTitle": "במדבר", 
-                "depth": 3, 
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Verse",
+                    "Comment"
+                ],
+                "toc_zoom": 2,
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Numbers", 
+                        "lang": "en",
+                        "text": "Leviticus",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "במדבר", 
+                        "lang": "he",
+                        "text": "ויקרא",
                         "primary": true
                     }
-                ], 
-                "key": "Numbers", 
+                ],
+                "title": "Leviticus",
+                "heTitle": "ויקרא",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
+                    "פרק",
+                    "פסוק",
                     "פירוש"
-                ], 
-                "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
-                    "Comment"
-                ], 
-                "toc_zoom": 2
-            }, 
+                ],
+                "key": "Leviticus"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Integer", 
+                    "Perek",
+                    "Integer",
                     "Integer"
-                ], 
-                "title": "Deuteronomy", 
-                "heTitle": "דברים", 
-                "depth": 3, 
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Verse",
+                    "Comment"
+                ],
+                "toc_zoom": 2,
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Deuteronomy", 
+                        "lang": "en",
+                        "text": "Numbers",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "דברים", 
+                        "lang": "he",
+                        "text": "במדבר",
                         "primary": true
                     }
-                ], 
-                "key": "Deuteronomy", 
+                ],
+                "title": "Numbers",
+                "heTitle": "במדבר",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
+                    "פרק",
+                    "פסוק",
                     "פירוש"
-                ], 
+                ],
+                "key": "Numbers"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Integer",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
+                    "Chapter",
+                    "Verse",
                     "Comment"
-                ], 
-                "toc_zoom": 2
+                ],
+                "toc_zoom": 2,
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Deuteronomy",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "דברים",
+                        "primary": true
+                    }
+                ],
+                "title": "Deuteronomy",
+                "heTitle": "דברים",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "Deuteronomy"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "הטור הארוך", 
+                "lang": "he",
+                "text": "הטור הארוך",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Tur HaAroch", 
+                "lang": "en",
+                "text": "Tur HaAroch",
                 "primary": true
             }
-        ], 
-        "heTitle": "הטור הארוך", 
-        "key": "Tur HaAroch", 
-        "title": "Tur HaAroch"
-    }
+        ],
+        "title": "Tur HaAroch",
+        "heTitle": "הטור הארוך",
+        "key": "Tur HaAroch"
+    },
+    "authors": [
+        {
+            "en": "Jacob ben Asher",
+            "he": "יעקב בן אשר"
+        }
+    ],
+    "enDesc": "Tur HaAroch, a commentary on the Torah, is written by R’ Jacob ben Asher (c. 1269 - c. 1343), known as Ba’al ha-Turim. While his concise introductory \"Parperaot\" (lit. appetizers) gained wide popularity and is printed in most standard Chumashim, his commentary body is less known. The English translation is by Rabbi Eliyahu Munk. ",
+    "heDesc": "הפירוש המלא על התורה מר' יעקב בעל הטורים. (הפירוש הנדפס בחומשים בשם \"בעל הטורים\" הוא רק ההקדמות לכל פרשה, בהם כתב המחבר \"מעט פרפראות וגימטריאות וטעמי המסורות להמשיך הלב\").",
+    "dependence": "Commentary",
+    "base_text_mapping": null,
+    "collective_title": {
+        "en": "Tur HaAroch",
+        "he": "הטור הארוך"
+    },
+    "heTitle": "הטור הארוך",
+    "titleVariants": [
+        "Tur HaAroch"
+    ],
+    "heTitleVariants": [
+        "הטור הארוך"
+    ],
+    "heCategories": [
+        "תנ\"ך",
+        "מפרשים",
+        "הטור הארוך"
+    ]
 }

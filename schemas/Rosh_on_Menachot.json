@@ -1,456 +1,456 @@
 {
-    "heTitleVariants": [
-        "פסקי הראש על מנחות", 
-        "הלכות קטנות לרא\"ש"
-    ], 
-    "base_text_titles": [
-        {
-            "en": "Menachot", 
-            "he": "מנחות"
-        }
-    ], 
-    "heCategories": [
-        "תלמוד", 
-        "בבלי", 
-        "מפרשים", 
-        "רא\"ש", 
-        "סדר קדשים"
-    ], 
-    "title": "Rosh on Menachot", 
-    "base_text_mapping": null, 
-    "collective_title": {
-        "en": "Rosh", 
-        "he": "רא\"ש"
-    }, 
-    "enDesc": "Talmud commentary written by the the Rosh, Rabbi Asher ben Yehiel, a German and Spanish halakhic authority (c. 1250 - 1327). Having been a leader in both Germany and Spain, the Rosh was familiar with the leading halakhic authorities of both countries and included teachings from both. The Rosh’s commentary displays his independence of judgement as he states his legal opinion according to what he views as most sound, even if it goes against other respected authorities. ", 
-    "dependence": "Commentary", 
-    "heTitle": "פסקי הראש על מנחות", 
-    "authors": [
-        {
-            "en": "Rosh", 
-            "he": "רא\"ש"
-        }
-    ], 
-    "titleVariants": [
-        "Halachot Ketanot laRosh", 
-        "Rosh on Menachot"
-    ], 
+    "title": "Rosh on Menachot",
     "categories": [
-        "Talmud", 
-        "Bavli", 
-        "Commentary", 
-        "Rosh", 
+        "Talmud",
+        "Bavli",
+        "Commentary",
+        "Rosh",
         "Seder Kodashim"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
                 "nodes": [
                     {
-                        "nodeType": "JaggedArrayNode", 
-                        "title": "", 
-                        "default": true, 
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
                         "addressTypes": [
-                            "Integer", 
+                            "Integer",
                             "Integer"
-                        ], 
-                        "heTitle": "", 
-                        "depth": 2, 
-                        "key": "default", 
-                        "heSectionNames": [
-                            "הלכה", 
-                            ""
-                        ], 
+                        ],
                         "sectionNames": [
-                            "Halakhah", 
+                            "Halakhah",
                             "siman"
-                        ]
-                    }, 
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "הלכה",
+                            ""
+                        ],
+                        "key": "default"
+                    },
                     {
-                        "nodeType": "JaggedArrayNode", 
-                        "title": "Sefer HaItim", 
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
                         "addressTypes": [
                             "Integer"
-                        ], 
-                        "heTitle": "ספר העתים", 
-                        "depth": 1, 
-                        "titles": [
-                            {
-                                "lang": "en", 
-                                "text": "Sefer HaItim", 
-                                "primary": true
-                            }, 
-                            {
-                                "lang": "he", 
-                                "text": "ספר העתים", 
-                                "primary": true
-                            }
-                        ], 
-                        "key": "Sefer HaItim", 
-                        "heSectionNames": [
-                            "סימן"
-                        ], 
+                        ],
                         "sectionNames": [
                             "Siman"
-                        ]
+                        ],
+                        "titles": [
+                            {
+                                "lang": "en",
+                                "text": "Sefer HaItim",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "ספר העתים",
+                                "primary": true
+                            }
+                        ],
+                        "title": "Sefer HaItim",
+                        "heTitle": "ספר העתים",
+                        "heSectionNames": [
+                            "סימן"
+                        ],
+                        "key": "Sefer HaItim"
                     }
-                ], 
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Hilchot Sefer Torah", 
+                        "lang": "en",
+                        "text": "Hilchot Sefer Torah",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "הלכות ספר תורה", 
+                        "lang": "he",
+                        "text": "הלכות ספר תורה",
                         "primary": true
                     }
-                ], 
-                "heTitle": "הלכות ספר תורה", 
-                "key": "Hilchot Sefer Torah", 
-                "title": "Hilchot Sefer Torah"
-            }, 
+                ],
+                "title": "Hilchot Sefer Torah",
+                "heTitle": "הלכות ספר תורה",
+                "key": "Hilchot Sefer Torah"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Hilchot Mezuza", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
                 "addressTypes": [
-                    "Seif", 
+                    "Seif",
                     "Siman"
-                ], 
-                "heTitle": "הלכות מזוזה", 
-                "depth": 2, 
+                ],
+                "sectionNames": [
+                    "Seif",
+                    "Siman"
+                ],
                 "titles": [
                     {
-                        "lang": "he", 
-                        "text": "הלכות מזוזה", 
+                        "lang": "he",
+                        "text": "הלכות מזוזה",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "en", 
-                        "text": "Hilchot Mezuza", 
+                        "lang": "en",
+                        "text": "Hilchot Mezuza",
                         "primary": true
                     }
-                ], 
-                "key": "Hilchot Mezuza", 
+                ],
+                "title": "Hilchot Mezuza",
+                "heTitle": "הלכות מזוזה",
                 "heSectionNames": [
-                    "סעיף", 
+                    "סעיף",
                     "סימן"
-                ], 
-                "sectionNames": [
-                    "Seif", 
-                    "Siman"
-                ]
-            }, 
+                ],
+                "key": "Hilchot Mezuza"
+            },
             {
                 "nodes": [
                     {
-                        "nodeType": "JaggedArrayNode", 
-                        "title": "", 
-                        "default": true, 
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
                         "addressTypes": [
-                            "Integer", 
+                            "Integer",
                             "Integer"
-                        ], 
-                        "heTitle": "", 
-                        "depth": 2, 
-                        "key": "default", 
-                        "heSectionNames": [
-                            "הלכה", 
-                            "סימן"
-                        ], 
+                        ],
                         "sectionNames": [
-                            "Halakhah", 
+                            "Halakhah",
                             "Siman"
-                        ]
-                    }, 
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "הלכה",
+                            "סימן"
+                        ],
+                        "key": "default"
+                    },
                     {
-                        "nodeType": "JaggedArrayNode", 
-                        "title": "Shimoosha Raba", 
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
                         "addressTypes": [
                             "Integer"
-                        ], 
-                        "heTitle": "שימושא רבא", 
-                        "depth": 1, 
+                        ],
+                        "sectionNames": [
+                            "Siman"
+                        ],
                         "titles": [
                             {
-                                "lang": "en", 
-                                "text": "Shimoosha Raba", 
+                                "lang": "en",
+                                "text": "Shimoosha Raba",
                                 "primary": true
-                            }, 
+                            },
                             {
-                                "lang": "he", 
-                                "text": "שימושא רבא", 
+                                "lang": "he",
+                                "text": "שימושא רבא",
                                 "primary": true
                             }
-                        ], 
-                        "key": "Shimoosha Raba", 
+                        ],
+                        "title": "Shimoosha Raba",
+                        "heTitle": "שימושא רבא",
                         "heSectionNames": [
                             "סימן"
-                        ], 
-                        "sectionNames": [
-                            "Siman"
-                        ]
-                    }, 
+                        ],
+                        "key": "Shimoosha Raba"
+                    },
                     {
-                        "nodeType": "JaggedArrayNode", 
-                        "title": "Kitzur Tefilin", 
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
                         "addressTypes": [
                             "Integer"
-                        ], 
-                        "heTitle": "קיצור תיקון תפילין", 
-                        "depth": 1, 
-                        "titles": [
-                            {
-                                "lang": "en", 
-                                "text": "Kitzur Tefilin", 
-                                "primary": true
-                            }, 
-                            {
-                                "lang": "he", 
-                                "text": "קיצור תיקון תפילין", 
-                                "primary": true
-                            }
-                        ], 
-                        "key": "Kitzur Tefilin", 
-                        "heSectionNames": [
-                            "סימן"
-                        ], 
+                        ],
                         "sectionNames": [
                             "Siman"
-                        ]
+                        ],
+                        "titles": [
+                            {
+                                "lang": "en",
+                                "text": "Kitzur Tefilin",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "קיצור תיקון תפילין",
+                                "primary": true
+                            }
+                        ],
+                        "title": "Kitzur Tefilin",
+                        "heTitle": "קיצור תיקון תפילין",
+                        "heSectionNames": [
+                            "סימן"
+                        ],
+                        "key": "Kitzur Tefilin"
                     }
-                ], 
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Hilchot Tefilin", 
+                        "lang": "en",
+                        "text": "Hilchot Tefilin",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "הלכות תפילין", 
+                        "lang": "he",
+                        "text": "הלכות תפילין",
                         "primary": true
                     }
-                ], 
-                "heTitle": "הלכות תפילין", 
-                "key": "Hilchot Tefilin", 
-                "title": "Hilchot Tefilin"
-            }, 
+                ],
+                "title": "Hilchot Tefilin",
+                "heTitle": "הלכות תפילין",
+                "key": "Hilchot Tefilin"
+            },
             {
                 "nodes": [
                     {
-                        "nodeType": "JaggedArrayNode", 
-                        "title": "", 
-                        "default": true, 
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
                         "addressTypes": [
-                            "Integer", 
+                            "Integer",
                             "Integer"
-                        ], 
-                        "heTitle": "", 
-                        "depth": 2, 
-                        "key": "default", 
-                        "heSectionNames": [
-                            "הלכה", 
-                            "סימן"
-                        ], 
+                        ],
                         "sectionNames": [
-                            "Halakhah", 
+                            "Halakhah",
                             "Siman"
-                        ]
-                    }, 
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "הלכה",
+                            "סימן"
+                        ],
+                        "key": "default"
+                    },
                     {
-                        "nodeType": "JaggedArrayNode", 
-                        "title": "Making Tzitzit", 
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
                         "addressTypes": [
                             "Integer"
-                        ], 
-                        "heTitle": "עשיית ציצית", 
-                        "depth": 1, 
+                        ],
+                        "sectionNames": [
+                            "Siman"
+                        ],
                         "titles": [
                             {
-                                "lang": "en", 
-                                "text": "Making Tzitzit", 
+                                "lang": "en",
+                                "text": "Making Tzitzit",
                                 "primary": true
-                            }, 
+                            },
                             {
-                                "lang": "he", 
-                                "text": "עשיית ציצית", 
+                                "lang": "he",
+                                "text": "עשיית ציצית",
                                 "primary": true
                             }
-                        ], 
-                        "key": "Making Tzitzit", 
+                        ],
+                        "title": "Making Tzitzit",
+                        "heTitle": "עשיית ציצית",
                         "heSectionNames": [
                             "סימן"
-                        ], 
-                        "sectionNames": [
-                            "Siman"
-                        ]
+                        ],
+                        "key": "Making Tzitzit"
                     }
-                ], 
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Hilchot Tzitzit", 
+                        "lang": "en",
+                        "text": "Hilchot Tzitzit",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "הלכות ציצית", 
+                        "lang": "he",
+                        "text": "הלכות ציצית",
                         "primary": true
                     }
-                ], 
-                "heTitle": "הלכות ציצית", 
-                "key": "Hilchot Tzitzit", 
-                "title": "Hilchot Tzitzit"
-            }, 
+                ],
+                "title": "Hilchot Tzitzit",
+                "heTitle": "הלכות ציצית",
+                "key": "Hilchot Tzitzit"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Hilchot Tuma'a", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
                 "addressTypes": [
-                    "Seif", 
+                    "Seif",
                     "Siman"
-                ], 
-                "heTitle": "הלכות טומאה", 
-                "depth": 2, 
+                ],
+                "sectionNames": [
+                    "Seif",
+                    "Siman"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Hilchot Tuma'a", 
+                        "lang": "en",
+                        "text": "Hilchot Tuma'a",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "הלכות טומאה", 
+                        "lang": "he",
+                        "text": "הלכות טומאה",
                         "primary": true
                     }
-                ], 
-                "key": "Hilchot Tuma'a", 
+                ],
+                "title": "Hilchot Tuma'a",
+                "heTitle": "הלכות טומאה",
                 "heSectionNames": [
-                    "סעיף", 
+                    "סעיף",
                     "סימן"
-                ], 
-                "sectionNames": [
-                    "Seif", 
-                    "Siman"
-                ]
-            }, 
+                ],
+                "key": "Hilchot Tuma'a"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Hilchot Chala", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
                 "addressTypes": [
-                    "Seif", 
+                    "Seif",
                     "Siman"
-                ], 
-                "heTitle": "הלכות חלה", 
-                "depth": 2, 
+                ],
+                "sectionNames": [
+                    "Seif",
+                    "Siman"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Hilchot Chala", 
+                        "lang": "en",
+                        "text": "Hilchot Chala",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "הלכות חלה", 
+                        "lang": "he",
+                        "text": "הלכות חלה",
                         "primary": true
                     }
-                ], 
-                "key": "Hilchot Chala", 
+                ],
+                "title": "Hilchot Chala",
+                "heTitle": "הלכות חלה",
                 "heSectionNames": [
-                    "סעיף", 
+                    "סעיף",
                     "סימן"
-                ], 
-                "sectionNames": [
-                    "Seif", 
-                    "Siman"
-                ]
-            }, 
+                ],
+                "key": "Hilchot Chala"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Hilchot Kilayim", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
                 "addressTypes": [
-                    "Seif", 
+                    "Seif",
                     "Siman"
-                ], 
-                "heTitle": "הלכות כלאים", 
-                "depth": 2, 
+                ],
+                "sectionNames": [
+                    "Seif",
+                    "Siman"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Hilchot Kilayim", 
+                        "lang": "en",
+                        "text": "Hilchot Kilayim",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "הלכות כלאים", 
+                        "lang": "he",
+                        "text": "הלכות כלאים",
                         "primary": true
                     }
-                ], 
-                "key": "Hilchot Kilayim", 
+                ],
+                "title": "Hilchot Kilayim",
+                "heTitle": "הלכות כלאים",
                 "heSectionNames": [
-                    "סעיף", 
+                    "סעיף",
                     "סימן"
-                ], 
-                "sectionNames": [
-                    "Seif", 
-                    "Siman"
-                ]
-            }, 
+                ],
+                "key": "Hilchot Kilayim"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Hilchot Orlah", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
                 "addressTypes": [
-                    "Seif", 
+                    "Seif",
                     "Siman"
-                ], 
-                "heTitle": "הלכות ערלה", 
-                "depth": 2, 
+                ],
+                "sectionNames": [
+                    "Seif",
+                    "Siman"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Hilchot Orlah", 
+                        "lang": "en",
+                        "text": "Hilchot Orlah",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "הלכות ערלה", 
+                        "lang": "he",
+                        "text": "הלכות ערלה",
                         "primary": true
                     }
-                ], 
-                "key": "Hilchot Orlah", 
+                ],
+                "title": "Hilchot Orlah",
+                "heTitle": "הלכות ערלה",
                 "heSectionNames": [
-                    "סעיף", 
+                    "סעיף",
                     "סימן"
-                ], 
-                "sectionNames": [
-                    "Seif", 
-                    "Siman"
-                ]
+                ],
+                "key": "Hilchot Orlah"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "פסקי הראש על מנחות", 
+                "lang": "he",
+                "text": "פסקי הראש על מנחות",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "en", 
+                "lang": "en",
                 "text": "Halachot Ketanot laRosh"
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "הלכות קטנות לרא\"ש"
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Rosh on Menachot", 
+                "lang": "en",
+                "text": "Rosh on Menachot",
                 "primary": true
             }
-        ], 
-        "heTitle": "פסקי הראש על מנחות", 
-        "key": "Rosh on Menachot", 
-        "title": "Rosh on Menachot"
-    }
+        ],
+        "title": "Rosh on Menachot",
+        "heTitle": "פסקי הראש על מנחות",
+        "key": "Rosh on Menachot"
+    },
+    "authors": [
+        {
+            "en": "Rosh",
+            "he": "רא\"ש"
+        }
+    ],
+    "enDesc": "Talmud commentary written by the the Rosh, Rabbi Asher ben Yehiel, a German and Spanish halakhic authority (c. 1250 - 1327). Having been a leader in both Germany and Spain, the Rosh was familiar with the leading halakhic authorities of both countries and included teachings from both. The Rosh’s commentary displays his independence of judgement as he states his legal opinion according to what he views as most sound, even if it goes against other respected authorities. ",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Menachot",
+            "he": "מנחות"
+        }
+    ],
+    "base_text_mapping": null,
+    "collective_title": {
+        "en": "Rosh",
+        "he": "רא\"ש"
+    },
+    "heTitle": "פסקי הראש על מנחות",
+    "titleVariants": [
+        "Halachot Ketanot laRosh",
+        "Rosh on Menachot"
+    ],
+    "heTitleVariants": [
+        "פסקי הראש על מנחות",
+        "הלכות קטנות לרא\"ש"
+    ],
+    "heCategories": [
+        "תלמוד",
+        "בבלי",
+        "מפרשים",
+        "רא\"ש",
+        "סדר קדשים"
+    ]
 }

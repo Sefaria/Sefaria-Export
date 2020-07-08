@@ -1,109 +1,115 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Song of Songs", 
-            "he": "שיר השירים"
-        }
-    ], 
-    "heCategories": [
-        "תנ\"ך", 
-        "מפרשים", 
-        "אבן עזרא", 
-        "כתובים"
-    ], 
-    "title": "Ibn Ezra on Song of Songs", 
-    "base_text_mapping": "many_to_one_default_only", 
-    "collective_title": {
-        "en": "Ibn Ezra", 
-        "he": "אבן עזרא"
-    }, 
-    "heTitleVariants": [
-        "אבן עזרא על שיר השירים"
-    ], 
-    "dependence": "Commentary", 
-    "heTitle": "אבן עזרא על שיר השירים", 
-    "titleVariants": [
-        "Ibn Ezra on Song of Songs"
-    ], 
+    "title": "Ibn Ezra on Song of Songs",
     "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Ibn Ezra", 
+        "Tanakh",
+        "Commentary",
+        "Ibn Ezra",
         "Writings"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "title": "Introduction", 
-                "heTitle": "הקדמה", 
-                "sharedTitle": "Introduction", 
-                "depth": 1, 
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Introduction", 
+                        "lang": "en",
+                        "text": "Introduction",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "הקדמה", 
+                        "lang": "he",
+                        "text": "הקדמה",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
+                        "lang": "he",
                         "text": "מבוא"
                     }
-                ], 
-                "key": "intro", 
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
                     "פסקה"
-                ], 
-                "sectionNames": [
-                    "Paragraph"
-                ]
-            }, 
+                ],
+                "key": "intro"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Integer", 
-                    "Integer", 
+                    "Integer",
+                    "Integer",
                     "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
-                "heSectionNames": [
-                    "פרק", 
-                    "פסוק", 
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Verse", 
+                    "Chapter",
+                    "Verse",
                     "Paragraph"
-                ]
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פסקה"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "אבן עזרא על שיר השירים", 
-                "primary": true
-            }, 
+                "primary": true,
+                "lang": "he",
+                "text": "אבן עזרא על שיר השירים"
+            },
             {
-                "lang": "en", 
-                "text": "Ibn Ezra on Song of Songs", 
-                "primary": true
+                "primary": true,
+                "lang": "en",
+                "text": "Ibn Ezra on Song of Songs"
             }
-        ], 
-        "heTitle": "אבן עזרא על שיר השירים", 
-        "key": "Ibn Ezra on Song of Songs", 
-        "title": "Ibn Ezra on Song of Songs"
-    }
+        ],
+        "title": "Ibn Ezra on Song of Songs",
+        "heTitle": "אבן עזרא על שיר השירים",
+        "key": "Ibn Ezra on Song of Songs"
+    },
+    "authors": [
+        {
+            "en": "Ibn Ezra",
+            "he": "אבן עזרא"
+        }
+    ],
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Song of Songs",
+            "he": "שיר השירים"
+        }
+    ],
+    "base_text_mapping": "many_to_one_default_only",
+    "collective_title": {
+        "en": "Ibn Ezra",
+        "he": "אבן עזרא"
+    },
+    "heTitle": "אבן עזרא על שיר השירים",
+    "titleVariants": [
+        "Ibn Ezra on Song of Songs"
+    ],
+    "heTitleVariants": [
+        "אבן עזרא על שיר השירים"
+    ],
+    "heCategories": [
+        "תנ\"ך",
+        "מפרשים",
+        "אבן עזרא",
+        "כתובים"
+    ]
 }

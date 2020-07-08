@@ -1,113 +1,114 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Mishnah Bava Kamma", 
-            "he": "משנה בבא קמא"
-        }
-    ], 
-    "heCategories": [
-        "יצירות מודרניות", 
-        "ביאור אנגלי על המשנה", 
-        "סדר נזיקין"
-    ], 
-    "title": "English Explanation of Mishnah Bava Kamma", 
-    "base_text_mapping": "many_to_one", 
-    "collective_title": {
-        "en": "English Explanation of Mishnah", 
-        "he": "ביאור אנגלי על המשנה"
-    }, 
-    "heTitleVariants": [
-        "ביאור אנגלי על משנה בבא קמא"
-    ], 
-    "dependence": "Commentary", 
-    "heTitle": "ביאור אנגלי על משנה בבא קמא", 
-    "authors": [
-        {
-            "en": "Joshua Kulp", 
-            "he": "יהושע מנחם קולפ"
-        }
-    ], 
-    "titleVariants": [
-        "English Explanation of Mishnah Bava Kamma"
-    ], 
+    "title": "English Explanation of Mishnah Bava Kamma",
     "categories": [
-        "Modern Works", 
-        "English Explanation of Mishnah", 
+        "Modern Works",
+        "English Explanation of Mishnah",
         "Seder Nezikin"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "title": "Introduction", 
-                "heTitle": "הקדמה", 
-                "sharedTitle": "Introduction", 
-                "depth": 1, 
-                "titles": [
-                    {
-                        "lang": "en", 
-                        "text": "Introduction", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "הקדמה", 
-                        "primary": true
-                    }, 
-                    {
-                        "lang": "he", 
-                        "text": "מבוא"
-                    }
-                ], 
-                "key": "intro", 
-                "heSectionNames": [
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
                     "Paragraph"
-                ]
-            }, 
-            {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
-                "addressTypes": [
-                    "Integer", 
-                    "Mishnah", 
-                    "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 3, 
-                "key": "default", 
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
-                    "פרק", 
-                    "משנה", 
-                    "פירוש"
-                ], 
+                    "פסקה"
+                ],
+                "key": "intro"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Integer",
+                    "Mishnah",
+                    "Integer"
+                ],
                 "sectionNames": [
-                    "Chapter", 
-                    "Mishnah", 
+                    "Chapter",
+                    "Mishnah",
                     "Comment"
-                ]
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "משנה",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "ביאור אנגלי על משנה בבא קמא", 
-                "primary": true
-            }, 
+                "primary": true,
+                "lang": "he",
+                "text": "ביאור אנגלי על משנה בבא קמא"
+            },
             {
-                "lang": "en", 
-                "text": "English Explanation of Mishnah Bava Kamma", 
-                "primary": true
+                "primary": true,
+                "lang": "en",
+                "text": "English Explanation of Mishnah Bava Kamma"
             }
-        ], 
-        "heTitle": "ביאור אנגלי על משנה בבא קמא", 
-        "key": "English Explanation of Mishnah Bava Kamma", 
-        "title": "English Explanation of Mishnah Bava Kamma"
-    }
+        ],
+        "title": "English Explanation of Mishnah Bava Kamma",
+        "heTitle": "ביאור אנגלי על משנה בבא קמא",
+        "key": "English Explanation of Mishnah Bava Kamma"
+    },
+    "authors": [
+        {
+            "en": "Joshua Kulp",
+            "he": "יהושע מנחם קולפ"
+        }
+    ],
+    "era": "CO",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Mishnah Bava Kamma",
+            "he": "משנה בבא קמא"
+        }
+    ],
+    "base_text_mapping": "many_to_one",
+    "collective_title": {
+        "en": "English Explanation of Mishnah",
+        "he": "ביאור אנגלי על המשנה"
+    },
+    "heTitle": "ביאור אנגלי על משנה בבא קמא",
+    "titleVariants": [
+        "English Explanation of Mishnah Bava Kamma"
+    ],
+    "heTitleVariants": [
+        "ביאור אנגלי על משנה בבא קמא"
+    ],
+    "heCategories": [
+        "יצירות מודרניות",
+        "ביאור אנגלי על המשנה",
+        "סדר נזיקין"
+    ]
 }

@@ -1,103 +1,113 @@
 {
-    "base_text_titles": [
-        {
-            "en": "Berakhot", 
-            "he": "ברכות"
-        }
-    ], 
-    "heCategories": [
-        "תלמוד", 
-        "בבלי", 
-        "מפרשים"
-    ], 
-    "title": "Ben Yehoyada on Berakhot", 
-    "collective_title": {
-        "en": "Ben Yehoyada", 
-        "he": "בן יהוידע"
-    }, 
-    "heTitleVariants": [
-        "בן יהוידע על ברכות"
-    ], 
-    "dependence": "Commentary", 
-    "heTitle": "בן יהוידע על ברכות", 
-    "titleVariants": [
-        "Ben Yehoyada on Berakhot"
-    ], 
+    "title": "Ben Yehoyada on Berakhot",
     "categories": [
-        "Talmud", 
-        "Bavli", 
-        "Commentary"
-    ], 
+        "Talmud",
+        "Bavli",
+        "Commentary",
+        "Ben Yehoyada"
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
                 "addressTypes": [
                     "Integer"
-                ], 
-                "title": "Introduction", 
-                "heTitle": "הקדמה", 
-                "sharedTitle": "Introduction", 
-                "depth": 1, 
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Introduction", 
+                        "lang": "en",
+                        "text": "Introduction",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "הקדמה", 
+                        "lang": "he",
+                        "text": "הקדמה",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
+                        "lang": "he",
                         "text": "מבוא"
                     }
-                ], 
-                "key": "intro", 
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
                     "פסקה"
-                ], 
-                "sectionNames": [
-                    "Paragraph"
-                ]
-            }, 
+                ],
+                "key": "intro"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "", 
-                "default": true, 
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
                 "addressTypes": [
-                    "Talmud", 
+                    "Talmud",
                     "Integer"
-                ], 
-                "heTitle": "", 
-                "depth": 2, 
-                "key": "default", 
-                "heSectionNames": [
-                    "דף", 
-                    "פסקה"
-                ], 
+                ],
                 "sectionNames": [
-                    "Daf", 
+                    "Daf",
                     "Paragraph"
-                ]
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "דף",
+                    "פסקה"
+                ],
+                "key": "default"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "בן יהוידע על ברכות", 
-                "primary": true
-            }, 
+                "primary": true,
+                "lang": "he",
+                "text": "בן יהוידע על ברכות"
+            },
             {
-                "lang": "en", 
-                "text": "Ben Yehoyada on Berakhot", 
-                "primary": true
+                "primary": true,
+                "lang": "en",
+                "text": "Ben Yehoyada on Berakhot"
             }
-        ], 
-        "heTitle": "בן יהוידע על ברכות", 
-        "key": "Ben Yehoyada on Berakhot", 
-        "title": "Ben Yehoyada on Berakhot"
-    }
+        ],
+        "title": "Ben Yehoyada on Berakhot",
+        "heTitle": "בן יהוידע על ברכות",
+        "key": "Ben Yehoyada on Berakhot"
+    },
+    "authors": [
+        {
+            "en": "Yosef Hayyim",
+            "he": "יוסף חיים"
+        }
+    ],
+    "enDesc": "Extensive commentary on the Aggadic portions of the Talmud, authored by the famed Sephardic Halakhic authority, Rabbi Yosef Hayyim of Baghdad (Ben Ish Chai).",
+    "heDesc": "ביאור רחב על כל חלקי האגדה של התלמוד בבלי וירושלמי, חובר על ידי רב יוסף חיים מבגדד (בן איש חי).",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Berakhot",
+            "he": "ברכות"
+        }
+    ],
+    "collective_title": {
+        "en": "Ben Yehoyada",
+        "he": "בן יהוידע"
+    },
+    "heTitle": "בן יהוידע על ברכות",
+    "titleVariants": [
+        "Ben Yehoyada on Berakhot"
+    ],
+    "heTitleVariants": [
+        "בן יהוידע על ברכות"
+    ],
+    "heCategories": [
+        "תלמוד",
+        "בבלי",
+        "מפרשים",
+        "בן יהוידע"
+    ]
 }

@@ -1,275 +1,275 @@
 {
-    "heTitleVariants": [
-        "תורה תמימה על התורה", 
-        "תורה תמימה על תורה"
-    ], 
-    "heCategories": [
-        "תנ\"ך", 
-        "מפרשים", 
-        "תורה תמימה", 
-        "תורה"
-    ], 
-    "pubDate": "1902", 
-    "title": "Torah Temimah on Torah", 
-    "compDate": "1900", 
-    "pubPlace": "Vilna", 
-    "compPlace": "Pinsk, Belarus", 
-    "enDesc": "Commentary on the Torah, consisting of a compilation of Talmudic and Halakhic passages relevant to each verse, with a brief explanation by the author.", 
-    "dependence": "Commentary", 
-    "compDateString": {
-        "en": " (c.1898  - c.1902 CE)", 
-        "he": " (1898 - 1902 לספירה בקירוב)"
-    }, 
-    "compPlaceString": {
-        "en": "Pinsk, Belarus", 
-        "he": "פינסק, בלארוס"
-    }, 
-    "heDesc": "חומש תורה תמימה הוא לקט של מאמרי חז\"ל בש\"ס ומדרשי הלכה על פסוקי התורה, עם ביאור קצר מהמחבר.", 
-    "heTitle": "תורה תמימה על התורה", 
-    "era": "AH", 
-    "authors": [
-        {
-            "en": "Barukh HaLevi Epstein", 
-            "he": "הרב ברוך הלוי אפשטיין"
-        }
-    ], 
-    "titleVariants": [
-        "Torah Temimah on Torah"
-    ], 
-    "errorMargin": "2", 
+    "title": "Torah Temimah on Torah",
     "categories": [
-        "Tanakh", 
-        "Commentary", 
-        "Torah Temimah", 
+        "Tanakh",
+        "Commentary",
+        "Torah Temimah",
         "Torah"
-    ], 
+    ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
                 "addressTypes": [
-                    "Perek", 
+                    "Perek",
                     "Integer"
-                ], 
-                "title": "Introduction", 
-                "heTitle": "הקדמה", 
-                "sharedTitle": "Introduction", 
-                "depth": 2, 
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Introduction", 
+                        "lang": "en",
+                        "text": "Introduction",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "הקדמה", 
+                        "lang": "he",
+                        "text": "הקדמה",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
+                        "lang": "he",
                         "text": "מבוא"
                     }
-                ], 
-                "key": "intro", 
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
-                    "פרק", 
+                    "פרק",
                     "פסקה"
-                ], 
-                "sectionNames": [
-                    "Chapter", 
-                    "Paragraph"
-                ]
-            }, 
+                ],
+                "key": "intro"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Genesis", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Integer", 
+                    "Perek",
+                    "Integer",
                     "Integer"
-                ], 
-                "heTitle": "בראשית", 
-                "depth": 3, 
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Paragraph",
+                    "Comment"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Genesis", 
+                        "lang": "en",
+                        "text": "Genesis",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "בראשית", 
+                        "lang": "he",
+                        "text": "בראשית",
                         "primary": true
                     }
-                ], 
-                "key": "Genesis", 
+                ],
+                "title": "Genesis",
+                "heTitle": "בראשית",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסקה", 
+                    "פרק",
+                    "פסקה",
                     "פירוש"
-                ], 
-                "sectionNames": [
-                    "Chapter", 
-                    "Paragraph", 
-                    "Comment"
-                ]
-            }, 
+                ],
+                "key": "Genesis"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Exodus", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Integer", 
+                    "Perek",
+                    "Integer",
                     "Integer"
-                ], 
-                "heTitle": "שמות", 
-                "depth": 3, 
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Paragraph",
+                    "Comment"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Exodus", 
+                        "lang": "en",
+                        "text": "Exodus",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "שמות", 
+                        "lang": "he",
+                        "text": "שמות",
                         "primary": true
                     }
-                ], 
-                "key": "Exodus", 
+                ],
+                "title": "Exodus",
+                "heTitle": "שמות",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסקה", 
+                    "פרק",
+                    "פסקה",
                     "פירוש"
-                ], 
-                "sectionNames": [
-                    "Chapter", 
-                    "Paragraph", 
-                    "Comment"
-                ]
-            }, 
+                ],
+                "key": "Exodus"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Leviticus", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Integer", 
+                    "Perek",
+                    "Integer",
                     "Integer"
-                ], 
-                "heTitle": "ויקרא", 
-                "depth": 3, 
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Paragraph",
+                    "Comment"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Leviticus", 
+                        "lang": "en",
+                        "text": "Leviticus",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "ויקרא", 
+                        "lang": "he",
+                        "text": "ויקרא",
                         "primary": true
                     }
-                ], 
-                "key": "Leviticus", 
+                ],
+                "title": "Leviticus",
+                "heTitle": "ויקרא",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסקה", 
+                    "פרק",
+                    "פסקה",
                     "פירוש"
-                ], 
-                "sectionNames": [
-                    "Chapter", 
-                    "Paragraph", 
-                    "Comment"
-                ]
-            }, 
+                ],
+                "key": "Leviticus"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Numbers", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Integer", 
+                    "Perek",
+                    "Integer",
                     "Integer"
-                ], 
-                "heTitle": "במדבר", 
-                "depth": 3, 
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Paragraph",
+                    "Comment"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Numbers", 
+                        "lang": "en",
+                        "text": "Numbers",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "במדבר", 
+                        "lang": "he",
+                        "text": "במדבר",
                         "primary": true
                     }
-                ], 
-                "key": "Numbers", 
+                ],
+                "title": "Numbers",
+                "heTitle": "במדבר",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסקה", 
+                    "פרק",
+                    "פסקה",
                     "פירוש"
-                ], 
-                "sectionNames": [
-                    "Chapter", 
-                    "Paragraph", 
-                    "Comment"
-                ]
-            }, 
+                ],
+                "key": "Numbers"
+            },
             {
-                "nodeType": "JaggedArrayNode", 
-                "title": "Deuteronomy", 
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
                 "addressTypes": [
-                    "Perek", 
-                    "Integer", 
+                    "Perek",
+                    "Integer",
                     "Integer"
-                ], 
-                "heTitle": "דברים", 
-                "depth": 3, 
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Paragraph",
+                    "Comment"
+                ],
                 "titles": [
                     {
-                        "lang": "en", 
-                        "text": "Deuteronomy", 
+                        "lang": "en",
+                        "text": "Deuteronomy",
                         "primary": true
-                    }, 
+                    },
                     {
-                        "lang": "he", 
-                        "text": "דברים", 
+                        "lang": "he",
+                        "text": "דברים",
                         "primary": true
                     }
-                ], 
-                "key": "Deuteronomy", 
+                ],
+                "title": "Deuteronomy",
+                "heTitle": "דברים",
                 "heSectionNames": [
-                    "פרק", 
-                    "פסקה", 
+                    "פרק",
+                    "פסקה",
                     "פירוש"
-                ], 
-                "sectionNames": [
-                    "Chapter", 
-                    "Paragraph", 
-                    "Comment"
-                ]
+                ],
+                "key": "Deuteronomy"
             }
-        ], 
+        ],
         "titles": [
             {
-                "lang": "he", 
-                "text": "תורה תמימה על התורה", 
+                "lang": "he",
+                "text": "תורה תמימה על התורה",
                 "primary": true
-            }, 
+            },
             {
-                "lang": "he", 
+                "lang": "he",
                 "text": "תורה תמימה על תורה"
-            }, 
+            },
             {
-                "lang": "en", 
-                "text": "Torah Temimah on Torah", 
+                "lang": "en",
+                "text": "Torah Temimah on Torah",
                 "primary": true
             }
-        ], 
-        "heTitle": "תורה תמימה על התורה", 
-        "key": "Torah Temimah on Torah", 
-        "title": "Torah Temimah on Torah"
+        ],
+        "title": "Torah Temimah on Torah",
+        "heTitle": "תורה תמימה על התורה",
+        "key": "Torah Temimah on Torah"
+    },
+    "authors": [
+        {
+            "en": "Barukh HaLevi Epstein",
+            "he": "הרב ברוך הלוי אפשטיין"
+        }
+    ],
+    "enDesc": "Commentary on the Torah, consisting of a compilation of Talmudic and Halakhic passages relevant to each verse, with a brief explanation by the author.",
+    "heDesc": "חומש תורה תמימה הוא לקט של מאמרי חז\"ל בש\"ס ומדרשי הלכה על פסוקי התורה, עם ביאור קצר מהמחבר.",
+    "pubDate": "1902",
+    "compDate": "1900",
+    "compPlace": "Pinsk, Belarus",
+    "pubPlace": "Vilna",
+    "errorMargin": "2",
+    "era": "AH",
+    "dependence": "Commentary",
+    "heTitle": "תורה תמימה על התורה",
+    "titleVariants": [
+        "Torah Temimah on Torah"
+    ],
+    "heTitleVariants": [
+        "תורה תמימה על התורה",
+        "תורה תמימה על תורה"
+    ],
+    "heCategories": [
+        "תנ\"ך",
+        "מפרשים",
+        "תורה תמימה",
+        "תורה"
+    ],
+    "compDateString": {
+        "en": " (c.1898  - c.1902 CE)",
+        "he": " (1898 - 1902 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Pinsk, Belarus",
+        "he": "פינסק, בלארוס"
     }
 }
