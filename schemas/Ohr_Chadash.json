@@ -1,8 +1,8 @@
 {
     "title": "Ohr Chadash",
     "categories": [
-        "Philosophy",
-        "Maharal"
+        "Tanakh",
+        "Commentary"
     ],
     "schema": {
         "nodes": [
@@ -15,24 +15,29 @@
                 "sectionNames": [
                     "Paragraph"
                 ],
+                "sharedTitle": "Introduction",
                 "titles": [
                     {
-                        "lang": "he",
-                        "text": "הקדמה א",
+                        "lang": "en",
+                        "text": "Introduction",
                         "primary": true
                     },
                     {
-                        "lang": "en",
-                        "text": "Introduction to Ohr Chadash",
+                        "lang": "he",
+                        "text": "הקדמה",
                         "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
                     }
                 ],
-                "title": "Introduction to Ohr Chadash",
-                "heTitle": "הקדמה א",
+                "title": "Introduction",
+                "heTitle": "הקדמה",
                 "heSectionNames": [
                     "פסקה"
                 ],
-                "key": "intro 1"
+                "key": "Introduction"
             },
             {
                 "nodeType": "JaggedArrayNode",
@@ -45,42 +50,42 @@
                 ],
                 "titles": [
                     {
-                        "lang": "he",
-                        "text": "הקדמה ב",
-                        "primary": true
+                        "lang": "en",
+                        "primary": true,
+                        "text": "Preface"
                     },
                     {
-                        "lang": "en",
-                        "text": "Second Introduction to Ohr Chadash",
-                        "primary": true
+                        "lang": "he",
+                        "primary": true,
+                        "text": "פתיחה"
                     }
                 ],
-                "title": "Second Introduction to Ohr Chadash",
-                "heTitle": "הקדמה ב",
+                "title": "Preface",
+                "heTitle": "פתיחה",
                 "heSectionNames": [
                     "פסקה"
                 ],
-                "key": "intro 2"
+                "key": "Preface"
             },
             {
                 "nodeType": "JaggedArrayNode",
-                "depth": 2,
+                "depth": 3,
                 "addressTypes": [
-                    "Perek",
+                    "Integer",
+                    "Integer",
                     "Integer"
                 ],
                 "sectionNames": [
                     "Chapter",
+                    "Verse",
                     "Paragraph"
-                ],
-                "lengths": [
-                    10
                 ],
                 "default": true,
                 "title": "",
                 "heTitle": "",
                 "heSectionNames": [
                     "פרק",
+                    "פסוק",
                     "פסקה"
                 ],
                 "key": "default"
@@ -93,12 +98,12 @@
             },
             {
                 "lang": "he",
-                "text": "אור חדש",
-                "primary": true
+                "primary": true,
+                "text": "אור חדש"
             },
             {
-                "lang": "en",
                 "text": "Ohr Chadash",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -107,12 +112,9 @@
         "key": "Ohr Chadash"
     },
     "authors": [
-        {
-            "en": "Maharal",
-            "he": "מהר\"ל"
-        }
+        "Maharal"
     ],
-    "enDesc": "Ohr Chadash is a commentary on Megillat Esther written by the Maharal of Prague (Rabbi Judah Loew ben Bezalel c.1512 - 1609). ",
+    "enDesc": "Ohr Chadash is a commentary on Megillat Esther written by the Maharal of Prague (Rabbi Judah Loew ben Bezalel c.1512 - 1609).",
     "heDesc": "ספרו של המהר\"ל מפראג העוסק בעניני מגילת אסתר ונס פורים.",
     "pubDate": "1600",
     "compDate": "1595",
@@ -120,6 +122,13 @@
     "pubPlace": "Prague",
     "errorMargin": "5",
     "era": "AH",
+    "dependence": "Commentary",
+    "base_text_titles": [
+        {
+            "en": "Esther",
+            "he": "אסתר"
+        }
+    ],
     "heTitle": "אור חדש",
     "titleVariants": [
         "New Light",
@@ -129,8 +138,8 @@
         "אור חדש"
     ],
     "heCategories": [
-        "מחשבת ישראל",
-        "מהר\"ל מפראג"
+        "תנ\"ך",
+        "מפרשים"
     ],
     "compDateString": {
         "en": " (c.1590  - c.1600 CE)",

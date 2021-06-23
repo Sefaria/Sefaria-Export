@@ -9,6 +9,39 @@
         "nodes": [
             {
                 "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
                 "depth": 3,
                 "addressTypes": [
                     "Integer",
@@ -38,9 +71,9 @@
                 "text": "ביאור אנגלי על משנה סנהדרין"
             },
             {
-                "primary": true,
+                "text": "English Explanation of Mishnah Sanhedrin",
                 "lang": "en",
-                "text": "English Explanation of Mishnah Sanhedrin"
+                "primary": true
             }
         ],
         "title": "English Explanation of Mishnah Sanhedrin",
@@ -48,11 +81,11 @@
         "key": "English Explanation of Mishnah Sanhedrin"
     },
     "authors": [
-        {
-            "en": "Joshua Kulp",
-            "he": "יהושע מנחם קולפ"
-        }
+        "Joshua Kulp"
     ],
+    "enDesc": "A contemporary user-friendly explanation of the Mishnah.",
+    "compDate": "2005",
+    "errorMargin": "8",
     "era": "CO",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -77,5 +110,9 @@
         "יצירות מודרניות",
         "ביאור אנגלי על המשנה",
         "סדר נזיקין"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1997  - c.2013 CE)",
+        "he": " (1997 - 2013 לספירה בקירוב)"
+    }
 }
