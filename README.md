@@ -7,11 +7,13 @@ This repo contains texts, bibliographical information and lists of intertextual 
 
 A MongoDB dump of Sefaria's database is also available for download [here](https://storage.googleapis.com/sefaria-mongo-backup/dump.tar.gz) or a smaller version (without text edit history) [here](https://storage.googleapis.com/sefaria-mongo-backup/dump_small.tar.gz). Download this file, extract it and use [`mongorestore`](http://docs.mongodb.org/v2.2/reference/mongorestore/) to load into your local DB.
 
-From the parent of the downloaded `dump` folder, run:
+From the parent of the unzipped `dump` folder, run:
 
     mongorestore --drop
 
 This will create (or overwrite) a mongo database called `sefaria`.
+
+More details available [here](https://github.com/Sefaria/Sefaria-Project#8-put-some-texts-in-your-database).
 
 For Sefaria source code see [Sefaria-Project](https://github.com/Sefaria/Sefaria-Project).
 
