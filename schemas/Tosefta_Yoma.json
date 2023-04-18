@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Yoma",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Moed"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "yoma"
+                ]
+            }
+        ],
         "lengths": [
-            4
+            4,
+            61
         ],
         "titles": [
             {
@@ -29,17 +38,17 @@
                 "text": "T. Yoma"
             },
             {
-                "lang": "he",
-                "text": "תוספתא יומא",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Yoma"
             },
             {
-                "lang": "en",
+                "text": "תוספתא יומא",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Yoma",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -55,7 +64,9 @@
         5
     ],
     "authors": [],
-    "enDesc": "Yoma (The Day) belongs to the second order, Moed (Festivals) and discusses the prescriptions Yom Kippur, especially the ceremony by the Kohen Gadol. It has four chapters.",
+    "enDesc": "Tractate Yoma (“The Day,” referring to Yom Kippur) is located in Seder Moed (“the Order of Festivals”). It consists of four chapters; the first three discuss the preparation for and service of the High Priest in the Temple on Yom Kippur day. The last chapter discusses the laws of fasting, other prohibitions of Yom Kippur, and the process of repentance.",
+    "enShortDesc": "Yom Kippur: the High Priest’s preparation, the Temple service, the fast, and repentance.",
+    "heShortDesc": "יום הכיפורים: הכנות הכהן הגדול, העבודה בבית המקדש, הצום והתשובה.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -79,8 +90,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר מועד"
     ],
     "compDateString": {

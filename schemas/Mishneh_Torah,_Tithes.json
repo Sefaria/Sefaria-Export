@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "tithes"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "tithes"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "tithes"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "tithes"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "tithes"
+                ]
+            }
+        ],
         "lengths": [
-            14
+            14,
+            224
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות מעשרות",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות מעשרות"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' מעשרות"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות מעשרות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות מעשרות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' מעשרות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' מעשרות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות מעשרות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות מעשרות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' מעשרות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' מעשרות",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות מעשרות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Tithes",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,7 +167,11 @@
         4
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The seventh book is Zera'im (Seeds): agricultural laws. Maaser: Laws of tithes",
     "pubDate": "1474",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Tithes"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות מעשרות",
         "רמב\"ם, הלכות מעשרות",
         "משנה תורה, הל' מעשרות",
         "רמב\"ם, הל' מעשרות",
         "רמב\"ם הלכות מעשרות",
-        "רמב\"ם הל' מעשרות"
+        "רמב\"ם הל' מעשרות",
+        "רמב״ם, הלכות מעשרות",
+        "רמב”ם, הלכות מעשרות",
+        "רמב״ם, הל' מעשרות",
+        "רמב”ם, הל' מעשרות",
+        "רמב״ם הלכות מעשרות",
+        "רמב”ם הלכות מעשרות",
+        "רמב״ם הל' מעשרות",
+        "רמב”ם הל' מעשרות",
+        "משנה תורה, הלכות מעשרות"
     ],
     "sectionNames": [
         "Chapter",

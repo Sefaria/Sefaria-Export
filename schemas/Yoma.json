@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yoma"
+                ]
+            }
+        ],
         "lengths": [
-            173,
-            7753
+            175,
+            2271
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -38,13 +102,13 @@
                 "text": "T.B. Joma"
             },
             {
-                "lang": "he",
-                "primary": true,
-                "text": "יומא"
-            },
-            {
                 "text": "BT Yoma",
                 "lang": "en"
+            },
+            {
+                "text": "יומא",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Yoma",
@@ -65,12 +129,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         6,
         5
     ],
     "authors": [],
-    "enDesc": "Yoma (The Day) belongs to the second order, Moed (Festivals) and discusses the prescriptions Yom Kippur, especially the ceremony by the Kohen Gadol. It has eight chapters.",
+    "enDesc": "Tractate Yoma (“The Day,” referring to Yom Kippur) is located in Seder Moed (“the Order of Festivals”). It consists of eight chapters; the first seven discuss the preparation for and service of the High Priest in the Temple on Yom Kippur day. The last chapter discusses the laws of fasting, other prohibitions of Yom Kippur, and the process of repentance.",
+    "enShortDesc": "Yom Kippur: the High Priest’s preparation, the Temple service, the fast, and repentance.",
+    "heShortDesc": "יום הכיפורים: הכנות הכהן הגדול, העבודה בבית המקדש, הצום והתשובה.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -78,6 +147,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "יומא",
     "titleVariants": [
         "Talmud Yoma",
@@ -98,6 +170,33 @@
                     "depth": 1,
                     "wholeRef": "Yoma 2a:1-21b:15",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-145"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-145"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -167,6 +266,33 @@
                     "depth": 1,
                     "wholeRef": "Yoma 22a:1-28a:9",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-237"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-237"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -209,6 +335,33 @@
                     "depth": 1,
                     "wholeRef": "Yoma 28a:10-39a:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-335"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-335"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -261,6 +414,33 @@
                     "depth": 1,
                     "wholeRef": "Yoma 39a:6-46b:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-431"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-431"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "lang": "en",
@@ -306,6 +486,33 @@
                     "depth": 1,
                     "wholeRef": "Yoma 47a:1-62a:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-527"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-527"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "lang": "en",
@@ -366,6 +573,33 @@
                     "depth": 1,
                     "wholeRef": "Yoma 62a:8-68b:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-624"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-624"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "lang": "en",
@@ -409,6 +643,33 @@
                     "depth": 1,
                     "wholeRef": "Yoma 68b:12-73b:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-722"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-722"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "lang": "en",
@@ -449,6 +710,44 @@
                     "depth": 1,
                     "wholeRef": "Yoma 73b:13-88a:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-820"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-820"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "lang": "en",
@@ -522,13 +821,13 @@
                     "text": "T.B. Joma"
                 },
                 {
-                    "lang": "he",
-                    "primary": true,
-                    "text": "יומא"
-                },
-                {
                     "text": "BT Yoma",
                     "lang": "en"
+                },
+                {
+                    "text": "יומא",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Yoma",

@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "job"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "job"
+                ]
+            }
         ],
         "lengths": [
             42,
@@ -29,14 +42,14 @@
                 "text": "Iyyov"
             },
             {
+                "text": "איוב",
                 "lang": "he",
-                "primary": true,
-                "text": "איוב"
+                "primary": true
             },
             {
+                "text": "Job",
                 "lang": "en",
-                "primary": true,
-                "text": "Job"
+                "primary": true
             }
         ],
         "title": "Job",
@@ -51,13 +64,20 @@
         29,
         3
     ],
-    "enDesc": "The Book of Job is the third book of Ketuvim (Writings). Addressing the theme of God's justice in the face of human suffering – or more simply, \"Why do the righteous suffer?\" It is a rich theological work setting out a variety of perspectives. It has been widely and often extravagantly praised for its literary qualities. It consists of; a prologue on earth and in heaven, Job's opening monologue, three cycles of dialogues between Job and his three friends Eliphaz, Bildad and Zophar, three monologues, two speeches by God and an epilogue.",
+    "authors": [],
+    "enDesc": "Job (“Iyov”) is the third book of the section in the Hebrew Bible called Writings. It opens with Satan convincing God to test the faith of the righteous and wealthy Job by striking him with tragedy. This spurs conversations between Job and his friends about why the righteous suffer, with Job vacillating between acceptance and anger. God ultimately speaks to Job, explaining that a human’s ability to understand God’s ways is limited. The book ends with Job building a new family and estate.",
+    "heDesc": "איוב הוא הספר השלישי בחטיבת כתובים. הוא פותח בשטן המשכנע את הא-ל להעמיד במבחן את אמונתו של איוב, אדם צדיק ועשיר, ולהמיט עליו שרשרת אסונות. צערו של איוב על האסונות שאירעו לו מעורר שיח בינו ובין רעיו על שאלת צדיק ורע לו, ואיוב נע בין צידוק הדין לכעס על שאירע. בסופו של דבר הא-ל משוחח עם איוב ומסביר שהאדם אינו מסוגל להבין את דרכי הא-ל. הספר מסתיים כשאיוב משתקם, בונה משפחה חדשה ושב ומתבסס בנחלתו.",
+    "enShortDesc": "Satan convinces God to strike a righteous man with tragedy, spurring conversations about suffering.",
+    "heShortDesc": "השטן משכנע את הא-ל להמיט שרשרת אסונות על אדם צדיק, וצערו של איוב מוביל לדיונים על תורת הגמול (צדיק ורע לו).",
     "pubDate": "1488",
     "compDate": "-800",
     "compPlace": "Judea/Israel",
     "pubPlace": "Soncino",
     "errorMargin": "500",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "איוב",
     "titleVariants": [
         "Iyov",

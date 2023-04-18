@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "ezekiel"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ezekiel"
+                ]
+            }
         ],
         "lengths": [
             48,
@@ -45,6 +58,14 @@
                 "lang": "en"
             },
             {
+                "text": "Ézéch.",
+                "lang": "en"
+            },
+            {
+                "text": "Ézéchiel",
+                "lang": "en"
+            },
+            {
                 "text": "יחזקאל",
                 "lang": "he",
                 "primary": true
@@ -67,13 +88,20 @@
         14,
         9
     ],
-    "enDesc": "The Book of Ezekiel is the third of the Neviim Aharonim (Latter Prophets). According to the book itself, it records seven visions of the prophet Ezekiel, exiled in Babylon, for 22 years. Although it is the product of a long and complex history and does not necessarily preserve the very words of the prophet the visions and the book are structured around three themes: (1) Judgment on Israel (chapters 1–24); (2) Judgment on the nations (chapters 25–32); and (3) Future blessings for Israel (chapters 33–48). Its themes include the concepts of the presence of God, purity, Israel as a divine community, and individual responsibility to God.",
+    "authors": [],
+    "enDesc": "Ezekiel (“Yechezkel”) is the seventh book of the Prophets. Speaking from Babylonian exile during the First Temple’s destruction, Ezekiel often symbolically performs prophecies, like binding himself with cord to emphasize Israel’s stubbornness and shaving his hair to symbolize impending doom. Among other topics, he focuses on religious life in the absence of a Temple and personal responsibility for actions. The book ends with a detailed description of a future Temple.",
+    "heDesc": "יחזקאל הוא הספר השביעי בספרי הנביאים וכולל נבואות שנאמרו בגלות בבל קודם חורבן בית המקדש הראשון ולאחריו. בספר חזונות המתמקדים בעתיד ועוסקים בתקומת העצמות היבשות, במלחמת גוג ומגוג, בתיאור מפורט של בית המקדש העתיד להיבנות ובהתחדשות מלכות בית דוד. נבואת יחזקאל עוסקת אף בתפיסת הגמול ובאחריות היחיד למעשיו וכן בחיים הדתיים נטולי מקדש.",
+    "enShortDesc": "Dramatic symbolism conveying rebuke or hope, and visions of a future Temple.",
+    "heShortDesc": "נבואות תוכחה ונחמה, חזון בית המקדש העתידי.",
     "pubDate": "1488",
     "compDate": "-500",
     "compPlace": "Ancient Babylonian Empire",
     "pubPlace": "Soncino",
     "errorMargin": "50",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "יחזקאל",
     "titleVariants": [
         "Ezek",
@@ -82,6 +110,8 @@
         "Yechezkel",
         "Ez.",
         "Yechezkiel",
+        "Ézéch.",
+        "Ézéchiel",
         "Ezekiel"
     ],
     "heTitleVariants": [

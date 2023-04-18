@@ -1,7 +1,8 @@
 {
     "title": "Tractate Gerim",
     "categories": [
-        "Tanaitic",
+        "Talmud",
+        "Bavli",
         "Minor Tractates"
     ],
     "schema": {
@@ -14,6 +15,23 @@
         "sectionNames": [
             "Chapter",
             "Halakhah"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "gerim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "gerim"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            34
         ],
         "titles": [
             {
@@ -36,7 +54,9 @@
         "key": "Tractate Gerim"
     },
     "authors": [],
-    "enDesc": "The minor tractates (Masekhtot Ketanot) are essays from the Tannaitic period or later dealing with topics about which no formal tractate exists in the Mishnah. The first eight or so contain much original material; the last seven or so are collections of material scattered throughout the Talmud. Soferim (Scribes). This tractate deals with issues relating to the requirements for accepting converts.",
+    "enDesc": "Tractate Gerim (“Converts”) is one of seven small tractates that addresses topics for which there is no specific tractate in the Jerusalem or Babylonian Talmuds. These tractates are written in the terse style of the Mishnah and are likely from the time period of the Mishnah or early Talmud, but their dating and places of composition are subject to debate. The first two chapters of Gerim discuss the process of conversion to Judaism, and the status of the convert. The third chapter addresses the treatment of a resident convert, a gentile who accepts some of Judaism’s tenets. The last chapter consists of praise for converts.",
+    "enShortDesc": "Converts to Judaism, the conversion process, and non-Jewish residents of Israel who observe the seven laws of Noah.",
+    "heShortDesc": "תהליך הגיור, מעמד הגר ודיני גר תושב.",
     "pubDate": "1787",
     "compDate": "400",
     "compPlace": "Talmudic Israel/Babylon",
@@ -56,7 +76,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
+        "תלמוד",
+        "בבלי",
         "מסכתות קטנות"
     ],
     "compDateString": {

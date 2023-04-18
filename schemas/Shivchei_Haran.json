@@ -1,45 +1,139 @@
 {
-    "title": "Shivchei Haran",
+    "title": "Shivchei HaRan",
     "categories": [
         "Chasidut",
         "Breslov"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 2,
-        "addressTypes": [
-            "Perek",
-            "Integer"
-        ],
-        "sectionNames": [
-            "Chapter",
-            "Section"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Paragraph"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסקה"
+                ],
+                "key": "default"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "An Account of His Pilgrimage to the Holy Land",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "סדר הנסיעה שלו לארץ ישראל",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "An Account of His Pilgrimage to the Holy Land",
+                "heTitle": "סדר הנסיעה שלו לארץ ישראל",
+                "heSectionNames": [
+                    "פרק",
+                    "פסקה"
+                ],
+                "key": "An Account of His Pilgrimage to the Holy Land"
+            }
         ],
         "titles": [
             {
-                "lang": "he",
-                "text": "שבחי הר\"ן",
-                "primary": true
+                "text": "The Praises of Rabbi Nachman",
+                "lang": "en"
             },
             {
                 "text": "Shivchei Haran",
+                "lang": "en"
+            },
+            {
+                "text": "Shevachei HaRan",
+                "lang": "en"
+            },
+            {
+                "text": "שבחי הר\"ן",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "שבחי הרן",
+                "lang": "he"
+            },
+            {
+                "text": "Shivchei HaRan",
                 "lang": "en",
                 "primary": true
             }
         ],
-        "title": "Shivchei Haran",
+        "title": "Shivchei HaRan",
         "heTitle": "שבחי הר\"ן",
-        "heSectionNames": [
-            "פרק",
-            "חלק"
-        ],
-        "key": "Shivchei Haran"
+        "key": "Shivchei HaRan"
     },
     "authors": [
-        "Nathan Sternhartz"
+        {
+            "en": "Nathan Sternhartz",
+            "he": "נתן שטרנהרץ",
+            "slug": "nathan-sternhartz"
+        }
     ],
     "enDesc": "Biography of R' Nachman of Breslov, written by his student, R' Natan.",
     "heDesc": "תולדות ר' נחמן מברסלב, נכתב על ידי תלמידו ר' נתן.",
+    "enShortDesc": "Biography of Rebbe Nachman focusing on his journey to Israel, authored by his student Rebbe Natan.",
+    "heShortDesc": "ביוגרפיה של רבי נחמן המתמקדת במסעו לארץ ישראל, שכתב תלמידו רבי נתן.",
     "pubDate": "1815",
     "compDate": "1810",
     "pubPlace": "Warsaw",
@@ -47,16 +141,15 @@
     "era": "AH",
     "heTitle": "שבחי הר\"ן",
     "titleVariants": [
-        "Shivchei Haran"
+        "The Praises of Rabbi Nachman",
+        "Shivchei Haran",
+        "Shevachei HaRan",
+        "Shivchei HaRan"
     ],
     "heTitleVariants": [
-        "שבחי הר\"ן"
+        "שבחי הר\"ן",
+        "שבחי הרן"
     ],
-    "sectionNames": [
-        "Chapter",
-        "Section"
-    ],
-    "depth": 2,
     "heCategories": [
         "חסידות",
         "ברסלב"

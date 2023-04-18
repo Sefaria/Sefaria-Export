@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "sabbath"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "sabbath"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "sabbath"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "sabbath"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "sabbath"
+                ]
+            }
+        ],
         "lengths": [
-            30
+            30,
+            659
         ],
         "titles": [
             {
@@ -66,11 +101,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות שבת",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות שבת"
             },
             {
@@ -90,8 +120,45 @@
                 "text": "רמב\"ם הל' שבת"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות שבת",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות שבת",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' שבת",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' שבת",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות שבת",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות שבת",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' שבת",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' שבת",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות שבת",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Sabbath",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -108,7 +175,11 @@
         1
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The third book is Zemanim (Times). Shabbat; (The laws of the Sabbath.)",
     "pubDate": "1474",
@@ -134,12 +205,20 @@
         "Mishneh Torah, Sabbath"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות שבת",
         "רמב\"ם, הלכות שבת",
         "משנה תורה, הל' שבת",
         "רמב\"ם, הל' שבת",
         "רמב\"ם הלכות שבת",
-        "רמב\"ם הל' שבת"
+        "רמב\"ם הל' שבת",
+        "רמב״ם, הלכות שבת",
+        "רמב”ם, הלכות שבת",
+        "רמב״ם, הל' שבת",
+        "רמב”ם, הל' שבת",
+        "רמב״ם הלכות שבת",
+        "רמב”ם הלכות שבת",
+        "רמב״ם הל' שבת",
+        "רמב”ם הל' שבת",
+        "משנה תורה, הלכות שבת"
     ],
     "sectionNames": [
         "Chapter",

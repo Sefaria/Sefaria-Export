@@ -3,6 +3,8 @@
     "categories": [
         "Talmud",
         "Bavli",
+        "Rishonim on Talmud",
+        "Rosh",
         "Commentary",
         "Divrey Chamudot",
         "Seder Zeraim"
@@ -16,6 +18,26 @@
         "sectionNames": [
             "Siman"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "divrey-chamudot",
+                    "berakhot"
+                ]
+            }
+        ],
+        "lengths": [
+            884
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -23,8 +45,8 @@
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Divrey Chamudot on Berakhot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -36,7 +58,11 @@
         "key": "Divrey Chamudot on Berakhot"
     },
     "authors": [
-        "Yom-Tov Lipmann Heller"
+        {
+            "en": "Yom-Tov Lipmann Heller",
+            "he": "יום-טוב ליפמן הלר",
+            "slug": "yom-tov-lipmann-heller"
+        }
     ],
     "enDesc": "Commentary on the Rosh by the author of \"Tosafot Yom Tov\".",
     "heDesc": "פירוש על הרא\"ש במסכת ברכות מבעל ה\"תוספות יום טוב\".",
@@ -72,6 +98,8 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
+        "ראשונים על התלמוד",
+        "רא\"ש",
         "מפרשים",
         "דברי חמודות",
         "סדר זרעים"

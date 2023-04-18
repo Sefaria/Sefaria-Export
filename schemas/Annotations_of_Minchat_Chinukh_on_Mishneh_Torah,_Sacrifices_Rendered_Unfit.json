@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "annotations-of-minchat-chinukh",
+                    "hilchot",
+                    "sacrifices-rendered-unfit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "annotations-of-minchat-chinukh",
+                    "sacrifices-rendered-unfit"
+                ]
+            }
+        ],
+        "lengths": [
+            19,
+            2,
+            2
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,8 +62,14 @@
         "key": "Annotations of Minchat Chinukh on Mishneh Torah, Sacrifices Rendered Unfit"
     },
     "authors": [
-        "Joseph Babad"
+        {
+            "en": "Joseph Babad",
+            "he": "יוסף בן משה באב\"ד",
+            "slug": "joseph-babad"
+        }
     ],
+    "compDate": "1840",
+    "errorMargin": "15",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -76,5 +102,9 @@
         "מפרשים",
         "חידושים ומקורים מבעל מנחת חינוך",
         "ספר עבודה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1825  - c.1855 CE)",
+        "he": " (1825 - 1855 לספירה בקירוב)"
+    }
 }

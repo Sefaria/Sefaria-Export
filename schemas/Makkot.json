@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "makkot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "makkot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "makkot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "makkot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "makkot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "makkot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "makkot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "makkot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "makkot"
+                ]
+            }
+        ],
         "lengths": [
-            46,
-            2355
+            48,
+            709
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -66,13 +130,13 @@
                 "text": "T.B. Maccoth"
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "מכות"
-            },
-            {
                 "text": "BT Makkot",
                 "lang": "en"
+            },
+            {
+                "text": "מכות",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Makkot",
@@ -93,12 +157,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         24,
         5
     ],
     "authors": [],
-    "enDesc": "Makkot (Lashes) belongs to the fourth order, Nezikin (The Order of Damages) and discusses collusive witnesses, cities of refuge and the punishment of lashes. It has three chapters.",
+    "enDesc": "Tractate Makkot (“Lashes”) is a tractate in Seder Nezikin (“Order of Damages\") that serves as a companion tractate to Sanhedrin. Makkot addresses court-administered punishments: the first chapter discusses false witnesses (eidim zomemim) and the process of administering their punishments, the second chapter discusses exile to cities of refuge for inadvertent murderers, and the third and final chapter discusses the punishment of lashes.",
+    "enShortDesc": "Court-administered lashing, false witnesses, and cities of refuge for inadvertent murderers.",
+    "heShortDesc": "עדים זוממים, ערי מקלט לרוצחים בשגגה ועונש מלקות.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -106,6 +175,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "מכות",
     "titleVariants": [
         "Tractate Makkot",
@@ -133,6 +205,33 @@
                     "depth": 1,
                     "wholeRef": "Makkot 2a:1-7a:13",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-118"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-118"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "primary": true,
@@ -173,6 +272,33 @@
                     "depth": 1,
                     "wholeRef": "Makkot 7a:14-13a:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-216"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-216"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "primary": true,
@@ -215,6 +341,44 @@
                     "depth": 1,
                     "wholeRef": "Makkot 13a:8-24b:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-316"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-316"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "primary": true,
@@ -310,13 +474,13 @@
                     "text": "T.B. Maccoth"
                 },
                 {
-                    "primary": true,
-                    "lang": "he",
-                    "text": "מכות"
-                },
-                {
                     "text": "BT Makkot",
                     "lang": "en"
+                },
+                {
+                    "text": "מכות",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Makkot",

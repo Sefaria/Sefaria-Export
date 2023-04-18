@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sanhedrin"
+                ]
+            }
+        ],
         "lengths": [
-            224,
-            13487
+            226,
+            4171
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -50,11 +114,6 @@
                 "text": "San."
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "סנהדרין"
-            },
-            {
                 "lang": "he",
                 "text": "סנהד'"
             },
@@ -65,6 +124,11 @@
             {
                 "text": "BT Sanhedrin",
                 "lang": "en"
+            },
+            {
+                "text": "סנהדרין",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Sanhedrin",
@@ -85,12 +149,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         23,
         4
     ],
     "authors": [],
-    "enDesc": "Sanhedrin (The Synod) belongs to the fourth order, Nezikin (The Order of Damages) and discusses the rules of court proceedings in the Sanhedrin, the death penalty, and other criminal matters. It has eleven chapters.",
+    "enDesc": "Tractate Sanhedrin (“Assembly of Judges”) is a tractate in Seder Nezikin (“Order of Damages\") that addresses the judicial system. Its eleven chapters discuss the selection of judges and forming a court, the process of accepting testimony, and monetary, corporal, and capital punishment. The last chapter, known as “perek chelek,” addresses the World to Come and who does not receive it.",
+    "enShortDesc": "The judicial system, forming the court, accepting testimony, and executing capital punishment.",
+    "heShortDesc": "מערכת המשפט, הקמת בית הדין, קבלת עדות וביצוע גזר דין מוות.",
     "pubDate": "1497",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -98,6 +167,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "סנהדרין",
     "titleVariants": [
         "Tractate Sanhedrin",
@@ -111,9 +183,9 @@
         "Sanhedrin"
     ],
     "heTitleVariants": [
-        "סנהדרין",
         "סנהד'",
-        "סנהד׳"
+        "סנהד׳",
+        "סנהדרין"
     ],
     "alts": {
         "Chapters": {
@@ -123,6 +195,33 @@
                     "depth": 1,
                     "wholeRef": "Sanhedrin 2a:1-18a:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-133"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-133"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "primary": true,
@@ -185,6 +284,33 @@
                     "depth": 1,
                     "wholeRef": "Sanhedrin 18a:5-22b:23",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-226"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-226"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "primary": true,
@@ -224,6 +350,33 @@
                     "depth": 1,
                     "wholeRef": "Sanhedrin 23a:1-31b:21",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-326"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-326"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "primary": true,
@@ -271,6 +424,33 @@
                     "depth": 1,
                     "wholeRef": "Sanhedrin 32a:1-39b:22",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-422"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-422"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "primary": true,
@@ -316,6 +496,33 @@
                     "depth": 1,
                     "wholeRef": "Sanhedrin 40a:1-42a:20",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-519"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-519"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "primary": true,
@@ -350,6 +557,33 @@
                     "depth": 1,
                     "wholeRef": "Sanhedrin 42b:1-49a:17",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-617"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-617"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "primary": true,
@@ -393,6 +627,33 @@
                     "depth": 1,
                     "wholeRef": "Sanhedrin 49b:1-68a:13",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-715"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-715"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "primary": true,
@@ -460,6 +721,33 @@
                     "depth": 1,
                     "wholeRef": "Sanhedrin 68b:1-75a:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-815"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-815"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "primary": true,
@@ -503,6 +791,33 @@
                     "depth": 1,
                     "wholeRef": "Sanhedrin 75a:7-84a:18",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-915"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-915"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "primary": true,
@@ -551,6 +866,33 @@
                     "depth": 1,
                     "wholeRef": "Sanhedrin 84b:1-90a:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-1010"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-1010"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
                     "titles": [
                         {
                             "primary": true,
@@ -592,6 +934,44 @@
                     "depth": 1,
                     "wholeRef": "Sanhedrin 90a:15-113b:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-1112"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eleventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-1112"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eleventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 11,
                     "titles": [
                         {
                             "primary": true,
@@ -695,11 +1075,6 @@
                     "text": "San."
                 },
                 {
-                    "primary": true,
-                    "lang": "he",
-                    "text": "סנהדרין"
-                },
-                {
                     "lang": "he",
                     "text": "סנהד'"
                 },
@@ -710,6 +1085,11 @@
                 {
                     "text": "BT Sanhedrin",
                     "lang": "en"
+                },
+                {
+                    "text": "סנהדרין",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Sanhedrin",

@@ -7,48 +7,92 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "horayot"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "horayot"
+            ]
+        },
         "lengths": [
-            38,
-            76
+            3,
+            20,
+            122
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "JT Horayot"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Horayos"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Horayot"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Horayot"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי הוריות",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי הוריות"
+                "text": "JT Horayot",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Hor."
+                "text": "Yerushalmi Horayos",
+                "lang": "en"
+            },
+            {
+                "text": "Talmud Yerushalmi Horayot",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Horayot",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי הוריות",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Hor.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Horayot",
@@ -59,23 +103,27 @@
         "title": "Jerusalem Talmud Horayot",
         "heTitle": "תלמוד ירושלמי הוריות",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Horayot"
     },
     "order": [
         38
     ],
-    "authors": [],
-    "enDesc": "Horayot (Decisions) belongs to the fourth order, Nezikin (The Order of Damages) and discusses the communal sin-offering brought for major errors by the Sanhedrin. It has three chapters.",
+    "enDesc": "Horayot (“Decisions”) is the last tractate in Seder Nezikin (“Order of Damages\"). Its three chapters discuss erroneous rulings of the court, inadvertent sins of kings, High Priests, or political leaders, and the sacrifices brought as atonement. The conclusion of the tractate addresses the statuses of various members of the Jewish people and how to prioritize them when necessary.",
+    "enShortDesc": "Atoning for erroneous rulings of the court and inadvertent sins of leaders.",
+    "heShortDesc": "כפרה על פסיקות שגויות שהורו בבית הדין ועל חטאים בשגגה של כהנים גדולים ומלכים.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי הוריות",
     "titleVariants": [
         "JT Horayot",
@@ -89,11 +137,333 @@
         "תלמוד ירושלמי הוריות",
         "ירושלמי הוריות"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Horayot 1:1:2-8:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Horayot 1:1:2-3",
+                        "Jerusalem Talmud Horayot 1:1:3-2:5",
+                        "Jerusalem Talmud Horayot 1:2:5-6:2",
+                        "Jerusalem Talmud Horayot 1:6:2-8:5"
+                    ],
+                    "startingAddress": "45c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הורו בית דין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "הורו בית דין",
+                    "offset": 178
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Horayot 2:1:1-7:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Horayot 2:1:1-2",
+                        "Jerusalem Talmud Horayot 2:1:2-4:2",
+                        "Jerusalem Talmud Horayot 2:4:2-7:4"
+                    ],
+                    "startingAddress": "46b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הורה כהן משיח",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "הורה כהן משיח",
+                    "offset": 181
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Horayot 3:1:1-5:16",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Horayot 3:1:1-2",
+                        "Jerusalem Talmud Horayot 3:1:2-2:3",
+                        "Jerusalem Talmud Horayot 3:2:3-15",
+                        "Jerusalem Talmud Horayot 3:2:15-27",
+                        "Jerusalem Talmud Horayot 3:2:27-3:3",
+                        "Jerusalem Talmud Horayot 3:3:3-4:6",
+                        "Jerusalem Talmud Horayot 3:4:6-5:8",
+                        "Jerusalem Talmud Horayot 3:5:8-16"
+                    ],
+                    "startingAddress": "46d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כהן משיח",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "כהן משיח",
+                    "offset": 183
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי הוריות",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Horayot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Horayos",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Horayot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Horayot",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי הוריות",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Hor.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Horayot",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Horayot",
+            "heTitle": "תלמוד ירושלמי הוריות"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Horayot 1:1:1-8:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Horayot 1:1:1-3",
+                        "Jerusalem Talmud Horayot 1:1:3-4",
+                        "Jerusalem Talmud Horayot 1:1:4-7",
+                        "Jerusalem Talmud Horayot 1:1:7-8",
+                        "Jerusalem Talmud Horayot 1:1:8-2:1",
+                        "Jerusalem Talmud Horayot 1:2:1-3",
+                        "Jerusalem Talmud Horayot 1:2:3-5",
+                        "Jerusalem Talmud Horayot 1:2:5-8",
+                        "Jerusalem Talmud Horayot 1:2:8-3:3",
+                        "Jerusalem Talmud Horayot 1:3:3-4:2",
+                        "Jerusalem Talmud Horayot 1:4:2-6:2",
+                        "Jerusalem Talmud Horayot 1:6:2",
+                        "Jerusalem Talmud Horayot 1:6:2-8:2",
+                        "Jerusalem Talmud Horayot 1:8:2-5",
+                        "Jerusalem Talmud Horayot 1:8:5"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הורו בית דין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "הורו בית דין",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Horayot 2:1:1-7:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Horayot 2:1:1-2",
+                        "Jerusalem Talmud Horayot 2:1:2-2:2",
+                        "Jerusalem Talmud Horayot 2:2:2-4:2",
+                        "Jerusalem Talmud Horayot 2:4:2",
+                        "Jerusalem Talmud Horayot 2:4:2-5:4",
+                        "Jerusalem Talmud Horayot 2:5:4-7:1",
+                        "Jerusalem Talmud Horayot 2:7:1-3",
+                        "Jerusalem Talmud Horayot 2:7:3-4"
+                    ],
+                    "startingAddress": "8a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הורה כהן משיח",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "הורה כהן משיח",
+                    "offset": 14
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Horayot 3:1:1-5:16",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Horayot 3:1:1-2",
+                        "Jerusalem Talmud Horayot 3:1:2-2:3",
+                        "Jerusalem Talmud Horayot 3:2:3-7",
+                        "Jerusalem Talmud Horayot 3:2:7-11",
+                        "Jerusalem Talmud Horayot 3:2:11",
+                        "Jerusalem Talmud Horayot 3:2:11-13",
+                        "Jerusalem Talmud Horayot 3:2:13-15",
+                        "Jerusalem Talmud Horayot 3:2:15-19",
+                        "Jerusalem Talmud Horayot 3:2:19-25",
+                        "Jerusalem Talmud Horayot 3:2:25-30",
+                        "Jerusalem Talmud Horayot 3:2:30-35",
+                        "Jerusalem Talmud Horayot 3:2:35-3:4",
+                        "Jerusalem Talmud Horayot 3:3:4-4:3",
+                        "Jerusalem Talmud Horayot 3:4:3-9",
+                        "Jerusalem Talmud Horayot 3:4:9-5:7",
+                        "Jerusalem Talmud Horayot 3:5:7-9",
+                        "Jerusalem Talmud Horayot 3:5:9-16"
+                    ],
+                    "startingAddress": "11b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כהן משיח",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "כהן משיח",
+                    "offset": 21
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי הוריות",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Horayot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Horayos",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Horayot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Horayot",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי הוריות",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Hor.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Horayot",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Horayot",
+            "heTitle": "תלמוד ירושלמי הוריות"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

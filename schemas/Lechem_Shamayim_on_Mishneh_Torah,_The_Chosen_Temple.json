@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "lechem-shamayim",
+                    "hilchot",
+                    "the-chosen-temple"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "lechem-shamayim",
+                    "the-chosen-temple"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            30,
+            35
+        ],
         "titles": [
             {
                 "text": "לחם שמים על משנה תורה, הלכות בית הבחירה",
@@ -42,7 +62,11 @@
         "key": "Lechem Shamayim on Mishneh Torah, The Chosen Temple"
     },
     "authors": [
-        "Yaakov Emden"
+        {
+            "en": "Yaakov Emden",
+            "he": "יעקב עמדין",
+            "slug": "yaakov-emden"
+        }
     ],
     "pubDate": "1728",
     "compDate": "1750",

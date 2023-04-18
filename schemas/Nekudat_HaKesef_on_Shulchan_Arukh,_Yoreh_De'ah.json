@@ -17,6 +17,18 @@
             "Siman",
             "Seif"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "nekudat-hakesef",
+                    "yoreh-deah"
+                ]
+            }
+        ],
+        "lengths": [
+            403,
+            636
+        ],
         "titles": [
             {
                 "primary": true,
@@ -28,9 +40,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Nekudat HaKesef on Shulchan Arukh, Yoreh De'ah",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Nekudat HaKesef on Shulchan Arukh, Yoreh De'ah",
@@ -42,7 +54,11 @@
         "key": "Nekudat HaKesef on Shulchan Arukh, Yoreh De'ah"
     },
     "authors": [
-        "Shabbatai ben Meir Hakohen"
+        {
+            "en": "Shabbatai ben Meir Hakohen",
+            "he": "שבתי בן מאיר הכהן",
+            "slug": "shabbatai-ben-meir-hakohen"
+        }
     ],
     "enDesc": "Critical comments on Turei Zahav (Taz) by the author of Siftei Cohen (Shach).",
     "heDesc": "השגות של בעל השפתי כהן (ש\"ך) על הטורי זהב (ט\"ז) על יורה דעה.",
@@ -54,7 +70,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Yoreh De'ah",
-            "he": "יורה דעה"
+            "he": "שולחן ערוך, יורה דעה"
         }
     ],
     "collective_title": {
@@ -2227,9 +2243,9 @@
                     "lang": "he"
                 },
                 {
-                    "primary": true,
                     "text": "Nekudat HaKesef on Shulchan Arukh, Yoreh De'ah",
-                    "lang": "en"
+                    "lang": "en",
+                    "primary": true
                 }
             ],
             "title": "Nekudat HaKesef on Shulchan Arukh, Yoreh De'ah",

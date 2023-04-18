@@ -17,6 +17,18 @@
             "Siman",
             "Seif"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "beer-hagolah",
+                    "orach-chayim"
+                ]
+            }
+        ],
+        "lengths": [
+            697,
+            7827
+        ],
         "titles": [
             {
                 "primary": true,
@@ -24,9 +36,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Be'er HaGolah on Shulchan Arukh, Orach Chayim",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Be'er HaGolah on Shulchan Arukh, Orach Chayim",
@@ -38,10 +50,15 @@
         "key": "Be'er HaGolah on Shulchan Arukh, Orach Chayim"
     },
     "authors": [
-        "Moses Rivkes"
+        {
+            "en": "Moses Rivkes",
+            "he": "משה בן נפתלי הירש רבקש",
+            "slug": "moses-rivkes"
+        }
     ],
-    "enDesc": "Be’er haGolah is a reference work on the four sections of the Shulchan Arukh, the main purpose of which is to provide cross-references to the Talmud, law codes, commentaries and responsa. Occasionally the author added his own comments, especially in the section on Choshen Mishpat.",
+    "enDesc": "\"Be’er haGolah\" is a reference work on the four sections of the Shulchan Arukh, the main purpose of which is to provide cross-references to the Talmud, law codes, commentaries and responsa. Occasionally the author added his own comments, especially in the section on Choshen Mishpat.",
     "heDesc": "הספר \"באר הגולה\" מציין את מקורות הדינים של פסקי השולחן ערוך. גם הוסיף המחבר הערות קצרות משלו, בפרט בחלק חושן משפט.",
+    "enShortDesc": "17th-centrury reference work by Rabbi Moshe Rivkes citing sources for the Shulchan Arukh law's in earlier rabbinic literature.",
     "pubDate": "1666",
     "compDate": "1664",
     "compPlace": "Amsterdam",
@@ -52,7 +69,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Orach Chayim",
-            "he": "אורח חיים"
+            "he": "שולחן ערוך, אורח חיים"
         }
     ],
     "collective_title": {
@@ -1615,9 +1632,9 @@
                     "lang": "he"
                 },
                 {
-                    "primary": true,
                     "text": "Be'er HaGolah on Shulchan Arukh, Orach Chayim",
-                    "lang": "en"
+                    "lang": "en",
+                    "primary": true
                 }
             ],
             "title": "Be'er HaGolah on Shulchan Arukh, Orach Chayim",

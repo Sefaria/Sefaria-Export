@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Modern Commentary on Talmud",
         "Reshimot Shiurim",
         "Seder Zeraim"
     ],
@@ -17,6 +17,27 @@
         "sectionNames": [
             "Daf",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "reshimot-shiurim",
+                    "berakhot"
+                ]
+            }
+        ],
+        "lengths": [
+            127,
+            2217
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,12 +60,18 @@
         "key": "Reshimot Shiurim on Berakhot"
     },
     "authors": [
-        "Joseph Dov HaLevi Soloveitchik"
+        {
+            "en": "Joseph B. Soloveitchik",
+            "he": "יוסף דוב הלוי סולובייצ'יק",
+            "slug": "joseph-b-soloveitchik"
+        }
     ],
     "enDesc": "Recorded by one of Rabbi Soloveitchik's close students, Rabbi Hershel Reichman, these notes bring out Rabbi Soloveitchik's adept use of the \"Brisker method\" to identify conceptual categories that reveal a deeper possible meaning to otherwise contradictory texts.",
     "pubDate": "2012",
+    "compDate": "1960",
     "compPlace": "New York",
-    "pubPlace": "New York",
+    "pubPlace": "",
+    "errorMargin": "51",
     "era": "CO",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -73,10 +100,14 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "פירושים מודרניים על התלמוד",
         "רשימות שיעורים",
         "סדר זרעים"
     ],
+    "compDateString": {
+        "en": " (c.1909  - c.2011 CE)",
+        "he": " (1909 - 2011 לספירה בקירוב)"
+    },
     "compPlaceString": {
         "en": "New York",
         "he": "ניו יורק"

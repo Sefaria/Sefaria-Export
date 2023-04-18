@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "shofar-sukkah-and-lulav"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "shofar-sukkah-and-lulav"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "shofar-sukkah-and-lulav"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "shofar-sukkah-and-lulav"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "shofar-sukkah-and-lulav"
+                ]
+            }
+        ],
         "lengths": [
-            8
+            8,
+            130
         ],
         "titles": [
             {
@@ -55,11 +90,6 @@
             {
                 "lang": "en",
                 "text": "Rambam, Hilkhot Shofar, Sukkah, vLulav"
-            },
-            {
-                "lang": "he",
-                "text": "משנה תורה, הלכות שופר וסוכה ולולב",
-                "primary": true
             },
             {
                 "lang": "he",
@@ -102,8 +132,61 @@
                 "text": "רמב\"ם, הלכות סוכה"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות שופר וסוכה ולולב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות שופר וסוכה ולולב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' שופר וסוכה ולולב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' שופר וסוכה ולולב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות שופר וסוכה ולולב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות שופר וסוכה ולולב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' שופר וסוכה ולולב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' שופר וסוכה ולולב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הלכות לולב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות לולב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הלכות סוכה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות סוכה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות שופר וסוכה ולולב",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Shofar, Sukkah and Lulav",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -120,7 +203,11 @@
         6
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The third book is Zemanim (Times). Shofar ve-Lulav ve-Sukkah; laws of Rosh Hashanah and Sukkot",
     "pubDate": "1474",
@@ -144,7 +231,6 @@
         "Mishneh Torah, Shofar, Sukkah and Lulav"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות שופר וסוכה ולולב",
         "רמב\"ם, הלכות שופר וסוכה ולולב",
         "משנה תורה, הל' שופר וסוכה ולולב",
         "רמב\"ם, הל' שופר וסוכה ולולב",
@@ -154,7 +240,20 @@
         "משנה תורה, הלכות לולב",
         "משנה תורה, הלכות שופר",
         "רמב\"ם, הלכות לולב",
-        "רמב\"ם, הלכות סוכה"
+        "רמב\"ם, הלכות סוכה",
+        "רמב״ם, הלכות שופר וסוכה ולולב",
+        "רמב”ם, הלכות שופר וסוכה ולולב",
+        "רמב״ם, הל' שופר וסוכה ולולב",
+        "רמב”ם, הל' שופר וסוכה ולולב",
+        "רמב״ם הלכות שופר וסוכה ולולב",
+        "רמב”ם הלכות שופר וסוכה ולולב",
+        "רמב״ם הל' שופר וסוכה ולולב",
+        "רמב”ם הל' שופר וסוכה ולולב",
+        "רמב״ם, הלכות לולב",
+        "רמב”ם, הלכות לולב",
+        "רמב״ם, הלכות סוכה",
+        "רמב”ם, הלכות סוכה",
+        "משנה תורה, הלכות שופר וסוכה ולולב"
     ],
     "sectionNames": [
         "Chapter",

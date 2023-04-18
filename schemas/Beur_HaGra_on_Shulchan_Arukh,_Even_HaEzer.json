@@ -85,16 +85,37 @@
                 "key": "Seder Halitzah"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "beur-hagra",
+                    "even-haezer"
+                ]
+            }
+        ],
         "titles": [
             {
-                "primary": true,
-                "lang": "he",
-                "text": "ביאור הגר\"א על שולחן ערוך אבן העזר"
+                "text": "Beur HaGra EH",
+                "lang": "en"
             },
             {
-                "primary": true,
+                "text": "Beiur HaGra EH",
+                "lang": "en"
+            },
+            {
+                "text": "Biur HaGra EH",
+                "lang": "en"
+            },
+            {
+                "text": "ביאור הגר\"א על שולחן ערוך אבן העזר",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "Beur HaGra on Shulchan Arukh, Even HaEzer",
                 "lang": "en",
-                "text": "Beur HaGra on Shulchan Arukh, Even HaEzer"
+                "primary": true
             }
         ],
         "title": "Beur HaGra on Shulchan Arukh, Even HaEzer",
@@ -102,10 +123,15 @@
         "key": "Beur HaGra on Shulchan Arukh, Even HaEzer"
     },
     "authors": [
-        "Vilna Gaon"
+        {
+            "en": "Vilna Gaon",
+            "he": "אליהו בן שלמה זלמן מווילנה",
+            "slug": "vilna-gaon"
+        }
     ],
     "enDesc": "Commentary of the Vilna Gaon on Shulchan Arukh, mainly containing source references. Because of it's brief style it is often difficult to determine the author's intention, as a result of which a number of supercommentaries have been written on this work.",
     "heDesc": "פירוש קצר על דברי השלחן ערוך. באופן כללי, תפקיד הפירוש הוא למצוא את מקורות הדינים בסוגיות הש\"ס. מפאת קיצורו, קשה לעיתים לפענח את כוונתו, ובשל כך נכתבו עליו פירושים רבים.",
+    "enShortDesc": "17th-centrury reference work by Rabbi Moshe Rivkes citing sources for the Shulchan Arukh law's in earlier rabbinic literature.",
     "pubDate": "1803",
     "compDate": "1775",
     "pubPlace": "Shklow",
@@ -115,7 +141,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Even HaEzer",
-            "he": "אבן העזר"
+            "he": "שולחן ערוך, אבן העזר"
         }
     ],
     "collective_title": {
@@ -124,6 +150,9 @@
     },
     "heTitle": "ביאור הגר\"א על שולחן ערוך אבן העזר",
     "titleVariants": [
+        "Beur HaGra EH",
+        "Beiur HaGra EH",
+        "Biur HaGra EH",
         "Beur HaGra on Shulchan Arukh, Even HaEzer"
     ],
     "heTitleVariants": [
@@ -545,14 +574,26 @@
             ],
             "titles": [
                 {
-                    "primary": true,
-                    "lang": "he",
-                    "text": "ביאור הגר\"א על שולחן ערוך אבן העזר"
+                    "text": "Beur HaGra EH",
+                    "lang": "en"
                 },
                 {
-                    "primary": true,
+                    "text": "Beiur HaGra EH",
+                    "lang": "en"
+                },
+                {
+                    "text": "Biur HaGra EH",
+                    "lang": "en"
+                },
+                {
+                    "text": "ביאור הגר\"א על שולחן ערוך אבן העזר",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Beur HaGra on Shulchan Arukh, Even HaEzer",
                     "lang": "en",
-                    "text": "Beur HaGra on Shulchan Arukh, Even HaEzer"
+                    "primary": true
                 }
             ],
             "title": "Beur HaGra on Shulchan Arukh, Even HaEzer",

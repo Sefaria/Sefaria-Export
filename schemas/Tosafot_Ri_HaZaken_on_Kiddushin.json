@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Tosafot Ri HaZaken",
         "Seder Nashim"
     ],
@@ -17,6 +17,19 @@
         "sectionNames": [
             "Daf",
             "Comment"
+        ],
+        "lengths": [
+            164,
+            924
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,7 +52,11 @@
         "key": "Tosafot Ri HaZaken on Kiddushin"
     },
     "authors": [
-        "Isaac ben Samuel of Dampierre"
+        {
+            "en": "Isaac ben Samuel of Dampierre",
+            "he": "יצחק בן שמואל הזקן מדַמְפִּיֶיר",
+            "slug": "isaac-ben-samuel-of-dampierre"
+        }
     ],
     "enDesc": "The commentary of one of the main leaders of the French school of Tosafists, Rabbi Yitzchak (known by his initials as RI) of Dampierre.",
     "compDate": "1150",
@@ -72,7 +89,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "תוספות ר\"י הזקן",
         "סדר נשים"
     ],

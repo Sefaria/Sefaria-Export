@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "makhshirin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "makhshirin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "makhshirin"
+                ]
+            }
+        ],
         "lengths": [
             6,
             54
@@ -34,11 +53,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה מכשירין",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "מכשירין"
             },
             {
@@ -54,8 +68,13 @@
                 "text": "Mishnah Makhsh."
             },
             {
-                "lang": "en",
+                "text": "משנה מכשירין",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Makhshirin",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -72,7 +91,9 @@
         8
     ],
     "authors": [],
-    "enDesc": "Makhshirm (Preliminary acts of preparation) belongs to the sixth order, Tahorot (Purities) and discusses liquids that make food susceptible to tumah (impurity). It has six chapters.",
+    "enDesc": "",
+    "enShortDesc": "Water, oil, milk, wine, honey, dew, or blood touching food and rendering it susceptible to impurity.",
+    "heShortDesc": "התנאים שבהם מים, שמן, חלב, יין, דבש, טל או דם נוגעים במזון ומכשירים אותו לקבל טומאה.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -80,6 +101,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה מכשירין",
     "titleVariants": [
         "M. Makhshirin",
@@ -91,8 +115,8 @@
         "Mishnah Makhshirin"
     ],
     "heTitleVariants": [
-        "משנה מכשירין",
-        "מכשירין"
+        "מכשירין",
+        "משנה מכשירין"
     ],
     "sectionNames": [
         "Chapter",

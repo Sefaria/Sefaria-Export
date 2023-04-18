@@ -1,9 +1,9 @@
 {
-    "title": "Kitzur Baal Haturim on Exodus",
+    "title": "Kitzur Baal HaTurim on Exodus",
     "categories": [
         "Tanakh",
-        "Commentary",
-        "Kitzur Baal Haturim",
+        "Rishonim on Tanakh",
+        "Kitzur Baal HaTurim",
         "Torah"
     ],
     "schema": {
@@ -11,7 +11,7 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
@@ -19,65 +19,127 @@
             "Verse",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kitzur-baal-haturim",
+                    "exodus"
+                ]
+            }
+        ],
+        "lengths": [
+            40,
+            405,
+            584
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Exod."
+                "text": "Kitzur Baal HaTurim on Exod."
             },
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Ex."
+                "text": "Kitzur Baal HaTurim on Ex."
             },
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Exo"
+                "text": "Kitzur Baal HaTurim on Exo"
             },
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Shmot"
+                "text": "Kitzur Baal HaTurim on Shmot"
             },
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Shemot"
+                "text": "Kitzur Baal HaTurim on Shemot"
             },
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Ex"
+                "text": "Kitzur Baal HaTurim on Ex"
             },
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Exo."
+                "text": "Kitzur Baal HaTurim on Exo."
             },
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Exod"
+                "text": "Kitzur Baal HaTurim on Exod"
             },
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Shemoth"
+                "text": "Kitzur Baal HaTurim on Shemoth"
             },
             {
-                "lang": "he",
-                "text": "קיצור בעל הטורים על שמות",
-                "primary": true
+                "text": "Kitzur Baal Haturim on Exod.",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal Haturim on Ex.",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal Haturim on Exo",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal Haturim on Shmot",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal Haturim on Shemot",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal Haturim on Ex",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal Haturim on Exo.",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal Haturim on Exod",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal Haturim on Shemoth",
+                "lang": "en"
             },
             {
                 "text": "Kitzur Baal Haturim on Exodus",
+                "lang": "en"
+            },
+            {
+                "text": "קיצור בעל הטורים על שמות",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "Kitzur Baal HaTurim on Exodus",
                 "lang": "en",
                 "primary": true
             }
         ],
-        "title": "Kitzur Baal Haturim on Exodus",
+        "title": "Kitzur Baal HaTurim on Exodus",
         "heTitle": "קיצור בעל הטורים על שמות",
         "heSectionNames": [
             "פרק",
             "פסוק",
             "פירוש"
         ],
-        "key": "Kitzur Baal Haturim on Exodus"
+        "key": "Kitzur Baal HaTurim on Exodus"
     },
     "authors": [
-        "Jacob ben Asher"
+        {
+            "en": "Jacob ben Asher",
+            "he": "יעקב בן אשר",
+            "slug": "jacob-ben-asher"
+        }
     ],
     "enDesc": "Abridgement of the Torah commentary written by Jacob ben Asher, Ba’al HaTurim. The author was a halakhic scholar and biblical commentator in Medieval Spain.",
     "pubDate": "1514",
@@ -95,12 +157,21 @@
     ],
     "base_text_mapping": "many_to_one",
     "collective_title": {
-        "en": "Kitzur Baal Haturim",
+        "en": "Kitzur Baal HaTurim",
         "he": "קיצור בעל הטורים"
     },
     "is_cited": true,
     "heTitle": "קיצור בעל הטורים על שמות",
     "titleVariants": [
+        "Kitzur Baal HaTurim on Exod.",
+        "Kitzur Baal HaTurim on Ex.",
+        "Kitzur Baal HaTurim on Exo",
+        "Kitzur Baal HaTurim on Shmot",
+        "Kitzur Baal HaTurim on Shemot",
+        "Kitzur Baal HaTurim on Ex",
+        "Kitzur Baal HaTurim on Exo.",
+        "Kitzur Baal HaTurim on Exod",
+        "Kitzur Baal HaTurim on Shemoth",
         "Kitzur Baal Haturim on Exod.",
         "Kitzur Baal Haturim on Ex.",
         "Kitzur Baal Haturim on Exo",
@@ -110,7 +181,8 @@
         "Kitzur Baal Haturim on Exo.",
         "Kitzur Baal Haturim on Exod",
         "Kitzur Baal Haturim on Shemoth",
-        "Kitzur Baal Haturim on Exodus"
+        "Kitzur Baal Haturim on Exodus",
+        "Kitzur Baal HaTurim on Exodus"
     ],
     "heTitleVariants": [
         "קיצור בעל הטורים על שמות"
@@ -123,7 +195,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "קיצור בעל הטורים",
         "תורה"
     ],

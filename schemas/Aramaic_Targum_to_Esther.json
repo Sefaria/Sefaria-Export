@@ -11,21 +11,33 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
         ],
-        "titles": [
+        "match_templates": [
             {
-                "lang": "he",
-                "text": "תרגום אסתר",
-                "primary": true
-            },
+                "term_slugs": [
+                    "aramaic-targum",
+                    "esther"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            167
+        ],
+        "titles": [
             {
                 "lang": "en",
                 "text": "Targ. Esth."
+            },
+            {
+                "text": "תרגום אסתר",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Aramaic Targum to Esther",

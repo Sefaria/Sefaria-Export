@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "hasagot-haraavad",
+                    "hilchot",
+                    "vessels-of-the-sanctuary-and-those-who-serve-therein"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hasagot-haraavad",
+                    "vessels-of-the-sanctuary-and-those-who-serve-therein"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            21,
+            24
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Hasagot HaRaavad on Mishneh Torah, Vessels of the Sanctuary and Those who Serve Therein",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Hasagot HaRaavad on Mishneh Torah, Vessels of the Sanctuary and Those who Serve Therein",
@@ -42,7 +62,11 @@
         "key": "Hasagot HaRaavad on Mishneh Torah, Vessels of the Sanctuary and Those who Serve Therein"
     },
     "authors": [
-        "Ra'avad"
+        {
+            "en": "Ra'avad",
+            "he": "ראב\"ד",
+            "slug": "raavad"
+        }
     ],
     "enDesc": "Raavad's glosses on Rambam's Mishneh Torah expressing his dissenting opinion.",
     "heDesc": "הגהותיו של הראב\"ד על המשנה תורה של הרמב\"ם, המבטאות את דעתו החולקת.",

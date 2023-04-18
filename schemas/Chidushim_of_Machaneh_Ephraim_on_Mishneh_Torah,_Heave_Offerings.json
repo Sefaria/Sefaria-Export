@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushim-of-machaneh-ephraim",
+                    "hilchot",
+                    "heave-offerings"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushim-of-machaneh-ephraim",
+                    "heave-offerings"
+                ]
+            }
+        ],
+        "lengths": [
+            15,
+            12,
+            12
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Chidushim of Machaneh Ephraim on Mishneh Torah, Heave Offerings",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Chidushim of Machaneh Ephraim on Mishneh Torah, Heave Offerings",
@@ -42,7 +62,11 @@
         "key": "Chidushim of Machaneh Ephraim on Mishneh Torah, Heave Offerings"
     },
     "authors": [
-        "Ephraim Navon"
+        {
+            "en": "Ephraim Navon",
+            "he": "אפרים נבון",
+            "slug": "ephraim-navon"
+        }
     ],
     "pubDate": "1738",
     "compDate": "1720",

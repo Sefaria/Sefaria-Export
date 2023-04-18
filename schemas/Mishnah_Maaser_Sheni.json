@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "maaser-sheni"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "maaser-sheni"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "maaser-sheni"
+                ]
+            }
+        ],
         "lengths": [
             5,
             57
@@ -42,11 +61,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה מעשר שני",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "מעשר שני"
             },
             {
@@ -66,8 +80,13 @@
                 "text": "Mishnah Maʿǎser Sheni"
             },
             {
-                "lang": "en",
+                "text": "משנה מעשר שני",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Maaser Sheni",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -84,7 +103,9 @@
         8
     ],
     "authors": [],
-    "enDesc": "Maaseh Sheni (Second Tithes) belongs to the first order, Zera'im (seeds) and discusses the rules concerning the tithe which was to be eaten in Jerusalem, as stated in Deuteronomy 14:22-26. It consists of five chapters.",
+    "enDesc": "Tractate Maaser Sheni (“Second Tithe”) discusses the tithe separated from produce and brought to Jerusalem during Temple times or exchanged for money to be used for purchasing food there, as described in Deuteronomy 14:22-26. The tractate also discusses the laws of fruit produced by a tree in its fourth year (neta revai) and grapes growing on a vine in its fourth year (kerem revai), each of which is also consumed in Jerusalem or exchanged for money to be used for purchasing food there.",
+    "enShortDesc": "A tithe eaten in Jerusalem or exchanged for money to be used for purchasing food there.",
+    "heShortDesc": "מעשר שבעל התבואה אוכל בטהרה בירושלים או פודה בכסף, ובכסף קונה אוכל - ואוכל אותו בטהרה בירושלים.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -92,6 +113,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה מעשר שני",
     "titleVariants": [
         "M. Maaser Sheni",
@@ -106,8 +130,8 @@
         "Mishnah Maaser Sheni"
     ],
     "heTitleVariants": [
-        "משנה מעשר שני",
-        "מעשר שני"
+        "מעשר שני",
+        "משנה מעשר שני"
     ],
     "sectionNames": [
         "Chapter",

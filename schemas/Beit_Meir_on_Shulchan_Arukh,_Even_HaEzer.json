@@ -143,6 +143,15 @@
                 "key": "Tzal'ot HaBayit"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "beit-meir",
+                    "even-haezer"
+                ]
+            }
+        ],
         "titles": [
             {
                 "primary": true,
@@ -160,16 +169,22 @@
         "key": "Beit Meir on Shulchan Arukh, Even HaEzer"
     },
     "authors": [
-        "Meir Posner"
+        {
+            "en": "Meir Posner",
+            "he": "",
+            "slug": "meir-posner"
+        }
     ],
     "pubDate": "1787",
+    "compDate": "1777",
     "pubPlace": "Frankfurt an der Oder",
+    "errorMargin": "10",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Even HaEzer",
-            "he": "אבן העזר"
+            "he": "שולחן ערוך, אבן העזר"
         }
     ],
     "collective_title": {
@@ -187,5 +202,9 @@
         "הלכה",
         "שולחן ערוך",
         "מפרשים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1767  - c.1787 CE)",
+        "he": " (1767 - 1787 לספירה בקירוב)"
+    }
 }

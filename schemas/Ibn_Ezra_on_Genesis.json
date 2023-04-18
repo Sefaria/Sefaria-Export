@@ -2,22 +2,95 @@
     "title": "Ibn Ezra on Genesis",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Ibn Ezra",
         "Torah"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 3,
-        "addressTypes": [
-            "Perek",
-            "Integer",
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Pasuk",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Verse",
+                    "Comment"
+                ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "ibn-ezra",
+                            "genesis"
+                        ]
+                    }
+                ],
+                "lengths": [
+                    50,
+                    802,
+                    1255
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
+            }
         ],
-        "sectionNames": [
-            "Chapter",
-            "Verse",
-            "Comment"
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ibn-ezra",
+                    "genesis"
+                ]
+            }
         ],
         "titles": [
             {
@@ -58,11 +131,6 @@
             },
             {
                 "lang": "he",
-                "text": "אבן עזרא על בראשית",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "אבן עזרא על ברא'"
             },
             {
@@ -82,6 +150,11 @@
                 "text": "אבן עזרא על בְּרֵאשִׁית"
             },
             {
+                "text": "אבן עזרא על בראשית",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Ibn Ezra on Genesis",
                 "lang": "en",
                 "primary": true
@@ -89,17 +162,16 @@
         ],
         "title": "Ibn Ezra on Genesis",
         "heTitle": "אבן עזרא על בראשית",
-        "heSectionNames": [
-            "פרק",
-            "פסוק",
-            "פירוש"
-        ],
         "key": "Ibn Ezra on Genesis"
     },
     "authors": [
-        "Ibn Ezra"
+        {
+            "en": "Ibn Ezra",
+            "he": "אבן עזרא",
+            "slug": "ibn-ezra"
+        }
     ],
-    "enDesc": "Ibn Ezra’s commentary on the Tanakh reflects his knowledge as a Hebrew grammarian and philologist. His commentary is terse and aims to discover the pshat, the contextual meaning, of the text. Ibn Ezra was known for his independent ideas which aroused much controversy. Many view Ibn Ezra as the forefather of Biblical criticism. As an example, in the last chapter of Sefer Devarim (34:10), Ibn Ezra comments that Joshua, and not Moshe, wrote from this point until the end of the Torah. ",
+    "enDesc": "Ibn Ezra’s commentary on the Tanakh reflects his knowledge as a Hebrew grammarian and philologist. His commentary is terse and aims to discover the pshat, the contextual meaning, of the text. Ibn Ezra was known for his independent ideas which aroused much controversy. Many view Ibn Ezra as the forefather of Biblical criticism. As an example, in the last chapter of Sefer Devarim (34:10), Ibn Ezra comments that Joshua, and not Moshe, wrote from this point until the end of the Torah.",
     "pubDate": "1524",
     "compDate": "1160",
     "compPlace": "Middle-Age France/Italy/England",
@@ -133,22 +205,16 @@
         "Ibn Ezra on Genesis"
     ],
     "heTitleVariants": [
-        "אבן עזרא על בראשית",
         "אבן עזרא על ברא'",
         "אבן עזרא על בר'",
         "אבן עזרא על בר׳",
         "אבן עזרא על ברא׳",
-        "אבן עזרא על בְּרֵאשִׁית"
+        "אבן עזרא על בְּרֵאשִׁית",
+        "אבן עזרא על בראשית"
     ],
-    "sectionNames": [
-        "Chapter",
-        "Verse",
-        "Comment"
-    ],
-    "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "אבן עזרא",
         "תורה"
     ],

@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "testimony"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "testimony"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "testimony"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "testimony"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "testimony"
+                ]
+            }
+        ],
         "lengths": [
-            22
+            22,
+            173
         ],
         "titles": [
             {
@@ -57,11 +92,6 @@
                 "text": "Rambam, Hilkhot Edut"
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "משנה תורה, הלכות עדות"
-            },
-            {
                 "lang": "he",
                 "text": "רמב\"ם, הלכות עדות"
             },
@@ -94,9 +124,50 @@
                 "text": "רמב״ם עדות"
             },
             {
-                "primary": true,
+                "text": "רמב״ם, הלכות עדות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות עדות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' עדות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' עדות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות עדות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות עדות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' עדות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' עדות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם עדות",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות עדות",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "Mishneh Torah, Testimony",
                 "lang": "en",
-                "text": "Mishneh Torah, Testimony"
+                "primary": true
             }
         ],
         "title": "Mishneh Torah, Testimony",
@@ -112,7 +183,11 @@
         2
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The fourteenth book is Sefer Shofetim (Judges: the laws relating legislators, the Sanhedrin, the king, and the judges — it also addresses the Noahide Laws and those pertaining to Messianic times). Hilchot Edut (Testimony‎)",
     "pubDate": "1474",
@@ -136,7 +211,6 @@
         "Mishneh Torah, Testimony"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות עדות",
         "רמב\"ם, הלכות עדות",
         "משנה תורה, הל' עדות",
         "רמב\"ם, הל' עדות",
@@ -144,7 +218,17 @@
         "רמב\"ם הל' עדות",
         "רמב''ם עדות",
         "רמב\"ם עדות",
-        "רמב״ם עדות"
+        "רמב״ם עדות",
+        "רמב״ם, הלכות עדות",
+        "רמב”ם, הלכות עדות",
+        "רמב״ם, הל' עדות",
+        "רמב”ם, הל' עדות",
+        "רמב״ם הלכות עדות",
+        "רמב”ם הלכות עדות",
+        "רמב״ם הל' עדות",
+        "רמב”ם הל' עדות",
+        "רמב”ם עדות",
+        "משנה תורה, הלכות עדות"
     ],
     "sectionNames": [
         "Chapter",

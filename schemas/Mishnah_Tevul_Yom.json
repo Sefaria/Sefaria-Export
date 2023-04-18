@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "tevul-yom"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tevul-yom"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "tevul-yom"
+                ]
+            }
+        ],
         "lengths": [
             4,
             26
@@ -34,11 +53,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה טבול יום",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "טבול יום"
             },
             {
@@ -46,8 +60,13 @@
                 "text": "T’bul Yom"
             },
             {
-                "lang": "en",
+                "text": "משנה טבול יום",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Tevul Yom",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -65,6 +84,8 @@
     ],
     "authors": [],
     "enDesc": "Tevul Yom (Immersed [on that] day) belongs to the sixth order, Tahorot (Purities) and discusses a special kind of impurity where the person immerses in a mikveh (ritual bath) but is still unclean for the rest of the day. It has four chapters.",
+    "enShortDesc": "The status of a person in the time between their immersion in a mikvah and sunset of that day.",
+    "heShortDesc": "דינו של אדם טמא שטבל במקווה לטהרתו ועדיין לא שקעה השמש.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה טבול יום",
     "titleVariants": [
         "M Tevul Yom",
@@ -81,8 +105,8 @@
         "Mishnah Tevul Yom"
     ],
     "heTitleVariants": [
-        "משנה טבול יום",
-        "טבול יום"
+        "טבול יום",
+        "משנה טבול יום"
     ],
     "sectionNames": [
         "Chapter",

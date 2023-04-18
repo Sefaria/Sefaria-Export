@@ -7,44 +7,88 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "gittin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "gittin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "gittin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "gittin"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "gittin"
+            ]
+        },
         "lengths": [
-            108,
-            239
+            9,
+            75,
+            349
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Gittin"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Gittin"
-            },
-            {
-                "lang": "en",
-                "text": "JT Gittin"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי גיטין",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי גיטין"
+                "text": "Talmud Yerushalmi Gittin",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Gitt."
+                "text": "Yerushalmi Gittin",
+                "lang": "en"
+            },
+            {
+                "text": "JT Gittin",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי גיטין",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Gitt.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Gittin",
@@ -55,23 +99,27 @@
         "title": "Jerusalem Talmud Gittin",
         "heTitle": "תלמוד ירושלמי גיטין",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Gittin"
     },
     "order": [
         29
     ],
-    "authors": [],
-    "enDesc": "Gittin (Documents) belongs to the third order, Nashim (Women) and discusses the concepts of divorces and other documents. It has nine chapters.",
+    "enDesc": "Gittin (plural of “Get,” or writ of divorce) is a tractate in Seder Nashim (“Order of Women,” which addresses family law). Its nine chapters primarily discuss the process of writing and transmitting a get. Also included in the tractate are sections about tikkun ha’olam, or enactments instituted by the sages for the betterment of the world, stories about the destruction of the Temple, and discussions of medical advice.",
+    "enShortDesc": "Laws relating to divorce, focusing on the get (bill of divorce) and its delivery.",
+    "heShortDesc": "דיני גירושין, בדגש על כתיבת שטר הגט ונתינתו.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי גיטין",
     "titleVariants": [
         "Talmud Yerushalmi Gittin",
@@ -84,11 +132,784 @@
         "תלמוד ירושלמי גיטין",
         "ירושלמי גיטין"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 1:1:2-5:9",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 1:1:2-3",
+                        "Jerusalem Talmud Gittin 1:1:3-2:2",
+                        "Jerusalem Talmud Gittin 1:2:2-4:4",
+                        "Jerusalem Talmud Gittin 1:4:4-5:9"
+                    ],
+                    "startingAddress": "43a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המביא קמא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "המביא קמא",
+                    "offset": 168
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 2:1:1-7:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 2:1:1-2",
+                        "Jerusalem Talmud Gittin 2:1:2-2:2",
+                        "Jerusalem Talmud Gittin 2:2:2-5:2",
+                        "Jerusalem Talmud Gittin 2:5:2-7:3"
+                    ],
+                    "startingAddress": "43d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המביא בתרא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "המביא בתרא",
+                    "offset": 171
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 3:1:1-8:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 3:1:1-3",
+                        "Jerusalem Talmud Gittin 3:1:3-3:4",
+                        "Jerusalem Talmud Gittin 3:3:4-8:4",
+                        "Jerusalem Talmud Gittin 3:8:4-5"
+                    ],
+                    "startingAddress": "44c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל הגט",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "כל הגט",
+                    "offset": 174
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 4:1:1-9:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 4:1:1-2",
+                        "Jerusalem Talmud Gittin 4:1:2-3:4",
+                        "Jerusalem Talmud Gittin 4:3:4-4:7",
+                        "Jerusalem Talmud Gittin 4:4:7-9:2",
+                        "Jerusalem Talmud Gittin 4:9:2-5"
+                    ],
+                    "startingAddress": "45b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "השולח",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "השולח",
+                    "offset": 177
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 5:1:1-10:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 5:1:1-2",
+                        "Jerusalem Talmud Gittin 5:1:2-11",
+                        "Jerusalem Talmud Gittin 5:1:11-3:10",
+                        "Jerusalem Talmud Gittin 5:3:10-6:5",
+                        "Jerusalem Talmud Gittin 5:6:5-9:6",
+                        "Jerusalem Talmud Gittin 5:9:6-10:6"
+                    ],
+                    "startingAddress": "46b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הניזקין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "הניזקין",
+                    "offset": 181
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 6:1:1-7:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 6:1:1-2",
+                        "Jerusalem Talmud Gittin 6:1:2-9",
+                        "Jerusalem Talmud Gittin 6:1:9-5:6",
+                        "Jerusalem Talmud Gittin 6:5:6-7:4"
+                    ],
+                    "startingAddress": "47c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האומר התקבל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "האומר התקבל",
+                    "offset": 186
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 7:1:1-8:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 7:1:1-2",
+                        "Jerusalem Talmud Gittin 7:1:2-10",
+                        "Jerusalem Talmud Gittin 7:1:10-4:7",
+                        "Jerusalem Talmud Gittin 7:4:7-8:3"
+                    ],
+                    "startingAddress": "48b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שאחזו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "מי שאחזו",
+                    "offset": 189
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 8:1:1-10:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 8:1:1-2",
+                        "Jerusalem Talmud Gittin 8:1:2-3:2",
+                        "Jerusalem Talmud Gittin 8:3:2-9:2",
+                        "Jerusalem Talmud Gittin 8:9:2-10:6"
+                    ],
+                    "startingAddress": "49a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הזורק גט",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "הזורק גט",
+                    "offset": 192
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 9:1:1-11:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 9:1:1-2",
+                        "Jerusalem Talmud Gittin 9:1:2-5",
+                        "Jerusalem Talmud Gittin 9:1:5-6:2",
+                        "Jerusalem Talmud Gittin 9:6:2-8:4",
+                        "Jerusalem Talmud Gittin 9:8:4-11:3"
+                    ],
+                    "startingAddress": "49d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המגרש",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "המגרש",
+                    "offset": 195
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי גיטין",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Talmud Yerushalmi Gittin",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Gittin",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Gittin",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי גיטין",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Gitt.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Gittin",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Gittin",
+            "heTitle": "תלמוד ירושלמי גיטין"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 1:1:1-5:9",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 1:1:1-3",
+                        "Jerusalem Talmud Gittin 1:1:3",
+                        "Jerusalem Talmud Gittin 1:1:3-4",
+                        "Jerusalem Talmud Gittin 1:1:4-5",
+                        "Jerusalem Talmud Gittin 1:1:5-6",
+                        "Jerusalem Talmud Gittin 1:1:6-7",
+                        "Jerusalem Talmud Gittin 1:1:7-8",
+                        "Jerusalem Talmud Gittin 1:1:8-2:2",
+                        "Jerusalem Talmud Gittin 1:2:2-5",
+                        "Jerusalem Talmud Gittin 1:2:5-3:2",
+                        "Jerusalem Talmud Gittin 1:3:2-4:1",
+                        "Jerusalem Talmud Gittin 1:4:1-3",
+                        "Jerusalem Talmud Gittin 1:4:3-5",
+                        "Jerusalem Talmud Gittin 1:4:5-5:2",
+                        "Jerusalem Talmud Gittin 1:5:2-4",
+                        "Jerusalem Talmud Gittin 1:5:4-6",
+                        "Jerusalem Talmud Gittin 1:5:6-9"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המביא קמא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "המביא קמא",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 2:1:1-7:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 2:1:1-2",
+                        "Jerusalem Talmud Gittin 2:1:2-4",
+                        "Jerusalem Talmud Gittin 2:1:4-6",
+                        "Jerusalem Talmud Gittin 2:1:6-2:2",
+                        "Jerusalem Talmud Gittin 2:2:2-3:1",
+                        "Jerusalem Talmud Gittin 2:3:1-3",
+                        "Jerusalem Talmud Gittin 2:3:3-7",
+                        "Jerusalem Talmud Gittin 2:3:7-8",
+                        "Jerusalem Talmud Gittin 2:3:8-4:3",
+                        "Jerusalem Talmud Gittin 2:4:3-6:1",
+                        "Jerusalem Talmud Gittin 2:6:1-7:3"
+                    ],
+                    "startingAddress": "9a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המביא בתרא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "המביא בתרא",
+                    "offset": 16
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 3:1:1-8:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 3:1:1-3",
+                        "Jerusalem Talmud Gittin 3:1:3-6",
+                        "Jerusalem Talmud Gittin 3:1:6-2:2",
+                        "Jerusalem Talmud Gittin 3:2:2-3:1",
+                        "Jerusalem Talmud Gittin 3:3:1-4:1",
+                        "Jerusalem Talmud Gittin 3:4:1-5:3",
+                        "Jerusalem Talmud Gittin 3:5:3-6:3",
+                        "Jerusalem Talmud Gittin 3:6:3-7:2",
+                        "Jerusalem Talmud Gittin 3:7:2-8:1",
+                        "Jerusalem Talmud Gittin 3:8:1-4",
+                        "Jerusalem Talmud Gittin 3:8:4-5"
+                    ],
+                    "startingAddress": "14b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל הגט",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "כל הגט",
+                    "offset": 27
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 4:1:1-9:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 4:1:1-2",
+                        "Jerusalem Talmud Gittin 4:1:2-2:3",
+                        "Jerusalem Talmud Gittin 4:2:3-5",
+                        "Jerusalem Talmud Gittin 4:2:5-3:1",
+                        "Jerusalem Talmud Gittin 4:3:1-4",
+                        "Jerusalem Talmud Gittin 4:3:4-4:2",
+                        "Jerusalem Talmud Gittin 4:4:2-5",
+                        "Jerusalem Talmud Gittin 4:4:5-6",
+                        "Jerusalem Talmud Gittin 4:4:6-7",
+                        "Jerusalem Talmud Gittin 4:4:7-6:2",
+                        "Jerusalem Talmud Gittin 4:6:2-7:1",
+                        "Jerusalem Talmud Gittin 4:7:1-8:3",
+                        "Jerusalem Talmud Gittin 4:8:3-9:5",
+                        "Jerusalem Talmud Gittin 4:9:5"
+                    ],
+                    "startingAddress": "19b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "השולח",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "השולח",
+                    "offset": 37
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 5:1:1-10:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 5:1:1-5",
+                        "Jerusalem Talmud Gittin 5:1:5-7",
+                        "Jerusalem Talmud Gittin 5:1:7-11",
+                        "Jerusalem Talmud Gittin 5:1:11-3:3",
+                        "Jerusalem Talmud Gittin 5:3:3-6",
+                        "Jerusalem Talmud Gittin 5:3:6-4:1",
+                        "Jerusalem Talmud Gittin 5:4:1-4",
+                        "Jerusalem Talmud Gittin 5:4:4-5:2",
+                        "Jerusalem Talmud Gittin 5:5:2-4",
+                        "Jerusalem Talmud Gittin 5:5:4-6:4",
+                        "Jerusalem Talmud Gittin 5:6:4-7:2",
+                        "Jerusalem Talmud Gittin 5:7:2-5",
+                        "Jerusalem Talmud Gittin 5:7:5-9:2",
+                        "Jerusalem Talmud Gittin 5:9:2-6",
+                        "Jerusalem Talmud Gittin 5:9:6-10:3",
+                        "Jerusalem Talmud Gittin 5:10:3-6"
+                    ],
+                    "startingAddress": "26a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הניזקין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "הניזקין",
+                    "offset": 50
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 6:1:1-7:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 6:1:1-5",
+                        "Jerusalem Talmud Gittin 6:1:5-6",
+                        "Jerusalem Talmud Gittin 6:1:6-9",
+                        "Jerusalem Talmud Gittin 6:1:9-2:3",
+                        "Jerusalem Talmud Gittin 6:2:3-4",
+                        "Jerusalem Talmud Gittin 6:2:4-4:2",
+                        "Jerusalem Talmud Gittin 6:4:2-5:4",
+                        "Jerusalem Talmud Gittin 6:5:4-6:2",
+                        "Jerusalem Talmud Gittin 6:6:2-7:2",
+                        "Jerusalem Talmud Gittin 6:7:2-4"
+                    ],
+                    "startingAddress": "34a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האומר התקבל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "האומר התקבל",
+                    "offset": 66
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 7:1:1-8:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 7:1:1-3",
+                        "Jerusalem Talmud Gittin 7:1:3-7",
+                        "Jerusalem Talmud Gittin 7:1:7-10",
+                        "Jerusalem Talmud Gittin 7:1:10-3:2",
+                        "Jerusalem Talmud Gittin 7:3:2-4",
+                        "Jerusalem Talmud Gittin 7:3:4-6",
+                        "Jerusalem Talmud Gittin 7:3:6-4:2",
+                        "Jerusalem Talmud Gittin 7:4:2-5",
+                        "Jerusalem Talmud Gittin 7:4:5-5:1",
+                        "Jerusalem Talmud Gittin 7:5:1-6:3",
+                        "Jerusalem Talmud Gittin 7:6:3-7:2",
+                        "Jerusalem Talmud Gittin 7:7:2-8:3"
+                    ],
+                    "startingAddress": "38b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שאחזו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "מי שאחזו",
+                    "offset": 75
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 8:1:1-10:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 8:1:1-3",
+                        "Jerusalem Talmud Gittin 8:1:3",
+                        "Jerusalem Talmud Gittin 8:1:3-2:1",
+                        "Jerusalem Talmud Gittin 8:2:1-3:3",
+                        "Jerusalem Talmud Gittin 8:3:3-9",
+                        "Jerusalem Talmud Gittin 8:3:9-4:3",
+                        "Jerusalem Talmud Gittin 8:4:3-6:2",
+                        "Jerusalem Talmud Gittin 8:6:2-8:2",
+                        "Jerusalem Talmud Gittin 8:8:2-10:2",
+                        "Jerusalem Talmud Gittin 8:10:2-4",
+                        "Jerusalem Talmud Gittin 8:10:4-6",
+                        "Jerusalem Talmud Gittin 8:10:6"
+                    ],
+                    "startingAddress": "44a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הזורק גט",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "הזורק גט",
+                    "offset": 86
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Gittin 9:1:1-11:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Gittin 9:1:1-4",
+                        "Jerusalem Talmud Gittin 9:1:4-6",
+                        "Jerusalem Talmud Gittin 9:1:6-3:2",
+                        "Jerusalem Talmud Gittin 9:3:2-5",
+                        "Jerusalem Talmud Gittin 9:3:5-5:2",
+                        "Jerusalem Talmud Gittin 9:5:2-6:2",
+                        "Jerusalem Talmud Gittin 9:6:2-7:2",
+                        "Jerusalem Talmud Gittin 9:7:2-4",
+                        "Jerusalem Talmud Gittin 9:7:4-8:5",
+                        "Jerusalem Talmud Gittin 9:8:5-11:1",
+                        "Jerusalem Talmud Gittin 9:11:1-3"
+                    ],
+                    "startingAddress": "49b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המגרש",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "המגרש",
+                    "offset": 97
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי גיטין",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Talmud Yerushalmi Gittin",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Gittin",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Gittin",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי גיטין",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Gitt.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Gittin",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Gittin",
+            "heTitle": "תלמוד ירושלמי גיטין"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

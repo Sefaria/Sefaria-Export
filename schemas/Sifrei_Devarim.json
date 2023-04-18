@@ -2,18 +2,33 @@
     "title": "Sifrei Devarim",
     "categories": [
         "Midrash",
-        "Halachic Midrash"
+        "Halakhah"
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
         "depth": 2,
         "addressTypes": [
-            "Integer",
+            "Siman",
             "Integer"
         ],
         "sectionNames": [
             "Paragraph",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sifrei-devarim"
+                ]
+            }
+        ],
+        "lengths": [
+            357,
+            2391
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -33,9 +48,9 @@
                 "lang": "en"
             },
             {
-                "primary": true,
                 "text": "ספרי דברים",
-                "lang": "he"
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Sifrei Devarim",
@@ -53,7 +68,9 @@
     },
     "default_struct": "Chapters",
     "authors": [],
-    "enDesc": "Sifrei (Books) also known as Sifrei debe Rav or Sifrei Rabbah refers to either of two works of Midrash halakhah, based on the biblical books of Bemidbar (Numbers) and Devarim (Deuteronomy). The earliest Sifrei is found in Talmudic times and successively cited by Geonim and Rishonim. This early version is certainly not identical with the modern Sifrei. The modern Sifrei is not a uniform work, but one composed of two parts, one on Numbers and one on Deuteronomy that were joined together. The Sifrei to Numbers is evidently a midrash which originated in R. Ishmael's school, and which has all the peculiarities and characteristics of such a work though this does not exclude borrowing form Mekhilta de R. Shimon. The Sifrei to Deuteronomy is of an entirely different nature. The main portion (Nos. 53-303), halakhic in character, is preceded and followed by haggadic parts, and it has all the characteristics of a midrash from the school of R. Akiba. Several anonymous passages may be cited to express the views of R. Simeon; this midrash may with a fair degree of certainty be ascribed to him. The editor certainly drew upon other midrashic works besides R. Simeon's midrash, especially upon that of R. Ishmael.",
+    "enDesc": "Sifrei Devarim is a halakhic midrash on the Book of Deuteronomy. Though its main portion is halakhic and from the school of Rabbi Akiva, it opens and concludes with significant aggadic sections that resemble the style of the school of Rabbi Yishmael.",
+    "enShortDesc": "Midrash on the Book of Deuteronomy primarily from the school of Rabbi Akiva.",
+    "heShortDesc": "מדרש על ספר דברים, לרוב מבית מדרשו של רבי עקיבא.",
     "pubDate": "1546",
     "compDate": "200",
     "compPlace": "Talmudic Israel/Babylon",
@@ -72,13 +89,1229 @@
         "ספרי דברים"
     ],
     "alts": {
-        "Parsha": {
+        "Chapters": {
             "nodes": [
                 {
                     "nodeType": "ArrayMapNode",
                     "depth": 1,
                     "wholeRef": "Sifrei Devarim, 1-25",
                     "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 1",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק א",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "פרק א",
+                    "refs": [
+                        "Sifrei Devarim 1",
+                        "Sifrei Devarim 2",
+                        "Sifrei Devarim 3",
+                        "Sifrei Devarim 4",
+                        "Sifrei Devarim 5",
+                        "Sifrei Devarim 6",
+                        "Sifrei Devarim 7",
+                        "Sifrei Devarim 8",
+                        "Sifrei Devarim 9",
+                        "Sifrei Devarim 10",
+                        "Sifrei Devarim 11",
+                        "Sifrei Devarim 12",
+                        "Sifrei Devarim 13",
+                        "Sifrei Devarim 14",
+                        "Sifrei Devarim 15",
+                        "Sifrei Devarim 16",
+                        "Sifrei Devarim 17",
+                        "Sifrei Devarim 18",
+                        "Sifrei Devarim 19",
+                        "Sifrei Devarim 20",
+                        "Sifrei Devarim 21",
+                        "Sifrei Devarim 22",
+                        "Sifrei Devarim 23",
+                        "Sifrei Devarim 24",
+                        "Sifrei Devarim 25"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 26-30",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 3",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק ג",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "פרק ג",
+                    "refs": [
+                        "Sifrei Devarim 26",
+                        "Sifrei Devarim 27",
+                        "Sifrei Devarim 28",
+                        "Sifrei Devarim 29",
+                        "Sifrei Devarim 30"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 25
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 31-36",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 6",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק ו",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "פרק ו",
+                    "refs": [
+                        "Sifrei Devarim 31",
+                        "Sifrei Devarim 32",
+                        "Sifrei Devarim 33",
+                        "Sifrei Devarim 34",
+                        "Sifrei Devarim 35",
+                        "Sifrei Devarim 36"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 30
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 37-37",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 7",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק ז",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "פרק ז",
+                    "refs": [
+                        "Sifrei Devarim 37"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 36
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 38-58",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 11",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק יא",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 11",
+                    "heTitle": "פרק יא",
+                    "refs": [
+                        "Sifrei Devarim 38",
+                        "Sifrei Devarim 39",
+                        "Sifrei Devarim 40",
+                        "Sifrei Devarim 41",
+                        "Sifrei Devarim 42",
+                        "Sifrei Devarim 43",
+                        "Sifrei Devarim 44",
+                        "Sifrei Devarim 45",
+                        "Sifrei Devarim 46",
+                        "Sifrei Devarim 47",
+                        "Sifrei Devarim 48",
+                        "Sifrei Devarim 49",
+                        "Sifrei Devarim 50",
+                        "Sifrei Devarim 51",
+                        "Sifrei Devarim 52",
+                        "Sifrei Devarim 53",
+                        "Sifrei Devarim 54",
+                        "Sifrei Devarim 55",
+                        "Sifrei Devarim 56",
+                        "Sifrei Devarim 57",
+                        "Sifrei Devarim 58"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 37
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 59-81",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 12",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק יב",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 12",
+                    "heTitle": "פרק יב",
+                    "refs": [
+                        "Sifrei Devarim 59",
+                        "Sifrei Devarim 60",
+                        "Sifrei Devarim 61",
+                        "Sifrei Devarim 62",
+                        "Sifrei Devarim 63",
+                        "Sifrei Devarim 64",
+                        "Sifrei Devarim 65",
+                        "Sifrei Devarim 66",
+                        "Sifrei Devarim 67",
+                        "Sifrei Devarim 68",
+                        "Sifrei Devarim 69",
+                        "Sifrei Devarim 70",
+                        "Sifrei Devarim 71",
+                        "Sifrei Devarim 72",
+                        "Sifrei Devarim 73",
+                        "Sifrei Devarim 74",
+                        "Sifrei Devarim 75",
+                        "Sifrei Devarim 76",
+                        "Sifrei Devarim 77",
+                        "Sifrei Devarim 78",
+                        "Sifrei Devarim 79",
+                        "Sifrei Devarim 80",
+                        "Sifrei Devarim 81"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 58
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 82-96",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 13",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק יג",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 13",
+                    "heTitle": "פרק יג",
+                    "refs": [
+                        "Sifrei Devarim 82",
+                        "Sifrei Devarim 83",
+                        "Sifrei Devarim 84",
+                        "Sifrei Devarim 85",
+                        "Sifrei Devarim 86",
+                        "Sifrei Devarim 87",
+                        "Sifrei Devarim 88",
+                        "Sifrei Devarim 89",
+                        "Sifrei Devarim 90",
+                        "Sifrei Devarim 91",
+                        "Sifrei Devarim 92",
+                        "Sifrei Devarim 93",
+                        "Sifrei Devarim 94",
+                        "Sifrei Devarim 95",
+                        "Sifrei Devarim 96"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 81
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 97-110",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 14",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק יד",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 14",
+                    "heTitle": "פרק יד",
+                    "refs": [
+                        "Sifrei Devarim 97",
+                        "Sifrei Devarim 98",
+                        "Sifrei Devarim 99",
+                        "Sifrei Devarim 100",
+                        "Sifrei Devarim 101",
+                        "Sifrei Devarim 102",
+                        "Sifrei Devarim 103",
+                        "Sifrei Devarim 104",
+                        "Sifrei Devarim 105",
+                        "Sifrei Devarim 106",
+                        "Sifrei Devarim 107",
+                        "Sifrei Devarim 108",
+                        "Sifrei Devarim 109",
+                        "Sifrei Devarim 110"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 96
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 111-126",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 15",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק טו",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 15",
+                    "heTitle": "פרק טו",
+                    "refs": [
+                        "Sifrei Devarim 111",
+                        "Sifrei Devarim 112",
+                        "Sifrei Devarim 113",
+                        "Sifrei Devarim 114",
+                        "Sifrei Devarim 115",
+                        "Sifrei Devarim 116",
+                        "Sifrei Devarim 117",
+                        "Sifrei Devarim 118",
+                        "Sifrei Devarim 119",
+                        "Sifrei Devarim 120",
+                        "Sifrei Devarim 121",
+                        "Sifrei Devarim 122",
+                        "Sifrei Devarim 123",
+                        "Sifrei Devarim 124",
+                        "Sifrei Devarim 125",
+                        "Sifrei Devarim 126"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 110
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 127-146",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 16",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק טז",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 16",
+                    "heTitle": "פרק טז",
+                    "refs": [
+                        "Sifrei Devarim 127",
+                        "Sifrei Devarim 128",
+                        "Sifrei Devarim 129",
+                        "Sifrei Devarim 130",
+                        "Sifrei Devarim 131",
+                        "Sifrei Devarim 132",
+                        "Sifrei Devarim 133",
+                        "Sifrei Devarim 134",
+                        "Sifrei Devarim 135",
+                        "Sifrei Devarim 136",
+                        "Sifrei Devarim 137",
+                        "Sifrei Devarim 138",
+                        "Sifrei Devarim 139",
+                        "Sifrei Devarim 140",
+                        "Sifrei Devarim 141",
+                        "Sifrei Devarim 142",
+                        "Sifrei Devarim 143",
+                        "Sifrei Devarim 144",
+                        "Sifrei Devarim 145",
+                        "Sifrei Devarim 146"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 126
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 147-162",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 17",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק יז",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 17",
+                    "heTitle": "פרק יז",
+                    "refs": [
+                        "Sifrei Devarim 147",
+                        "Sifrei Devarim 148",
+                        "Sifrei Devarim 149",
+                        "Sifrei Devarim 150",
+                        "Sifrei Devarim 151",
+                        "Sifrei Devarim 152",
+                        "Sifrei Devarim 153",
+                        "Sifrei Devarim 154",
+                        "Sifrei Devarim 155",
+                        "Sifrei Devarim 156",
+                        "Sifrei Devarim 157",
+                        "Sifrei Devarim 158",
+                        "Sifrei Devarim 159",
+                        "Sifrei Devarim 160",
+                        "Sifrei Devarim 161",
+                        "Sifrei Devarim 162"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 146
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 163-178",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 18",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק יח",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 18",
+                    "heTitle": "פרק יח",
+                    "refs": [
+                        "Sifrei Devarim 163",
+                        "Sifrei Devarim 164",
+                        "Sifrei Devarim 165",
+                        "Sifrei Devarim 166",
+                        "Sifrei Devarim 167",
+                        "Sifrei Devarim 168",
+                        "Sifrei Devarim 169",
+                        "Sifrei Devarim 170",
+                        "Sifrei Devarim 171",
+                        "Sifrei Devarim 172",
+                        "Sifrei Devarim 173",
+                        "Sifrei Devarim 174",
+                        "Sifrei Devarim 175",
+                        "Sifrei Devarim 176",
+                        "Sifrei Devarim 177",
+                        "Sifrei Devarim 178"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 162
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 179-189",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 19",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק יט",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 19",
+                    "heTitle": "פרק יט",
+                    "refs": [
+                        "Sifrei Devarim 179",
+                        "Sifrei Devarim 180",
+                        "Sifrei Devarim 181",
+                        "Sifrei Devarim 182",
+                        "Sifrei Devarim 183",
+                        "Sifrei Devarim 184",
+                        "Sifrei Devarim 185",
+                        "Sifrei Devarim 186",
+                        "Sifrei Devarim 187",
+                        "Sifrei Devarim 188",
+                        "Sifrei Devarim 189"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 178
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 190-204",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 20",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק כ",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 20",
+                    "heTitle": "פרק כ",
+                    "refs": [
+                        "Sifrei Devarim 190",
+                        "Sifrei Devarim 191",
+                        "Sifrei Devarim 192",
+                        "Sifrei Devarim 193",
+                        "Sifrei Devarim 194",
+                        "Sifrei Devarim 195",
+                        "Sifrei Devarim 196",
+                        "Sifrei Devarim 197",
+                        "Sifrei Devarim 198",
+                        "Sifrei Devarim 199",
+                        "Sifrei Devarim 200",
+                        "Sifrei Devarim 201",
+                        "Sifrei Devarim 202",
+                        "Sifrei Devarim 203",
+                        "Sifrei Devarim 204"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 189
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 205-221",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 21",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק כא",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 21",
+                    "heTitle": "פרק כא",
+                    "refs": [
+                        "Sifrei Devarim 205",
+                        "Sifrei Devarim 206",
+                        "Sifrei Devarim 207",
+                        "Sifrei Devarim 208",
+                        "Sifrei Devarim 209",
+                        "Sifrei Devarim 210",
+                        "Sifrei Devarim 211",
+                        "Sifrei Devarim 212",
+                        "Sifrei Devarim 213",
+                        "Sifrei Devarim 214",
+                        "Sifrei Devarim 215",
+                        "Sifrei Devarim 216",
+                        "Sifrei Devarim 217",
+                        "Sifrei Devarim 218",
+                        "Sifrei Devarim 219",
+                        "Sifrei Devarim 220",
+                        "Sifrei Devarim 221"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 204
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 222-245",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 22",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק כב",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 22",
+                    "heTitle": "פרק כב",
+                    "refs": [
+                        "Sifrei Devarim 222",
+                        "Sifrei Devarim 223",
+                        "Sifrei Devarim 224",
+                        "Sifrei Devarim 225",
+                        "Sifrei Devarim 226",
+                        "Sifrei Devarim 227",
+                        "Sifrei Devarim 228",
+                        "Sifrei Devarim 229",
+                        "Sifrei Devarim 230",
+                        "Sifrei Devarim 231",
+                        "Sifrei Devarim 232",
+                        "Sifrei Devarim 233",
+                        "Sifrei Devarim 234",
+                        "Sifrei Devarim 235",
+                        "Sifrei Devarim 236",
+                        "Sifrei Devarim 237",
+                        "Sifrei Devarim 238",
+                        "Sifrei Devarim 239",
+                        "Sifrei Devarim 240",
+                        "Sifrei Devarim 241",
+                        "Sifrei Devarim 242",
+                        "Sifrei Devarim 243",
+                        "Sifrei Devarim 244",
+                        "Sifrei Devarim 245"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 221
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 246-255",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 23",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק כג",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 23",
+                    "heTitle": "פרק כג",
+                    "refs": [
+                        "Sifrei Devarim 246",
+                        "Sifrei Devarim 247",
+                        "Sifrei Devarim 248",
+                        "Sifrei Devarim 249",
+                        "Sifrei Devarim 250",
+                        "Sifrei Devarim 251",
+                        "Sifrei Devarim 252",
+                        "Sifrei Devarim 253",
+                        "Sifrei Devarim 254",
+                        "Sifrei Devarim 255"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 245
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 256-256",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 21",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק כא",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 21",
+                    "heTitle": "פרק כא",
+                    "refs": [
+                        "Sifrei Devarim 256"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 255
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 257-267",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 23",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק כג",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 23",
+                    "heTitle": "פרק כג",
+                    "refs": [
+                        "Sifrei Devarim 257",
+                        "Sifrei Devarim 258",
+                        "Sifrei Devarim 259",
+                        "Sifrei Devarim 260",
+                        "Sifrei Devarim 261",
+                        "Sifrei Devarim 262",
+                        "Sifrei Devarim 263",
+                        "Sifrei Devarim 264",
+                        "Sifrei Devarim 265",
+                        "Sifrei Devarim 266",
+                        "Sifrei Devarim 267"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 256
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 268-285",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 24",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק כד",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 24",
+                    "heTitle": "פרק כד",
+                    "refs": [
+                        "Sifrei Devarim 268",
+                        "Sifrei Devarim 269",
+                        "Sifrei Devarim 270",
+                        "Sifrei Devarim 271",
+                        "Sifrei Devarim 272",
+                        "Sifrei Devarim 273",
+                        "Sifrei Devarim 274",
+                        "Sifrei Devarim 275",
+                        "Sifrei Devarim 276",
+                        "Sifrei Devarim 277",
+                        "Sifrei Devarim 278",
+                        "Sifrei Devarim 279",
+                        "Sifrei Devarim 280",
+                        "Sifrei Devarim 281",
+                        "Sifrei Devarim 282",
+                        "Sifrei Devarim 283",
+                        "Sifrei Devarim 284",
+                        "Sifrei Devarim 285"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 267
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 286-294",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 25",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק כה",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 25",
+                    "heTitle": "פרק כה",
+                    "refs": [
+                        "Sifrei Devarim 286",
+                        "Sifrei Devarim 287",
+                        "Sifrei Devarim 288",
+                        "Sifrei Devarim 289",
+                        "Sifrei Devarim 290",
+                        "Sifrei Devarim 291",
+                        "Sifrei Devarim 292",
+                        "Sifrei Devarim 293",
+                        "Sifrei Devarim 294"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 285
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 295-295",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 21",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק כא",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 21",
+                    "heTitle": "פרק כא",
+                    "refs": [
+                        "Sifrei Devarim 295"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 294
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 296-296",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 25",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק כה",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 25",
+                    "heTitle": "פרק כה",
+                    "refs": [
+                        "Sifrei Devarim 296"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 295
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 297-303",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 26",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק כו",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 26",
+                    "heTitle": "פרק כו",
+                    "refs": [
+                        "Sifrei Devarim 297",
+                        "Sifrei Devarim 298",
+                        "Sifrei Devarim 299",
+                        "Sifrei Devarim 300",
+                        "Sifrei Devarim 301",
+                        "Sifrei Devarim 302",
+                        "Sifrei Devarim 303"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 296
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 304-305",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 29",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק כט",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 29",
+                    "heTitle": "פרק כט",
+                    "refs": [
+                        "Sifrei Devarim 304",
+                        "Sifrei Devarim 305"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 303
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 306-341",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 32",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק לב",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 32",
+                    "heTitle": "פרק לב",
+                    "refs": [
+                        "Sifrei Devarim 306",
+                        "Sifrei Devarim 307",
+                        "Sifrei Devarim 308",
+                        "Sifrei Devarim 309",
+                        "Sifrei Devarim 310",
+                        "Sifrei Devarim 311",
+                        "Sifrei Devarim 312",
+                        "Sifrei Devarim 313",
+                        "Sifrei Devarim 314",
+                        "Sifrei Devarim 315",
+                        "Sifrei Devarim 316",
+                        "Sifrei Devarim 317",
+                        "Sifrei Devarim 318",
+                        "Sifrei Devarim 319",
+                        "Sifrei Devarim 320",
+                        "Sifrei Devarim 321",
+                        "Sifrei Devarim 322",
+                        "Sifrei Devarim 323",
+                        "Sifrei Devarim 324",
+                        "Sifrei Devarim 325",
+                        "Sifrei Devarim 326",
+                        "Sifrei Devarim 327",
+                        "Sifrei Devarim 328",
+                        "Sifrei Devarim 329",
+                        "Sifrei Devarim 330",
+                        "Sifrei Devarim 331",
+                        "Sifrei Devarim 332",
+                        "Sifrei Devarim 333",
+                        "Sifrei Devarim 334",
+                        "Sifrei Devarim 335",
+                        "Sifrei Devarim 336",
+                        "Sifrei Devarim 337",
+                        "Sifrei Devarim 338",
+                        "Sifrei Devarim 339",
+                        "Sifrei Devarim 340",
+                        "Sifrei Devarim 341"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 305
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 342-356",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 33",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק לג",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 33",
+                    "heTitle": "פרק לג",
+                    "refs": [
+                        "Sifrei Devarim 342",
+                        "Sifrei Devarim 343",
+                        "Sifrei Devarim 344",
+                        "Sifrei Devarim 345",
+                        "Sifrei Devarim 346",
+                        "Sifrei Devarim 347",
+                        "Sifrei Devarim 348",
+                        "Sifrei Devarim 349",
+                        "Sifrei Devarim 350",
+                        "Sifrei Devarim 351",
+                        "Sifrei Devarim 352",
+                        "Sifrei Devarim 353",
+                        "Sifrei Devarim 354",
+                        "Sifrei Devarim 355",
+                        "Sifrei Devarim 356"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 341
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 357-357",
+                    "includeSections": true,
+                    "titles": [
+                        {
+                            "primary": true,
+                            "text": "Chapter 34",
+                            "lang": "en"
+                        },
+                        {
+                            "primary": true,
+                            "text": "פרק לד",
+                            "lang": "he"
+                        }
+                    ],
+                    "title": "Chapter 34",
+                    "heTitle": "פרק לד",
+                    "refs": [
+                        "Sifrei Devarim 357"
+                    ],
+                    "addressTypes": [
+                        "Siman"
+                    ],
+                    "sectionNames": [
+                        "Paragraph"
+                    ],
+                    "offset": 356
+                }
+            ],
+            "titles": [
+                {
+                    "text": "Sifré Deut.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Sifrei Deuteronomy",
+                    "lang": "en"
+                },
+                {
+                    "text": "Sifrei, Deuteronomy",
+                    "lang": "en"
+                },
+                {
+                    "text": "Siphrê, Deut.",
+                    "lang": "en"
+                },
+                {
+                    "text": "ספרי דברים",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Sifrei Devarim",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Sifrei Devarim",
+            "heTitle": "ספרי דברים"
+        },
+        "Parasha": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Sifrei Devarim, 1-25",
+                    "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "devarim"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "devarim"
+                            ]
+                        }
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -121,7 +1354,7 @@
                         "Sifrei Devarim 25"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Paragraph"
@@ -133,6 +1366,19 @@
                     "depth": 1,
                     "wholeRef": "Sifrei Devarim, 26-36",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "vaetchanan"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "vaetchanan"
+                            ]
+                        }
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -161,7 +1407,7 @@
                         "Sifrei Devarim 36"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Paragraph"
@@ -173,6 +1419,19 @@
                     "depth": 1,
                     "wholeRef": "Sifrei Devarim, 37-52",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "eikev"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "eikev"
+                            ]
+                        }
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -206,7 +1465,7 @@
                         "Sifrei Devarim 52"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Paragraph"
@@ -218,6 +1477,19 @@
                     "depth": 1,
                     "wholeRef": "Sifrei Devarim, 53-143",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "reeh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "reeh"
+                            ]
+                        }
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -326,7 +1598,7 @@
                         "Sifrei Devarim 143"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Paragraph"
@@ -338,6 +1610,19 @@
                     "depth": 1,
                     "wholeRef": "Sifrei Devarim, 144-210",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "shoftim"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "shoftim"
+                            ]
+                        }
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -422,7 +1707,7 @@
                         "Sifrei Devarim 210"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Paragraph"
@@ -434,6 +1719,19 @@
                     "depth": 1,
                     "wholeRef": "Sifrei Devarim, 211-296",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "ki-teitzei"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "ki-teitzei"
+                            ]
+                        }
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -537,7 +1835,7 @@
                         "Sifrei Devarim 296"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Paragraph"
@@ -549,6 +1847,19 @@
                     "depth": 1,
                     "wholeRef": "Sifrei Devarim, 297-303",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "ki-tavo"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "ki-tavo"
+                            ]
+                        }
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -573,7 +1884,7 @@
                         "Sifrei Devarim 303"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Paragraph"
@@ -585,6 +1896,19 @@
                     "depth": 1,
                     "wholeRef": "Sifrei Devarim, 304-305",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "nitzavim"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "nitzavim"
+                            ]
+                        }
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -604,7 +1928,7 @@
                         "Sifrei Devarim 305"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Paragraph"
@@ -616,6 +1940,19 @@
                     "depth": 1,
                     "wholeRef": "Sifrei Devarim, 306-341",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "haazinu"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "haazinu"
+                            ]
+                        }
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -669,7 +2006,7 @@
                         "Sifrei Devarim 341"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Paragraph"
@@ -681,6 +2018,19 @@
                     "depth": 1,
                     "wholeRef": "Sifrei Devarim, 342-357",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "vzot-haberachah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "vzot-haberachah"
+                            ]
+                        }
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -714,7 +2064,7 @@
                         "Sifrei Devarim 357"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Paragraph"
@@ -740,1212 +2090,9 @@
                     "lang": "en"
                 },
                 {
-                    "primary": true,
                     "text": "ספרי דברים",
-                    "lang": "he"
-                },
-                {
-                    "text": "Sifrei Devarim",
-                    "lang": "en",
+                    "lang": "he",
                     "primary": true
-                }
-            ],
-            "title": "Sifrei Devarim",
-            "heTitle": "ספרי דברים"
-        },
-        "Chapters": {
-            "nodes": [
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 1-25",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 1",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק א",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 1",
-                    "heTitle": "פרק א",
-                    "refs": [
-                        "Sifrei Devarim 1",
-                        "Sifrei Devarim 2",
-                        "Sifrei Devarim 3",
-                        "Sifrei Devarim 4",
-                        "Sifrei Devarim 5",
-                        "Sifrei Devarim 6",
-                        "Sifrei Devarim 7",
-                        "Sifrei Devarim 8",
-                        "Sifrei Devarim 9",
-                        "Sifrei Devarim 10",
-                        "Sifrei Devarim 11",
-                        "Sifrei Devarim 12",
-                        "Sifrei Devarim 13",
-                        "Sifrei Devarim 14",
-                        "Sifrei Devarim 15",
-                        "Sifrei Devarim 16",
-                        "Sifrei Devarim 17",
-                        "Sifrei Devarim 18",
-                        "Sifrei Devarim 19",
-                        "Sifrei Devarim 20",
-                        "Sifrei Devarim 21",
-                        "Sifrei Devarim 22",
-                        "Sifrei Devarim 23",
-                        "Sifrei Devarim 24",
-                        "Sifrei Devarim 25"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 0
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 26-30",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 3",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק ג",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 3",
-                    "heTitle": "פרק ג",
-                    "refs": [
-                        "Sifrei Devarim 26",
-                        "Sifrei Devarim 27",
-                        "Sifrei Devarim 28",
-                        "Sifrei Devarim 29",
-                        "Sifrei Devarim 30"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 25
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 31-36",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 6",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק ו",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 6",
-                    "heTitle": "פרק ו",
-                    "refs": [
-                        "Sifrei Devarim 31",
-                        "Sifrei Devarim 32",
-                        "Sifrei Devarim 33",
-                        "Sifrei Devarim 34",
-                        "Sifrei Devarim 35",
-                        "Sifrei Devarim 36"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 30
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 37-37",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 7",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק ז",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 7",
-                    "heTitle": "פרק ז",
-                    "refs": [
-                        "Sifrei Devarim 37"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 36
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 38-58",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 11",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק יא",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 11",
-                    "heTitle": "פרק יא",
-                    "refs": [
-                        "Sifrei Devarim 38",
-                        "Sifrei Devarim 39",
-                        "Sifrei Devarim 40",
-                        "Sifrei Devarim 41",
-                        "Sifrei Devarim 42",
-                        "Sifrei Devarim 43",
-                        "Sifrei Devarim 44",
-                        "Sifrei Devarim 45",
-                        "Sifrei Devarim 46",
-                        "Sifrei Devarim 47",
-                        "Sifrei Devarim 48",
-                        "Sifrei Devarim 49",
-                        "Sifrei Devarim 50",
-                        "Sifrei Devarim 51",
-                        "Sifrei Devarim 52",
-                        "Sifrei Devarim 53",
-                        "Sifrei Devarim 54",
-                        "Sifrei Devarim 55",
-                        "Sifrei Devarim 56",
-                        "Sifrei Devarim 57",
-                        "Sifrei Devarim 58"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 37
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 59-81",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 12",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק יב",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 12",
-                    "heTitle": "פרק יב",
-                    "refs": [
-                        "Sifrei Devarim 59",
-                        "Sifrei Devarim 60",
-                        "Sifrei Devarim 61",
-                        "Sifrei Devarim 62",
-                        "Sifrei Devarim 63",
-                        "Sifrei Devarim 64",
-                        "Sifrei Devarim 65",
-                        "Sifrei Devarim 66",
-                        "Sifrei Devarim 67",
-                        "Sifrei Devarim 68",
-                        "Sifrei Devarim 69",
-                        "Sifrei Devarim 70",
-                        "Sifrei Devarim 71",
-                        "Sifrei Devarim 72",
-                        "Sifrei Devarim 73",
-                        "Sifrei Devarim 74",
-                        "Sifrei Devarim 75",
-                        "Sifrei Devarim 76",
-                        "Sifrei Devarim 77",
-                        "Sifrei Devarim 78",
-                        "Sifrei Devarim 79",
-                        "Sifrei Devarim 80",
-                        "Sifrei Devarim 81"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 58
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 82-96",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 13",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק יג",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 13",
-                    "heTitle": "פרק יג",
-                    "refs": [
-                        "Sifrei Devarim 82",
-                        "Sifrei Devarim 83",
-                        "Sifrei Devarim 84",
-                        "Sifrei Devarim 85",
-                        "Sifrei Devarim 86",
-                        "Sifrei Devarim 87",
-                        "Sifrei Devarim 88",
-                        "Sifrei Devarim 89",
-                        "Sifrei Devarim 90",
-                        "Sifrei Devarim 91",
-                        "Sifrei Devarim 92",
-                        "Sifrei Devarim 93",
-                        "Sifrei Devarim 94",
-                        "Sifrei Devarim 95",
-                        "Sifrei Devarim 96"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 81
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 97-110",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 14",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק יד",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 14",
-                    "heTitle": "פרק יד",
-                    "refs": [
-                        "Sifrei Devarim 97",
-                        "Sifrei Devarim 98",
-                        "Sifrei Devarim 99",
-                        "Sifrei Devarim 100",
-                        "Sifrei Devarim 101",
-                        "Sifrei Devarim 102",
-                        "Sifrei Devarim 103",
-                        "Sifrei Devarim 104",
-                        "Sifrei Devarim 105",
-                        "Sifrei Devarim 106",
-                        "Sifrei Devarim 107",
-                        "Sifrei Devarim 108",
-                        "Sifrei Devarim 109",
-                        "Sifrei Devarim 110"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 96
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 111-126",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 15",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק טו",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 15",
-                    "heTitle": "פרק טו",
-                    "refs": [
-                        "Sifrei Devarim 111",
-                        "Sifrei Devarim 112",
-                        "Sifrei Devarim 113",
-                        "Sifrei Devarim 114",
-                        "Sifrei Devarim 115",
-                        "Sifrei Devarim 116",
-                        "Sifrei Devarim 117",
-                        "Sifrei Devarim 118",
-                        "Sifrei Devarim 119",
-                        "Sifrei Devarim 120",
-                        "Sifrei Devarim 121",
-                        "Sifrei Devarim 122",
-                        "Sifrei Devarim 123",
-                        "Sifrei Devarim 124",
-                        "Sifrei Devarim 125",
-                        "Sifrei Devarim 126"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 110
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 127-146",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 16",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק טז",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 16",
-                    "heTitle": "פרק טז",
-                    "refs": [
-                        "Sifrei Devarim 127",
-                        "Sifrei Devarim 128",
-                        "Sifrei Devarim 129",
-                        "Sifrei Devarim 130",
-                        "Sifrei Devarim 131",
-                        "Sifrei Devarim 132",
-                        "Sifrei Devarim 133",
-                        "Sifrei Devarim 134",
-                        "Sifrei Devarim 135",
-                        "Sifrei Devarim 136",
-                        "Sifrei Devarim 137",
-                        "Sifrei Devarim 138",
-                        "Sifrei Devarim 139",
-                        "Sifrei Devarim 140",
-                        "Sifrei Devarim 141",
-                        "Sifrei Devarim 142",
-                        "Sifrei Devarim 143",
-                        "Sifrei Devarim 144",
-                        "Sifrei Devarim 145",
-                        "Sifrei Devarim 146"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 126
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 147-162",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 17",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק יז",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 17",
-                    "heTitle": "פרק יז",
-                    "refs": [
-                        "Sifrei Devarim 147",
-                        "Sifrei Devarim 148",
-                        "Sifrei Devarim 149",
-                        "Sifrei Devarim 150",
-                        "Sifrei Devarim 151",
-                        "Sifrei Devarim 152",
-                        "Sifrei Devarim 153",
-                        "Sifrei Devarim 154",
-                        "Sifrei Devarim 155",
-                        "Sifrei Devarim 156",
-                        "Sifrei Devarim 157",
-                        "Sifrei Devarim 158",
-                        "Sifrei Devarim 159",
-                        "Sifrei Devarim 160",
-                        "Sifrei Devarim 161",
-                        "Sifrei Devarim 162"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 146
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 163-178",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 18",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק יח",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 18",
-                    "heTitle": "פרק יח",
-                    "refs": [
-                        "Sifrei Devarim 163",
-                        "Sifrei Devarim 164",
-                        "Sifrei Devarim 165",
-                        "Sifrei Devarim 166",
-                        "Sifrei Devarim 167",
-                        "Sifrei Devarim 168",
-                        "Sifrei Devarim 169",
-                        "Sifrei Devarim 170",
-                        "Sifrei Devarim 171",
-                        "Sifrei Devarim 172",
-                        "Sifrei Devarim 173",
-                        "Sifrei Devarim 174",
-                        "Sifrei Devarim 175",
-                        "Sifrei Devarim 176",
-                        "Sifrei Devarim 177",
-                        "Sifrei Devarim 178"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 162
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 179-189",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 19",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק יט",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 19",
-                    "heTitle": "פרק יט",
-                    "refs": [
-                        "Sifrei Devarim 179",
-                        "Sifrei Devarim 180",
-                        "Sifrei Devarim 181",
-                        "Sifrei Devarim 182",
-                        "Sifrei Devarim 183",
-                        "Sifrei Devarim 184",
-                        "Sifrei Devarim 185",
-                        "Sifrei Devarim 186",
-                        "Sifrei Devarim 187",
-                        "Sifrei Devarim 188",
-                        "Sifrei Devarim 189"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 178
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 190-204",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 20",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק כ",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 20",
-                    "heTitle": "פרק כ",
-                    "refs": [
-                        "Sifrei Devarim 190",
-                        "Sifrei Devarim 191",
-                        "Sifrei Devarim 192",
-                        "Sifrei Devarim 193",
-                        "Sifrei Devarim 194",
-                        "Sifrei Devarim 195",
-                        "Sifrei Devarim 196",
-                        "Sifrei Devarim 197",
-                        "Sifrei Devarim 198",
-                        "Sifrei Devarim 199",
-                        "Sifrei Devarim 200",
-                        "Sifrei Devarim 201",
-                        "Sifrei Devarim 202",
-                        "Sifrei Devarim 203",
-                        "Sifrei Devarim 204"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 189
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 205-221",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 21",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק כא",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 21",
-                    "heTitle": "פרק כא",
-                    "refs": [
-                        "Sifrei Devarim 205",
-                        "Sifrei Devarim 206",
-                        "Sifrei Devarim 207",
-                        "Sifrei Devarim 208",
-                        "Sifrei Devarim 209",
-                        "Sifrei Devarim 210",
-                        "Sifrei Devarim 211",
-                        "Sifrei Devarim 212",
-                        "Sifrei Devarim 213",
-                        "Sifrei Devarim 214",
-                        "Sifrei Devarim 215",
-                        "Sifrei Devarim 216",
-                        "Sifrei Devarim 217",
-                        "Sifrei Devarim 218",
-                        "Sifrei Devarim 219",
-                        "Sifrei Devarim 220",
-                        "Sifrei Devarim 221"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 204
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 222-245",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 22",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק כב",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 22",
-                    "heTitle": "פרק כב",
-                    "refs": [
-                        "Sifrei Devarim 222",
-                        "Sifrei Devarim 223",
-                        "Sifrei Devarim 224",
-                        "Sifrei Devarim 225",
-                        "Sifrei Devarim 226",
-                        "Sifrei Devarim 227",
-                        "Sifrei Devarim 228",
-                        "Sifrei Devarim 229",
-                        "Sifrei Devarim 230",
-                        "Sifrei Devarim 231",
-                        "Sifrei Devarim 232",
-                        "Sifrei Devarim 233",
-                        "Sifrei Devarim 234",
-                        "Sifrei Devarim 235",
-                        "Sifrei Devarim 236",
-                        "Sifrei Devarim 237",
-                        "Sifrei Devarim 238",
-                        "Sifrei Devarim 239",
-                        "Sifrei Devarim 240",
-                        "Sifrei Devarim 241",
-                        "Sifrei Devarim 242",
-                        "Sifrei Devarim 243",
-                        "Sifrei Devarim 244",
-                        "Sifrei Devarim 245"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 221
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 246-255",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 23",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק כג",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 23",
-                    "heTitle": "פרק כג",
-                    "refs": [
-                        "Sifrei Devarim 246",
-                        "Sifrei Devarim 247",
-                        "Sifrei Devarim 248",
-                        "Sifrei Devarim 249",
-                        "Sifrei Devarim 250",
-                        "Sifrei Devarim 251",
-                        "Sifrei Devarim 252",
-                        "Sifrei Devarim 253",
-                        "Sifrei Devarim 254",
-                        "Sifrei Devarim 255"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 245
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 256-256",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 21",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק כא",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 21",
-                    "heTitle": "פרק כא",
-                    "refs": [
-                        "Sifrei Devarim 256"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 255
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 257-267",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 23",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק כג",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 23",
-                    "heTitle": "פרק כג",
-                    "refs": [
-                        "Sifrei Devarim 257",
-                        "Sifrei Devarim 258",
-                        "Sifrei Devarim 259",
-                        "Sifrei Devarim 260",
-                        "Sifrei Devarim 261",
-                        "Sifrei Devarim 262",
-                        "Sifrei Devarim 263",
-                        "Sifrei Devarim 264",
-                        "Sifrei Devarim 265",
-                        "Sifrei Devarim 266",
-                        "Sifrei Devarim 267"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 256
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 268-285",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 24",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק כד",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 24",
-                    "heTitle": "פרק כד",
-                    "refs": [
-                        "Sifrei Devarim 268",
-                        "Sifrei Devarim 269",
-                        "Sifrei Devarim 270",
-                        "Sifrei Devarim 271",
-                        "Sifrei Devarim 272",
-                        "Sifrei Devarim 273",
-                        "Sifrei Devarim 274",
-                        "Sifrei Devarim 275",
-                        "Sifrei Devarim 276",
-                        "Sifrei Devarim 277",
-                        "Sifrei Devarim 278",
-                        "Sifrei Devarim 279",
-                        "Sifrei Devarim 280",
-                        "Sifrei Devarim 281",
-                        "Sifrei Devarim 282",
-                        "Sifrei Devarim 283",
-                        "Sifrei Devarim 284",
-                        "Sifrei Devarim 285"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 267
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 286-294",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 25",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק כה",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 25",
-                    "heTitle": "פרק כה",
-                    "refs": [
-                        "Sifrei Devarim 286",
-                        "Sifrei Devarim 287",
-                        "Sifrei Devarim 288",
-                        "Sifrei Devarim 289",
-                        "Sifrei Devarim 290",
-                        "Sifrei Devarim 291",
-                        "Sifrei Devarim 292",
-                        "Sifrei Devarim 293",
-                        "Sifrei Devarim 294"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 285
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 295-295",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 21",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק כא",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 21",
-                    "heTitle": "פרק כא",
-                    "refs": [
-                        "Sifrei Devarim 295"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 294
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 296-296",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 25",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק כה",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 25",
-                    "heTitle": "פרק כה",
-                    "refs": [
-                        "Sifrei Devarim 296"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 295
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 297-303",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 26",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק כו",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 26",
-                    "heTitle": "פרק כו",
-                    "refs": [
-                        "Sifrei Devarim 297",
-                        "Sifrei Devarim 298",
-                        "Sifrei Devarim 299",
-                        "Sifrei Devarim 300",
-                        "Sifrei Devarim 301",
-                        "Sifrei Devarim 302",
-                        "Sifrei Devarim 303"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 296
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 304-305",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 29",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק כט",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 29",
-                    "heTitle": "פרק כט",
-                    "refs": [
-                        "Sifrei Devarim 304",
-                        "Sifrei Devarim 305"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 303
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 306-341",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 32",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק לב",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 32",
-                    "heTitle": "פרק לב",
-                    "refs": [
-                        "Sifrei Devarim 306",
-                        "Sifrei Devarim 307",
-                        "Sifrei Devarim 308",
-                        "Sifrei Devarim 309",
-                        "Sifrei Devarim 310",
-                        "Sifrei Devarim 311",
-                        "Sifrei Devarim 312",
-                        "Sifrei Devarim 313",
-                        "Sifrei Devarim 314",
-                        "Sifrei Devarim 315",
-                        "Sifrei Devarim 316",
-                        "Sifrei Devarim 317",
-                        "Sifrei Devarim 318",
-                        "Sifrei Devarim 319",
-                        "Sifrei Devarim 320",
-                        "Sifrei Devarim 321",
-                        "Sifrei Devarim 322",
-                        "Sifrei Devarim 323",
-                        "Sifrei Devarim 324",
-                        "Sifrei Devarim 325",
-                        "Sifrei Devarim 326",
-                        "Sifrei Devarim 327",
-                        "Sifrei Devarim 328",
-                        "Sifrei Devarim 329",
-                        "Sifrei Devarim 330",
-                        "Sifrei Devarim 331",
-                        "Sifrei Devarim 332",
-                        "Sifrei Devarim 333",
-                        "Sifrei Devarim 334",
-                        "Sifrei Devarim 335",
-                        "Sifrei Devarim 336",
-                        "Sifrei Devarim 337",
-                        "Sifrei Devarim 338",
-                        "Sifrei Devarim 339",
-                        "Sifrei Devarim 340",
-                        "Sifrei Devarim 341"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 305
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 342-356",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 33",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק לג",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 33",
-                    "heTitle": "פרק לג",
-                    "refs": [
-                        "Sifrei Devarim 342",
-                        "Sifrei Devarim 343",
-                        "Sifrei Devarim 344",
-                        "Sifrei Devarim 345",
-                        "Sifrei Devarim 346",
-                        "Sifrei Devarim 347",
-                        "Sifrei Devarim 348",
-                        "Sifrei Devarim 349",
-                        "Sifrei Devarim 350",
-                        "Sifrei Devarim 351",
-                        "Sifrei Devarim 352",
-                        "Sifrei Devarim 353",
-                        "Sifrei Devarim 354",
-                        "Sifrei Devarim 355",
-                        "Sifrei Devarim 356"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 341
-                },
-                {
-                    "nodeType": "ArrayMapNode",
-                    "depth": 1,
-                    "wholeRef": "Sifrei Devarim, 357-357",
-                    "includeSections": true,
-                    "titles": [
-                        {
-                            "primary": true,
-                            "text": "Chapter 34",
-                            "lang": "en"
-                        },
-                        {
-                            "primary": true,
-                            "text": "פרק לד",
-                            "lang": "he"
-                        }
-                    ],
-                    "title": "Chapter 34",
-                    "heTitle": "פרק לד",
-                    "refs": [
-                        "Sifrei Devarim 357"
-                    ],
-                    "addressTypes": [
-                        "Integer"
-                    ],
-                    "sectionNames": [
-                        "Paragraph"
-                    ],
-                    "offset": 356
-                }
-            ],
-            "titles": [
-                {
-                    "text": "Sifré Deut.",
-                    "lang": "en"
-                },
-                {
-                    "text": "Sifrei Deuteronomy",
-                    "lang": "en"
-                },
-                {
-                    "text": "Sifrei, Deuteronomy",
-                    "lang": "en"
-                },
-                {
-                    "text": "Siphrê, Deut.",
-                    "lang": "en"
-                },
-                {
-                    "primary": true,
-                    "text": "ספרי דברים",
-                    "lang": "he"
                 },
                 {
                     "text": "Sifrei Devarim",
@@ -1964,7 +2111,7 @@
     "depth": 2,
     "heCategories": [
         "מדרש",
-        "מדרש הלכה"
+        "הלכה"
     ],
     "compDateString": {
         "en": " (200 CE)",

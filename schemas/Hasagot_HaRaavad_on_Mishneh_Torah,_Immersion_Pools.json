@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "hasagot-haraavad",
+                    "hilchot",
+                    "immersion-pools"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hasagot-haraavad",
+                    "immersion-pools"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            21,
+            24
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Hasagot HaRaavad on Mishneh Torah, Immersion Pools",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Hasagot HaRaavad on Mishneh Torah, Immersion Pools",
@@ -42,7 +62,11 @@
         "key": "Hasagot HaRaavad on Mishneh Torah, Immersion Pools"
     },
     "authors": [
-        "Ra'avad"
+        {
+            "en": "Ra'avad",
+            "he": "ראב\"ד",
+            "slug": "raavad"
+        }
     ],
     "enDesc": "Raavad's glosses on Rambam's Mishneh Torah expressing his dissenting opinion.",
     "heDesc": "הגהותיו של הראב\"ד על המשנה תורה של הרמב\"ם, המבטאות את דעתו החולקת.",

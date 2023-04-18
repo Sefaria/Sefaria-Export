@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "seder-mishnah",
+                    "hilchot",
+                    "leavened-and-unleavened-bread"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "seder-mishnah",
+                    "leavened-and-unleavened-bread"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            29,
+            41
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,8 +62,14 @@
         "key": "Seder Mishnah on Mishneh Torah, Leavened and Unleavened Bread"
     },
     "authors": [
-        "Binyamin Zev Wolf of Boskowitz"
+        {
+            "en": "Binyamin Zev Wolf of Boskowitz",
+            "he": "בנימין זאב וולף בוסקוביץ",
+            "slug": "binyamin-zev-wolf-of-boskowitz"
+        }
     ],
+    "compDate": "1800",
+    "errorMargin": "18",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -76,5 +102,9 @@
         "מפרשים",
         "סדר משנה",
         "ספר זמנים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1782  - c.1818 CE)",
+        "he": " (1782 - 1818 לספירה בקירוב)"
+    }
 }

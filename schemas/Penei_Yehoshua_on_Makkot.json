@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Acharonim on Talmud",
         "Penei Yehoshua"
     ],
     "schema": {
@@ -17,6 +17,19 @@
             "Daf",
             "Comment"
         ],
+        "lengths": [
+            48,
+            92
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
                 "primary": true,
@@ -24,9 +37,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Penei Yehoshua on Makkot",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Penei Yehoshua on Makkot",
@@ -38,7 +51,11 @@
         "key": "Penei Yehoshua on Makkot"
     },
     "authors": [
-        "Jacob Joshua Falk"
+        {
+            "en": "Jacob Joshua Falk",
+            "he": "יעקב יהושע פלק‎",
+            "slug": "jacob-joshua-falk"
+        }
     ],
     "enDesc": "Classic work of Talmudic novellae, widely studied to this day.",
     "heDesc": "חידושים וביאורים על מסכתות הש\"ס. הספר הוא מאד פופולרי בעולם הישיבות, והוא נחשב לאחד מאבני היסוד במשא־ומתן התלמודי. בהקדמה לספרו כותב המחבר שהמניע לכתיבת הספר הייתה סיפור מעניין: ביום ג' בכסלו ה'תס\"ג אירע רעידת אדמה בלבוב, שגרמה לפיצוץ מחסן חומר הנפץ בעיר. בעת ההוא ישב ולמד בביתו כשפתאום קרס עליו הבית. בשכבו תחת ההריסות הוא נדר לה' שאם יוציאו משם בשלום יעסוק כל חייו בלימוד התורה וגם ימשיך במה שהתחיל סבו, בעל ה\"מגיני שלמה\" – תירוץ כל קושיות בעלי התוספות על רש\"י. מיד כשסיים את נדרו נפתח בפניו שביל בין העמודים שקרסו והוא יצא בריא ושלם.",
@@ -73,7 +90,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "אחרונים על התלמוד",
         "פני יהושע"
     ],
     "compDateString": {

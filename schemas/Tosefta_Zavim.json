@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Zavim",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Tahorot"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "zavim"
+                ]
+            }
+        ],
         "lengths": [
-            5
+            5,
+            30
         ],
         "titles": [
             {
@@ -29,17 +38,17 @@
                 "text": "T. Zavim"
             },
             {
-                "lang": "he",
-                "text": "תוספתא זבים",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Zab."
             },
             {
-                "lang": "en",
+                "text": "תוספתא זבים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Zavim",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -56,6 +65,8 @@
     ],
     "authors": [],
     "enDesc": "Zavim (Seminal Emissions) belongs to the sixth order, Tahorot (Purities) and discusses the laws of a person who has ejaculated. It has five chapters.",
+    "enShortDesc": "Abnormal bodily discharges and the impurity they generate.",
+    "heShortDesc": "הפרשות בלתי רגילות מהגוף והטומאה הנגרמת מהן.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -79,8 +90,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר טהרות"
     ],
     "compDateString": {

@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rishon-letzion",
+                    "hilchot",
+                    "torah-study"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rishon-letzion",
+                    "torah-study"
+                ]
+            }
+        ],
+        "lengths": [
+            7,
+            1,
+            1
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,10 +62,17 @@
         "key": "Rishon Letzion on Mishneh Torah, Torah Study"
     },
     "authors": [
-        "Chaim ibn Attar"
+        {
+            "en": "Chaim ibn Attar",
+            "he": "חיים בן עטר",
+            "slug": "chaim-ibn-attar"
+        }
     ],
     "pubDate": "1750",
+    "compDate": "1730",
+    "compPlace": "Sale, Morroco; Livorno",
     "pubPlace": "Constantinople",
+    "errorMargin": "12",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -78,5 +105,9 @@
         "מפרשים",
         "ראשון לציון",
         "ספר מדע"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1718  - c.1742 CE)",
+        "he": " (1718 - 1742 לספירה בקירוב)"
+    }
 }

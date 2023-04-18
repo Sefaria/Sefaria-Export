@@ -1,7 +1,8 @@
 {
     "title": "Tikkunei Zohar",
     "categories": [
-        "Kabbalah"
+        "Kabbalah",
+        "Zohar"
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
@@ -14,15 +15,25 @@
             "Daf",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tikkunei-zohar"
+                ]
+            }
+        ],
+        "lengths": [
+            295,
+            2121
+        ],
+        "referenceableSections": [
+            true,
+            false
+        ],
         "titles": [
             {
                 "text": "Tikkunei haZohar",
                 "lang": "en"
-            },
-            {
-                "text": "תקוני הזהר",
-                "primary": true,
-                "lang": "he"
             },
             {
                 "text": "תקוני הזוהר",
@@ -65,9 +76,18 @@
                 "lang": "he"
             },
             {
+                "text": "תקו”ז",
+                "lang": "he"
+            },
+            {
+                "text": "תקוני הזהר",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tikkunei Zohar",
-                "primary": true,
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Tikkunei Zohar",
@@ -79,8 +99,14 @@
         "key": "Tikkunei Zohar"
     },
     "default_struct": "Tikkunim",
+    "order": [
+        2,
+        7
+    ],
     "authors": [],
-    "enDesc": "Tikkunei Zohar is a major Kabbalistic text. Written mostly in Aramaic, it is a collection of seventy commentaries on the the first word of the Torah, \"Bereishit\".  ",
+    "enDesc": "Tikkunei Zohar is a major Kabbalistic text. Written mostly in Aramaic, it is a collection of seventy commentaries on the the first word of the Torah, \"Bereishit\".",
+    "enShortDesc": "Independent work in the style of the Zohar consisting of 70 commentaries on the first word of the Torah.",
+    "heShortDesc": "חיבור עצמאי בסגנון ספר הזוהר ובו שבעים פירושים למילה הראשונה בתורה.",
     "pubDate": "1557",
     "compDate": "1250",
     "compPlace": "Middle-Age Spain",
@@ -94,7 +120,6 @@
         "Tikkunei Zohar"
     ],
     "heTitleVariants": [
-        "תקוני הזהר",
         "תקוני הזוהר",
         "תיקוני הזוהר",
         "תיקון",
@@ -104,7 +129,9 @@
         "תיקוני זוהר",
         "תקוני זהר",
         "תקוני זוהר",
-        "תקו״ז"
+        "תקו״ז",
+        "תקו”ז",
+        "תקוני הזהר"
     ],
     "alts": {
         "Tikkunim": {
@@ -116,6 +143,13 @@
                     "addressTypes": [],
                     "sectionNames": [],
                     "refs": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "introduction-to-tikkunei-hazohar"
+                            ]
+                        }
+                    ],
                     "titles": [
                         {
                             "text": "הקדמת תקוני הזהר",
@@ -138,6 +172,13 @@
                     "addressTypes": [],
                     "sectionNames": [],
                     "refs": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "second-introduction-to-tikkunei-hazohar"
+                            ]
+                        }
+                    ],
                     "titles": [
                         {
                             "text": "הקדמה אחרת לתקוני הזהר",
@@ -156,7 +197,7 @@
                 {
                     "nodeType": "ArrayMapNode",
                     "depth": 1,
-                    "wholeRef": "Tikkunei Zohar 17b:7-140b:1",
+                    "wholeRef": "Tikkunei Zohar 17b:7-139a:1",
                     "addressTypes": [
                         "Integer"
                     ],
@@ -166,13 +207,12 @@
                     "refs": [
                         "Tikkunei Zohar 17b:7-18a:5",
                         "Tikkunei Zohar 18a:6",
-                        "Tikkunei Zohar 18a:7-18b:1",
-                        "Tikkunei Zohar 18b:2-4",
+                        "Tikkunei Zohar 18a:7-18b:4",
                         "Tikkunei Zohar 18b:5-19a:2",
                         "Tikkunei Zohar 19a:3-20b:9",
                         "Tikkunei Zohar 21a:1-24a:2",
                         "Tikkunei Zohar 24a:3",
-                        "Tikkunei Zohar 24a:4-6",
+                        "Tikkunei Zohar 24a:4-24a:6",
                         "Tikkunei Zohar 24a:7-24b:1",
                         "Tikkunei Zohar 24b:2-26a:7",
                         "Tikkunei Zohar 26a:8-26b:7",
@@ -180,60 +220,61 @@
                         "Tikkunei Zohar 27a:8-30a:1",
                         "Tikkunei Zohar 30a:2-30b:2",
                         "Tikkunei Zohar 30b:3-31a:1",
-                        "Tikkunei Zohar 31a:2-7",
+                        "Tikkunei Zohar 31a:2-31a:7",
                         "Tikkunei Zohar 31a:8-31b:1",
-                        "Tikkunei Zohar 31b:2-38b:1",
-                        "Tikkunei Zohar 38b:2-42b:6",
-                        "Tikkunei Zohar 43a:1",
-                        "Tikkunei Zohar 43a:2-64a:9",
-                        "Tikkunei Zohar 64b:1-69b:7",
-                        "Tikkunei Zohar 70a:1-2",
-                        "Tikkunei Zohar 70a:3-71a:3",
-                        "Tikkunei Zohar 71a:4-72a:3",
-                        "Tikkunei Zohar 72a:4-73b:1",
-                        "Tikkunei Zohar 73b:2-6",
-                        "Tikkunei Zohar 73b:7-74a:3",
-                        "Tikkunei Zohar 74a:4-76b:2",
-                        "Tikkunei Zohar 76b:3-77a:6",
-                        "Tikkunei Zohar 77a:7-77b:6",
-                        "Tikkunei Zohar 77b:7-78a:4",
-                        "Tikkunei Zohar 78a:5-78b:2",
-                        "Tikkunei Zohar 78b:3",
-                        "Tikkunei Zohar 78b:4-79a:3",
-                        "Tikkunei Zohar 79a:4-79b:4",
-                        "Tikkunei Zohar 79b:5-80a:6",
-                        "Tikkunei Zohar 80a:7-81a:1",
-                        "Tikkunei Zohar 81a:2-82a:7",
-                        "Tikkunei Zohar 82a:8-82b:2",
-                        "Tikkunei Zohar 82b:3-83a:5",
-                        "Tikkunei Zohar 83a:6-83b:2",
-                        "Tikkunei Zohar 83b:3-4",
-                        "Tikkunei Zohar 83b:5-84a:3",
-                        "Tikkunei Zohar 84a:4",
-                        "Tikkunei Zohar 84a:5-86a:2",
-                        "Tikkunei Zohar 86a:3-86b:2",
-                        "Tikkunei Zohar 86b:3-87a:3",
-                        "Tikkunei Zohar 87a:4-87b:2",
-                        "Tikkunei Zohar 87b:3-88a:1",
-                        "Tikkunei Zohar 88a:2-5",
-                        "Tikkunei Zohar 88b:1-6",
-                        "Tikkunei Zohar 88b:7",
-                        "Tikkunei Zohar 89a:1-90b:1",
-                        "Tikkunei Zohar 90b:2-92a:6",
-                        "Tikkunei Zohar 92b:1-93a:1",
-                        "Tikkunei Zohar 93a:2-93b:6",
+                        "Tikkunei Zohar 31b:2-38a:1",
+                        "Tikkunei Zohar 38a:2-42a:6",
+                        "Tikkunei Zohar 42b:1",
+                        "Tikkunei Zohar 42b:2-63a:9",
+                        "Tikkunei Zohar 63b:1-68b:7",
+                        "Tikkunei Zohar 69a:1-69a:2",
+                        "Tikkunei Zohar 69a:3-70a:3",
+                        "Tikkunei Zohar 70a:4-71a:3",
+                        "Tikkunei Zohar 71a:4-72b:1",
+                        "Tikkunei Zohar 12b:2-17b:4",
+                        "Tikkunei Zohar 72b:2-72b:6",
+                        "Tikkunei Zohar 72b:7-73a:3",
+                        "Tikkunei Zohar 73a:4-75b:2",
+                        "Tikkunei Zohar 75b:3-76a:6",
+                        "Tikkunei Zohar 76a:7-76b:6",
+                        "Tikkunei Zohar 76b:7-77a:4",
+                        "Tikkunei Zohar 77a:5-77b:2",
+                        "Tikkunei Zohar 77b:3",
+                        "Tikkunei Zohar 77b:4-78a:3",
+                        "Tikkunei Zohar 78a:4-78b:4",
+                        "Tikkunei Zohar 78b:5-79a:6",
+                        "Tikkunei Zohar 79a:7-80a:1",
+                        "Tikkunei Zohar 80a:2-81a:7",
+                        "Tikkunei Zohar 81a:8-81b:2",
+                        "Tikkunei Zohar 81b:3-82a:5",
+                        "Tikkunei Zohar 82a:6-82b:2",
+                        "Tikkunei Zohar 82b:3-82b:4",
+                        "Tikkunei Zohar 82b:5-83a:3",
+                        "Tikkunei Zohar 83a:4",
+                        "Tikkunei Zohar 83a:5-85a:2",
+                        "Tikkunei Zohar 85a:3-85b:2",
+                        "Tikkunei Zohar 85b:3-86a:3",
+                        "Tikkunei Zohar 86a:4-86b:2",
+                        "Tikkunei Zohar 86b:3-87a:1",
+                        "Tikkunei Zohar 87a:2-87a:5",
+                        "Tikkunei Zohar 87b:1-87b:6",
+                        "Tikkunei Zohar 87b:7",
+                        "Tikkunei Zohar 88a:1-89b:1",
+                        "Tikkunei Zohar 89b:2-91a:6",
+                        "Tikkunei Zohar 91b:1-92a:1",
+                        "Tikkunei Zohar 92a:2-92b:6",
+                        "Tikkunei Zohar 92b:7-93a:3",
+                        "Tikkunei Zohar 93a:4-93b:6",
                         "Tikkunei Zohar 93b:7-94a:3",
-                        "Tikkunei Zohar 94a:4-94b:6",
-                        "Tikkunei Zohar 94b:7-95a:3",
-                        "Tikkunei Zohar 95a:4-95b:2",
-                        "Tikkunei Zohar 95b:3-96a:3",
-                        "Tikkunei Zohar 96a:4-97a:3",
-                        "Tikkunei Zohar 97a:4-97b:2",
-                        "Tikkunei Zohar 97b:3-98b:6",
-                        "Tikkunei Zohar 99a:1-99b:3",
-                        "Tikkunei Zohar 99b:4-5",
-                        "Tikkunei Zohar 100a:1-120b:1",
-                        "Tikkunei Zohar 120b:2-140b:1"
+                        "Tikkunei Zohar 94a:4-94b:2",
+                        "Tikkunei Zohar 94b:3-95a:3",
+                        "Tikkunei Zohar 95a:4-96a:3",
+                        "Tikkunei Zohar 96a:4-96b:2",
+                        "Tikkunei Zohar 96b:3-97b:6",
+                        "Tikkunei Zohar 98a:1-98b:3",
+                        "Tikkunei Zohar 98b:4-98b:5",
+                        "Tikkunei Zohar 99a:1-119b:1",
+                        "Tikkunei Zohar 119b:2-139a:1"
                     ],
                     "titles": [
                         {
@@ -253,7 +294,7 @@
                 {
                     "nodeType": "ArrayMapNode",
                     "depth": 1,
-                    "wholeRef": "Tikkunei Zohar 140b:2-149b:3",
+                    "wholeRef": "Tikkunei Zohar 139a:2-148a:3",
                     "addressTypes": [
                         "Integer"
                     ],
@@ -261,17 +302,23 @@
                         "Additional Tikkun"
                     ],
                     "refs": [
-                        "",
-                        "Tikkunei Zohar 140b:2-141a:2",
-                        "Tikkunei Zohar 141a:3-142b:1",
-                        "Tikkunei Zohar 142b:2-5",
-                        "Tikkunei Zohar 142b:6-145a:3",
-                        "Tikkunei Zohar 145a:4-147b:7",
-                        "Tikkunei Zohar 147b:8-148a:5",
-                        "Tikkunei Zohar 148a:6-148b:1",
-                        "Tikkunei Zohar 148b:2-5",
-                        "Tikkunei Zohar 148b:6-149a:4",
-                        "Tikkunei Zohar 149a:5-149b:3"
+                        "Tikkunei Zohar 139a:2-139b:2",
+                        "Tikkunei Zohar 139b:3-141a:1",
+                        "Tikkunei Zohar 141a:2-141a:5",
+                        "Tikkunei Zohar 141a:6-143b:3",
+                        "Tikkunei Zohar 143b:4-146a:7",
+                        "Tikkunei Zohar 146a:8-146b:5",
+                        "Tikkunei Zohar 146b:6-147a:1",
+                        "Tikkunei Zohar 147a:2-147a:5",
+                        "Tikkunei Zohar 147a:6-147b:4",
+                        "Tikkunei Zohar 147b:5-148a:3"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "additional-tikkunim"
+                            ]
+                        }
                     ],
                     "titles": [
                         {
@@ -293,11 +340,6 @@
                 {
                     "text": "Tikkunei haZohar",
                     "lang": "en"
-                },
-                {
-                    "text": "תקוני הזהר",
-                    "primary": true,
-                    "lang": "he"
                 },
                 {
                     "text": "תקוני הזוהר",
@@ -340,9 +382,18 @@
                     "lang": "he"
                 },
                 {
+                    "text": "תקו”ז",
+                    "lang": "he"
+                },
+                {
+                    "text": "תקוני הזהר",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
                     "text": "Tikkunei Zohar",
-                    "primary": true,
-                    "lang": "en"
+                    "lang": "en",
+                    "primary": true
                 }
             ],
             "title": "Tikkunei Zohar",
@@ -355,7 +406,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "קבלה"
+        "קבלה",
+        "זהר"
     ],
     "compDateString": {
         "en": " (c.1100  - c.1400 CE)",

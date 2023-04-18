@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "shaar-hamelekh",
+                    "hilchot",
+                    "service-on-the-day-of-atonement"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "shaar-hamelekh",
+                    "service-on-the-day-of-atonement"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            3,
+            4
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,11 +62,17 @@
         "key": "Sha'ar HaMelekh on Mishneh Torah, Service on the Day of Atonement"
     },
     "authors": [
-        "Isaac Nunis-Bilmonte"
+        {
+            "en": "Isaac Nunis-Bilmonte",
+            "he": "יצחק בן משה נוניש בילמונטי",
+            "slug": "isaac-nunis-bilmonte"
+        }
     ],
     "pubDate": "1771",
+    "compDate": "1750",
     "compPlace": "Izmir / Smyrna",
-    "pubPlace": "Salonica / Thessaloniki ",
+    "pubPlace": "Salonica / Thessaloniki",
+    "errorMargin": "20",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -80,6 +106,10 @@
         "שער המלך",
         "ספר עבודה"
     ],
+    "compDateString": {
+        "en": " (c.1730  - c.1770 CE)",
+        "he": " (1730 - 1770 לספירה בקירוב)"
+    },
     "compPlaceString": {
         "en": "Izmir / Smyrna",
         "he": "איזמיר"

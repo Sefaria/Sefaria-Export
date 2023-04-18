@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "the-chosen-temple"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "the-chosen-temple"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "the-chosen-temple"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "the-chosen-temple"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "the-chosen-temple"
+                ]
+            }
+        ],
         "lengths": [
-            8
+            8,
+            137
         ],
         "titles": [
             {
@@ -62,11 +97,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות בית הבחירה",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות בית הבחירה"
             },
             {
@@ -84,6 +114,43 @@
             {
                 "lang": "he",
                 "text": "רמב\"ם הל' בית הבחירה"
+            },
+            {
+                "text": "רמב״ם, הלכות בית הבחירה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות בית הבחירה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' בית הבחירה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' בית הבחירה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות בית הבחירה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות בית הבחירה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' בית הבחירה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' בית הבחירה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות בית הבחירה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Mishneh Torah, The Chosen Temple",
@@ -104,9 +171,13 @@
         1
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The eighth book is Avodah (Divine Service): the laws of the Temple in Jerusalem. Hilchot Beit Habechira: Laws of building the Temple.",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -129,12 +200,20 @@
         "Mishneh Torah, The Chosen Temple"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות בית הבחירה",
         "רמב\"ם, הלכות בית הבחירה",
         "משנה תורה, הל' בית הבחירה",
         "רמב\"ם, הל' בית הבחירה",
         "רמב\"ם הלכות בית הבחירה",
-        "רמב\"ם הל' בית הבחירה"
+        "רמב\"ם הל' בית הבחירה",
+        "רמב״ם, הלכות בית הבחירה",
+        "רמב”ם, הלכות בית הבחירה",
+        "רמב״ם, הל' בית הבחירה",
+        "רמב”ם, הל' בית הבחירה",
+        "רמב״ם הלכות בית הבחירה",
+        "רמב”ם הלכות בית הבחירה",
+        "רמב״ם הל' בית הבחירה",
+        "רמב”ם הל' בית הבחירה",
+        "משנה תורה, הלכות בית הבחירה"
     ],
     "sectionNames": [
         "Chapter",

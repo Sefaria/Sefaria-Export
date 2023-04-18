@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "annotations-of-maharatz-chajes",
+                    "hilchot",
+                    "admission-into-the-sanctuary"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "annotations-of-maharatz-chajes",
+                    "admission-into-the-sanctuary"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            1,
+            1
+        ],
         "titles": [
             {
                 "text": "חידושים ומקורים מהר\"ץ חיות על משנה תורה, הלכות ביאת מקדש",
@@ -42,8 +62,14 @@
         "key": "Annotations of Maharatz Chajes on Mishneh Torah, Admission into the Sanctuary"
     },
     "authors": [
-        "Zvi Hirsch Chajes"
+        {
+            "en": "Zvi Hirsch Chajes",
+            "he": "צבי הירש חיות",
+            "slug": "zvi-hirsch-chajes"
+        }
     ],
+    "compDate": "1840",
+    "errorMargin": "15",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -76,5 +102,9 @@
         "מפרשים",
         "חידושים ומקורים מהר\"ץ חיות",
         "ספר עבודה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1825  - c.1855 CE)",
+        "he": " (1825 - 1855 לספירה בקירוב)"
+    }
 }

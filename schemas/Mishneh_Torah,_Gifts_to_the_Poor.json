@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "gifts-to-the-poor"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "gifts-to-the-poor"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "gifts-to-the-poor"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "gifts-to-the-poor"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "gifts-to-the-poor"
+                ]
+            }
+        ],
         "lengths": [
-            10
+            10,
+            200
         ],
         "titles": [
             {
@@ -58,11 +93,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות מתנות עניים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות מתנות עניים"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' מתנות עניים"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות מתנות עניים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות מתנות עניים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' מתנות עניים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' מתנות עניים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות מתנות עניים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות מתנות עניים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' מתנות עניים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' מתנות עניים",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות מתנות עניים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Gifts to the Poor",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,7 +167,11 @@
         2
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The seventh book is Zera'im (Seeds): agricultural laws. Aniyim: Laws of obligatory gifts to the poor",
     "pubDate": "1474",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Gifts to the Poor"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות מתנות עניים",
         "רמב\"ם, הלכות מתנות עניים",
         "משנה תורה, הל' מתנות עניים",
         "רמב\"ם, הל' מתנות עניים",
         "רמב\"ם הלכות מתנות עניים",
-        "רמב\"ם הל' מתנות עניים"
+        "רמב\"ם הל' מתנות עניים",
+        "רמב״ם, הלכות מתנות עניים",
+        "רמב”ם, הלכות מתנות עניים",
+        "רמב״ם, הל' מתנות עניים",
+        "רמב”ם, הל' מתנות עניים",
+        "רמב״ם הלכות מתנות עניים",
+        "רמב”ם הלכות מתנות עניים",
+        "רמב״ם הל' מתנות עניים",
+        "רמב”ם הל' מתנות עניים",
+        "משנה תורה, הלכות מתנות עניים"
     ],
     "sectionNames": [
         "Chapter",

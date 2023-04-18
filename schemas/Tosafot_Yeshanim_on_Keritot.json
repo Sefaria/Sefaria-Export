@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Tosafot Yeshanim",
         "Seder Kodashim"
     ],
@@ -19,6 +19,29 @@
             "Daf",
             "Line",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosafot-yeshanim",
+                    "keritot"
+                ]
+            }
+        ],
+        "lengths": [
+            56,
+            102,
+            108
+        ],
+        "referenceableSections": [
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -70,11 +93,17 @@
         "key": "Tosafot Yeshanim on Keritot"
     },
     "authors": [
-        "Tosafot"
+        {
+            "en": "Tosafot",
+            "he": "תוספות",
+            "slug": "tosafot"
+        }
     ],
     "enDesc": "Tosafot that were not included by the editing process of the Tosafot that are generally studied with the Talmud. In today's editions of the Talmud, many of these statements appear in the margins in smaller letters.",
+    "pubDate": "1880",
     "compDate": "1300",
     "compPlace": "Middle-Age France",
+    "pubPlace": "Vilna",
     "errorMargin": "100",
     "era": "RI",
     "dependence": "Commentary",
@@ -112,7 +141,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "תוספות ישנים ",
         "סדר קדשים"
     ],

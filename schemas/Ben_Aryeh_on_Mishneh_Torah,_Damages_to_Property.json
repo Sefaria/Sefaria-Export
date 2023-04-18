@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ben-aryeh",
+                    "hilchot",
+                    "damages-to-property"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ben-aryeh",
+                    "damages-to-property"
+                ]
+            }
+        ],
+        "lengths": [
+            14,
+            6,
+            6
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,7 +62,11 @@
         "key": "Ben Aryeh on Mishneh Torah, Damages to Property"
     },
     "authors": [
-        "Zev ben Aryeh"
+        {
+            "en": "Zev ben Aryeh",
+            "he": "זאב בן אריה",
+            "slug": "zev-ben-aryeh"
+        }
     ],
     "heDesc": "חידושים וציוני מראה מקומות לדברי הרמב\"ם",
     "compDate": "1840",

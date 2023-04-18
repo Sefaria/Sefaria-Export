@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Rosh",
         "Seder Moed"
     ],
@@ -18,10 +18,31 @@
             "Halakhah",
             "Siman"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rosh",
+                    "taanit1"
+                ]
+            }
+        ],
+        "lengths": [
+            61,
+            56
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
+                "text": "פסקי הרא\"ש על תענית",
                 "lang": "he",
-                "text": " פסקי הראש על תענית",
                 "primary": true
             },
             {
@@ -31,7 +52,7 @@
             }
         ],
         "title": "Rosh on Taanit",
-        "heTitle": " פסקי הראש על תענית",
+        "heTitle": "פסקי הרא\"ש על תענית",
         "heSectionNames": [
             "הלכה",
             "סימן"
@@ -40,7 +61,11 @@
     },
     "default_struct": "Chapter",
     "authors": [
-        "Rosh"
+        {
+            "en": "Rosh",
+            "he": "רא\"ש",
+            "slug": "rosh"
+        }
     ],
     "enDesc": "Talmud commentary written by the the Rosh, Rabbi Asher ben Yehiel, a German and Spanish halakhic authority (c. 1250 - 1327). Having been a leader in both Germany and Spain, the Rosh was familiar with the leading halakhic authorities of both countries and included teachings from both. The Rosh’s commentary displays his independence of judgement as he states his legal opinion according to what he views as most sound, even if it goes against other respected authorities.",
     "compDate": "1300",
@@ -59,12 +84,12 @@
         "en": "Rosh",
         "he": "רא\"ש"
     },
-    "heTitle": " פסקי הראש על תענית",
+    "heTitle": "פסקי הרא\"ש על תענית",
     "titleVariants": [
         "Rosh on Taanit"
     ],
     "heTitleVariants": [
-        " פסקי הראש על תענית"
+        "פסקי הרא\"ש על תענית"
     ],
     "alts": {
         "Chapter": {
@@ -229,8 +254,8 @@
             ],
             "titles": [
                 {
+                    "text": "פסקי הרא\"ש על תענית",
                     "lang": "he",
-                    "text": " פסקי הראש על תענית",
                     "primary": true
                 },
                 {
@@ -240,7 +265,7 @@
                 }
             ],
             "title": "Rosh on Taanit",
-            "heTitle": " פסקי הראש על תענית"
+            "heTitle": "פסקי הרא\"ש על תענית"
         }
     },
     "sectionNames": [
@@ -251,7 +276,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "רא\"ש",
         "סדר מועד"
     ],

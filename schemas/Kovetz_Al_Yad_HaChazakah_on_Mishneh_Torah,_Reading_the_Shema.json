@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kovetz-al-yad-hachazakah",
+                    "hilchot",
+                    "reading-the-shema"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kovetz-al-yad-hachazakah",
+                    "reading-the-shema"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            25,
+            27
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,10 +62,16 @@
         "key": "Kovetz Al Yad HaChazakah on Mishneh Torah, Reading the Shema"
     },
     "authors": [
-        "Menahem Nahum Trebitsch"
+        {
+            "en": "Menahem Nahum Trebitsch",
+            "he": "נחום טרייביטש",
+            "slug": "menahem-nahum-trebitsch"
+        }
     ],
     "pubDate": "1835",
+    "compDate": "1830",
     "pubPlace": "Vienna",
+    "errorMargin": "5",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -78,5 +104,9 @@
         "מפרשים",
         "קובץ על היד החזקה",
         "ספר אהבה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1825  - c.1835 CE)",
+        "he": " (1825 - 1835 לספירה בקירוב)"
+    }
 }

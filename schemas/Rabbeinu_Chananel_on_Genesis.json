@@ -2,7 +2,7 @@
     "title": "Rabbeinu Chananel on Genesis",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Rabbeinu Chananel",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rabbeinu-chananel",
+                    "genesis"
+                ]
+            }
+        ],
+        "lengths": [
+            50,
+            64,
+            86
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -58,11 +76,6 @@
             },
             {
                 "lang": "he",
-                "text": "ר' חננאל על בראשית",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "ר' חננאל על ברא'"
             },
             {
@@ -82,6 +95,11 @@
                 "text": "ר' חננאל על בְּרֵאשִׁית"
             },
             {
+                "text": "ר' חננאל על בראשית",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Rabbeinu Chananel on Genesis",
                 "lang": "en",
                 "primary": true
@@ -97,7 +115,11 @@
         "key": "Rabbeinu Chananel on Genesis"
     },
     "authors": [
-        "Rabeinu Chananel"
+        {
+            "en": "Rabeinu Chananel",
+            "he": "רבנו חננאל",
+            "slug": "rabeinu-chananel"
+        }
     ],
     "enDesc": "Written by Rabbi Chananel ben Chushiel, known as Rabbeinu Chananel, this commentary on the Chumash is cited by many later Torah commentators, most notably Rabbi Bahya ben Asher. Rabbeinu Chananel directs some of his comments against the Karaites.",
     "pubDate": "1492",
@@ -133,12 +155,12 @@
         "Rabbeinu Chananel on Genesis"
     ],
     "heTitleVariants": [
-        "ר' חננאל על בראשית",
         "ר' חננאל על ברא'",
         "ר' חננאל על בר'",
         "ר' חננאל על בר׳",
         "ר' חננאל על ברא׳",
-        "ר' חננאל על בְּרֵאשִׁית"
+        "ר' חננאל על בְּרֵאשִׁית",
+        "ר' חננאל על בראשית"
     ],
     "sectionNames": [
         "Chapter",
@@ -148,7 +170,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "רבינו חננאל",
         "תורה"
     ],

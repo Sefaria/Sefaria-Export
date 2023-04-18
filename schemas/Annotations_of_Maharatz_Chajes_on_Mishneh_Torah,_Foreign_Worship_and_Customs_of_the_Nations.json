@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "annotations-of-maharatz-chajes",
+                    "hilchot",
+                    "foreign-worship-and-customs-of-the-nations"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "annotations-of-maharatz-chajes",
+                    "foreign-worship-and-customs-of-the-nations"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            2,
+            4
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,8 +62,14 @@
         "key": "Annotations of Maharatz Chajes on Mishneh Torah, Foreign Worship and Customs of the Nations"
     },
     "authors": [
-        "Zvi Hirsch Chajes"
+        {
+            "en": "Zvi Hirsch Chajes",
+            "he": "צבי הירש חיות",
+            "slug": "zvi-hirsch-chajes"
+        }
     ],
+    "compDate": "1840",
+    "errorMargin": "15",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -76,5 +102,9 @@
         "מפרשים",
         "חידושים ומקורים מהר\"ץ חיות",
         "ספר מדע"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1825  - c.1855 CE)",
+        "he": " (1825 - 1855 לספירה בקירוב)"
+    }
 }

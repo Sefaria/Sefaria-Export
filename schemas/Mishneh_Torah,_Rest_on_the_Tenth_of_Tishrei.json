@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "rest-on-the-tenth-of-tishrei"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "rest-on-the-tenth-of-tishrei"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "rest-on-the-tenth-of-tishrei"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "rest-on-the-tenth-of-tishrei"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "rest-on-the-tenth-of-tishrei"
+                ]
+            }
+        ],
         "lengths": [
-            3
+            3,
+            28
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות שביתת עשור",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות שביתת עשור"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' שביתת עשור"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות שביתת עשור",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות שביתת עשור",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' שביתת עשור",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' שביתת עשור",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות שביתת עשור",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות שביתת עשור",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' שביתת עשור",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' שביתת עשור",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות שביתת עשור",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Rest on the Tenth of Tishrei",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,7 +167,11 @@
         3
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The third book is Zemanim (Times). Yom Tov; prohibitions on major Jewish holidays that are different from the prohibitions of Sabbath.",
     "pubDate": "1474",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Rest on the Tenth of Tishrei"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות שביתת עשור",
         "רמב\"ם, הלכות שביתת עשור",
         "משנה תורה, הל' שביתת עשור",
         "רמב\"ם, הל' שביתת עשור",
         "רמב\"ם הלכות שביתת עשור",
-        "רמב\"ם הל' שביתת עשור"
+        "רמב\"ם הל' שביתת עשור",
+        "רמב״ם, הלכות שביתת עשור",
+        "רמב”ם, הלכות שביתת עשור",
+        "רמב״ם, הל' שביתת עשור",
+        "רמב”ם, הל' שביתת עשור",
+        "רמב״ם הלכות שביתת עשור",
+        "רמב”ם הלכות שביתת עשור",
+        "רמב״ם הל' שביתת עשור",
+        "רמב”ם הל' שביתת עשור",
+        "משנה תורה, הלכות שביתת עשור"
     ],
     "sectionNames": [
         "Chapter",

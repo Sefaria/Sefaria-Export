@@ -2,7 +2,7 @@
     "title": "Rabbeinu Bahya",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Rabbeinu Bahya"
     ],
     "schema": {
@@ -231,19 +231,28 @@
                 "key": "Devarim"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rabbeinu-bahya",
+                    "numbers"
+                ]
+            }
+        ],
         "titles": [
             {
                 "lang": "en",
                 "text": "Rabbeinu Behaye"
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "רבנו בחיי"
-            },
-            {
                 "lang": "he",
                 "text": "רבינו בחיי"
+            },
+            {
+                "text": "רבנו בחיי",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Rabbeinu Bahya",
@@ -257,9 +266,15 @@
     },
     "default_struct": "Parasha",
     "authors": [
-        "Bachya ben Asher"
+        {
+            "en": "Bachya ben Asher",
+            "he": "בחיי בן אשר",
+            "slug": "bachya-ben-asher"
+        }
     ],
     "enDesc": "A commentary on the Torah written by Rabbi Bahya ben Asher, 1255-1340, in Spain. Rabbeinu Bachya’s commentary incorporates the literal meaning along with allegorical, Midrashic, and Kabbalistic interpretations.",
+    "enShortDesc": "14th-century commentary incorporating literal explanations along with allegorical, philosophical, and mystical interpretations.",
+    "heShortDesc": "פירוש מן המאה ה-14 המשלב ביאורים לשוניים עם פרשנות אלגורית, פילוסופית ומיסטית.",
     "pubDate": "1492",
     "compDate": "1300",
     "compPlace": "Middle-Age Spain",
@@ -301,16 +316,16 @@
         "Rabbeinu Bahya"
     ],
     "heTitleVariants": [
-        "רבנו בחיי",
-        "רבינו בחיי"
+        "רבינו בחיי",
+        "רבנו בחיי"
     ],
     "alts": {
-        "By Parasha": {
+        "Parasha": {
             "nodes": [
                 {
                     "nodeType": "ArrayMapNode",
                     "depth": 0,
-                    "wholeRef": "Rabbeinu_Bahya,_Introduction.1-5",
+                    "wholeRef": "Rabbeinu Bahya, Introduction 1-5",
                     "includeSections": false,
                     "titles": [
                         {
@@ -7567,13 +7582,13 @@
                     "text": "Rabbeinu Behaye"
                 },
                 {
-                    "primary": true,
-                    "lang": "he",
-                    "text": "רבנו בחיי"
-                },
-                {
                     "lang": "he",
                     "text": "רבינו בחיי"
+                },
+                {
+                    "text": "רבנו בחיי",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Rabbeinu Bahya",
@@ -7587,7 +7602,7 @@
     },
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "רבנו בחיי"
     ],
     "compDateString": {

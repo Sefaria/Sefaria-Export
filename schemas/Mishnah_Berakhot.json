@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "berakhot"
+                ]
+            }
+        ],
         "lengths": [
             9,
             57
@@ -49,11 +68,6 @@
                 "text": "Mishnah Berachot"
             },
             {
-                "lang": "he",
-                "text": "משנה ברכות",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Ber."
             },
@@ -62,8 +76,13 @@
                 "text": "Mishnah B’rakhoth"
             },
             {
-                "lang": "en",
+                "text": "משנה ברכות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Berakhot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -80,7 +99,9 @@
         1
     ],
     "authors": [],
-    "enDesc": "Berakhot (Blessings) belongs to the first order, Zera'im (seeds) and discusses the rules of blessings and prayers, particularly the Shema and the Amidah. It consists of nine chapters.",
+    "enDesc": "Berakhot (“Blessings”) is the first tractate of Zeraim (“Seeds”), the first order of the Mishnah, and the only tractate in Zeraim included in the Babylonian Talmud. Its nine chapters discuss the laws of prayers, focusing on the Shema, the Amidah, and blessings, including those recited in the context of eating.",
+    "enShortDesc": "Blessings and prayers, focusing on Shema and the Amidah.",
+    "heShortDesc": "ברכות ותפילות, בדגש על קריאת שמע ועל תפילת העמידה.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -88,6 +109,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה ברכות",
     "titleVariants": [
         "M. Berakhot",

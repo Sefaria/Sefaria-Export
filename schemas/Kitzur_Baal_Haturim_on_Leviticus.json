@@ -1,9 +1,9 @@
 {
-    "title": "Kitzur Baal Haturim on Leviticus",
+    "title": "Kitzur Baal HaTurim on Leviticus",
     "categories": [
         "Tanakh",
-        "Commentary",
-        "Kitzur Baal Haturim",
+        "Rishonim on Tanakh",
+        "Kitzur Baal HaTurim",
         "Torah"
     ],
     "schema": {
@@ -11,7 +11,7 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
@@ -19,41 +19,79 @@
             "Verse",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kitzur-baal-haturim",
+                    "leviticus"
+                ]
+            }
+        ],
+        "lengths": [
+            27,
+            226,
+            316
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Vayikra"
+                "text": "Kitzur Baal HaTurim on Vayikra"
             },
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Lev."
+                "text": "Kitzur Baal HaTurim on Lev."
             },
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Lev"
+                "text": "Kitzur Baal HaTurim on Lev"
             },
             {
-                "lang": "he",
-                "text": "קיצור בעל הטורים על ויקרא",
-                "primary": true
+                "text": "Kitzur Baal Haturim on Vayikra",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal Haturim on Lev.",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal Haturim on Lev",
+                "lang": "en"
             },
             {
                 "text": "Kitzur Baal Haturim on Leviticus",
+                "lang": "en"
+            },
+            {
+                "text": "קיצור בעל הטורים על ויקרא",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "Kitzur Baal HaTurim on Leviticus",
                 "lang": "en",
                 "primary": true
             }
         ],
-        "title": "Kitzur Baal Haturim on Leviticus",
+        "title": "Kitzur Baal HaTurim on Leviticus",
         "heTitle": "קיצור בעל הטורים על ויקרא",
         "heSectionNames": [
             "פרק",
             "פסוק",
             "פירוש"
         ],
-        "key": "Kitzur Baal Haturim on Leviticus"
+        "key": "Kitzur Baal HaTurim on Leviticus"
     },
     "authors": [
-        "Jacob ben Asher"
+        {
+            "en": "Jacob ben Asher",
+            "he": "יעקב בן אשר",
+            "slug": "jacob-ben-asher"
+        }
     ],
     "enDesc": "Abridgement of the Torah commentary written by Jacob ben Asher, Ba’al HaTurim. The author was a halakhic scholar and biblical commentator in Medieval Spain.",
     "pubDate": "1514",
@@ -71,16 +109,20 @@
     ],
     "base_text_mapping": "many_to_one",
     "collective_title": {
-        "en": "Kitzur Baal Haturim",
+        "en": "Kitzur Baal HaTurim",
         "he": "קיצור בעל הטורים"
     },
     "is_cited": true,
     "heTitle": "קיצור בעל הטורים על ויקרא",
     "titleVariants": [
+        "Kitzur Baal HaTurim on Vayikra",
+        "Kitzur Baal HaTurim on Lev.",
+        "Kitzur Baal HaTurim on Lev",
         "Kitzur Baal Haturim on Vayikra",
         "Kitzur Baal Haturim on Lev.",
         "Kitzur Baal Haturim on Lev",
-        "Kitzur Baal Haturim on Leviticus"
+        "Kitzur Baal Haturim on Leviticus",
+        "Kitzur Baal HaTurim on Leviticus"
     ],
     "heTitleVariants": [
         "קיצור בעל הטורים על ויקרא"
@@ -93,7 +135,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "קיצור בעל הטורים",
         "תורה"
     ],

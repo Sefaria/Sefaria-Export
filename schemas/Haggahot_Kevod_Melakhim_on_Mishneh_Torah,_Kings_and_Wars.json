@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "haggahot-kevod-melakhim",
+                    "hilchot",
+                    "kings-and-wars"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-kevod-melakhim",
+                    "kings-and-wars"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            52,
+            77
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,9 +62,18 @@
         "key": "Haggahot Kevod Melakhim on Mishneh Torah, Kings and Wars"
     },
     "authors": [
-        "Zev Wolf Leiter"
+        {
+            "en": "Zev Wolf Leiter",
+            "he": "זאב וואלף לייטער",
+            "slug": "zev-wolf-leiter"
+        }
     ],
     "enDesc": "A compilation of classical sources and relevant statements from earlier scholars, upon which the author builds to elaborate on the ideas in this one section of Mishneh Torah.",
+    "pubDate": "1947",
+    "compDate": "1940",
+    "compPlace": "Pittsburgh, PA",
+    "pubPlace": "New York",
+    "errorMargin": "6",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -77,5 +106,9 @@
         "מפרשים",
         "הגהות כבוד מלכים",
         "ספר שופטים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1934  - c.1946 CE)",
+        "he": " (1934 - 1946 לספירה בקירוב)"
+    }
 }

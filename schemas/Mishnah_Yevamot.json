@@ -15,9 +15,28 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "yevamot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yevamot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "yevamot"
+                ]
+            }
+        ],
         "lengths": [
             16,
-            123
+            128
         ],
         "titles": [
             {
@@ -33,11 +52,6 @@
                 "text": "Mishna Yevamot"
             },
             {
-                "lang": "he",
-                "text": "משנה יבמות",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Yeb."
             },
@@ -46,8 +60,13 @@
                 "text": "Mishnah Y’bamoth"
             },
             {
-                "lang": "en",
+                "text": "משנה יבמות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Yevamot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -64,7 +83,9 @@
         1
     ],
     "authors": [],
-    "enDesc": "Yevamot (Levirate marriage) belongs to the third order, Nashim (Women) and discusses the mandated marriage of a widow to her brother-in-law, deals with the Jewish law of levirate marriage (Deut. 25:5–10) and other topics, such as the status of minors. It has sixteen chapters.",
+    "enDesc": "Yevamot (the plural of the word used to refer to one’s childless brother’s widow) is the first tractate in Seder Nashim (“Order of Women,” which addresses family law). Its sixteen chapters discuss yibum, the Torah-mandated marriage of a widow to the brother of her childless husband as well as chalitzah, the alternative rite discharging that obligation, in which the widow takes off the shoe of her husband’s brother and spits on the floor.",
+    "enShortDesc": "The mandated marriage of a widow to the brother of her childless husband and the alternative rite discharging that obligation.",
+    "heShortDesc": "ייבום, חליצה ואיסורי עריות.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה יבמות",
     "titleVariants": [
         "M Yevamot",

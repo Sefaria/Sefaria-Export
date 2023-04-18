@@ -1,9 +1,9 @@
 {
-    "title": "Kitzur Baal Haturim on Deuteronomy",
+    "title": "Kitzur Baal HaTurim on Deuteronomy",
     "categories": [
         "Tanakh",
-        "Commentary",
-        "Kitzur Baal Haturim",
+        "Rishonim on Tanakh",
+        "Kitzur Baal HaTurim",
         "Torah"
     ],
     "schema": {
@@ -11,7 +11,7 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
@@ -19,31 +19,44 @@
             "Verse",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kitzur-baal-haturim",
+                    "deuteronomy"
+                ]
+            }
+        ],
+        "lengths": [
+            34,
+            394,
+            621
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Deu."
+                "text": "Kitzur Baal HaTurim on Deu."
             },
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Devarim"
+                "text": "Kitzur Baal HaTurim on Devarim"
             },
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Deu"
+                "text": "Kitzur Baal HaTurim on Deu"
             },
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Deut."
+                "text": "Kitzur Baal HaTurim on Deut."
             },
             {
                 "lang": "en",
-                "text": "Kitzur Baal Haturim on Deut"
-            },
-            {
-                "lang": "he",
-                "text": "קיצור בעל הטורים על דברים",
-                "primary": true
+                "text": "Kitzur Baal HaTurim on Deut"
             },
             {
                 "lang": "he",
@@ -54,22 +67,55 @@
                 "text": "קיצור בעל הטורים על דברי׳"
             },
             {
+                "text": "Kitzur Baal Haturim on Deu.",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal Haturim on Devarim",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal Haturim on Deu",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal Haturim on Deut.",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal Haturim on Deut",
+                "lang": "en"
+            },
+            {
                 "text": "Kitzur Baal Haturim on Deuteronomy",
+                "lang": "en"
+            },
+            {
+                "text": "קיצור בעל הטורים על דברים",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "Kitzur Baal HaTurim on Deuteronomy",
                 "lang": "en",
                 "primary": true
             }
         ],
-        "title": "Kitzur Baal Haturim on Deuteronomy",
+        "title": "Kitzur Baal HaTurim on Deuteronomy",
         "heTitle": "קיצור בעל הטורים על דברים",
         "heSectionNames": [
             "פרק",
             "פסוק",
             "פירוש"
         ],
-        "key": "Kitzur Baal Haturim on Deuteronomy"
+        "key": "Kitzur Baal HaTurim on Deuteronomy"
     },
     "authors": [
-        "Jacob ben Asher"
+        {
+            "en": "Jacob ben Asher",
+            "he": "יעקב בן אשר",
+            "slug": "jacob-ben-asher"
+        }
     ],
     "enDesc": "Abridgement of the Torah commentary written by Jacob ben Asher, Ba’al HaTurim. The author was a halakhic scholar and biblical commentator in Medieval Spain.",
     "pubDate": "1514",
@@ -87,23 +133,29 @@
     ],
     "base_text_mapping": "many_to_one",
     "collective_title": {
-        "en": "Kitzur Baal Haturim",
+        "en": "Kitzur Baal HaTurim",
         "he": "קיצור בעל הטורים"
     },
     "is_cited": true,
     "heTitle": "קיצור בעל הטורים על דברים",
     "titleVariants": [
+        "Kitzur Baal HaTurim on Deu.",
+        "Kitzur Baal HaTurim on Devarim",
+        "Kitzur Baal HaTurim on Deu",
+        "Kitzur Baal HaTurim on Deut.",
+        "Kitzur Baal HaTurim on Deut",
         "Kitzur Baal Haturim on Deu.",
         "Kitzur Baal Haturim on Devarim",
         "Kitzur Baal Haturim on Deu",
         "Kitzur Baal Haturim on Deut.",
         "Kitzur Baal Haturim on Deut",
-        "Kitzur Baal Haturim on Deuteronomy"
+        "Kitzur Baal Haturim on Deuteronomy",
+        "Kitzur Baal HaTurim on Deuteronomy"
     ],
     "heTitleVariants": [
-        "קיצור בעל הטורים על דברים",
         "קיצור בעל הטורים על דברי'",
-        "קיצור בעל הטורים על דברי׳"
+        "קיצור בעל הטורים על דברי׳",
+        "קיצור בעל הטורים על דברים"
     ],
     "sectionNames": [
         "Chapter",
@@ -113,7 +165,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "קיצור בעל הטורים",
         "תורה"
     ],

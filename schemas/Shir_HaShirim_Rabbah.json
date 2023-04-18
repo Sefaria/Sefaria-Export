@@ -2,7 +2,7 @@
     "title": "Shir HaShirim Rabbah",
     "categories": [
         "Midrash",
-        "Aggadic Midrash",
+        "Aggadah",
         "Midrash Rabbah"
     ],
     "schema": {
@@ -17,6 +17,32 @@
             "Parasha",
             "Chapter",
             "Midrash"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "song-of-songs",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "midrash",
+                    "song-of-songs",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "midrash-rabbah",
+                    "song-of-songs"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            105,
+            264
         ],
         "titles": [
             {
@@ -48,11 +74,6 @@
                 "lang": "en"
             },
             {
-                "text": "שיר השירים רבה",
-                "primary": true,
-                "lang": "he"
-            },
-            {
                 "text": "שהש\"ר",
                 "lang": "he"
             },
@@ -63,6 +84,15 @@
             {
                 "text": "שהש״ר",
                 "lang": "he"
+            },
+            {
+                "text": "שהש”ר",
+                "lang": "he"
+            },
+            {
+                "text": "שיר השירים רבה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Shir HaShirim Rabbah",
@@ -83,8 +113,10 @@
         6.0
     ],
     "authors": [],
-    "enDesc": "Shir haShirim Rabbah (The Great Song of Songs) is a haggadic midrash on the Song of Songs, quoted by Rashi. Simon Duran, in quoting this midrash claims it is from Israel. The sources which it uses are from the Jerusalem Talmud, Pesiḳta de-Rab Kahana, Genesis Rabbah, Leviticus Rabbah and other no longer extant sources. No direct borrowing from the Babylonian Talmud . It was probably written in the 9th Century.",
-    "heDesc": "שיר השירים רבה הינו מדרש אגדי על מגילת שיר השירים. המדרש מצוטט בידי רש\"י. שמעון דוראן, כאשר מצטט את המדרש, טוען שמדובר בחיבור ארץ ישראלי. החיבור שואב מהתלמוד הירושלמי, מפסיקתא דרב כהנא, ממדרשי בראשית וויקרא רבה, וממקורות נוספים שאינם מצויים בידינו. המדרש אינו שואל באופן ישיר מהתלמוד הבבלי, והוא חובר ככל הנראה במאה ה-9.",
+    "enDesc": "Shir HaShirim Rabbah is a 7th-century midrash on Song of Songs with verse-by-verse commentary. Compiled in Israel, it gathers material from the Jerusalem Talmud, Pesiḳta d'Rav Kahana, Bereishit Rabbah, Vayikra Rabbah and other sources, and also includes midrashim that are not found in any earlier sources. The work interprets Song of Songs allegorically, assuming that the relationship between the lovers in the book is a metaphor for God’s relationship with Israel.",
+    "heDesc": "\"שיר השירים רבה\" הינו מדרש אגדי על מגילת שיר השירים. המדרש מצוטט בידי רש\"י. שמעון דוראן, כאשר מצטט את המדרש, טוען שמדובר בחיבור ארץ ישראלי. החיבור שואב מהתלמוד הירושלמי, מפסיקתא דרב כהנא, ממדרשי בראשית וויקרא רבה, וממקורות נוספים שאינם מצויים בידינו. המדרש אינו שואל באופן ישיר מהתלמוד הבבלי, והוא חובר ככל הנראה במאה ה-9.",
+    "enShortDesc": "7th-century midrash on Song of Songs with allegorical interpretations.",
+    "heShortDesc": "מדרש מן המאה השביעית על שיר השירים, המפרש את הטקסט באופן אלגורי.",
     "pubDate": "1519",
     "compDate": "890",
     "compPlace": "Talmudic Israel/Babylon",
@@ -92,6 +124,9 @@
     "errorMargin": "100",
     "era": "GN",
     "is_cited": true,
+    "corpora": [
+        "Midrash Rabbah"
+    ],
     "heTitle": "שיר השירים רבה",
     "titleVariants": [
         "Shir Hashirim Rabba",
@@ -104,10 +139,11 @@
         "Shir HaShirim Rabbah"
     ],
     "heTitleVariants": [
-        "שיר השירים רבה",
         "שהש\"ר",
         "מדרש רבה שיר השירים",
-        "שהש״ר"
+        "שהש״ר",
+        "שהש”ר",
+        "שיר השירים רבה"
     ],
     "sectionNames": [
         "Parasha",
@@ -117,7 +153,7 @@
     "depth": 3,
     "heCategories": [
         "מדרש",
-        "מדרש אגדה",
+        "אגדה",
         "מדרש רבה"
     ],
     "compDateString": {

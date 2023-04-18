@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ben-aryeh",
+                    "hilchot",
+                    "admission-into-the-sanctuary"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ben-aryeh",
+                    "admission-into-the-sanctuary"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            5,
+            5
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,7 +62,11 @@
         "key": "Ben Aryeh on Mishneh Torah, Admission into the Sanctuary"
     },
     "authors": [
-        "Zev ben Aryeh"
+        {
+            "en": "Zev ben Aryeh",
+            "he": "זאב בן אריה",
+            "slug": "zev-ben-aryeh"
+        }
     ],
     "heDesc": "חידושים וציוני מראה מקומות לדברי הרמב\"ם",
     "compDate": "1840",

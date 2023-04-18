@@ -7,52 +7,96 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "niddah"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "niddah"
+            ]
+        },
         "lengths": [
+            4,
             25,
-            65
+            104
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "JT Nidah"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Nidah"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Niddah"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Niddah"
-            },
-            {
-                "lang": "en",
-                "text": "JT Niddah"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי נדה",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי נדה"
+                "text": "JT Nidah",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Nidd."
+                "text": "Yerushalmi Nidah",
+                "lang": "en"
+            },
+            {
+                "text": "Talmud Yerushalmi Niddah",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Niddah",
+                "lang": "en"
+            },
+            {
+                "text": "JT Niddah",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי נדה",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Nidd.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Niddah",
@@ -63,23 +107,27 @@
         "title": "Jerusalem Talmud Niddah",
         "heTitle": "תלמוד ירושלמי נדה",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Niddah"
     },
     "order": [
         39
     ],
-    "authors": [],
-    "enDesc": "Niddah (Separation) belongs to the sixth order, Tahorot (Purities) and discusses a Niddah, a woman either during her menstrual cycle or shortly after having given birth. It has ten chapters.",
+    "enDesc": "Niddah (“Woman who is Menstruating”) is a tractate in Seder Taharot (“Order of Purities”) that discusses the ritual impurity of a woman in her menstrual cycle or experiencing particular discharges and the accompanying prohibition of intercourse. Its ten chapters address details such as the status of blood stains, hymenal bleeding, and blood from an internal wound.",
+    "enShortDesc": "The ritual impurity of a woman in her menstrual cycle or experiencing particular discharges.",
+    "heShortDesc": "טומאת האישה בנידתה ובמצבים נוספים.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי נדה",
     "titleVariants": [
         "JT Nidah",
@@ -94,11 +142,387 @@
         "תלמוד ירושלמי נדה",
         "ירושלמי נדה"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Niddah 1:1:2-6:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Niddah 1:1:2-7",
+                        "Jerusalem Talmud Niddah 1:1:7-3:5",
+                        "Jerusalem Talmud Niddah 1:3:5-4:7",
+                        "Jerusalem Talmud Niddah 1:4:7-6:5"
+                    ],
+                    "startingAddress": "48d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שמאי אומר",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "שמאי אומר",
+                    "offset": 191
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Niddah 2:1:1-7:9",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Niddah 2:1:1-2",
+                        "Jerusalem Talmud Niddah 2:1:2-3:3",
+                        "Jerusalem Talmud Niddah 2:3:3-7:3",
+                        "Jerusalem Talmud Niddah 2:7:3-9"
+                    ],
+                    "startingAddress": "49c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל היד",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "כל היד",
+                    "offset": 194
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Niddah 3:1:1-5:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Niddah 3:1:1-2:9",
+                        "Jerusalem Talmud Niddah 3:2:9-4:6",
+                        "Jerusalem Talmud Niddah 3:4:6-5:4"
+                    ],
+                    "startingAddress": "50c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המפלת חתיכה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "המפלת חתיכה",
+                    "offset": 198
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Niddah 4:1:1-7:1",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Niddah 4:1:1-2",
+                        "Jerusalem Talmud Niddah 4:1:2-7:1"
+                    ],
+                    "startingAddress": "51a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בנות כותים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "בנות כותים",
+                    "offset": 200
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי נדה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Nidah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Nidah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Niddah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Niddah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Niddah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי נדה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Nidd.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Niddah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Niddah",
+            "heTitle": "תלמוד ירושלמי נדה"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Niddah 1:1:1-6:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Niddah 1:1:1-4",
+                        "Jerusalem Talmud Niddah 1:1:4-7",
+                        "Jerusalem Talmud Niddah 1:1:7-2:2",
+                        "Jerusalem Talmud Niddah 1:2:2-3:4",
+                        "Jerusalem Talmud Niddah 1:3:4-7",
+                        "Jerusalem Talmud Niddah 1:3:7-4:5",
+                        "Jerusalem Talmud Niddah 1:4:5-5:2",
+                        "Jerusalem Talmud Niddah 1:5:2-4",
+                        "Jerusalem Talmud Niddah 1:5:4-6:2",
+                        "Jerusalem Talmud Niddah 1:6:2-5",
+                        "Jerusalem Talmud Niddah 1:6:5"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שמאי אומר",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "שמאי אומר",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Niddah 2:1:1-7:9",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Niddah 2:1:1-5",
+                        "Jerusalem Talmud Niddah 2:1:5-2:3",
+                        "Jerusalem Talmud Niddah 2:2:3-4:2",
+                        "Jerusalem Talmud Niddah 2:4:2-6:1",
+                        "Jerusalem Talmud Niddah 2:6:1-7:2",
+                        "Jerusalem Talmud Niddah 2:7:2-6",
+                        "Jerusalem Talmud Niddah 2:7:6-9"
+                    ],
+                    "startingAddress": "6a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל היד",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "כל היד",
+                    "offset": 10
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Niddah 3:1:1-5:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Niddah 3:1:1-2:1",
+                        "Jerusalem Talmud Niddah 3:2:1-5",
+                        "Jerusalem Talmud Niddah 3:2:5-9",
+                        "Jerusalem Talmud Niddah 3:2:9-4:1",
+                        "Jerusalem Talmud Niddah 3:4:1-5",
+                        "Jerusalem Talmud Niddah 3:4:5-7",
+                        "Jerusalem Talmud Niddah 3:4:7-5:3",
+                        "Jerusalem Talmud Niddah 3:5:3-4"
+                    ],
+                    "startingAddress": "9a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המפלת חתיכה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "המפלת חתיכה",
+                    "offset": 16
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Niddah 4:1:1-7:1",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Niddah 4:1:1-6:1",
+                        "Jerusalem Talmud Niddah 4:6:1-7:1"
+                    ],
+                    "startingAddress": "12b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בנות כותים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "בנות כותים",
+                    "offset": 23
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי נדה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Nidah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Nidah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Niddah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Niddah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Niddah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי נדה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Nidd.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Niddah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Niddah",
+            "heTitle": "תלמוד ירושלמי נדה"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

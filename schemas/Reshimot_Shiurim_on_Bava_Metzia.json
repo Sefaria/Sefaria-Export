@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Modern Commentary on Talmud",
         "Reshimot Shiurim",
         "Seder Nezikin"
     ],
@@ -17,6 +17,27 @@
         "sectionNames": [
             "Daf",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "reshimot-shiurim",
+                    "bava-metzia"
+                ]
+            }
+        ],
+        "lengths": [
+            237,
+            3229
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,12 +60,18 @@
         "key": "Reshimot Shiurim on Bava Metzia"
     },
     "authors": [
-        "Joseph Dov HaLevi Soloveitchik"
+        {
+            "en": "Joseph B. Soloveitchik",
+            "he": "יוסף דוב הלוי סולובייצ'יק",
+            "slug": "joseph-b-soloveitchik"
+        }
     ],
     "enDesc": "Recorded by one of Rabbi Soloveitchik's close students, Rabbi Hershel Reichman, these notes bring out Rabbi Soloveitchik's adept use of the \"Brisker method\" to identify conceptual categories that reveal a deeper possible meaning to otherwise contradictory texts.",
     "pubDate": "2016",
+    "compDate": "1960",
     "compPlace": "New York",
-    "pubPlace": "New York",
+    "pubPlace": "",
+    "errorMargin": "55",
     "era": "CO",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -73,10 +100,14 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "פירושים מודרניים על התלמוד",
         "רשימות שיעורים",
         "סדר נזיקין"
     ],
+    "compDateString": {
+        "en": " (c.1905  - c.2015 CE)",
+        "he": " (1905 - 2015 לספירה בקירוב)"
+    },
     "compPlaceString": {
         "en": "New York",
         "he": "ניו יורק"

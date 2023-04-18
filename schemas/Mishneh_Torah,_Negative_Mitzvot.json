@@ -14,6 +14,43 @@
         "sectionNames": [
             "Mitzvah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "negative-mitzvot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "negative-mitzvot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "negative-mitzvot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "negative-mitzvot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "negative-mitzvot"
+                ]
+            }
+        ],
+        "lengths": [
+            370
+        ],
         "titles": [
             {
                 "lang": "en",
@@ -29,11 +66,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, מצוות לא תעשה",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, מצוות לא תעשה"
             },
             {
@@ -41,8 +73,29 @@
                 "text": "רמב\"ם מצוות לא תעשה"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, מצוות לא תעשה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, מצוות לא תעשה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם מצוות לא תעשה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם מצוות לא תעשה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, מצוות לא תעשה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Negative Mitzvot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -58,9 +111,13 @@
         3
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "Introduction - Negative precepts. ",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -76,9 +133,13 @@
         "Mishneh Torah, Negative Mitzvot"
     ],
     "heTitleVariants": [
-        "משנה תורה, מצוות לא תעשה",
         "רמב\"ם, מצוות לא תעשה",
-        "רמב\"ם מצוות לא תעשה"
+        "רמב\"ם מצוות לא תעשה",
+        "רמב״ם, מצוות לא תעשה",
+        "רמב”ם, מצוות לא תעשה",
+        "רמב״ם מצוות לא תעשה",
+        "רמב”ם מצוות לא תעשה",
+        "משנה תורה, מצוות לא תעשה"
     ],
     "sectionNames": [
         "Mitzvah"

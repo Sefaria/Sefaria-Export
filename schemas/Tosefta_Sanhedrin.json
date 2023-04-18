@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Sanhedrin",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Nezikin"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "sanhedrin"
+                ]
+            }
+        ],
         "lengths": [
-            14
+            14,
+            67
         ],
         "titles": [
             {
@@ -33,17 +42,17 @@
                 "text": "Tos. Sanhedrin"
             },
             {
-                "lang": "he",
-                "text": "תוספתא סנהדרין",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Snh."
             },
             {
-                "lang": "en",
+                "text": "תוספתא סנהדרין",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Sanhedrin",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -59,7 +68,9 @@
         5
     ],
     "authors": [],
-    "enDesc": "Sanhedrin (The Synod) belongs to the fourth order, Nezikin (The Order of Damages) and discusses the rules of court proceedings in the Sanhedrin, the death penalty, and other criminal matters. It has fourteen chapters.",
+    "enDesc": "Tractate Sanhedrin (“Assembly of Judges”) is a tractate in Seder Nezikin (“Order of Damages\") that addresses the judicial system. Its eleven chapters discuss the selection of judges and forming a court, the process of accepting testimony, and monetary, corporal, and capital punishment.",
+    "enShortDesc": "The judicial system, forming the court, accepting testimony, and executing capital punishment.",
+    "heShortDesc": "מערכת המשפט, הקמת בית הדין, קבלת עדות וביצוע גזר דין מוות.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -84,8 +95,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר נזיקין"
     ],
     "compDateString": {

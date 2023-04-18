@@ -15,9 +15,28 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "kinnim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kinnim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "kinnim"
+                ]
+            }
+        ],
         "lengths": [
             3,
-            16
+            15
         ],
         "titles": [
             {
@@ -31,11 +50,6 @@
             {
                 "lang": "en",
                 "text": "M Kinnim"
-            },
-            {
-                "lang": "he",
-                "text": "משנה קינים",
-                "primary": true
             },
             {
                 "lang": "he",
@@ -66,8 +80,13 @@
                 "text": "Mishnah Ḳinnim"
             },
             {
-                "lang": "en",
+                "text": "משנה קינים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Kinnim",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -85,6 +104,8 @@
     ],
     "authors": [],
     "enDesc": "Kinnim (Nests) belongs to the fifth order, Kodshim (Holy things) and discusses the complex laws for situations where the mixing of bird-offerings occurred. It has three chapters.",
+    "enShortDesc": "Bird-offerings that are mixed up and the complex math involved in determining their status.",
+    "heShortDesc": "עופות שנועדו לקורבן והתערבו זה בזה והחישובים המורכבים שיש לחשב כדי לקבוע את מעמדם.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -92,6 +113,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה קינים",
     "titleVariants": [
         "M. Kinnim",
@@ -104,10 +128,10 @@
         "Mishnah Kinnim"
     ],
     "heTitleVariants": [
-        "משנה קינים",
         "קינים",
         "קנים",
-        "משנה קנים"
+        "משנה קנים",
+        "משנה קינים"
     ],
     "sectionNames": [
         "Chapter",

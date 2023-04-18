@@ -2,7 +2,7 @@
     "title": "Rashbam on Genesis",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Rashbam",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rashbam",
+                    "genesis"
+                ]
+            }
+        ],
+        "lengths": [
+            50,
+            537,
+            799
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -138,11 +156,6 @@
             },
             {
                 "lang": "he",
-                "text": "רשב\"ם על בראשית",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רשב\"ם על ברא'"
             },
             {
@@ -162,6 +175,59 @@
                 "text": "רשב\"ם על בְּרֵאשִׁית"
             },
             {
+                "text": "רשב״ם על בראשית",
+                "lang": "he"
+            },
+            {
+                "text": "רשב”ם על בראשית",
+                "lang": "he"
+            },
+            {
+                "text": "רשב״ם על ברא'",
+                "lang": "he"
+            },
+            {
+                "text": "רשב”ם על ברא'",
+                "lang": "he"
+            },
+            {
+                "text": "רשב״ם על בר'",
+                "lang": "he"
+            },
+            {
+                "text": "רשב”ם על בר'",
+                "lang": "he"
+            },
+            {
+                "text": "רשב״ם על בר׳",
+                "lang": "he"
+            },
+            {
+                "text": "רשב”ם על בר׳",
+                "lang": "he"
+            },
+            {
+                "text": "רשב״ם על ברא׳",
+                "lang": "he"
+            },
+            {
+                "text": "רשב”ם על ברא׳",
+                "lang": "he"
+            },
+            {
+                "text": "רשב״ם על בְּרֵאשִׁית",
+                "lang": "he"
+            },
+            {
+                "text": "רשב”ם על בְּרֵאשִׁית",
+                "lang": "he"
+            },
+            {
+                "text": "רשב\"ם על בראשית",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Rashbam on Genesis",
                 "lang": "en",
                 "primary": true
@@ -177,9 +243,13 @@
         "key": "Rashbam on Genesis"
     },
     "authors": [
-        "Rashbam"
+        {
+            "en": "Rashbam",
+            "he": "רשב״ם",
+            "slug": "rashbam"
+        }
     ],
-    "enDesc": "Commentary written by Rabbi Shmuel ben Meir, Rashbam (France, c.1080 - c.1160). Rashbam, a grandson of Rashi, was part of the Tosafist school. Whereas Rashi famously claimed that his commentary would present the pshat (contextual meaning) of the text, when in reality it relies heavily on midrash; Rashbam’s commentary actually stays very loyal to the pshat. ",
+    "enDesc": "Commentary written by Rabbi Shmuel ben Meir, Rashbam (France, c.1080 - c.1160). Rashbam, a grandson of Rashi, was part of the Tosafist school. Whereas Rashi famously claimed that his commentary would present the pshat (contextual meaning) of the text, when in reality it relies heavily on midrash; Rashbam’s commentary actually stays very loyal to the pshat.",
     "pubDate": "1705",
     "compDate": "1140",
     "compPlace": "Middle-Age France",
@@ -233,12 +303,24 @@
         "Rashbam on Genesis"
     ],
     "heTitleVariants": [
-        "רשב\"ם על בראשית",
         "רשב\"ם על ברא'",
         "רשב\"ם על בר'",
         "רשב\"ם על בר׳",
         "רשב\"ם על ברא׳",
-        "רשב\"ם על בְּרֵאשִׁית"
+        "רשב\"ם על בְּרֵאשִׁית",
+        "רשב״ם על בראשית",
+        "רשב”ם על בראשית",
+        "רשב״ם על ברא'",
+        "רשב”ם על ברא'",
+        "רשב״ם על בר'",
+        "רשב”ם על בר'",
+        "רשב״ם על בר׳",
+        "רשב”ם על בר׳",
+        "רשב״ם על ברא׳",
+        "רשב”ם על ברא׳",
+        "רשב״ם על בְּרֵאשִׁית",
+        "רשב”ם על בְּרֵאשִׁית",
+        "רשב\"ם על בראשית"
     ],
     "sectionNames": [
         "Chapter",
@@ -248,7 +330,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "רשב\"ם",
         "תורה"
     ],

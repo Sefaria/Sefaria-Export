@@ -15,39 +15,62 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "horayot"
+                ]
+            }
+        ],
         "lengths": [
             3,
             20
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "M. Horayot"
+                "text": "M. Horayot",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "M Horayot"
+                "text": "M Horayot",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Mishna Horayot"
+                "text": "Mishna Horayot",
+                "lang": "en"
             },
             {
-                "lang": "he",
+                "text": "Mishnah Hor.",
+                "lang": "en"
+            },
+            {
+                "text": "Mishnah Horayoth",
+                "lang": "en"
+            },
+            {
+                "text": "Horaiot",
+                "lang": "en"
+            },
+            {
                 "text": "משנה הוריות",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "en",
-                "text": "Mishnah Hor."
-            },
-            {
-                "lang": "en",
-                "text": "Mishnah Horayoth"
-            },
-            {
-                "lang": "en",
                 "text": "Mishnah Horayot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -64,7 +87,9 @@
         10
     ],
     "authors": [],
-    "enDesc": "Horayot (Decisions) belongs to the fourth order, Nezikin (The Order of Damages) and discusses the communal sin-offering brought for major errors by the Sanhedrin. It has three chapters.",
+    "enDesc": "Horayot (“Decisions”) is the last tractate in Seder Nezikin (“Order of Damages\"). Its three chapters discuss erroneous rulings of the court, inadvertent sins of kings, High Priests, or political leaders, and the sacrifices brought as atonement. The conclusion of the tractate addresses the statuses of various members of the Jewish people and how to prioritize them when necessary.",
+    "enShortDesc": "Atoning for erroneous rulings of the court and inadvertent sins of leaders.",
+    "heShortDesc": "כפרה על פסיקות שגויות שהורו בבית הדין ועל חטאים בשגגה של כהנים גדולים ומלכים.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +97,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה הוריות",
     "titleVariants": [
         "M. Horayot",
@@ -79,6 +107,7 @@
         "Mishna Horayot",
         "Mishnah Hor.",
         "Mishnah Horayoth",
+        "Horaiot",
         "Mishnah Horayot"
     ],
     "heTitleVariants": [

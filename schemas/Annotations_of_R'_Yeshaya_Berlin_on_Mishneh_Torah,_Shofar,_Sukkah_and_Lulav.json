@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "annotations-of-r-yeshaya-berlin",
+                    "hilchot",
+                    "shofar-sukkah-and-lulav"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "annotations-of-r-yeshaya-berlin",
+                    "shofar-sukkah-and-lulav"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            1,
+            1
+        ],
         "titles": [
             {
                 "text": "חידושים והגהות הגרי\"ב על משנה תורה, הלכות שופר וסוכה ולולב",
@@ -42,7 +62,11 @@
         "key": "Annotations of R' Yeshaya Berlin on Mishneh Torah, Shofar, Sukkah and Lulav"
     },
     "authors": [
-        "Isaiah Berlin"
+        {
+            "en": "Isaiah Berlin",
+            "he": "ישעיה פיק ברלין",
+            "slug": "isaiah-berlin"
+        }
     ],
     "compDate": "1775",
     "pubPlace": "Jerusalem, Israel",

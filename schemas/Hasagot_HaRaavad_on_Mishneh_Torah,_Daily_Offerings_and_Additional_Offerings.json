@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "hasagot-haraavad",
+                    "hilchot",
+                    "daily-offerings-and-additional-offerings"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hasagot-haraavad",
+                    "daily-offerings-and-additional-offerings"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            10,
+            11
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Hasagot HaRaavad on Mishneh Torah, Daily Offerings and Additional Offerings",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Hasagot HaRaavad on Mishneh Torah, Daily Offerings and Additional Offerings",
@@ -42,7 +62,11 @@
         "key": "Hasagot HaRaavad on Mishneh Torah, Daily Offerings and Additional Offerings"
     },
     "authors": [
-        "Ra'avad"
+        {
+            "en": "Ra'avad",
+            "he": "ראב\"ד",
+            "slug": "raavad"
+        }
     ],
     "enDesc": "Raavad's glosses on Rambam's Mishneh Torah expressing his dissenting opinion.",
     "heDesc": "הגהותיו של הראב\"ד על המשנה תורה של הרמב\"ם, המבטאות את דעתו החולקת.",

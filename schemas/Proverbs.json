@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "proverbs"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "proverbs"
+                ]
+            }
         ],
         "lengths": [
             31,
@@ -49,14 +62,14 @@
                 "text": "Mishle"
             },
             {
-                "primary": true,
+                "text": "משלי",
                 "lang": "he",
-                "text": "משלי"
+                "primary": true
             },
             {
-                "primary": true,
+                "text": "Proverbs",
                 "lang": "en",
-                "text": "Proverbs"
+                "primary": true
             }
         ],
         "title": "Proverbs",
@@ -71,13 +84,20 @@
         28,
         2
     ],
-    "enDesc": "The Book of Mishle (Proverbs) is the second book of Ketuvim (Writings) the third section of the Tanakh (Bible). Proverbs is not merely an anthology but a \"collection of collections\" relating to a pattern of life which lasted for more than a millennium. It is an example of the Biblical wisdom tradition, and raises questions of values, moral behaviour, the meaning of human life, and right conduct. The repeated theme is that \"the fear of God (meaning submission to the will of God) is the beginning of wisdom\". Roughly half the book is made up of short \"sayings\"; the other half is made up of longer poetic units of various types. These include \"instructions\" formulated as advice from a teacher or parent addressed to a student or child, dramatic personifications of both Wisdom and Folly, and the \"words of the wise\" sayings, longer than the Solomonic \"sayings\" but shorter and more diverse than the \"instructions\".",
+    "authors": [],
+    "enDesc": "Proverbs (“Mishlei”), the second book of the section in the Hebrew Bible called Writings, contains guidance for living a wise, moral, and righteous life, in the form of poems and short statements. It consists of both general observations about human nature as well as lessons directly instructing the listener to take a course of action, covering themes like avoiding bad influences, the value of hard work, properly using the power of speech, and the importance of fearing God.",
+    "heDesc": "משלי הוא הספר השני בחטיבת כתובים, ועניינו הדרכה לחיי מוסר, חוכמה וצדק המוגשת בפתגמים ובאמרי מוסר שיריים. יש בספר גם אמירות כלליות על טבע האדם וגם הנחיות מעשיות להתנהגות ראויה, וכמה מנושאיו העיקריים הם הימנעות מהשפעה שלילית, האדרת ערך העמל, שימוש נכון בכוח הדיבור והחשיבות של יראת אלוקים.",
+    "enShortDesc": "Guidance for living a wise, moral, and righteous life, in the form of poems and short statements.",
+    "heShortDesc": "מספרי החוכמה, ספר הדרכה לחיי מוסר, חוכמה וצדק שעיקרו פתגמים ואמרי מוסר שיריים.",
     "pubDate": "1488",
     "compDate": "-600",
     "compPlace": "Judea/Israel",
     "pubPlace": "Soncino",
     "errorMargin": "200",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "משלי",
     "titleVariants": [
         "Prov",

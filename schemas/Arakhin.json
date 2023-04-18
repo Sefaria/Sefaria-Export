@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "arakhin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "arakhin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "arakhin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "arakhin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "arakhin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "arakhin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "arakhin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "arakhin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "arakhin"
+                ]
+            }
+        ],
         "lengths": [
-            65,
-            3734
+            67,
+            1183
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -50,13 +114,13 @@
                 "text": "Arakin"
             },
             {
-                "lang": "he",
-                "text": "ערכין",
-                "primary": true
-            },
-            {
                 "text": "BT Arakhin",
                 "lang": "en"
+            },
+            {
+                "text": "ערכין",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Arakhin",
@@ -77,12 +141,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         32,
         5
     ],
     "authors": [],
-    "enDesc": "Arakhin (Dedications) belongs to the fifth order, Kodshim (Holy things) and discusses a person dedicating their value to the Temple or dedicating a field. It has nine chapters.",
+    "enDesc": "Arakhin (“Values”) is a tractate within Seder Kodashim (“Order of Holy Things”). Its nine chapters address the process of vowing to donate a person’s prescribed value to provide for Temple maintenance (as described in Leviticus chapter 27), discussing details such as limitations on who can take a vow of donation and methods of collecting these donations. The tractate also discusses donations of land to the Temple and the sale of ancestral fields, houses of walled cities, and houses of unwalled courtyards.",
+    "enShortDesc": "Vowing to donate a person’s prescribed value delineated in the Torah to the Temple, donations of land to the Temple.",
+    "heShortDesc": "נדר לתרום לבית המקדש ממון בשווי ערכו של אדם לפי המפורט בתורה, תרומות קרקע לבית המקדש.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -90,6 +159,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "ערכין",
     "titleVariants": [
         "Masekhet Arakhin",
@@ -113,6 +185,33 @@
                     "depth": 1,
                     "wholeRef": "Arakhin 2a:1-7b:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-1"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-1"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -154,6 +253,33 @@
                     "depth": 1,
                     "wholeRef": "Arakhin 7b:15-13b:16",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-2"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-2"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -196,6 +322,33 @@
                     "depth": 1,
                     "wholeRef": "Arakhin 13b:17-17a:8",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-3"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-3"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -233,6 +386,33 @@
                     "depth": 1,
                     "wholeRef": "Arakhin 17a:9-19a:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-4"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-4"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "lang": "en",
@@ -267,6 +447,33 @@
                     "depth": 1,
                     "wholeRef": "Arakhin 19a:4-21b:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-5"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-5"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "lang": "en",
@@ -302,6 +509,33 @@
                     "depth": 1,
                     "wholeRef": "Arakhin 21b:13-24a:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-6"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-6"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "lang": "en",
@@ -337,6 +571,33 @@
                     "depth": 1,
                     "wholeRef": "Arakhin 24a:12-27a:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-7"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-7"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "lang": "en",
@@ -373,6 +634,33 @@
                     "depth": 1,
                     "wholeRef": "Arakhin 27a:7-29a:24",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-8"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-8"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "lang": "en",
@@ -407,6 +695,44 @@
                     "depth": 1,
                     "wholeRef": "Arakhin 29b:1-34a:9",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-9"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-9"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "lang": "en",
@@ -472,13 +798,13 @@
                     "text": "Arakin"
                 },
                 {
-                    "lang": "he",
-                    "text": "ערכין",
-                    "primary": true
-                },
-                {
                     "text": "BT Arakhin",
                     "lang": "en"
+                },
+                {
+                    "text": "ערכין",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Arakhin",

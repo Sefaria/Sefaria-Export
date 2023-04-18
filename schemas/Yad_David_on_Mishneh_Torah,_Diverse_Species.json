@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yad-david",
+                    "hilchot",
+                    "diverse-species"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yad-david",
+                    "diverse-species"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            1,
+            1
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Yad David on Mishneh Torah, Diverse Species",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Yad David on Mishneh Torah, Diverse Species",
@@ -41,6 +61,7 @@
         ],
         "key": "Yad David on Mishneh Torah, Diverse Species"
     },
+    "authors": [],
     "dependence": "Commentary",
     "base_text_titles": [
         {

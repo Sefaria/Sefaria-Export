@@ -2,7 +2,7 @@
     "title": "Rashi on I Samuel",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Rashi",
         "Prophets"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rashi",
+                    "i-samuel"
+                ]
+            }
+        ],
+        "lengths": [
+            31,
+            395,
+            640
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -66,11 +84,6 @@
             },
             {
                 "lang": "he",
-                "text": "רש\"י על שמואל א",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רש\"י על ש״א"
             },
             {
@@ -94,6 +107,51 @@
                 "text": "רש\"י על שמ\"א"
             },
             {
+                "text": "רש״י על שמואל א",
+                "lang": "he"
+            },
+            {
+                "text": "רש”י על שמואל א",
+                "lang": "he"
+            },
+            {
+                "text": "רש״י על ש״א",
+                "lang": "he"
+            },
+            {
+                "text": "רש”י על ש”א",
+                "lang": "he"
+            },
+            {
+                "text": "רש״י על שמואל א׳",
+                "lang": "he"
+            },
+            {
+                "text": "רש”י על שמואל א׳",
+                "lang": "he"
+            },
+            {
+                "text": "רש״י על שמואל א'",
+                "lang": "he"
+            },
+            {
+                "text": "רש”י על שמואל א'",
+                "lang": "he"
+            },
+            {
+                "text": "רש״י על שמ״א",
+                "lang": "he"
+            },
+            {
+                "text": "רש”י על שמ”א",
+                "lang": "he"
+            },
+            {
+                "text": "רש\"י על שמואל א",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Rashi on I Samuel",
                 "lang": "en",
                 "primary": true
@@ -109,9 +167,13 @@
         "key": "Rashi on I Samuel"
     },
     "authors": [
-        "Rashi"
+        {
+            "en": "Rashi",
+            "he": "רש״י",
+            "slug": "rashi"
+        }
     ],
-    "enDesc": "Commentary on the Tanakh written by Rabbi Shlomo Yitzchaki (Rashi). Rashi lived in Troyes, France (1040-1105). Rashi’s commentary is an essential explanation of the Tanakh and resides in a place of honor on the page of almost all editions of the Tanakh. Over 300 supercommentaries have been written to further explain Rashi’s comments on the Torah. While quoting many midrashim and Talmudic passages, Rashi, in his commentary, states that his purpose is to present the pshat (contextual meaning) of the text. ",
+    "enDesc": "Commentary on the Tanakh written by Rabbi Shlomo Yitzchaki (Rashi). Rashi lived in Troyes, France (1040-1105). Rashi’s commentary is an essential explanation of the Tanakh and resides in a place of honor on the page of almost all editions of the Tanakh. Over 300 supercommentaries have been written to further explain Rashi’s comments on the Torah. While quoting many midrashim and Talmudic passages, Rashi, in his commentary, states that his purpose is to present the pshat (contextual meaning) of the text.",
     "pubDate": "1476",
     "compDate": "1090",
     "compPlace": "Middle-Age France",
@@ -147,13 +209,23 @@
         "Rashi on I Samuel"
     ],
     "heTitleVariants": [
-        "רש\"י על שמואל א",
         "רש\"י על ש״א",
         "רש\"י על ש\"א",
         "רש\"י על שמואל א׳",
         "רש\"י על שמואל א'",
         "רש\"י על שמ״א",
-        "רש\"י על שמ\"א"
+        "רש\"י על שמ\"א",
+        "רש״י על שמואל א",
+        "רש”י על שמואל א",
+        "רש״י על ש״א",
+        "רש”י על ש”א",
+        "רש״י על שמואל א׳",
+        "רש”י על שמואל א׳",
+        "רש״י על שמואל א'",
+        "רש”י על שמואל א'",
+        "רש״י על שמ״א",
+        "רש”י על שמ”א",
+        "רש\"י על שמואל א"
     ],
     "sectionNames": [
         "Chapter",
@@ -163,7 +235,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "רש\"י",
         "נביאים"
     ],

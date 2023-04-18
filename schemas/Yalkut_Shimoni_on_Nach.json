@@ -2,7 +2,7 @@
     "title": "Yalkut Shimoni on Nach",
     "categories": [
         "Midrash",
-        "Aggadic Midrash"
+        "Aggadah"
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
@@ -14,6 +14,17 @@
         "sectionNames": [
             "Remez",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yalkut-shimoni-on-nach"
+                ]
+            }
+        ],
+        "lengths": [
+            1085,
+            5291
         ],
         "titles": [
             {
@@ -125,14 +136,22 @@
                 "text": "Yalk. Hos."
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "ילקוט שמעוני על נ\"ך"
+                "text": "ילקוט שמעוני על נ״ך",
+                "lang": "he"
             },
             {
-                "primary": true,
+                "text": "ילקוט שמעוני על נ”ך",
+                "lang": "he"
+            },
+            {
+                "text": "ילקוט שמעוני על נ\"ך",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "Yalkut Shimoni on Nach",
                 "lang": "en",
-                "text": "Yalkut Shimoni on Nach"
+                "primary": true
             }
         ],
         "title": "Yalkut Shimoni on Nach",
@@ -145,8 +164,10 @@
     },
     "default_struct": "Remez",
     "authors": [],
-    "enDesc": "The Yalkut Shimoni (Gathering of Simon) or simply Yalkut is an aggadic (homiletic) compilation on the books of the Tanakh. From such older aggadot as were accessible to him, the author collected various interpretations and explanations of Biblical passages, and arranged these according to the sequence of those portions of the Bible to which they referred. The second part deals with the Neviim and the Ketuvim, and contains 1,085 sections. For Neviim, the redactor followed the Talmudic order of the prophetic books. In the arrangement of the Ketuvim the author deviates from the Talmudic order by placing the Book of Esther before the Book of Daniel.",
-    "heDesc": "ילקוט שמעוני, הידוע גם כ\"ילקוט\", הינו אוסף מדרשים על ספרי התנ\"ך. המחבר אסף, מכתבי אגדה ישנים יותר שהיו בידו, פרשנויות והסברים שונים לפסקאות מקראיות, וסידר אותם לפי סדר קטעי התנ\"ך אליהם התייחסו. החיבור מחולק לחלקים שונים, כאשר הראשון עוסק בחמשת חומשי התורה, והחלק השני עוסק בספרי הנביאים והכתובים, וכולל 1,085 רמזים (=פסקאות). עבור ספרי הנביאים השתמש העורך בסדר התלמודי של הספרים. בנוגע לספרי הכתובים, המחבר סוטה מהסדר התלמודי ומציב את מגילת אסתר לפני ספר דניאל.",
+    "enDesc": "The Yalkut Shimoni (“Gathering of Simon”) is a midrash on the books of Tanakh, compiled sometime between the 11th and 14th centuries. The author collected various interpretations of biblical passages from older midrashim and arranged them according to the portions of the Bible to which they referred. The work is divided into sections, with the second part commenting on the Prophets and Writings.",
+    "heDesc": "\"ילקוט שמעוני\", הידוע גם כ\"ילקוט\", הינו אוסף מדרשים על ספרי התנ\"ך. המחבר אסף, מכתבי אגדה ישנים יותר שהיו בידו, פרשנויות והסברים שונים לפסקאות מקראיות, וסידר אותם לפי סדר קטעי התנ\"ך אליהם התייחסו. החיבור מחולק לחלקים שונים, כאשר הראשון עוסק בחמשת חומשי התורה, והחלק השני עוסק בספרי הנביאים והכתובים, וכולל 1,085 רמזים (=פסקאות). עבור ספרי הנביאים השתמש העורך בסדר התלמודי של הספרים. בנוגע לספרי הכתובים, המחבר סוטה מהסדר התלמודי ומציב את מגילת אסתר לפני ספר דניאל.",
+    "enShortDesc": "Medieval compilation of earlier midrashim arranged according to the verses of the Prophets and Writings.",
+    "heShortDesc": "אוסף  של מדרשים על פסוקים בספרי נביאים וכתובים. נערך בימי הביניים.",
     "pubDate": "1521",
     "compDate": "1100",
     "pubPlace": "Thessaloniki",
@@ -184,10 +205,12 @@
         "Yalkut Shimoni on Nach"
     ],
     "heTitleVariants": [
+        "ילקוט שמעוני על נ״ך",
+        "ילקוט שמעוני על נ”ך",
         "ילקוט שמעוני על נ\"ך"
     ],
     "alts": {
-        "Books": {
+        "Book": {
             "nodes": [
                 {
                     "nodeType": "ArrayMapNode",
@@ -224,6 +247,37 @@
                         "Yalkut Shimoni on Nach 31:1-3",
                         "",
                         "Yalkut Shimoni on Nach 32:1-37:2"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "joshua"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "joshua"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "joshua"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "joshua"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -272,6 +326,37 @@
                         "Yalkut Shimoni on Nach 74:2-75:1",
                         "Yalkut Shimoni on Nach 75:2-76:2",
                         "Yalkut Shimoni on Nach 76:3-7"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "judges"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "judges"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "judges"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "judges"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -331,6 +416,37 @@
                         "Yalkut Shimoni on Nach 141:2-4",
                         "Yalkut Shimoni on Nach 141:5"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "i-samuel"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "i-samuel"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "i-samuel"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "i-samuel"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -382,6 +498,37 @@
                         "Yalkut Shimoni on Nach 165:1-12",
                         "Yalkut Shimoni on Nach 165:13-24"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "ii-samuel"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "ii-samuel"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "ii-samuel"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "ii-samuel"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -430,6 +577,37 @@
                         "Yalkut Shimoni on Nach 219:2-221:1",
                         "Yalkut Shimoni on Nach 221:2-222:4",
                         "Yalkut Shimoni on Nach 222:5-223:3"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "i-kings"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "i-kings"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "i-kings"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "i-kings"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -482,6 +660,37 @@
                         "Yalkut Shimoni on Nach 248:2-3",
                         "Yalkut Shimoni on Nach 249:1-4",
                         "Yalkut Shimoni on Nach 249:5-252:4"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "ii-kings"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "ii-kings"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "ii-kings"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "ii-kings"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -576,6 +785,37 @@
                         "Yalkut Shimoni on Nach 508:7-510:1",
                         "Yalkut Shimoni on Nach 510:2-514:3"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "isaiah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "isaiah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "isaiah"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "isaiah"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -655,6 +895,37 @@
                         "Yalkut Shimoni on Nach 335:2-6",
                         "Yalkut Shimoni on Nach 335:7"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "jeremiah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "jeremiah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "jeremiah"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "jeremiah"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -730,6 +1001,37 @@
                         "Yalkut Shimoni on Nach 383:13-15",
                         "Yalkut Shimoni on Nach 383:16-384:2"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "ezekiel"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "ezekiel"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "ezekiel"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "ezekiel"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -771,6 +1073,37 @@
                         "Yalkut Shimoni on Nach 529:3-530:1",
                         "Yalkut Shimoni on Nach 530:2-533:7"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "hosea"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "hosea"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "hosea"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "hosea"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -801,6 +1134,37 @@
                         "Yalkut Shimoni on Nach 534:2-536:1",
                         "Yalkut Shimoni on Nach 536:2-537:1",
                         "Yalkut Shimoni on Nach 537:2-538:4"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "joel"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "joel"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "joel"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "joel"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -838,6 +1202,37 @@
                         "Yalkut Shimoni on Nach 547:2-6",
                         "Yalkut Shimoni on Nach 548:1-549:2"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "amos"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "amos"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "amos"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "amos"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -865,6 +1260,37 @@
                     ],
                     "refs": [
                         "Yalkut Shimoni on Nach 549:3-10"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "obadiah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "obadiah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "obadiah"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "obadiah"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -896,6 +1322,37 @@
                         "Yalkut Shimoni on Nach 550:3",
                         "Yalkut Shimoni on Nach 550:4-551:2",
                         "Yalkut Shimoni on Nach 551:3"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "jonah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "jonah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "jonah"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "jonah"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -931,6 +1388,37 @@
                         "Yalkut Shimoni on Nach 554:2-556:1",
                         "Yalkut Shimoni on Nach 556:2-560:1"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "micah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "micah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "micah"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "micah"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -959,6 +1447,37 @@
                     "refs": [
                         "Yalkut Shimoni on Nach 560:2-561:4",
                         "Yalkut Shimoni on Nach 561:5-6"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "nahum"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "nahum"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "nahum"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "nahum"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -990,6 +1509,37 @@
                         "Yalkut Shimoni on Nach 562:4-9",
                         "Yalkut Shimoni on Nach 563:1-566:1"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "habakkuk"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "habakkuk"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "habakkuk"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "habakkuk"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -1020,6 +1570,37 @@
                         "Yalkut Shimoni on Nach 567:2-3",
                         "Yalkut Shimoni on Nach 567:4-9"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "zephaniah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "zephaniah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "zephaniah"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "zephaniah"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -1048,6 +1629,37 @@
                     "refs": [
                         "Yalkut Shimoni on Nach 567:10-14",
                         "Yalkut Shimoni on Nach 568:1-3"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "haggai"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "haggai"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "haggai"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "haggai"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -1090,6 +1702,37 @@
                         "Yalkut Shimoni on Nach 581:4-582:1",
                         "Yalkut Shimoni on Nach 583:1-586:1"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "zechariah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "zechariah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "zechariah"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "zechariah"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -1119,6 +1762,37 @@
                         "Yalkut Shimoni on Nach 586:2-587:9",
                         "Yalkut Shimoni on Nach 587:10-589:5",
                         "Yalkut Shimoni on Nach 589:6-595:3"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "malachi"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "malachi"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "malachi"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "malachi"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -1297,6 +1971,37 @@
                         "Yalkut Shimoni on Nach 888:42-889:1",
                         "Yalkut Shimoni on Nach 889:2-890:1"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "psalms"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "psalms"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "psalms"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "psalms"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -1354,6 +2059,37 @@
                         "Yalkut Shimoni on Nach 962:10-17",
                         "Yalkut Shimoni on Nach 962:18-964:4",
                         "Yalkut Shimoni on Nach 964:5-25"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "proverbs"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "proverbs"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "proverbs"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "proverbs"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -1424,6 +2160,37 @@
                         "Yalkut Shimoni on Nach 927:4-928:1",
                         "Yalkut Shimoni on Nach 928:2-6"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "job"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "job"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "job"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "job"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -1459,6 +2226,37 @@
                         "Yalkut Shimoni on Nach 992:26-993:2",
                         "Yalkut Shimoni on Nach 993:3-994:11"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "song-of-songs"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "song-of-songs"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "song-of-songs"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "song-of-songs"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -1489,6 +2287,37 @@
                         "Yalkut Shimoni on Nach 601:18-604:5",
                         "Yalkut Shimoni on Nach 604:6-606:9",
                         "Yalkut Shimoni on Nach 606:10-609:1"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "ruth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "ruth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "ruth"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "ruth"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -1521,6 +2350,37 @@
                         "Yalkut Shimoni on Nach 1035:1-1042:1",
                         "Yalkut Shimoni on Nach 1042:2-1043:3",
                         "Yalkut Shimoni on Nach 1043:4"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "lamentations"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "lamentations"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "lamentations"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "lamentations"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -1561,6 +2421,37 @@
                         "Yalkut Shimoni on Nach 979:44-54",
                         "Yalkut Shimoni on Nach 979:55-78"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "ecclesiastes"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "ecclesiastes"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "ecclesiastes"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "ecclesiastes"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -1597,6 +2488,37 @@
                         "Yalkut Shimoni on Nach 1059:6-7",
                         "Yalkut Shimoni on Nach 1059:8-18",
                         "Yalkut Shimoni on Nach 1059:19"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "esther"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "esther"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "esther"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "esther"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -1637,6 +2559,37 @@
                         "Yalkut Shimoni on Nach 1066:21",
                         "Yalkut Shimoni on Nach 1066:22-25"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "daniel"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "daniel"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "daniel"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "daniel"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -1673,6 +2626,37 @@
                         "Yalkut Shimoni on Nach 1069:4-8",
                         "Yalkut Shimoni on Nach 1069:9-10",
                         "Yalkut Shimoni on Nach 1069:11-13"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "ezra"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "ezra"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "ezra"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "ezra"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -1713,6 +2697,37 @@
                         "Yalkut Shimoni on Nach 1071:14",
                         "Yalkut Shimoni on Nach 1071:15-17",
                         "Yalkut Shimoni on Nach 1071:18"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "nehemiah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "nehemiah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "nehemiah"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "nehemiah"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -1769,6 +2784,37 @@
                         "Yalkut Shimoni on Nach 1080:10",
                         "Yalkut Shimoni on Nach 1080:11-1081:1",
                         "Yalkut Shimoni on Nach 1081:2-1083:1"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "i-chronicles"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "i-chronicles"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "i-chronicles"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "i-chronicles"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -1832,6 +2878,37 @@
                         "",
                         "Yalkut Shimoni on Nach 1085:25",
                         "Yalkut Shimoni on Nach 1085:26-30"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "ii-chronicles"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "sefer",
+                                "ii-chronicles"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "ii-chronicles"
+                            ],
+                            "scope": "alone"
+                        },
+                        {
+                            "term_slugs": [
+                                "yalkut-shimoni-on-nach",
+                                "sefer",
+                                "ii-chronicles"
+                            ],
+                            "scope": "alone"
+                        }
+                    ],
+                    "referenceableSections": [
+                        false
                     ],
                     "titles": [
                         {
@@ -1959,14 +3036,22 @@
                     "text": "Yalk. Hos."
                 },
                 {
-                    "primary": true,
-                    "lang": "he",
-                    "text": "ילקוט שמעוני על נ\"ך"
+                    "text": "ילקוט שמעוני על נ״ך",
+                    "lang": "he"
                 },
                 {
-                    "primary": true,
+                    "text": "ילקוט שמעוני על נ”ך",
+                    "lang": "he"
+                },
+                {
+                    "text": "ילקוט שמעוני על נ\"ך",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Yalkut Shimoni on Nach",
                     "lang": "en",
-                    "text": "Yalkut Shimoni on Nach"
+                    "primary": true
                 }
             ],
             "title": "Yalkut Shimoni on Nach",
@@ -1980,7 +3065,7 @@
     "depth": 2,
     "heCategories": [
         "מדרש",
-        "מדרש אגדה"
+        "אגדה"
     ],
     "compDateString": {
         "en": " (1100 CE)",

@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ohr-sameach",
+                    "hilchot",
+                    "human-dispositions"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ohr-sameach",
+                    "human-dispositions"
+                ]
+            }
+        ],
+        "lengths": [
+            7,
+            20,
+            26
+        ],
         "titles": [
             {
                 "text": "אור שמח על משנה תורה, הלכות דעות",
@@ -42,11 +62,18 @@
         "key": "Ohr Sameach on Mishneh Torah, Human Dispositions"
     },
     "authors": [
-        "Meir Simha HaKohen Dvinsk"
+        {
+            "en": "Meir Simha HaKohen Dvinsk",
+            "he": "רבי מאיר שמחה הכהן מדווינסק",
+            "slug": "meir-simha-hakohen-dvinsk"
+        }
     ],
     "enDesc": "Rabbi Meir Simcha of Dvinsk's commentary on Rambam's Mishneh Torah, in which he exhibits the great breadth of his knowledge as he tries to resolve apparent contradictions found in Mishneh Torah.",
     "pubDate": "1901",
+    "compDate": "1892",
+    "compPlace": "Daugavpils / Dvinsk",
     "pubPlace": "Riga",
+    "errorMargin": "9",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -79,5 +106,13 @@
         "מפרשים",
         "אור שמח",
         "ספר מדע"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1883  - c.1901 CE)",
+        "he": " (1883 - 1901 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Daugavpils / Dvinsk",
+        "he": "דאוגבפילס / דווינסק"
+    }
 }

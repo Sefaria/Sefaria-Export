@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Mikvaot",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Tahorot"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "mikvaot"
+                ]
+            }
+        ],
         "lengths": [
-            8
+            8,
+            53
         ],
         "titles": [
             {
@@ -37,17 +46,17 @@
                 "text": "Tos. Mikvaot"
             },
             {
-                "lang": "he",
-                "text": "תוספתא מקוואות",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Mikv."
             },
             {
-                "lang": "en",
+                "text": "תוספתא מקוואות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Mikvaot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -64,6 +73,8 @@
     ],
     "authors": [],
     "enDesc": "Mikavot (Pools) belongs to the sixth order, Tahorot (Purities) and discusses the laws of the mikveh (pool) used for cleansing the body from impurities. It has eight chapters.",
+    "enShortDesc": "Ritual baths and the process of immersing in them to become pure.",
+    "heShortDesc": "דיני מקוואות והטבילה בהם לשם טהרה.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -89,8 +100,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר טהרות"
     ],
     "compDateString": {

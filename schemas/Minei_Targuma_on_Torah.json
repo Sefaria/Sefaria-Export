@@ -2,7 +2,7 @@
     "title": "Minei Targuma on Torah",
     "categories": [
         "Tanakh",
-        "Commentary"
+        "Acharonim on Tanakh"
     ],
     "schema": {
         "nodes": [
@@ -238,6 +238,15 @@
                 "key": "Deuteronomy"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "minei-targuma",
+                    "numbers"
+                ]
+            }
+        ],
         "titles": [
             {
                 "primary": true,
@@ -255,9 +264,15 @@
         "key": "Minei Targuma on Torah"
     },
     "authors": [
-        "Isaiah Berlin"
+        {
+            "en": "Isaiah Berlin",
+            "he": "ישעיה פיק ברלין",
+            "slug": "isaiah-berlin"
+        }
     ],
     "enDesc": "A commentary on the Torah, interpreting and expanding on the classic Targum Onkelos.",
+    "enShortDesc": "18th-century commentary interpreting and expanding upon Targum Onkelos.",
+    "heShortDesc": "פירוש מן המאה ה-18 ובו ביאור והרחבה של תרגום אונקלוס.",
     "pubDate": "1831",
     "compDate": "1775",
     "pubPlace": "Breslau, Prussia",
@@ -299,7 +314,7 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים"
+        "אחרונים על התנ״ך"
     ],
     "compDateString": {
         "en": " (c.1751  - c.1799 CE)",

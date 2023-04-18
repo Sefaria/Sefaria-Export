@@ -2,7 +2,8 @@
     "title": "Tzror HaMor on Song of Songs",
     "categories": [
         "Tanakh",
-        "Commentary"
+        "Acharonim on Tanakh",
+        "Imrei Yosher"
     ],
     "schema": {
         "nodes": [
@@ -87,6 +88,15 @@
                 "key": "default"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tzror-hamor",
+                    "song-of-songs"
+                ]
+            }
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -104,7 +114,11 @@
         "key": "Tzror HaMor on Song of Songs"
     },
     "authors": [
-        "Yaakov Lorberbaum"
+        {
+            "en": "Yaakov Lorberbaum",
+            "he": "יעקב בן יעקב משה מליסא",
+            "slug": "yaakov-lorberbaum"
+        }
     ],
     "enDesc": "Commentary on the 'Song of Songs' by the author of 'Netivot HaMishpat.'",
     "heDesc": "פירוש על שיר השירים להרב מליסא, בעל 'נתיבות המשפט'.",
@@ -134,7 +148,8 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים"
+        "אחרונים על התנ״ך",
+        "אמרי יושר"
     ],
     "compDateString": {
         "en": " (c.1770  - c.1790 CE)",

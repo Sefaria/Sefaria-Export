@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "terumot"
+                ]
+            }
+        ],
         "lengths": [
             11,
             101
@@ -38,11 +57,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תרומות",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "תרומות"
             },
             {
@@ -62,8 +76,13 @@
                 "text": "Mishnah T’rumoth"
             },
             {
-                "lang": "en",
+                "text": "משנה תרומות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Terumot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -80,7 +99,9 @@
         6
     ],
     "authors": [],
-    "enDesc": "Terumot (Donations) belongs to the first order, Zera'im (seeds) and discusses it the laws regarding the terumah donation given to the Kohanim (Jewish priests), as stated in Numbers 18:8-20, Deuteronomy 18:4. It consists of eleven chapters.",
+    "enDesc": "Terumot (“Required Donations of Agricultural Produce to Priestly Households”) is a tractate in Seder Zeraim (“Order of Seeds”) that discusses terumot and the sacred status of that produce. The tractate’s eleven chapters address details such as who is and is not qualified to separate terumah (singular of “terumot”), how to treat mixtures of forbidden and permitted produce, and permissible and prohibited ways of consuming terumah.",
+    "enShortDesc": "Required donations of agricultural produce to priestly households and its sacred status.",
+    "heShortDesc": "תרומות שיש להפריש לכהנים מגידולי הקרקע והחובה לשמור על טהרת התרומה.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -88,6 +109,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה תרומות",
     "titleVariants": [
         "Mishna Terumot",
@@ -101,8 +125,8 @@
         "Mishnah Terumot"
     ],
     "heTitleVariants": [
-        "משנה תרומות",
-        "תרומות"
+        "תרומות",
+        "משנה תרומות"
     ],
     "sectionNames": [
         "Chapter",

@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "hasagot-haraavad",
+                    "hilchot",
+                    "sabbath"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hasagot-haraavad",
+                    "sabbath"
+                ]
+            }
+        ],
+        "lengths": [
+            30,
+            78,
+            81
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Hasagot HaRaavad on Mishneh Torah, Sabbath",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Hasagot HaRaavad on Mishneh Torah, Sabbath",
@@ -42,7 +62,11 @@
         "key": "Hasagot HaRaavad on Mishneh Torah, Sabbath"
     },
     "authors": [
-        "Ra'avad"
+        {
+            "en": "Ra'avad",
+            "he": "ראב\"ד",
+            "slug": "raavad"
+        }
     ],
     "enDesc": "Raavad's glosses on Rambam's Mishneh Torah expressing his dissenting opinion.",
     "heDesc": "הגהותיו של הראב\"ד על המשנה תורה של הרמב\"ם, המבטאות את דעתו החולקת.",

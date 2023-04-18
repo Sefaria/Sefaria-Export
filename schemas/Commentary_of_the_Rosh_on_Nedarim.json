@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Commentary of the Rosh",
         "Seder Nashim"
     ],
@@ -17,6 +17,19 @@
         "sectionNames": [
             "Daf",
             "Comment"
+        ],
+        "lengths": [
+            182,
+            1770
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,7 +52,11 @@
         "key": "Commentary of the Rosh on Nedarim"
     },
     "authors": [
-        "Rosh"
+        {
+            "en": "Rosh",
+            "he": "רא\"ש",
+            "slug": "rosh"
+        }
     ],
     "enDesc": "Beyond his famous Halakhot summary found on most of the Talmud, Rosh (Rabbenu Asher ben Yechiel) also penned a concise commentary on certain tractates - meant to facilitate their study, and more in the style of Rashi than in that of Tosafot.",
     "compDate": "1300",
@@ -71,7 +88,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "פירוש הרא\"ש",
         "סדר נשים"
     ],

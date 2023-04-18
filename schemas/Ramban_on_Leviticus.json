@@ -2,7 +2,7 @@
     "title": "Ramban on Leviticus",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Ramban",
         "Torah"
     ],
@@ -46,13 +46,18 @@
                 "depth": 3,
                 "addressTypes": [
                     "Perek",
-                    "Integer",
+                    "Pasuk",
                     "Integer"
                 ],
                 "sectionNames": [
                     "Chapter",
                     "Verse",
                     "Comment"
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
                 ],
                 "default": true,
                 "title": "",
@@ -63,6 +68,15 @@
                     "פירוש"
                 ],
                 "key": "default"
+            }
+        ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ramban",
+                    "leviticus"
+                ]
             }
         ],
         "titles": [
@@ -111,8 +125,16 @@
                 "text": "Ramban on Lev"
             },
             {
-                "lang": "he",
+                "text": "רמב״ן על ויקרא",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ן על ויקרא",
+                "lang": "he"
+            },
+            {
                 "text": "רמב\"ן על ויקרא",
+                "lang": "he",
                 "primary": true
             },
             {
@@ -126,7 +148,11 @@
         "key": "Ramban on Leviticus"
     },
     "authors": [
-        "Ramban"
+        {
+            "en": "Ramban",
+            "he": "רמב״ן",
+            "slug": "ramban"
+        }
     ],
     "enDesc": "Commentary by Rabbi Moses ben Nahman (1194–1270), commonly known as the Ramban. The Ramban lived in Spain until his move to Jerusalem toward the end of his life. His commentary reflects his love of Eretz Yisrael. He usually begins his comments with Rashi’s explanation and then expounds further with insights from Kabbalah and Oral Tradition. His comments include respectful criticism of Rashi, Ibn Ezra and Rambam.",
     "pubDate": "1480",
@@ -164,11 +190,13 @@
         "Ramban on Leviticus"
     ],
     "heTitleVariants": [
+        "רמב״ן על ויקרא",
+        "רמב”ן על ויקרא",
         "רמב\"ן על ויקרא"
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "רמב\"ן",
         "תורה"
     ],

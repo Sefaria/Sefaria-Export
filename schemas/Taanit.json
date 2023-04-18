@@ -16,17 +16,77 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "taanit1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "taanit1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "taanit1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "taanit1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "taanit1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "taanit1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "taanit1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "taanit1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "taanit1"
+                ]
+            }
+        ],
         "lengths": [
-            59,
-            3661
+            61,
+            895
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
                 "text": "Taanith",
-                "lang": "en"
-            },
-            {
-                "text": "Ta'anit",
                 "lang": "en"
             },
             {
@@ -74,6 +134,10 @@
                 "lang": "en"
             },
             {
+                "text": "Ta'anit",
+                "lang": "en"
+            },
+            {
                 "text": "תענית",
                 "lang": "he",
                 "primary": true
@@ -97,12 +161,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         9,
         8
     ],
     "authors": [],
-    "enDesc": "Taanit (Fasting) belongs to the second order, Moed (Festivals) and discusses the regulation of the special fast-days in times of drought or other untoward occurrences. It has four chapters.",
+    "enDesc": "Tractate Taanit (“Fast”) is located in Seder Moed (“the Order of Festivals”). Its four chapters discuss laws and stories relating to fast days, with a focus on fast days enacted by Jewish courts in times of drought. The tractate also discusses praying for rain, the fast days of the 17th of Tamuz and Tisha B’Av, and the concept of ma’amadot, in which groups of laypeople witnessed sacrifices in the Temple or gathered to read Torah, pray, and fast while sacrifices were being offered.",
+    "enShortDesc": "Praying for rain, fasting in times of drought, and annual fast days marking Jerusalem’s destruction.",
+    "heShortDesc": "תפילה על הגשם, צום בימי בצורת והצומות שנקבעו לזכר חורבן ירושלים.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -110,10 +179,12 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "תענית",
     "titleVariants": [
         "Taanith",
-        "Ta'anit",
         "Ta'anith",
         "Masekhet Taanit",
         "Talmud Taanit",
@@ -125,6 +196,7 @@
         "Ta‘anith",
         "BT Taanit",
         "Taanis",
+        "Ta'anit",
         "Taanit"
     ],
     "heTitleVariants": [
@@ -138,6 +210,33 @@
                     "depth": 1,
                     "wholeRef": "Taanit 2a:1-15a:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-139"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-139"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "primary": true,
@@ -194,6 +293,33 @@
                     "depth": 1,
                     "wholeRef": "Taanit 15a:4-18b:13",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-233"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-233"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "primary": true,
@@ -231,6 +357,33 @@
                     "depth": 1,
                     "wholeRef": "Taanit 18b:14-26a:2",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-331"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-331"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "primary": true,
@@ -276,6 +429,44 @@
                     "depth": 1,
                     "wholeRef": "Taanit 26a:3-31a:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-427"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-427"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "primary": true,
@@ -315,10 +506,6 @@
             "titles": [
                 {
                     "text": "Taanith",
-                    "lang": "en"
-                },
-                {
-                    "text": "Ta'anit",
                     "lang": "en"
                 },
                 {
@@ -363,6 +550,10 @@
                 },
                 {
                     "text": "Taanis",
+                    "lang": "en"
+                },
+                {
+                    "text": "Ta'anit",
                     "lang": "en"
                 },
                 {

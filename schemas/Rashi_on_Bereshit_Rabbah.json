@@ -2,7 +2,7 @@
     "title": "Rashi on Bereshit Rabbah",
     "categories": [
         "Midrash",
-        "Aggadic Midrash",
+        "Aggadah",
         "Midrash Rabbah",
         "Commentary",
         "Rashi"
@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Integer",
             "Integer"
         ],
@@ -20,9 +20,51 @@
             "Paragraph",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rashi",
+                    "genesis",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rashi",
+                    "midrash",
+                    "genesis",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rashi",
+                    "midrash-rabbah",
+                    "genesis"
+                ]
+            }
+        ],
+        "lengths": [
+            100,
+            751,
+            3024
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
                 "text": "רש״י על בראשית רבה",
+                "lang": "he"
+            },
+            {
+                "text": "רש”י על בראשית רבה",
+                "lang": "he"
+            },
+            {
+                "text": "רש\"י על בראשית רבה",
                 "lang": "he",
                 "primary": true
             },
@@ -33,7 +75,7 @@
             }
         ],
         "title": "Rashi on Bereshit Rabbah",
-        "heTitle": "רש״י על בראשית רבה",
+        "heTitle": "רש\"י על בראשית רבה",
         "heSectionNames": [
             "פרק",
             "פסקה",
@@ -42,10 +84,16 @@
         "key": "Rashi on Bereshit Rabbah"
     },
     "authors": [
-        "Rashi"
+        {
+            "en": "Rashi",
+            "he": "רש״י",
+            "slug": "rashi"
+        }
     ],
     "enDesc": "Similar in style to Rashi's commentary on the Torah and on the Talmud, scholars believe this work was written by another scholar living around the same time as Rashi. Like Rashi, he aims to present a simple explanation for difficult words, phrases and concepts.",
-    "compPlace": "Troyes, France",
+    "compDate": "1090",
+    "compPlace": "Middle-Age France",
+    "errorMargin": "25",
     "era": "RI",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -59,12 +107,14 @@
         "he": "רש\"י"
     },
     "is_cited": true,
-    "heTitle": "רש״י על בראשית רבה",
+    "heTitle": "רש\"י על בראשית רבה",
     "titleVariants": [
         "Rashi on Bereshit Rabbah"
     ],
     "heTitleVariants": [
-        "רש״י על בראשית רבה"
+        "רש״י על בראשית רבה",
+        "רש”י על בראשית רבה",
+        "רש\"י על בראשית רבה"
     ],
     "sectionNames": [
         "Chapter",
@@ -74,13 +124,17 @@
     "depth": 3,
     "heCategories": [
         "מדרש",
-        "מדרש אגדה",
+        "אגדה",
         "מדרש רבה",
         "מפרשים",
         "רש\"י"
     ],
+    "compDateString": {
+        "en": " (c.1065  - c.1115 CE)",
+        "he": " (1065 - 1115 לספירה בקירוב)"
+    },
     "compPlaceString": {
-        "en": "Troyes, France",
-        "he": "טרוייש (טרואה), צרפת"
+        "en": "Middle-Age France",
+        "he": "צרפת של ימי הביניים"
     }
 }

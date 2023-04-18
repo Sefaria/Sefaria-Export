@@ -57,6 +57,15 @@
                 "key": "default"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kereti",
+                    "yoreh-deah"
+                ]
+            }
+        ],
         "titles": [
             {
                 "text": "כרתי על שולחן ערוך יורה דעה",
@@ -74,7 +83,11 @@
         "key": "Kereti on Shulchan Arukh, Yoreh De'ah"
     },
     "authors": [
-        "Jonathan Eybeschutz"
+        {
+            "en": "Jonathan Eybeschutz",
+            "he": "יהונתן אייבשיץ",
+            "slug": "jonathan-eybeschutz"
+        }
     ],
     "pubDate": "1762",
     "compDate": "1739",
@@ -85,7 +98,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Yoreh De'ah",
-            "he": "יורה דעה"
+            "he": "שולחן ערוך, יורה דעה"
         }
     ],
     "collective_title": {

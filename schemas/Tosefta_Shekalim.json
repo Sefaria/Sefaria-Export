@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Shekalim",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Moed"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "shekalim"
+                ]
+            }
+        ],
         "lengths": [
-            3
+            3,
+            43
         ],
         "titles": [
             {
@@ -41,17 +50,17 @@
                 "text": "T. Shekalim"
             },
             {
-                "lang": "he",
-                "text": "תוספתא שקלים",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Shek."
             },
             {
-                "lang": "en",
+                "text": "תוספתא שקלים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Shekalim",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -67,7 +76,9 @@
         4
     ],
     "authors": [],
-    "enDesc": "Sheqalim (Shekels) belongs to the second order, Moed (Festivals) and discusses the collection of the half-Shekel as well as the expenses and expenditure of the Temple. It has three chapters.",
+    "enDesc": "Shekalim (Shekels) belongs to the second order, Moed (Festivals) and discusses the collection of the half-Shekel as well as the expenses and expenditure of the Temple. It has three chapters.",
+    "enShortDesc": "Annual half-shekel donations to the Temple, administration and inventory of the Temple.",
+    "heShortDesc": "תרומה של מחצית השקל הניתנת לבית המקדש בכל שנה וענייני ניהולו ותפעולו של בית המקדש.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -94,8 +105,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר מועד"
     ],
     "compDateString": {

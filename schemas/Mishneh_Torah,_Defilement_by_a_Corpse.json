@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "defilement-by-a-corpse"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "defilement-by-a-corpse"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "defilement-by-a-corpse"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "defilement-by-a-corpse"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "defilement-by-a-corpse"
+                ]
+            }
+        ],
         "lengths": [
-            25
+            25,
+            246
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות טומאת מת",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות טומאת מת"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' טומאת מת"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות טומאת מת",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות טומאת מת",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' טומאת מת",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' טומאת מת",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות טומאת מת",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות טומאת מת",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' טומאת מת",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' טומאת מת",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות טומאת מת",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Defilement by a Corpse",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,7 +167,11 @@
         1
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The tenth book is Sefer Taharah (Cleanness: the rules of purity). Hilchot Tumat Met.",
     "pubDate": "1474",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Defilement by a Corpse"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות טומאת מת",
         "רמב\"ם, הלכות טומאת מת",
         "משנה תורה, הל' טומאת מת",
         "רמב\"ם, הל' טומאת מת",
         "רמב\"ם הלכות טומאת מת",
-        "רמב\"ם הל' טומאת מת"
+        "רמב\"ם הל' טומאת מת",
+        "רמב״ם, הלכות טומאת מת",
+        "רמב”ם, הלכות טומאת מת",
+        "רמב״ם, הל' טומאת מת",
+        "רמב”ם, הל' טומאת מת",
+        "רמב״ם הלכות טומאת מת",
+        "רמב”ם הלכות טומאת מת",
+        "רמב״ם הל' טומאת מת",
+        "רמב”ם הל' טומאת מת",
+        "משנה תורה, הלכות טומאת מת"
     ],
     "sectionNames": [
         "Chapter",

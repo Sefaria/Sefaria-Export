@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Acharonim on Talmud",
         "Chidushei Halachot",
         "Seder Nezikin"
     ],
@@ -17,6 +17,27 @@
         "sectionNames": [
             "Daf",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushei-halachot",
+                    "bava-metzia"
+                ]
+            }
+        ],
+        "lengths": [
+            237,
+            552
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,7 +60,11 @@
         "key": "Chidushei Halachot on Bava Metzia"
     },
     "authors": [
-        "Maharsha"
+        {
+            "en": "Maharsha",
+            "he": "מהרש\"א",
+            "slug": "maharsha"
+        }
     ],
     "enDesc": "Commentary on the Talmud written by Rabbi Shmuel Eliezer Edels (Maharsha). Maharsha was an important halakhic authority in Poland (1555 – 1631). His commentary elucidates comments of Rashi and the Tosefists.",
     "heDesc": "פירוש על חלק ההלכה של גמרא, רש\"י, ותוספות שבתלמוד בבלי.",
@@ -75,7 +100,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "אחרונים על התלמוד",
         "חידושי הלכות",
         "סדר נזיקין"
     ],

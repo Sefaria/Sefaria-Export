@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "bava-batra"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "bava-batra"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bava-batra"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "bava-batra"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "bava-batra"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "bava-batra"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "bava-batra"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "bava-batra"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bava-batra"
+                ]
+            }
+        ],
         "lengths": [
-            350,
-            13690
+            352,
+            3804
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -55,11 +119,6 @@
             },
             {
                 "lang": "he",
-                "text": "בבא בתרא",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "ב\"ב"
             },
             {
@@ -73,6 +132,15 @@
             {
                 "text": "Bava Basra",
                 "lang": "en"
+            },
+            {
+                "text": "ב”ב",
+                "lang": "he"
+            },
+            {
+                "text": "בבא בתרא",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Bava Batra",
@@ -93,12 +161,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         22,
         3
     ],
     "authors": [],
-    "enDesc": "Bava Batra (Final Gate) belongs to the fourth order, Nezikin (The Order of Damages) and discusses the civil matters, largely torts and property law. It has ten chapters.",
+    "enDesc": "Bava Batra (״The Last Gate״) is the third of a series of three tractates in Seder Nezikin (“Order of Damages\") that deal with civil laws. It addresses relations between neighbors, presumptions of ownership and deeds, and laws of sales and inheritance. Bava Batra stands out from its surrounding tractates in that the vast majority of its laws are not explicitly biblical in origin, but rather rabbinic ordinances based on the sages’ understanding of human nature, societal conventions, and the need to establish limits and guidelines to regulate business relationships.",
+    "enShortDesc": "Relationships between neighbors, land ownership, sales, and inheritance.",
+    "heShortDesc": "יחסים בין שכנים, בעלות על קרקע, מכירת קרקעות ודיני ירושה.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -106,6 +179,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "בבא בתרא",
     "titleVariants": [
         "Masekhet Bava Batra",
@@ -121,9 +197,10 @@
         "Bava Batra"
     ],
     "heTitleVariants": [
-        "בבא בתרא",
         "ב\"ב",
-        "ב״ב"
+        "ב״ב",
+        "ב”ב",
+        "בבא בתרא"
     ],
     "alts": {
         "Chapters": {
@@ -133,6 +210,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Batra 2a:1-17a:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-12"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-12"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -193,6 +297,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Batra 17a:8-27b:24",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-22"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-22"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -244,6 +375,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Batra 28a:1-60b:22",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-32"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-32"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -339,6 +497,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Batra 61a:1-73a:2",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-42"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-42"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "lang": "en",
@@ -393,6 +578,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Batra 73a:3-91b:18",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-52"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-52"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "lang": "en",
@@ -460,6 +672,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Batra 92a:1-102b:8",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-61"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-61"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "lang": "en",
@@ -511,6 +750,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Batra 102b:9-108a:2",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-71"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-71"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "lang": "en",
@@ -552,6 +818,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Batra 108a:3-139b:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-81"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-81"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "lang": "en",
@@ -645,6 +938,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Batra 139b:7-159b:16",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-91"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-91"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "lang": "en",
@@ -715,6 +1035,44 @@
                     "depth": 1,
                     "wholeRef": "Bava Batra 160a:1-176b:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-10"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-10"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
                     "titles": [
                         {
                             "lang": "en",
@@ -809,11 +1167,6 @@
                 },
                 {
                     "lang": "he",
-                    "text": "בבא בתרא",
-                    "primary": true
-                },
-                {
-                    "lang": "he",
                     "text": "ב\"ב"
                 },
                 {
@@ -827,6 +1180,15 @@
                 {
                     "text": "Bava Basra",
                     "lang": "en"
+                },
+                {
+                    "text": "ב”ב",
+                    "lang": "he"
+                },
+                {
+                    "text": "בבא בתרא",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Bava Batra",

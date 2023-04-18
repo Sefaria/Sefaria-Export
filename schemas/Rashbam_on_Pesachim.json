@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Rashbam",
         "Seder Moed"
     ],
@@ -19,6 +19,29 @@
             "Daf",
             "Line",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rashbam",
+                    "pesachim"
+                ]
+            }
+        ],
+        "lengths": [
+            242,
+            397,
+            786
+        ],
+        "referenceableSections": [
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -98,7 +121,11 @@
         "key": "Rashbam on Pesachim"
     },
     "authors": [
-        "Rashbam"
+        {
+            "en": "Rashbam",
+            "he": "רשב״ם",
+            "slug": "rashbam"
+        }
     ],
     "enDesc": "A classic Talmud commentary written by Rashbam -  Rashi’s grandson and a major Tosafist. Rashbam’s commentary on Bava Batra and the last chapter of Pesachim are extant.",
     "pubDate": "1520",
@@ -149,7 +176,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "רשב\"ם",
         "סדר מועד"
     ],

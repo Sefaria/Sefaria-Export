@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "niddah"
+                ]
+            }
+        ],
         "lengths": [
             10,
             79
@@ -37,18 +56,18 @@
                 "text": "Mishnah Nidd."
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "משנה נדה"
-            },
-            {
                 "lang": "he",
                 "text": "משנה נידה"
             },
             {
-                "primary": true,
+                "text": "משנה נדה",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "Mishnah Niddah",
                 "lang": "en",
-                "text": "Mishnah Niddah"
+                "primary": true
             }
         ],
         "title": "Mishnah Niddah",
@@ -64,7 +83,9 @@
         7
     ],
     "authors": [],
-    "enDesc": "Niddah (Separation) belongs to the sixth order, Tahorot (Purities) and discusses a Niddah, a woman either during her menstrual cycle or shortly after having given birth. It has ten chapters.",
+    "enDesc": "Niddah (“Woman who is Menstruating”) is a tractate in Seder Taharot (“Order of Purities”) that discusses the ritual impurity of a woman in her menstrual cycle or experiencing particular discharges and the accompanying prohibition of intercourse. Its ten chapters address details such as the status of blood stains, hymenal bleeding, and blood from an internal wound.",
+    "enShortDesc": "The ritual impurity of a woman in her menstrual cycle or experiencing particular discharges.",
+    "heShortDesc": "טומאת האישה בנידתה ובמצבים נוספים.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה נדה",
     "titleVariants": [
         "Mishna Niddah",
@@ -81,8 +105,8 @@
         "Mishnah Niddah"
     ],
     "heTitleVariants": [
-        "משנה נדה",
-        "משנה נידה"
+        "משנה נידה",
+        "משנה נדה"
     ],
     "sectionNames": [
         "Chapter",

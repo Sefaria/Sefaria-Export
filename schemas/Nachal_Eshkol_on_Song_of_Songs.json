@@ -2,15 +2,16 @@
     "title": "Nachal Eshkol on Song of Songs",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
+        "Chida",
         "Nachal Eshkol"
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
-            "Integer",
+            "Perek",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
@@ -18,7 +19,25 @@
             "Verse",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "nachal-eshkol",
+                    "song-of-songs"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            31,
+            31
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
                 "primary": true,
@@ -41,9 +60,13 @@
         "key": "Nachal Eshkol on Song of Songs"
     },
     "authors": [
-        "Hayyim Joseph David Azulay"
+        {
+            "en": "Hayyim Joseph David Azulay",
+            "he": "חיים דוד אזולאי",
+            "slug": "hayyim-joseph-david-azulay"
+        }
     ],
-    "enDesc": " Homiletical commentary of Chida on the Five Megilot.",
+    "enDesc": "Homiletical commentary of Chida on the Five Megilot.",
     "heDesc": "פירושו של החיד\"א על חמש מגלות",
     "pubDate": "1889",
     "compDate": "1780",
@@ -77,7 +100,8 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
+        "חיד״א",
         "נחל אשכול"
     ],
     "compDateString": {

@@ -7,52 +7,96 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "demai"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "demai"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "demai"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "demai"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "demai"
+            ]
+        },
         "lengths": [
-            67,
-            145
+            7,
+            44,
+            300
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "JT Dmai"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Demai"
-            },
-            {
-                "lang": "en",
-                "text": "JT Demai"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Dmai"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Demai"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי דמאי",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי דמאי"
+                "text": "JT Dmai",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Dem."
+                "text": "Talmud Yerushalmi Demai",
+                "lang": "en"
+            },
+            {
+                "text": "JT Demai",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Dmai",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Demai",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי דמאי",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Dem.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Demai",
@@ -63,23 +107,27 @@
         "title": "Jerusalem Talmud Demai",
         "heTitle": "תלמוד ירושלמי דמאי",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Demai"
     },
     "order": [
         3
     ],
-    "authors": [],
     "enDesc": "Demai (Doubtful Produce) belongs to the first order, Zera'im (seeds) and discusses various cases in which it is not certain whether the priestly donations have been taken from produce. It consists of seven chapters.",
+    "enShortDesc": "Produce from one who is suspected to have neglected tithing and the requirement to tithe it.",
+    "heShortDesc": "החובה להפריש מעשרות מתבואה או פירות שנלקחו מאדם החשוד שלא הפרישם.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי דמאי",
     "titleVariants": [
         "JT Dmai",
@@ -94,11 +142,622 @@
         "תלמוד ירושלמי דמאי",
         "ירושלמי דמאי"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Demai 1:1:2-4:8",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Demai 1:1:2-11",
+                        "Jerusalem Talmud Demai 1:1:11-3:6",
+                        "Jerusalem Talmud Demai 1:3:6-24",
+                        "Jerusalem Talmud Demai 1:3:24-4:8"
+                    ],
+                    "startingAddress": "21c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק א",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "פרק א",
+                    "offset": 82
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Demai 2:1:1-5:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Demai 2:1:1-3",
+                        "Jerusalem Talmud Demai 2:1:3-15",
+                        "Jerusalem Talmud Demai 2:1:15-3:4",
+                        "Jerusalem Talmud Demai 2:3:4-5:4"
+                    ],
+                    "startingAddress": "22b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ב",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "פרק ב",
+                    "offset": 85
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Demai 3:1:1-6:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Demai 3:1:1-2",
+                        "Jerusalem Talmud Demai 3:1:2-2:4",
+                        "Jerusalem Talmud Demai 3:2:4-4:10",
+                        "Jerusalem Talmud Demai 3:4:10-6:3"
+                    ],
+                    "startingAddress": "23a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ג",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "פרק ג",
+                    "offset": 88
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Demai 4:1:1-5:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Demai 4:1:1-6",
+                        "Jerusalem Talmud Demai 4:1:6-4:2",
+                        "Jerusalem Talmud Demai 4:4:2-5:5"
+                    ],
+                    "startingAddress": "23d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ד",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "פרק ד",
+                    "offset": 91
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Demai 5:1:1-8:12",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Demai 5:1:1-2",
+                        "Jerusalem Talmud Demai 5:1:2-3:3",
+                        "Jerusalem Talmud Demai 5:3:3-8:8",
+                        "Jerusalem Talmud Demai 5:8:8-12"
+                    ],
+                    "startingAddress": "24b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "פרק ה",
+                    "offset": 93
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Demai 6:1:1-8:10",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Demai 6:1:1-5",
+                        "Jerusalem Talmud Demai 6:1:5-2:7",
+                        "Jerusalem Talmud Demai 6:2:7-5:3",
+                        "Jerusalem Talmud Demai 6:5:3-8:9",
+                        "Jerusalem Talmud Demai 6:8:9-10"
+                    ],
+                    "startingAddress": "25a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "פרק ו",
+                    "offset": 96
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Demai 7:1:1-8:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Demai 7:1:1-7",
+                        "Jerusalem Talmud Demai 7:1:7-6:4",
+                        "Jerusalem Talmud Demai 7:6:4-8:3"
+                    ],
+                    "startingAddress": "26a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ז",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "פרק ז",
+                    "offset": 100
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי דמאי",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Dmai",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Demai",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Demai",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Dmai",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Demai",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי דמאי",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Dem.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Demai",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Demai",
+            "heTitle": "תלמוד ירושלמי דמאי"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Demai 1:1:1-4:8",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Demai 1:1:1-5",
+                        "Jerusalem Talmud Demai 1:1:5-10",
+                        "Jerusalem Talmud Demai 1:1:10-2:1",
+                        "Jerusalem Talmud Demai 1:2:1-4",
+                        "Jerusalem Talmud Demai 1:2:4-5",
+                        "Jerusalem Talmud Demai 1:2:5-3:6",
+                        "Jerusalem Talmud Demai 1:3:6-16",
+                        "Jerusalem Talmud Demai 1:3:16-21",
+                        "Jerusalem Talmud Demai 1:3:21-4:1",
+                        "Jerusalem Talmud Demai 1:4:1-7",
+                        "Jerusalem Talmud Demai 1:4:7-8"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק א",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "פרק א",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Demai 2:1:1-5:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Demai 2:1:1-3",
+                        "Jerusalem Talmud Demai 2:1:3-6",
+                        "Jerusalem Talmud Demai 2:1:6-12",
+                        "Jerusalem Talmud Demai 2:1:12-19",
+                        "Jerusalem Talmud Demai 2:1:19-2:4",
+                        "Jerusalem Talmud Demai 2:2:4-3:4",
+                        "Jerusalem Talmud Demai 2:3:4-4:2",
+                        "Jerusalem Talmud Demai 2:4:2-4",
+                        "Jerusalem Talmud Demai 2:4:4-5:4"
+                    ],
+                    "startingAddress": "7a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ב",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "פרק ב",
+                    "offset": 12
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Demai 3:1:1-6:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Demai 3:1:1-5",
+                        "Jerusalem Talmud Demai 3:1:5-7",
+                        "Jerusalem Talmud Demai 3:1:7-2:1",
+                        "Jerusalem Talmud Demai 3:2:1-4",
+                        "Jerusalem Talmud Demai 3:2:4-3:5",
+                        "Jerusalem Talmud Demai 3:3:5-4:3",
+                        "Jerusalem Talmud Demai 3:4:3-5",
+                        "Jerusalem Talmud Demai 3:4:5-7",
+                        "Jerusalem Talmud Demai 3:4:7-9",
+                        "Jerusalem Talmud Demai 3:4:9-5:1",
+                        "Jerusalem Talmud Demai 3:5:1-6:3"
+                    ],
+                    "startingAddress": "11b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ג",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "פרק ג",
+                    "offset": 21
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Demai 4:1:1-5:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Demai 4:1:1-4",
+                        "Jerusalem Talmud Demai 4:1:4-8",
+                        "Jerusalem Talmud Demai 4:1:8-2:2",
+                        "Jerusalem Talmud Demai 4:2:2-3:4",
+                        "Jerusalem Talmud Demai 4:3:4-8",
+                        "Jerusalem Talmud Demai 4:3:8-5:4",
+                        "Jerusalem Talmud Demai 4:5:4-5"
+                    ],
+                    "startingAddress": "16b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ד",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "פרק ד",
+                    "offset": 31
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Demai 5:1:1-8:12",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Demai 5:1:1-2",
+                        "Jerusalem Talmud Demai 5:1:2-2:1",
+                        "Jerusalem Talmud Demai 5:2:1-5",
+                        "Jerusalem Talmud Demai 5:2:5-8",
+                        "Jerusalem Talmud Demai 5:2:8-3:3",
+                        "Jerusalem Talmud Demai 5:3:3-5:1",
+                        "Jerusalem Talmud Demai 5:5:1-6:2",
+                        "Jerusalem Talmud Demai 5:6:2-8:4",
+                        "Jerusalem Talmud Demai 5:8:4-8",
+                        "Jerusalem Talmud Demai 5:8:8-11",
+                        "Jerusalem Talmud Demai 5:8:11-12"
+                    ],
+                    "startingAddress": "19b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "פרק ה",
+                    "offset": 37
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Demai 6:1:1-8:10",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Demai 6:1:1-6",
+                        "Jerusalem Talmud Demai 6:1:6-9",
+                        "Jerusalem Talmud Demai 6:1:9-2:5",
+                        "Jerusalem Talmud Demai 6:2:5-9",
+                        "Jerusalem Talmud Demai 6:2:9-3:1",
+                        "Jerusalem Talmud Demai 6:3:1-5:3",
+                        "Jerusalem Talmud Demai 6:5:3-6",
+                        "Jerusalem Talmud Demai 6:5:6-8:1",
+                        "Jerusalem Talmud Demai 6:8:1-7",
+                        "Jerusalem Talmud Demai 6:8:7-10"
+                    ],
+                    "startingAddress": "25a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "פרק ו",
+                    "offset": 48
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Demai 7:1:1-8:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Demai 7:1:1-4",
+                        "Jerusalem Talmud Demai 7:1:4-2:4",
+                        "Jerusalem Talmud Demai 7:2:4-4:2",
+                        "Jerusalem Talmud Demai 7:4:2-4",
+                        "Jerusalem Talmud Demai 7:4:4-5",
+                        "Jerusalem Talmud Demai 7:4:5-6:1",
+                        "Jerusalem Talmud Demai 7:6:1-6",
+                        "Jerusalem Talmud Demai 7:6:6-7:1",
+                        "Jerusalem Talmud Demai 7:7:1-8:1",
+                        "Jerusalem Talmud Demai 7:8:1-3"
+                    ],
+                    "startingAddress": "29b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ז",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "פרק ז",
+                    "offset": 57
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי דמאי",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Dmai",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Demai",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Demai",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Dmai",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Demai",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי דמאי",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Dem.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Demai",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Demai",
+            "heTitle": "תלמוד ירושלמי דמאי"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Acharonim on Talmud",
         "Maharam",
         "Seder Nezikin"
     ],
@@ -17,6 +17,27 @@
         "sectionNames": [
             "Daf",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "maharam",
+                    "makkot"
+                ]
+            }
+        ],
+        "lengths": [
+            48,
+            104
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,9 +60,13 @@
         "key": "Maharam on Makkot"
     },
     "authors": [
-        "Maharam Lublin"
+        {
+            "en": "Maharam Lublin",
+            "he": "מהר\"ם לובלין",
+            "slug": "maharam-lublin"
+        }
     ],
-    "enDesc": "A commentary on the Talmud written by Rabbi Meir of Lublin (Maharam 1558 – 1616). Published after his death by his son, Gedaliah, in 1619, the commentary deals extensively with the interpretations of Rashi and the Tosafists. ",
+    "enDesc": "A commentary on the Talmud written by Rabbi Meir of Lublin (Maharam 1558 – 1616). Published after his death by his son, Gedaliah, in 1619, the commentary deals extensively with the interpretations of Rashi and the Tosafists.",
     "pubDate": "1619",
     "compDate": "1600",
     "compPlace": "Poland",
@@ -74,7 +99,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "אחרונים על התלמוד",
         "מהר\"ם",
         "סדר נזיקין"
     ],

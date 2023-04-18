@@ -2,7 +2,7 @@
     "title": "Second Version of Ibn Ezra on Esther",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Second Version of Ibn Ezra",
         "Writings"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "second-version-of-ibn-ezra",
+                    "esther"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            152,
+            336
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -97,7 +115,11 @@
         "key": "Second Version of Ibn Ezra on Esther"
     },
     "authors": [
-        "Ibn Ezra"
+        {
+            "en": "Ibn Ezra",
+            "he": "אבן עזרא",
+            "slug": "ibn-ezra"
+        }
     ],
     "compDate": "1160",
     "compPlace": "Middle-Age France",
@@ -144,7 +166,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "אבן עזרא מהדורא תניינא",
         "כתובים"
     ],

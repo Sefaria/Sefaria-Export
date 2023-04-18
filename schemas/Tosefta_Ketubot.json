@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Ketubot",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Nashim"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "ketubot"
+                ]
+            }
+        ],
         "lengths": [
-            12
+            12,
+            125
         ],
         "titles": [
             {
@@ -41,17 +50,17 @@
                 "text": "Tos. Ketubot"
             },
             {
-                "lang": "he",
-                "text": "תוספתא כתובות",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Keth."
             },
             {
-                "lang": "en",
+                "text": "תוספתא כתובות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Ketubot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -67,7 +76,9 @@
         2
     ],
     "authors": [],
-    "enDesc": "Ketubot (Prenuptial agreements) belongs to the third order, Nashim (Women) and discusses the Ketubah (Judaism's prenuptial agreement), as well as topics such as virginity, Jus primae noctis and the obligations of a couple towards each other. It has twelve chapters.",
+    "enDesc": "Ketubot is the second tractate in Seder Nashim (“Order of Women,” which addresses family law). Its twelve chapters primarily discuss the ketubah (marriage contract) and obligations between a husband and wife during marriage and after the dissolution of marriage. The tractate also addresses topics such as giving testimony, vows, and slander.",
+    "enShortDesc": "The marital contract (Ketubah) and obligations between husband and wife.",
+    "heShortDesc": "שטר הכתובה, חובות הבעל לאשתו וחובות האישה לבעלה.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -94,8 +105,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר נשים"
     ],
     "compDateString": {

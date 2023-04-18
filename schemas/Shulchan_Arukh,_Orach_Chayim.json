@@ -15,8 +15,22 @@
             "Siman",
             "Seif"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "shulchan-arukh",
+                    "orach-chayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "orach-chayim"
+                ]
+            }
+        ],
         "lengths": [
-            697
+            697,
+            4171
         ],
         "titles": [
             {
@@ -64,31 +78,6 @@
                 "lang": "en"
             },
             {
-                "primary": true,
-                "text": "אורח חיים",
-                "lang": "he"
-            },
-            {
-                "text": "שולחן ערוך אורח חיים",
-                "lang": "he"
-            },
-            {
-                "text": "שו\"ע או\"ח",
-                "lang": "he"
-            },
-            {
-                "text": "שלחן ערוך או\"ח",
-                "lang": "he"
-            },
-            {
-                "text": "שולחן ערוך או\"ח",
-                "lang": "he"
-            },
-            {
-                "text": "או\"ח",
-                "lang": "he"
-            },
-            {
                 "text": "Shulchan Aruch, Orach Chayim",
                 "lang": "en"
             },
@@ -133,13 +122,98 @@
                 "lang": "en"
             },
             {
+                "text": "Shulhan Arukh, Orah Haim",
+                "lang": "en"
+            },
+            {
+                "text": "Orakh Hayim",
+                "lang": "en"
+            },
+            {
+                "text": "OH",
+                "lang": "en"
+            },
+            {
+                "text": "Orach Hayim",
+                "lang": "en"
+            },
+            {
+                "text": "Orah Hayim",
+                "lang": "en"
+            },
+            {
+                "text": "Orach Haim",
+                "lang": "en"
+            },
+            {
+                "text": "שולחן ערוך אורח חיים",
+                "lang": "he"
+            },
+            {
+                "text": "שו\"ע או\"ח",
+                "lang": "he"
+            },
+            {
+                "text": "שלחן ערוך או\"ח",
+                "lang": "he"
+            },
+            {
+                "text": "שולחן ערוך או\"ח",
+                "lang": "he"
+            },
+            {
+                "text": "או\"ח",
+                "lang": "he"
+            },
+            {
+                "text": "שו״ע או״ח",
+                "lang": "he"
+            },
+            {
+                "text": "שו”ע או”ח",
+                "lang": "he"
+            },
+            {
+                "text": "שלחן ערוך או״ח",
+                "lang": "he"
+            },
+            {
+                "text": "שלחן ערוך או”ח",
+                "lang": "he"
+            },
+            {
+                "text": "שולחן ערוך או״ח",
+                "lang": "he"
+            },
+            {
+                "text": "שולחן ערוך או”ח",
+                "lang": "he"
+            },
+            {
+                "text": "או״ח",
+                "lang": "he"
+            },
+            {
+                "text": "או”ח",
+                "lang": "he"
+            },
+            {
+                "text": "אורח חיים",
+                "lang": "he"
+            },
+            {
+                "text": "שולחן ערוך, אורח חיים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Shulchan Arukh, Orach Chayim",
                 "lang": "en",
                 "primary": true
             }
         ],
         "title": "Shulchan Arukh, Orach Chayim",
-        "heTitle": "אורח חיים",
+        "heTitle": "שולחן ערוך, אורח חיים",
         "heSectionNames": [
             "סימן",
             "סעיף"
@@ -150,16 +224,22 @@
         1
     ],
     "authors": [
-        "Joseph Karo"
+        {
+            "en": "Joseph Karo",
+            "he": "יוסף קארו",
+            "slug": "joseph-karo"
+        }
     ],
-    "enDesc": "The first section is Orah Hayyim; laws of prayer and synagogue, Sabbath, holidays;",
+    "enDesc": "The Shulchan Arukh (“Set Table”) is the most widely accepted code of Jewish law ever written. Compiled in the 16th century by Rabbi Yosef Karo, it is a condensed and simplified version of the Beit Yosef, a commentary that Karo wrote on the Tur. Karo’s rulings are in accordance with Sephardic traditions; the text of the Shulchan Arukh also includes the glosses of Rabbi Moshe Isserles, which cite Ashkenazic traditions. Orach Chaim (“Way of Life,” a reference to Psalms 16:11) is the first of four sections. It discusses daily ritual observance, like prayer, Tefillin, Tzitzit, Shabbat, and holidays.",
+    "enShortDesc": "Daily ritual observance: prayer, Tefillin, Tzitzit, Shabbat, and holidays.",
+    "heShortDesc": "הלכות הקשורות לסדר היום: תפילה, ברכות, תפילין, שבת, עירובין, ומועדים.",
     "pubDate": "1564",
     "compDate": "1563",
     "compPlace": "Safed",
     "pubPlace": "Venice",
     "era": "AH",
     "is_cited": true,
-    "heTitle": "אורח חיים",
+    "heTitle": "שולחן ערוך, אורח חיים",
     "titleVariants": [
         "O.Ch.",
         "Orach Chaim",
@@ -183,15 +263,30 @@
         "Shulchan Aruch OC",
         "Shulchan Arukh Orach Chaim",
         "Shulchan Arukh OC",
+        "Shulhan Arukh, Orah Haim",
+        "Orakh Hayim",
+        "OH",
+        "Orach Hayim",
+        "Orah Hayim",
+        "Orach Haim",
         "Shulchan Arukh, Orach Chayim"
     ],
     "heTitleVariants": [
-        "אורח חיים",
         "שולחן ערוך אורח חיים",
         "שו\"ע או\"ח",
         "שלחן ערוך או\"ח",
         "שולחן ערוך או\"ח",
-        "או\"ח"
+        "או\"ח",
+        "שו״ע או״ח",
+        "שו”ע או”ח",
+        "שלחן ערוך או״ח",
+        "שלחן ערוך או”ח",
+        "שולחן ערוך או״ח",
+        "שולחן ערוך או”ח",
+        "או״ח",
+        "או”ח",
+        "אורח חיים",
+        "שולחן ערוך, אורח חיים"
     ],
     "alts": {
         "Topic": {
@@ -1781,31 +1876,6 @@
                     "lang": "en"
                 },
                 {
-                    "primary": true,
-                    "text": "אורח חיים",
-                    "lang": "he"
-                },
-                {
-                    "text": "שולחן ערוך אורח חיים",
-                    "lang": "he"
-                },
-                {
-                    "text": "שו\"ע או\"ח",
-                    "lang": "he"
-                },
-                {
-                    "text": "שלחן ערוך או\"ח",
-                    "lang": "he"
-                },
-                {
-                    "text": "שולחן ערוך או\"ח",
-                    "lang": "he"
-                },
-                {
-                    "text": "או\"ח",
-                    "lang": "he"
-                },
-                {
                     "text": "Shulchan Aruch, Orach Chayim",
                     "lang": "en"
                 },
@@ -1850,13 +1920,98 @@
                     "lang": "en"
                 },
                 {
+                    "text": "Shulhan Arukh, Orah Haim",
+                    "lang": "en"
+                },
+                {
+                    "text": "Orakh Hayim",
+                    "lang": "en"
+                },
+                {
+                    "text": "OH",
+                    "lang": "en"
+                },
+                {
+                    "text": "Orach Hayim",
+                    "lang": "en"
+                },
+                {
+                    "text": "Orah Hayim",
+                    "lang": "en"
+                },
+                {
+                    "text": "Orach Haim",
+                    "lang": "en"
+                },
+                {
+                    "text": "שולחן ערוך אורח חיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "שו\"ע או\"ח",
+                    "lang": "he"
+                },
+                {
+                    "text": "שלחן ערוך או\"ח",
+                    "lang": "he"
+                },
+                {
+                    "text": "שולחן ערוך או\"ח",
+                    "lang": "he"
+                },
+                {
+                    "text": "או\"ח",
+                    "lang": "he"
+                },
+                {
+                    "text": "שו״ע או״ח",
+                    "lang": "he"
+                },
+                {
+                    "text": "שו”ע או”ח",
+                    "lang": "he"
+                },
+                {
+                    "text": "שלחן ערוך או״ח",
+                    "lang": "he"
+                },
+                {
+                    "text": "שלחן ערוך או”ח",
+                    "lang": "he"
+                },
+                {
+                    "text": "שולחן ערוך או״ח",
+                    "lang": "he"
+                },
+                {
+                    "text": "שולחן ערוך או”ח",
+                    "lang": "he"
+                },
+                {
+                    "text": "או״ח",
+                    "lang": "he"
+                },
+                {
+                    "text": "או”ח",
+                    "lang": "he"
+                },
+                {
+                    "text": "אורח חיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "שולחן ערוך, אורח חיים",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
                     "text": "Shulchan Arukh, Orach Chayim",
                     "lang": "en",
                     "primary": true
                 }
             ],
             "title": "Shulchan Arukh, Orach Chayim",
-            "heTitle": "אורח חיים"
+            "heTitle": "שולחן ערוך, אורח חיים"
         }
     },
     "sectionNames": [

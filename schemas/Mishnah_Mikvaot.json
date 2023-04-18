@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "mikvaot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mikvaot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "mikvaot"
+                ]
+            }
+        ],
         "lengths": [
             10,
             71
@@ -49,17 +68,17 @@
                 "lang": "en"
             },
             {
-                "text": "משנה מקואות",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "מקואות",
                 "lang": "he"
             },
             {
                 "text": "מקוואות",
                 "lang": "he"
+            },
+            {
+                "text": "משנה מקואות",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Mishnah Mikvaot",
@@ -81,6 +100,8 @@
     ],
     "authors": [],
     "enDesc": "Mikavot (Pools) belongs to the sixth order, Tahorot (Purities) and discusses the laws of the mikveh (pool) used for cleansing the body from impurities. It has four chapters.",
+    "enShortDesc": "Ritual baths and the process of immersing in them to become pure.",
+    "heShortDesc": "דיני מקוואות והטבילה בהם לשם טהרה.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -88,6 +109,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה מקואות",
     "titleVariants": [
         "M. Mikvaot",
@@ -100,9 +124,9 @@
         "Mishnah Mikvaot"
     ],
     "heTitleVariants": [
-        "משנה מקואות",
         "מקואות",
-        "מקוואות"
+        "מקוואות",
+        "משנה מקואות"
     ],
     "sectionNames": [
         "Chapter",

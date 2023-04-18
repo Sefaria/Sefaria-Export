@@ -16,6 +16,44 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "overview-of-mishneh-torah-contents"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "overview-of-mishneh-torah-contents"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "overview-of-mishneh-torah-contents"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "overview-of-mishneh-torah-contents"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "overview-of-mishneh-torah-contents"
+                ]
+            }
+        ],
+        "lengths": [
+            14,
+            142
+        ],
         "titles": [
             {
                 "lang": "en",
@@ -31,11 +69,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, תוכן החיבור",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, תוכן החיבור"
             },
             {
@@ -43,8 +76,29 @@
                 "text": "רמב\"ם תוכן החיבור"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, תוכן החיבור",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, תוכן החיבור",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם תוכן החיבור",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם תוכן החיבור",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, תוכן החיבור",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Overview of Mishneh Torah Contents",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -61,9 +115,13 @@
         4
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "Introduction - overview. ",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -79,9 +137,13 @@
         "Mishneh Torah, Overview of Mishneh Torah Contents"
     ],
     "heTitleVariants": [
-        "משנה תורה, תוכן החיבור",
         "רמב\"ם, תוכן החיבור",
-        "רמב\"ם תוכן החיבור"
+        "רמב\"ם תוכן החיבור",
+        "רמב״ם, תוכן החיבור",
+        "רמב”ם, תוכן החיבור",
+        "רמב״ם תוכן החיבור",
+        "רמב”ם תוכן החיבור",
+        "משנה תורה, תוכן החיבור"
     ],
     "sectionNames": [
         "Chapter",

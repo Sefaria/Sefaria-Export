@@ -2,7 +2,7 @@
     "title": "Saadia Gaon on Deuteronomy",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Saadia Gaon",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "saadia-gaon",
+                    "deuteronomy"
+                ]
+            }
+        ],
+        "lengths": [
+            34,
+            0,
+            0
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -90,11 +108,6 @@
             },
             {
                 "lang": "he",
-                "text": "ר' סעדיה גאון על דברים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "ר' סעדיה גאון על דברי'"
             },
             {
@@ -114,6 +127,35 @@
                 "text": "רס\"ג על דברי׳"
             },
             {
+                "text": "רס״ג על דברים",
+                "lang": "he"
+            },
+            {
+                "text": "רס”ג על דברים",
+                "lang": "he"
+            },
+            {
+                "text": "רס״ג על דברי'",
+                "lang": "he"
+            },
+            {
+                "text": "רס”ג על דברי'",
+                "lang": "he"
+            },
+            {
+                "text": "רס״ג על דברי׳",
+                "lang": "he"
+            },
+            {
+                "text": "רס”ג על דברי׳",
+                "lang": "he"
+            },
+            {
+                "text": "ר' סעדיה גאון על דברים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Saadia Gaon on Deuteronomy",
                 "lang": "en",
                 "primary": true
@@ -129,7 +171,11 @@
         "key": "Saadia Gaon on Deuteronomy"
     },
     "authors": [
-        "Saadia Gaon"
+        {
+            "en": "Saadia Gaon",
+            "he": "סעדיה גאון",
+            "slug": "saadia-gaon"
+        }
     ],
     "enDesc": "Commentary written by Saadia Gaon (Babylonia, 882-942). Saadia Gaon translated and wrote commentary on the Torah in Judeo-Arabic.",
     "compDate": "930",
@@ -170,12 +216,18 @@
         "Saadia Gaon on Deuteronomy"
     ],
     "heTitleVariants": [
-        "ר' סעדיה גאון על דברים",
         "ר' סעדיה גאון על דברי'",
         "ר' סעדיה גאון על דברי׳",
         "רס\"ג על דברים",
         "רס\"ג על דברי'",
-        "רס\"ג על דברי׳"
+        "רס\"ג על דברי׳",
+        "רס״ג על דברים",
+        "רס”ג על דברים",
+        "רס״ג על דברי'",
+        "רס”ג על דברי'",
+        "רס״ג על דברי׳",
+        "רס”ג על דברי׳",
+        "ר' סעדיה גאון על דברים"
     ],
     "sectionNames": [
         "Chapter",
@@ -185,7 +237,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "ר' סעדיה גאון",
         "תורה"
     ],

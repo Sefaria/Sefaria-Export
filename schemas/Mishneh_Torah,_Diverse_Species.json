@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "diverse-species"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "diverse-species"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "diverse-species"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "diverse-species"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "diverse-species"
+                ]
+            }
+        ],
         "lengths": [
-            10
+            10,
+            182
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות כלאים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות כלאים"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' כלאים"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות כלאים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות כלאים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' כלאים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' כלאים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות כלאים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות כלאים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' כלאים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' כלאים",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות כלאים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Diverse Species",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,7 +167,11 @@
         1
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The seventh book is Zera'im (Seeds): agricultural laws. Kilayim: Laws of forbidden mixtures",
     "pubDate": "1474",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Diverse Species"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות כלאים",
         "רמב\"ם, הלכות כלאים",
         "משנה תורה, הל' כלאים",
         "רמב\"ם, הל' כלאים",
         "רמב\"ם הלכות כלאים",
-        "רמב\"ם הל' כלאים"
+        "רמב\"ם הל' כלאים",
+        "רמב״ם, הלכות כלאים",
+        "רמב”ם, הלכות כלאים",
+        "רמב״ם, הל' כלאים",
+        "רמב”ם, הל' כלאים",
+        "רמב״ם הלכות כלאים",
+        "רמב”ם הלכות כלאים",
+        "רמב״ם הל' כלאים",
+        "רמב”ם הל' כלאים",
+        "משנה תורה, הלכות כלאים"
     ],
     "sectionNames": [
         "Chapter",

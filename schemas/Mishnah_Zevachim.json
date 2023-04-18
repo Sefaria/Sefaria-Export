@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "zevachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "zevachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "zevachim"
+                ]
+            }
+        ],
         "lengths": [
             14,
             101
@@ -33,11 +52,6 @@
                 "text": "M Zevachim"
             },
             {
-                "lang": "he",
-                "text": "משנה זבחים",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Zeb."
             },
@@ -46,8 +60,13 @@
                 "text": "Mishnah Z’baḥim"
             },
             {
-                "lang": "en",
+                "text": "משנה זבחים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Zevachim",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -64,7 +83,9 @@
         1
     ],
     "authors": [],
-    "enDesc": "Zevahim (Sacrifices) belongs to the fifth order, Kodshim (Holy things) and discusses the procedure of animal and bird offerings. It has fourteen chapters.",
+    "enDesc": "Zevachim (Sacrifices) belongs to the fifth order, Kodshim (Holy things) and discusses the procedure of animal and bird offerings. It has fourteen chapters.",
+    "enShortDesc": "Animal and bird sacrifices in the Temple.",
+    "heShortDesc": "קורבנות בהמה ועוף ודינים הנוגעים לבית המקדש.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה זבחים",
     "titleVariants": [
         "Mishna Zevachim",

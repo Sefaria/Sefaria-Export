@@ -2,7 +2,7 @@
     "title": "Joseph ibn Yahya on Esther",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Joseph ibn Yahya",
         "Writings"
     ],
@@ -11,13 +11,23 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Paragraph"
+        ],
+        "lengths": [
+            10,
+            151,
+            259
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -49,9 +59,14 @@
         "key": "Joseph ibn Yahya on Esther"
     },
     "authors": [
-        "Joseph Ibn Yachya"
+        {
+            "en": "Joseph Ibn Yachya",
+            "he": "יוסף אבן יחייא",
+            "slug": "joseph-ibn-yachya"
+        }
     ],
-    "enDesc": "    ",
+    "enDesc": "",
+    "enShortDesc": "16th-century commentary on Writings by a student of the Rashba.",
     "pubDate": "1538",
     "compDate": "1527",
     "pubPlace": "Bologna",
@@ -86,7 +101,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "יוסף אבן יחיא",
         "כתובים"
     ],

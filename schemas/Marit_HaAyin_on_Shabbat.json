@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Acharonim on Talmud",
         "Marit HaAyin",
         "Seder Moed"
     ],
@@ -17,6 +17,27 @@
         "sectionNames": [
             "Daf",
             "Line"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "marit-haayin",
+                    "shabbat"
+                ]
+            }
+        ],
+        "lengths": [
+            314,
+            37
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,7 +60,11 @@
         "key": "Marit HaAyin on Shabbat"
     },
     "authors": [
-        "Hayyim Joseph David Azulay"
+        {
+            "en": "Hayyim Joseph David Azulay",
+            "he": "חיים דוד אזולאי",
+            "slug": "hayyim-joseph-david-azulay"
+        }
     ],
     "enDesc": "The last books printed during this prolific author's lifetime, it is a commentary on the aggadic sections of the Talmud, basing itself largely on letter schemes and kabbalistic teachings.",
     "pubDate": "1804-1805",
@@ -73,7 +98,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "אחרונים על התלמוד",
         "מראית העין",
         "סדר מועד"
     ],

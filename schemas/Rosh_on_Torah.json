@@ -2,7 +2,7 @@
     "title": "Rosh on Torah",
     "categories": [
         "Tanakh",
-        "Commentary"
+        "Rishonim on Tanakh"
     ],
     "schema": {
         "nodes": [
@@ -182,6 +182,15 @@
                 "key": "Deuteronomy"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rosh",
+                    "numbers"
+                ]
+            }
+        ],
         "titles": [
             {
                 "text": "רא\"ש על התורה",
@@ -207,9 +216,15 @@
         "key": "Rosh on Torah"
     },
     "authors": [
-        "Rosh"
+        {
+            "en": "Rosh",
+            "he": "רא\"ש",
+            "slug": "rosh"
+        }
     ],
     "enDesc": "A classic commentary on the Torah, analyzing the Biblical text, and using the Midrash and Talmud as the major resource from which to understand it.",
+    "enShortDesc": "14th-century commentary attributed to the legal codifier Rabbi Asher ben Yechiel.",
+    "heShortDesc": "פירוש לתורה מן המאה ה-14 המיוחס לפוסק רבי אשר בן יחיאל.",
     "pubDate": "1840",
     "compDate": "1300",
     "pubPlace": "Livorno, Italy",
@@ -253,7 +268,7 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים"
+        "ראשונים על התנ״ך"
     ],
     "compDateString": {
         "en": " (c.1275  - c.1325 CE)",

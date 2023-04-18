@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "numbers"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "numbers"
+                ]
+            }
         ],
         "lengths": [
             36,
@@ -21,38 +34,42 @@
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Num."
+                "text": "Num.",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Num"
+                "text": "Num",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Bamidbar"
+                "text": "Bamidbar",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Bemidbar"
+                "text": "Bemidbar",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Numeri"
+                "text": "Numeri",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Numb."
+                "text": "Numb.",
+                "lang": "en"
             },
             {
-                "primary": true,
+                "text": "Nombres",
+                "lang": "en"
+            },
+            {
+                "text": "במדבר",
                 "lang": "he",
-                "text": "במדבר"
+                "primary": true
             },
             {
-                "primary": true,
+                "text": "Numbers",
                 "lang": "en",
-                "text": "Numbers"
+                "primary": true
             }
         ],
         "title": "Numbers",
@@ -68,13 +85,19 @@
         4
     ],
     "authors": [],
-    "enDesc": "Bemidbar (Numbers) relates the consolidation of Israel as a community in the Sinai and God taking up residence in the Mishkan (Tabernacle). They are now commanded to take possession of the Promised Law. The people are numbered and preparations are made. However there is considerable grumbling about the hardships of the desert journey and rebellions against the authority of Moses and Aaron. This sees God destroy about 15,000 by various means. When the people arrive at the Promise Land they send out spies who return with unfavourable reports. This ends with God punishing the remaining Israelites to wander the desert for 40 years until a new generation of Israelites returns to the Plain of Moab ready to cross the river Jordan.",
+    "enDesc": "Numbers (“Bamidbar”) is the fourth book of the Torah, Judaism’s foundational text. It describes events from 40 years of the Israelites’ wanderings in the desert, beginning with a census and preparations for entering Israel. The book continues to detail a series of complaints, sins, punishments, and an attempted rebellion. Commandments are interspersed throughout, and the book ends by listing places that the Israelites traveled and delineating Israel’s boundaries.",
+    "heDesc": "ספר במדבר הוא הרביעי בחמשת חומשי התורה ועוסק בנדודי בני ישראל במדבר במשך ארבעים שנה. הספר מציין כמה מפקדים וכן סדרת תלונות, חטאים ועונשים, ובהם חטא קורח ועדתו ופרשת המרגליםֿ. בספר תיאור של מלחמות בני ישראל עם העמים שהם פוגשים בדרך וכן פרשת בלק, המבקש לקלל את בני ישראל. נוסף על כך מובאות כמה מצוות, דוגמת הפרשת חלה, דיני מועדים ומצוות ציצית. הספר מסתיים בפירוט מסעי בני ישראל במדבר ותיאור גבולות ארץ ישראל.",
+    "enShortDesc": "Wanderings of the Israelites in the desert, census, rebellion, spies and war, interspersed with laws.",
+    "heShortDesc": "מסעות בני ישראל במדבר, מפקדי אוכלוסין, מרידות, חטא המרגלים, מלחמות ושלל חוקים.",
     "pubDate": "1488",
     "compDate": "-900",
     "compPlace": "Sinai/Canaan",
     "pubPlace": "Soncino",
     "errorMargin": "500",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "במדבר",
     "titleVariants": [
         "Num.",
@@ -83,6 +106,7 @@
         "Bemidbar",
         "Numeri",
         "Numb.",
+        "Nombres",
         "Numbers"
     ],
     "heTitleVariants": [
@@ -109,6 +133,21 @@
                         "Numbers 3:14-3:39",
                         "Numbers 3:40-3:51",
                         "Numbers 4:1-4:20"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "bamidbar"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "bamidbar"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Bamidbar",
                     "titles": [
@@ -161,6 +200,21 @@
                         "Numbers 7:42-7:71",
                         "Numbers 7:72-7:89"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "nasso"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "nasso"
+                            ],
+                            "scope": "any"
+                        }
+                    ],
                     "sharedTitle": "Nasso",
                     "titles": [
                         {
@@ -211,6 +265,21 @@
                         "Numbers 10:11-10:34",
                         "Numbers 10:35-11:29",
                         "Numbers 11:30-12:16"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "behaalotcha"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "behaalotcha"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Beha'alotcha",
                     "titles": [
@@ -283,6 +352,21 @@
                         "Numbers 15:17-15:26",
                         "Numbers 15:27-15:41"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "shlach"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "shlach"
+                            ],
+                            "scope": "any"
+                        }
+                    ],
                     "sharedTitle": "Sh'lach",
                     "titles": [
                         {
@@ -338,6 +422,21 @@
                         "Numbers 17:25-18:20",
                         "Numbers 18:21-18:32"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "korach"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "korach"
+                            ],
+                            "scope": "any"
+                        }
+                    ],
                     "sharedTitle": "Korach",
                     "titles": [
                         {
@@ -388,6 +487,21 @@
                         "Numbers 20:22-21:9",
                         "Numbers 21:10-21:20",
                         "Numbers 21:21-22:1"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "chukat"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "chukat"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Chukat",
                     "titles": [
@@ -440,6 +554,21 @@
                         "Numbers 23:27-24:13",
                         "Numbers 24:14-25:9"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "balak"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "balak"
+                            ],
+                            "scope": "any"
+                        }
+                    ],
                     "sharedTitle": "Balak",
                     "titles": [
                         {
@@ -487,6 +616,21 @@
                         "Numbers 28:16-29:11",
                         "Numbers 29:12-30:1"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "pinchas"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "pinchas"
+                            ],
+                            "scope": "any"
+                        }
+                    ],
                     "sharedTitle": "Pinchas",
                     "titles": [
                         {
@@ -529,6 +673,21 @@
                         "Numbers 31:42-31:54",
                         "Numbers 32:1-32:19",
                         "Numbers 32:20-32:42"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "matot"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "matot"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Matot",
                     "titles": [
@@ -577,6 +736,21 @@
                         "Numbers 35:9-35:34",
                         "Numbers 36:1-36:13"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "masei"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "masei"
+                            ],
+                            "scope": "any"
+                        }
+                    ],
                     "sharedTitle": "Masei",
                     "titles": [
                         {
@@ -612,38 +786,42 @@
             ],
             "titles": [
                 {
-                    "lang": "en",
-                    "text": "Num."
+                    "text": "Num.",
+                    "lang": "en"
                 },
                 {
-                    "lang": "en",
-                    "text": "Num"
+                    "text": "Num",
+                    "lang": "en"
                 },
                 {
-                    "lang": "en",
-                    "text": "Bamidbar"
+                    "text": "Bamidbar",
+                    "lang": "en"
                 },
                 {
-                    "lang": "en",
-                    "text": "Bemidbar"
+                    "text": "Bemidbar",
+                    "lang": "en"
                 },
                 {
-                    "lang": "en",
-                    "text": "Numeri"
+                    "text": "Numeri",
+                    "lang": "en"
                 },
                 {
-                    "lang": "en",
-                    "text": "Numb."
+                    "text": "Numb.",
+                    "lang": "en"
                 },
                 {
-                    "primary": true,
+                    "text": "Nombres",
+                    "lang": "en"
+                },
+                {
+                    "text": "במדבר",
                     "lang": "he",
-                    "text": "במדבר"
+                    "primary": true
                 },
                 {
-                    "primary": true,
+                    "text": "Numbers",
                     "lang": "en",
-                    "text": "Numbers"
+                    "primary": true
                 }
             ],
             "title": "Numbers",

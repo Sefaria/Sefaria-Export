@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "zavim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "zavim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "zavim"
+                ]
+            }
+        ],
         "lengths": [
             5,
             32
@@ -38,11 +57,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה זבים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "זבים"
             },
             {
@@ -62,8 +76,13 @@
                 "text": "Mishnah Zabim"
             },
             {
-                "lang": "en",
+                "text": "משנה זבים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Zavim",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -81,6 +100,8 @@
     ],
     "authors": [],
     "enDesc": "Zavim (Seminal Emissions) belongs to the sixth order, Tahorot (Purities) and discusses the laws of a person who has ejaculated. It has five chapters.",
+    "enShortDesc": "Abnormal bodily discharges and the impurity they generate.",
+    "heShortDesc": "הפרשות בלתי רגילות מהגוף והטומאה הנגרמת מהן.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -88,6 +109,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה זבים",
     "titleVariants": [
         "M. Zavim",
@@ -101,8 +125,8 @@
         "Mishnah Zavim"
     ],
     "heTitleVariants": [
-        "משנה זבים",
-        "זבים"
+        "זבים",
+        "משנה זבים"
     ],
     "sectionNames": [
         "Chapter",

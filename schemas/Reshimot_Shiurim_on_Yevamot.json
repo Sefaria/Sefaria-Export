@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Modern Commentary on Talmud",
         "Reshimot Shiurim",
         "Seder Nashim"
     ],
@@ -17,6 +17,27 @@
         "sectionNames": [
             "Daf",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "reshimot-shiurim",
+                    "yevamot"
+                ]
+            }
+        ],
+        "lengths": [
+            244,
+            2704
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,11 +60,18 @@
         "key": "Reshimot Shiurim on Yevamot"
     },
     "authors": [
-        "Joseph Dov HaLevi Soloveitchik"
+        {
+            "en": "Joseph B. Soloveitchik",
+            "he": "יוסף דוב הלוי סולובייצ'יק",
+            "slug": "joseph-b-soloveitchik"
+        }
     ],
     "enDesc": "Recorded by one of Rabbi Soloveitchik's close students, Rabbi Hershel Reichman, these notes bring out Rabbi Soloveitchik's adept use of the \"Brisker method\" to identify conceptual categories that reveal a deeper possible meaning to otherwise contradictory texts.",
     "pubDate": "2011",
-    "pubPlace": "New York",
+    "compDate": "1962",
+    "compPlace": "New York",
+    "pubPlace": "",
+    "errorMargin": "49",
     "era": "CO",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -72,8 +100,16 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "פירושים מודרניים על התלמוד",
         "רשימות שיעורים",
         "סדר נשים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1913  - c.2011 CE)",
+        "he": " (1913 - 2011 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "New York",
+        "he": "ניו יורק"
+    }
 }

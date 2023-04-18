@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "arakhin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "arakhin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "arakhin"
+                ]
+            }
+        ],
         "lengths": [
             9,
             50
@@ -33,17 +52,17 @@
                 "text": "M. Arakhin"
             },
             {
-                "lang": "he",
-                "text": "משנה ערכין",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Arakh."
             },
             {
-                "lang": "en",
+                "text": "משנה ערכין",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Arakhin",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -60,7 +79,9 @@
         5
     ],
     "authors": [],
-    "enDesc": "Arakhin (Dedications) belongs to the fifth order, Kodshim (Holy things) and discusses a person dedicating their value to the Temple or dedicating a field. It has nine chapters.",
+    "enDesc": "Arakhin (“Values”) is a tractate within Seder Kodashim (“Order of Holy Things”). Its nine chapters address the process of vowing to donate a person’s prescribed value to provide for Temple maintenance (as described in Leviticus chapter 27), discussing details such as limitations on who can take a vow of donation and methods of collecting these donations. The tractate also discusses donations of land to the Temple and the sale of ancestral fields, houses of walled cities, and houses of unwalled courtyards.",
+    "enShortDesc": "Vowing to donate a person’s prescribed value delineated in the Torah to the Temple, donations of land to the Temple.",
+    "heShortDesc": "נדר לתרום לבית המקדש ממון בשווי ערכו של אדם לפי המפורט בתורה, תרומות קרקע לבית המקדש.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -68,6 +89,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה ערכין",
     "titleVariants": [
         "Mishna Arakhin",

@@ -2,7 +2,7 @@
     "title": "Minchat Shai on Torah",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Minchat Shai"
     ],
     "schema": {
@@ -183,15 +183,24 @@
                 "key": "Deuteronomy"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "minchat-shai",
+                    "numbers"
+                ]
+            }
+        ],
         "titles": [
             {
-                "lang": "he",
                 "text": "מנחת שי על תורה",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Minchat Shai on Torah",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -200,7 +209,11 @@
         "key": "Minchat Shai on Torah"
     },
     "authors": [
-        "Yedidiah Norzi"
+        {
+            "en": "Yedidiah Norzi",
+            "he": "ידידיה שלמה רפאל נורצי",
+            "slug": "yedidiah-norzi"
+        }
     ],
     "enDesc": "Minchat Shai is a Masoretic commentary by Jedidiah Solomon ben Abraham Norzi. It includes grammatical treatises on Tanakh, noting all variant readings scattered through Talmudic and Midrashic literature.",
     "heDesc": "פירוש לתנ\"ך העוסק בעיקר בצורתן, ניקודן ומסורתן של תיבות ואותיות המקרא. מטרת הפירוש היא לברר וללבן את גרסאות המקרא ולקבוע את הנוסח הנכון, על פי מה שדנו בעניינים אלו בספרי התלמוד והמדרש.",
@@ -245,7 +258,7 @@
         "מנחת שי על תורה"
     ],
     "alts": {
-        "Parsha": {
+        "Parasha": {
             "nodes": [
                 {
                     "nodeType": "ArrayMapNode",
@@ -1330,13 +1343,13 @@
             ],
             "titles": [
                 {
-                    "lang": "he",
                     "text": "מנחת שי על תורה",
+                    "lang": "he",
                     "primary": true
                 },
                 {
-                    "lang": "en",
                     "text": "Minchat Shai on Torah",
+                    "lang": "en",
                     "primary": true
                 }
             ],
@@ -1346,7 +1359,7 @@
     },
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "מנחת שי"
     ],
     "compDateString": {

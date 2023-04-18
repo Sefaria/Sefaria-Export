@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "binah-leittim",
+                    "hilchot",
+                    "rest-on-a-holiday"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "binah-leittim",
+                    "rest-on-a-holiday"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            56,
+            72
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,7 +62,11 @@
         "key": "Binah LeIttim on Mishneh Torah, Rest on a Holiday"
     },
     "authors": [
-        "Jonathan Eybeschutz"
+        {
+            "en": "Jonathan Eybeschutz",
+            "he": "יהונתן אייבשיץ",
+            "slug": "jonathan-eybeschutz"
+        }
     ],
     "pubDate": "1797",
     "compDate": "1739",

@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "beitzah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "beitzah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "beitzah"
+                ]
+            }
+        ],
         "lengths": [
             5,
             42
@@ -33,11 +52,6 @@
                 "text": "M Beitzah"
             },
             {
-                "lang": "he",
-                "text": "משנה ביצה",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Bets."
             },
@@ -46,8 +60,13 @@
                 "text": "Mishnah Betsah"
             },
             {
-                "lang": "en",
+                "text": "משנה ביצה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Beitzah",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -64,7 +83,9 @@
         7
     ],
     "authors": [],
-    "enDesc": "Bezah (Eggs) belongs to the second order, Moed (Festivals) and discusses the rules to be observed on Festivals. It has five chapters.",
+    "enDesc": "Tractate Beitzah (“Egg,” named for the first word in the tractate) is located in Seder Moed (“the Order of Festivals”) and discusses the laws of Yom Tov (biblical holidays). In medieval commentaries, it is often referred to as tractate Yom Tov. The tractate opens with discussions about muktzeh, or items that are set-aside and cannot be used on Shabbat or Yom Tov. The remaining chapters mainly focus on preparation of food on Yom Tov, a form of labor that is prohibited on Shabbat.\n\n.",
+    "enShortDesc": "Holiday laws governing which objects can be used, how food is prepared, and what labor is permitted.",
+    "heShortDesc": "דיני יום טוב: חפצים האסורים בשימוש, הכנת אוכל בחג לצורך החג והמלאכות האסורות.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה ביצה",
     "titleVariants": [
         "Mishna Beitzah",

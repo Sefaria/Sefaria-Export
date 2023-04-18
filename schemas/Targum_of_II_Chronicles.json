@@ -10,21 +10,28 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "targum-jerusalem",
+                    "ii-chronicles"
+                ]
+            }
+        ],
+        "lengths": [
+            36,
+            822
+        ],
         "titles": [
             {
                 "lang": "en",
                 "text": "Aramaic Targum to II Chronicles"
-            },
-            {
-                "primary": true,
-                "lang": "he",
-                "text": "תרגום דברי הימים ב"
             },
             {
                 "lang": "en",
@@ -33,6 +40,11 @@
             {
                 "lang": "en",
                 "text": "Targ. II Chron."
+            },
+            {
+                "text": "תרגום דברי הימים ב",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Targum of II Chronicles",

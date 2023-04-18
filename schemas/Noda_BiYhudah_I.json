@@ -1,10 +1,67 @@
 {
     "title": "Noda BiYhudah I",
     "categories": [
-        "Responsa"
+        "Responsa",
+        "Acharonim"
     ],
     "schema": {
         "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "Author's Introduction",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "הקדמת המחבר",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Author's Introduction",
+                "heTitle": "הקדמת המחבר",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Author's Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "An Introduction by the Author's Son",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "הקדמה מבן המחבר",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "An Introduction by the Author's Son",
+                "heTitle": "הקדמה מבן המחבר",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "An Introduction by the Author's Son"
+            },
             {
                 "nodeType": "JaggedArrayNode",
                 "depth": 2,
@@ -167,9 +224,15 @@
         "key": "Noda BiYhudah I"
     },
     "authors": [
-        "Yehezkel Landau"
+        {
+            "en": "Yehezkel Landau",
+            "he": "יחזקאל לנדא",
+            "slug": "yehezkel-landau"
+        }
     ],
     "enDesc": "One of the classic books of responsa of the last several hundred years.",
+    "enShortDesc": "Influential 18th-century responsa of Rabbi Yechezkel Landau, known for the primacy it grants to the Talmud as a source of law.",
+    "heShortDesc": "ספר שאלות ותשובות רב־השפעה מאת הרב יחזאל לנדא, בן המאה ה-18, נודע בשל ייחסו המרכזי לתלמוד כמקור לפסיקת הלכה.",
     "pubDate": "1776",
     "compDate": "1763",
     "compPlace": "Prague",
@@ -189,7 +252,8 @@
         "נודע ביהודה"
     ],
     "heCategories": [
-        "שו\"ת"
+        "שו\"ת",
+        "אחרונים"
     ],
     "compDateString": {
         "en": " (c.1733  - c.1793 CE)",

@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "yadayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yadayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "yadayim"
+                ]
+            }
+        ],
         "lengths": [
             4,
             22
@@ -46,11 +65,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה ידים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "ידים"
             },
             {
@@ -58,8 +72,13 @@
                 "text": "משנה ידיים"
             },
             {
-                "lang": "en",
+                "text": "משנה ידים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Yadayim",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -77,6 +96,8 @@
     ],
     "authors": [],
     "enDesc": "Yadayim (Hands) belongs to the sixth order, Tahorot (Purities) and discusses Rabbinic impurity related to the hands. It has four chapters.",
+    "enShortDesc": "Rabbinic decree to wash hands before eating due to assumed impurity of the hands.",
+    "heShortDesc": "גזרת חכמים ליטול ידיים לפני האכילה בשל ההנחה שהידיים טמאות.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -84,6 +105,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה ידים",
     "titleVariants": [
         "Mishna Yadayim",
@@ -95,9 +119,9 @@
         "Mishnah Yadayim"
     ],
     "heTitleVariants": [
-        "משנה ידים",
         "ידים",
-        "משנה ידיים"
+        "משנה ידיים",
+        "משנה ידים"
     ],
     "sectionNames": [
         "Chapter",

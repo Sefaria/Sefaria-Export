@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "moed-katan"
+                ]
+            }
+        ],
         "lengths": [
             3,
             24
@@ -49,17 +68,17 @@
                 "text": "M Mo'ed Katan"
             },
             {
-                "lang": "he",
-                "text": "משנה מועד קטן",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah M. Kat."
             },
             {
                 "lang": "en",
                 "text": "Mishnah Moʿed Ḳaṭon"
+            },
+            {
+                "text": "משנה מועד קטן",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Mishnah Moed Katan",
@@ -80,7 +99,9 @@
         11
     ],
     "authors": [],
-    "enDesc": "Moed Qatan (Little Festival) belongs to the second order, Moed (Festivals) and discusses Chol Hamoed, the intermediate festival days of Pesach and Sukkot and the laws of mourning. It has three chapters.",
+    "enDesc": "Tractate Moed Katan (“Minor Holiday”)  is located in Seder Moed (“the Order of Festivals”). In medieval commentaries, it is often referred to as tractate Mashkin (“Fluids”) for the tractate’s first word. The tractate’s three chapters discuss the laws of Chol Hamoed, or the intermediate days of Passover and Sukkot, with a focus on permitted and prohibited work and the permissibility of mourning on these days.",
+    "enShortDesc": "Chol HaMoed (the intermediate days of Passover and Sukkot).",
+    "heShortDesc": "דיני חול המועד (הימים בסוכות ובפסח שאינם ימים טובים).",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -88,6 +109,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה מועד קטן",
     "titleVariants": [
         "M Moed Katan",

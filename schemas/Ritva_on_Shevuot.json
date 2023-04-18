@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Ritva",
         "Seder Kodashim"
     ],
@@ -17,6 +17,27 @@
         "sectionNames": [
             "Daf",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ritva",
+                    "shevuot"
+                ]
+            }
+        ],
+        "lengths": [
+            98,
+            483
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,11 +60,18 @@
         "key": "Ritva on Shevuot"
     },
     "authors": [
-        "Ritva"
+        {
+            "en": "Ritva",
+            "he": "ריטב\"א",
+            "slug": "ritva"
+        }
     ],
     "enDesc": "Concise commentary on the Talmud, written by Rabbi Yom Tov ben Avraham Isbilli (Ritva). The author was a Spanish, medieval rabbi and halakhic authority. His commentaries to many tractates of the Talmud are a mainstay of yeshiva study to this day.",
     "pubDate": "1779-1780",
+    "compDate": "1300",
+    "compPlace": "Middle-Age Spain",
     "pubPlace": "Venice",
+    "errorMargin": "20",
     "era": "RI",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -71,8 +99,16 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "ריטב\"א",
         "סדר קדשים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1280  - c.1320 CE)",
+        "he": " (1280 - 1320 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Middle-Age Spain",
+        "he": "ספרד של ימי הביניים"
+    }
 }

@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "meilah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "meilah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "meilah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "meilah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "meilah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "meilah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "meilah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "meilah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "meilah"
+                ]
+            }
+        ],
         "lengths": [
-            41,
-            1199
+            43,
+            515
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -34,11 +98,6 @@
                 "text": "Tractate Meilah"
             },
             {
-                "lang": "he",
-                "text": "מעילה",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Meïl."
             },
@@ -49,6 +108,11 @@
             {
                 "text": "BT Meilah",
                 "lang": "en"
+            },
+            {
+                "text": "מעילה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Meilah",
@@ -69,12 +133,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         35,
         8
     ],
     "authors": [],
-    "enDesc": "Meilah (Sacrilege) belongs to the fifth order, Nezikin (The Order of Damages) and discusses the laws of restitution for the misappropriation of Temple property. It has six chapters.",
+    "enDesc": "Meilah (“Misuse of Property”) is a tractate within Seder Kodashim (“Order of Holy Things”). It discusses the prohibition against deriving benefit from property dedicated to the Temple, and the sacrifice and restitution brought as atonement by those who violate the prohibition (as detailed in Leviticus 5:15-16). The tractate’s six chapters address details such as which consecrated items are subject to the laws of meilah and culpability when an agent is sent to derive benefit from Temple property.",
+    "enShortDesc": "Prohibited benefit from Temple property, the sacrifice and restitution offered as atonement.",
+    "heShortDesc": "הנאה אסורה מחפץ, מבהמה או מכסף השייכים לבית המקדש.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -82,6 +151,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "מעילה",
     "titleVariants": [
         "Masekhet Meilah",
@@ -103,6 +175,33 @@
                     "depth": 1,
                     "wholeRef": "Meilah 2a:1-8a:2",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-120"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-120"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -145,6 +244,33 @@
                     "depth": 1,
                     "wholeRef": "Meilah 8a:3-10b:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-218"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-218"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -180,6 +306,33 @@
                     "depth": 1,
                     "wholeRef": "Meilah 10b:7-14b:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-318"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-318"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -218,6 +371,33 @@
                     "depth": 1,
                     "wholeRef": "Meilah 15a:1-18a:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-415"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-415"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "lang": "en",
@@ -254,6 +434,33 @@
                     "depth": 1,
                     "wholeRef": "Meilah 18a:8-20a:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-513"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-513"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "lang": "en",
@@ -288,6 +495,44 @@
                     "depth": 1,
                     "wholeRef": "Meilah 20a:12-22a:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-611"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-611"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "lang": "en",
@@ -332,11 +577,6 @@
                     "text": "Tractate Meilah"
                 },
                 {
-                    "lang": "he",
-                    "text": "מעילה",
-                    "primary": true
-                },
-                {
                     "lang": "en",
                     "text": "Meïl."
                 },
@@ -347,6 +587,11 @@
                 {
                     "text": "BT Meilah",
                     "lang": "en"
+                },
+                {
+                    "text": "מעילה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Meilah",

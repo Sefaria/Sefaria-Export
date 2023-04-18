@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Yad Ramah",
         "Seder Nezikin"
     ],
@@ -17,6 +17,27 @@
         "sectionNames": [
             "Daf",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yad-ramah",
+                    "sanhedrin"
+                ]
+            }
+        ],
+        "lengths": [
+            226,
+            1268
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -47,12 +68,16 @@
         "key": "Yad Ramah on Sanhedrin"
     },
     "authors": [
-        "Meir Abulafia"
+        {
+            "en": "Meir Abulafia",
+            "he": "מאיר הלוי אבולעפיה",
+            "slug": "meir-abulafia"
+        }
     ],
     "enDesc": "One of the classic commentaries on Tractate Sanhedrin from the epoch of the Rishonim",
     "pubDate": "1798",
     "compDate": "1224",
-    "pubPlace": "Salonica / Thessaloniki ",
+    "pubPlace": "Salonica / Thessaloniki",
     "errorMargin": "20",
     "era": "RI",
     "dependence": "Commentary",
@@ -84,7 +109,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "יד רמה",
         "סדר נזיקין"
     ],

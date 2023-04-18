@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "rest-on-a-holiday"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "rest-on-a-holiday"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "rest-on-a-holiday"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "rest-on-a-holiday"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "rest-on-a-holiday"
+                ]
+            }
+        ],
         "lengths": [
-            8
+            8,
+            175
         ],
         "titles": [
             {
@@ -58,11 +93,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות שביתת יום טוב",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות שביתת יום טוב"
             },
             {
@@ -86,8 +116,45 @@
                 "text": "משנה תורה, הלכות יום טוב"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות שביתת יום טוב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות שביתת יום טוב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' שביתת יום טוב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' שביתת יום טוב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות שביתת יום טוב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות שביתת יום טוב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' שביתת יום טוב",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' שביתת יום טוב",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות שביתת יום טוב",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Rest on a Holiday",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -104,7 +171,11 @@
         4
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The third book is Zemanim (Times). Shevitat Asor; laws of Yom Kippur, except for the Temple service.",
     "pubDate": "1474",
@@ -128,13 +199,21 @@
         "Mishneh Torah, Rest on a Holiday"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות שביתת יום טוב",
         "רמב\"ם, הלכות שביתת יום טוב",
         "משנה תורה, הל' שביתת יום טוב",
         "רמב\"ם, הל' שביתת יום טוב",
         "רמב\"ם הלכות שביתת יום טוב",
         "רמב\"ם הל' שביתת יום טוב",
-        "משנה תורה, הלכות יום טוב"
+        "משנה תורה, הלכות יום טוב",
+        "רמב״ם, הלכות שביתת יום טוב",
+        "רמב”ם, הלכות שביתת יום טוב",
+        "רמב״ם, הל' שביתת יום טוב",
+        "רמב”ם, הל' שביתת יום טוב",
+        "רמב״ם הלכות שביתת יום טוב",
+        "רמב”ם הלכות שביתת יום טוב",
+        "רמב״ם הל' שביתת יום טוב",
+        "רמב”ם הל' שביתת יום טוב",
+        "משנה תורה, הלכות שביתת יום טוב"
     ],
     "sectionNames": [
         "Chapter",

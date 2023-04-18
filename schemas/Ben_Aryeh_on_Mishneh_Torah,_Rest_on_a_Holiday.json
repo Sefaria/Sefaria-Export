@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ben-aryeh",
+                    "hilchot",
+                    "rest-on-a-holiday"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ben-aryeh",
+                    "rest-on-a-holiday"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            8,
+            8
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,7 +62,11 @@
         "key": "Ben Aryeh on Mishneh Torah, Rest on a Holiday"
     },
     "authors": [
-        "Zev ben Aryeh"
+        {
+            "en": "Zev ben Aryeh",
+            "he": "זאב בן אריה",
+            "slug": "zev-ben-aryeh"
+        }
     ],
     "heDesc": "חידושים וציוני מראה מקומות לדברי הרמב\"ם",
     "compDate": "1840",

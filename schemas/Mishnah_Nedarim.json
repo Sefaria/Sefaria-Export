@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "nedarim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "nedarim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "nedarim"
+                ]
+            }
+        ],
         "lengths": [
             11,
             90
@@ -33,11 +52,6 @@
                 "text": "M. Nedarim"
             },
             {
-                "lang": "he",
-                "text": "משנה נדרים",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Ned."
             },
@@ -46,8 +60,13 @@
                 "text": "Mishnah N’darim"
             },
             {
-                "lang": "en",
+                "text": "משנה נדרים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Nedarim",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -64,7 +83,9 @@
         3
     ],
     "authors": [],
-    "enDesc": "Nedarim (Vows) belongs to the third order, Nashim (Women) and discusses various types of vows, often known as nedarim, and their legal consequence. It has thirteen chapters.",
+    "enDesc": "Nedarim (“Vows”) is a tractate in Seder Nashim (“Order of Women,” which addresses family law). Its eleven chapters primarily discuss vows taken voluntarily, particularly those that forbid specific actions or objects. The tractate analyzes the conditions under which vows take effect, interpretations and implications of different vows, and the process of nullifying or dissolving vows.",
+    "enShortDesc": "Vows taken voluntarily, particularly those that forbid specific actions or objects.",
+    "heShortDesc": "נדרים שאדם נודר מרצונו, לרוב נדרים האוסרים על הנודר מעשים או חפצים מסוימים.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה נדרים",
     "titleVariants": [
         "Mishna Nedarim",

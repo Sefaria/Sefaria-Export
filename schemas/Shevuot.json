@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "shevuot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "shevuot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "shevuot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "shevuot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "shevuot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "shevuot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "shevuot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "shevuot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "shevuot"
+                ]
+            }
+        ],
         "lengths": [
-            96,
-            4842
+            98,
+            1555
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -54,9 +118,12 @@
                 "lang": "en"
             },
             {
-                "primary": true,
-                "text": "שבועות",
-                "lang": "he"
+                "text": "BT Shevuot",
+                "lang": "en"
+            },
+            {
+                "text": "Shevuos",
+                "lang": "en"
             },
             {
                 "text": "שבועו'",
@@ -67,8 +134,9 @@
                 "lang": "he"
             },
             {
-                "text": "BT Shevuot",
-                "lang": "en"
+                "text": "שבועות",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Shevuot",
@@ -89,12 +157,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         25,
         6
     ],
     "authors": [],
-    "enDesc": "Shevuot (Oaths) belongs to the fourth order, Nezikin (The Order of Damages) and discusses various types of oaths and their consequences. It has eight chapters.",
+    "enDesc": "Tractate Shevuot (“Oaths”) is a tractate in Seder Nezikin (“Order of Damages\"). Its first two chapters discuss the sacrifices brought to atone for entering the Temple or eating from a sacrifice while impure. The remaining six chapters discuss different types of oaths, like those taken by litigants in court or a false promise made by an individual.",
+    "enShortDesc": "Oaths and the process of atoning for entering the Temple or eating from a sacrifice while impure.",
+    "heShortDesc": "דיני הנכנס לבית המקדש או אוכל בשר קורבן בהיותו טמא, דיני שבועות.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -102,6 +175,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "שבועות",
     "titleVariants": [
         "Masekhet Shevuot",
@@ -113,12 +189,13 @@
         "Shavuot",
         "Shebu’ot",
         "BT Shevuot",
+        "Shevuos",
         "Shevuot"
     ],
     "heTitleVariants": [
-        "שבועות",
         "שבועו'",
-        "שבועו׳"
+        "שבועו׳",
+        "שבועות"
     ],
     "alts": {
         "Chapters": {
@@ -128,6 +205,33 @@
                     "depth": 1,
                     "wholeRef": "Shevuot 2a:1-14a:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-136"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-136"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "primary": true,
@@ -182,6 +286,33 @@
                     "depth": 1,
                     "wholeRef": "Shevuot 14a:12-19b:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-229"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-229"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "primary": true,
@@ -223,6 +354,33 @@
                     "depth": 1,
                     "wholeRef": "Shevuot 19b:13-29b:16",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-328"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-328"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "primary": true,
@@ -273,6 +431,33 @@
                     "depth": 1,
                     "wholeRef": "Shevuot 30a:1-36b:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-424"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-424"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "primary": true,
@@ -316,6 +501,33 @@
                     "depth": 1,
                     "wholeRef": "Shevuot 36b:5-38b:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-521"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-521"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "primary": true,
@@ -350,6 +562,33 @@
                     "depth": 1,
                     "wholeRef": "Shevuot 38b:8-44b:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-619"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-619"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "primary": true,
@@ -392,6 +631,33 @@
                     "depth": 1,
                     "wholeRef": "Shevuot 44b:8-49a:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-717"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-717"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "primary": true,
@@ -431,6 +697,44 @@
                     "depth": 1,
                     "wholeRef": "Shevuot 49a:4-49b:16",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-817"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-817"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "primary": true,
@@ -492,9 +796,12 @@
                     "lang": "en"
                 },
                 {
-                    "primary": true,
-                    "text": "שבועות",
-                    "lang": "he"
+                    "text": "BT Shevuot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Shevuos",
+                    "lang": "en"
                 },
                 {
                     "text": "שבועו'",
@@ -505,8 +812,9 @@
                     "lang": "he"
                 },
                 {
-                    "text": "BT Shevuot",
-                    "lang": "en"
+                    "text": "שבועות",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Shevuot",

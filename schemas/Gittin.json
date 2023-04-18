@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "gittin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "gittin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "gittin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "gittin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "gittin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "gittin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "gittin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "gittin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gittin"
+                ]
+            }
+        ],
         "lengths": [
-            178,
-            8860
+            180,
+            2992
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -50,13 +114,13 @@
                 "lang": "en"
             },
             {
+                "text": "BT Gittin",
+                "lang": "en"
+            },
+            {
                 "text": "גיטין",
                 "lang": "he",
                 "primary": true
-            },
-            {
-                "text": "BT Gittin",
-                "lang": "en"
             },
             {
                 "text": "Gittin",
@@ -77,12 +141,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         18,
         6
     ],
     "authors": [],
-    "enDesc": "Gittin (Documents) belongs to the third order, Nashim (Women) and discusses the concepts of divorces and other documents. It has nine chapters.",
+    "enDesc": "Gittin (plural of “Get,” or writ of divorce) is a tractate in Seder Nashim (“Order of Women,” which addresses family law). Its nine chapters primarily discuss the process of writing and transmitting a get. Also included in the tractate are sections about tikkun ha’olam, or enactments instituted by the sages for the betterment of the world, stories about the destruction of the Temple, and discussions of medical advice.",
+    "enShortDesc": "Laws relating to divorce, focusing on the get (bill of divorce) and its delivery.",
+    "heShortDesc": "דיני גירושין, בדגש על כתיבת שטר הגט ונתינתו.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -90,6 +159,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "גיטין",
     "titleVariants": [
         "Tractate Gittin",
@@ -113,6 +185,33 @@
                     "depth": 1,
                     "wholeRef": "Gittin 2a:1-15a:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-112"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-112"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -169,6 +268,33 @@
                     "depth": 1,
                     "wholeRef": "Gittin 15a:8-24a:15",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-211"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-211"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -217,6 +343,33 @@
                     "depth": 1,
                     "wholeRef": "Gittin 24a:16-32a:2",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-311"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-311"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -263,6 +416,33 @@
                     "depth": 1,
                     "wholeRef": "Gittin 32a:3-48b:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-410"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-410"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -326,6 +506,33 @@
                     "depth": 1,
                     "wholeRef": "Gittin 48b:6-62a:17",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-510"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-510"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -383,6 +590,33 @@
                     "depth": 1,
                     "wholeRef": "Gittin 62b:1-67b:8",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-68"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-68"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -423,6 +657,33 @@
                     "depth": 1,
                     "wholeRef": "Gittin 67b:9-77a:9",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-78"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-78"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -472,6 +733,33 @@
                     "depth": 1,
                     "wholeRef": "Gittin 77a:10-82a:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-88"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-88"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -512,6 +800,44 @@
                     "depth": 1,
                     "wholeRef": "Gittin 82a:7-90b:8",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-98"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-98"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "text": "Chapter 9",
@@ -585,13 +911,13 @@
                     "lang": "en"
                 },
                 {
+                    "text": "BT Gittin",
+                    "lang": "en"
+                },
+                {
                     "text": "גיטין",
                     "lang": "he",
                     "primary": true
-                },
-                {
-                    "text": "BT Gittin",
-                    "lang": "en"
                 },
                 {
                     "text": "Gittin",

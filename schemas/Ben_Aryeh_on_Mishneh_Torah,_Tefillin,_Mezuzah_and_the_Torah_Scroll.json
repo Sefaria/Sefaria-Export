@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ben-aryeh",
+                    "hilchot",
+                    "tefillin-mezuzah-and-the-torah-scroll"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ben-aryeh",
+                    "tefillin-mezuzah-and-the-torah-scroll"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            17,
+            17
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,7 +62,11 @@
         "key": "Ben Aryeh on Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll"
     },
     "authors": [
-        "Zev ben Aryeh"
+        {
+            "en": "Zev ben Aryeh",
+            "he": "זאב בן אריה",
+            "slug": "zev-ben-aryeh"
+        }
     ],
     "heDesc": "חידושים וציוני מראה מקומות לדברי הרמב\"ם",
     "compDate": "1840",

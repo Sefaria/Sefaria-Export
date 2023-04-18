@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "sanhedrin"
+                ]
+            }
+        ],
         "lengths": [
             11,
             71
@@ -41,14 +60,14 @@
                 "text": "Mishnah Synhedrin"
             },
             {
+                "text": "משנה סנהדרין",
                 "lang": "he",
-                "primary": true,
-                "text": "משנה סנהדרין"
+                "primary": true
             },
             {
+                "text": "Mishnah Sanhedrin",
                 "lang": "en",
-                "primary": true,
-                "text": "Mishnah Sanhedrin"
+                "primary": true
             }
         ],
         "title": "Mishnah Sanhedrin",
@@ -64,7 +83,9 @@
         4
     ],
     "authors": [],
-    "enDesc": "Sanhedrin (The Synod) belongs to the fourth order, Nezikin (The Order of Damages) and discusses the rules of court proceedings in the Sanhedrin, the death penalty, and other criminal matters. It has eleven chapters.",
+    "enDesc": "Tractate Sanhedrin (“Assembly of Judges”) is a tractate in Seder Nezikin (“Order of Damages\") that addresses the judicial system. Its eleven chapters discuss the selection of judges and forming a court, the process of accepting testimony, and monetary, corporal, and capital punishment. The tenth chapter, known as “perek chelek,” addresses the World to Come and who does not receive it.",
+    "enShortDesc": "The judicial system, forming the court, accepting testimony, and executing capital punishment.",
+    "heShortDesc": "מערכת המשפט, הקמת בית הדין, קבלת עדות וביצוע גזר דין מוות.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה סנהדרין",
     "titleVariants": [
         "Mishna Sanhedrin",

@@ -3,6 +3,8 @@
     "categories": [
         "Talmud",
         "Bavli",
+        "Rishonim on Talmud",
+        "Rosh",
         "Commentary",
         "Korban Netanel",
         "Seder Moed"
@@ -18,6 +20,27 @@
             "Seif",
             "siman"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "korban-netanel",
+                    "sukkah"
+                ]
+            }
+        ],
+        "lengths": [
+            112,
+            345
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -25,8 +48,8 @@
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Korban Netanel on Sukkah",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -39,7 +62,11 @@
         "key": "Korban Netanel on Sukkah"
     },
     "authors": [
-        "Nathaniel Weil"
+        {
+            "en": "Nathaniel Weil",
+            "he": "נתנאל וייל",
+            "slug": "nathaniel-weil"
+        }
     ],
     "enDesc": "Commentary of Rabbi Nathaniel Weil (Germany, 1687 –1769) on Rabbi Asher ben Yehiel’s \"Piskei HaRosh\".",
     "compDate": "1750",
@@ -73,6 +100,8 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
+        "ראשונים על התלמוד",
+        "רא\"ש",
         "מפרשים",
         "קרבן נתנאל",
         "סדר מועד"

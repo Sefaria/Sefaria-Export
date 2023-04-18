@@ -7,48 +7,92 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "shabbat"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "shabbat"
+            ]
+        },
         "lengths": [
-            184,
-            412
+            24,
+            141,
+            772
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "JT Shabbat"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Shabbat"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Shabbat"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Shabbos"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי שבת",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי שבת"
+                "text": "JT Shabbat",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Sabb."
+                "text": "Yerushalmi Shabbat",
+                "lang": "en"
+            },
+            {
+                "text": "Talmud Yerushalmi Shabbat",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Shabbos",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי שבת",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Sabb.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Shabbat",
@@ -59,23 +103,27 @@
         "title": "Jerusalem Talmud Shabbat",
         "heTitle": "תלמוד ירושלמי שבת",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Shabbat"
     },
     "order": [
         12
     ],
-    "authors": [],
-    "enDesc": "Shabbat (Sabbath) belongs to the second order, Moed (Festivals) and discusses the 39 prohibitions of \"work\" on the Shabbat. It has twenty four chapters.",
+    "enDesc": "Shabbat (“Sabbath”) is the first tractate in Seder Moed (Order of Festivals). Its 24 chapters discuss the 39 melachot (creative labors prohibited on Shabbat), prohibitions of carrying on Shabbat, and positive commandments that preserve the sanctity of the day, such as lighting candles and eating three meals.",
+    "enShortDesc": "Creative work prohibited on Shabbat and other laws that preserve the sanctity of the day.",
+    "heShortDesc": "מלאכות האסורות בשבת ודינים הקשורים לקדושת היום.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי שבת",
     "titleVariants": [
         "JT Shabbat",
@@ -89,11 +137,1827 @@
         "תלמוד ירושלמי שבת",
         "ירושלמי שבת"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 1:1:2-11:8",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 1:1:2-7",
+                        "Jerusalem Talmud Shabbat 1:1:7-18",
+                        "Jerusalem Talmud Shabbat 1:1:18-26",
+                        "Jerusalem Talmud Shabbat 1:1:26-2:11",
+                        "Jerusalem Talmud Shabbat 1:2:11-3:9",
+                        "Jerusalem Talmud Shabbat 1:3:9-4:8",
+                        "Jerusalem Talmud Shabbat 1:4:8-5:2",
+                        "Jerusalem Talmud Shabbat 1:5:2-8:6",
+                        "Jerusalem Talmud Shabbat 1:8:6-11:8"
+                    ],
+                    "startingAddress": "2b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "יציאות השבת",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "יציאות השבת",
+                    "offset": 5
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 2:1:1-7:7",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 2:1:1-2",
+                        "Jerusalem Talmud Shabbat 2:1:2-17",
+                        "Jerusalem Talmud Shabbat 2:1:17-3:5",
+                        "Jerusalem Talmud Shabbat 2:3:5-5:9",
+                        "Jerusalem Talmud Shabbat 2:5:9-7:4",
+                        "Jerusalem Talmud Shabbat 2:7:4-7"
+                    ],
+                    "startingAddress": "4b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "במה מדליקין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "במה מדליקין",
+                    "offset": 13
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 3:1:1-8:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 3:1:1-8",
+                        "Jerusalem Talmud Shabbat 3:1:8-3:3",
+                        "Jerusalem Talmud Shabbat 3:3:3-4:2",
+                        "Jerusalem Talmud Shabbat 3:4:2-7:7",
+                        "Jerusalem Talmud Shabbat 3:7:7-8:3"
+                    ],
+                    "startingAddress": "5c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כירה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "כירה",
+                    "offset": 18
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 4:1:1-3:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 4:1:1-2",
+                        "Jerusalem Talmud Shabbat 4:1:2-2:5",
+                        "Jerusalem Talmud Shabbat 4:2:5-3:5"
+                    ],
+                    "startingAddress": "6c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "במה טומנין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "במה טומנין",
+                    "offset": 22
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 5:1:1-4:9",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 5:1:1-2",
+                        "Jerusalem Talmud Shabbat 5:1:2-4:5",
+                        "Jerusalem Talmud Shabbat 5:4:5-9"
+                    ],
+                    "startingAddress": "7a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "במה בהמה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "במה בהמה",
+                    "offset": 24
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 6:1:1-9:15",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 6:1:1-2",
+                        "Jerusalem Talmud Shabbat 6:1:2-11",
+                        "Jerusalem Talmud Shabbat 6:1:11-2:10",
+                        "Jerusalem Talmud Shabbat 6:2:10-5:3",
+                        "Jerusalem Talmud Shabbat 6:5:3-9:12",
+                        "Jerusalem Talmud Shabbat 6:9:12-15"
+                    ],
+                    "startingAddress": "7c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "במה אשה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "במה אשה",
+                    "offset": 26
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 7:1:1-4:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 7:1:1-2",
+                        "Jerusalem Talmud Shabbat 7:1:2-8",
+                        "Jerusalem Talmud Shabbat 7:1:8-2:5",
+                        "Jerusalem Talmud Shabbat 7:2:5-13",
+                        "Jerusalem Talmud Shabbat 7:2:13-19",
+                        "Jerusalem Talmud Shabbat 7:2:19-30",
+                        "Jerusalem Talmud Shabbat 7:2:30-41",
+                        "Jerusalem Talmud Shabbat 7:2:41-56",
+                        "Jerusalem Talmud Shabbat 7:2:56-4:3"
+                    ],
+                    "startingAddress": "8d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כלל גדול",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "כלל גדול",
+                    "offset": 31
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 8:1:1-7:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 8:1:1-2",
+                        "Jerusalem Talmud Shabbat 8:1:2-9",
+                        "Jerusalem Talmud Shabbat 8:1:9-6:3",
+                        "Jerusalem Talmud Shabbat 8:6:3-7:2"
+                    ],
+                    "startingAddress": "10d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המוציא יין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "המוציא יין",
+                    "offset": 39
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 9:1:1-7:7",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 9:1:1-2",
+                        "Jerusalem Talmud Shabbat 9:1:2-2:3",
+                        "Jerusalem Talmud Shabbat 9:2:3-4:3",
+                        "Jerusalem Talmud Shabbat 9:4:3-7:7"
+                    ],
+                    "startingAddress": "11c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אמר רבי עקיבא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "אמר רבי עקיבא",
+                    "offset": 42
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 10:1:1-6:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 10:1:1-2:2",
+                        "Jerusalem Talmud Shabbat 10:2:2-6:2",
+                        "Jerusalem Talmud Shabbat 10:6:2-3"
+                    ],
+                    "startingAddress": "12b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 10",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המצניע",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 10",
+                    "heTitle": "המצניע",
+                    "offset": 45
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 11:1:1-6:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 11:1:1-5",
+                        "Jerusalem Talmud Shabbat 11:1:5-5:4",
+                        "Jerusalem Talmud Shabbat 11:5:4-6:4"
+                    ],
+                    "startingAddress": "12d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 11",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הזורק",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 11",
+                    "heTitle": "הזורק",
+                    "offset": 47
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 12:1:1-6:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 12:1:1-2",
+                        "Jerusalem Talmud Shabbat 12:1:2-3:5",
+                        "Jerusalem Talmud Shabbat 12:3:5-6:2"
+                    ],
+                    "startingAddress": "13b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 12",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הבונה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 12",
+                    "heTitle": "הבונה",
+                    "offset": 49
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 13:1:1-7:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 13:1:1-2",
+                        "Jerusalem Talmud Shabbat 13:1:2-6:2",
+                        "Jerusalem Talmud Shabbat 13:6:2-7:3"
+                    ],
+                    "startingAddress": "13d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 13",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האורג",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 13",
+                    "heTitle": "האורג",
+                    "offset": 51
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 14:1:1-4:14",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 14:1:1-3",
+                        "Jerusalem Talmud Shabbat 14:1:3-4:3",
+                        "Jerusalem Talmud Shabbat 14:4:3-12",
+                        "Jerusalem Talmud Shabbat 14:4:12-14"
+                    ],
+                    "startingAddress": "14b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 14",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שמנה שרצים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 14",
+                    "heTitle": "שמנה שרצים",
+                    "offset": 53
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 15:1:1-3:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 15:1:1-3:3",
+                        "Jerusalem Talmud Shabbat 15:3:3-6"
+                    ],
+                    "startingAddress": "15a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 15",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "ואלו קשרים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 15",
+                    "heTitle": "ואלו קשרים",
+                    "offset": 56
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 16:1:1-9:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 16:1:1-3",
+                        "Jerusalem Talmud Shabbat 16:1:3-3:3",
+                        "Jerusalem Talmud Shabbat 16:3:3-9:2"
+                    ],
+                    "startingAddress": "15b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 16",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל כתבי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 16",
+                    "heTitle": "כל כתבי",
+                    "offset": 57
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 17:1:1-7:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 17:1:1-2",
+                        "Jerusalem Talmud Shabbat 17:1:2-2:2",
+                        "Jerusalem Talmud Shabbat 17:2:2-7:3"
+                    ],
+                    "startingAddress": "15d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 17",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל הכלים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 17",
+                    "heTitle": "כל הכלים",
+                    "offset": 59
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 18:1:1-3:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 18:1:1-2",
+                        "Jerusalem Talmud Shabbat 18:1:2-3:6"
+                    ],
+                    "startingAddress": "16b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 18",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מפנין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 18",
+                    "heTitle": "מפנין",
+                    "offset": 61
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 19:1:1-6:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 19:1:1-2",
+                        "Jerusalem Talmud Shabbat 19:1:2-7",
+                        "Jerusalem Talmud Shabbat 19:1:7-3:4",
+                        "Jerusalem Talmud Shabbat 19:3:4-6:2"
+                    ],
+                    "startingAddress": "16c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 19",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "רבי אליעזר דמילה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 19",
+                    "heTitle": "רבי אליעזר דמילה",
+                    "offset": 62
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 20:1:1-5:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 20:1:1-2",
+                        "Jerusalem Talmud Shabbat 20:1:2-4:2",
+                        "Jerusalem Talmud Shabbat 20:4:2-5:3"
+                    ],
+                    "startingAddress": "17b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 20",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "תולין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 20",
+                    "heTitle": "תולין",
+                    "offset": 65
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 21:1:1-3:1",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 21:1:1-3:1"
+                    ],
+                    "startingAddress": "17d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 21",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "נוטל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 21",
+                    "heTitle": "נוטל",
+                    "offset": 67
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 22:1:1-6:1",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 22:1:1-6:1"
+                    ],
+                    "startingAddress": "17d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 22",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "חבית",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 22",
+                    "heTitle": "חבית",
+                    "offset": 67
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 23:1:1-5:1",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 23:1:1-2:1",
+                        "Jerusalem Talmud Shabbat 23:3:1-5:1"
+                    ],
+                    "startingAddress": "17d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 23",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שואל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 23",
+                    "heTitle": "שואל",
+                    "offset": 67
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 24:1:1-5:1",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 24:1:1-5:1"
+                    ],
+                    "startingAddress": "18a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 24",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שהחשיך",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 24",
+                    "heTitle": "מי שהחשיך",
+                    "offset": 68
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי שבת",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Shabbat",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Shabbat",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Shabbat",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Shabbos",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי שבת",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Sabb.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Shabbat",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Shabbat",
+            "heTitle": "תלמוד ירושלמי שבת"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 1:1:1-11:8",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 1:1:1-2",
+                        "Jerusalem Talmud Shabbat 1:1:2-3",
+                        "Jerusalem Talmud Shabbat 1:1:3-7",
+                        "Jerusalem Talmud Shabbat 1:1:7-9",
+                        "Jerusalem Talmud Shabbat 1:1:9-10",
+                        "Jerusalem Talmud Shabbat 1:1:10-14",
+                        "Jerusalem Talmud Shabbat 1:1:14-17",
+                        "Jerusalem Talmud Shabbat 1:1:17-20",
+                        "Jerusalem Talmud Shabbat 1:1:20-23",
+                        "Jerusalem Talmud Shabbat 1:1:23-26",
+                        "Jerusalem Talmud Shabbat 1:1:26-2:2",
+                        "Jerusalem Talmud Shabbat 1:2:2-6",
+                        "Jerusalem Talmud Shabbat 1:2:6-11",
+                        "Jerusalem Talmud Shabbat 1:2:11-3:3",
+                        "Jerusalem Talmud Shabbat 1:3:3-7",
+                        "Jerusalem Talmud Shabbat 1:3:7-11",
+                        "Jerusalem Talmud Shabbat 1:3:11-4:4",
+                        "Jerusalem Talmud Shabbat 1:4:4-6",
+                        "Jerusalem Talmud Shabbat 1:4:6-9",
+                        "Jerusalem Talmud Shabbat 1:4:9-15",
+                        "Jerusalem Talmud Shabbat 1:4:15-5:1",
+                        "Jerusalem Talmud Shabbat 1:5:1-4",
+                        "Jerusalem Talmud Shabbat 1:5:4-7:3",
+                        "Jerusalem Talmud Shabbat 1:7:3-8:3",
+                        "Jerusalem Talmud Shabbat 1:8:3-10:2",
+                        "Jerusalem Talmud Shabbat 1:10:2-11:2",
+                        "Jerusalem Talmud Shabbat 1:11:2-8"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "יציאות השבת",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "יציאות השבת",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 2:1:1-7:7",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 2:1:1-9",
+                        "Jerusalem Talmud Shabbat 2:1:9-13",
+                        "Jerusalem Talmud Shabbat 2:1:13-17",
+                        "Jerusalem Talmud Shabbat 2:1:17-2:1",
+                        "Jerusalem Talmud Shabbat 2:2:1-3:3",
+                        "Jerusalem Talmud Shabbat 2:3:3-6",
+                        "Jerusalem Talmud Shabbat 2:3:6-5:1",
+                        "Jerusalem Talmud Shabbat 2:5:1-6",
+                        "Jerusalem Talmud Shabbat 2:5:6-8",
+                        "Jerusalem Talmud Shabbat 2:5:8-6:1",
+                        "Jerusalem Talmud Shabbat 2:6:1-9",
+                        "Jerusalem Talmud Shabbat 2:6:9-7:3",
+                        "Jerusalem Talmud Shabbat 2:7:3-7"
+                    ],
+                    "startingAddress": "14b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "במה מדליקין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "במה מדליקין",
+                    "offset": 27
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 3:1:1-8:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 3:1:1-8",
+                        "Jerusalem Talmud Shabbat 3:1:8-10",
+                        "Jerusalem Talmud Shabbat 3:1:10-13",
+                        "Jerusalem Talmud Shabbat 3:1:13-3:2",
+                        "Jerusalem Talmud Shabbat 3:3:2-6",
+                        "Jerusalem Talmud Shabbat 3:3:6-8",
+                        "Jerusalem Talmud Shabbat 3:3:8-14",
+                        "Jerusalem Talmud Shabbat 3:3:14-4:4",
+                        "Jerusalem Talmud Shabbat 3:4:4-6:2",
+                        "Jerusalem Talmud Shabbat 3:6:2-7:2",
+                        "Jerusalem Talmud Shabbat 3:7:2-6",
+                        "Jerusalem Talmud Shabbat 3:7:6-9",
+                        "Jerusalem Talmud Shabbat 3:7:9-13",
+                        "Jerusalem Talmud Shabbat 3:7:13-8:2",
+                        "Jerusalem Talmud Shabbat 3:8:2-3"
+                    ],
+                    "startingAddress": "21a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כירה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "כירה",
+                    "offset": 40
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 4:1:1-3:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 4:1:1-2",
+                        "Jerusalem Talmud Shabbat 4:1:2-3",
+                        "Jerusalem Talmud Shabbat 4:1:3-7",
+                        "Jerusalem Talmud Shabbat 4:1:7-2:4",
+                        "Jerusalem Talmud Shabbat 4:2:4-9",
+                        "Jerusalem Talmud Shabbat 4:2:9-3:5",
+                        "Jerusalem Talmud Shabbat 4:3:5"
+                    ],
+                    "startingAddress": "28a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "במה טומנין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "במה טומנין",
+                    "offset": 54
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 5:1:1-4:9",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 5:1:1-7",
+                        "Jerusalem Talmud Shabbat 5:1:7-2:5",
+                        "Jerusalem Talmud Shabbat 5:2:5-4:2",
+                        "Jerusalem Talmud Shabbat 5:4:2-8",
+                        "Jerusalem Talmud Shabbat 5:4:8-9"
+                    ],
+                    "startingAddress": "31a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "במה בהמה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "במה בהמה",
+                    "offset": 60
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 6:1:1-9:15",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 6:1:1-2",
+                        "Jerusalem Talmud Shabbat 6:1:2-7",
+                        "Jerusalem Talmud Shabbat 6:1:7-10",
+                        "Jerusalem Talmud Shabbat 6:1:10-2:2",
+                        "Jerusalem Talmud Shabbat 6:2:2-8",
+                        "Jerusalem Talmud Shabbat 6:2:8-11",
+                        "Jerusalem Talmud Shabbat 6:2:11-3:2",
+                        "Jerusalem Talmud Shabbat 6:3:2-4:4",
+                        "Jerusalem Talmud Shabbat 6:4:4-5:3",
+                        "Jerusalem Talmud Shabbat 6:5:3-6:2",
+                        "Jerusalem Talmud Shabbat 6:6:2-8:2",
+                        "Jerusalem Talmud Shabbat 6:8:2-9:6",
+                        "Jerusalem Talmud Shabbat 6:9:6-14",
+                        "Jerusalem Talmud Shabbat 6:9:14-15"
+                    ],
+                    "startingAddress": "33a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "במה אשה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "במה אשה",
+                    "offset": 64
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 7:1:1-4:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 7:1:1-3",
+                        "Jerusalem Talmud Shabbat 7:1:3-4",
+                        "Jerusalem Talmud Shabbat 7:1:4-6",
+                        "Jerusalem Talmud Shabbat 7:1:6-7",
+                        "Jerusalem Talmud Shabbat 7:1:7-9",
+                        "Jerusalem Talmud Shabbat 7:1:9-12",
+                        "Jerusalem Talmud Shabbat 7:1:12-15",
+                        "Jerusalem Talmud Shabbat 7:1:15-2:1",
+                        "Jerusalem Talmud Shabbat 7:2:1-6",
+                        "Jerusalem Talmud Shabbat 7:2:6-9",
+                        "Jerusalem Talmud Shabbat 7:2:9-12",
+                        "Jerusalem Talmud Shabbat 7:2:12-14",
+                        "Jerusalem Talmud Shabbat 7:2:14-16",
+                        "Jerusalem Talmud Shabbat 7:2:16-17",
+                        "Jerusalem Talmud Shabbat 7:2:17-19",
+                        "Jerusalem Talmud Shabbat 7:2:19-20",
+                        "Jerusalem Talmud Shabbat 7:2:20-22",
+                        "Jerusalem Talmud Shabbat 7:2:22-27",
+                        "Jerusalem Talmud Shabbat 7:2:27-32",
+                        "Jerusalem Talmud Shabbat 7:2:32-35",
+                        "Jerusalem Talmud Shabbat 7:2:35-37",
+                        "Jerusalem Talmud Shabbat 7:2:37-41",
+                        "Jerusalem Talmud Shabbat 7:2:41-45",
+                        "Jerusalem Talmud Shabbat 7:2:45-49",
+                        "Jerusalem Talmud Shabbat 7:2:49-54",
+                        "Jerusalem Talmud Shabbat 7:2:54-59",
+                        "Jerusalem Talmud Shabbat 7:2:59-4:2",
+                        "Jerusalem Talmud Shabbat 7:4:2-3"
+                    ],
+                    "startingAddress": "40a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כלל גדול",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "כלל גדול",
+                    "offset": 78
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 8:1:1-7:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 8:1:1-5",
+                        "Jerusalem Talmud Shabbat 8:1:5-9",
+                        "Jerusalem Talmud Shabbat 8:1:9-2:3",
+                        "Jerusalem Talmud Shabbat 8:2:3-3:5",
+                        "Jerusalem Talmud Shabbat 8:3:5-6:1",
+                        "Jerusalem Talmud Shabbat 8:6:1-7:2",
+                        "Jerusalem Talmud Shabbat 8:7:2"
+                    ],
+                    "startingAddress": "54a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המוציא יין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "המוציא יין",
+                    "offset": 106
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 9:1:1-7:7",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 9:1:1-2",
+                        "Jerusalem Talmud Shabbat 9:1:2-4",
+                        "Jerusalem Talmud Shabbat 9:1:4",
+                        "Jerusalem Talmud Shabbat 9:1:4-2:3",
+                        "Jerusalem Talmud Shabbat 9:2:3-3:2",
+                        "Jerusalem Talmud Shabbat 9:3:2-4",
+                        "Jerusalem Talmud Shabbat 9:3:4-4:2",
+                        "Jerusalem Talmud Shabbat 9:4:2-6:2",
+                        "Jerusalem Talmud Shabbat 9:6:2-7:7",
+                        "Jerusalem Talmud Shabbat 9:7:7"
+                    ],
+                    "startingAddress": "57a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אמר רבי עקיבא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "אמר רבי עקיבא",
+                    "offset": 112
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 10:1:1-6:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 10:1:1-2:1",
+                        "Jerusalem Talmud Shabbat 10:2:1-3",
+                        "Jerusalem Talmud Shabbat 10:2:3-4:2",
+                        "Jerusalem Talmud Shabbat 10:4:2-5:2",
+                        "Jerusalem Talmud Shabbat 10:5:2-4",
+                        "Jerusalem Talmud Shabbat 10:5:4-6:2",
+                        "Jerusalem Talmud Shabbat 10:6:2-3"
+                    ],
+                    "startingAddress": "61b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 10",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המצניע",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 10",
+                    "heTitle": "המצניע",
+                    "offset": 121
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 11:1:1-6:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 11:1:1-3",
+                        "Jerusalem Talmud Shabbat 11:1:3-7",
+                        "Jerusalem Talmud Shabbat 11:1:7-2:3",
+                        "Jerusalem Talmud Shabbat 11:2:3-3:2",
+                        "Jerusalem Talmud Shabbat 11:3:2-5:2",
+                        "Jerusalem Talmud Shabbat 11:5:2-6",
+                        "Jerusalem Talmud Shabbat 11:5:6-6:4",
+                        "Jerusalem Talmud Shabbat 11:6:4"
+                    ],
+                    "startingAddress": "64b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 11",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הזורק",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 11",
+                    "heTitle": "הזורק",
+                    "offset": 127
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 12:1:1-6:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 12:1:1-4",
+                        "Jerusalem Talmud Shabbat 12:1:4-7",
+                        "Jerusalem Talmud Shabbat 12:1:7-3:2",
+                        "Jerusalem Talmud Shabbat 12:3:2-5",
+                        "Jerusalem Talmud Shabbat 12:3:5-4:3",
+                        "Jerusalem Talmud Shabbat 12:4:3-5:2",
+                        "Jerusalem Talmud Shabbat 12:5:2-6:2"
+                    ],
+                    "startingAddress": "68a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 12",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הבונה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 12",
+                    "heTitle": "הבונה",
+                    "offset": 134
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 13:1:1-7:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 13:1:1-2",
+                        "Jerusalem Talmud Shabbat 13:1:2-4",
+                        "Jerusalem Talmud Shabbat 13:1:4-3:3",
+                        "Jerusalem Talmud Shabbat 13:3:3-5:1",
+                        "Jerusalem Talmud Shabbat 13:5:1-3",
+                        "Jerusalem Talmud Shabbat 13:5:3-7:3",
+                        "Jerusalem Talmud Shabbat 13:7:3"
+                    ],
+                    "startingAddress": "71a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 13",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האורג",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 13",
+                    "heTitle": "האורג",
+                    "offset": 140
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 14:1:1-4:14",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 14:1:1-2",
+                        "Jerusalem Talmud Shabbat 14:1:2-2:3",
+                        "Jerusalem Talmud Shabbat 14:2:3-3:5",
+                        "Jerusalem Talmud Shabbat 14:3:5-4:2",
+                        "Jerusalem Talmud Shabbat 14:4:2-6",
+                        "Jerusalem Talmud Shabbat 14:4:6-10",
+                        "Jerusalem Talmud Shabbat 14:4:10-14"
+                    ],
+                    "startingAddress": "74a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 14",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שמנה שרצים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 14",
+                    "heTitle": "שמנה שרצים",
+                    "offset": 146
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 15:1:1-3:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 15:1:1-2",
+                        "Jerusalem Talmud Shabbat 15:1:2-2:3",
+                        "Jerusalem Talmud Shabbat 15:2:3-3:3",
+                        "Jerusalem Talmud Shabbat 15:3:3-6"
+                    ],
+                    "startingAddress": "77a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 15",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "ואלו קשרים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 15",
+                    "heTitle": "ואלו קשרים",
+                    "offset": 152
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 16:1:1-9:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 16:1:1-2",
+                        "Jerusalem Talmud Shabbat 16:1:2-4",
+                        "Jerusalem Talmud Shabbat 16:1:4-9",
+                        "Jerusalem Talmud Shabbat 16:1:9-3:3",
+                        "Jerusalem Talmud Shabbat 16:3:3-5:21",
+                        "Jerusalem Talmud Shabbat 16:5:1-7:2",
+                        "Jerusalem Talmud Shabbat 16:7:2-9:2"
+                    ],
+                    "startingAddress": "78b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 16",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל כתבי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 16",
+                    "heTitle": "כל כתבי",
+                    "offset": 155
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 17:1:1-7:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 17:1:1-6",
+                        "Jerusalem Talmud Shabbat 17:1:6-2:4",
+                        "Jerusalem Talmud Shabbat 17:2:4-5:1",
+                        "Jerusalem Talmud Shabbat 17:5:1-7:2",
+                        "Jerusalem Talmud Shabbat 17:7:2-3"
+                    ],
+                    "startingAddress": "82a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 17",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל הכלים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 17",
+                    "heTitle": "כל הכלים",
+                    "offset": 162
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 18:1:1-3:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 18:1:1-5",
+                        "Jerusalem Talmud Shabbat 18:1:5-6",
+                        "Jerusalem Talmud Shabbat 18:1:6-2:1",
+                        "Jerusalem Talmud Shabbat 18:2:1-3:6",
+                        "Jerusalem Talmud Shabbat 18:3:6"
+                    ],
+                    "startingAddress": "84a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 18",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מפנין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 18",
+                    "heTitle": "מפנין",
+                    "offset": 166
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 19:1:1-6:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 19:1:1-3",
+                        "Jerusalem Talmud Shabbat 19:1:3-8",
+                        "Jerusalem Talmud Shabbat 19:1:8-2:1",
+                        "Jerusalem Talmud Shabbat 19:2:1-3:1",
+                        "Jerusalem Talmud Shabbat 19:3:1-4:2",
+                        "Jerusalem Talmud Shabbat 19:4:2",
+                        "Jerusalem Talmud Shabbat 19:4:2-5:2",
+                        "Jerusalem Talmud Shabbat 19:5:2",
+                        "Jerusalem Talmud Shabbat 19:5:2-6:3",
+                        "Jerusalem Talmud Shabbat 19:6:3"
+                    ],
+                    "startingAddress": "86a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 19",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "רבי אליעזר דמילה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 19",
+                    "heTitle": "רבי אליעזר דמילה",
+                    "offset": 170
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 20:1:1-5:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 20:1:1-4",
+                        "Jerusalem Talmud Shabbat 20:1:4-3:2",
+                        "Jerusalem Talmud Shabbat 20:3:2-5:3",
+                        "Jerusalem Talmud Shabbat 20:5:3"
+                    ],
+                    "startingAddress": "90b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 20",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "תולין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 20",
+                    "heTitle": "תולין",
+                    "offset": 179
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 21:1:1-3:1",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 21:1:1-3:1"
+                    ],
+                    "startingAddress": "92a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 21",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "נוטל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 21",
+                    "heTitle": "נוטל",
+                    "offset": 182
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 22:1:1-6:1",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 22:1:1-6:1"
+                    ],
+                    "startingAddress": "92a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 22",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "חבית",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 22",
+                    "heTitle": "חבית",
+                    "offset": 182
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 23:1:1-5:1",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 23:1:1",
+                        "Jerusalem Talmud Shabbat 23:1:1-5:1"
+                    ],
+                    "startingAddress": "92a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 23",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שואל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 23",
+                    "heTitle": "שואל",
+                    "offset": 182
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shabbat 24:1:1-5:1",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shabbat 24:1:1-5:1"
+                    ],
+                    "startingAddress": "92b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 24",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שהחשיך",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 24",
+                    "heTitle": "מי שהחשיך",
+                    "offset": 183
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי שבת",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Shabbat",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Shabbat",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Shabbat",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Shabbos",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי שבת",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Sabb.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Shabbat",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Shabbat",
+            "heTitle": "תלמוד ירושלמי שבת"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

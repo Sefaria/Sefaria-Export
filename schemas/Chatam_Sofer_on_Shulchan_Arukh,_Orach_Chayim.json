@@ -17,6 +17,18 @@
             "Siman",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chatam-sofer",
+                    "orach-chayim"
+                ]
+            }
+        ],
+        "lengths": [
+            697,
+            725
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -38,16 +50,22 @@
         "key": "Chatam Sofer on Shulchan Arukh, Orach Chayim"
     },
     "authors": [
-        "Moses Sofer"
+        {
+            "en": "Moses Sofer",
+            "he": "משה סופר",
+            "slug": "moses-sofer"
+        }
     ],
     "enDesc": "Notes of the very influential late halachic authority on the Orach Chaim section of Shulchan Arukh.",
     "pubDate": "1868",
+    "compDate": "1810",
+    "errorMargin": "25",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Orach Chayim",
-            "he": "אורח חיים"
+            "he": "שולחן ערוך, אורח חיים"
         }
     ],
     "collective_title": {
@@ -71,5 +89,9 @@
         "שולחן ערוך",
         "מפרשים",
         "חתם סופר"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1785  - c.1835 CE)",
+        "he": " (1785 - 1835 לספירה בקירוב)"
+    }
 }

@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "offerings-for-unintentional-transgressions"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "offerings-for-unintentional-transgressions"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "offerings-for-unintentional-transgressions"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "offerings-for-unintentional-transgressions"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "offerings-for-unintentional-transgressions"
+                ]
+            }
+        ],
         "lengths": [
-            15
+            15,
+            137
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות שגגות",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות שגגות"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' שגגות"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות שגגות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות שגגות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' שגגות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' שגגות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות שגגות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות שגגות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' שגגות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' שגגות",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות שגגות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Offerings for Unintentional Transgressions",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,9 +167,13 @@
         4
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The ninth book is Korbanot (Offerings): laws for offerings in the Temple, excepting those of the whole community. Hilchot Shegagot.",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Offerings for Unintentional Transgressions"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות שגגות",
         "רמב\"ם, הלכות שגגות",
         "משנה תורה, הל' שגגות",
         "רמב\"ם, הל' שגגות",
         "רמב\"ם הלכות שגגות",
-        "רמב\"ם הל' שגגות"
+        "רמב\"ם הל' שגגות",
+        "רמב״ם, הלכות שגגות",
+        "רמב”ם, הלכות שגגות",
+        "רמב״ם, הל' שגגות",
+        "רמב”ם, הל' שגגות",
+        "רמב״ם הלכות שגגות",
+        "רמב”ם הלכות שגגות",
+        "רמב״ם הל' שגגות",
+        "רמב”ם הל' שגגות",
+        "משנה תורה, הלכות שגגות"
     ],
     "sectionNames": [
         "Chapter",

@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "foundations-of-the-torah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "foundations-of-the-torah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "foundations-of-the-torah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "foundations-of-the-torah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "foundations-of-the-torah"
+                ]
+            }
+        ],
         "lengths": [
-            10
+            10,
+            88
         ],
         "titles": [
             {
@@ -69,11 +104,6 @@
                 "text": "Rambam, Yesodei haTorah"
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "משנה תורה, הלכות יסודי התורה"
-            },
-            {
                 "lang": "he",
                 "text": "רמב\"ם, הלכות יסודי התורה"
             },
@@ -106,6 +136,43 @@
                 "text": "משנה תורה, הלכות ייסודי התורה"
             },
             {
+                "text": "רמב״ם, הלכות יסודי התורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות יסודי התורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' יסודי התורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' יסודי התורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות יסודי התורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות יסודי התורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' יסודי התורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' יסודי התורה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות יסודי התורה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Foundations of the Torah",
                 "lang": "en",
                 "primary": true
@@ -124,9 +191,13 @@
         1
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The first book is HaMadda (Knowledge): Yesodei haTorah: Belief in God and other Jewish principles of faith.",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -151,7 +222,6 @@
         "Mishneh Torah, Foundations of the Torah"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות יסודי התורה",
         "רמב\"ם, הלכות יסודי התורה",
         "משנה תורה, הל' יסודי התורה",
         "רמב\"ם, הל' יסודי התורה",
@@ -159,7 +229,16 @@
         "רמב\"ם הל' יסודי התורה",
         "הל' יסודי התורה",
         "משנה תורה, הלכות יסודי תורה",
-        "משנה תורה, הלכות ייסודי התורה"
+        "משנה תורה, הלכות ייסודי התורה",
+        "רמב״ם, הלכות יסודי התורה",
+        "רמב”ם, הלכות יסודי התורה",
+        "רמב״ם, הל' יסודי התורה",
+        "רמב”ם, הל' יסודי התורה",
+        "רמב״ם הלכות יסודי התורה",
+        "רמב”ם הלכות יסודי התורה",
+        "רמב״ם הל' יסודי התורה",
+        "רמב”ם הל' יסודי התורה",
+        "משנה תורה, הלכות יסודי התורה"
     ],
     "sectionNames": [
         "Chapter",

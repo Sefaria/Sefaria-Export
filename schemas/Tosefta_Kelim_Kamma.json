@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Kelim Kamma",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Tahorot"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "kelim-kamma"
+                ]
+            }
+        ],
         "lengths": [
-            7
+            7,
+            58
         ],
         "titles": [
             {
@@ -53,13 +62,13 @@
                 "text": "Tosef. Kel. B. Kam."
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "תוספתא כלים קמא"
-            },
-            {
                 "lang": "he",
                 "text": "תוספתא כלים"
+            },
+            {
+                "text": "תוספתא כלים קמא",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Tosefta Kelim Kamma",
@@ -80,6 +89,8 @@
     ],
     "authors": [],
     "enDesc": "Kelim Kamma (Vessels) belongs to the sixth order, Tahorot (Purities) and discusses a large array of various utensils and how they fare in terms of purity. It has seven chapters. It is the largest order of the Mishnah.",
+    "enShortDesc": "Earthenware vessels, like clay ovens, and their statuses in purity laws.",
+    "heShortDesc": "דיני הטומאה והטהרה של כלי חרס, ובהם תנורי חרס.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -100,8 +111,8 @@
         "Tosefta Kelim Kamma"
     ],
     "heTitleVariants": [
-        "תוספתא כלים קמא",
-        "תוספתא כלים"
+        "תוספתא כלים",
+        "תוספתא כלים קמא"
     ],
     "sectionNames": [
         "Chapter",
@@ -109,8 +120,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר טהרות"
     ],
     "compDateString": {

@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "berakhot"
+                ]
+            }
+        ],
         "lengths": [
-            125,
-            9861
+            127,
+            2749
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -70,11 +134,6 @@
                 "text": "T.B. Berakhoth"
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "ברכות"
-            },
-            {
                 "lang": "he",
                 "text": "בְּרָכוֹת"
             },
@@ -85,6 +144,11 @@
             {
                 "text": "BT Berakhot",
                 "lang": "en"
+            },
+            {
+                "text": "ברכות",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Berakhot",
@@ -105,12 +169,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         1,
         1
     ],
     "authors": [],
-    "enDesc": "Berakhot (Blessings) belongs to the first order, Zera'im (seeds) and discusses the rules of blessings and prayers, particularly the Shema and the Amidah. It consists of nine chapters.",
+    "enDesc": "Berakhot (“Blessings”) is the first tractate of Zeraim (“Seeds”), the first order of the Mishnah, and the only tractate in Zeraim included in the Babylonian Talmud. Its nine chapters discuss the laws of prayers, focusing on the Shema, the Amidah, and blessings, including those recited in the context of eating.",
+    "enShortDesc": "Blessings and prayers, focusing on Shema and the Amidah.",
+    "heShortDesc": "ברכות ותפילות, בדגש על קריאת שמע ועל תפילת העמידה.",
     "pubDate": "1483",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -118,6 +187,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "ברכות",
     "titleVariants": [
         "Berachoth",
@@ -136,9 +208,9 @@
         "Berakhot"
     ],
     "heTitleVariants": [
-        "ברכות",
         "בְּרָכוֹת",
-        "ברכו'"
+        "ברכו'",
+        "ברכות"
     ],
     "alts": {
         "Chapters": {
@@ -148,6 +220,33 @@
                     "depth": 1,
                     "wholeRef": "Berakhot 2a:1-13a:15",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-17"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-17"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "primary": true,
@@ -200,6 +299,33 @@
                     "depth": 1,
                     "wholeRef": "Berakhot 13a:16-17b:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-27"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-27"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "primary": true,
@@ -239,6 +365,33 @@
                     "depth": 1,
                     "wholeRef": "Berakhot 17b:12-26a:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-37"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-37"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "primary": true,
@@ -286,6 +439,33 @@
                     "depth": 1,
                     "wholeRef": "Berakhot 26a:11-30b:13",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-47"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-47"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "primary": true,
@@ -325,6 +505,33 @@
                     "depth": 1,
                     "wholeRef": "Berakhot 30b:14-34b:32",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-57"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-57"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "primary": true,
@@ -363,6 +570,33 @@
                     "depth": 1,
                     "wholeRef": "Berakhot 35a:1-45a:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-65"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-65"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "primary": true,
@@ -413,6 +647,33 @@
                     "depth": 1,
                     "wholeRef": "Berakhot 45a:4-51b:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-75"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-75"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "primary": true,
@@ -456,6 +717,33 @@
                     "depth": 1,
                     "wholeRef": "Berakhot 51b:11-53b:33",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-85"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-85"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "primary": true,
@@ -490,6 +778,44 @@
                     "depth": 1,
                     "wholeRef": "Berakhot 54a:1-64a:15",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-95"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-95"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "primary": true,
@@ -586,11 +912,6 @@
                     "text": "T.B. Berakhoth"
                 },
                 {
-                    "primary": true,
-                    "lang": "he",
-                    "text": "ברכות"
-                },
-                {
                     "lang": "he",
                     "text": "בְּרָכוֹת"
                 },
@@ -601,6 +922,11 @@
                 {
                     "text": "BT Berakhot",
                     "lang": "en"
+                },
+                {
+                    "text": "ברכות",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Berakhot",

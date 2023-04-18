@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "chagigah"
+                ]
+            }
+        ],
         "lengths": [
             3,
             23
@@ -33,17 +52,17 @@
                 "text": "M Chagigah"
             },
             {
-                "lang": "he",
-                "text": "משנה חגיגה",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Ḥag."
             },
             {
                 "lang": "en",
                 "text": "Mishnah Ḥãgigah"
+            },
+            {
+                "text": "משנה חגיגה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Mishnah Chagigah",
@@ -64,7 +83,9 @@
         12
     ],
     "authors": [],
-    "enDesc": "Chagigah (Festival Offering) belongs to the second order, Moed (Festivals) and the Three Pilgrimage Festivals (Passover, Shavuot, Sukkot) and the pilgrimage offering that men were supposed to bring in Jerusalem. It has three chapters.",
+    "enDesc": "Tractate Chagigah (“Festival Offering”) is located in Seder Moed (“the Order of Festivals”) and primarily addresses the commandment to make a pilgrimage to the Temple on the holidays of Passover, Shavuot, and Sukkot. The first two chapters focus on the sacrifices offered then and the ritual purity required of those who visit the Temple. The third chapter addresses the differences between consuming sacrifices and consuming terumot, required donations of agricultural produce to priestly households.",
+    "enShortDesc": "Sacrifices offered on pilgrimage to Jerusalem for the Festivals and laws of ritual purity.",
+    "heShortDesc": "קורבנות המוקרבים בעת העלייה לרגל לירושלים בשלושת הרגלים (פסח, שבועות וסוכות) ודיני טהרה.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה חגיגה",
     "titleVariants": [
         "Mishna Chagigah",

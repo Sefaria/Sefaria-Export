@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Rosh",
         "Seder Kodashim"
     ],
@@ -22,6 +22,15 @@
                             "Halakhah",
                             "siman"
                         ],
+                        "referenceableSections": [
+                            true,
+                            true
+                        ],
+                        "isSegmentLevelDiburHamatchil": true,
+                        "diburHamatchilRegexes": [
+                            "^<b>(.+?)</b>",
+                            "^(.+?)[\\-–]"
+                        ],
                         "default": true,
                         "title": "",
                         "heTitle": "",
@@ -39,6 +48,15 @@
                         ],
                         "sectionNames": [
                             "Siman"
+                        ],
+                        "referenceableSections": [
+                            true,
+                            true
+                        ],
+                        "isSegmentLevelDiburHamatchil": true,
+                        "diburHamatchilRegexes": [
+                            "^<b>(.+?)</b>",
+                            "^(.+?)[\\-–]"
                         ],
                         "titles": [
                             {
@@ -87,6 +105,15 @@
                     "Seif",
                     "Siman"
                 ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
                 "titles": [
                     {
                         "lang": "he",
@@ -120,6 +147,15 @@
                             "Halakhah",
                             "Siman"
                         ],
+                        "referenceableSections": [
+                            true,
+                            true
+                        ],
+                        "isSegmentLevelDiburHamatchil": true,
+                        "diburHamatchilRegexes": [
+                            "^<b>(.+?)</b>",
+                            "^(.+?)[\\-–]"
+                        ],
                         "default": true,
                         "title": "",
                         "heTitle": "",
@@ -137,6 +173,15 @@
                         ],
                         "sectionNames": [
                             "Siman"
+                        ],
+                        "referenceableSections": [
+                            true,
+                            true
+                        ],
+                        "isSegmentLevelDiburHamatchil": true,
+                        "diburHamatchilRegexes": [
+                            "^<b>(.+?)</b>",
+                            "^(.+?)[\\-–]"
                         ],
                         "titles": [
                             {
@@ -165,6 +210,15 @@
                         ],
                         "sectionNames": [
                             "Siman"
+                        ],
+                        "referenceableSections": [
+                            true,
+                            true
+                        ],
+                        "isSegmentLevelDiburHamatchil": true,
+                        "diburHamatchilRegexes": [
+                            "^<b>(.+?)</b>",
+                            "^(.+?)[\\-–]"
                         ],
                         "titles": [
                             {
@@ -215,6 +269,15 @@
                             "Halakhah",
                             "Siman"
                         ],
+                        "referenceableSections": [
+                            true,
+                            true
+                        ],
+                        "isSegmentLevelDiburHamatchil": true,
+                        "diburHamatchilRegexes": [
+                            "^<b>(.+?)</b>",
+                            "^(.+?)[\\-–]"
+                        ],
                         "default": true,
                         "title": "",
                         "heTitle": "",
@@ -232,6 +295,15 @@
                         ],
                         "sectionNames": [
                             "Siman"
+                        ],
+                        "referenceableSections": [
+                            true,
+                            true
+                        ],
+                        "isSegmentLevelDiburHamatchil": true,
+                        "diburHamatchilRegexes": [
+                            "^<b>(.+?)</b>",
+                            "^(.+?)[\\-–]"
                         ],
                         "titles": [
                             {
@@ -280,6 +352,15 @@
                     "Seif",
                     "Siman"
                 ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
                 "titles": [
                     {
                         "lang": "en",
@@ -310,6 +391,15 @@
                 "sectionNames": [
                     "Seif",
                     "Siman"
+                ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
                 ],
                 "titles": [
                     {
@@ -342,6 +432,15 @@
                     "Seif",
                     "Siman"
                 ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
                 "titles": [
                     {
                         "lang": "en",
@@ -373,6 +472,15 @@
                     "Seif",
                     "Siman"
                 ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
                 "titles": [
                     {
                         "lang": "en",
@@ -392,6 +500,15 @@
                     "סימן"
                 ],
                 "key": "Hilchot Orlah"
+            }
+        ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rosh",
+                    "menachot"
+                ]
             }
         ],
         "titles": [
@@ -419,7 +536,11 @@
         "key": "Rosh on Menachot"
     },
     "authors": [
-        "Rosh"
+        {
+            "en": "Rosh",
+            "he": "רא\"ש",
+            "slug": "rosh"
+        }
     ],
     "enDesc": "Talmud commentary written by the the Rosh, Rabbi Asher ben Yehiel, a German and Spanish halakhic authority (c. 1250 - 1327). Having been a leader in both Germany and Spain, the Rosh was familiar with the leading halakhic authorities of both countries and included teachings from both. The Rosh’s commentary displays his independence of judgement as he states his legal opinion according to what he views as most sound, even if it goes against other respected authorities.",
     "pubDate": "1520-23",
@@ -451,7 +572,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "רא\"ש",
         "סדר קדשים"
     ],

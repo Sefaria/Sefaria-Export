@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "shorshei-hayam",
+                    "hilchot",
+                    "foreign-worship-and-customs-of-the-nations"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "shorshei-hayam",
+                    "foreign-worship-and-customs-of-the-nations"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            8,
+            8
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,10 +62,17 @@
         "key": "Shorshei HaYam on Mishneh Torah, Foreign Worship and Customs of the Nations"
     },
     "authors": [
-        "Yitzchak Mayo"
+        {
+            "en": "Yitzchak Mayo",
+            "he": "יצחק מאיו",
+            "slug": "yitzchak-mayo"
+        }
     ],
     "pubDate": "1806-1807",
-    "pubPlace": "Salonica / Thessaloniki ",
+    "compDate": "1790",
+    "compPlace": "Izmir / Smyrna",
+    "pubPlace": "Salonica / Thessaloniki",
+    "errorMargin": "15",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -78,5 +105,13 @@
         "מפרשים",
         "שורשי הים",
         "ספר מדע"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1775  - c.1805 CE)",
+        "he": " (1775 - 1805 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Izmir / Smyrna",
+        "he": "איזמיר"
+    }
 }

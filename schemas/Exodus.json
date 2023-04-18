@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "exodus"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "exodus"
+                ]
+            }
         ],
         "lengths": [
             40,
@@ -62,13 +75,13 @@
             },
             {
                 "text": "שמות",
-                "primary": true,
-                "lang": "he"
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Exodus",
-                "primary": true,
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Exodus",
@@ -84,13 +97,19 @@
         2
     ],
     "authors": [],
-    "enDesc": "The second book of the Torah is called Shemot (Exodus) and covers Moses’ childhood in Egypt and God’s appearance to him in a burning bush. Moses is commanded to redeem the Children of Israel from slavery in Egypt but Pharoah refuses. Following the ten plagues and the crossing of the Red Sea, Moses leads the people to Mt. Sinai where they receive God’s Torah (Law) and Berit (Covenant). Immediately afterwards the people violate this Berit (Covenant) by creating and worshipping a Golden Calf. The book also includes the instructions for building the Tabernacle and many laws to do with torts.",
+    "enDesc": "Exodus (“Shemot”) is the second book of the Torah, Judaism’s foundational text. It describes the Israelites’ enslavement in Egypt and their miraculous redemption through ten plagues and the splitting of the Red Sea. Under the leadership of Moses, they begin their travels in the desert, where they experience God’s revelation and receive the Ten Commandments at Mount Sinai, and build the Mishkan (Tabernacle). Interspersed throughout the book are more than 100 commandments.",
+    "heDesc": "ספר שמות הוא השני בחמשת חומשי התורה. ראשיתו בעבדות ישראל במצרים ובשחרור ממנה, בקריעת ים סוף ובמעמד הר סיני, שבו אלוהים נותן לעם ישראל את עשרת הדיברות וכורת עימם ברית. המשכו של הספר מתמקד בהקמת המשכן במדבר, בעבודת הקורבנות ובהכשרת הכהנים המשרתים בו וכן בציון יותר ממאה מצוות הנוגעות לנושאים דוגמת השבת, איסורי עבודה זרה ויחסים ממוניים בין בני אדם.",
+    "enShortDesc": "The Israelites’ enslavement in Egypt, miraculous redemption, the giving of the Torah, and building of the Mishkan (Tabernacle).",
+    "heShortDesc": "שעבוד בני ישראל במצרים, יציאת מצרים, מתן תורה ובניית המשכן.",
     "pubDate": "1488",
     "compDate": "-900",
     "compPlace": "Sinai/Canaan",
     "pubPlace": "Soncino",
     "errorMargin": "500",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "שמות",
     "titleVariants": [
         "Exod.",
@@ -129,6 +148,21 @@
                         "Exodus 3:16-4:17",
                         "Exodus 4:18-4:31",
                         "Exodus 5:1-6:1"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "shemot"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "shemot"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Shemot",
                     "titles": [
@@ -193,6 +227,21 @@
                         "Exodus 8:19-9:16",
                         "Exodus 9:17-9:35"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "vaera"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "vaera"
+                            ],
+                            "scope": "any"
+                        }
+                    ],
                     "sharedTitle": "Vaera",
                     "titles": [
                         {
@@ -252,6 +301,21 @@
                         "Exodus 12:29-12:51",
                         "Exodus 13:1-13:16"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "bo"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "bo"
+                            ],
+                            "scope": "any"
+                        }
+                    ],
                     "sharedTitle": "Bo",
                     "titles": [
                         {
@@ -295,6 +359,21 @@
                         "Exodus 16:11-16:36",
                         "Exodus 17:1-17:16"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "beshalach"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "beshalach"
+                            ],
+                            "scope": "any"
+                        }
+                    ],
                     "sharedTitle": "Beshalach",
                     "titles": [
                         {
@@ -337,6 +416,21 @@
                         "Exodus 19:7-19:19",
                         "Exodus 19:20-20:14",
                         "Exodus 20:15-20:23"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "yitro"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "yitro"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Yitro",
                     "titles": [
@@ -389,6 +483,21 @@
                         "Exodus 23:20-23:25",
                         "Exodus 23:26-24:18"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "mishpatim"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "mishpatim"
+                            ],
+                            "scope": "any"
+                        }
+                    ],
                     "sharedTitle": "Mishpatim",
                     "titles": [
                         {
@@ -431,6 +540,21 @@
                         "Exodus 26:31-26:37",
                         "Exodus 27:1-27:8",
                         "Exodus 27:9-27:19"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "terumah"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "terumah"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Terumah",
                     "titles": [
@@ -486,6 +610,21 @@
                         "Exodus 29:19-29:37",
                         "Exodus 29:38-29:46",
                         "Exodus 30:1-30:10"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "tetzaveh"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tetzaveh"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Tetzaveh",
                     "titles": [
@@ -546,6 +685,21 @@
                         "Exodus 34:10-34:26",
                         "Exodus 34:27-34:35"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "ki-tisa"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ki-tisa"
+                            ],
+                            "scope": "any"
+                        }
+                    ],
                     "sharedTitle": "Ki Tisa",
                     "titles": [
                         {
@@ -597,6 +751,21 @@
                         "Exodus 37:17-37:29",
                         "Exodus 38:1-38:20"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "vayakhel"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "vayakhel"
+                            ],
+                            "scope": "any"
+                        }
+                    ],
                     "sharedTitle": "Vayakhel",
                     "titles": [
                         {
@@ -643,6 +812,21 @@
                         "Exodus 40:1-40:16",
                         "Exodus 40:17-40:27",
                         "Exodus 40:28-40:38"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "pekudei"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "pekudei"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Pekudei",
                     "titles": [
@@ -716,13 +900,13 @@
                 },
                 {
                     "text": "שמות",
-                    "primary": true,
-                    "lang": "he"
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Exodus",
-                    "primary": true,
-                    "lang": "en"
+                    "lang": "en",
+                    "primary": true
                 }
             ],
             "title": "Exodus",

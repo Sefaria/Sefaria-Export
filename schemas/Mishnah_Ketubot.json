@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "ketubot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ketubot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "ketubot"
+                ]
+            }
+        ],
         "lengths": [
             13,
             111
@@ -34,11 +53,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה כתובות",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "משנה מסכת כתובות"
             },
             {
@@ -50,8 +64,13 @@
                 "text": "Mishnah K’thuboth"
             },
             {
-                "lang": "en",
+                "text": "משנה כתובות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Ketubot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -68,7 +87,9 @@
         2
     ],
     "authors": [],
-    "enDesc": "Ketubot (Prenuptial agreements) belongs to the third order, Nashim (Women) and discusses the Ketubah (Judaism's prenuptial agreement), as well as topics such as virginity, Jus primae noctis and the obligations of a couple towards each other. It has thirteen chapters.",
+    "enDesc": "Ketubot is the second tractate in Seder Nashim (“Order of Women,” which addresses family law). Its thirteen chapters primarily discuss the ketubah (marriage contract) and obligations between a husband and wife during marriage and after the dissolution of marriage. The tractate also addresses topics such as giving testimony, vows, and slander.",
+    "enShortDesc": "The marital contract (Ketubah) and obligations between husband and wife.",
+    "heShortDesc": "שטר הכתובה, חובות הבעל לאשתו וחובות האישה לבעלה.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -76,6 +97,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה כתובות",
     "titleVariants": [
         "M Ketubot",
@@ -86,8 +110,8 @@
         "Mishnah Ketubot"
     ],
     "heTitleVariants": [
-        "משנה כתובות",
-        "משנה מסכת כתובות"
+        "משנה מסכת כתובות",
+        "משנה כתובות"
     ],
     "sectionNames": [
         "Chapter",

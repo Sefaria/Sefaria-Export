@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "oholot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "oholot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "oholot"
+                ]
+            }
+        ],
         "lengths": [
             18,
             134
@@ -50,17 +69,17 @@
             },
             {
                 "lang": "he",
-                "primary": true,
-                "text": "משנה אהלות"
-            },
-            {
-                "lang": "he",
                 "text": "אהלות"
             },
             {
+                "text": "משנה אהלות",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "Mishnah Oholot",
                 "lang": "en",
-                "primary": true,
-                "text": "Mishnah Oholot"
+                "primary": true
             }
         ],
         "title": "Mishnah Oholot",
@@ -77,6 +96,8 @@
     ],
     "authors": [],
     "enDesc": "Ohalot (Tents) belongs to the sixth order, Tahorot (Purities) and discusses with the laws of the Zaraath (an unknown skin disease). It has eighteen chapters.",
+    "enShortDesc": "The spread of a corpse’s impurity through contact, carrying, or dwelling under the same roof.",
+    "heShortDesc": "היטמאות בטומאת המת במגע, בנשיאה או בשהייה תחת אותה קורת גג.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -84,6 +105,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה אהלות",
     "titleVariants": [
         "M. Oholot",
@@ -96,8 +120,8 @@
         "Mishnah Oholot"
     ],
     "heTitleVariants": [
-        "משנה אהלות",
-        "אהלות"
+        "אהלות",
+        "משנה אהלות"
     ],
     "sectionNames": [
         "Chapter",

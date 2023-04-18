@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "bava-kamma"
+                ]
+            }
+        ],
         "lengths": [
             10,
             79
@@ -33,11 +52,6 @@
                 "text": "M Bava Kamma"
             },
             {
-                "lang": "he",
-                "text": "משנה בבא קמא",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah B. Kam."
             },
@@ -46,8 +60,13 @@
                 "text": "Mishnah Baba Ḳamma"
             },
             {
-                "lang": "en",
+                "text": "משנה בבא קמא",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Bava Kamma",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -64,7 +83,9 @@
         1
     ],
     "authors": [],
-    "enDesc": "Bava Kamma (First Gate) belongs to the fourth order, Nezikin (The Order of Damages) and discusses the civil matters, largely damages and compensation. It has ten chapters.",
+    "enDesc": "Bava Kamma (״The First Gate״) is the first of a series of three tractates in Seder Nezikin (“Order of Damages\") that deal with civil matters. Bava Kamma focuses on the laws of torts: the first six chapters mostly address damages inflicted by one’s property, while the last four chapters discuss damages inflicted by people, such as theft and injury.",
+    "enShortDesc": "Liability and compensation for damages inflicted on people or property.",
+    "heShortDesc": "אחריות לנזקי אדם או רכוש והפיצויים עליהם.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה בבא קמא",
     "titleVariants": [
         "M. Bava Kamma",

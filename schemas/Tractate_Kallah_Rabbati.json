@@ -1,7 +1,8 @@
 {
     "title": "Tractate Kallah Rabbati",
     "categories": [
-        "Tanaitic",
+        "Talmud",
+        "Bavli",
         "Minor Tractates"
     ],
     "schema": {
@@ -14,6 +15,23 @@
         "sectionNames": [
             "Chapter",
             "Halakhah"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kallah-rabbati"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "kallah-rabbati"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            129
         ],
         "titles": [
             {
@@ -36,7 +54,9 @@
         "key": "Tractate Kallah Rabbati"
     },
     "authors": [],
-    "enDesc": "The minor tractates (Masekhtot Ketanot) are essays from the Tannaitic period or later dealing with topics about which no formal tractate exists in the Mishnah. The first eight or so contain much original material; the last seven or so are collections of material scattered throughout the Talmud. Soferim (Scribes). This tractate deals with issues of marriage.",
+    "enDesc": "Tractate Kallah Rabbati (“Great Bride”) is an Aramaic elaboration on tractates Kallah, Derekh Eretz Rabbah, and Derekh Eretz Zuta. It is a minor tractate, included in most printed editions of the Talmud with other minor tractates, but it differs from all other minor tractates in that it resembles the interpretive and dialectic style of the Talmud, not the terse style of the Mishnah. Its exact dating and place of composition are subject to debate, but it was likely composed soon after the talmudic period, in the eighth or ninth century.",
+    "enShortDesc": "Aramaic elaboration on parts of tractates Kallah, Derekh Eretz Rabbah, and Derekh Eretz Zuta.",
+    "heShortDesc": "הרחבה ארמית של חלקים ממסכתות כלה, דרך ארץ רבה ודרך ארץ זוטא.",
     "compDate": "400",
     "compPlace": "Talmudic Israel/Babylon",
     "errorMargin": "500",
@@ -54,7 +74,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
+        "תלמוד",
+        "בבלי",
         "מסכתות קטנות"
     ],
     "compDateString": {

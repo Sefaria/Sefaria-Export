@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "benei-ahuvah",
+                    "hilchot",
+                    "marriage"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "benei-ahuvah",
+                    "marriage"
+                ]
+            }
+        ],
+        "lengths": [
+            25,
+            236,
+            288
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,7 +62,11 @@
         "key": "Benei Ahuvah on Mishneh Torah, Marriage"
     },
     "authors": [
-        "Jonathan Eybeschutz"
+        {
+            "en": "Jonathan Eybeschutz",
+            "he": "יהונתן אייבשיץ",
+            "slug": "jonathan-eybeschutz"
+        }
     ],
     "pubDate": "1819",
     "compDate": "1739",

@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "birkat-avraham",
+                    "hilchot",
+                    "sacrifices-rendered-unfit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "birkat-avraham",
+                    "sacrifices-rendered-unfit"
+                ]
+            }
+        ],
+        "lengths": [
+            19,
+            1,
+            1
+        ],
         "titles": [
             {
                 "text": "ברכת אברהם על משנה תורה, הלכות פסולי המוקדשין",
@@ -42,11 +62,18 @@
         "key": "Birkat Avraham on Mishneh Torah, Sacrifices Rendered Unfit"
     },
     "authors": [
-        "Avraham ben ha-Rambam"
+        {
+            "en": "Avraham ben ha-Rambam",
+            "he": "אברהם בן הרמבם",
+            "slug": "avraham-ben-ha-rambam"
+        }
     ],
     "enDesc": "A defense of various sections of Rambam's Mishneh Torah by his son in response to Rabbi Daniel HaBavli's questions and critiques.",
     "pubDate": "1859",
+    "compDate": "1220",
+    "compPlace": "Fustat, Egypt",
     "pubPlace": "Elk, Poland",
+    "errorMargin": "25",
     "era": "RI",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -79,5 +106,13 @@
         "מפרשים",
         "ברכת אברהם",
         "ספר עבודה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1195  - c.1245 CE)",
+        "he": " (1195 - 1245 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Fustat, Egypt",
+        "he": "פוסטאט, מצרים"
+    }
 }

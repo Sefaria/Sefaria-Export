@@ -2,22 +2,95 @@
     "title": "Ralbag on Job",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Ralbag",
         "Writings"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 3,
-        "addressTypes": [
-            "Perek",
-            "Integer",
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Pasuk",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Verse",
+                    "Comment"
+                ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "ralbag",
+                            "job"
+                        ]
+                    }
+                ],
+                "lengths": [
+                    42,
+                    612,
+                    904
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
+            }
         ],
-        "sectionNames": [
-            "Chapter",
-            "Verse",
-            "Comment"
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ralbag",
+                    "job"
+                ]
+            }
         ],
         "titles": [
             {
@@ -53,15 +126,14 @@
         ],
         "title": "Ralbag on Job",
         "heTitle": "רלב\"ג על איוב",
-        "heSectionNames": [
-            "פרק",
-            "פסוק",
-            "פירוש"
-        ],
         "key": "Ralbag on Job"
     },
     "authors": [
-        "Ralbag"
+        {
+            "en": "Ralbag",
+            "he": "רלב\"ג",
+            "slug": "ralbag"
+        }
     ],
     "enDesc": "A commentary written by Rabbi Levi ben Gershon (1288–1344) of Provence. Ralbag was a Talmudist, mathematician and astronomer. He was a rationalist which is reflected in his approach to angels and miracles in his commentary. The commentary is divided into 3 parts: the lexicon (bi’ur ha-milot), exegesis (bi’ur ha-parasha), and the lessons (to’alot).",
     "pubDate": "1477",
@@ -94,15 +166,9 @@
     "heTitleVariants": [
         "רלב\"ג על איוב"
     ],
-    "sectionNames": [
-        "Chapter",
-        "Verse",
-        "Comment"
-    ],
-    "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "רלב\"ג",
         "כתובים"
     ],

@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tzafnat-paneach",
+                    "hilchot",
+                    "shofar-sukkah-and-lulav"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tzafnat-paneach",
+                    "shofar-sukkah-and-lulav"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            36,
+            45
+        ],
         "titles": [
             {
                 "text": "צפנת פענח על משנה תורה, הלכות שופר וסוכה ולולב",
@@ -42,12 +62,18 @@
         "key": "Tzafnat Pa'neach on Mishneh Torah, Shofar, Sukkah and Lulav"
     },
     "authors": [
-        "Joseph Rosen"
+        {
+            "en": "Joseph Rosen",
+            "he": "יוסף רוזין",
+            "slug": "joseph-rosen"
+        }
     ],
     "enDesc": "A difficult and often conceptual commentary, full of references but short on explanation - it is typical of the unique genius of the Rogatchover Gaon.",
     "pubDate": "1902-1903",
+    "compDate": "1896",
     "compPlace": "Daugavpils / Dvinsk",
     "pubPlace": "Warsaw",
+    "errorMargin": "10",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -81,6 +107,10 @@
         "צפנת פענח",
         "ספר זמנים"
     ],
+    "compDateString": {
+        "en": " (c.1886  - c.1906 CE)",
+        "he": " (1886 - 1906 לספירה בקירוב)"
+    },
     "compPlaceString": {
         "en": "Daugavpils / Dvinsk",
         "he": "דאוגבפילס / דווינסק"

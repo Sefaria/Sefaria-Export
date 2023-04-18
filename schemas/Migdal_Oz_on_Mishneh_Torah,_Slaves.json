@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "migdal-oz",
+                    "hilchot",
+                    "slaves"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "migdal-oz",
+                    "slaves"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            114,
+            187
+        ],
         "titles": [
             {
                 "text": "מגדל עוז על משנה תורה, הלכות עבדים",
@@ -42,11 +62,18 @@
         "key": "Migdal Oz on Mishneh Torah, Slaves"
     },
     "authors": [
-        "Shem Tov ben Avraham ibn Gaon"
+        {
+            "en": "Shem Tov ben Avraham ibn Gaon",
+            "he": "שם טוב בן אברהם אבן גאון",
+            "slug": "shem-tov-ben-avraham-ibn-gaon"
+        }
     ],
-    "enDesc": "A defense of Rambam's Mishneh Torah against the various glosses and critiques of Rabbi Abraham ben David (Ravad). One of the first and most important commentaries on Mishneh Torah, it was the first systematic attempt to trace the sources for Rambam's halachic decisions. ",
+    "enDesc": "A defense of Rambam's Mishneh Torah against the various glosses and critiques of Rabbi Abraham ben David (Ravad). One of the first and most important commentaries on Mishneh Torah, it was the first systematic attempt to trace the sources for Rambam's halachic decisions.",
     "pubDate": "1509",
+    "compDate": "1310",
+    "compPlace": "Middle-Age Spain",
     "pubPlace": "Constantinople",
+    "errorMargin": "12",
     "era": "RI",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -79,5 +106,13 @@
         "מפרשים",
         "מגדל עוז",
         "ספר קניין"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1298  - c.1322 CE)",
+        "he": " (1298 - 1322 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Middle-Age Spain",
+        "he": "ספרד של ימי הביניים"
+    }
 }

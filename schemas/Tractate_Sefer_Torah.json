@@ -1,7 +1,8 @@
 {
     "title": "Tractate Sefer Torah",
     "categories": [
-        "Tanaitic",
+        "Talmud",
+        "Bavli",
         "Minor Tractates"
     ],
     "schema": {
@@ -15,15 +16,32 @@
             "Chapter",
             "Halakhah"
         ],
-        "titles": [
+        "match_templates": [
             {
-                "lang": "he",
-                "text": "מסכת ספר תורה",
-                "primary": true
+                "term_slugs": [
+                    "sefer-torah"
+                ]
             },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "sefer-torah"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            60
+        ],
+        "titles": [
             {
                 "lang": "en",
                 "text": "Treat. Sefer Torah"
+            },
+            {
+                "text": "מסכת ספר תורה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Tractate Sefer Torah",
@@ -40,7 +58,9 @@
         "key": "Tractate Sefer Torah"
     },
     "authors": [],
-    "enDesc": "The minor tractates (Masekhtot Ketanot) are essays from the Tannaitic period or later dealing with topics about which no formal tractate exists in the Mishnah. The first eight or so contain much original material; the last seven or so are collections of material scattered throughout the Talmud. Soferim (Scribes). This tractate deals with issues relating to the writing of a Torah scroll.",
+    "enDesc": "Tractate Sefer Torah is one of seven small tractates that addresses topics for which there is no specific tractate in the Mishnah or Talmud. These tractates are written in the terse style of the Mishnah and are likely from the time period of the Mishnah or early Talmud, but their dating and places of composition are subject to debate. Tractate Sefer Torah is almost identical to the beginning of Tractate Soferim. The first two chapters address the process of writing a Torah scroll and permitted parchments. The third chapter addresses proper treatment of a Torah scroll. The fourth and fifth chapters address names of God, the process of writing them, and the prohibition to erase them.",
+    "enShortDesc": "Writing and treatment of a Torah scroll; almost identical to the beginning of Tractate Soferim.",
+    "heShortDesc": "כתיבת ספר תורה וכיצד יש לנהוג בו; זהה כמעט לתחילת מסכת סופרים.",
     "compDate": "400",
     "compPlace": "Talmudic Israel/Babylon",
     "errorMargin": "500",
@@ -60,7 +80,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
+        "תלמוד",
+        "בבלי",
         "מסכתות קטנות"
     ],
     "compDateString": {

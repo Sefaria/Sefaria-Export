@@ -9,37 +9,54 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "nehemiah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "nehemiah"
+                ]
+            }
+        ],
         "lengths": [
             13,
-            406
+            405
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Neh."
+                "text": "Neh.",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Neh"
+                "text": "Neh",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Nechemyah"
+                "text": "Nechemyah",
+                "lang": "en"
             },
             {
-                "lang": "he",
+                "text": "Néhémie",
+                "lang": "en"
+            },
+            {
                 "text": "נחמיה",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Nehemiah",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -55,18 +72,26 @@
         37,
         11
     ],
-    "enDesc": "Ezra–Nehemiah is the original combined version of the biblical books of Ezra and Nehemiah—the two were originally one, but were divided by Christians in the 3rd century CE and in Jewish circles in the 15th century. The text of Ezra–Nehemiah is composed largely in Late Biblical Hebrew with significant sections in Aramaic; there are occasional reflections of Old Persian vocabulary, but little significant influence from Greek. Covering the period from the fall of Babylon in 539 BCE to the second half of the 5th century BCE, it tells of the successive missions to Jerusalem of Zerubbabel, Ezra, and Nehemiah, and their efforts to restore the worship of the God of Israel and to create a purified Jewish community. The narrative is highly schematic, each stage of the restoration following the same pattern: God \"stirs up\" the Persian king, the king commissions a Jewish leader to undertake a task, the leader overcomes opposition and succeeds, and success is marked by a great assembly.",
+    "authors": [],
+    "enDesc": "Nehemiah is one of the books of the section in the Hebrew Bible called Writings, and was originally included as part of the book of Ezra. It is mostly a first-person account of Nehemiah, a Jewish cup-bearer to the king of Persia who returns to Jerusalem in the 5th century BCE and becomes governor of Judah. Nehemiah oversees the rebuilding of Jerusalem’s walls in 52 days, defying opposition from Judah’s enemies. He also helps repopulate Jerusalem, enforces the cancellation of debts, and assists Ezra in leading a religious revival.",
+    "heDesc": "נחמיה הוא אחד הספרים שבחטיבת הכתובית שמקרא, ועל פי החלוקה המסורתית, היה חלק מספר עזרא. רובו סיפור בגוף ראשון מפי נחמיה, שר המשקים היהודי של מלך פרס, ששב לירושלים במאה החמישית לפני הספירה ומונה לפחת יהודה. נחמיה מפקח על שיקום חומות העיר, והבנייה נמשכת 52 יום. כמו כן הוא יוצא נגד אויבי יהודה המנסים לפגוע בבונים, מסייע באכלוס העיר מחדש, אוכף את שמיטת החובות ומסייע לעזרא בהנהגת התחייה הדתית.",
+    "enShortDesc": "Rebuilding Jerusalem’s walls and the nation’s commitment to observe the commandments.",
+    "heShortDesc": "שיקום חומות ירושלים ונכונות העם לקבל עליו את שמירת המצוות.",
     "pubDate": "1488",
     "compDate": "-400",
     "compPlace": "Second Temple Judea",
     "pubPlace": "Soncino",
     "errorMargin": "50",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "נחמיה",
     "titleVariants": [
         "Neh.",
         "Neh",
         "Nechemyah",
+        "Néhémie",
         "Nehemiah"
     ],
     "heTitleVariants": [

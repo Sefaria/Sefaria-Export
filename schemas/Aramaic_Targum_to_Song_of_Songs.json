@@ -11,21 +11,33 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Section"
         ],
-        "titles": [
+        "match_templates": [
             {
-                "lang": "he",
-                "text": "תרגום על שיר השירים",
-                "primary": true
-            },
+                "term_slugs": [
+                    "aramaic-targum",
+                    "song-of-songs"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            117
+        ],
+        "titles": [
             {
                 "lang": "en",
                 "text": "Targ. Cant."
+            },
+            {
+                "text": "תרגום על שיר השירים",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Aramaic Targum to Song of Songs",

@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "nachal-eitan",
+                    "hilchot",
+                    "fasts"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "nachal-eitan",
+                    "fasts"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            3,
+            3
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Nachal Eitan on Mishneh Torah, Fasts",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Nachal Eitan on Mishneh Torah, Fasts",
@@ -42,7 +62,11 @@
         "key": "Nachal Eitan on Mishneh Torah, Fasts"
     },
     "authors": [
-        "Avraham Maskil L'Eitan"
+        {
+            "en": "Avraham Maskil L'Eitan",
+            "he": "אברהם משכיל לאיתן",
+            "slug": "avraham-maskil-leitan"
+        }
     ],
     "pubDate": "1855",
     "compDate": "1828",

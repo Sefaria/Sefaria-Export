@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "theft"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "theft"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "theft"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "theft"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "theft"
+                ]
+            }
+        ],
         "lengths": [
-            9
+            9,
+            131
         ],
         "titles": [
             {
@@ -66,11 +101,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות גניבה",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות גניבה"
             },
             {
@@ -90,8 +120,45 @@
                 "text": "רמב\"ם הל' גניבה"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות גניבה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות גניבה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' גניבה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' גניבה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות גניבה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות גניבה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' גניבה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' גניבה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות גניבה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Theft",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -108,7 +175,11 @@
         2
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The eleventh book is Sefer Nezikim (Injuries: criminal and tort law). Hilchot Genevah.",
     "pubDate": "1474",
@@ -134,12 +205,20 @@
         "Mishneh Torah, Theft"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות גניבה",
         "רמב\"ם, הלכות גניבה",
         "משנה תורה, הל' גניבה",
         "רמב\"ם, הל' גניבה",
         "רמב\"ם הלכות גניבה",
-        "רמב\"ם הל' גניבה"
+        "רמב\"ם הל' גניבה",
+        "רמב״ם, הלכות גניבה",
+        "רמב”ם, הלכות גניבה",
+        "רמב״ם, הל' גניבה",
+        "רמב”ם, הל' גניבה",
+        "רמב״ם הלכות גניבה",
+        "רמב”ם הלכות גניבה",
+        "רמב״ם הל' גניבה",
+        "רמב”ם הל' גניבה",
+        "משנה תורה, הלכות גניבה"
     ],
     "sectionNames": [
         "Chapter",

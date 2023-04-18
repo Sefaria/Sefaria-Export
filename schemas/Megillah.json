@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "megillah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "megillah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "megillah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "megillah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "megillah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "megillah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "megillah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "megillah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "megillah"
+                ]
+            }
+        ],
         "lengths": [
-            61,
-            3855
+            63,
+            1213
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -47,11 +111,6 @@
             },
             {
                 "lang": "he",
-                "text": "מגילה",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "מגלה"
             },
             {
@@ -65,6 +124,11 @@
             {
                 "text": "BT Megillah",
                 "lang": "en"
+            },
+            {
+                "text": "מגילה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Megillah",
@@ -85,12 +149,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         10,
         9
     ],
     "authors": [],
-    "enDesc": "Megillah (Scroll) belongs to the second order, Moed (Festivals) and discusses regulations and prescriptions regarding the reading of the scroll of Esther at Purim, and the reading of other passages from the Torah and Neviim in the synagogue. It has four chapters.",
+    "enDesc": "Tractate Megillah (“Scroll”) is located in Seder Moed (“the Order of Festivals”). The first two chapters discuss the laws of reading the scroll of Esther on the holiday of Purim and include interpretations of and elaborations upon the scroll’s story. The remaining two chapters discuss laws of public reading of the Torah and Prophets, public prayer, and treatment and selling of sacred objects and synagogues.",
+    "enShortDesc": "Reading the scroll of Esther on Purim, expansions on the Esther story, synagogue rituals, and treatment of sacred objects.",
+    "heShortDesc": "קריאת מגילת אסתר בפורים, קריאת התורה וההפטרות בבית הכנסת ודיני קדושת בית הכנסת ותשמישי קדושה.",
     "pubDate": "1485",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -98,6 +167,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "מגילה",
     "titleVariants": [
         "Megilah",
@@ -112,8 +184,8 @@
         "Megillah"
     ],
     "heTitleVariants": [
-        "מגילה",
-        "מגלה"
+        "מגלה",
+        "מגילה"
     ],
     "alts": {
         "Chapters": {
@@ -123,6 +195,33 @@
                     "depth": 1,
                     "wholeRef": "Megillah 2a:1-17a:8",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-119"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-119"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -183,6 +282,33 @@
                     "depth": 1,
                     "wholeRef": "Megillah 17a:9-21a:9",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-217"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-217"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -221,6 +347,33 @@
                     "depth": 1,
                     "wholeRef": "Megillah 21a:10-25b:19",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-317"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-317"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -260,6 +413,44 @@
                     "depth": 1,
                     "wholeRef": "Megillah 25b:20-32a:18",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-414"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-414"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "lang": "en",
@@ -326,11 +517,6 @@
                 },
                 {
                     "lang": "he",
-                    "text": "מגילה",
-                    "primary": true
-                },
-                {
-                    "lang": "he",
                     "text": "מגלה"
                 },
                 {
@@ -344,6 +530,11 @@
                 {
                     "text": "BT Megillah",
                     "lang": "en"
+                },
+                {
+                    "text": "מגילה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Megillah",

@@ -2,10 +2,43 @@
     "title": "Paaneach Raza",
     "categories": [
         "Tanakh",
-        "Commentary"
+        "Rishonim on Tanakh"
     ],
     "schema": {
         "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
             {
                 "nodeType": "JaggedArrayNode",
                 "depth": 1,
@@ -2446,10 +2479,20 @@
         "key": "Paaneach Raza"
     },
     "authors": [
-        "Yitzchak bar Yehudah HaLevi"
+        {
+            "en": "Yitzchak bar Yehudah HaLevi",
+            "he": "רבי יצחק בן יהודה הלוי",
+            "slug": "yitzchak-bar-yehudah-halevi"
+        }
     ],
+    "enDesc": "A Tosafist commentary on the Torah focusing on the simple meaning of the text, alongside identification of various word schemes and gematriot.",
+    "enShortDesc": "13th-century commentary by one of the French Tosafists explaining the simple meaning of the text while weaving in gematria and word schemes.",
+    "heShortDesc": "פירוש של אחד מבעלי התוספות הצרפתים מן המאה ה-13 המבאר את פשטי המקראות בשילוב גימטריות ומשחקי לשון.",
     "pubDate": "1607",
+    "compDate": "1270",
+    "compPlace": "Middle-Age France",
     "pubPlace": "Prague",
+    "errorMargin": "20",
     "era": "RI",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -2483,6 +2526,14 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים"
-    ]
+        "ראשונים על התנ״ך"
+    ],
+    "compDateString": {
+        "en": " (c.1250  - c.1290 CE)",
+        "he": " (1250 - 1290 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Middle-Age France",
+        "he": "צרפת של ימי הביניים"
+    }
 }

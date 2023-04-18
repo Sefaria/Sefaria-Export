@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Rabbeinu Gershom",
         "Seder Nezikin"
     ],
@@ -19,6 +19,29 @@
             "Daf",
             "Line",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rabbeinu-gershom",
+                    "makkot"
+                ]
+            }
+        ],
+        "lengths": [
+            48,
+            7,
+            10
+        ],
+        "referenceableSections": [
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -70,7 +93,11 @@
         "key": "Rabbeinu Gershom on Makkot"
     },
     "authors": [
-        "Gershom ben Yehudah"
+        {
+            "en": "Gershom ben Yehudah",
+            "he": "גרשום בן יהודה",
+            "slug": "gershom-ben-yehudah"
+        }
     ],
     "enDesc": "Commentary by Gershom ben Yehudah (Mainz, c. 960 - c.1028). Rabbeinu Gershom is best known for his takkanot, ordinances, banning polygamy, requiring both parties to agree to a divorce, and forbidding people to remind those who were forced to convert to Christianity of their conversions.",
     "pubDate": "1520-1523",
@@ -114,7 +141,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "רבינו גרשום",
         "סדר נזיקין"
     ],

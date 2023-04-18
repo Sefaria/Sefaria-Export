@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "jeremiah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "jeremiah"
+                ]
+            }
         ],
         "lengths": [
             52,
@@ -49,9 +62,8 @@
                 "lang": "en"
             },
             {
-                "text": "ירמיהו",
-                "primary": true,
-                "lang": "he"
+                "text": "Jérémie",
+                "lang": "en"
             },
             {
                 "text": "ירמיה",
@@ -64,6 +76,11 @@
             {
                 "text": "ירמי'",
                 "lang": "he"
+            },
+            {
+                "text": "ירמיהו",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Jeremiah",
@@ -84,13 +101,19 @@
         8
     ],
     "authors": [],
-    "enDesc": "The Book of Jeremiah is the second of the Neviim Aharonim (Latter Prophets). The superscription identifies it as Jeremiah son of Hilkiah. The book is divided into biographical, pros and poetic strands. Jeremiah prophesied during the reforms of King Josiah up to the assassination of the Babylonian appointed governor. During this period; Josiah reforms the religion, Babylon destroys Assyria, Egypt briefly imposes vassal status on Judah, and Babylon defeats Egypt and makes Judah a vassal. Judah revolts twice against Babylon resulting in Jerusalem and the Temple's destruction and the aristocracy is exiled. The poetic material is found largely in chapters 1–25 and consists of oracles in which the prophet speaks as God's messenger. These passages, dealing with Israel's unfaithfulness to God, the call to repentance, and attacks on the religious and political establishment, are mostly undated and have no clear context.",
+    "enDesc": "Jeremiah (“Yirmiyahu”) is the sixth book of the Prophets, with prophecies from the period leading up to the First Temple’s destruction as the Babylonian empire was on the rise. The prophet comes out strongly against idolatry and corruption in Israel, lamenting the impending catastrophe God will inflict in punishment. Jeremiah also bemoans his lone and tormented existence, rejected by the people and at times threatened and tortured. Yet together with his messages of gloom, Jeremiah also delivers visions of hope in God’s ultimate faithfulness to God’s people.",
+    "heDesc": "ירמיהו הוא הספר השישי בספרי הנביאים וכולל נבואות הנוגעות לתקופה שהובילה לחורבן בית המקדש ולגלות בבל. ירמיהו יוצא כנגד העבודה הזרה וההתנוונות המוסרית בממלכת יהודה ומתריע מפני כעסו של הא-ל והעונש שיבוא בעקבותיו. הספר מתאר את קורותיו של ירמיהו, המתעמת עם המלך ועם ראשי העם, מושלך לכלא ונוקט פעולות סמליות, דוגמת ההימנעות מנשיאת אישה, שבירת חרס בגיא בן הינום כסמל להרס העתיד לבוא ורכישת שדה בענתות ערב החורבן. לצד נבואות הפורענות כולל הספר אף כמה נבואות נחמה בדבר אמונו של ה' בעם ומחויבותו כלפיו.",
+    "enShortDesc": "Warnings of Jerusalem’s destruction and demands for repentance, largely rejected by the people, some of whom torture and persecute him.",
+    "heShortDesc": "התראות מפני חורבן ירושלים, דרישה לחזרה בתשובה ודחייתה על ידי רוב העם, עינויים ורדיפות שספג ירמיהו בעקבות נבואותיו.",
     "pubDate": "1488",
     "compDate": "-550",
     "compPlace": "Judea/Israel",
     "pubPlace": "Soncino",
     "errorMargin": "50",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "ירמיהו",
     "titleVariants": [
         "Yirmiyahu",
@@ -100,13 +123,14 @@
         "Jerem.",
         "Yermiyahu",
         "Yirmeyahu",
+        "Jérémie",
         "Jeremiah"
     ],
     "heTitleVariants": [
-        "ירמיהו",
         "ירמיה",
         "ירמי׳",
-        "ירמי'"
+        "ירמי'",
+        "ירמיהו"
     ],
     "sectionNames": [
         "Chapter",

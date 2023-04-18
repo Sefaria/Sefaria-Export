@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "pirkei-avot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "pirkei-avot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "pirkei-avot"
+                ]
+            }
+        ],
         "lengths": [
             6,
             108
@@ -97,17 +116,17 @@
                 "lang": "en"
             },
             {
-                "text": "משנה אבות",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "אבות",
                 "lang": "he"
             },
             {
                 "text": "פרקי אבות",
                 "lang": "he"
+            },
+            {
+                "text": "משנה אבות",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Pirkei Avot",
@@ -129,6 +148,8 @@
     ],
     "authors": [],
     "enDesc": "Avot (Fathers) belongs to the fourth order, Nezikin (The Order of Damages) and presents the laws of interactions between Jews and Gentiles and/or idolaters (from a Jewish perspective). It has five chapters.",
+    "enShortDesc": "Short statements of advice, ethics, and wisdom.",
+    "heShortDesc": "מימרות קצרות המשיאות עצה בענייני מוסר, מידות טובות ודרך ארץ.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -136,6 +157,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה אבות",
     "titleVariants": [
         "Avot",
@@ -160,9 +184,9 @@
         "Pirkei Avot"
     ],
     "heTitleVariants": [
-        "משנה אבות",
         "אבות",
-        "פרקי אבות"
+        "פרקי אבות",
+        "משנה אבות"
     ],
     "sectionNames": [
         "Chapter",

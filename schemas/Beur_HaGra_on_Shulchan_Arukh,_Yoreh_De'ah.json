@@ -17,6 +17,18 @@
             "Siman",
             "Seif"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "beur-hagra",
+                    "yoreh-deah"
+                ]
+            }
+        ],
+        "lengths": [
+            403,
+            7500
+        ],
         "titles": [
             {
                 "text": "Bi'ur haGra, Yoreh De'ah",
@@ -87,6 +99,10 @@
                 "lang": "en"
             },
             {
+                "text": "Beiur HaGra YD",
+                "lang": "en"
+            },
+            {
                 "text": "ביאור הגר\"א על שולחן ערוך יורה דעה",
                 "lang": "he",
                 "primary": true
@@ -114,7 +130,11 @@
         "key": "Beur HaGra on Shulchan Arukh, Yoreh De'ah"
     },
     "authors": [
-        "Vilna Gaon"
+        {
+            "en": "Vilna Gaon",
+            "he": "אליהו בן שלמה זלמן מווילנה",
+            "slug": "vilna-gaon"
+        }
     ],
     "enDesc": "Commentary of the Vilna Gaon on Shulchan Arukh, mainly containing source references. Because of it's brief style it is often difficult to determine the author's intention, as a result of which a number of supercommentaries have been written on this work.",
     "heDesc": "פירוש קצר על דברי השלחן ערוך. באופן כללי, תפקיד הפירוש הוא למצוא את מקורות הדינים בסוגיות הש\"ס. מפאת קיצורו, קשה לעיתים לפענח את כוונתו, ובשל כך נכתבו עליו פירושים רבים.",
@@ -128,7 +148,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Yoreh De'ah",
-            "he": "יורה דעה"
+            "he": "שולחן ערוך, יורה דעה"
         }
     ],
     "collective_title": {
@@ -154,6 +174,7 @@
         "Beur HaGra YD",
         "Biur HaGra SA YD",
         "Beur HaGra SA YD",
+        "Beiur HaGra YD",
         "Beur HaGra on Shulchan Arukh, Yoreh De'ah"
     ],
     "heTitleVariants": [
@@ -2375,6 +2396,10 @@
                 },
                 {
                     "text": "Beur HaGra SA YD",
+                    "lang": "en"
+                },
+                {
+                    "text": "Beiur HaGra YD",
                     "lang": "en"
                 },
                 {

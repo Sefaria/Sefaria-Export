@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "vessels"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "vessels"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "vessels"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "vessels"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "vessels"
+                ]
+            }
+        ],
         "lengths": [
-            28
+            28,
+            409
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות כלים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות כלים"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' כלים"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות כלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות כלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' כלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' כלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות כלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות כלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' כלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' כלים",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות כלים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Vessels",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,7 +167,11 @@
         7
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The tenth book is Sefer Taharah (Cleanness: the rules of purity). Hilchot Kelim.",
     "pubDate": "1474",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Vessels"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות כלים",
         "רמב\"ם, הלכות כלים",
         "משנה תורה, הל' כלים",
         "רמב\"ם, הל' כלים",
         "רמב\"ם הלכות כלים",
-        "רמב\"ם הל' כלים"
+        "רמב\"ם הל' כלים",
+        "רמב״ם, הלכות כלים",
+        "רמב”ם, הלכות כלים",
+        "רמב״ם, הל' כלים",
+        "רמב”ם, הל' כלים",
+        "רמב״ם הלכות כלים",
+        "רמב”ם הלכות כלים",
+        "רמב״ם הל' כלים",
+        "רמב”ם הל' כלים",
+        "משנה תורה, הלכות כלים"
     ],
     "sectionNames": [
         "Chapter",

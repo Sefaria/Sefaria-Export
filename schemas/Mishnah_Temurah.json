@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "temurah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "temurah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "temurah"
+                ]
+            }
+        ],
         "lengths": [
             7,
             35
@@ -33,17 +52,17 @@
                 "text": "Mishna Temurah"
             },
             {
-                "lang": "he",
-                "text": "משנה תמורה",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Tem."
             },
             {
                 "lang": "en",
                 "text": "Mishnah T’murah"
+            },
+            {
+                "text": "משנה תמורה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Mishnah Temurah",
@@ -64,7 +83,9 @@
         6
     ],
     "authors": [],
-    "enDesc": "Temurah (Substitution) belongs to the fifth order, Kodshim (Holy things) and discusses the laws of what happens if an animal is substituted for an animal dedicated for a sacrifice. It has seven chapters.",
+    "enDesc": "Temurah (“Substitution”) is a tractate within Seder Kodashim (“Order of Holy Things”). It mainly discusses the prohibition, based in Leviticus 27:10 and 27:33, against substituting a non-consecrated animal for an animal consecrated for sacrifice in the Temple, and the sacred status that both animals receive if this prohibition is violated. Temurah’s seven chapters address details such as the status of fetuses of substituted animals and the status of money set aside for sacrifices.",
+    "enShortDesc": "The sanctity of animals dedicated for sacrifice and the prohibition of exchanging them for others.",
+    "heShortDesc": "קדושת הבהמות שיועדו לקורבן והאיסור להחליפן באחרות.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה תמורה",
     "titleVariants": [
         "M. Temurah",

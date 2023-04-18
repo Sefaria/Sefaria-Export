@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "nachal-eitan",
+                    "hilchot",
+                    "woman-suspected-of-infidelity"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "nachal-eitan",
+                    "woman-suspected-of-infidelity"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            11,
+            11
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Nachal Eitan on Mishneh Torah, Woman Suspected of Infidelity",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Nachal Eitan on Mishneh Torah, Woman Suspected of Infidelity",
@@ -42,7 +62,11 @@
         "key": "Nachal Eitan on Mishneh Torah, Woman Suspected of Infidelity"
     },
     "authors": [
-        "Avraham Maskil L'Eitan"
+        {
+            "en": "Avraham Maskil L'Eitan",
+            "he": "אברהם משכיל לאיתן",
+            "slug": "avraham-maskil-leitan"
+        }
     ],
     "pubDate": "1855",
     "compDate": "1828",

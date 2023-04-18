@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushim-of-machaneh-ephraim",
+                    "hilchot",
+                    "tithes"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushim-of-machaneh-ephraim",
+                    "tithes"
+                ]
+            }
+        ],
+        "lengths": [
+            14,
+            9,
+            9
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Chidushim of Machaneh Ephraim on Mishneh Torah, Tithes",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Chidushim of Machaneh Ephraim on Mishneh Torah, Tithes",
@@ -42,7 +62,11 @@
         "key": "Chidushim of Machaneh Ephraim on Mishneh Torah, Tithes"
     },
     "authors": [
-        "Ephraim Navon"
+        {
+            "en": "Ephraim Navon",
+            "he": "אפרים נבון",
+            "slug": "ephraim-navon"
+        }
     ],
     "pubDate": "1738",
     "compDate": "1720",

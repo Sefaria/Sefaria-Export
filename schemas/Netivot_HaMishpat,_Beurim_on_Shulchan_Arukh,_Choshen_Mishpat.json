@@ -141,6 +141,15 @@
                 "key": "Beurim on Kitzur Dinei Migo"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "netivot-hamishpat-beurim",
+                    "choshen-mishpat"
+                ]
+            }
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -158,7 +167,11 @@
         "key": "Netivot HaMishpat, Beurim on Shulchan Arukh, Choshen Mishpat"
     },
     "authors": [
-        "Yaakov Lorberbaum"
+        {
+            "en": "Yaakov Lorberbaum",
+            "he": "יעקב בן יעקב משה מליסא",
+            "slug": "yaakov-lorberbaum"
+        }
     ],
     "enDesc": "A well known commentary on Shulchan Arukh and highly critical review of Rabbi Aryeh Leib Heller's Ketzot HaChoshen.",
     "pubDate": "1809, 1816",
@@ -170,7 +183,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Choshen Mishpat",
-            "he": "חושן משפט"
+            "he": "שולחן ערוך, חושן משפט"
         }
     ],
     "collective_title": {

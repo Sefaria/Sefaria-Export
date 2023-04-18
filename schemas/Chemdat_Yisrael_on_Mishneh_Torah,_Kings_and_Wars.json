@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chemdat-yisrael",
+                    "hilchot",
+                    "kings-and-wars"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chemdat-yisrael",
+                    "kings-and-wars"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            23,
+            23
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,11 +62,17 @@
         "key": "Chemdat Yisrael on Mishneh Torah, Kings and Wars"
     },
     "authors": [
-        "Meir Dan Plotsky"
+        {
+            "en": "Meir Dan Plotsky",
+            "he": "מאיר דן רפאל פְּלוֹצְקִי",
+            "slug": "meir-dan-plotsky"
+        }
     ],
     "enDesc": "Commentary with a focus on the seven Noahide laws",
     "pubDate": "1903-10",
-    "pubPlace": "Pietrykaŭ, Belarus ",
+    "compDate": "1910",
+    "pubPlace": "Pietrykaŭ, Belarus",
+    "errorMargin": "20",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -79,5 +105,9 @@
         "מפרשים",
         "חמדת ישראל",
         "ספר שופטים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1890  - c.1930 CE)",
+        "he": " (1890 - 1930 לספירה בקירוב)"
+    }
 }

@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "divrei-yirmiyahu",
+                    "hilchot",
+                    "shofar-sukkah-and-lulav"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "divrei-yirmiyahu",
+                    "shofar-sukkah-and-lulav"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            50,
+            62
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Divrei Yirmiyahu on Mishneh Torah, Shofar, Sukkah and Lulav",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Divrei Yirmiyahu on Mishneh Torah, Shofar, Sukkah and Lulav",
@@ -41,9 +61,15 @@
         ],
         "key": "Divrei Yirmiyahu on Mishneh Torah, Shofar, Sukkah and Lulav"
     },
-    "authors": [],
+    "authors": [
+        {
+            "en": "Jeremiah Löw",
+            "he": "ירמיה לעוו",
+            "slug": "jeremiah-lw"
+        }
+    ],
     "enDesc": "Commentary on the Mada, Ahava, and Zemanim sections of Rambam's Mishneh Torah. Also includes independent treatises containing lengthy discussions of various Halakhic topics",
-    "heDesc": "ביאור על ספרי מדע, אהבה, וזמנים שבמשנה תורה להרמב\"ם. גם נכלל בו קונטרסים ארוכים בהם מברר המחבר נושאים שונים בהלכה כאשר הוא מקיף את כל סוגיות הש\"ס ודברי הראשונים הקשורים לאותו ענין. ",
+    "heDesc": "ביאור על ספרי מדע, אהבה, וזמנים שבמשנה תורה להרמב\"ם. גם נכלל בו קונטרסים ארוכים בהם מברר המחבר נושאים שונים בהלכה כאשר הוא מקיף את כל סוגיות הש\"ס ודברי הראשונים הקשורים לאותו ענין.",
     "pubDate": "1875",
     "compDate": "1854",
     "pubPlace": "Mukachevo / Munkacs",

@@ -2,7 +2,7 @@
     "title": "Gur Aryeh on Bamidbar",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
         "Gur Aryeh",
         "Torah"
     ],
@@ -11,7 +11,7 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
@@ -19,15 +19,33 @@
             "Verse",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "gur-aryeh",
+                    "numbers"
+                ]
+            }
+        ],
+        "lengths": [
+            36,
+            484,
+            805
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
-                "lang": "he",
                 "text": "גור אריה על במדבר",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Gur Aryeh on Bamidbar",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -41,7 +59,11 @@
         "key": "Gur Aryeh on Bamidbar"
     },
     "authors": [
-        "Maharal"
+        {
+            "en": "Maharal",
+            "he": "מהר\"ל",
+            "slug": "maharal"
+        }
     ],
     "enDesc": "Maharal's supercommentary to Rashi's Torah commentary.",
     "heDesc": "פירושו של המהר\"ל מפראג לפירוש רש\"י על התורה.",
@@ -79,7 +101,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
         "גור אריה",
         "תורה"
     ],

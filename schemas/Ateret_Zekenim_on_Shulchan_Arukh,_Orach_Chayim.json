@@ -17,6 +17,18 @@
             "Siman",
             "Seif"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ateret-zekenim",
+                    "orach-chayim"
+                ]
+            }
+        ],
+        "lengths": [
+            697,
+            1003
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -24,8 +36,8 @@
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Ateret Zekenim on Shulchan Arukh, Orach Chayim",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -38,7 +50,11 @@
         "key": "Ateret Zekenim on Shulchan Arukh, Orach Chayim"
     },
     "authors": [
-        "Menachem Mendel Auerbach"
+        {
+            "en": "Menachem Mendel Auerbach",
+            "he": "מנחם מנדל אוירבך",
+            "slug": "menachem-mendel-auerbach"
+        }
     ],
     "enDesc": "Commentary on Shulchan Aruch, of which only the part on Orach Chaim has been published, appearing in most standard editions of Shulchan Aruch.",
     "heDesc": "פירוש לשולחן ערוך, שרק החלק על אורח חיים יצא לאור ומופיע ברוב המהדורות הנדפסות של השולחן ערוך.",
@@ -51,7 +67,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Orach Chayim",
-            "he": "אורח חיים"
+            "he": "שולחן ערוך, אורח חיים"
         }
     ],
     "collective_title": {
@@ -1614,8 +1630,8 @@
                     "primary": true
                 },
                 {
-                    "lang": "en",
                     "text": "Ateret Zekenim on Shulchan Arukh, Orach Chayim",
+                    "lang": "en",
                     "primary": true
                 }
             ],

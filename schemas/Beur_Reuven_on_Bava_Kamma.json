@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary"
+        "Modern Commentary on Talmud"
     ],
     "schema": {
         "nodes": [
@@ -15,6 +15,15 @@
                 ],
                 "sectionNames": [
                     "Paragraph"
+                ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
                 ],
                 "titles": [
                     {
@@ -46,6 +55,15 @@
                     "Daf",
                     "Comment"
                 ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
                 "default": true,
                 "title": "",
                 "heTitle": "",
@@ -56,6 +74,15 @@
                 "key": "default"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "beur-reuven",
+                    "bava-kamma"
+                ]
+            }
+        ],
         "titles": [
             {
                 "primary": true,
@@ -63,9 +90,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Beur Reuven on Bava Kamma",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Beur Reuven on Bava Kamma",
@@ -73,10 +100,15 @@
         "key": "Beur Reuven on Bava Kamma"
     },
     "authors": [
-        "Reuven Agushewitz"
+        {
+            "en": "Reuven Agushewitz",
+            "he": "ראובן אגושביץ",
+            "slug": "reuven-agushewitz"
+        }
     ],
     "enDesc": "Talmudic novellae on Tractate Bava Kamma.",
     "heDesc": "חידושים על מסכת בבא קמא.",
+    "enShortDesc": "20th-century commentary on the Talmud, Rashi, and Tosafot by Rabbi Reuven Agushewitz.",
     "pubDate": "1955",
     "compDate": "1940",
     "pubPlace": "New York",
@@ -103,7 +135,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים"
+        "פירושים מודרניים על התלמוד"
     ],
     "compDateString": {
         "en": " (c.1925  - c.1955 CE)",

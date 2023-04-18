@@ -2,7 +2,7 @@
     "title": "Ibn Ezra on Proverbs",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Ibn Ezra",
         "Writings"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ibn-ezra",
+                    "proverbs"
+                ]
+            }
+        ],
+        "lengths": [
+            31,
+            739,
+            1357
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -61,9 +79,13 @@
         "key": "Ibn Ezra on Proverbs"
     },
     "authors": [
-        "Ibn Ezra"
+        {
+            "en": "Moses Kimchi",
+            "he": "משה קמחי",
+            "slug": "moses-kimchi"
+        }
     ],
-    "enDesc": "Ibn Ezra’s commentary on the Tanakh reflects his knowledge as a Hebrew grammarian and philologist. His commentary is terse and aims to discover the pshat, the contextual meaning, of the text. Ibn Ezra was known for his independent ideas which aroused much controversy. Many view Ibn Ezra as the forefather of Biblical criticism. As an example, in the last chapter of Sefer Devarim (34:10), Ibn Ezra comments that Joshua, and not Moshe, wrote from this point until the end of the Torah. ",
+    "enDesc": "This commentary was historically attributed to Rabbi Abraham ibn Ezra, one of the foremost biblical commentators in 12th-century Spain. Modern scholarship clarified that the commentary on the books of Ezra, Nechemia, and Proverbs were in fact authored by Rabbi Moses Kimchi, a European scholar who lived in the same period. Kimchi was a grammarian and poet, and was instrumental in raising his younger brother, David Kimchi (known as “Radak”) after the passing of their father, Joseph Kimchi.",
     "pubDate": "1524",
     "compDate": "1160",
     "compPlace": "Middle-Age France/Italy/England",
@@ -102,7 +124,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "אבן עזרא",
         "כתובים"
     ],

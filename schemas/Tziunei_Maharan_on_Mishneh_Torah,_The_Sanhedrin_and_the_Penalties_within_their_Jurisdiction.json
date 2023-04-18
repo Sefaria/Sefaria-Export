@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tziunei-maharan",
+                    "hilchot",
+                    "the-sanhedrin-and-the-penalties-within-their-jurisdiction"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tziunei-maharan",
+                    "the-sanhedrin-and-the-penalties-within-their-jurisdiction"
+                ]
+            }
+        ],
+        "lengths": [
+            26,
+            10,
+            10
+        ],
         "titles": [
             {
                 "text": "ציוני מהר\"ן על משנה תורה, הלכות סנהדרין והעונשין המסורין להם",
@@ -42,10 +62,17 @@
         "key": "Tziunei Maharan on Mishneh Torah, The Sanhedrin and the Penalties within their Jurisdiction"
     },
     "authors": [
-        "Nachum Asch"
+        {
+            "en": "Nachum Asch",
+            "he": "נחום אש",
+            "slug": "nachum-asch"
+        }
     ],
     "pubDate": "1880-1881",
+    "compDate": "1878",
+    "compPlace": "Ozorków",
     "pubPlace": "Warsaw",
+    "errorMargin": "3",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -78,5 +105,9 @@
         "מפרשים",
         "ציוני מהר\"ן",
         "ספר שופטים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1875  - c.1881 CE)",
+        "he": " (1875 - 1881 לספירה בקירוב)"
+    }
 }

@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "nachal-eitan",
+                    "hilchot",
+                    "forbidden-intercourse"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "nachal-eitan",
+                    "forbidden-intercourse"
+                ]
+            }
+        ],
+        "lengths": [
+            22,
+            36,
+            39
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Nachal Eitan on Mishneh Torah, Forbidden Intercourse",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Nachal Eitan on Mishneh Torah, Forbidden Intercourse",
@@ -42,7 +62,11 @@
         "key": "Nachal Eitan on Mishneh Torah, Forbidden Intercourse"
     },
     "authors": [
-        "Avraham Maskil L'Eitan"
+        {
+            "en": "Avraham Maskil L'Eitan",
+            "he": "אברהם משכיל לאיתן",
+            "slug": "avraham-maskil-leitan"
+        }
     ],
     "pubDate": "1855",
     "compDate": "1828",

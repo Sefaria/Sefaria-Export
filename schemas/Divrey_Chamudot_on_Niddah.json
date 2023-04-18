@@ -3,6 +3,8 @@
     "categories": [
         "Talmud",
         "Bavli",
+        "Rishonim on Talmud",
+        "Rosh",
         "Commentary",
         "Divrey Chamudot",
         "Seder Tahorot"
@@ -17,6 +19,15 @@
                 ],
                 "sectionNames": [
                     "Siman"
+                ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
                 ],
                 "default": true,
                 "title": "",
@@ -34,6 +45,15 @@
                 ],
                 "sectionNames": [
                     "Siman"
+                ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
                 ],
                 "titles": [
                     {
@@ -63,6 +83,15 @@
                 "sectionNames": [
                     "Siman"
                 ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
                 "titles": [
                     {
                         "lang": "en",
@@ -83,6 +112,15 @@
                 "key": "Hilchot Mikvaot"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "divrey-chamudot",
+                    "niddah"
+                ]
+            }
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -90,8 +128,8 @@
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Divrey Chamudot on Niddah",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,7 +138,11 @@
         "key": "Divrey Chamudot on Niddah"
     },
     "authors": [
-        "Yom-Tov Lipmann Heller"
+        {
+            "en": "Yom-Tov Lipmann Heller",
+            "he": "יום-טוב ליפמן הלר",
+            "slug": "yom-tov-lipmann-heller"
+        }
     ],
     "enDesc": "Commentary on the Rosh by the author of \"Tosafot Yom Tov\".",
     "pubDate": "1628",
@@ -131,6 +173,8 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
+        "ראשונים על התלמוד",
+        "רא\"ש",
         "מפרשים",
         "דברי חמודות",
         "סדר טהרות"

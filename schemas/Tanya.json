@@ -2,70 +2,145 @@
     "title": "Tanya",
     "categories": [
         "Chasidut",
-        "Early Works"
+        "Chabad"
     ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 1,
-                "addressTypes": [
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Paragraph"
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "titles": [
+                            {
+                                "text": "Title Page",
+                                "lang": "en",
+                                "primary": true
+                            },
+                            {
+                                "text": "שער",
+                                "lang": "he",
+                                "primary": true
+                            }
+                        ],
+                        "title": "Title Page",
+                        "heTitle": "שער",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Title Page"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
+                        "addressTypes": [
+                            "Integer",
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Chapter",
+                            "Paragraph"
+                        ],
+                        "titles": [
+                            {
+                                "text": "Approbation",
+                                "lang": "en",
+                                "primary": true
+                            },
+                            {
+                                "text": "הסכמות",
+                                "lang": "he",
+                                "primary": true
+                            }
+                        ],
+                        "title": "Approbation",
+                        "heTitle": "הסכמות",
+                        "heSectionNames": [
+                            "פרק",
+                            "פסקה"
+                        ],
+                        "key": "Approbation"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "titles": [
+                            {
+                                "text": "הקדמת המלקט",
+                                "lang": "he",
+                                "primary": true
+                            },
+                            {
+                                "text": "Compiler's Foreword",
+                                "lang": "en",
+                                "primary": true
+                            }
+                        ],
+                        "title": "Compiler's Foreword",
+                        "heTitle": "הקדמת המלקט",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Compiler's Foreword"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
+                        "addressTypes": [
+                            "Perek",
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Chapter",
+                            "Paragraph"
+                        ],
+                        "lengths": [
+                            53
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "פרק",
+                            "פסקה"
+                        ],
+                        "key": "default"
+                    }
                 ],
                 "titles": [
                     {
+                        "text": "Part I; Likkutei Amarim",
                         "lang": "en",
-                        "text": "Introduction",
                         "primary": true
                     },
                     {
+                        "text": "חלק ראשון; ליקוטי אמרים",
                         "lang": "he",
-                        "text": "הקדמה",
                         "primary": true
-                    }
-                ],
-                "title": "Introduction",
-                "heTitle": "הקדמה",
-                "heSectionNames": [
-                    "פסקה"
-                ],
-                "key": "intro"
-            },
-            {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Perek",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Paragraph"
-                ],
-                "lengths": [
-                    53
-                ],
-                "titles": [
+                    },
                     {
-                        "lang": "en",
                         "text": "Part One, The Book of the Average Men",
-                        "primary": true
+                        "lang": "en"
                     },
                     {
-                        "lang": "he",
                         "text": "חלק ראשון, ספר של בינונים",
-                        "primary": true
+                        "lang": "he"
                     }
                 ],
-                "title": "Part One, The Book of the Average Men",
-                "heTitle": "חלק ראשון, ספר של בינונים",
-                "heSectionNames": [
-                    "פרק",
-                    "פסקה"
-                ],
+                "title": "Part I; Likkutei Amarim",
+                "heTitle": "חלק ראשון; ליקוטי אמרים",
                 "key": "part1"
             },
             {
@@ -86,12 +161,16 @@
                                 "primary": true
                             },
                             {
+                                "text": "Chinukh Katan",
                                 "lang": "en",
-                                "text": "The Education of the Child",
                                 "primary": true
+                            },
+                            {
+                                "text": "The Education of the Child",
+                                "lang": "en"
                             }
                         ],
-                        "title": "The Education of the Child",
+                        "title": "Chinukh Katan",
                         "heTitle": "חינוך קטן",
                         "heSectionNames": [
                             "פסקה"
@@ -124,18 +203,26 @@
                 ],
                 "titles": [
                     {
+                        "text": "Part II; Shaar HaYichud VehaEmunah",
                         "lang": "en",
-                        "text": "Part Two, The Gateway of Unity and Belief",
                         "primary": true
                     },
                     {
+                        "text": "חלק שני; שער היחוד והאמונה",
                         "lang": "he",
-                        "text": "חלק שני, שער היחוד והאמונה",
                         "primary": true
+                    },
+                    {
+                        "text": "Part Two, The Gateway of Unity and Belief",
+                        "lang": "en"
+                    },
+                    {
+                        "text": "חלק שני, שער היחוד והאמונה",
+                        "lang": "he"
                     }
                 ],
-                "title": "Part Two, The Gateway of Unity and Belief",
-                "heTitle": "חלק שני, שער היחוד והאמונה",
+                "title": "Part II; Shaar HaYichud VehaEmunah",
+                "heTitle": "חלק שני; שער היחוד והאמונה",
                 "key": "part2"
             },
             {
@@ -154,18 +241,26 @@
                 ],
                 "titles": [
                     {
-                        "lang": "he",
-                        "text": "אגרת התשובה",
+                        "text": "Part III; Iggeret HaTeshuvah",
+                        "lang": "en",
                         "primary": true
                     },
                     {
-                        "lang": "en",
-                        "text": "Letter of Repentance",
+                        "text": "חלק שלישי; אגרת התשובה",
+                        "lang": "he",
                         "primary": true
+                    },
+                    {
+                        "text": "Letter of Repentance",
+                        "lang": "en"
+                    },
+                    {
+                        "text": "אגרת התשובה",
+                        "lang": "he"
                     }
                 ],
-                "title": "Letter of Repentance",
-                "heTitle": "אגרת התשובה",
+                "title": "Part III; Iggeret HaTeshuvah",
+                "heTitle": "חלק שלישי; אגרת התשובה",
                 "heSectionNames": [
                     "פרק",
                     "פסקה"
@@ -193,12 +288,16 @@
                         "primary": true
                     },
                     {
+                        "text": "Part IV; Iggeret HaKodesh",
                         "lang": "en",
-                        "text": "Letter of Holiness",
                         "primary": true
+                    },
+                    {
+                        "text": "Letter of Holiness",
+                        "lang": "en"
                     }
                 ],
-                "title": "Letter of Holiness",
+                "title": "Part IV; Iggeret HaKodesh",
                 "heTitle": "אגרת הקדש",
                 "heSectionNames": [
                     "פרק",
@@ -222,17 +321,21 @@
                 ],
                 "titles": [
                     {
-                        "lang": "en",
-                        "text": "Last Thesis",
-                        "primary": true
-                    },
-                    {
                         "lang": "he",
                         "text": "קונטרס אחרון",
                         "primary": true
+                    },
+                    {
+                        "text": "Part V; Kuntres Acharon",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "Last Thesis",
+                        "lang": "en"
                     }
                 ],
-                "title": "Last Thesis",
+                "title": "Part V; Kuntres Acharon",
                 "heTitle": "קונטרס אחרון",
                 "heSectionNames": [
                     "פרק",
@@ -243,13 +346,17 @@
         ],
         "titles": [
             {
-                "lang": "he",
+                "text": "Likutei Amarim",
+                "lang": "en"
+            },
+            {
                 "text": "תניא",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "en",
-                "text": "Likutei Amarim"
+                "text": "ספר של בינונים",
+                "lang": "he"
             },
             {
                 "text": "Tanya",
@@ -262,26 +369,38 @@
         "key": "Tanya"
     },
     "authors": [
-        "Shneur Zalman of Liadi"
+        {
+            "en": "Shneur Zalman of Liadi",
+            "he": "שניאור זלמן מליאדי",
+            "slug": "shneur-zalman-of-liadi"
+        }
     ],
-    "enDesc": "Written by Rabbi Schneur Zalman of Liadi (1745–1812), the founder of Chabad, Tanya is the foundational work of Chabad Hasidism. Tanya presents the philosophy of the Chabad movement. Written in 5 sections, the Tanya provides an outline for living a spiritual Jewish life.",
+    "enDesc": "Written by Rabbi Schneur Zalman of Liadi (1745–1812), the founder of Chabad Chasidism, Tanya is the foundational work of Chabad and presents the philosophy of the movement. Written in 5 sections, the Tanya provides an outline for living a spiritual Jewish life.",
+    "heDesc": "ספר היסוד של חסידות חב\"ד שכתב מייסדה רבי שניאור זלמן מלאדי.",
+    "enShortDesc": "Foundational work of the Chabad chasidic movement by its founder, Rabbi Schneur Zalman of Liadi.",
+    "heShortDesc": "ספר היסוד של חסידות חב\"ד שכתב מייסדה רבי שניאור זלמן מלאדי.",
     "pubDate": "1796",
     "compDate": "1791",
     "compPlace": "Liozna",
     "pubPlace": "Slavuta",
     "errorMargin": "5",
     "era": "AH",
+    "dedication": {
+        "en": "Sponsored by Yitz Applbaum in honor of his dear friends and Chabad guiding lights Rabbi Itchel Krasnjansky and Rabbi Eitan Webb.",
+        "he": "בחסות ייץ אפלבאום (יצחק אייזק בן הרב יהושע) לכבוד חבריו היקרים ומאורות חב\"ד, הרב איצ’ל קרסניאנסקי והרב איתן ווב"
+    },
     "heTitle": "תניא",
     "titleVariants": [
         "Likutei Amarim",
         "Tanya"
     ],
     "heTitleVariants": [
-        "תניא"
+        "תניא",
+        "ספר של בינונים"
     ],
     "heCategories": [
         "חסידות",
-        "ספרי ראשית"
+        "חב\"ד"
     ],
     "compDateString": {
         "en": " (c.1786  - c.1796 CE)",

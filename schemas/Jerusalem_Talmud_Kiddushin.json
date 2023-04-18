@@ -7,44 +7,88 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "kiddushin"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "kiddushin"
+            ]
+        },
         "lengths": [
-            96,
-            175
+            4,
+            43,
+            329
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Yerushalmi Kiddushin"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Kiddushin"
-            },
-            {
-                "lang": "en",
-                "text": "JT Kiddushin"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי קידושין",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי קידושין"
+                "text": "Yerushalmi Kiddushin",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Kidd."
+                "text": "Talmud Yerushalmi Kiddushin",
+                "lang": "en"
+            },
+            {
+                "text": "JT Kiddushin",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי קידושין",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Kidd.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Kiddushin",
@@ -55,23 +99,27 @@
         "title": "Jerusalem Talmud Kiddushin",
         "heTitle": "תלמוד ירושלמי קידושין",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Kiddushin"
     },
     "order": [
         30
     ],
-    "authors": [],
-    "enDesc": "Kiddushin (Documents) belongs to the third order, Nashim (Women) and discusses the initial stage of marriage – betrothal, as well as the laws of Jewish lineages. It has four chapters.",
+    "enDesc": "Kiddushin (“Betrothal”)  is the last tractate in Seder Nashim (“Order of Women,” which addresses family law). Its four chapters primarily discuss laws relating to betrothal. Also addressed are laws of acquisition, sending representatives to perform legal actions, lineage, and the prohibition of seclusion between a man and a woman not married to each other.",
+    "enShortDesc": "Betrothal, marriage, acquisitions, and lineage.",
+    "heShortDesc": "קידושין, נישואין, דיני קניין וענייני יוחסין.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי קידושין",
     "titleVariants": [
         "Yerushalmi Kiddushin",
@@ -84,11 +132,465 @@
         "תלמוד ירושלמי קידושין",
         "ירושלמי קידושין"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kiddushin 1:1:2-9:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kiddushin 1:1:2-11",
+                        "Jerusalem Talmud Kiddushin 1:1:11-20",
+                        "Jerusalem Talmud Kiddushin 1:1:20-31",
+                        "Jerusalem Talmud Kiddushin 1:1:31-2:8",
+                        "Jerusalem Talmud Kiddushin 1:2:8-19",
+                        "Jerusalem Talmud Kiddushin 1:2:19-28",
+                        "Jerusalem Talmud Kiddushin 1:2:28-3:6",
+                        "Jerusalem Talmud Kiddushin 1:3:6-4:2",
+                        "Jerusalem Talmud Kiddushin 1:4:2-11",
+                        "Jerusalem Talmud Kiddushin 1:4:11-5:9",
+                        "Jerusalem Talmud Kiddushin 1:5:9-6:4",
+                        "Jerusalem Talmud Kiddushin 1:6:4-7:5",
+                        "Jerusalem Talmud Kiddushin 1:7:5-14",
+                        "Jerusalem Talmud Kiddushin 1:7:14-8:4",
+                        "Jerusalem Talmud Kiddushin 1:8:4-9:5"
+                    ],
+                    "startingAddress": "58b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האשה נקנית",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "האשה נקנית",
+                    "offset": 229
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kiddushin 2:1:1-9:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kiddushin 2:1:1-2",
+                        "Jerusalem Talmud Kiddushin 2:1:2-5",
+                        "Jerusalem Talmud Kiddushin 2:1:5-11",
+                        "Jerusalem Talmud Kiddushin 2:1:11-4:3",
+                        "Jerusalem Talmud Kiddushin 2:4:3-7:3",
+                        "Jerusalem Talmud Kiddushin 2:7:3-9:2",
+                        "Jerusalem Talmud Kiddushin 2:9:2-5"
+                    ],
+                    "startingAddress": "61d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האיש מקדש",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "האיש מקדש",
+                    "offset": 243
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kiddushin 3:1:1-13:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kiddushin 3:1:1-2",
+                        "Jerusalem Talmud Kiddushin 3:1:2-10",
+                        "Jerusalem Talmud Kiddushin 3:1:10-3:3",
+                        "Jerusalem Talmud Kiddushin 3:3:3-5:7",
+                        "Jerusalem Talmud Kiddushin 3:5:7-9:3",
+                        "Jerusalem Talmud Kiddushin 3:9:3-12:8",
+                        "Jerusalem Talmud Kiddushin 3:12:8-13:4"
+                    ],
+                    "startingAddress": "63b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האומר לחברו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "האומר לחברו",
+                    "offset": 249
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kiddushin 4:1:1-12:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kiddushin 4:1:1-2",
+                        "Jerusalem Talmud Kiddushin 4:1:2-3",
+                        "Jerusalem Talmud Kiddushin 4:1:3-8",
+                        "Jerusalem Talmud Kiddushin 4:1:8-2:3",
+                        "Jerusalem Talmud Kiddushin 4:2:3-6:3",
+                        "Jerusalem Talmud Kiddushin 4:6:3-10:3",
+                        "Jerusalem Talmud Kiddushin 4:10:3-12:3"
+                    ],
+                    "startingAddress": "64d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "עשרה יוחסין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "עשרה יוחסין",
+                    "offset": 255
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי קידושין",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Yerushalmi Kiddushin",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Kiddushin",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Kiddushin",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי קידושין",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Kidd.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Kiddushin",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Kiddushin",
+            "heTitle": "תלמוד ירושלמי קידושין"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kiddushin 1:1:1-9:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kiddushin 1:1:1-7",
+                        "Jerusalem Talmud Kiddushin 1:1:7-13",
+                        "Jerusalem Talmud Kiddushin 1:1:13-18",
+                        "Jerusalem Talmud Kiddushin 1:1:18",
+                        "Jerusalem Talmud Kiddushin 1:1:18-19",
+                        "Jerusalem Talmud Kiddushin 1:1:19-21",
+                        "Jerusalem Talmud Kiddushin 1:1:21-25",
+                        "Jerusalem Talmud Kiddushin 1:1:25-30",
+                        "Jerusalem Talmud Kiddushin 1:1:30-2:1",
+                        "Jerusalem Talmud Kiddushin 1:2:1-3",
+                        "Jerusalem Talmud Kiddushin 1:2:3-6",
+                        "Jerusalem Talmud Kiddushin 1:2:6-7",
+                        "Jerusalem Talmud Kiddushin 1:2:7",
+                        "Jerusalem Talmud Kiddushin 1:2:7-10",
+                        "Jerusalem Talmud Kiddushin 1:2:10-13",
+                        "Jerusalem Talmud Kiddushin 1:2:13-15",
+                        "Jerusalem Talmud Kiddushin 1:2:15-20",
+                        "Jerusalem Talmud Kiddushin 1:2:20-23",
+                        "Jerusalem Talmud Kiddushin 1:2:23-24",
+                        "Jerusalem Talmud Kiddushin 1:2:24-27",
+                        "Jerusalem Talmud Kiddushin 1:2:27-29",
+                        "Jerusalem Talmud Kiddushin 1:2:29-3:1",
+                        "Jerusalem Talmud Kiddushin 1:3:1-6",
+                        "Jerusalem Talmud Kiddushin 1:3:6-8",
+                        "Jerusalem Talmud Kiddushin 1:3:8-11",
+                        "Jerusalem Talmud Kiddushin 1:3:11-13",
+                        "Jerusalem Talmud Kiddushin 1:3:13-4:3",
+                        "Jerusalem Talmud Kiddushin 1:4:3-6",
+                        "Jerusalem Talmud Kiddushin 1:4:6-9",
+                        "Jerusalem Talmud Kiddushin 1:4:9-11",
+                        "Jerusalem Talmud Kiddushin 1:4:11-5:3",
+                        "Jerusalem Talmud Kiddushin 1:5:3-8",
+                        "Jerusalem Talmud Kiddushin 1:5:8-11",
+                        "Jerusalem Talmud Kiddushin 1:5:11-14",
+                        "Jerusalem Talmud Kiddushin 1:5:14-6:3",
+                        "Jerusalem Talmud Kiddushin 1:6:3-4",
+                        "Jerusalem Talmud Kiddushin 1:6:4-7:2",
+                        "Jerusalem Talmud Kiddushin 1:7:2-4",
+                        "Jerusalem Talmud Kiddushin 1:7:4-8",
+                        "Jerusalem Talmud Kiddushin 1:7:8-14",
+                        "Jerusalem Talmud Kiddushin 1:7:14-18",
+                        "Jerusalem Talmud Kiddushin 1:7:18-8:2",
+                        "Jerusalem Talmud Kiddushin 1:8:2-6",
+                        "Jerusalem Talmud Kiddushin 1:8:6-9:3",
+                        "Jerusalem Talmud Kiddushin 1:9:3-5"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האשה נקנית",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "האשה נקנית",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kiddushin 2:1:1-9:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kiddushin 2:1:1-2",
+                        "Jerusalem Talmud Kiddushin 2:1:2-5",
+                        "Jerusalem Talmud Kiddushin 2:1:5-8",
+                        "Jerusalem Talmud Kiddushin 2:1:8-10",
+                        "Jerusalem Talmud Kiddushin 2:1:10-11",
+                        "Jerusalem Talmud Kiddushin 2:1:11-14",
+                        "Jerusalem Talmud Kiddushin 2:1:14-2:1",
+                        "Jerusalem Talmud Kiddushin 2:2:1-4:2",
+                        "Jerusalem Talmud Kiddushin 2:4:2-5",
+                        "Jerusalem Talmud Kiddushin 2:4:5-5:2",
+                        "Jerusalem Talmud Kiddushin 2:5:2-6:3",
+                        "Jerusalem Talmud Kiddushin 2:6:3-7:4",
+                        "Jerusalem Talmud Kiddushin 2:7:4-7",
+                        "Jerusalem Talmud Kiddushin 2:7:7-9",
+                        "Jerusalem Talmud Kiddushin 2:7:9-8:3",
+                        "Jerusalem Talmud Kiddushin 2:8:3-9:4",
+                        "Jerusalem Talmud Kiddushin 2:9:4-5"
+                    ],
+                    "startingAddress": "23a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האיש מקדש",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "האיש מקדש",
+                    "offset": 44
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kiddushin 3:1:1-13:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kiddushin 3:1:1-4",
+                        "Jerusalem Talmud Kiddushin 3:1:4-6",
+                        "Jerusalem Talmud Kiddushin 3:1:6-8",
+                        "Jerusalem Talmud Kiddushin 3:1:8-11",
+                        "Jerusalem Talmud Kiddushin 3:1:11-2:1",
+                        "Jerusalem Talmud Kiddushin 3:2:1-5",
+                        "Jerusalem Talmud Kiddushin 3:2:5-6",
+                        "Jerusalem Talmud Kiddushin 3:2:6-3:2",
+                        "Jerusalem Talmud Kiddushin 3:3:2-3",
+                        "Jerusalem Talmud Kiddushin 3:3:3-4:4",
+                        "Jerusalem Talmud Kiddushin 3:4:4-7",
+                        "Jerusalem Talmud Kiddushin 3:4:7-5:3",
+                        "Jerusalem Talmud Kiddushin 3:5:3-7",
+                        "Jerusalem Talmud Kiddushin 3:5:7-6:3",
+                        "Jerusalem Talmud Kiddushin 3:6:3-8:1",
+                        "Jerusalem Talmud Kiddushin 3:8:1-4",
+                        "Jerusalem Talmud Kiddushin 3:8:4-10:1",
+                        "Jerusalem Talmud Kiddushin 3:10:1-12:1",
+                        "Jerusalem Talmud Kiddushin 3:12:1-5",
+                        "Jerusalem Talmud Kiddushin 3:12:5-9",
+                        "Jerusalem Talmud Kiddushin 3:12:9-13:3",
+                        "Jerusalem Talmud Kiddushin 3:13:3-4"
+                    ],
+                    "startingAddress": "31a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האומר לחברו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "האומר לחברו",
+                    "offset": 60
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kiddushin 4:1:1-12:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kiddushin 4:1:1-4",
+                        "Jerusalem Talmud Kiddushin 4:1:4-7",
+                        "Jerusalem Talmud Kiddushin 4:1:7-8",
+                        "Jerusalem Talmud Kiddushin 4:1:8-12",
+                        "Jerusalem Talmud Kiddushin 4:1:12-2:3",
+                        "Jerusalem Talmud Kiddushin 4:2:3-3:3",
+                        "Jerusalem Talmud Kiddushin 4:3:3-4:2",
+                        "Jerusalem Talmud Kiddushin 4:4:2-5:1",
+                        "Jerusalem Talmud Kiddushin 4:5:1-6:3",
+                        "Jerusalem Talmud Kiddushin 4:6:3-7:1",
+                        "Jerusalem Talmud Kiddushin 4:7:1-8:1",
+                        "Jerusalem Talmud Kiddushin 4:8:1-11:1",
+                        "Jerusalem Talmud Kiddushin 4:11:1-3",
+                        "Jerusalem Talmud Kiddushin 4:11:3-12:2",
+                        "Jerusalem Talmud Kiddushin 4:12:2-3"
+                    ],
+                    "startingAddress": "41b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "עשרה יוחסין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "עשרה יוחסין",
+                    "offset": 81
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי קידושין",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Yerushalmi Kiddushin",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Kiddushin",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Kiddushin",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי קידושין",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Kidd.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Kiddushin",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Kiddushin",
+            "heTitle": "תלמוד ירושלמי קידושין"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

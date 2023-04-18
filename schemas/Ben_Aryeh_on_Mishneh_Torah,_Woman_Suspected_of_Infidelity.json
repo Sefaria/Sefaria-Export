@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ben-aryeh",
+                    "hilchot",
+                    "woman-suspected-of-infidelity"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ben-aryeh",
+                    "woman-suspected-of-infidelity"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            1,
+            1
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,7 +62,11 @@
         "key": "Ben Aryeh on Mishneh Torah, Woman Suspected of Infidelity"
     },
     "authors": [
-        "Zev ben Aryeh"
+        {
+            "en": "Zev ben Aryeh",
+            "he": "זאב בן אריה",
+            "slug": "zev-ben-aryeh"
+        }
     ],
     "heDesc": "חידושים וציוני מראה מקומות לדברי הרמב\"ם",
     "compDate": "1840",

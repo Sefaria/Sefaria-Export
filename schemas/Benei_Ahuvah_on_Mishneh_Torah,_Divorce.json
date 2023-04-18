@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "benei-ahuvah",
+                    "hilchot",
+                    "divorce"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "benei-ahuvah",
+                    "divorce"
+                ]
+            }
+        ],
+        "lengths": [
+            13,
+            33,
+            44
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,7 +62,11 @@
         "key": "Benei Ahuvah on Mishneh Torah, Divorce"
     },
     "authors": [
-        "Jonathan Eybeschutz"
+        {
+            "en": "Jonathan Eybeschutz",
+            "he": "יהונתן אייבשיץ",
+            "slug": "jonathan-eybeschutz"
+        }
     ],
     "pubDate": "1819",
     "compDate": "1739",

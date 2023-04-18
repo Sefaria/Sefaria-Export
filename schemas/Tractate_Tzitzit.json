@@ -1,7 +1,8 @@
 {
     "title": "Tractate Tzitzit",
     "categories": [
-        "Tanaitic",
+        "Talmud",
+        "Bavli",
         "Minor Tractates"
     ],
     "schema": {
@@ -15,12 +16,24 @@
             "Chapter",
             "Halakhah"
         ],
-        "titles": [
+        "match_templates": [
             {
-                "lang": "he",
-                "text": "מסכת ציצית",
-                "primary": true
+                "term_slugs": [
+                    "tzitzit"
+                ]
             },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "tzitzit"
+                ]
+            }
+        ],
+        "lengths": [
+            1,
+            11
+        ],
+        "titles": [
             {
                 "lang": "en",
                 "text": "Tsits."
@@ -28,6 +41,11 @@
             {
                 "lang": "en",
                 "text": "Tsitsith"
+            },
+            {
+                "text": "מסכת ציצית",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Tractate Tzitzit",
@@ -44,7 +62,9 @@
         "key": "Tractate Tzitzit"
     },
     "authors": [],
-    "enDesc": "The minor tractates (Masekhtot Ketanot) are essays from the Tannaitic period or later dealing with topics about which no formal tractate exists in the Mishnah. The first eight or so contain much original material; the last seven or so are collections of material scattered throughout the Talmud. Soferim (Scribes). This tractate deals with issues relating to the wearing of tzitzit.",
+    "enDesc": "Tractate Tzitzit is one of seven small tractates that addresses topics for which there is no specific tractate in the Mishnah or Talmud. These tractates are written in the terse style of the Mishnah and are likely from the time period of the Mishnah or early Talmud, but their dating and places of composition are subject to debate. Tractate Tzitzit discusses the commandment  Numbers 15:38–40 and Deuteronomy 22:12 to tie fringes (Tzitzit) on four-cornered garments as a reminder to keep the laws.",
+    "enShortDesc": "Fringes tied to garments with four corners.",
+    "heShortDesc": "פתילים הקשורים לבגדים בעלי ארבע כנפות.",
     "compDate": "400",
     "compPlace": "Talmudic Israel/Babylon",
     "errorMargin": "500",
@@ -65,7 +85,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
+        "תלמוד",
+        "בבלי",
         "מסכתות קטנות"
     ],
     "compDateString": {

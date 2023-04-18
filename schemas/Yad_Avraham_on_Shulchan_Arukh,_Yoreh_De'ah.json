@@ -28,6 +28,15 @@
                 "key": "default"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yad-avraham",
+                    "yoreh-deah"
+                ]
+            }
+        ],
         "titles": [
             {
                 "text": "יד אברהם על שולחן ערוך יורה דעה",
@@ -45,16 +54,22 @@
         "key": "Yad Avraham on Shulchan Arukh, Yoreh De'ah"
     },
     "authors": [
-        "Avraham Maskil L'Eitan"
+        {
+            "en": "Avraham Maskil L'Eitan",
+            "he": "אברהם משכיל לאיתן",
+            "slug": "avraham-maskil-leitan"
+        }
     ],
     "pubDate": "1880",
+    "compDate": "1830",
     "pubPlace": "Vilna",
+    "errorMargin": "16",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Yoreh De'ah",
-            "he": "יורה דעה"
+            "he": "שולחן ערוך, יורה דעה"
         }
     ],
     "collective_title": {
@@ -72,5 +87,9 @@
         "הלכה",
         "שולחן ערוך",
         "מפרשים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1814  - c.1846 CE)",
+        "he": " (1814 - 1846 לספירה בקירוב)"
+    }
 }

@@ -2,7 +2,7 @@
     "title": "Devarim Nichumim on Lamentations",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Alshich",
         "Writings"
     ],
@@ -61,6 +61,15 @@
                 "key": "default"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "alshich",
+                    "lamentations"
+                ]
+            }
+        ],
         "titles": [
             {
                 "text": "Alshich on Lamentations",
@@ -76,9 +85,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Devarim Nichumim on Lamentations",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Devarim Nichumim on Lamentations",
@@ -86,7 +95,11 @@
         "key": "Devarim Nichumim on Lamentations"
     },
     "authors": [
-        "Alshikh"
+        {
+            "en": "Alshikh",
+            "he": "אלשיך",
+            "slug": "alshikh"
+        }
     ],
     "enDesc": "Commentary of R' Moshe Alshikh on Lamentations.",
     "heDesc": "פירושו של ר' משה אלשיך על מגילת איכה.",
@@ -117,7 +130,7 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "אלשיך",
         "כתובים"
     ],

@@ -10,11 +10,23 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "targum-neofiti",
+                    "numbers"
+                ]
+            }
+        ],
+        "lengths": [
+            1,
+            8
         ],
         "titles": [
             {
@@ -23,12 +35,12 @@
             },
             {
                 "lang": "he",
-                "text": "תרגום ניאופיטי",
-                "primary": true
+                "text": "תרגום נאופיטי"
             },
             {
+                "text": "תרגום ניאופיטי",
                 "lang": "he",
-                "text": "תרגום נאופיטי"
+                "primary": true
             },
             {
                 "text": "Targum Neofiti",
@@ -46,6 +58,8 @@
     },
     "authors": [],
     "enDesc": "Targum Neofiti (or Targum Neophyti) is the largest of the Western Targumim on the Torah, or Palestinian Targumim. It consists of 450 folios covering all books of the Pentateuch, with only a few damaged verses. More than a mere Aramaic translation of the Hebrew text, Neofiti offers lengthy expansions on the biblical text at several places. It is often more expansive than Targum Onkelos, but less so than Targum Pseudo-Jonathan. Neofiti's date of origin is uncertain with opinions placing it between the 1st to the 4th centuries CE. It contains some anti-Halakhic material.",
+    "enShortDesc": "Targum on the Torah that incorporates expansions on biblical text, compiled in Israel.",
+    "heShortDesc": "תרגום לתורה המשלב הרחבות פרשניות על הטקסט המקראי; חובר בארץ ישראל.",
     "pubDate": "1968-1979",
     "compDate": "50",
     "compPlace": "Talmudic Israel",
@@ -87,8 +101,8 @@
         "Targum Neofiti"
     ],
     "heTitleVariants": [
-        "תרגום ניאופיטי",
-        "תרגום נאופיטי"
+        "תרגום נאופיטי",
+        "תרגום ניאופיטי"
     ],
     "sectionNames": [
         "Chapter",

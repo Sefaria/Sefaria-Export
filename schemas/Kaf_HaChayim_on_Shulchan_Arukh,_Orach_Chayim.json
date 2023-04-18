@@ -11,13 +11,26 @@
         "depth": 3,
         "addressTypes": [
             "Siman",
-            "Integer",
+            "SeifKatan",
             "Integer"
         ],
         "sectionNames": [
             "Siman",
             "Seif Katan",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kaf-hachayim",
+                    "orach-chayim"
+                ]
+            }
+        ],
+        "lengths": [
+            697,
+            29266,
+            29895
         ],
         "toc_zoom": 2,
         "titles": [
@@ -43,21 +56,37 @@
             },
             {
                 "lang": "he",
-                "text": "כף החיים על שולחן ערוך אורח חיים",
-                "primary": true
+                "text": "כה\"ח"
             },
             {
+                "lang": "en",
+                "text": "Kaf ha-Chayim"
+            },
+            {
+                "text": "כה״ח או״ח",
+                "lang": "he"
+            },
+            {
+                "text": "כה”ח או”ח",
+                "lang": "he"
+            },
+            {
+                "text": "כה״ח",
+                "lang": "he"
+            },
+            {
+                "text": "כה”ח",
+                "lang": "he"
+            },
+            {
+                "text": "כף החיים על שולחן ערוך אורח חיים",
                 "lang": "he",
-                "text": "כה\"ח"
+                "primary": true
             },
             {
                 "text": "Kaf HaChayim on Shulchan Arukh, Orach Chayim",
                 "lang": "en",
                 "primary": true
-            },
-            {
-                "lang": "en",
-                "text": "Kaf ha-Chayim"
             }
         ],
         "title": "Kaf HaChayim on Shulchan Arukh, Orach Chayim",
@@ -70,9 +99,13 @@
         "key": "Kaf HaChayim on Shulchan Arukh, Orach Chayim"
     },
     "authors": [
-        "Yaakov Chaim Sofer"
+        {
+            "en": "Yaakov Chaim Sofer",
+            "he": "יעקב חיים סופר",
+            "slug": "yaakov-chaim-sofer"
+        }
     ],
-    "enDesc": "Multi-volume digest and commentary on Orach Chaim and Yoreh Deah sections of Shulchan Aruch, especially relied upon by Sephardic Jews. ",
+    "enDesc": "Multi-volume digest and commentary on Orach Chaim and Yoreh Deah sections of Shulchan Aruch, especially relied upon by Sephardic Jews.",
     "heDesc": "חיבור הלכתי רב-היקף על חלקי אורח חיים וקצת מיורה דעה שבשלחן ערוך, הנחשב לאחד מחיבורי ההלכה המרכזיים והחשובים לציבור הספרדי.",
     "pubDate": "1905",
     "compDate": "1920",
@@ -84,7 +117,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan_Arukh,_Orach_Chayim",
-            "he": "אורח חיים"
+            "he": "שולחן ערוך, אורח חיים"
         }
     ],
     "collective_title": {
@@ -98,13 +131,17 @@
         "Kaf HaChaim, Orach Chaim",
         "Kaf ha-Hayyim",
         "<i>Kaf ha-Hayyim</i>",
-        "Kaf HaChayim on Shulchan Arukh, Orach Chayim",
-        "Kaf ha-Chayim"
+        "Kaf ha-Chayim",
+        "Kaf HaChayim on Shulchan Arukh, Orach Chayim"
     ],
     "heTitleVariants": [
         "כה\"ח או\"ח",
-        "כף החיים על שולחן ערוך אורח חיים",
-        "כה\"ח"
+        "כה\"ח",
+        "כה״ח או״ח",
+        "כה”ח או”ח",
+        "כה״ח",
+        "כה”ח",
+        "כף החיים על שולחן ערוך אורח חיים"
     ],
     "sectionNames": [
         "Siman",

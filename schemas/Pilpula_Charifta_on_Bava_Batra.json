@@ -3,6 +3,8 @@
     "categories": [
         "Talmud",
         "Bavli",
+        "Rishonim on Talmud",
+        "Rosh",
         "Commentary",
         "Pilpula Charifta",
         "Seder Nezikin"
@@ -17,6 +19,27 @@
         "sectionNames": [
             "Seif",
             "siman"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "pilpula-charifta",
+                    "bava-batra"
+                ]
+            }
+        ],
+        "lengths": [
+            367,
+            622
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -43,7 +66,11 @@
         "key": "Pilpula Charifta on Bava Batra"
     },
     "authors": [
-        "Yom-Tov Lipmann Heller"
+        {
+            "en": "Yom-Tov Lipmann Heller",
+            "he": "יום-טוב ליפמן הלר",
+            "slug": "yom-tov-lipmann-heller"
+        }
     ],
     "enDesc": "Commentary written by Rabbi Yom Tov Lipmann Heller on Seder Nezikin of Rabbi Asher ben Yehiel’s \"Piskei HaRosh\".",
     "pubDate": "1619",
@@ -80,6 +107,8 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
+        "ראשונים על התלמוד",
+        "רא\"ש",
         "מפרשים",
         "פילפולא חריפתא",
         "סדר נזיקין"

@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "zevachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "zevachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "zevachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "zevachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "zevachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "zevachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "zevachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "zevachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "zevachim"
+                ]
+            }
+        ],
         "lengths": [
-            238,
-            10586
+            240,
+            3817
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -50,13 +114,13 @@
                 "lang": "en"
             },
             {
+                "text": "BT Zevachim",
+                "lang": "en"
+            },
+            {
                 "text": "זבחים",
                 "lang": "he",
                 "primary": true
-            },
-            {
-                "text": "BT Zevachim",
-                "lang": "en"
             },
             {
                 "text": "Zevachim",
@@ -77,12 +141,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         28,
         1
     ],
     "authors": [],
     "enDesc": "Chagigah (Festival Offering) belongs to the second order, Moed (Festivals) and the Three Pilgrimage Festivals (Passover, Shavuot, Sukkot) and the pilgrimage offering that men were supposed to bring in Jerusalem. It has three chapters.",
+    "enShortDesc": "Animal and bird sacrifices in the Temple.",
+    "heShortDesc": "קורבנות בהמה ועוף ודינים הנוגעים לבית המקדש.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -90,6 +159,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "זבחים",
     "titleVariants": [
         "Talmud Zevachim",
@@ -113,6 +185,33 @@
                     "depth": 1,
                     "wholeRef": "Zevachim 2a:1-15b:8",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-146"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-146"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -170,6 +269,33 @@
                     "depth": 1,
                     "wholeRef": "Zevachim 15b:9-31b:13",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-238"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-238"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -232,6 +358,33 @@
                     "depth": 1,
                     "wholeRef": "Zevachim 31b:14-36b:15",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-336"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-336"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -272,6 +425,33 @@
                     "depth": 1,
                     "wholeRef": "Zevachim 36b:16-47a:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-432"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-432"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -323,6 +503,33 @@
                     "depth": 1,
                     "wholeRef": "Zevachim 47a:12-57b:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-528"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-528"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -374,6 +581,33 @@
                     "depth": 1,
                     "wholeRef": "Zevachim 58a:1-66a:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-625"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-625"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -420,6 +654,33 @@
                     "depth": 1,
                     "wholeRef": "Zevachim 66a:7-70b:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-723"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-723"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -459,6 +720,33 @@
                     "depth": 1,
                     "wholeRef": "Zevachim 70b:15-83a:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-821"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-821"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -514,6 +802,33 @@
                     "depth": 1,
                     "wholeRef": "Zevachim 83a:15-88b:15",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-919"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-919"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "text": "Chapter 9",
@@ -555,6 +870,33 @@
                     "depth": 1,
                     "wholeRef": "Zevachim 89a:1-92a:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-1013"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-1013"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
                     "titles": [
                         {
                             "text": "Chapter 10",
@@ -591,6 +933,33 @@
                     "depth": 1,
                     "wholeRef": "Zevachim 92a:6-98b:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-1115"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eleventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-1115"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eleventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 11,
                     "titles": [
                         {
                             "text": "Chapter 11",
@@ -634,6 +1003,33 @@
                     "depth": 1,
                     "wholeRef": "Zevachim 98b:6-106a:8",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-1212"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "twelfth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-1212"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "twelfth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 12,
                     "titles": [
                         {
                             "text": "Chapter 12",
@@ -679,6 +1075,33 @@
                     "depth": 1,
                     "wholeRef": "Zevachim 106a:9-112a:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-1311"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "thirteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-1311"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "thirteenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 13,
                     "titles": [
                         {
                             "text": "Chapter 13",
@@ -721,6 +1144,44 @@
                     "depth": 1,
                     "wholeRef": "Zevachim 112a:11-120b:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-147"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-147"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 14,
                     "titles": [
                         {
                             "text": "Chapter 14",
@@ -794,13 +1255,13 @@
                     "lang": "en"
                 },
                 {
+                    "text": "BT Zevachim",
+                    "lang": "en"
+                },
+                {
                     "text": "זבחים",
                     "lang": "he",
                     "primary": true
-                },
-                {
-                    "text": "BT Zevachim",
-                    "lang": "en"
                 },
                 {
                     "text": "Zevachim",

@@ -61,6 +61,15 @@
                 "key": "default"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "machatzit-hashekel",
+                    "orach-chayim"
+                ]
+            }
+        ],
         "titles": [
             {
                 "primary": true,
@@ -78,7 +87,11 @@
         "key": "Machatzit HaShekel on Orach Chayim"
     },
     "authors": [
-        "Samuel Kolin"
+        {
+            "en": "Samuel Kolin",
+            "he": "שמואל קעלין",
+            "slug": "samuel-kolin"
+        }
     ],
     "enDesc": "Comprehensive supercommentary on Abraham Abele Gombiner's \"Magen Abraham\" on Shulchan Arukh Orach Chayim, printed in most editions.",
     "heDesc": "ביאור ארוך על פירוש 'מגן אברהם' לשולחן ערוך אורח חיים, נדפס על הדף ברוב מהדורות השלחן ערוך.",
@@ -92,7 +105,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Orach Chayim",
-            "he": "אורח חיים"
+            "he": "שולחן ערוך, אורח חיים"
         },
         {
             "en": "Magen Avraham",

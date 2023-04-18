@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "haggai"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggai"
+                ]
+            }
         ],
         "lengths": [
             2,
@@ -30,6 +43,10 @@
             },
             {
                 "text": "Hag.",
+                "lang": "en"
+            },
+            {
+                "text": "Aggée",
                 "lang": "en"
             },
             {
@@ -55,18 +72,26 @@
         24,
         19
     ],
-    "enDesc": "The Book of Haggai is the tenth of the Tere Asar (Twelve Minor Prophets). The term denotes the short length of the text in relation to the longer prophetic texts known as the Major Prophets. It is a short book consisting of two chapters. It is set at the start of the Persian Empire with Zerubbabel leading the Jews after their return to the land of Israel. Haggai’s message is filled with an urgency to rebuild the Second Temple and attributes a recent drought to the people's refusal to do so, which he views as key to Jerusalem’s glory. The book ends with the prediction of the downfall of kingdoms, with one Zerubbabel, governor of Judah, as the Lord’s chosen leader.",
+    "authors": [],
+    "enDesc": "Haggai is one of 12 books of Minor Prophets (“Trei Asar”), marked by their shortness. Speaking in the 6th century BCE, 18 years after Cyrus the Great’s decree allowing exiled Jews to return to Israel, Haggai criticizes those who have settled in Israel but not rebuilt the Temple and urges them to begin building. His language is mostly simple and straightforward, and his persuasion is successful; Haggai reports that three weeks after his first prophecy, construction of the Second Temple commenced.",
+    "heDesc": "ספר חגי הוא חלק מתרי עשר, קובץ הכולל ספרי נבואה קצרים. הנבואות אמורות למאה השישית לפני הספירה, ימי שיבת ציון, לאחר הצהרת כורש מלך פרס, שאפשר ליהודים שבשטחי ממלכתו לחזור לארץ ישראל. הנביא מבקר את שבי ציון, שנמנעו מהקמת בית המקדש, והפציר בהם להתחיל בבנייה. דבריו זכו להצלחה: על פי עדותו, שלושה שבועות לאחר נבואתו הראשונה החלו עבודות הבנייה של בית המקדש בירושלים.",
+    "enShortDesc": "Urgent calls to build the Second Temple and descriptions of its future glory.",
+    "heShortDesc": "קריאה בהולה לבניית בית המקדש השני ותיאורים של תפארתו העתידית.",
     "pubDate": "1488",
     "compDate": "-450",
     "compPlace": "Second Temple Judea",
     "pubPlace": "Soncino",
     "errorMargin": "70",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "חגי",
     "titleVariants": [
         "Chaggai",
         "Hag",
         "Hag.",
+        "Aggée",
         "Haggai"
     ],
     "heTitleVariants": [

@@ -2,7 +2,7 @@
     "title": "Enei Moshe on Ruth",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Alshich",
         "Writings"
     ],
@@ -61,6 +61,15 @@
                 "key": "default"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "alshich",
+                    "ruth"
+                ]
+            }
+        ],
         "titles": [
             {
                 "text": "Alshich on Ruth",
@@ -76,9 +85,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Enei Moshe on Ruth",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Enei Moshe on Ruth",
@@ -86,7 +95,11 @@
         "key": "Enei Moshe on Ruth"
     },
     "authors": [
-        "Alshikh"
+        {
+            "en": "Alshikh",
+            "he": "אלשיך",
+            "slug": "alshikh"
+        }
     ],
     "enDesc": "Commentary of R' Moshe Alshikh on Ruth.",
     "heDesc": "פירושו של ר' משה אלשיך על מגילת רות.",
@@ -117,7 +130,7 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "אלשיך",
         "כתובים"
     ],

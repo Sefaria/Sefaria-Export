@@ -1,7 +1,8 @@
 {
     "title": "Tractate Kutim",
     "categories": [
-        "Tanaitic",
+        "Talmud",
+        "Bavli",
         "Minor Tractates"
     ],
     "schema": {
@@ -15,20 +16,37 @@
             "Chapter",
             "Halakhah"
         ],
-        "titles": [
+        "match_templates": [
             {
-                "primary": true,
-                "text": "מסכת כותים",
-                "lang": "he"
+                "term_slugs": [
+                    "kutim"
+                ]
             },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "kutim"
+                ]
+            }
+        ],
+        "lengths": [
+            2,
+            21
+        ],
+        "titles": [
             {
                 "text": "Treat. Kuthim",
                 "lang": "en"
             },
             {
-                "primary": true,
+                "text": "מסכת כותים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tractate Kutim",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Tractate Kutim",
@@ -40,8 +58,10 @@
         "key": "Tractate Kutim"
     },
     "authors": [],
-    "enDesc": "The minor tractates (Masekhtot Ketanot) are essays from the Tannaitic period or later dealing with topics about which no formal tractate exists in the Mishnah. The first eight or so contain much original material; the last seven or so are collections of material scattered throughout the Talmud. Soferim (Scribes). Tractate Kutim discusses the laws related to interaction with Kutim (members of the Samaritan sect).",
+    "enDesc": "Tractate Kutim (“Samaritans”) is one of seven small tractates that addresses topics for which there is no specific tractate in the Mishnah or Talmud. These tractates are written in the terse style of the Mishnah and are likely from the time period of the Mishnah or early Talmud, but their dating and places of composition are subject to debate. Kutim addresses permitted and prohibited interactions with the Samaritan sect, who were considered Jewish in some contexts and not in others.",
     "heDesc": "אחד ממסכתות הקטנות. עוסק בדינים הנוגעים לכת הכותים.",
+    "enShortDesc": "The religious status of Samaritans, permitted and prohibited interactions with them.",
+    "heShortDesc": "מעמדם הדתי של השומרונים והקשרים האסורים והמותרים עימם.",
     "compDate": "750",
     "compPlace": "Talmudic Israel/Babylon",
     "era": "T",
@@ -60,7 +80,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
+        "תלמוד",
+        "בבלי",
         "מסכתות קטנות"
     ],
     "compDateString": {

@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "annotations-of-minchat-chinukh",
+                    "hilchot",
+                    "the-sanhedrin-and-the-penalties-within-their-jurisdiction"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "annotations-of-minchat-chinukh",
+                    "the-sanhedrin-and-the-penalties-within-their-jurisdiction"
+                ]
+            }
+        ],
+        "lengths": [
+            26,
+            3,
+            3
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,8 +62,14 @@
         "key": "Annotations of Minchat Chinukh on Mishneh Torah, The Sanhedrin and the Penalties within their Jurisdiction"
     },
     "authors": [
-        "Joseph Babad"
+        {
+            "en": "Joseph Babad",
+            "he": "יוסף בן משה באב\"ד",
+            "slug": "joseph-babad"
+        }
     ],
+    "compDate": "1840",
+    "errorMargin": "15",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -76,5 +102,9 @@
         "מפרשים",
         "חידושים ומקורים מבעל מנחת חינוך",
         "ספר שופטים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1825  - c.1855 CE)",
+        "he": " (1825 - 1855 לספירה בקירוב)"
+    }
 }

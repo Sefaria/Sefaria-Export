@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "annotations-of-r-yeshaya-berlin",
+                    "hilchot",
+                    "prayer-and-the-priestly-blessing"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "annotations-of-r-yeshaya-berlin",
+                    "prayer-and-the-priestly-blessing"
+                ]
+            }
+        ],
+        "lengths": [
+            15,
+            1,
+            1
+        ],
         "titles": [
             {
                 "text": "חידושים והגהות הגרי\"ב על משנה תורה, הלכות תפילה וברכת כהנים",
@@ -42,7 +62,11 @@
         "key": "Annotations of R' Yeshaya Berlin on Mishneh Torah, Prayer and the Priestly Blessing"
     },
     "authors": [
-        "Isaiah Berlin"
+        {
+            "en": "Isaiah Berlin",
+            "he": "ישעיה פיק ברלין",
+            "slug": "isaiah-berlin"
+        }
     ],
     "compDate": "1775",
     "pubPlace": "Jerusalem, Israel",

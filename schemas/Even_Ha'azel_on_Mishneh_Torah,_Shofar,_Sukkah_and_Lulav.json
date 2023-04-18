@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "even-haazel",
+                    "hilchot",
+                    "shofar-sukkah-and-lulav"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "even-haazel",
+                    "shofar-sukkah-and-lulav"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            19,
+            19
+        ],
         "titles": [
             {
                 "text": "אבן האזל על משנה תורה, הלכות שופר וסוכה ולולב",
@@ -42,10 +62,18 @@
         "key": "Even Ha'azel on Mishneh Torah, Shofar, Sukkah and Lulav"
     },
     "authors": [
-        "Isser Zalman Meltzer"
+        {
+            "en": "Isser Zalman Meltzer",
+            "he": "איסר זלמן מלצר",
+            "slug": "isser-zalman-meltzer"
+        }
     ],
-    "enDesc": "Part of an involved nine-volume commentary on Rambam's Mishneh Torah. ",
+    "enDesc": "Part of an involved nine-volume commentary on Rambam's Mishneh Torah.",
+    "pubDate": "1969",
+    "compDate": "1950",
+    "compPlace": "Jerusalem",
     "pubPlace": "Jerusalem",
+    "errorMargin": "5",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -78,5 +106,13 @@
         "מפרשים",
         "אבן האזל",
         "ספר זמנים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1945  - c.1955 CE)",
+        "he": " (1945 - 1955 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Jerusalem",
+        "he": "ירושלים"
+    }
 }

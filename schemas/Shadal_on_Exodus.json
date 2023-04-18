@@ -2,7 +2,7 @@
     "title": "Shadal on Exodus",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
         "Shadal",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "shadal",
+                    "exodus"
+                ]
+            }
+        ],
+        "lengths": [
+            40,
+            596,
+            1044
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -57,13 +75,21 @@
                 "text": "Shadal on Shemoth"
             },
             {
-                "lang": "he",
+                "text": "שד״ל על שמות",
+                "lang": "he"
+            },
+            {
+                "text": "שד”ל על שמות",
+                "lang": "he"
+            },
+            {
                 "text": "שד\"ל על שמות",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Shadal on Exodus",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -77,7 +103,11 @@
         "key": "Shadal on Exodus"
     },
     "authors": [
-        "Shadal"
+        {
+            "en": "Shadal",
+            "he": "שד\"ל",
+            "slug": "shadal"
+        }
     ],
     "enDesc": "Commentary written by Samuel David Luzzatto (known by the acronym, Shadal), (Italy 1800 – 1865). Shadal’s commentary develops a unique approach to resolving the problem that occurs when the pshat (contextual) meaning of the text conflicts with halakha, as presented in midrash halakha. Shadal argues that the pshat reflects what the Torah means and the midrash reflects the halakha and not biblical interpretation. He claims that instead of being biblical interpretation, the midrash halakha is rabbinic legislation with the desire to take a more lenient position than the Torah text.",
     "pubDate": "1871",
@@ -113,6 +143,8 @@
         "Shadal on Exodus"
     ],
     "heTitleVariants": [
+        "שד״ל על שמות",
+        "שד”ל על שמות",
         "שד\"ל על שמות"
     ],
     "sectionNames": [
@@ -123,7 +155,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
         "שד\"ל",
         "תורה"
     ],

@@ -2,7 +2,7 @@
     "title": "Torah Temimah on Song of Songs",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
         "Torah Temimah",
         "Writings"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "torah-temimah",
+                    "song-of-songs"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            110,
+            626
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -26,8 +44,8 @@
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Torah Temimah on Song of Songs",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -41,7 +59,11 @@
         "key": "Torah Temimah on Song of Songs"
     },
     "authors": [
-        "Barukh HaLevi Epstein"
+        {
+            "en": "Barukh HaLevi Epstein",
+            "he": "הרב ברוך הלוי אפשטיין",
+            "slug": "barukh-halevi-epstein"
+        }
     ],
     "enDesc": "Commentary on the Megillot, consisting of a compilation of Talmudic and Midrashic passages relevant to each verse, with a brief explanation by the author.",
     "heDesc": "לקט של מאמרי חז\"ל בש\"ס ובמדרשים על פסוקי המגילות, עם ביאור קצר מהמחבר.",
@@ -78,7 +100,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
         "תורה תמימה",
         "כתובים"
     ],

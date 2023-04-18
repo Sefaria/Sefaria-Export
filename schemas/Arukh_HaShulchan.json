@@ -16,6 +16,13 @@
                     "Siman",
                     "Paragraph"
                 ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "orach-chayim"
+                        ]
+                    }
+                ],
                 "titles": [
                     {
                         "primary": true,
@@ -46,6 +53,13 @@
                 "sectionNames": [
                     "Siman",
                     "Paragraph"
+                ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "yoreh-deah"
+                        ]
+                    }
                 ],
                 "titles": [
                     {
@@ -98,6 +112,13 @@
                         "sectionNames": [
                             "Paragraph"
                         ],
+                        "match_templates": [
+                            {
+                                "term_slugs": [
+                                    "seder-haget"
+                                ]
+                            }
+                        ],
                         "titles": [
                             {
                                 "primary": true,
@@ -126,6 +147,13 @@
                         "sectionNames": [
                             "Paragraph"
                         ],
+                        "match_templates": [
+                            {
+                                "term_slugs": [
+                                    "seder-chalitza"
+                                ]
+                            }
+                        ],
                         "titles": [
                             {
                                 "primary": true,
@@ -144,6 +172,14 @@
                             "פסקה"
                         ],
                         "key": "Seder Chalitza"
+                    }
+                ],
+                "nodeType": "SchemaNode",
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "even-haezer"
+                        ]
                     }
                 ],
                 "titles": [
@@ -173,6 +209,13 @@
                     "Siman",
                     "Paragraph"
                 ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "choshen-mishpat"
+                        ]
+                    }
+                ],
                 "titles": [
                     {
                         "primary": true,
@@ -194,6 +237,14 @@
                 "key": "Choshen Mishpat"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "arukh-hashulchan"
+                ]
+            }
+        ],
         "titles": [
             {
                 "text": "Aruch Hashulchan",
@@ -205,6 +256,14 @@
             },
             {
                 "text": "Aruch HaShulchan",
+                "lang": "en"
+            },
+            {
+                "text": "Arukh Hashulhan",
+                "lang": "en"
+            },
+            {
+                "text": "AHS",
                 "lang": "en"
             },
             {
@@ -234,11 +293,20 @@
         "heTitle": "ערוך השולחן",
         "key": "Arukh HaShulchan"
     },
-    "authors": [
-        "Yechiel Michel Epstein"
+    "order": [
+        40
     ],
-    "enDesc": "Comprehensive halakhic digest following the order of the Shulchan Arukh. This work traces the origins of each law and custom to its source, and follows with a discussion of the views of the Rishonim and Acharonim.",
+    "authors": [
+        {
+            "en": "Yechiel Michel Epstein",
+            "he": "הרב יחיאל מיכל הלוי אפשטין",
+            "slug": "yechiel-michel-epstein"
+        }
+    ],
+    "enDesc": "The Arukh HaShulchan (“The Table is Set”) is a comprehensive halakhic digest following the order of the Shulchan Arukh, first published in 1884. It traces the origins of laws and customs to their source and discusses the views of legal authorities who wrote after the Shulchan Arukh. It is known for its lenient rulings and is considered an authoritative work; some later authorities give the work preference because its author, Rabbi Yechiel Michel Epstein, was the rabbi of a congregation and therefore was able to combine abstract considerations with a practical understanding of human needs.",
     "heDesc": "חיבור הלכתי מקיף לפי סדר ארבעת חלקי השולחן ערוך הכולל מקור של כל הלכה ממקורו בהתלמוד ועד הדיונים של הפוסקים האחרונים.",
+    "enShortDesc": "19th-century comprehensive digest following the order of the Shulchan Arukh.",
+    "heShortDesc": "חיבור הלכתי מקיף מן המאה ה-19 שנכתב לפי סדר הסימנים בשולחן ערוך.",
     "pubDate": "1884-1909",
     "compDate": "1885",
     "compPlace": "Navahrudak (Novogrudok )",
@@ -250,6 +318,8 @@
         "Aruch Hashulchan",
         "Arukh ha-Shulḥan",
         "Aruch HaShulchan",
+        "Arukh Hashulhan",
+        "AHS",
         "Arukh HaShulchan"
     ],
     "heTitleVariants": [
@@ -277,6 +347,13 @@
                                 "Arukh HaShulchan, Orach Chaim 7"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-upon-awakening-in-the-morning1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -323,6 +400,13 @@
                                 "Arukh HaShulchan, Orach Chaim 24"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-tzitzit1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -373,6 +457,13 @@
                                 "Arukh HaShulchan, Orach Chaim 45"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-tefillin1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -414,6 +505,13 @@
                                 "Arukh HaShulchan, Orach Chaim 57"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-morning-blessings1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -474,6 +572,13 @@
                                 "Arukh HaShulchan, Orach Chaim 88"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-reciting-shema1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -549,6 +654,13 @@
                                 "Arukh HaShulchan, Orach Chaim 134"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-prayer1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -593,6 +705,13 @@
                                 "Arukh HaShulchan, Orach Chaim 149"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-reading-the-torah1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -628,6 +747,13 @@
                                 "Arukh HaShulchan, Orach Chaim 155"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-the-synagogue1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -658,6 +784,13 @@
                                 "Arukh HaShulchan, Orach Chaim 156"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-business"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -696,6 +829,13 @@
                                 "Arukh HaShulchan, Orach Chaim 165"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-washing-ones-hands-for-a-meal1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -729,6 +869,13 @@
                                 "Arukh HaShulchan, Orach Chaim 169"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-cutting-the-bread"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -770,6 +917,13 @@
                                 "Arukh HaShulchan, Orach Chaim 181"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-the-meal1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -819,6 +973,13 @@
                                 "Arukh HaShulchan, Orach Chaim 201"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-grace-after-meals"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -864,6 +1025,13 @@
                                 "Arukh HaShulchan, Orach Chaim 217"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-blessings-on-fruit1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -907,6 +1075,13 @@
                                 "Arukh HaShulchan, Orach Chaim 231"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-other-blessings1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -946,6 +1121,13 @@
                                 "Arukh HaShulchan, Orach Chaim 241"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-afternoon-and-evening-prayers"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -982,6 +1164,13 @@
                                 "Arukh HaShulchan, Orach Chaim 248"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-work-done-by-non-jew"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1063,6 +1252,13 @@
                                 "Arukh HaShulchan, Orach Chaim 300"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-sabbath-day"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1136,6 +1332,13 @@
                                 "Arukh HaShulchan, Orach Chaim 344"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-forbidden-activities-on-the-sabbath"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1186,6 +1389,13 @@
                                 "Arukh HaShulchan, Orach Chaim 365"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-eruvin1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1245,6 +1455,13 @@
                                 "Arukh HaShulchan, Orach Chaim 395"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-eruvei-chatzerot"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1286,6 +1503,13 @@
                                 "Arukh HaShulchan, Orach Chaim 407"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-techumin1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1324,6 +1548,13 @@
                                 "Arukh HaShulchan, Orach Chaim 416"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-eruv-techumin1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1365,6 +1596,13 @@
                                 "Arukh HaShulchan, Orach Chaim 428"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-rosh-chodesh1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1460,6 +1698,13 @@
                                 "Arukh HaShulchan, Orach Chaim 494"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-passover1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1524,6 +1769,13 @@
                                 "Arukh HaShulchan, Orach Chaim 529"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-the-festivals1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1572,6 +1824,13 @@
                                 "Arukh HaShulchan, Orach Chaim 548"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-chol-hamoed1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1614,6 +1873,13 @@
                                 "Arukh HaShulchan, Orach Chaim 561"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-the-ninth-of-av1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1662,6 +1928,13 @@
                                 "Arukh HaShulchan, Orach Chaim 580"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-fast-days1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1714,6 +1987,13 @@
                                 "Arukh HaShulchan, Orach Chaim 603"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-rosh-hashanah1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1764,6 +2044,13 @@
                                 "Arukh HaShulchan, Orach Chaim 624"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-yom-kippur1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1813,6 +2100,13 @@
                                 "Arukh HaShulchan, Orach Chaim 644"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-sukkot1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1867,6 +2161,13 @@
                                 "Arukh HaShulchan, Orach Chaim 669"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-the-four-species1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1912,6 +2213,13 @@
                                 "Arukh HaShulchan, Orach Chaim 685"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-chanukah1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1951,6 +2259,13 @@
                                 "Arukh HaShulchan, Orach Chaim 695"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-purim1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2026,6 +2341,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 28"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "ritual-slaughter2"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2087,6 +2409,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 60"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "unslaughterable-animals1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2117,6 +2446,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 61"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "priestly-gifts1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2147,6 +2483,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 62"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "a-limb-from-a-live-animal1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2177,6 +2520,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 63"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "meat-that-was-unobserved1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2207,6 +2557,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 64"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "prohibited-fats1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2240,6 +2597,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 68"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "blood1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2279,6 +2643,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 78"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "salting1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2310,6 +2681,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 80"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "domesticated-and-undomesticated-kosher-animals"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2340,6 +2718,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 81"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "things-that-come-from-a-live-animal1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2370,6 +2755,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 82"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "birds1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2400,6 +2792,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 83"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "fish1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2431,6 +2830,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 85"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "insects1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2461,6 +2867,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 86"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "eggs1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2501,6 +2914,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 97"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "meat-with-milk1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2544,6 +2964,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 111"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "admixtures1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2582,6 +3009,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 120"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "food-of-idol-worshipers1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2612,6 +3046,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 121"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "the-koshering-of-utensils"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2642,6 +3083,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 122"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "that-which-gives-detrimental-taste1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2689,6 +3137,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 200"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "the-menstruant1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2720,6 +3175,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 202"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "ritual-baths1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2751,6 +3213,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 241"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "honoring-ones-father-and-mother1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2781,6 +3250,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 242"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "honoring-ones-rabbi-and-a-torah-scholar1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2812,6 +3288,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 244"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "honoring-a-torah-scholar1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2843,6 +3326,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 246"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "torah-study2"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2885,6 +3375,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 259"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "charity1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2921,6 +3418,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 266"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "circumcision2"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2951,6 +3455,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 267"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "slaves2"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2982,6 +3493,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 269"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "converts1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3026,6 +3544,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 284"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "a-torah-scroll1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3062,6 +3587,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 291"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "mezuzah1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3092,6 +3624,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 292"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "sending-away-the-mother-bird1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3122,6 +3661,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 293"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "new-grain1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3152,6 +3698,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 294"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "orlah2"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3191,6 +3744,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 304"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "interspecies-mingling"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3237,6 +3797,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 321"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "redemption-of-the-firstborn1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3275,6 +3842,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 330"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "challah2"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3306,6 +3880,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 332"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "tithes2"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3336,6 +3917,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 333"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "first-shearings"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3366,6 +3954,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 334"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "excommunication1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3399,6 +3994,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 338"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "visiting-the-sick1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3493,6 +4095,13 @@
                                 "Arukh HaShulchan, Yoreh De'ah 403"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "mourning2"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3546,6 +4155,13 @@
                                 "Arukh HaShulchan, Even HaEzer 6"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-procreation1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3594,6 +4210,13 @@
                                 "Arukh HaShulchan, Even HaEzer 25"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-matrimony"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3663,6 +4286,13 @@
                                 "Arukh HaShulchan, Even HaEzer 65"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-kiddushin1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3728,6 +4358,13 @@
                                 "Arukh HaShulchan, Even HaEzer 154"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-gittin1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3758,6 +4395,13 @@
                                 "Arukh HaShulchan, Even HaEzer 155"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-miun1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3808,6 +4452,13 @@
                                 "Arukh HaShulchan, Even HaEzer 176"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-chalitza-and-yibbum"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3838,6 +4489,13 @@
                                 "Arukh HaShulchan, Even HaEzer 177"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-a-seducer"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3868,6 +4526,13 @@
                                 "Arukh HaShulchan, Even HaEzer 178"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-sotah"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3942,6 +4607,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 27"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "jurisprudence1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3982,6 +4654,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 38"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "testimony2"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4047,6 +4726,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 74"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "loans1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4098,6 +4784,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 96"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "plaintiff-and-defendant2"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4137,6 +4830,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 106"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "collecting-debts"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4170,6 +4870,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 110"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "collecting-debt-from-orphans"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4205,6 +4912,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 116"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "collecting-debt-from-liened-property"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4238,6 +4952,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 120"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "mortgage-loans1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4268,6 +4989,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 121"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "debt-collection-by-agent"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4304,6 +5032,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 128"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "authorizations1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4337,6 +5072,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 132"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "guarantors1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4373,6 +5115,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 139"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "ownership-of-movable-property"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4415,6 +5164,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 152"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "ownership-of-immovable-property"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4448,6 +5204,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 156"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "neighbor-disputes1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4491,6 +5254,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 170"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "land-partnerships1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4524,6 +5294,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 174"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "partnership-termination1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4554,6 +5331,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 175"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "pre-emption-rights1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4589,6 +5373,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 181"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "partnerships1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4625,6 +5416,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 188"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "agents1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4692,6 +5490,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 226"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "business-dealings"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4735,6 +5540,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 240"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "onaah1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4773,6 +5585,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 249"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "gifts1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4811,6 +5630,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 258"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "deathbed-gifts1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4857,6 +5683,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 275"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "lost-property1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4901,6 +5734,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 290"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "inheritances2"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4942,6 +5782,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 302"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "deposit1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4974,6 +5821,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 305"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "paid-bailee1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5004,6 +5858,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 306"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "skilled-labor1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5046,6 +5907,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 319"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "hiring2"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5086,6 +5954,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 330"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "leases-and-contracts1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5124,6 +5999,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 339"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "employing-labor1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5161,6 +6043,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 347"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "borrowing"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5201,6 +6090,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 358"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "theft2"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5249,6 +6145,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 377"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "robbery1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5289,6 +6192,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 388"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "tort1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5349,6 +6259,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 419"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "monetary-damages1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5386,6 +6303,13 @@
                                 "Arukh HaShulchan, Choshen Mishpat 427"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "personal-injury1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5436,6 +6360,14 @@
                 },
                 {
                     "text": "Aruch HaShulchan",
+                    "lang": "en"
+                },
+                {
+                    "text": "Arukh Hashulhan",
+                    "lang": "en"
+                },
+                {
+                    "text": "AHS",
                     "lang": "en"
                 },
                 {

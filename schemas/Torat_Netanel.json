@@ -1,7 +1,8 @@
 {
     "title": "Torat Netanel",
     "categories": [
-        "Responsa"
+        "Responsa",
+        "Acharonim"
     ],
     "schema": {
         "nodes": [
@@ -145,9 +146,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Torat Netanel",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Torat Netanel",
@@ -155,10 +156,16 @@
         "key": "Torat Netanel"
     },
     "authors": [
-        "Nathaniel Weil"
+        {
+            "en": "Nathaniel Weil",
+            "he": "נתנאל וייל",
+            "slug": "nathaniel-weil"
+        }
     ],
     "enDesc": "Responsa of R' Nathaniel Weil, the author of Korban Netanel",
     "heDesc": "שו\"ת מבעל קרבן נתנאל",
+    "enShortDesc": "18th-century responsa composed in Germany by the author of the Korban Netanel, a commentary on the Talmud.",
+    "heShortDesc": "שאלות ותשובות מאת הרב נתנאל וייל, רב בגרמניה במאה ה-18 ומחבר הספר \"קרבן נתנאל\".",
     "pubDate": "1795",
     "compDate": "1744",
     "pubPlace": "Fürth, Germany",
@@ -172,7 +179,7 @@
         "תורת נתנאל"
     ],
     "alts": {
-        "Simanim": {
+        "Siman": {
             "nodes": [
                 {
                     "nodeType": "ArrayMapNode",
@@ -962,9 +969,9 @@
                     "lang": "he"
                 },
                 {
-                    "primary": true,
                     "text": "Torat Netanel",
-                    "lang": "en"
+                    "lang": "en",
+                    "primary": true
                 }
             ],
             "title": "Torat Netanel",
@@ -972,7 +979,8 @@
         }
     },
     "heCategories": [
-        "שו\"ת"
+        "שו\"ת",
+        "אחרונים"
     ],
     "compDateString": {
         "en": " (c.1719  - c.1769 CE)",

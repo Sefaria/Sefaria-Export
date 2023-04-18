@@ -2,7 +2,7 @@
     "title": "Saadia Gaon on Ezra",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Saadia Gaon",
         "Writings"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "saadia-gaon",
+                    "ezra"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            108,
+            219
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -40,9 +58,8 @@
         ],
         "key": "Saadia Gaon on Ezra"
     },
-    "authors": [
-        "Saadia Gaon"
-    ],
+    "authors": [],
+    "enDesc": "This commentary was historically attributed to Rabbi Saadia Gaon, a prominent 10th-century biblical commentator, philosopher, and legal scholar. Modern scholarship, however, clarified that what was assumed to be the Gaon’s commentary on the books of Ezra, Nehemia, and Proverbs is actually the work of an unknown individual by the name of Saadia, who lived sometime during or before the 13th century.",
     "pubDate": "1882",
     "compDate": "930",
     "pubPlace": "Oxford",
@@ -75,7 +92,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "ר' סעדיה גאון",
         "כתובים"
     ],

@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "isaiah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "isaiah"
+                ]
+            }
         ],
         "lengths": [
             66,
@@ -37,9 +50,20 @@
                 "lang": "en"
             },
             {
-                "text": "ישעיהו",
-                "lang": "he",
-                "primary": true
+                "text": "Is.",
+                "lang": "en"
+            },
+            {
+                "text": "Isaïe",
+                "lang": "en"
+            },
+            {
+                "text": "Jésaïe",
+                "lang": "en"
+            },
+            {
+                "text": "Esaïe",
+                "lang": "en"
             },
             {
                 "text": "ישעיה",
@@ -54,8 +78,9 @@
                 "lang": "he"
             },
             {
-                "text": "Is.",
-                "lang": "en"
+                "text": "ישעיהו",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Isaiah",
@@ -75,13 +100,20 @@
         12,
         7
     ],
-    "enDesc": "The Book of Isaiah is the first of the Neviim Aharonim (Latter Prophets). The book is identified by a superscription as the works of Isaiah son of Amos though in the Middle Ages the commentator Abraham Ibn Ezra identified a second Isaiah living much later. The book can be divided into three separate collections. Isaiah 1–33 promises judgment and restoration for Judah, Jerusalem and the nations. Chapters 34–66 presume that judgment has been pronounced and restoration will follows soon. It can thus be read as an extended meditation on the destiny of Jerusalem into and after the Babylonian Exile.",
+    "authors": [],
+    "enDesc": "Isaiah (“Yeshayahu”) is the fifth book of the Prophets and is known for its visions of universal peace and renewal. Beginning in the period of the First Temple against the backdrop of a rising Assyrian empire and Israel on the decline, Isaiah rebukes Israel for abandoning God and pursuing corruption, calls for change, and warns the nations of their ultimate downfalls. The last third of the book contains comforting prophecies about returning to Jerusalem and redemption.",
+    "heDesc": "ישעיהו הוא הספר החמישי בספרי הנביאים. נבואת ישעיהו מלווה את עלייתה של המעצמה האשורית בתקופת בית המקדש הראשון וכוללת פרשנות לאירועים ההיסטוריים: יד אלוהים הפועלת בעולם. חזונו של הנביא כולל בשורת שלום עולמי, קריאה לצדק חברתי והתנהלות מוסרית בין אדם לחברו ומלחמה בפולחן האלילות. חלקו האחרון של הספר כולל נבואות נחמה בדבר השיבה לירושלים וגאולת ישראל.",
+    "enShortDesc": "Criticism of religious corruption, calls for change, and descriptions of a utopian future.",
+    "heShortDesc": "ביקורת על שחיתות דתית וקריאות לשינוי, תיאורים של עתיד אוטופי.",
     "pubDate": "1488",
     "compDate": "-600",
     "compPlace": "Judea/Israel",
     "pubPlace": "Soncino",
     "errorMargin": "150",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "ישעיהו",
     "titleVariants": [
         "Isa.",
@@ -89,13 +121,16 @@
         "Isa",
         "Yeshayahu",
         "Is.",
+        "Isaïe",
+        "Jésaïe",
+        "Esaïe",
         "Isaiah"
     ],
     "heTitleVariants": [
-        "ישעיהו",
         "ישעיה",
         "ישעי׳",
-        "ישעי'"
+        "ישעי'",
+        "ישעיהו"
     ],
     "sectionNames": [
         "Chapter",

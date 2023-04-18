@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "keritot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "keritot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "keritot"
+                ]
+            }
+        ],
         "lengths": [
             6,
             43
@@ -49,11 +68,6 @@
                 "text": "Mishnah Keritut"
             },
             {
-                "lang": "he",
-                "text": "משנה כריתות",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Ker."
             },
@@ -62,8 +76,13 @@
                 "text": "Mishnah K’rithoth"
             },
             {
-                "lang": "en",
+                "text": "משנה כריתות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Keritot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -80,7 +99,9 @@
         7
     ],
     "authors": [],
-    "enDesc": "Keritot (Excisions) belongs to the fifth order, Kodshim (Holy things) and discusses the commandments for which the penalty is karet \"excision\") as well as the sacrifices associated with their (mostly unwitting) transgression. It has six chapters.",
+    "enDesc": "Keritot (plural of “Karet,” or the punishment of divinely-issued severance from the Jewish people) is a tractate within Seder Kodashim (“Order of Holy Things”). It mainly discusses prohibitions for which the Torah imposes karet for those who knowingly transgress. It also discusses the sin offering brought when one unintentionally violates these prohibitions (chatat), as well as the provisional guilt offering brought when one is unsure if they violated these prohibitions (asham).",
+    "enShortDesc": "Karet, divinely-issued severance from the Jewish people, and sacrifices for unintentional sin.",
+    "heShortDesc": "עונש כרת וקורבנות על חטאים שנעשו בשגגה.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -88,6 +109,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה כריתות",
     "titleVariants": [
         "M Keritot",

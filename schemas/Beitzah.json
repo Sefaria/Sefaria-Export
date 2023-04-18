@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "beitzah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "beitzah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "beitzah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "beitzah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "beitzah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "beitzah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "beitzah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "beitzah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "beitzah"
+                ]
+            }
+        ],
         "lengths": [
-            78,
-            3880
+            80,
+            1151
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -50,13 +114,13 @@
                 "text": "Betsah"
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "ביצה"
-            },
-            {
                 "text": "BT Beitzah",
                 "lang": "en"
+            },
+            {
+                "text": "ביצה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Beitzah",
@@ -77,12 +141,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         8,
         7
     ],
     "authors": [],
-    "enDesc": "Bezah (Eggs) belongs to the second order, Moed (Festivals) and discusses the rules to be observed on Festivals. It has five chapters.",
+    "enDesc": "Tractate Beitzah (“Egg,” named for the first word in the tractate) is located in Seder Moed (“the Order of Festivals”) and discusses the laws of Yom Tov (biblical holidays). In medieval commentaries, it is often referred to as tractate Yom Tov. The tractate opens with discussions about muktzeh, or items that are set-aside and cannot be used on Shabbat or Yom Tov. The remaining chapters mainly focus on preparation of food on Yom Tov, a form of labor that is prohibited on Shabbat.\n\n.",
+    "enShortDesc": "Holiday laws governing which objects can be used, how food is prepared, and what labor is permitted.",
+    "heShortDesc": "דיני יום טוב: חפצים האסורים בשימוש, הכנת אוכל בחג לצורך החג והמלאכות האסורות.",
     "pubDate": "1484",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -90,6 +159,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "ביצה",
     "titleVariants": [
         "Talmud Beitzah",
@@ -113,6 +185,33 @@
                     "depth": 1,
                     "wholeRef": "Beitzah 2a:1-15a:15",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-15"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-15"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "primary": true,
@@ -169,6 +268,33 @@
                     "depth": 1,
                     "wholeRef": "Beitzah 15b:1-23b:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-25"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-25"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "primary": true,
@@ -215,6 +341,33 @@
                     "depth": 1,
                     "wholeRef": "Beitzah 23b:11-29b:9",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-35"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-35"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "primary": true,
@@ -257,6 +410,33 @@
                     "depth": 1,
                     "wholeRef": "Beitzah 29b:10-35b:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-45"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-45"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "primary": true,
@@ -299,6 +479,44 @@
                     "depth": 1,
                     "wholeRef": "Beitzah 35b:7-40b:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-55"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-55"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "primary": true,
@@ -365,13 +583,13 @@
                     "text": "Betsah"
                 },
                 {
-                    "primary": true,
-                    "lang": "he",
-                    "text": "ביצה"
-                },
-                {
                     "text": "BT Beitzah",
                     "lang": "en"
+                },
+                {
+                    "text": "ביצה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Beitzah",

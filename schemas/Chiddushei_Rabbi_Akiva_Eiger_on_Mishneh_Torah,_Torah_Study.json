@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chiddushei-rabbi-akiva-eiger",
+                    "hilchot",
+                    "torah-study"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-rabbi-akiva-eiger",
+                    "torah-study"
+                ]
+            }
+        ],
+        "lengths": [
+            7,
+            2,
+            2
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,8 +62,14 @@
         "key": "Chiddushei Rabbi Akiva Eiger on Mishneh Torah, Torah Study"
     },
     "authors": [
-        "Akiva Eiger"
+        {
+            "en": "Akiva Eiger",
+            "he": "עֲקִיבָא  אֵיגֶר",
+            "slug": "akiva-eiger"
+        }
     ],
+    "compDate": "1810",
+    "errorMargin": "25",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -76,5 +102,9 @@
         "מפרשים",
         "חידושי רבי עקיבא איגר",
         "ספר מדע"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1785  - c.1835 CE)",
+        "he": " (1785 - 1835 לספירה בקירוב)"
+    }
 }

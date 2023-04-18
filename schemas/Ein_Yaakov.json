@@ -2,7 +2,7 @@
     "title": "Ein Yaakov",
     "categories": [
         "Midrash",
-        "Aggadic Midrash"
+        "Aggadah"
     ],
     "schema": {
         "nodes": [
@@ -1381,13 +1381,13 @@
                 "text": "Ein Yaacov"
             },
             {
-                "lang": "he",
                 "text": "עין יעקב",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Ein Yaakov",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -1396,14 +1396,24 @@
         "key": "Ein Yaakov"
     },
     "authors": [
-        "Levi ibn Habib",
-        "Jacob ibn Habib"
+        {
+            "en": "Levi ibn Habib",
+            "he": "לוי בן חביב",
+            "slug": "levi-ibn-habib"
+        },
+        {
+            "en": "Jacob ibn Habib",
+            "he": "יעקב בן שלמה אבן חביב",
+            "slug": "jacob-ibn-habib"
+        }
     ],
-    "enDesc": "Ein Yaakov (Well of Jacob‎) is a compilation of all the Aggadic material in the Talmud together with commentaries. Its introduction contains an account of the history of Talmudic censorship and the term Gemara. It was compiled by Jacob ibn Habib and completed posthumously by his son Rabbi Levi ibn Habib (Maharalbach). There are some differences between the version of the Talmud found in Ein Yaakov and printed versions, in addition to passages that appear only in Ein Yaakov. ",
-    "heDesc": "עין יעקב הינו אוסף של כל החומר האגדי בתלמוד, בצירוף פירוש של המלקט הנקרא \"הכותב\" ופירושים רבים נוספים. פירושים. ההקדמה לספר מציגה את ההיסטוריה של הצנזורה על התלמוד ושל המונח \"גמרא\". הספר חובר בידי יעקב בן חביב, והושלם לאחר מותו על ידי בנו, רבי לוי בן חביב (מהרלב\"ח). ישנם הבדלים מסוימים בין גרסת התלמוד המצויה ב\"עין יעקב\" והגרסה המופיעה בתלמוד המודפס, בין היתר בצורת פסקאות תלמודיות המופיעות ב\"עין יעקב\" ואינן מופיעות בדפוס התלמוד.",
+    "enDesc": "Ein Yaakov (‘Well of Jacob‎”) is a multivolume compilation of stories, parables, and biblical interpretation from the Talmud printed together with commentaries. Rabbi Yaakov ibn Habib began compiling and editing it in the early 16th century in the wake of the expulsion of Jews from Spain. After his death, his son, Rabbi Levi ibn Habib, completed the work. With its accessible content and style, Ein Yaakov has enjoyed wide appeal for centuries among both scholars and laymen and has been printed in over 30 editions.",
+    "heDesc": "\"עין יעקב\" הינו אוסף של כל החומר האגדי בתלמוד, בצירוף פירוש של המלקט הנקרא \"הכותב\" ופירושים רבים נוספים. פירושים. ההקדמה לספר מציגה את ההיסטוריה של הצנזורה על התלמוד ושל המונח \"גמרא\". הספר חובר בידי יעקב בן חביב, והושלם לאחר מותו על ידי בנו, רבי לוי בן חביב (מהרלב\"ח). ישנם הבדלים מסוימים בין גרסת התלמוד המצויה ב\"עין יעקב\" והגרסה המופיעה בתלמוד המודפס, בין היתר בצורת פסקאות תלמודיות המופיעות ב\"עין יעקב\" ואינן מופיעות בדפוס התלמוד.",
+    "enShortDesc": "Collections of the Talmud’s narrative material together with commentaries, compiled in the 16th century.",
+    "heShortDesc": "אוסף ופירוש מן המאה ה-16 של רוב האגדות המופיעות בתלמוד.",
     "pubDate": "1516",
     "compDate": "1520",
-    "compPlace": "Salonica / Thessaloniki ",
+    "compPlace": "Salonica / Thessaloniki",
     "pubPlace": "Thessaloniki",
     "errorMargin": "30",
     "era": "AH",
@@ -1419,14 +1429,10 @@
     ],
     "heCategories": [
         "מדרש",
-        "מדרש אגדה"
+        "אגדה"
     ],
     "compDateString": {
         "en": " (c.1490  - c.1550 CE)",
         "he": " (1490 - 1550 לספירה בקירוב)"
-    },
-    "compPlaceString": {
-        "en": "Salonica / Thessaloniki ",
-        "he": "סלוניקי"
     }
 }

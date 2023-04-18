@@ -2,7 +2,7 @@
     "title": "Torah Temimah on Psalms",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
         "Torah Temimah",
         "Writings"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "torah-temimah",
+                    "psalms"
+                ]
+            }
+        ],
+        "lengths": [
+            150,
+            553,
+            833
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -86,8 +104,8 @@
                 "text": "תורה תמימה על תהלי'"
             },
             {
-                "lang": "en",
                 "text": "Torah Temimah on Psalms",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -101,10 +119,14 @@
         "key": "Torah Temimah on Psalms"
     },
     "authors": [
-        "Shmuel Navon"
+        {
+            "en": "Shmuel Navon",
+            "he": "שמואל נבון",
+            "slug": "shmuel-navon"
+        }
     ],
     "enDesc": "A compilation of Talmudic citations on each verse of the Book of Psalms, following the style of  \"Torah Temimah\" on the Chumash.",
-    "heDesc": " בו נלקטו כל המימרות מש\"ס תלמוד בבלי על סדר התהילים בסגנון של הספר \"תורה תמימה\" על החומש.",
+    "heDesc": "בו נלקטו כל המימרות מש\"ס תלמוד בבלי על סדר התהילים בסגנון של הספר \"תורה תמימה\" על החומש.",
     "pubDate": "2011",
     "compDate": "2011",
     "compPlace": "Jerusalem",
@@ -152,7 +174,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
         "תורה תמימה",
         "כתובים"
     ],

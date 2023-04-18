@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary"
+        "Rishonim on Talmud"
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
@@ -15,6 +15,27 @@
         "sectionNames": [
             "Daf",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosafot-chad-mikamei",
+                    "yevamot"
+                ]
+            }
+        ],
+        "lengths": [
+            244,
+            140
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -42,7 +63,8 @@
     },
     "authors": [],
     "enDesc": "Medieval commentary by an unknown Tosafist on Tractate Yevamot, printed alongside the Talmudic text in the Vilna Edition.",
-    "heDesc": "פירוש מאחד מבעלי התוספות בזמן הראב\"ד, נדפס על הדף בדפוס ווילנא. ",
+    "heDesc": "פירוש מאחד מבעלי התוספות בזמן הראב\"ד, נדפס על הדף בדפוס ווילנא.",
+    "enShortDesc": "Medieval commentary by an unknown Tosafist, printed alongside the talmudic text in the Vilna edition of the Talmud.",
     "compDate": "1200",
     "errorMargin": "50",
     "era": "RI",
@@ -73,7 +95,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים"
+        "ראשונים על התלמוד"
     ],
     "compDateString": {
         "en": " (c.1150  - c.1250 CE)",

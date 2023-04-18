@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "hasagot-haraavad",
+                    "hilchot",
+                    "sales"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hasagot-haraavad",
+                    "sales"
+                ]
+            }
+        ],
+        "lengths": [
+            30,
+            48,
+            50
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,7 +62,11 @@
         "key": "Hasagot HaRaavad on Mishneh Torah, Sales"
     },
     "authors": [
-        "Ra'avad"
+        {
+            "en": "Ra'avad",
+            "he": "ראב\"ד",
+            "slug": "raavad"
+        }
     ],
     "enDesc": "Raavad's glosses on Rambam's Mishneh Torah expressing his dissenting opinion.",
     "heDesc": "הגהותיו של הראב\"ד על המשנה תורה של הרמב\"ם, המבטאות את דעתו החולקת.",

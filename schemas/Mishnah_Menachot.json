@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "menachot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "menachot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "menachot"
+                ]
+            }
+        ],
         "lengths": [
             13,
             93
@@ -37,11 +56,6 @@
                 "text": "Mishna Menahot"
             },
             {
-                "lang": "he",
-                "text": "משנה מנחות",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Men."
             },
@@ -50,8 +64,13 @@
                 "text": "Mishnah M’naḥoth"
             },
             {
-                "lang": "en",
+                "text": "משנה מנחות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Menachot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -68,7 +87,9 @@
         2
     ],
     "authors": [],
-    "enDesc": "Menahot (Meal Offerings) belongs to the fifth order, Kodshim (Holy things) and discusses the various grain-based offerings in the Temple. It has thirteen chapters.",
+    "enDesc": "Menachot (“Meal Offerings”) is the second tractate in Seder Kodashim (“Order of Holy Things\"). Its thirteen chapters mainly discuss flour-based offerings brought in the Temple, as well as oil and wine libations. Among the topics addressed are intentions that nullify an offering’s validity, details of the process of removing a handful of meal-offering, sanctifying it in a vessel, carrying it, and burning it on the altar, and the preparation and consumption of showbread (loaves that were always present on a dedicated table in the Temple).",
+    "enShortDesc": "Flour offerings, usually mixed with oil, wine libations, and bread loaf offerings in the Temple.",
+    "heShortDesc": "מנחות עשויות קמח, לחם הפנים ונסכי יין ושמן.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -76,6 +97,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה מנחות",
     "titleVariants": [
         "M Menachot",

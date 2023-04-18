@@ -2,7 +2,7 @@
     "title": "Ramban on Genesis",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Ramban",
         "Torah"
     ],
@@ -74,13 +74,18 @@
                 "depth": 3,
                 "addressTypes": [
                     "Perek",
-                    "Integer",
+                    "Pasuk",
                     "Integer"
                 ],
                 "sectionNames": [
                     "Chapter",
                     "Verse",
                     "Comment"
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
                 ],
                 "default": true,
                 "title": "",
@@ -91,6 +96,15 @@
                     "פירוש"
                 ],
                 "key": "default"
+            }
+        ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ramban",
+                    "genesis"
+                ]
             }
         ],
         "titles": [
@@ -212,11 +226,6 @@
             },
             {
                 "lang": "he",
-                "text": "רמב\"ן על בראשית",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ן על ברא'"
             },
             {
@@ -236,6 +245,59 @@
                 "text": "רמב\"ן על בְּרֵאשִׁית"
             },
             {
+                "text": "רמב״ן על בראשית",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ן על בראשית",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ן על ברא'",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ן על ברא'",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ן על בר'",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ן על בר'",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ן על בר׳",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ן על בר׳",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ן על ברא׳",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ן על ברא׳",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ן על בְּרֵאשִׁית",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ן על בְּרֵאשִׁית",
+                "lang": "he"
+            },
+            {
+                "text": "רמב\"ן על בראשית",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Ramban on Genesis",
                 "lang": "en",
                 "primary": true
@@ -246,7 +308,11 @@
         "key": "Ramban on Genesis"
     },
     "authors": [
-        "Ramban"
+        {
+            "en": "Ramban",
+            "he": "רמב״ן",
+            "slug": "ramban"
+        }
     ],
     "enDesc": "Commentary by Rabbi Moses ben Nahman (1194–1270), commonly known as the Ramban. The Ramban lived in Spain until his move to Jerusalem toward the end of his life. His commentary reflects his love of Eretz Yisrael. He usually begins his comments with Rashi’s explanation and then expounds further with insights from Kabbalah and Oral Tradition. His comments include respectful criticism of Rashi, Ibn Ezra and Rambam.",
     "pubDate": "1480",
@@ -262,7 +328,7 @@
             "he": "בראשית"
         }
     ],
-    "base_text_mapping": "many_to_one",
+    "base_text_mapping": "many_to_one_default_only",
     "collective_title": {
         "en": "Ramban",
         "he": "רמב\"ן"
@@ -302,16 +368,28 @@
         "Ramban on Genesis"
     ],
     "heTitleVariants": [
-        "רמב\"ן על בראשית",
         "רמב\"ן על ברא'",
         "רמב\"ן על בר'",
         "רמב\"ן על בר׳",
         "רמב\"ן על ברא׳",
-        "רמב\"ן על בְּרֵאשִׁית"
+        "רמב\"ן על בְּרֵאשִׁית",
+        "רמב״ן על בראשית",
+        "רמב”ן על בראשית",
+        "רמב״ן על ברא'",
+        "רמב”ן על ברא'",
+        "רמב״ן על בר'",
+        "רמב”ן על בר'",
+        "רמב״ן על בר׳",
+        "רמב”ן על בר׳",
+        "רמב״ן על ברא׳",
+        "רמב”ן על ברא׳",
+        "רמב״ן על בְּרֵאשִׁית",
+        "רמב”ן על בְּרֵאשִׁית",
+        "רמב\"ן על בראשית"
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "רמב\"ן",
         "תורה"
     ],

@@ -2,22 +2,95 @@
     "title": "Or HaChaim on Genesis",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
         "Or HaChaim",
         "Torah"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 3,
-        "addressTypes": [
-            "Perek",
-            "Integer",
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Pasuk",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Verse",
+                    "Comment"
+                ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "or-hachaim",
+                            "genesis"
+                        ]
+                    }
+                ],
+                "lengths": [
+                    50,
+                    577,
+                    1561
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
+            }
         ],
-        "sectionNames": [
-            "Chapter",
-            "Verse",
-            "Comment"
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "or-hachaim",
+                    "genesis"
+                ]
+            }
         ],
         "titles": [
             {
@@ -98,11 +171,6 @@
             },
             {
                 "lang": "he",
-                "text": "אור החיים על בראשית",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "אור החיים על ברא'"
             },
             {
@@ -122,6 +190,11 @@
                 "text": "אור החיים על בְּרֵאשִׁית"
             },
             {
+                "text": "אור החיים על בראשית",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Or HaChaim on Genesis",
                 "lang": "en",
                 "primary": true
@@ -129,15 +202,14 @@
         ],
         "title": "Or HaChaim on Genesis",
         "heTitle": "אור החיים על בראשית",
-        "heSectionNames": [
-            "פרק",
-            "פסוק",
-            "פירוש"
-        ],
         "key": "Or HaChaim on Genesis"
     },
     "authors": [
-        "Chaim ibn Attar"
+        {
+            "en": "Chaim ibn Attar",
+            "he": "חיים בן עטר",
+            "slug": "chaim-ibn-attar"
+        }
     ],
     "enDesc": "Written by Rabbi Hayyim ben Moshe ibn Attar (1696-1743), Or HaChaim is a classical commentary on the Chumash.  Rabbi Hayyim was a Moroccan Kabbalist and Talmudist which is reflected in his commentary.",
     "pubDate": "1742",
@@ -183,22 +255,16 @@
         "Or HaChaim on Genesis"
     ],
     "heTitleVariants": [
-        "אור החיים על בראשית",
         "אור החיים על ברא'",
         "אור החיים על בר'",
         "אור החיים על בר׳",
         "אור החיים על ברא׳",
-        "אור החיים על בְּרֵאשִׁית"
+        "אור החיים על בְּרֵאשִׁית",
+        "אור החיים על בראשית"
     ],
-    "sectionNames": [
-        "Chapter",
-        "Verse",
-        "Comment"
-    ],
-    "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
         "אור החיים",
         "תורה"
     ],

@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "parah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "parah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "parah"
+                ]
+            }
+        ],
         "lengths": [
             12,
             96
@@ -34,11 +53,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה פרה",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "פרה"
             },
             {
@@ -54,8 +68,13 @@
                 "text": "Mishnah Par."
             },
             {
-                "lang": "en",
+                "text": "משנה פרה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Parah",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -73,6 +92,8 @@
     ],
     "authors": [],
     "enDesc": "Parah (Cow) belongs to the sixth order, Tahorot (Purities) and discusses the laws of the Red Heifer (Para Adumah). It has twelve chapters.",
+    "enShortDesc": "Burning of a red heifer and mixing of its ashes with spring water to be used for purification.",
+    "heShortDesc": "שרפת פרה אדומה וערבוב אפרה במי מעיין לצורכי טהרה.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -80,6 +101,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה פרה",
     "titleVariants": [
         "M Parah",
@@ -91,8 +115,8 @@
         "Mishnah Parah"
     ],
     "heTitleVariants": [
-        "משנה פרה",
-        "פרה"
+        "פרה",
+        "משנה פרה"
     ],
     "sectionNames": [
         "Chapter",

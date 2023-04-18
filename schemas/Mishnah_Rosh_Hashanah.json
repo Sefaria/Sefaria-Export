@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "rosh-hashanah"
+                ]
+            }
+        ],
         "lengths": [
             4,
             35
@@ -33,11 +52,6 @@
                 "text": "M. Rosh Hashanah"
             },
             {
-                "lang": "he",
-                "text": "משנה ראש השנה",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah R. Hash."
             },
@@ -46,8 +60,13 @@
                 "text": "Mishnah Rosh hash-Shanah"
             },
             {
-                "lang": "en",
+                "text": "משנה ראש השנה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Rosh Hashanah",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -64,7 +83,9 @@
         8
     ],
     "authors": [],
-    "enDesc": "Rosh Hashanah (New Year) belongs to the second order, Moed (Festivals) and discusses the regulation of the calendar by the new moon, and with the services of the festival of Rosh Hashanah. It has four chapters.",
+    "enDesc": "Tractate Rosh Hashanah, located in Seder Moed (“The Order of Festivals”) opens with the statement that there are four days of the calendar, each of which is a New Year for its own purpose. The bulk of the tractate's discussion is elaboration of the laws concerning the holiday of Rosh Hashanah, its religious significance, and the details of the sounding of the shofar. The tractate also discusses the process of sanctifying a new month in the Temple period, which involved witnesses testifying in front of the high rabbinic court that they saw the new moon.",
+    "enShortDesc": "The declaration process for a new month in the Temple period, blowing the shofar, and Rosh Hashanah liturgy.",
+    "heShortDesc": "ההכרזה על ראש חודש בתקופת בית המקדש, תקיעת שופר ותפילות ראש השנה.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה ראש השנה",
     "titleVariants": [
         "M Rosh Hashanah",

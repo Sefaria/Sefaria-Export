@@ -2,7 +2,7 @@
     "title": "Ruth Rabbah",
     "categories": [
         "Midrash",
-        "Aggadic Midrash",
+        "Aggadah",
         "Midrash Rabbah"
     ],
     "schema": {
@@ -15,6 +15,13 @@
                 ],
                 "sectionNames": [
                     "Paragraph"
+                ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "petichta"
+                        ]
+                    }
                 ],
                 "titles": [
                     {
@@ -46,6 +53,7 @@
                     "Chapter",
                     "Midrash"
                 ],
+                "match_templates": [],
                 "default": true,
                 "title": "",
                 "heTitle": "",
@@ -56,31 +64,61 @@
                 "key": "default"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ruth",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "midrash",
+                    "ruth",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "midrash-rabbah",
+                    "ruth"
+                ]
+            }
+        ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Rut Rabbah"
+                "text": "Rut Rabbah",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Ruth Rabba"
+                "text": "Ruth Rabba",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Rut Rabba"
+                "text": "Rut Rabba",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Ruth R."
+                "text": "Ruth R.",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Ruth Rab."
+                "text": "Ruth Rab.",
+                "lang": "en"
             },
             {
-                "primary": true,
+                "text": "Rus Rabbah",
+                "lang": "en"
+            },
+            {
+                "text": "Rus Rabba",
+                "lang": "en"
+            },
+            {
+                "text": "רות רבה",
                 "lang": "he",
-                "text": "רות רבה"
+                "primary": true
             },
             {
                 "text": "Ruth Rabbah",
@@ -96,15 +134,20 @@
         7.0
     ],
     "authors": [],
-    "enDesc": "A classic book of midrash on the Book of Ruth. ",
-    "heDesc": "",
-    "pubDate": "",
-    "compDate": "400",
-    "compPlace": "",
-    "pubPlace": "",
-    "errorMargin": "200",
-    "era": "T",
+    "enDesc": "Ruth Rabbah, also known as Midrash Rut, is a sixth-century midrash on the Book of Ruth with verse-by-verse interpretations on most of the book, compiled in Israel. The commentary in the book is often introduced by a poem or series of poems. While the midrash expands upon the biblical story, it does not introduce new characters or supernatural events.",
+    "heDesc": "\"רות רבה\" הינו פרשנות אגדית ודרשנית למגילת רות אשר חובר בארץ ישראל. הספר מחולק לשמונה פרשיות, המתייחסות לכל הטקסט המקראי של המגילה, פסוק פסוק. כל פרשייה באה לאחר הקדמה ארוכה. המקורות העיקריים של המדרש הינם התלמוד הירושלמי ומדרשי בראשית רבה, ויקרא רבה ואיכה רבתי. בנוסף, נראה שכותב הספר התנגד לתלמוד הבבלי, אליו הוא מתייחס בזלזול. החיבור חובר קצת אחרי מדרש קהלת רבה, בין המאות ה-5 וה-9 לספירה.",
+    "enShortDesc": "6th-century midrash on the Book of Ruth with verse-by-verse interpretations on most of the book.",
+    "heShortDesc": "מדרש מן המאה השישית על ספר רות, ובו פירוש רצוף על המגילה.",
+    "pubDate": "1519",
+    "compDate": "825",
+    "compPlace": "Talmudic Israel/Babylon",
+    "pubPlace": "Istanbul",
+    "errorMargin": "125",
+    "era": "GN",
     "is_cited": true,
+    "corpora": [
+        "Midrash Rabbah"
+    ],
     "heTitle": "רות רבה",
     "titleVariants": [
         "Rut Rabbah",
@@ -112,6 +155,8 @@
         "Rut Rabba",
         "Ruth R.",
         "Ruth Rab.",
+        "Rus Rabbah",
+        "Rus Rabba",
         "Ruth Rabbah"
     ],
     "heTitleVariants": [
@@ -119,11 +164,15 @@
     ],
     "heCategories": [
         "מדרש",
-        "מדרש אגדה",
+        "אגדה",
         "מדרש רבה"
     ],
     "compDateString": {
-        "en": " (c.200  - c.600 CE)",
-        "he": " (200 - 600 לספירה בקירוב)"
+        "en": " (c.700  - c.950 CE)",
+        "he": " (700 - 950 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Talmudic Israel/Babylon",
+        "he": "ישראל / בבל התלמודית"
     }
 }

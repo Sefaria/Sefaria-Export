@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "kiddushin"
+                ]
+            }
+        ],
         "lengths": [
             4,
             47
@@ -33,11 +52,6 @@
                 "text": "M Kiddushin"
             },
             {
-                "lang": "he",
-                "text": "משנה קידושין",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Kidd."
             },
@@ -46,8 +60,13 @@
                 "text": "Mishnah Ḳiddushin"
             },
             {
-                "lang": "en",
+                "text": "משנה קידושין",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Kiddushin",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -64,7 +83,9 @@
         7
     ],
     "authors": [],
-    "enDesc": "Kiddushin (Documents) belongs to the third order, Nashim (Women) and discusses the initial stage of marriage – betrothal, as well as the laws of Jewish lineages. It has four chapters.",
+    "enDesc": "Kiddushin (“Betrothal”)  is the last tractate in Seder Nashim (“Order of Women,” which addresses family law). Its four chapters primarily discuss laws relating to betrothal. Also addressed are laws of acquisition, sending representatives to perform legal actions, lineage, and the prohibition of seclusion between a man and a woman not married to each other.",
+    "enShortDesc": "Betrothal, marriage, acquisitions, and lineage.",
+    "heShortDesc": "קידושין, נישואין, דיני קניין וענייני יוחסין.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה קידושין",
     "titleVariants": [
         "M. Kiddushin",

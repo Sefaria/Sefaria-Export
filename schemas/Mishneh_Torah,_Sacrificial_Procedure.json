@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "sacrificial-procedure"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "sacrificial-procedure"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "sacrificial-procedure"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "sacrificial-procedure"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "sacrificial-procedure"
+                ]
+            }
+        ],
         "lengths": [
-            19
+            19,
+            322
         ],
         "titles": [
             {
@@ -58,11 +93,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות מעשה הקרבנות",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות מעשה הקרבנות"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' מעשה הקרבנות"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות מעשה הקרבנות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות מעשה הקרבנות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' מעשה הקרבנות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' מעשה הקרבנות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות מעשה הקרבנות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות מעשה הקרבנות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' מעשה הקרבנות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' מעשה הקרבנות",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות מעשה הקרבנות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Sacrificial Procedure",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,9 +167,13 @@
         5
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The eighth book is Avodah (Divine Service): the laws of the Temple in Jerusalem. Hilchot Ma'aseh HaKorbanot: Laws of the sacrificial procedures.",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Sacrificial Procedure"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות מעשה הקרבנות",
         "רמב\"ם, הלכות מעשה הקרבנות",
         "משנה תורה, הל' מעשה הקרבנות",
         "רמב\"ם, הל' מעשה הקרבנות",
         "רמב\"ם הלכות מעשה הקרבנות",
-        "רמב\"ם הל' מעשה הקרבנות"
+        "רמב\"ם הל' מעשה הקרבנות",
+        "רמב״ם, הלכות מעשה הקרבנות",
+        "רמב”ם, הלכות מעשה הקרבנות",
+        "רמב״ם, הל' מעשה הקרבנות",
+        "רמב”ם, הל' מעשה הקרבנות",
+        "רמב״ם הלכות מעשה הקרבנות",
+        "רמב”ם הלכות מעשה הקרבנות",
+        "רמב״ם הל' מעשה הקרבנות",
+        "רמב”ם הל' מעשה הקרבנות",
+        "משנה תורה, הלכות מעשה הקרבנות"
     ],
     "sectionNames": [
         "Chapter",

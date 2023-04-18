@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "yevamot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "yevamot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yevamot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "yevamot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "yevamot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "yevamot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "yevamot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "yevamot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yevamot"
+                ]
+            }
+        ],
         "lengths": [
-            242,
-            11745
+            244,
+            3869
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -54,13 +118,13 @@
                 "text": "Yebamot"
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "יבמות"
-            },
-            {
                 "text": "BT Yevamot",
                 "lang": "en"
+            },
+            {
+                "text": "יבמות",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Yevamot",
@@ -81,12 +145,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         13,
         1
     ],
     "authors": [],
-    "enDesc": "Yevamot (Levirate marriage) belongs to the third order, Nashim (Women) and discusses the mandated marriage of a widow to her brother-in-law, deals with the Jewish law of levirate marriage (Deut. 25:5–10) and other topics, such as the status of minors. It has sixteen chapters.",
+    "enDesc": "Yevamot (the plural of the word used to refer to one’s childless brother’s widow) is the first tractate in Seder Nashim (“Order of Women,” which addresses family law). Its sixteen chapters discuss yibum, the Torah-mandated marriage of a widow to the brother of her childless husband as well as chalitzah, the alternative rite discharging that obligation, in which the widow takes off the shoe of her husband’s brother and spits on the floor. Included in the tractate are also sections on the laws of marriage, prohibitted sexual relations, and conversion.",
+    "enShortDesc": "The mandated marriage of a widow to the brother of her childless husband and the alternative rite discharging that obligation.",
+    "heShortDesc": "ייבום, חליצה ואיסורי עריות.",
     "pubDate": "1482",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -94,6 +163,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "יבמות",
     "titleVariants": [
         "Talmud Yevamot",
@@ -118,6 +190,33 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 2a:1-17a:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-143"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-143"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "primary": true,
@@ -178,6 +277,33 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 17a:11-26a:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-236"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-236"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "primary": true,
@@ -226,6 +352,33 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 26a:15-35a:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-334"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-334"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "primary": true,
@@ -274,6 +427,33 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 35b:1-50a:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-430"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-430"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "primary": true,
@@ -333,6 +513,33 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 50a:6-53b:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-526"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-526"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "primary": true,
@@ -370,6 +577,33 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 53b:8-66a:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-623"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-623"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "primary": true,
@@ -425,6 +659,33 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 66a:4-70a:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-721"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-721"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "primary": true,
@@ -463,6 +724,33 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 70a:12-84a:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-819"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-819"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "primary": true,
@@ -521,6 +809,33 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 84a:5-87b:8",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-918"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-918"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "primary": true,
@@ -558,6 +873,33 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 87b:9-97a:8",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-1012"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-1012"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
                     "titles": [
                         {
                             "primary": true,
@@ -607,6 +949,33 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 97a:9-101a:8",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-1114"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eleventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-1114"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eleventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 11,
                     "titles": [
                         {
                             "primary": true,
@@ -645,6 +1014,33 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 101a:9-106b:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-1211"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "twelfth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-1211"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "twelfth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 12,
                     "titles": [
                         {
                             "primary": true,
@@ -686,6 +1082,33 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 107a:1-112b:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-1310"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "thirteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-1310"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "thirteenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 13,
                     "titles": [
                         {
                             "primary": true,
@@ -727,6 +1150,33 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 112b:5-114b:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-144"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-144"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourteenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 14,
                     "titles": [
                         {
                             "primary": true,
@@ -761,6 +1211,33 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 114b:11-118b:19",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-152"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-152"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifteenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 15,
                     "titles": [
                         {
                             "primary": true,
@@ -799,6 +1276,44 @@
                     "depth": 1,
                     "wholeRef": "Yevamot 119a:1-122b:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-162"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-162"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 16,
                     "titles": [
                         {
                             "primary": true,
@@ -866,13 +1381,13 @@
                     "text": "Yebamot"
                 },
                 {
-                    "primary": true,
-                    "lang": "he",
-                    "text": "יבמות"
-                },
-                {
                     "text": "BT Yevamot",
                     "lang": "en"
+                },
+                {
+                    "text": "יבמות",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Yevamot",

@@ -2,11 +2,44 @@
     "title": "Chizkuni",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Chizkuni"
     ],
     "schema": {
         "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
             {
                 "nodeType": "JaggedArrayNode",
                 "depth": 3,
@@ -183,10 +216,19 @@
                 "key": "Deuteronomy"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chizkuni",
+                    "numbers"
+                ]
+            }
+        ],
         "titles": [
             {
-                "lang": "he",
                 "text": "חזקוני",
+                "lang": "he",
                 "primary": true
             },
             {
@@ -200,10 +242,16 @@
         "key": "Chizkuni"
     },
     "authors": [
-        "Chizkuni"
+        {
+            "en": "Chizkuni",
+            "he": "חזקוני",
+            "slug": "chizkuni1"
+        }
     ],
     "enDesc": "Commentary on the Torah of Rabbi Hezekiah ben Manoah. Chizkuni, composed in mid-13th century, is actually a compilation of insights culled from the Midrashim, as well as the writings of twenty other Rishonim, including Rashi, Rashbam and Ibn Ezra. However, Chizkuni does not name any of his sources (other than Rashi), in order to encourage objective study, as he felt that one should focus on the message rather than the messenger.",
-    "heDesc": "פירוש על התורה של ר' חזקיה בן מנוח. החזקוני הוא בעצם ליקוט ממדרשי חז\"ל ומדבריהם של כעשרים מגדולי הראשונים שקדמו להמחבר, כגון רש\"י, רשב\"ם, ואבן עזרא. הוא כותב בהקדמתו שהסיבה שהוא לא מזכיר בפירושיו את שמות המפרשים שממנו הוא ליקט (למעט רש\"י שהוא כן מזכיר), הוא כדי שהלומד יתמקד בהפירוש עצמו מבלי להתייחס יותר מדי לזהות מי שאמרו, כדי לעודד לימוד אובייקטיבי \"כי דברי חכמת חכמים המה יחד, אמת נתנו מרועה אחד\".  ",
+    "heDesc": "פירוש על התורה של ר' חזקיה בן מנוח. החזקוני הוא בעצם ליקוט ממדרשי חז\"ל ומדבריהם של כעשרים מגדולי הראשונים שקדמו להמחבר, כגון רש\"י, רשב\"ם, ואבן עזרא. הוא כותב בהקדמתו שהסיבה שהוא לא מזכיר בפירושיו את שמות המפרשים שממנו הוא ליקט (למעט רש\"י שהוא כן מזכיר), הוא כדי שהלומד יתמקד בהפירוש עצמו מבלי להתייחס יותר מדי לזהות מי שאמרו, כדי לעודד לימוד אובייקטיבי \"כי דברי חכמת חכמים המה יחד, אמת נתנו מרועה אחד\".",
+    "enShortDesc": "13th-century commentary presenting literal interpretations of the author’s predecessors and presenting new ideas.",
+    "heShortDesc": "פירוש מן המאה ה-13 המציג ביאורים של פרשנות פשט שקדמה לו לצד חידושים.",
     "pubDate": "1524",
     "compDate": "1240",
     "compPlace": "Middle-Age France",
@@ -248,7 +296,7 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "חזקוני"
     ],
     "compDateString": {

@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Rashba",
         "Seder Moed"
     ],
@@ -17,6 +17,27 @@
         "sectionNames": [
             "Daf",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rashba",
+                    "beitzah"
+                ]
+            }
+        ],
+        "lengths": [
+            80,
+            366
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,7 +60,11 @@
         "key": "Rashba on Beitzah"
     },
     "authors": [
-        "Rashba"
+        {
+            "en": "Rashba",
+            "he": "רשב\"א",
+            "slug": "rashba1"
+        }
     ],
     "enDesc": "Commentary on the Talmud written by the Rashba, Rabbi Shlomo ben Avraham ibn Aderet (1235–1310). Rashba was a student of Ramban and follows his methodology. Rashba’s commentary is characterized by the depth of analysis and his search for the pshat (contextual meaning) of the text. Rashba’s commentary includes definitive legal rulings.",
     "compDate": "1290",
@@ -73,7 +98,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "רשב\"א",
         "סדר מועד"
     ],

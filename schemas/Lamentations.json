@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "lamentations"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "lamentations"
+                ]
+            }
         ],
         "lengths": [
             5,
@@ -41,14 +54,18 @@
                 "lang": "en"
             },
             {
+                "text": "Lament.",
+                "lang": "en"
+            },
+            {
                 "text": "איכה",
-                "primary": true,
-                "lang": "he"
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Lamentations",
-                "primary": true,
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Lamentations",
@@ -63,13 +80,20 @@
         32,
         6
     ],
-    "enDesc": "Eikha (Book of Lamentations) is the third of the five Megillot (scrolls) of Ketuvim (Writings) the last section of the Tanakh (Bible). It is generally accepted that the destruction of Jerusalem by Babylon in 586 BCE forms the background to the poems.  The book is partly a traditional \"city lament\" mourning the desertion of the city by God, its destruction, and the ultimate return of the divinity, and partly a funeral dirge in which the bereaved bewails and addresses the dead. The tone is bleak: God does not speak, the degree of suffering is presented as undeserved, and expectations of future redemption are minimal. The book is traditionally recited on the fast day of Tisha Be-Av (Ninth of Av), mourning the destruction of both the First and Second Temples.",
+    "authors": [],
+    "enDesc": "The Book of Lamentations (“Eikhah”) is one of the five megillot (scrolls), part of the section of the Hebrew Bible called Writings. It laments the destruction of the First Temple in Jerusalem during the 6th century BCE, along with the exile of the tribe of Judah. Attributed in the Talmud to the prophet Jeremiah, the book poetically describes the suffering of Jerusalem and its former inhabitants and grapples with theological explanations for that suffering. It is read publicly on the fast of Tisha B’Av.",
+    "heDesc": "ספר איכה, אחד מקובץ חמש מגילות שבחטיבת הכתובים שבמקרא, הוא מגילת קינות על חורבן בית המקדש הראשון בירושלים ועל גלות שבט יהודה במהלך המאה השישית לפני הספירה. המגילה, המיוחסת בתלמוד הבבלי לירמיהו הנביא, מתארת בשירה נוגה את סבל העיר ותושביה ומתמודדת עם נימוקים והצדקות תאולוגיות לסבל זה. היא נקראת בציבור בתשעה באב.",
+    "enShortDesc": "Laments of Jerusalem’s destruction, grappling with theological explanations.",
+    "heShortDesc": "קינה על חורבן ירושלים והתמודדות עם נימוקים תאולוגיים לחורבן.",
     "pubDate": "1488",
     "compDate": "-550",
     "compPlace": "Judea/Israel",
     "pubPlace": "Soncino",
     "errorMargin": "50",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "איכה",
     "titleVariants": [
         "Lam",
@@ -77,6 +101,7 @@
         "Eichah",
         "Eicha",
         "Eikhah",
+        "Lament.",
         "Lamentations"
     ],
     "heTitleVariants": [

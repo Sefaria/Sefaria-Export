@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "joel"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "joel"
+                ]
+            }
         ],
         "lengths": [
             4,
@@ -21,12 +34,16 @@
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Yoel"
+                "text": "Yoel",
+                "lang": "en"
             },
             {
-                "lang": "he",
+                "text": "Joël",
+                "lang": "en"
+            },
+            {
                 "text": "יואל",
+                "lang": "he",
                 "primary": true
             },
             {
@@ -48,16 +65,23 @@
         11
     ],
     "authors": [],
-    "enDesc": "The Book of Joel is the second of the Tere Asar (Twelve MinorProphets). The term denotes the short length of the text in relation to the longer prophetic texts known as the Major Prophets. After a superscription ascribing the prophecy to Joel son of Pethuel, the book may be broken down into four sections. Lament over a great locust plague and a severe drought and the effects of these events on agriculture and farmers. A more apocalyptic passage compares the locusts to an army and reveals that they are God’s army. It closes with a call for national repentance in the face of God's judgment and a promise of future blessings.",
+    "enDesc": "Joel (“Yoel”) is the second of 12 books of Minor Prophets (“Trei Asar”), marked by their shortness. The prophet begins by describing the devastation wrought by a locust plague and calling for repentance, fasting and prayer. Joel describes God’s future response to Israel’s reform, promising abundance and prophecy for all. He also tells of a future “great and terrible day of God” when the “sun shall turn to darkness” (3:3-4) and Israel’s oppressors will be judged.",
+    "heDesc": "ספר יואל הוא השני בקובץ תרי עשר, הכולל ספרי נבואה קצרים. הספר פותח בתיאור ההרס שגרמה מכת ארבה ואבלם של יושבי הארץ. בתגובה קורא הנביא לחזרה בתשובה, צום ותפילה. בחלקו השני של הספר יש נבואה על \"יום ה' הגדול והנורא\", שבו יינקם ה' בעמים המשעבדים את ישראל וישפוך מרוחו על כל בני האדם, וכולם יתחילו להתנבא.",
+    "enShortDesc": "A locust plague, a call to repent, and a promise of judgement for Israel’s oppressors.",
+    "heShortDesc": "נבואה על מכת ארבה גדולה, קריאה לחזרה בתשובה והבטחה לדין עתידי שייעשה לצוררי ישראל.",
     "pubDate": "1488",
     "compDate": "-300",
     "compPlace": "Judea/Israel",
     "pubPlace": "Soncino",
     "errorMargin": "300",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "יואל",
     "titleVariants": [
         "Yoel",
+        "Joël",
         "Joel"
     ],
     "heTitleVariants": [

@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "scroll-of-esther-and-hanukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "scroll-of-esther-and-hanukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "scroll-of-esther-and-hanukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "scroll-of-esther-and-hanukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "scroll-of-esther-and-hanukkah"
+                ]
+            }
+        ],
         "lengths": [
-            4
+            4,
+            60
         ],
         "titles": [
             {
@@ -57,11 +92,6 @@
                 "text": "Mishneh Torah, Hilkhot Megillah vChanukah"
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "משנה תורה, הלכות מגילה וחנוכה"
-            },
-            {
                 "lang": "he",
                 "text": "רמב\"ם, הלכות מגילה וחנוכה"
             },
@@ -94,9 +124,46 @@
                 "text": "משנה תורה, הלכות מגילה"
             },
             {
-                "primary": true,
+                "text": "רמב״ם, הלכות מגילה וחנוכה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות מגילה וחנוכה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' מגילה וחנוכה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' מגילה וחנוכה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות מגילה וחנוכה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות מגילה וחנוכה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' מגילה וחנוכה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' מגילה וחנוכה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות מגילה וחנוכה",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "Mishneh Torah, Scroll of Esther and Hanukkah",
                 "lang": "en",
-                "text": "Mishneh Torah, Scroll of Esther and Hanukkah"
+                "primary": true
             }
         ],
         "title": "Mishneh Torah, Scroll of Esther and Hanukkah",
@@ -112,7 +179,11 @@
         10
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The third book is Zemanim (Times). Hanukah u-Megillah; laws of Hanukkah and Purim.",
     "pubDate": "1474",
@@ -136,7 +207,6 @@
         "Mishneh Torah, Scroll of Esther and Hanukkah"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות מגילה וחנוכה",
         "רמב\"ם, הלכות מגילה וחנוכה",
         "משנה תורה, הל' מגילה וחנוכה",
         "רמב\"ם, הל' מגילה וחנוכה",
@@ -144,7 +214,16 @@
         "רמב\"ם הל' מגילה וחנוכה",
         "משנה תורה, הלכות חנוכה ומגילה",
         "משנה תורה, הלכות חנוכה",
-        "משנה תורה, הלכות מגילה"
+        "משנה תורה, הלכות מגילה",
+        "רמב״ם, הלכות מגילה וחנוכה",
+        "רמב”ם, הלכות מגילה וחנוכה",
+        "רמב״ם, הל' מגילה וחנוכה",
+        "רמב”ם, הל' מגילה וחנוכה",
+        "רמב״ם הלכות מגילה וחנוכה",
+        "רמב”ם הלכות מגילה וחנוכה",
+        "רמב״ם הל' מגילה וחנוכה",
+        "רמב”ם הל' מגילה וחנוכה",
+        "משנה תורה, הלכות מגילה וחנוכה"
     ],
     "sectionNames": [
         "Chapter",

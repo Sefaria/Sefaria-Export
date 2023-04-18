@@ -2,7 +2,8 @@
     "title": "Chomat Anakh on Torah",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
+        "Chida",
         "Chomat Anakh"
     ],
     "schema": {
@@ -183,6 +184,15 @@
                 "key": "Deuteronomy"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chomat-anakh",
+                    "numbers"
+                ]
+            }
+        ],
         "titles": [
             {
                 "primary": true,
@@ -200,7 +210,11 @@
         "key": "Chomat Anakh on Torah"
     },
     "authors": [
-        "Hayyim Joseph David Azulay"
+        {
+            "en": "Hayyim Joseph David Azulay",
+            "he": "חיים דוד אזולאי",
+            "slug": "hayyim-joseph-david-azulay"
+        }
     ],
     "enDesc": "Commentary on the Tanakh written by Rabbi Hayyim Joseph David Azulay (Hida). The Hida was a prominent Sephardic rabbi. Born in Jerusalem, the Hida was sent to travel Europe as an emissary from the Land of Israel.",
     "heDesc": "פירוש על התנ\"ך להחיד\"א.",
@@ -232,6 +246,10 @@
             "he": "ספר דברים"
         }
     ],
+    "collective_title": {
+        "en": "Chomat Anakh",
+        "he": "חומת אנך"
+    },
     "heTitle": "חומת אנך על תורה",
     "titleVariants": [
         "Chomat Anakh on Torah"
@@ -241,7 +259,8 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
+        "חיד״א",
         "חומת אנך"
     ],
     "compDateString": {

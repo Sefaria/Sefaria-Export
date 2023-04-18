@@ -2,7 +2,7 @@
     "title": "Ramban on Deuteronomy",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Ramban",
         "Torah"
     ],
@@ -46,13 +46,18 @@
                 "depth": 3,
                 "addressTypes": [
                     "Perek",
-                    "Integer",
+                    "Pasuk",
                     "Integer"
                 ],
                 "sectionNames": [
                     "Chapter",
                     "Verse",
                     "Comment"
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
                 ],
                 "default": true,
                 "title": "",
@@ -63,6 +68,15 @@
                     "פירוש"
                 ],
                 "key": "default"
+            }
+        ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ramban",
+                    "deuteronomy"
+                ]
             }
         ],
         "titles": [
@@ -136,16 +150,40 @@
             },
             {
                 "lang": "he",
-                "text": "רמב\"ן על דברים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ן על דברי'"
             },
             {
                 "lang": "he",
                 "text": "רמב\"ן על דברי׳"
+            },
+            {
+                "text": "רמב״ן על דברים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ן על דברים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ן על דברי'",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ן על דברי'",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ן על דברי׳",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ן על דברי׳",
+                "lang": "he"
+            },
+            {
+                "text": "רמב\"ן על דברים",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Ramban on Deuteronomy",
@@ -158,7 +196,11 @@
         "key": "Ramban on Deuteronomy"
     },
     "authors": [
-        "Ramban"
+        {
+            "en": "Ramban",
+            "he": "רמב״ן",
+            "slug": "ramban"
+        }
     ],
     "enDesc": "Commentary by Rabbi Moses ben Nahman (1194–1270), commonly known as the Ramban. The Ramban lived in Spain until his move to Jerusalem toward the end of his life. His commentary reflects his love of Eretz Yisrael. He usually begins his comments with Rashi’s explanation and then expounds further with insights from Kabbalah and Oral Tradition. His comments include respectful criticism of Rashi, Ibn Ezra and Rambam.",
     "pubDate": "1480",
@@ -202,13 +244,19 @@
         "Ramban on Deuteronomy"
     ],
     "heTitleVariants": [
-        "רמב\"ן על דברים",
         "רמב\"ן על דברי'",
-        "רמב\"ן על דברי׳"
+        "רמב\"ן על דברי׳",
+        "רמב״ן על דברים",
+        "רמב”ן על דברים",
+        "רמב״ן על דברי'",
+        "רמב”ן על דברי'",
+        "רמב״ן על דברי׳",
+        "רמב”ן על דברי׳",
+        "רמב\"ן על דברים"
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "רמב\"ן",
         "תורה"
     ],

@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "kilayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kilayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "kilayim"
+                ]
+            }
+        ],
         "lengths": [
             9,
             77
@@ -38,11 +57,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה כלאים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "כלאים"
             },
             {
@@ -52,6 +66,11 @@
             {
                 "lang": "en",
                 "text": "Mishnah Kil."
+            },
+            {
+                "text": "משנה כלאים",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Mishnah Kilayim",
@@ -72,7 +91,9 @@
         4
     ],
     "authors": [],
-    "enDesc": "Kilayim (Of Two Sorts) belongs to the first order, Zera'im (seeds) and discusses rules regarding forbidden mixtures in agriculture, clothing and breeding, as stated in Leviticus 19:19; Deuteronomy 22:9-11. It consists of nine chapters.",
+    "enDesc": "Kilayim (“Mixtures”) is a tractate in Seder Zeraim (“Order of Seeds”) that discusses biblical prohibitions of mixed species, based in Leviticus 19:19 and Deuteronomy 22:9-11. These include planting certain mixtures of seeds, grafting different species of trees, growing plants other than grapevines in a vineyard, crossbreeding animals, working certain animals together, and mixing wool and linen in clothing.",
+    "enShortDesc": "Prohibited mixtures of certain seeds, plants, animals, or materials of clothing.",
+    "heShortDesc": "האיסור להכליא זה בזה זרעים, צמחים או בעלי חיים מסוימים ולערב צמר ופשתן בבגד אחד.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -80,6 +101,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה כלאים",
     "titleVariants": [
         "M. Kilayim",
@@ -91,8 +115,8 @@
         "Mishnah Kilayim"
     ],
     "heTitleVariants": [
-        "משנה כלאים",
-        "כלאים"
+        "כלאים",
+        "משנה כלאים"
     ],
     "sectionNames": [
         "Chapter",

@@ -2,8 +2,9 @@
     "title": "Biur Halacha",
     "categories": [
         "Halakhah",
+        "Shulchan Arukh",
         "Commentary",
-        "Shulchan Arukh"
+        "Mishnah Berurah"
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
@@ -45,9 +46,21 @@
                 "lang": "en"
             },
             {
+                "text": "BHL",
+                "lang": "en"
+            },
+            {
                 "text": "ביאור הלכה",
                 "lang": "he",
                 "primary": true
+            },
+            {
+                "text": "באו\"ה",
+                "lang": "he"
+            },
+            {
+                "text": "באו״ה",
+                "lang": "he"
             },
             {
                 "text": "Biur Halacha",
@@ -66,9 +79,13 @@
     },
     "default_struct": "Topic",
     "authors": [
-        "Israel Meir Kagan"
+        {
+            "en": "Israel Meir Kagan",
+            "he": "רבי ישראל מאיר הכהן",
+            "slug": "israel-meir-kagan"
+        }
     ],
-    "enDesc": "R' Israel Meir Kagan's (\"Hafetz Chaim\") Biur Halacha - \"Explanation of the Law\" - is a commentary tangential to the Mishnah Berurah, providing complex analysis of the legal rulings of earlier halachic authorities",
+    "enDesc": "R' Israel Meir Kagan's (\"Chafetz Chaim\") Biur Halakhah - \"Explanation of the Law\" - is a commentary tangential to the Mishnah Berurah, providing complex analysis of the legal rulings of earlier halachic authorities",
     "pubDate": "1884-1907",
     "compDate": "1890",
     "compPlace": "Radun",
@@ -79,7 +96,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Orach_Chayim",
-            "he": "אורח חיים"
+            "he": "שולחן ערוך, אורח חיים"
         }
     ],
     "base_text_mapping": "commentary_increment_base_text_depth",
@@ -91,10 +108,13 @@
         "Beur Halakha",
         "Bi'ur Halacha",
         "Biur Halakha",
+        "BHL",
         "Biur Halacha"
     ],
     "heTitleVariants": [
-        "ביאור הלכה"
+        "ביאור הלכה",
+        "באו\"ה",
+        "באו״ה"
     ],
     "alts": {
         "Topic": {
@@ -1664,9 +1684,21 @@
                     "lang": "en"
                 },
                 {
+                    "text": "BHL",
+                    "lang": "en"
+                },
+                {
                     "text": "ביאור הלכה",
                     "lang": "he",
                     "primary": true
+                },
+                {
+                    "text": "באו\"ה",
+                    "lang": "he"
+                },
+                {
+                    "text": "באו״ה",
+                    "lang": "he"
                 },
                 {
                     "text": "Biur Halacha",
@@ -1686,8 +1718,9 @@
     "depth": 3,
     "heCategories": [
         "הלכה",
+        "שולחן ערוך",
         "מפרשים",
-        "שולחן ערוך"
+        "משנה ברורה"
     ],
     "compDateString": {
         "en": " (c.1875  - c.1905 CE)",

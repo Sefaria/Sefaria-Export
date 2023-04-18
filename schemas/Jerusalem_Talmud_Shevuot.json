@@ -7,56 +7,100 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "shevuot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "shevuot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "shevuot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "shevuot"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "shevuot"
+            ]
+        },
         "lengths": [
-            88,
-            194
+            8,
+            58,
+            291
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Shevuot"
-            },
-            {
-                "lang": "en",
-                "text": "JT Shvuot"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Shevuos"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Shvuot"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Shevuot"
-            },
-            {
-                "lang": "en",
-                "text": "JT Shevuot"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי שבועות",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי שבועות"
+                "text": "Talmud Yerushalmi Shevuot",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Shebu."
+                "text": "JT Shvuot",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Shevuos",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Shvuot",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Shevuot",
+                "lang": "en"
+            },
+            {
+                "text": "JT Shevuot",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי שבועות",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Shebu.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Shevuot",
@@ -67,23 +111,27 @@
         "title": "Jerusalem Talmud Shevuot",
         "heTitle": "תלמוד ירושלמי שבועות",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Shevuot"
     },
     "order": [
         35
     ],
-    "authors": [],
-    "enDesc": "Shevuot (Oaths) belongs to the fourth order, Nezikin (The Order of Damages) and discusses various types of oaths and their consequences. It has eight chapters.",
+    "enDesc": "Tractate Shevuot (“Oaths”) is a tractate in Seder Nezikin (“Order of Damages\"). Its first two chapters discuss the sacrifices brought to atone for entering the Temple or eating from a sacrifice while impure. The remaining six chapters discuss different types of oaths, like those taken by litigants in court or a false promise made by an individual.",
+    "enShortDesc": "Oaths and the process of atoning for entering the Temple or eating from a sacrifice while impure.",
+    "heShortDesc": "דיני הנכנס לבית המקדש או אוכל בשר קורבן בהיותו טמא, דיני שבועות.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי שבועות",
     "titleVariants": [
         "Talmud Yerushalmi Shevuot",
@@ -99,11 +147,720 @@
         "תלמוד ירושלמי שבועות",
         "ירושלמי שבועות"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 1:1:2-7:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 1:1:2-3",
+                        "Jerusalem Talmud Shevuot 1:1:3-2:4",
+                        "Jerusalem Talmud Shevuot 1:2:4-4:5",
+                        "Jerusalem Talmud Shevuot 1:4:5-6:9",
+                        "Jerusalem Talmud Shevuot 1:6:9-7:3"
+                    ],
+                    "startingAddress": "32c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שבועות שתים קמא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "שבועות שתים קמא",
+                    "offset": 126
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 2:1:1-5:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 2:1:1-2",
+                        "Jerusalem Talmud Shevuot 2:1:2-2:3",
+                        "Jerusalem Talmud Shevuot 2:2:3-5:2"
+                    ],
+                    "startingAddress": "33c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "ידיעות הטומאה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "ידיעות הטומאה",
+                    "offset": 130
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 3:1:1-10:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 3:1:1-2",
+                        "Jerusalem Talmud Shevuot 3:1:2-2:5",
+                        "Jerusalem Talmud Shevuot 3:2:5-6:2",
+                        "Jerusalem Talmud Shevuot 3:6:2-9:2",
+                        "Jerusalem Talmud Shevuot 3:9:2-10:3"
+                    ],
+                    "startingAddress": "34a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שבועות שתים בתרא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "שבועות שתים בתרא",
+                    "offset": 132
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 4:1:1-10:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 4:1:1-2",
+                        "Jerusalem Talmud Shevuot 4:1:2-20",
+                        "Jerusalem Talmud Shevuot 4:1:20-4:2",
+                        "Jerusalem Talmud Shevuot 4:4:2-10:5"
+                    ],
+                    "startingAddress": "35a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שבועת העדות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "שבועת העדות",
+                    "offset": 136
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 5:1:1-6:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 5:1:1-2",
+                        "Jerusalem Talmud Shevuot 5:1:2-2:2",
+                        "Jerusalem Talmud Shevuot 5:2:2-4:4",
+                        "Jerusalem Talmud Shevuot 5:4:4-6:3"
+                    ],
+                    "startingAddress": "35d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שבועת הפקדון",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "שבועת הפקדון",
+                    "offset": 139
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 6:1:1-8:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 6:1:1-2",
+                        "Jerusalem Talmud Shevuot 6:1:2-2:3",
+                        "Jerusalem Talmud Shevuot 6:2:3-5:3",
+                        "Jerusalem Talmud Shevuot 6:5:3-8:4"
+                    ],
+                    "startingAddress": "36c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שבועת הדיינין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "שבועת הדיינין",
+                    "offset": 142
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 7:1:1-8:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 7:1:1-2",
+                        "Jerusalem Talmud Shevuot 7:1:2-5",
+                        "Jerusalem Talmud Shevuot 7:1:5-4:6",
+                        "Jerusalem Talmud Shevuot 7:4:6-8:3"
+                    ],
+                    "startingAddress": "37b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל הנשבעין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "כל הנשבעין",
+                    "offset": 145
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 8:1:1-4:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 8:1:1-2",
+                        "Jerusalem Talmud Shevuot 8:1:2-7",
+                        "Jerusalem Talmud Shevuot 8:1:7-2:2",
+                        "Jerusalem Talmud Shevuot 8:2:2-4:2"
+                    ],
+                    "startingAddress": "38a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "ארבעה שומרין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "ארבעה שומרין",
+                    "offset": 148
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי שבועות",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Talmud Yerushalmi Shevuot",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Shvuot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Shevuos",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Shvuot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Shevuot",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Shevuot",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי שבועות",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Shebu.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Shevuot",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Shevuot",
+            "heTitle": "תלמוד ירושלמי שבועות"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 1:1:1-7:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 1:1:1-2",
+                        "Jerusalem Talmud Shevuot 1:1:2-3",
+                        "Jerusalem Talmud Shevuot 1:1:3-5",
+                        "Jerusalem Talmud Shevuot 1:1:5",
+                        "Jerusalem Talmud Shevuot 1:1:5-2:1",
+                        "Jerusalem Talmud Shevuot 1:2:1-3",
+                        "Jerusalem Talmud Shevuot 1:2:3-7",
+                        "Jerusalem Talmud Shevuot 1:2:7-3:2",
+                        "Jerusalem Talmud Shevuot 1:3:2-4:2",
+                        "Jerusalem Talmud Shevuot 1:4:2-3",
+                        "Jerusalem Talmud Shevuot 1:4:3-5",
+                        "Jerusalem Talmud Shevuot 1:4:5-6:3",
+                        "Jerusalem Talmud Shevuot 1:6:3-8",
+                        "Jerusalem Talmud Shevuot 1:6:8-7:2",
+                        "Jerusalem Talmud Shevuot 1:7:2-3"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שבועות שתים קמא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "שבועות שתים קמא",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 2:1:1-5:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 2:1:1-4",
+                        "Jerusalem Talmud Shevuot 2:1:4-7",
+                        "Jerusalem Talmud Shevuot 2:1:7-9",
+                        "Jerusalem Talmud Shevuot 2:1:9-11",
+                        "Jerusalem Talmud Shevuot 2:1:11-3:2",
+                        "Jerusalem Talmud Shevuot 2:3:2-5:1",
+                        "Jerusalem Talmud Shevuot 2:5:1-2"
+                    ],
+                    "startingAddress": "8b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "ידיעות הטומאה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "ידיעות הטומאה",
+                    "offset": 15
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 3:1:1-10:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 3:1:1-2",
+                        "Jerusalem Talmud Shevuot 3:1:2-3",
+                        "Jerusalem Talmud Shevuot 3:1:3-2:2",
+                        "Jerusalem Talmud Shevuot 3:2:2-3:2",
+                        "Jerusalem Talmud Shevuot 3:3:2-4:2",
+                        "Jerusalem Talmud Shevuot 3:4:2-4",
+                        "Jerusalem Talmud Shevuot 3:4:4-8",
+                        "Jerusalem Talmud Shevuot 3:4:8-5:2",
+                        "Jerusalem Talmud Shevuot 3:5:2-3",
+                        "Jerusalem Talmud Shevuot 3:5:3-7:2",
+                        "Jerusalem Talmud Shevuot 3:7:2-7",
+                        "Jerusalem Talmud Shevuot 3:7:7-8:4",
+                        "Jerusalem Talmud Shevuot 3:8:4-9",
+                        "Jerusalem Talmud Shevuot 3:8:9-9:5",
+                        "Jerusalem Talmud Shevuot 3:9:5-10:3",
+                        "Jerusalem Talmud Shevuot 3:10:3"
+                    ],
+                    "startingAddress": "11b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שבועות שתים בתרא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "שבועות שתים בתרא",
+                    "offset": 21
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 4:1:1-10:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 4:1:1-20",
+                        "Jerusalem Talmud Shevuot 4:1:20-2:3",
+                        "Jerusalem Talmud Shevuot 4:2:3-3:1",
+                        "Jerusalem Talmud Shevuot 4:3:1-4",
+                        "Jerusalem Talmud Shevuot 4:3:4-5:2",
+                        "Jerusalem Talmud Shevuot 4:5:2-7:1",
+                        "Jerusalem Talmud Shevuot 4:7:1-9:2",
+                        "Jerusalem Talmud Shevuot 4:9:2-10:5",
+                        "Jerusalem Talmud Shevuot 4:10:5"
+                    ],
+                    "startingAddress": "19a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שבועת העדות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "שבועת העדות",
+                    "offset": 36
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 5:1:1-6:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 5:1:1-2",
+                        "Jerusalem Talmud Shevuot 5:1:2-4",
+                        "Jerusalem Talmud Shevuot 5:1:4-2:4",
+                        "Jerusalem Talmud Shevuot 5:2:4-3:4",
+                        "Jerusalem Talmud Shevuot 5:3:4-4:2",
+                        "Jerusalem Talmud Shevuot 5:4:2-4",
+                        "Jerusalem Talmud Shevuot 5:4:4",
+                        "Jerusalem Talmud Shevuot 5:4:4-5:1",
+                        "Jerusalem Talmud Shevuot 5:5:1-6:1",
+                        "Jerusalem Talmud Shevuot 5:6:1-3"
+                    ],
+                    "startingAddress": "23a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שבועת הפקדון",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "שבועת הפקדון",
+                    "offset": 44
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 6:1:1-8:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 6:1:1-2",
+                        "Jerusalem Talmud Shevuot 6:1:2-4",
+                        "Jerusalem Talmud Shevuot 6:1:4-7",
+                        "Jerusalem Talmud Shevuot 6:1:7-2:4",
+                        "Jerusalem Talmud Shevuot 6:2:4-3:2",
+                        "Jerusalem Talmud Shevuot 6:3:2-4:2",
+                        "Jerusalem Talmud Shevuot 6:4:2-5:1",
+                        "Jerusalem Talmud Shevuot 6:5:1-3",
+                        "Jerusalem Talmud Shevuot 6:5:3-6:3",
+                        "Jerusalem Talmud Shevuot 6:6:3-7:2",
+                        "Jerusalem Talmud Shevuot 6:7:2-8:4",
+                        "Jerusalem Talmud Shevuot 6:8:4"
+                    ],
+                    "startingAddress": "27b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שבועת הדיינין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "שבועת הדיינין",
+                    "offset": 53
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 7:1:1-8:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 7:1:1-3",
+                        "Jerusalem Talmud Shevuot 7:1:3-4",
+                        "Jerusalem Talmud Shevuot 7:1:4-6",
+                        "Jerusalem Talmud Shevuot 7:1:6-8",
+                        "Jerusalem Talmud Shevuot 7:1:8-2:4",
+                        "Jerusalem Talmud Shevuot 7:2:4-4:2",
+                        "Jerusalem Talmud Shevuot 7:4:2-5:4",
+                        "Jerusalem Talmud Shevuot 7:5:4-6:2",
+                        "Jerusalem Talmud Shevuot 7:6:2-7:2",
+                        "Jerusalem Talmud Shevuot 7:7:2-4",
+                        "Jerusalem Talmud Shevuot 7:7:4-9",
+                        "Jerusalem Talmud Shevuot 7:7:9-8:3",
+                        "Jerusalem Talmud Shevuot 7:8:3"
+                    ],
+                    "startingAddress": "33b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל הנשבעין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "כל הנשבעין",
+                    "offset": 65
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Shevuot 8:1:1-4:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Shevuot 8:1:1-2",
+                        "Jerusalem Talmud Shevuot 8:1:2-5",
+                        "Jerusalem Talmud Shevuot 8:1:5-9",
+                        "Jerusalem Talmud Shevuot 8:1:9",
+                        "Jerusalem Talmud Shevuot 8:1:9-12",
+                        "Jerusalem Talmud Shevuot 8:1:12-2:3",
+                        "Jerusalem Talmud Shevuot 8:2:3-3:2",
+                        "Jerusalem Talmud Shevuot 8:3:2-4",
+                        "Jerusalem Talmud Shevuot 8:3:4-5",
+                        "Jerusalem Talmud Shevuot 8:3:5-6",
+                        "Jerusalem Talmud Shevuot 8:3:6-4:2"
+                    ],
+                    "startingAddress": "39b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "ארבעה שומרין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "ארבעה שומרין",
+                    "offset": 77
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי שבועות",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Talmud Yerushalmi Shevuot",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Shvuot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Shevuos",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Shvuot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Shevuot",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Shevuot",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי שבועות",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Shebu.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Shevuot",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Shevuot",
+            "heTitle": "תלמוד ירושלמי שבועות"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

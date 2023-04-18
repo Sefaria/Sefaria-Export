@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "ii-samuel"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ii-samuel"
+                ]
+            }
         ],
         "lengths": [
             24,
@@ -86,11 +99,6 @@
             },
             {
                 "lang": "he",
-                "text": "שמואל ב",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "ש״ב"
             },
             {
@@ -118,8 +126,21 @@
                 "text": "שמואל־ב"
             },
             {
-                "lang": "en",
+                "text": "ש”ב",
+                "lang": "he"
+            },
+            {
+                "text": "שמ”ב",
+                "lang": "he"
+            },
+            {
+                "text": "שמואל ב",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "II Samuel",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -135,13 +156,20 @@
         9,
         4
     ],
-    "enDesc": "The third of the four books making up the Neviim Rishonim (Early Prophets) - Shemuel (Samuel) is divided into two parts and chronicles the birth of Samuel and God’s call to him as a boy. Samuel begins with the Prophet's birth and God's call to him as a boy. The story of the Ark of the Covenant that follows tells of Israel's oppression by the Philistines and their capturing of the Ark of the Covenant. Samuel appeals to God and the Philistines are decisively beaten. As Samuel grows old the people clamour for a King. Reluctantly Samuel appoints Saul from the tribe of Benjamin as King. Saul defeats the enemies of the Israelites, but sins against God. Samuel is then commanded to anoint David as King. Saul’s son and heir Jonathan befriends David but jealous, Saul plots David's death. David flees into the wilderness, where joins the Philistines, but continues secretly to champion his own people, until Saul and Jonathan are killed in battle. At this point, David offers a majestic eulogy, where he praises the bravery and magnificence of both his friend Jonathan and King Saul. David defeats Israel’s enemies, captures Jerusalem and brings the Ark to there. David wishes to build a temple, but Nathan tells him that one of David's sons will build the temple. David also commits adultery with Bathsheba and plots the death of her husband; for this God sends disasters against his house. For the remainder of his reign there are problems: one of his sons rapes one of his daughters, another son kills the first, his favourite son rebels and is killed, until finally only two contenders for the succession remain, one of them Bathsheba's son Solomon.",
+    "authors": [],
+    "enDesc": "Samuel II (“Shmuel Bet”) is the second part of the third book of the Prophets. It begins as David hears about the deaths of Saul and his son, Jonathan. David is anointed king, first by the tribe of Judah and ultimately by all of Israel. He establishes a capital in Jerusalem and leads the nation to military victories, but his success is tempered when he sleeps with a woman named Batsheva. This sets off a series of divine punishments, including the death of the child born to Batsheva and a rebellion led by David’s son Absalom.",
+    "heDesc": "שמואל ב הוא חלקו השני של ספר שמואל, השלישי בספרי הנביאים. הספר פותח במותם של שאול ויהונתן בנו בגלבוע ובהכתרת דוד למלך, ראשית על ידי שבט יהודה ובהמשך על ידי יתר שבטי ישראל. דוד הופך את ירושלים לבירת ממלכתו ומוביל את בני ישראל בשורה של ניצחונות. דוד שוכב עם בת שבע בשעה שהעם מצוי בעיצומה של מלחמה, ונתן הנביא אינו חוסך ממנו את שבט ביקורתו. מכאן ואילך מתרחשת שרשרת עונשים: מות בנה של בת שבע, אונס תמר, רצח אמנון, ומרד אבשלום.",
+    "enShortDesc": "King David’s triumphs and challenges as he establishes a united kingdom with Jerusalem as its capital.",
+    "heShortDesc": "ניצחונותיו ואתגריו של דוד המלך, כינון הממלכה המאוחדת בישראל וייסוד עיר הבירה ירושלים.",
     "pubDate": "1488",
     "compDate": "-750",
     "compPlace": "Judea/Israel",
     "pubPlace": "Soncino",
     "errorMargin": "250",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "שמואל ב",
     "titleVariants": [
         "2Sam",
@@ -163,14 +191,16 @@
         "II Samuel"
     ],
     "heTitleVariants": [
-        "שמואל ב",
         "ש״ב",
         "ש\"ב",
         "שמואל ב׳",
         "שמואל ב'",
         "שמ\"ב",
         "שמ״ב",
-        "שמואל־ב"
+        "שמואל־ב",
+        "ש”ב",
+        "שמ”ב",
+        "שמואל ב"
     ],
     "sectionNames": [
         "Chapter",

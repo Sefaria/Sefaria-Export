@@ -2,7 +2,7 @@
     "title": "Rashi on I Kings",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Rashi",
         "Prophets"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rashi",
+                    "i-kings"
+                ]
+            }
+        ],
+        "lengths": [
+            22,
+            371,
+            631
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -50,11 +68,6 @@
             },
             {
                 "lang": "he",
-                "text": "רש\"י על מלכים א",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רש\"י על מ״א"
             },
             {
@@ -68,6 +81,43 @@
             {
                 "lang": "he",
                 "text": "רש\"י על מלכים א'"
+            },
+            {
+                "text": "רש״י על מלכים א",
+                "lang": "he"
+            },
+            {
+                "text": "רש”י על מלכים א",
+                "lang": "he"
+            },
+            {
+                "text": "רש״י על מ״א",
+                "lang": "he"
+            },
+            {
+                "text": "רש”י על מ”א",
+                "lang": "he"
+            },
+            {
+                "text": "רש״י על מלכים א׳",
+                "lang": "he"
+            },
+            {
+                "text": "רש”י על מלכים א׳",
+                "lang": "he"
+            },
+            {
+                "text": "רש״י על מלכים א'",
+                "lang": "he"
+            },
+            {
+                "text": "רש”י על מלכים א'",
+                "lang": "he"
+            },
+            {
+                "text": "רש\"י על מלכים א",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Rashi on I Kings",
@@ -85,9 +135,13 @@
         "key": "Rashi on I Kings"
     },
     "authors": [
-        "Rashi"
+        {
+            "en": "Rashi",
+            "he": "רש״י",
+            "slug": "rashi"
+        }
     ],
-    "enDesc": "Commentary on the Tanakh written by Rabbi Shlomo Yitzchaki (Rashi). Rashi lived in Troyes, France (1040-1105). Rashi’s commentary is an essential explanation of the Tanakh and resides in a place of honor on the page of almost all editions of the Tanakh. Over 300 supercommentaries have been written to further explain Rashi’s comments on the Torah. While quoting many midrashim and Talmudic passages, Rashi, in his commentary, states that his purpose is to present the pshat (contextual meaning) of the text. ",
+    "enDesc": "Commentary on the Tanakh written by Rabbi Shlomo Yitzchaki (Rashi). Rashi lived in Troyes, France (1040-1105). Rashi’s commentary is an essential explanation of the Tanakh and resides in a place of honor on the page of almost all editions of the Tanakh. Over 300 supercommentaries have been written to further explain Rashi’s comments on the Torah. While quoting many midrashim and Talmudic passages, Rashi, in his commentary, states that his purpose is to present the pshat (contextual meaning) of the text.",
     "pubDate": "1476",
     "compDate": "1090",
     "compPlace": "Middle-Age France",
@@ -119,11 +173,19 @@
         "Rashi on I Kings"
     ],
     "heTitleVariants": [
-        "רש\"י על מלכים א",
         "רש\"י על מ״א",
         "רש\"י על מ\"א",
         "רש\"י על מלכים א׳",
-        "רש\"י על מלכים א'"
+        "רש\"י על מלכים א'",
+        "רש״י על מלכים א",
+        "רש”י על מלכים א",
+        "רש״י על מ״א",
+        "רש”י על מ”א",
+        "רש״י על מלכים א׳",
+        "רש”י על מלכים א׳",
+        "רש״י על מלכים א'",
+        "רש”י על מלכים א'",
+        "רש\"י על מלכים א"
     ],
     "sectionNames": [
         "Chapter",
@@ -133,7 +195,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "רש\"י",
         "נביאים"
     ],

@@ -1,7 +1,8 @@
 {
     "title": "Tractate Mezuzah",
     "categories": [
-        "Tanaitic",
+        "Talmud",
+        "Bavli",
         "Minor Tractates"
     ],
     "schema": {
@@ -14,6 +15,23 @@
         "sectionNames": [
             "Chapter",
             "Halakhah"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mezuzah2"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "mezuzah2"
+                ]
+            }
+        ],
+        "lengths": [
+            2,
+            23
         ],
         "titles": [
             {
@@ -36,7 +54,9 @@
         "key": "Tractate Mezuzah"
     },
     "authors": [],
-    "enDesc": "The minor tractates (Masekhtot Ketanot) are essays from the Tannaitic period or later dealing with topics about which no formal tractate exists in the Mishnah. The first eight or so contain much original material; the last seven or so are collections of material scattered throughout the Talmud. Soferim (Scribes). This tractate deals with issues relating to a mezuzah.",
+    "enDesc": "Tractate Mezuzah is one of seven small tractates that addresses topics for which there is no specific tractate in the Mishnah or Talmud. These tractates are written in the terse style of the Mishnah and are likely from the time period of the Mishnah or early Talmud, but their dating and places of composition are subject to debate. Mezuzah discusses the laws of writing and hanging the mezuzah, a scroll of parchment with the Shema on it.",
+    "enShortDesc": "Writing the mezuzah, a scroll of parchment containing the Shema, and hanging it on the doorpost.",
+    "heShortDesc": "כתיבת פרשיות קריאת שמע על מגילת קלף וקביעת המגילה על מזוזת הדלת.",
     "compDate": "400",
     "compPlace": "Talmudic Israel/Babylon",
     "errorMargin": "500",
@@ -54,7 +74,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
+        "תלמוד",
+        "בבלי",
         "מסכתות קטנות"
     ],
     "compDateString": {

@@ -61,6 +61,15 @@
                 "key": "S'fek S'feka Summary"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "siftei-kohen",
+                    "yoreh-deah"
+                ]
+            }
+        ],
         "titles": [
             {
                 "text": "Siftei Cohen on Yoreh De'ah",
@@ -150,7 +159,11 @@
         "key": "Siftei Kohen on Shulchan Arukh, Yoreh De'ah"
     },
     "authors": [
-        "Shabbatai ben Meir Hakohen"
+        {
+            "en": "Shabbatai ben Meir Hakohen",
+            "he": "שבתי בן מאיר הכהן",
+            "slug": "shabbatai-ben-meir-hakohen"
+        }
     ],
     "enDesc": "One of the standard and highly regarded commentaries on Shulchan Arukh Yoreh Deah. The author began writing this work at the age of eighteen and completed it six years later.",
     "heDesc": "אחד מנושאי הכלים העקריים והסמכותיים על שלחן ערוך יורה דעה. המחבר התחיל החיבור בגיל 18 וגמרו בהיותו בן 24.",
@@ -164,7 +177,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Yoreh De'ah",
-            "he": "יורה דעה"
+            "he": "שולחן ערוך, יורה דעה"
         }
     ],
     "collective_title": {

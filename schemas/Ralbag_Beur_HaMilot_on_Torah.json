@@ -2,7 +2,7 @@
     "title": "Ralbag Beur HaMilot on Torah",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Ralbag Beur HaMilot",
         "Torah"
     ],
@@ -184,6 +184,15 @@
                 "key": "Deuteronomy"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ralbag-beur-hamilot",
+                    "numbers"
+                ]
+            }
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -195,8 +204,8 @@
                 "text": "רלב\"ג ביאור המלות על תורה"
             },
             {
-                "lang": "en",
                 "text": "Ralbag Beur HaMilot on Torah",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -205,7 +214,11 @@
         "key": "Ralbag Beur HaMilot on Torah"
     },
     "authors": [
-        "Ralbag"
+        {
+            "en": "Ralbag",
+            "he": "רלב\"ג",
+            "slug": "ralbag"
+        }
     ],
     "enDesc": "Beur HaMilot ('Lexical Definitions') is one of three sections of Ralbag's commentary on the Torah.",
     "heDesc": "חלק 'באור המלות' מתוך פירוש רלב\"ג על התורה",
@@ -249,7 +262,7 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "רלב\"ג ביאור המלות",
         "תורה"
     ],

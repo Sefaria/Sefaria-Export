@@ -7,44 +7,88 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "sukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "sukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "sukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "sukkah"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "sukkah"
+            ]
+        },
         "lengths": [
-            52,
-            138
+            5,
+            49,
+            205
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "JT Sukkah"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Sukkah"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Sukkah"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי סוכה",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי סוכה"
+                "text": "JT Sukkah",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Succ."
+                "text": "Talmud Yerushalmi Sukkah",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Sukkah",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי סוכה",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Succ.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Sukkah",
@@ -55,23 +99,27 @@
         "title": "Jerusalem Talmud Sukkah",
         "heTitle": "תלמוד ירושלמי סוכה",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Sukkah"
     },
     "order": [
         17
     ],
-    "authors": [],
-    "enDesc": "Sukkah (Booths) belongs to the second order, Moed (Festivals) and discusses the festival of Sukkot (the Feast of Tabernacles) and the Sukkah itself. Also deals with the Four Species (Lulav, Etrog, Hadass, Aravah — Palm branch, Citron, Myrtle, Willow) which are waved on Sukkot. It has five chapters.",
+    "enDesc": "Tractate Sukkah is located in Seder Moed (“the Order of Festivals”) and discusses the holiday of Sukkot. It consists of five chapters; the first two chapters discuss the structure of and obligation to dwell in the sukkah. The remaining chapters discuss laws of the four species and the celebration of Sukkot in the Temple, describing ceremonies involving willow branches and water libations.",
+    "enShortDesc": "The structure of and obligation to dwell in the sukkah, the four species, and celebrating the holiday in the Temple.",
+    "heShortDesc": "מבנה הסוכה, החובה לשבת בסוכה, ארבעת המינים ושמחת החג בבית המקדש.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי סוכה",
     "titleVariants": [
         "JT Sukkah",
@@ -84,11 +132,468 @@
         "תלמוד ירושלמי סוכה",
         "ירושלמי סוכה"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sukkah 1:1:2-12:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sukkah 1:1:2",
+                        "Jerusalem Talmud Sukkah 1:1:2-7",
+                        "Jerusalem Talmud Sukkah 1:1:7-15",
+                        "Jerusalem Talmud Sukkah 1:1:15-7:2",
+                        "Jerusalem Talmud Sukkah 1:7:2-12:3"
+                    ],
+                    "startingAddress": "51c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "סוכה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "סוכה",
+                    "offset": 202
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sukkah 2:1:1-10:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sukkah 2:1:1-2",
+                        "Jerusalem Talmud Sukkah 2:1:2-4:4",
+                        "Jerusalem Talmud Sukkah 2:4:4-8:3",
+                        "Jerusalem Talmud Sukkah 2:8:3-10:3"
+                    ],
+                    "startingAddress": "52c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הישן",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "הישן",
+                    "offset": 206
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sukkah 3:1:1-12:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sukkah 3:1:1-2",
+                        "Jerusalem Talmud Sukkah 3:1:2-4:2",
+                        "Jerusalem Talmud Sukkah 3:4:2-10:2",
+                        "Jerusalem Talmud Sukkah 3:10:2-12:2"
+                    ],
+                    "startingAddress": "53b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "לולב הגזול",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "לולב הגזול",
+                    "offset": 209
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sukkah 4:1:1-7:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sukkah 4:1:1-2",
+                        "Jerusalem Talmud Sukkah 4:1:2-3:3",
+                        "Jerusalem Talmud Sukkah 4:3:3-6:4",
+                        "Jerusalem Talmud Sukkah 4:6:4-7:3"
+                    ],
+                    "startingAddress": "54a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "לולב וערבה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "לולב וערבה",
+                    "offset": 212
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sukkah 5:1:1-8:8",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sukkah 5:1:1-2",
+                        "Jerusalem Talmud Sukkah 5:1:2-4",
+                        "Jerusalem Talmud Sukkah 5:1:4-4:2",
+                        "Jerusalem Talmud Sukkah 5:4:2-6:4",
+                        "Jerusalem Talmud Sukkah 5:6:4-8:8"
+                    ],
+                    "startingAddress": "54d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "החליל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "החליל",
+                    "offset": 215
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי סוכה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Sukkah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Sukkah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Sukkah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי סוכה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Succ.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Sukkah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Sukkah",
+            "heTitle": "תלמוד ירושלמי סוכה"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sukkah 1:1:1-12:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sukkah 1:1:1-2",
+                        "Jerusalem Talmud Sukkah 1:1:2-4",
+                        "Jerusalem Talmud Sukkah 1:1:4-5",
+                        "Jerusalem Talmud Sukkah 1:1:5-7",
+                        "Jerusalem Talmud Sukkah 1:1:7-10",
+                        "Jerusalem Talmud Sukkah 1:1:10-14",
+                        "Jerusalem Talmud Sukkah 1:1:14-2:1",
+                        "Jerusalem Talmud Sukkah 1:2:1-3:2",
+                        "Jerusalem Talmud Sukkah 1:3:2-4:3",
+                        "Jerusalem Talmud Sukkah 1:4:3-5:4",
+                        "Jerusalem Talmud Sukkah 1:5:4-7:2",
+                        "Jerusalem Talmud Sukkah 1:7:2-8:2",
+                        "Jerusalem Talmud Sukkah 1:8:2-10:2",
+                        "Jerusalem Talmud Sukkah 1:10:2-12:1",
+                        "Jerusalem Talmud Sukkah 1:12:1-3"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "סוכה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "סוכה",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sukkah 2:1:1-10:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sukkah 2:1:1-2",
+                        "Jerusalem Talmud Sukkah 2:1:2-2:2",
+                        "Jerusalem Talmud Sukkah 2:2:2-4:2",
+                        "Jerusalem Talmud Sukkah 2:4:2-5",
+                        "Jerusalem Talmud Sukkah 2:4:5-5:6",
+                        "Jerusalem Talmud Sukkah 2:5:6-7:2",
+                        "Jerusalem Talmud Sukkah 2:7:2-8:3",
+                        "Jerusalem Talmud Sukkah 2:8:3-10:3",
+                        "Jerusalem Talmud Sukkah 2:10:3"
+                    ],
+                    "startingAddress": "8a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הישן",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "הישן",
+                    "offset": 14
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sukkah 3:1:1-12:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sukkah 3:1:1-4",
+                        "Jerusalem Talmud Sukkah 3:1:4-8",
+                        "Jerusalem Talmud Sukkah 3:1:8-3:2",
+                        "Jerusalem Talmud Sukkah 3:3:2-4:2",
+                        "Jerusalem Talmud Sukkah 3:4:2-3",
+                        "Jerusalem Talmud Sukkah 3:4:3-6:2",
+                        "Jerusalem Talmud Sukkah 3:6:2-7:2",
+                        "Jerusalem Talmud Sukkah 3:7:2-9:2",
+                        "Jerusalem Talmud Sukkah 3:9:2-10:4",
+                        "Jerusalem Talmud Sukkah 3:10:4-11:2",
+                        "Jerusalem Talmud Sukkah 3:11:2-12:1",
+                        "Jerusalem Talmud Sukkah 3:12:1-2"
+                    ],
+                    "startingAddress": "12a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "לולב הגזול",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "לולב הגזול",
+                    "offset": 22
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sukkah 4:1:1-7:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sukkah 4:1:1-2",
+                        "Jerusalem Talmud Sukkah 4:1:2-2:2",
+                        "Jerusalem Talmud Sukkah 4:2:2-3:4",
+                        "Jerusalem Talmud Sukkah 4:3:4-4:2",
+                        "Jerusalem Talmud Sukkah 4:4:2-5:4",
+                        "Jerusalem Talmud Sukkah 4:5:4-6:2",
+                        "Jerusalem Talmud Sukkah 4:6:2-5",
+                        "Jerusalem Talmud Sukkah 4:6:5-6",
+                        "Jerusalem Talmud Sukkah 4:6:6-7:2",
+                        "Jerusalem Talmud Sukkah 4:7:2-3"
+                    ],
+                    "startingAddress": "17b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "לולב וערבה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "לולב וערבה",
+                    "offset": 33
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sukkah 5:1:1-8:8",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sukkah 5:1:1-2",
+                        "Jerusalem Talmud Sukkah 5:1:2-3",
+                        "Jerusalem Talmud Sukkah 5:1:3-2:2",
+                        "Jerusalem Talmud Sukkah 5:2:2-3:4",
+                        "Jerusalem Talmud Sukkah 5:3:4-5:1",
+                        "Jerusalem Talmud Sukkah 5:5:1-6:2",
+                        "Jerusalem Talmud Sukkah 5:6:2-7:1",
+                        "Jerusalem Talmud Sukkah 5:7:1-8:1",
+                        "Jerusalem Talmud Sukkah 5:8:1-6",
+                        "Jerusalem Talmud Sukkah 5:8:6-8"
+                    ],
+                    "startingAddress": "22a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "החליל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "החליל",
+                    "offset": 42
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי סוכה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Sukkah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Sukkah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Sukkah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי סוכה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Succ.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Sukkah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Sukkah",
+            "heTitle": "תלמוד ירושלמי סוכה"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

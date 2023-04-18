@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushim-of-machaneh-ephraim",
+                    "hilchot",
+                    "first-fruits-and-other-gifts-to-priests-outside-the-sanctuary"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushim-of-machaneh-ephraim",
+                    "first-fruits-and-other-gifts-to-priests-outside-the-sanctuary"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            6,
+            6
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Chidushim of Machaneh Ephraim on Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Chidushim of Machaneh Ephraim on Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary",
@@ -42,7 +62,11 @@
         "key": "Chidushim of Machaneh Ephraim on Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary"
     },
     "authors": [
-        "Ephraim Navon"
+        {
+            "en": "Ephraim Navon",
+            "he": "אפרים נבון",
+            "slug": "ephraim-navon"
+        }
     ],
     "pubDate": "1738",
     "compDate": "1720",

@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "ii-kings"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ii-kings"
+                ]
+            }
         ],
         "lengths": [
             25,
@@ -61,9 +74,8 @@
                 "lang": "en"
             },
             {
-                "text": "מלכים ב",
-                "primary": true,
-                "lang": "he"
+                "text": "II Rois",
+                "lang": "en"
             },
             {
                 "text": "מלכים ב׳",
@@ -80,6 +92,19 @@
             {
                 "text": "מל״ב",
                 "lang": "he"
+            },
+            {
+                "text": "מל”ב",
+                "lang": "he"
+            },
+            {
+                "text": "מלכים-ב",
+                "lang": "he"
+            },
+            {
+                "text": "מלכים ב",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "II Kings",
@@ -100,13 +125,19 @@
         6
     ],
     "authors": [],
-    "enDesc": "The fourth book making up the Neviim Rishonim (Early Prophets) - Melakhim (Kings) is divided into two parts. It presents the history of ancient Israel and Judah from the death of David to the release of his successor Jeconiah from imprisonment in Babylon, a period of some 400 years. David dies and Solomon comes to the throne. At the beginning of his reign he assumes God's promises to David and brings splendour to Israel and peace and prosperity to his people. The centrepiece of Solomon's reign is the building of the First Temple. As a consequence of Solomon's failure to stamp out the worship of other gods, the kingdom of David is split in two. His son Rehoboam becomes ruler of the southern kingdom ofJudah. The northern tribes appoint Jeroboam as king of Israel. However these kings are uniformly bad leading God to bring the Assyrians to destroy and exile the northern tribes. The Kingdom of Judah endures with King Hezekiah instituting far reaching religious reform, centralising sacrifice at the temple in Jerusalem and destroying the images of other gods. However, these reforms do not last beyond his reign and eventually God brings the Babylonians to destroy the southern kingdom. The book concludes with the exile of the ruling class, prophets and priest. In the final verses Jeconiah is released from prison and honoured by the king of Babylon.",
+    "enDesc": "Kings II (“Melakhim Bet”) is the second part of the fourth book of the Prophets. It details the kings of the northern kingdom of Israel and southern kingdom of Judah toward the end of the First Temple period, most of whom betray God. God sends the Assyrians to destroy the northern kingdom, while the southern kingdom temporarily endures under the righteous King Hezekiah. When Hezekiah’s son succeeds him and promotes idolatry, God decrees the destruction of Jerusalem and exile of Judah.",
+    "heDesc": "מלכים ב הוא חלקו השני של ספר מלכים, הרביעי בספרי הנביאים. הספר מתאר את קורות ממלכות ישראל ויהודה, שיש ביניהן יחסי מלחמה לצד שנים של כריתת ברית. בשתי הממלכות נפוצה עבודת האלילים, ולכן נהרסה ממלכת ישראל בידי צבאות אשור. ממלכת יהודה ניצלת בזכות צדקתו של חזקיהו המלך, היערכותו לקראת המתקפה האשורית ונס ההצלה מידי מחנה הצבא של סנחריב, שהובס בפאתי ירושלים. עם מותו של חזקיהו שבה האלילות לממלכה לתקופות ארוכות, ובסופו של דבר חרב בית המקדש השני והעם יצא לגלות בבל.",
+    "enShortDesc": "Stories and miracles of the prophet Elisha, the decline of Israel’s kingdoms, and the Temple’s destruction.",
+    "heShortDesc": "סיפורי הנביא אלישע וניסיו, דעיכתן של ממלכות ישראל ויהודה וחורבן בית המקדש.",
     "pubDate": "1488",
     "compDate": "-500",
     "compPlace": "Judea/Israel",
     "pubPlace": "Soncino",
     "errorMargin": "100",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "מלכים ב",
     "titleVariants": [
         "Melachim Bet",
@@ -119,14 +150,17 @@
         "Kin. II",
         "II. Kings",
         "2 Kgs.",
+        "II Rois",
         "II Kings"
     ],
     "heTitleVariants": [
-        "מלכים ב",
         "מלכים ב׳",
         "מלכים ב'",
         "מל\"ב",
-        "מל״ב"
+        "מל״ב",
+        "מל”ב",
+        "מלכים-ב",
+        "מלכים ב"
     ],
     "sectionNames": [
         "Chapter",

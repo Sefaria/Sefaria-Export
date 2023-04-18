@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "ii-chronicles"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ii-chronicles"
+                ]
+            }
         ],
         "lengths": [
             36,
@@ -110,11 +123,6 @@
             },
             {
                 "lang": "he",
-                "primary": true,
-                "text": "דברי הימים ב"
-            },
-            {
-                "lang": "he",
                 "text": "דברי הימים ב׳"
             },
             {
@@ -142,9 +150,22 @@
                 "text": "דהי''ב"
             },
             {
+                "text": "דה”ב",
+                "lang": "he"
+            },
+            {
+                "text": "דהי”ב",
+                "lang": "he"
+            },
+            {
+                "text": "דברי הימים ב",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "II Chronicles",
                 "lang": "en",
-                "primary": true,
-                "text": "II Chronicles"
+                "primary": true
             }
         ],
         "title": "II Chronicles",
@@ -159,13 +180,20 @@
         39,
         13
     ],
-    "enDesc": "The two Books of Chronicles are the final books of the Tanakh. They follow the two Books of Kings and precede Ezra–Nehemiah, thus concluding the history-oriented books of the Tanakh. Chronicles begins at the beginning of the history of humanity, with Adam, and the story is then carried forward, almost entirely by genealogical lists, down to the founding of the Israelite monarchy (1 Chronicles 1–9). The bulk of the remainder of 1 Chronicles, after a brief account of Saul, is concerned with the reign of David (1 Chronicles 11–29). The next long section concerns David's son Solomon (2 Chronicles 1–9), and the final part is concerned with the kingdom of Judah with occasional references to the kingdom of Israel (2 Chronicles 10–36). In the last chapter Judah is destroyed and the people taken into exile in Babylon, and in the final verses the Persian king Cyrus conquers Babylon, and authorises the restoration of the Temple in Jerusalem, and the return of the exiles.",
+    "authors": [],
+    "enDesc": "II Chronicles (“Divrei Hayamim Bet”) is the second half of the last book of the Hebrew Bible. It retells biblical history, beginning with the reign of King Solomon until the destruction of the First Temple and the edict of Cyrus the Great. While parts of II Chronicles align with details that appear in the later Prophets, much of it contains additions, gaps, or alternative explanations; for example, the book focuses almost exclusively on kings from Judah, with only occasional mentions of the kingdom of Israel.",
+    "heDesc": "דברי הימים ב, המחצית השנייה של הספר האחרון בתנ\"ך, חוזר על ההיסטוריה המקראית מימי מלכות שלמה ועד חורבן בית המקדש הראשון והצהרת כורש. אומנם חלקים מהספר תואמים לפרטים שנזכרו בתורה ובנביאים אחרונים, אולם יש בו גם תוספות רבות, חוסרים והסברים חלופיים. לדוגמה, הספר מתמקד בקורות מלכי יהודה ומזכיר רק לעיתים רחוקות את קורות ממלכת ישראל.",
+    "enShortDesc": "Recounts of events in the Prophets, from Solomon through the First Temple’s destruction.",
+    "heShortDesc": "חזרה על אירועים שסופרו בספרי הנביאים מימי שלמה ועד חורבן בית המקדש הראשון.",
     "pubDate": "1488",
     "compDate": "-400",
     "compPlace": "Second Temple Judea",
     "pubPlace": "Soncino",
     "errorMargin": "50",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "דברי הימים ב",
     "titleVariants": [
         "2 Chronicles",
@@ -193,14 +221,16 @@
         "II Chronicles"
     ],
     "heTitleVariants": [
-        "דברי הימים ב",
         "דברי הימים ב׳",
         "דברי הימים ב'",
         "דה\"ב",
         "דה״ב",
         "דהי״ב",
         "דהי\"ב",
-        "דהי''ב"
+        "דהי''ב",
+        "דה”ב",
+        "דהי”ב",
+        "דברי הימים ב"
     ],
     "sectionNames": [
         "Chapter",

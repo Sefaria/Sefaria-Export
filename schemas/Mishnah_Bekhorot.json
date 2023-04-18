@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "bekhorot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bekhorot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "bekhorot"
+                ]
+            }
+        ],
         "lengths": [
             9,
             73
@@ -33,11 +52,6 @@
                 "text": "Mishna Bekhorot"
             },
             {
-                "lang": "he",
-                "text": "משנה בכורות",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Bekh."
             },
@@ -46,8 +60,13 @@
                 "text": "Mishnah B’khoroth"
             },
             {
-                "lang": "en",
+                "text": "משנה בכורות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Bekhorot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -64,7 +83,9 @@
         4
     ],
     "authors": [],
-    "enDesc": "Bekhorot (First Born) belongs to the fifth order, Kodshim (Holy things) and discusses the sanctification and redemption of animal and human firstborns. It has nine chapters.",
+    "enDesc": "Bekhorot (“Firstborns”) is a tractate in Seder Kodashim (“Order of Holy Things\") that discusses three categories of firstborns: a woman’s firstborn son, the male firstborn of a kosher domesticated animal, and a male firstborn donkey. The Torah assigns a sacred status to each of these and requires them to be consecrated - either through transfer to a priest, redemption, or sacrifice, depending on the firstborn and the circumstances. Bekhorot discusses details of this process, such as determining whether an animal is a firstborn in questionable cases and blemishes that disqualify a firstborn animal from being sacrificed in the Temple.",
+    "enShortDesc": "Transfer of first-born kosher animals to a priest, redemption of first-born donkeys and people.",
+    "heShortDesc": "נתינת בכורות של בהמות טהורות לכהן, פדיון הוולד הבכור של החמור, פדיון בכור האדם ומעשר בהמה.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה בכורות",
     "titleVariants": [
         "M Bekhorot",

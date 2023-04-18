@@ -2,7 +2,7 @@
     "title": "Avi Ezer",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
         "Avi Ezer",
         "Torah"
     ],
@@ -184,6 +184,15 @@
                 "key": "Deuteronomy"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "avi-ezer",
+                    "numbers"
+                ]
+            }
+        ],
         "titles": [
             {
                 "text": "אבי עזרי",
@@ -195,9 +204,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Avi Ezer",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Avi Ezer",
@@ -205,10 +214,16 @@
         "key": "Avi Ezer"
     },
     "authors": [
-        "Shlomo ben Eliezer Lipmann"
+        {
+            "en": "Shlomo ben Eliezer Lipmann",
+            "he": "שלמה בן אליעזר ליפמן הכהן מליסא",
+            "slug": "shlomo-ben-eliezer-lipmann"
+        }
     ],
     "enDesc": "Supercommentary to Ibn Ezra's Torah commentary, included in many editions of Mikraot Gedolot.",
     "heDesc": "ביאור לפירושו של האבן עזרא לחומש, נדפס ברוב המהדורות של מקראות גדולות.",
+    "enShortDesc": "18th-century supercommentary to Ibn Ezra's Torah commentary.",
+    "heShortDesc": "ביאור לפירוש אבן עזרא לתורה, מן המאה ה-18.",
     "pubDate": "1802",
     "compDate": "1780",
     "compPlace": "Posen",
@@ -252,7 +267,7 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
         "אבי עזר",
         "תורה"
     ],

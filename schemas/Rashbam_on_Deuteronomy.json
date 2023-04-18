@@ -2,7 +2,7 @@
     "title": "Rashbam on Deuteronomy",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Rashbam",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rashbam",
+                    "deuteronomy"
+                ]
+            }
+        ],
+        "lengths": [
+            34,
+            237,
+            331
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -90,16 +108,40 @@
             },
             {
                 "lang": "he",
-                "text": "רשב\"ם על דברים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רשב\"ם על דברי'"
             },
             {
                 "lang": "he",
                 "text": "רשב\"ם על דברי׳"
+            },
+            {
+                "text": "רשב״ם על דברים",
+                "lang": "he"
+            },
+            {
+                "text": "רשב”ם על דברים",
+                "lang": "he"
+            },
+            {
+                "text": "רשב״ם על דברי'",
+                "lang": "he"
+            },
+            {
+                "text": "רשב”ם על דברי'",
+                "lang": "he"
+            },
+            {
+                "text": "רשב״ם על דברי׳",
+                "lang": "he"
+            },
+            {
+                "text": "רשב”ם על דברי׳",
+                "lang": "he"
+            },
+            {
+                "text": "רשב\"ם על דברים",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Rashbam on Deuteronomy",
@@ -117,9 +159,13 @@
         "key": "Rashbam on Deuteronomy"
     },
     "authors": [
-        "Rashbam"
+        {
+            "en": "Rashbam",
+            "he": "רשב״ם",
+            "slug": "rashbam"
+        }
     ],
-    "enDesc": "Commentary written by Rabbi Shmuel ben Meir, Rashbam (France, c.1080 - c.1160). Rashbam, a grandson of Rashi, was part of the Tosafist school. Whereas Rashi famously claimed that his commentary would present the pshat (contextual meaning) of the text, when in reality it relies heavily on midrash; Rashbam’s commentary actually stays very loyal to the pshat. ",
+    "enDesc": "Commentary written by Rabbi Shmuel ben Meir, Rashbam (France, c.1080 - c.1160). Rashbam, a grandson of Rashi, was part of the Tosafist school. Whereas Rashi famously claimed that his commentary would present the pshat (contextual meaning) of the text, when in reality it relies heavily on midrash; Rashbam’s commentary actually stays very loyal to the pshat.",
     "pubDate": "1705",
     "compDate": "1140",
     "compPlace": "Middle-Age France",
@@ -161,9 +207,15 @@
         "Rashbam on Deuteronomy"
     ],
     "heTitleVariants": [
-        "רשב\"ם על דברים",
         "רשב\"ם על דברי'",
-        "רשב\"ם על דברי׳"
+        "רשב\"ם על דברי׳",
+        "רשב״ם על דברים",
+        "רשב”ם על דברים",
+        "רשב״ם על דברי'",
+        "רשב”ם על דברי'",
+        "רשב״ם על דברי׳",
+        "רשב”ם על דברי׳",
+        "רשב\"ם על דברים"
     ],
     "sectionNames": [
         "Chapter",
@@ -173,7 +225,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "רשב\"ם",
         "תורה"
     ],

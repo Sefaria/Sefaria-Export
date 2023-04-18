@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "mourning"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "mourning"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "mourning"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "mourning"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "mourning"
+                ]
+            }
+        ],
         "lengths": [
-            14
+            14,
+            183
         ],
         "titles": [
             {
@@ -66,11 +101,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות אבל",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות אבל"
             },
             {
@@ -86,8 +116,37 @@
                 "text": "רמב\"ם הלכות אבל"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות אבל",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות אבל",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' אבל",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' אבל",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות אבל",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות אבל",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות אבל",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Mourning",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -104,7 +163,11 @@
         4
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The fourteenth book is Sefer Shofetim (Hebrew: ספר שופטים‎; Judges: the laws relating legislators, the Sanhedrin, the king, and the judges — it also addresses the Noahide Laws and those pertaining to Messianic times). Hilchot Evel (Mourning). The fourteenth book is Sefer Shofetim (Judges: the laws relating legislators, the Sanhedrin, the king, and the judges — it also addresses the Noahide Laws and those pertaining to Messianic times). Hilchot Melachim Umilhamoteyhem (Kings and their wars‎)",
     "pubDate": "1474",
@@ -130,11 +193,17 @@
         "Mishneh Torah, Mourning"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות אבל",
         "רמב\"ם, הלכות אבל",
         "משנה תורה, הל' אבל",
         "רמב\"ם, הל' אבל",
-        "רמב\"ם הלכות אבל"
+        "רמב\"ם הלכות אבל",
+        "רמב״ם, הלכות אבל",
+        "רמב”ם, הלכות אבל",
+        "רמב״ם, הל' אבל",
+        "רמב”ם, הל' אבל",
+        "רמב״ם הלכות אבל",
+        "רמב”ם הלכות אבל",
+        "משנה תורה, הלכות אבל"
     ],
     "sectionNames": [
         "Chapter",

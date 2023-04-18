@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Acharonim on Talmud",
         "Shita Mekubetzet",
         "Seder Zeraim"
     ],
@@ -20,9 +20,28 @@
             "Line",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "shita-mekubetzet",
+                    "berakhot"
+                ]
+            }
+        ],
         "lengths": [
             127,
-            9861
+            692,
+            957
+        ],
+        "referenceableSections": [
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -114,11 +133,15 @@
         "key": "Shita Mekubetzet on Berakhot"
     },
     "authors": [
-        "Ritva"
+        {
+            "en": "Ritva",
+            "he": "ריטב\"א",
+            "slug": "ritva"
+        }
     ],
-    "enDesc": "Written by Bezalel ben Abraham Ashkenazi (c.1520 – c.1592), Shita Mekubetzet is a collection of glosses on the Talmud. (Shitah Mekubetzet on Berachot is actually the Ritva's commentary, see foreword to the Mossad Harav Kook edition of Ritva on Berachot.)",
+    "enDesc": "Written by Bezalel ben Abraham Ashkenazi (c.1520 – c.1592), Shita Mekubetzet is a collection of glosses on the Talmud. Shita Mekubetzet on Berakhot, however, is actually the commentary of the Ritva (Rabbi Yom Tov ben Avraham Assevilli, c.1260-c.1320).",
     "pubDate": "1765",
-    "compDate": "1570",
+    "compDate": "1300",
     "compPlace": "Middle-Age Spain",
     "pubPlace": "Metz, France",
     "errorMargin": "25",
@@ -168,13 +191,13 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "אחרונים על התלמוד",
         "שיטה מקובצת",
         "סדר זרעים"
     ],
     "compDateString": {
-        "en": " (c.1545  - c.1595 CE)",
-        "he": " (1545 - 1595 לספירה בקירוב)"
+        "en": " (c.1275  - c.1325 CE)",
+        "he": " (1275 - 1325 לספירה בקירוב)"
     },
     "compPlaceString": {
         "en": "Middle-Age Spain",

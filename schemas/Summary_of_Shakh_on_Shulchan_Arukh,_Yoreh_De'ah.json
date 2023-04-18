@@ -2,9 +2,9 @@
     "title": "Summary of Shakh on Shulchan Arukh, Yoreh De'ah",
     "categories": [
         "Halakhah",
+        "Shulchan Arukh",
         "Commentary",
-        "Summary of Shakh",
-        "Shulchan Arukh"
+        "Siftei Kohen"
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
@@ -18,6 +18,19 @@
             "Siman",
             "Seif",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "summary-of-shakh",
+                    "yoreh-deah"
+                ]
+            }
+        ],
+        "lengths": [
+            403,
+            0,
+            0
         ],
         "titles": [
             {
@@ -97,7 +110,11 @@
         "key": "Summary of Shakh on Shulchan Arukh, Yoreh De'ah"
     },
     "authors": [
-        "Ari Enkin"
+        {
+            "en": "Ari Enkin",
+            "he": "ארי אנקין",
+            "slug": "ari-enkin"
+        }
     ],
     "enDesc": "Summary of the Shakh (Siftei Kohen), written by Shabbatai ben Meir HaKohen (1621–1662). The Shakh is a commentary on the Shulchan Arukh, Yoreh De'ah.",
     "compDate": "2010",
@@ -107,7 +124,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Yoreh De'ah",
-            "he": "יורה דעה"
+            "he": "שולחן ערוך, יורה דעה"
         }
     ],
     "base_text_mapping": "many_to_one",
@@ -144,9 +161,9 @@
     "depth": 3,
     "heCategories": [
         "הלכה",
+        "שולחן ערוך",
         "מפרשים",
-        "קיצור ש\"ך",
-        "שולחן ערוך"
+        "שפתי כהן"
     ],
     "compDateString": {
         "en": " (c.2000  - c.2020 CE)",

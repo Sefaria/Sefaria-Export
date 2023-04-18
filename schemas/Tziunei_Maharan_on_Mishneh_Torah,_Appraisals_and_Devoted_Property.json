@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tziunei-maharan",
+                    "hilchot",
+                    "appraisals-and-devoted-property"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tziunei-maharan",
+                    "appraisals-and-devoted-property"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            7,
+            7
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,10 +62,17 @@
         "key": "Tziunei Maharan on Mishneh Torah, Appraisals and Devoted Property"
     },
     "authors": [
-        "Nachum Asch"
+        {
+            "en": "Nachum Asch",
+            "he": "נחום אש",
+            "slug": "nachum-asch"
+        }
     ],
     "pubDate": "1880-1881",
+    "compDate": "1878",
+    "compPlace": "Ozorków",
     "pubPlace": "Warsaw",
+    "errorMargin": "3",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -78,5 +105,9 @@
         "מפרשים",
         "ציוני מהר\"ן",
         "ספר הפלאה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1875  - c.1881 CE)",
+        "he": " (1875 - 1881 לספירה בקירוב)"
+    }
 }

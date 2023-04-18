@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "human-dispositions"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "human-dispositions"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "human-dispositions"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "human-dispositions"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "human-dispositions"
+                ]
+            }
+        ],
         "lengths": [
-            7
+            7,
+            71
         ],
         "titles": [
             {
@@ -61,11 +96,6 @@
                 "lang": "en"
             },
             {
-                "primary": true,
-                "text": "משנה תורה, הלכות דעות",
-                "lang": "he"
-            },
-            {
                 "text": "רמב\"ם, הלכות דעות",
                 "lang": "he"
             },
@@ -86,9 +116,46 @@
                 "lang": "he"
             },
             {
-                "primary": true,
+                "text": "רמב״ם, הלכות דעות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות דעות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' דעות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' דעות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות דעות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות דעות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' דעות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' דעות",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות דעות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Human Dispositions",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Mishneh Torah, Human Dispositions",
@@ -104,9 +171,13 @@
         2
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The first book is HaMadda (Knowledge): Deot: general proper behaviour",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -129,12 +200,20 @@
         "Mishneh Torah, Human Dispositions"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות דעות",
         "רמב\"ם, הלכות דעות",
         "משנה תורה, הל' דעות",
         "רמב\"ם, הל' דעות",
         "רמב\"ם הלכות דעות",
-        "רמב\"ם הל' דעות"
+        "רמב\"ם הל' דעות",
+        "רמב״ם, הלכות דעות",
+        "רמב”ם, הלכות דעות",
+        "רמב״ם, הל' דעות",
+        "רמב”ם, הל' דעות",
+        "רמב״ם הלכות דעות",
+        "רמב”ם הלכות דעות",
+        "רמב״ם הל' דעות",
+        "רמב”ם הל' דעות",
+        "משנה תורה, הלכות דעות"
     ],
     "sectionNames": [
         "Chapter",

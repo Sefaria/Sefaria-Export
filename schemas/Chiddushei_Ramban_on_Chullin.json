@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Ramban",
         "Seder Kodashim"
     ],
@@ -17,6 +17,27 @@
         "sectionNames": [
             "Daf",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ramban",
+                    "chullin"
+                ]
+            }
+        ],
+        "lengths": [
+            283,
+            330
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,9 +60,13 @@
         "key": "Chiddushei Ramban on Chullin"
     },
     "authors": [
-        "Ramban"
+        {
+            "en": "Ramban",
+            "he": "רמב״ן",
+            "slug": "ramban"
+        }
     ],
-    "enDesc": "Chiddushei Ramban are Ramban’s glosses on the Talmud. Ramban (1194–1270) was considered a great scholar at a young age. His commentary on the Talmud reflects his depth of knowledge and his deep respect for the legal authorities that came before him. ",
+    "enDesc": "Chiddushei Ramban are Ramban’s glosses on the Talmud. Ramban (1194–1270) was considered a great scholar at a young age. His commentary on the Talmud reflects his depth of knowledge and his deep respect for the legal authorities that came before him.",
     "heDesc": "",
     "compDate": "1245",
     "errorMargin": "25",
@@ -53,6 +78,10 @@
             "he": "חולין"
         }
     ],
+    "collective_title": {
+        "en": "Ramban",
+        "he": "רמב\"ן"
+    },
     "heTitle": "חידושי רמב\"ן על חולין",
     "titleVariants": [
         "Chiddushei Ramban on Chullin"
@@ -68,7 +97,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "רמב\"ן",
         "סדר קדשים"
     ],

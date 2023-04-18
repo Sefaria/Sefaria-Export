@@ -7,44 +7,88 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "avodah-zarah"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "avodah-zarah"
+            ]
+        },
         "lengths": [
-            74,
-            185
+            5,
+            60,
+            352
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Avodah Zarah"
-            },
-            {
-                "lang": "en",
-                "text": "JT Avodah Zarah"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Avodah Zarah"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי עבודה זרה",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי עבודה זרה"
+                "text": "Talmud Yerushalmi Avodah Zarah",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Ab. Zar."
+                "text": "JT Avodah Zarah",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Avodah Zarah",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי עבודה זרה",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Ab. Zar.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Avodah Zarah",
@@ -55,23 +99,27 @@
         "title": "Jerusalem Talmud Avodah Zarah",
         "heTitle": "תלמוד ירושלמי עבודה זרה",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Avodah Zarah"
     },
     "order": [
         36
     ],
-    "authors": [],
-    "enDesc": "Avodah Zarah (Foreign worship) belongs to the fourth order, Nezikin (The Order of Damages) and presents the laws of interactions between Jews and Gentiles and/or idolaters (from a Jewish perspective). It has five chapters.",
+    "enDesc": "Tractate Avodah Zara (“Idolatry”) is a tractate in Seder Nezikin (“Order of Damages\") that discusses the prohibition of idolatry and regulations on interactions between Jews and idolaters. The first two chapters address economic relationships with idolaters and consumption of their food. The third and fourth chapters discuss laws related to forbidden idols and images and the process of their nullification, and the fifth and final chapter discusses the prohibition of deriving benefit from wine that was poured as libation for idol worship.",
+    "enShortDesc": "Disassociating from idolatry, regulations on business interactions between Jews and idolaters.",
+    "heShortDesc": "התרחקות מעבודת אלילים וכללים המסדירים את הקשר בין יהודים ועובדי אלילים.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי עבודה זרה",
     "titleVariants": [
         "Talmud Yerushalmi Avodah Zarah",
@@ -84,11 +132,498 @@
         "תלמוד ירושלמי עבודה זרה",
         "ירושלמי עבודה זרה"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Avodah Zarah 1:1:2-10:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Avodah Zarah 1:1:2-3",
+                        "Jerusalem Talmud Avodah Zarah 1:1:3-11",
+                        "Jerusalem Talmud Avodah Zarah 1:1:11-4:2",
+                        "Jerusalem Talmud Avodah Zarah 1:4:2-6:5",
+                        "Jerusalem Talmud Avodah Zarah 1:6:5-9:5",
+                        "Jerusalem Talmud Avodah Zarah 1:9:5-10:2"
+                    ],
+                    "startingAddress": "39a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "לפני אידיהן",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "לפני אידיהן",
+                    "offset": 152
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Avodah Zarah 2:1:1-9:10",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Avodah Zarah 2:1:1-2",
+                        "Jerusalem Talmud Avodah Zarah 2:1:2-2:2",
+                        "Jerusalem Talmud Avodah Zarah 2:2:2-11",
+                        "Jerusalem Talmud Avodah Zarah 2:2:11-3:14",
+                        "Jerusalem Talmud Avodah Zarah 2:3:14-4:9",
+                        "Jerusalem Talmud Avodah Zarah 2:4:9-7:9",
+                        "Jerusalem Talmud Avodah Zarah 2:7:9-8:11",
+                        "Jerusalem Talmud Avodah Zarah 2:8:11-9:10"
+                    ],
+                    "startingAddress": "40b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אין מעמידין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "אין מעמידין",
+                    "offset": 157
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Avodah Zarah 3:1:1-14:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Avodah Zarah 3:1:1-2",
+                        "Jerusalem Talmud Avodah Zarah 3:1:2-4",
+                        "Jerusalem Talmud Avodah Zarah 3:1:4-2:3",
+                        "Jerusalem Talmud Avodah Zarah 3:2:3-5:4",
+                        "Jerusalem Talmud Avodah Zarah 3:5:4-6:4",
+                        "Jerusalem Talmud Avodah Zarah 3:6:4-11:5",
+                        "Jerusalem Talmud Avodah Zarah 3:11:5-14:2"
+                    ],
+                    "startingAddress": "42a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל הצלמים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "כל הצלמים",
+                    "offset": 164
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Avodah Zarah 4:1:1-12:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Avodah Zarah 4:1:1-3",
+                        "Jerusalem Talmud Avodah Zarah 4:1:3-4:6",
+                        "Jerusalem Talmud Avodah Zarah 4:4:6-8:4",
+                        "Jerusalem Talmud Avodah Zarah 4:8:4-12:5"
+                    ],
+                    "startingAddress": "43c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "רבי ישמעאל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "רבי ישמעאל",
+                    "offset": 170
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Avodah Zarah 5:1:1-15:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Avodah Zarah 5:1:1-2",
+                        "Jerusalem Talmud Avodah Zarah 5:1:2-8",
+                        "Jerusalem Talmud Avodah Zarah 5:1:8-7:2",
+                        "Jerusalem Talmud Avodah Zarah 5:7:2-11:4",
+                        "Jerusalem Talmud Avodah Zarah 5:11:4-15:4"
+                    ],
+                    "startingAddress": "44b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "השוכר את הפועל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "השוכר את הפועל",
+                    "offset": 173
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי עבודה זרה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Talmud Yerushalmi Avodah Zarah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Avodah Zarah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Avodah Zarah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי עבודה זרה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Ab. Zar.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Avodah Zarah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Avodah Zarah",
+            "heTitle": "תלמוד ירושלמי עבודה זרה"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Avodah Zarah 1:1:1-10:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Avodah Zarah 1:1:1-3",
+                        "Jerusalem Talmud Avodah Zarah 1:1:3-8",
+                        "Jerusalem Talmud Avodah Zarah 1:1:8-11",
+                        "Jerusalem Talmud Avodah Zarah 1:1:11-2:3",
+                        "Jerusalem Talmud Avodah Zarah 1:2:3-9",
+                        "Jerusalem Talmud Avodah Zarah 1:2:9-3:3",
+                        "Jerusalem Talmud Avodah Zarah 1:3:3-4:2",
+                        "Jerusalem Talmud Avodah Zarah 1:4:2-3",
+                        "Jerusalem Talmud Avodah Zarah 1:4:3-5:1",
+                        "Jerusalem Talmud Avodah Zarah 1:5:1-6:1",
+                        "Jerusalem Talmud Avodah Zarah 1:6:1-5",
+                        "Jerusalem Talmud Avodah Zarah 1:6:5-7:1",
+                        "Jerusalem Talmud Avodah Zarah 1:7:1-9:1",
+                        "Jerusalem Talmud Avodah Zarah 1:9:1-5",
+                        "Jerusalem Talmud Avodah Zarah 1:9:5-10:2",
+                        "Jerusalem Talmud Avodah Zarah 1:10:2"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "לפני אידיהן",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "לפני אידיהן",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Avodah Zarah 2:1:1-9:10",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Avodah Zarah 2:1:1-2",
+                        "Jerusalem Talmud Avodah Zarah 2:1:2-5",
+                        "Jerusalem Talmud Avodah Zarah 2:1:5-11",
+                        "Jerusalem Talmud Avodah Zarah 2:1:11-2:4",
+                        "Jerusalem Talmud Avodah Zarah 2:2:4-9",
+                        "Jerusalem Talmud Avodah Zarah 2:2:9-14",
+                        "Jerusalem Talmud Avodah Zarah 2:2:14-3:7",
+                        "Jerusalem Talmud Avodah Zarah 2:3:7-15",
+                        "Jerusalem Talmud Avodah Zarah 2:3:15-19",
+                        "Jerusalem Talmud Avodah Zarah 2:3:19-4:3",
+                        "Jerusalem Talmud Avodah Zarah 2:4:3-10",
+                        "Jerusalem Talmud Avodah Zarah 2:4:10-7:1",
+                        "Jerusalem Talmud Avodah Zarah 2:7:1-3",
+                        "Jerusalem Talmud Avodah Zarah 2:7:3-10",
+                        "Jerusalem Talmud Avodah Zarah 2:7:10-8:4",
+                        "Jerusalem Talmud Avodah Zarah 2:8:4-10",
+                        "Jerusalem Talmud Avodah Zarah 2:8:10-9:2",
+                        "Jerusalem Talmud Avodah Zarah 2:9:2-4",
+                        "Jerusalem Talmud Avodah Zarah 2:9:4-9",
+                        "Jerusalem Talmud Avodah Zarah 2:9:9-10"
+                    ],
+                    "startingAddress": "8b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אין מעמידין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "אין מעמידין",
+                    "offset": 15
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Avodah Zarah 3:1:1-14:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Avodah Zarah 3:1:1-9",
+                        "Jerusalem Talmud Avodah Zarah 3:1:9-2:2",
+                        "Jerusalem Talmud Avodah Zarah 3:2:2-3:3",
+                        "Jerusalem Talmud Avodah Zarah 3:3:3-4:2",
+                        "Jerusalem Talmud Avodah Zarah 3:4:2-5:3",
+                        "Jerusalem Talmud Avodah Zarah 3:5:3-5",
+                        "Jerusalem Talmud Avodah Zarah 3:5:5-8",
+                        "Jerusalem Talmud Avodah Zarah 3:5:8-6:2",
+                        "Jerusalem Talmud Avodah Zarah 3:6:2-4",
+                        "Jerusalem Talmud Avodah Zarah 3:6:4",
+                        "Jerusalem Talmud Avodah Zarah 3:6:4-7:2",
+                        "Jerusalem Talmud Avodah Zarah 3:7:2-8:4",
+                        "Jerusalem Talmud Avodah Zarah 3:8:4-11:2",
+                        "Jerusalem Talmud Avodah Zarah 3:11:2-13:1",
+                        "Jerusalem Talmud Avodah Zarah 3:13:1-14:2"
+                    ],
+                    "startingAddress": "18a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל הצלמים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "כל הצלמים",
+                    "offset": 34
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Avodah Zarah 4:1:1-12:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Avodah Zarah 4:1:1-3",
+                        "Jerusalem Talmud Avodah Zarah 4:1:3-7",
+                        "Jerusalem Talmud Avodah Zarah 4:1:7-3:1",
+                        "Jerusalem Talmud Avodah Zarah 4:3:1-4:4",
+                        "Jerusalem Talmud Avodah Zarah 4:4:4-9",
+                        "Jerusalem Talmud Avodah Zarah 4:4:9-5:2",
+                        "Jerusalem Talmud Avodah Zarah 4:5:2-7:3",
+                        "Jerusalem Talmud Avodah Zarah 4:7:3-8:3",
+                        "Jerusalem Talmud Avodah Zarah 4:8:3-9:1",
+                        "Jerusalem Talmud Avodah Zarah 4:9:1-10:1",
+                        "Jerusalem Talmud Avodah Zarah 4:10:1-11:2",
+                        "Jerusalem Talmud Avodah Zarah 4:11:2-12:1",
+                        "Jerusalem Talmud Avodah Zarah 4:12:1-5"
+                    ],
+                    "startingAddress": "25a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "רבי ישמעאל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "רבי ישמעאל",
+                    "offset": 48
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Avodah Zarah 5:1:1-15:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Avodah Zarah 5:1:1-3",
+                        "Jerusalem Talmud Avodah Zarah 5:1:3-5",
+                        "Jerusalem Talmud Avodah Zarah 5:1:5-3:1",
+                        "Jerusalem Talmud Avodah Zarah 5:3:1-5",
+                        "Jerusalem Talmud Avodah Zarah 5:3:5-4:3",
+                        "Jerusalem Talmud Avodah Zarah 5:4:3-8",
+                        "Jerusalem Talmud Avodah Zarah 5:4:8-7:1",
+                        "Jerusalem Talmud Avodah Zarah 5:7:1-8:3",
+                        "Jerusalem Talmud Avodah Zarah 5:8:3-10:4",
+                        "Jerusalem Talmud Avodah Zarah 5:10:4-11:4",
+                        "Jerusalem Talmud Avodah Zarah 5:11:4-12:1",
+                        "Jerusalem Talmud Avodah Zarah 5:12:1-13:2",
+                        "Jerusalem Talmud Avodah Zarah 5:13:2-15:1",
+                        "Jerusalem Talmud Avodah Zarah 5:15:1-4"
+                    ],
+                    "startingAddress": "31a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "השוכר את הפועל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "השוכר את הפועל",
+                    "offset": 60
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי עבודה זרה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Talmud Yerushalmi Avodah Zarah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Avodah Zarah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Avodah Zarah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי עבודה זרה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Ab. Zar.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Avodah Zarah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Avodah Zarah",
+            "heTitle": "תלמוד ירושלמי עבודה זרה"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

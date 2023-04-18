@@ -7,44 +7,88 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "yoma"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "yoma"
+            ]
+        },
         "lengths": [
-            84,
-            171
+            8,
+            51,
+            362
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Tamud Yerushalmi Yoma"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Yoma"
-            },
-            {
-                "lang": "en",
-                "text": "JT Yoma"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי יומא",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי יומא"
+                "text": "Tamud Yerushalmi Yoma",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Yoma"
+                "text": "Yerushalmi Yoma",
+                "lang": "en"
+            },
+            {
+                "text": "JT Yoma",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי יומא",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Yoma",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Yoma",
@@ -55,23 +99,27 @@
         "title": "Jerusalem Talmud Yoma",
         "heTitle": "תלמוד ירושלמי יומא",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Yoma"
     },
     "order": [
         15
     ],
-    "authors": [],
-    "enDesc": "Yoma (The Day) belongs to the second order, Moed (Festivals) and discusses the prescriptions Yom Kippur, especially the ceremony by the Kohen Gadol. It has eight chapters.",
+    "enDesc": "Tractate Yoma (“The Day,” referring to Yom Kippur) is located in Seder Moed (“the Order of Festivals”). It consists of eight chapters; the first seven discuss the preparation for and service of the High Priest in the Temple on Yom Kippur day. The last chapter discusses the laws of fasting, other prohibitions of Yom Kippur, and the process of repentance.",
+    "enShortDesc": "Yom Kippur: the High Priest’s preparation, the Temple service, the fast, and repentance.",
+    "heShortDesc": "יום הכיפורים: הכנות הכהן הגדול, העבודה בבית המקדש, הצום והתשובה.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי יומא",
     "titleVariants": [
         "Tamud Yerushalmi Yoma",
@@ -84,11 +132,698 @@
         "תלמוד ירושלמי יומא",
         "ירושלמי יומא"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 1:1:2-8:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 1:1:2-5",
+                        "Jerusalem Talmud Yoma 1:1:5-13",
+                        "Jerusalem Talmud Yoma 1:1:13-22",
+                        "Jerusalem Talmud Yoma 1:1:22-2:3",
+                        "Jerusalem Talmud Yoma 1:2:3-5:7",
+                        "Jerusalem Talmud Yoma 1:5:7-8:2"
+                    ],
+                    "startingAddress": "38a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שבעת ימים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "שבעת ימים",
+                    "offset": 148
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 2:1:1-4:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 2:1:1-3",
+                        "Jerusalem Talmud Yoma 2:1:3-14",
+                        "Jerusalem Talmud Yoma 2:1:14-2:8",
+                        "Jerusalem Talmud Yoma 2:2:8-4:6"
+                    ],
+                    "startingAddress": "39b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בראשונה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "בראשונה",
+                    "offset": 153
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 3:1:1-9:7",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 3:1:1-2",
+                        "Jerusalem Talmud Yoma 3:1:2-3:4",
+                        "Jerusalem Talmud Yoma 3:3:4-6:6",
+                        "Jerusalem Talmud Yoma 3:6:6-7:8",
+                        "Jerusalem Talmud Yoma 3:7:8-9:6",
+                        "Jerusalem Talmud Yoma 3:9:6-7"
+                    ],
+                    "startingAddress": "40a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אמר להם הממונה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "אמר להם הממונה",
+                    "offset": 156
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 4:1:1-6:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 4:1:1-4",
+                        "Jerusalem Talmud Yoma 4:1:4-4:4",
+                        "Jerusalem Talmud Yoma 4:4:4-6:4",
+                        "Jerusalem Talmud Yoma 4:6:4-6"
+                    ],
+                    "startingAddress": "41b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "טרף בקלפי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "טרף בקלפי",
+                    "offset": 161
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 5:1:1-7:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 5:1:1-2",
+                        "Jerusalem Talmud Yoma 5:1:2-2:2",
+                        "Jerusalem Talmud Yoma 5:2:2-4:6",
+                        "Jerusalem Talmud Yoma 5:4:6-6:5",
+                        "Jerusalem Talmud Yoma 5:6:5-7:5",
+                        "Jerusalem Talmud Yoma 5:7:5"
+                    ],
+                    "startingAddress": "42a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הוציאו לו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "הוציאו לו",
+                    "offset": 164
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 6:1:1-7:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 6:1:1-9",
+                        "Jerusalem Talmud Yoma 6:1:9-3:7",
+                        "Jerusalem Talmud Yoma 6:3:7-6:7",
+                        "Jerusalem Talmud Yoma 6:6:7-7:2"
+                    ],
+                    "startingAddress": "43b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שני שעירי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "שני שעירי",
+                    "offset": 169
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 7:1:1-3:8",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 7:1:1-5",
+                        "Jerusalem Talmud Yoma 7:1:5-3:4",
+                        "Jerusalem Talmud Yoma 7:3:4-8"
+                    ],
+                    "startingAddress": "44a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בא לו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "בא לו",
+                    "offset": 172
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 8:1:1-7:10",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 8:1:1-2",
+                        "Jerusalem Talmud Yoma 8:1:2-2:3",
+                        "Jerusalem Talmud Yoma 8:2:3-4:3",
+                        "Jerusalem Talmud Yoma 8:4:3-7:4",
+                        "Jerusalem Talmud Yoma 8:7:4-10"
+                    ],
+                    "startingAddress": "44c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "יום הכפורים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "יום הכפורים",
+                    "offset": 174
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי יומא",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Tamud Yerushalmi Yoma",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Yoma",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Yoma",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי יומא",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Yoma",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Yoma",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Yoma",
+            "heTitle": "תלמוד ירושלמי יומא"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 1:1:1-8:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 1:1:1-4",
+                        "Jerusalem Talmud Yoma 1:1:4-5",
+                        "Jerusalem Talmud Yoma 1:1:5-8",
+                        "Jerusalem Talmud Yoma 1:1:8-11",
+                        "Jerusalem Talmud Yoma 1:1:11-13",
+                        "Jerusalem Talmud Yoma 1:1:13",
+                        "Jerusalem Talmud Yoma 1:1:13-16",
+                        "Jerusalem Talmud Yoma 1:1:16-20",
+                        "Jerusalem Talmud Yoma 1:1:20-25",
+                        "Jerusalem Talmud Yoma 1:1:25-2:2",
+                        "Jerusalem Talmud Yoma 1:2:2-5",
+                        "Jerusalem Talmud Yoma 1:2:5-4:1",
+                        "Jerusalem Talmud Yoma 1:4:1-5:5",
+                        "Jerusalem Talmud Yoma 1:5:5-8:1",
+                        "Jerusalem Talmud Yoma 1:8:1-2"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שבעת ימים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "שבעת ימים",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 2:1:1-4:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 2:1:1-3",
+                        "Jerusalem Talmud Yoma 2:1:3-5",
+                        "Jerusalem Talmud Yoma 2:1:5-8",
+                        "Jerusalem Talmud Yoma 2:1:8-10",
+                        "Jerusalem Talmud Yoma 2:1:10-16",
+                        "Jerusalem Talmud Yoma 2:1:16-2:2",
+                        "Jerusalem Talmud Yoma 2:2:2-3",
+                        "Jerusalem Talmud Yoma 2:2:3-4",
+                        "Jerusalem Talmud Yoma 2:2:4-8",
+                        "Jerusalem Talmud Yoma 2:2:8-4:1",
+                        "Jerusalem Talmud Yoma 2:4:1-4",
+                        "Jerusalem Talmud Yoma 2:4:4-6"
+                    ],
+                    "startingAddress": "8a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בראשונה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "בראשונה",
+                    "offset": 14
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 3:1:1-9:7",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 3:1:1-2:1",
+                        "Jerusalem Talmud Yoma 3:2:1-3:1",
+                        "Jerusalem Talmud Yoma 3:3:1-4",
+                        "Jerusalem Talmud Yoma 3:3:4-4:3",
+                        "Jerusalem Talmud Yoma 3:4:3-5:3",
+                        "Jerusalem Talmud Yoma 3:5:3-6:2",
+                        "Jerusalem Talmud Yoma 3:6:2-4",
+                        "Jerusalem Talmud Yoma 3:6:4-6",
+                        "Jerusalem Talmud Yoma 3:6:6-7:1",
+                        "Jerusalem Talmud Yoma 3:7:1-5",
+                        "Jerusalem Talmud Yoma 3:7:5-8:3",
+                        "Jerusalem Talmud Yoma 3:8:3-9",
+                        "Jerusalem Talmud Yoma 3:8:9-9:7",
+                        "Jerusalem Talmud Yoma 3:9:7"
+                    ],
+                    "startingAddress": "13b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אמר להם הממונה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "אמר להם הממונה",
+                    "offset": 25
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 4:1:1-6:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 4:1:1-4",
+                        "Jerusalem Talmud Yoma 4:1:4-7",
+                        "Jerusalem Talmud Yoma 4:1:7-9",
+                        "Jerusalem Talmud Yoma 4:1:9-2:1",
+                        "Jerusalem Talmud Yoma 4:2:1-3:4",
+                        "Jerusalem Talmud Yoma 4:3:4-4:9",
+                        "Jerusalem Talmud Yoma 4:4:9-5:5",
+                        "Jerusalem Talmud Yoma 4:5:5-6:3",
+                        "Jerusalem Talmud Yoma 4:6:3-6"
+                    ],
+                    "startingAddress": "20a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "טרף בקלפי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "טרף בקלפי",
+                    "offset": 38
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 5:1:1-7:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 5:1:1-3",
+                        "Jerusalem Talmud Yoma 5:1:3-5",
+                        "Jerusalem Talmud Yoma 5:1:5-7",
+                        "Jerusalem Talmud Yoma 5:1:7-9",
+                        "Jerusalem Talmud Yoma 5:1:9-2:2",
+                        "Jerusalem Talmud Yoma 5:2:2-4:1",
+                        "Jerusalem Talmud Yoma 5:4:1-5",
+                        "Jerusalem Talmud Yoma 5:4:5-8",
+                        "Jerusalem Talmud Yoma 5:4:8-5:1",
+                        "Jerusalem Talmud Yoma 5:5:1-2",
+                        "Jerusalem Talmud Yoma 5:5:2-6:3",
+                        "Jerusalem Talmud Yoma 5:6:3-7",
+                        "Jerusalem Talmud Yoma 5:6:7-9",
+                        "Jerusalem Talmud Yoma 5:6:9-7:2",
+                        "Jerusalem Talmud Yoma 5:7:2-5",
+                        "Jerusalem Talmud Yoma 5:7:5"
+                    ],
+                    "startingAddress": "24b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הוציאו לו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "הוציאו לו",
+                    "offset": 47
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 6:1:1-7:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 6:1:1-7",
+                        "Jerusalem Talmud Yoma 6:1:7-13",
+                        "Jerusalem Talmud Yoma 6:1:13-3:2",
+                        "Jerusalem Talmud Yoma 6:3:2-4:1",
+                        "Jerusalem Talmud Yoma 6:4:1-5:2",
+                        "Jerusalem Talmud Yoma 6:5:2-6:3",
+                        "Jerusalem Talmud Yoma 6:6:3-5",
+                        "Jerusalem Talmud Yoma 6:6:5-7",
+                        "Jerusalem Talmud Yoma 6:6:7-7:1",
+                        "Jerusalem Talmud Yoma 6:7:1-2"
+                    ],
+                    "startingAddress": "32a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שני שעירי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "שני שעירי",
+                    "offset": 62
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 7:1:1-3:8",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 7:1:1-4",
+                        "Jerusalem Talmud Yoma 7:1:4-2:3",
+                        "Jerusalem Talmud Yoma 7:2:3-3:2",
+                        "Jerusalem Talmud Yoma 7:3:2-6",
+                        "Jerusalem Talmud Yoma 7:3:6-8"
+                    ],
+                    "startingAddress": "36b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בא לו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "בא לו",
+                    "offset": 71
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yoma 8:1:1-7:10",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yoma 8:1:1-3",
+                        "Jerusalem Talmud Yoma 8:1:3-9",
+                        "Jerusalem Talmud Yoma 8:1:9-3:2",
+                        "Jerusalem Talmud Yoma 8:3:2-11",
+                        "Jerusalem Talmud Yoma 8:3:11-15",
+                        "Jerusalem Talmud Yoma 8:3:15-5:2",
+                        "Jerusalem Talmud Yoma 8:5:2-6:3",
+                        "Jerusalem Talmud Yoma 8:6:3-7:4",
+                        "Jerusalem Talmud Yoma 8:7:4-10"
+                    ],
+                    "startingAddress": "38b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "יום הכפורים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "יום הכפורים",
+                    "offset": 75
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי יומא",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Tamud Yerushalmi Yoma",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Yoma",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Yoma",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי יומא",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Yoma",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Yoma",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Yoma",
+            "heTitle": "תלמוד ירושלמי יומא"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

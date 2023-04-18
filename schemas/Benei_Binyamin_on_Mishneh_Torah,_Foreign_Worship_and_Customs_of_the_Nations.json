@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "benei-binyamin",
+                    "hilchot",
+                    "foreign-worship-and-customs-of-the-nations"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "benei-binyamin",
+                    "foreign-worship-and-customs-of-the-nations"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            30,
+            35
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,8 +62,16 @@
         "key": "Benei Binyamin on Mishneh Torah, Foreign Worship and Customs of the Nations"
     },
     "authors": [
-        "Eliyahu David Rabinowitz Teomim"
+        {
+            "en": "Eliyahu David Rabinowitz Teomim",
+            "he": "אליהו דוד רבינוביץ' תאומים",
+            "slug": "eliyahu-david-rabinowitz-teomim"
+        }
     ],
+    "pubDate": "1947",
+    "compDate": "1875",
+    "pubPlace": "New York",
+    "errorMargin": "30",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -76,5 +104,9 @@
         "מפרשים",
         "בני בנימין",
         "ספר מדע"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1845  - c.1905 CE)",
+        "he": " (1845 - 1905 לספירה בקירוב)"
+    }
 }

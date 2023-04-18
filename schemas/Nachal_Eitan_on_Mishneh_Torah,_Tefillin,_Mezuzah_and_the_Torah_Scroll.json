@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "nachal-eitan",
+                    "hilchot",
+                    "tefillin-mezuzah-and-the-torah-scroll"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "nachal-eitan",
+                    "tefillin-mezuzah-and-the-torah-scroll"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            7,
+            8
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Nachal Eitan on Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Nachal Eitan on Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll",
@@ -42,7 +62,11 @@
         "key": "Nachal Eitan on Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll"
     },
     "authors": [
-        "Avraham Maskil L'Eitan"
+        {
+            "en": "Avraham Maskil L'Eitan",
+            "he": "אברהם משכיל לאיתן",
+            "slug": "avraham-maskil-leitan"
+        }
     ],
     "pubDate": "1855",
     "compDate": "1828",

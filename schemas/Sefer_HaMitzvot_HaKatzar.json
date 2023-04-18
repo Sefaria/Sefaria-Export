@@ -1,7 +1,8 @@
 {
     "title": "Sefer HaMitzvot HaKatzar",
     "categories": [
-        "Halakhah"
+        "Halakhah",
+        "Sifrei Mitzvot"
     ],
     "schema": {
         "nodes": [
@@ -102,9 +103,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Sefer HaMitzvot HaKatzar",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Sefer HaMitzvot HaKatzar",
@@ -112,10 +113,16 @@
         "key": "Sefer HaMitzvot HaKatzar"
     },
     "authors": [
-        "Israel Meir Kagan"
+        {
+            "en": "Israel Meir Kagan",
+            "he": "רבי ישראל מאיר הכהן",
+            "slug": "israel-meir-kagan"
+        }
     ],
-    "enDesc": "A compilation of all the Biblical commandments which are applicable in the post-Temple era, with a brief elaboration of each.",
+    "enDesc": "The Sefer HaMitzvot HaKatzar (Concise Book of Commandments) is an abbreviated reworking of Maimonides’ Sefer HaMitzvot that only includes commandments applicable outside of Israel in the post-Temple era, written by Rabbi Yisrael Meir HaKohen Kagan, author of the Mishnah Berurah and the Chafetz Chaim. In the work’s introduction, Kagan explained that he wanted his audience to be able to easily access a list of commandments applicable to their lives, and sifting through the Sefer HaMitzvot to isolate the relevant ones would be cumbersome.",
     "heDesc": "חיבור קטן מאת ר' ישראל מאיר הכהן מראדין, בעל ה'חפץ חיים', בו נאספו ונלקטו כל המצוות עשה ולא תעשה שאפשר לקיימן בזמן הזה, עם ביאור קצר ותמציתית.",
+    "enShortDesc": "20th-century list of the commandments applicable outside of Israel in the post-Temple era.",
+    "heShortDesc": "רשימה מן המאה ה-20 של כל המצוות החלות בחוץ לארץ ישראל לאחר חורבן בית המקדש.",
     "pubDate": "1931",
     "compDate": "1925",
     "compPlace": "Radun",
@@ -130,7 +137,8 @@
         "ספר המצות הקצר"
     ],
     "heCategories": [
-        "הלכה"
+        "הלכה",
+        "ספרי מצוות"
     ],
     "compDateString": {
         "en": " (c.1920  - c.1930 CE)",

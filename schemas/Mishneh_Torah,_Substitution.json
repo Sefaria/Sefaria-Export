@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "substitution"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "substitution"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "substitution"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "substitution"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "substitution"
+                ]
+            }
+        ],
         "lengths": [
-            4
+            4,
+            46
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות תמורה",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות תמורה"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' תמורה"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות תמורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות תמורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' תמורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' תמורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות תמורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות תמורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' תמורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' תמורה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות תמורה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Substitution",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,9 +167,13 @@
         6
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The ninth book is Korbanot (Offerings): laws for offerings in the Temple, excepting those of the whole community. Hilchot Temurah.",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Substitution"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות תמורה",
         "רמב\"ם, הלכות תמורה",
         "משנה תורה, הל' תמורה",
         "רמב\"ם, הל' תמורה",
         "רמב\"ם הלכות תמורה",
-        "רמב\"ם הל' תמורה"
+        "רמב\"ם הל' תמורה",
+        "רמב״ם, הלכות תמורה",
+        "רמב”ם, הלכות תמורה",
+        "רמב״ם, הל' תמורה",
+        "רמב”ם, הל' תמורה",
+        "רמב״ם הלכות תמורה",
+        "רמב”ם הלכות תמורה",
+        "רמב״ם הל' תמורה",
+        "רמב”ם הל' תמורה",
+        "משנה תורה, הלכות תמורה"
     ],
     "sectionNames": [
         "Chapter",

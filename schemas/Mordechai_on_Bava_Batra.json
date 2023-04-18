@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Mordechai"
     ],
     "schema": {
@@ -19,6 +19,11 @@
                     "Chapter",
                     "Paragraph"
                 ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
                 "default": true,
                 "title": "",
                 "heTitle": "",
@@ -39,6 +44,11 @@
                     "Chapter",
                     "Paragraph"
                 ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
                 "titles": [
                     {
                         "lang": "en",
@@ -77,9 +87,14 @@
         "key": "Mordechai on Bava Batra"
     },
     "authors": [
-        "Mordechai"
+        {
+            "en": "Mordechai",
+            "he": "מרדכי",
+            "slug": "mordechai1"
+        }
     ],
     "enDesc": "An important early halakhic discussion of the Talmud, culling many of the Ashkenazi authorities up to his time. Its stature is reflected by the many time it is cited by later authorities.",
+    "enShortDesc": "13th-century commentary summarizing legal conclusions from the Talmud based on earlier authorities, considered a central work of Ashkenazi law.",
     "pubDate": "1557",
     "compDate": "1285",
     "compPlace": "Middle-Age Germany",
@@ -543,7 +558,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "מרדכי"
     ],
     "compDateString": {

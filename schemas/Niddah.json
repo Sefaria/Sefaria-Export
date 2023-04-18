@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "niddah"
+                ]
+            }
+        ],
         "lengths": [
-            143,
-            7420
+            145,
+            2665
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -35,11 +99,6 @@
             },
             {
                 "lang": "he",
-                "text": "נדה",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "נידה"
             },
             {
@@ -49,6 +108,11 @@
             {
                 "text": "BT Niddah",
                 "lang": "en"
+            },
+            {
+                "text": "נדה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Niddah",
@@ -69,12 +133,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         38,
         1
     ],
     "authors": [],
-    "enDesc": "Niddah (Separation) belongs to the sixth order, Tahorot (Purities) and discusses a Niddah, a woman either during her menstrual cycle or shortly after having given birth. It has ten chapters.",
+    "enDesc": "Niddah (“Woman who is Menstruating”) is a tractate in Seder Taharot (“Order of Purities”) that discusses the ritual impurity of a woman in her menstrual cycle or experiencing particular discharges and the accompanying prohibition of intercourse. Its ten chapters address details such as the status of blood stains, hymenal bleeding, and blood from an internal wound.",
+    "enShortDesc": "The ritual impurity of a woman in her menstrual cycle or experiencing particular discharges.",
+    "heShortDesc": "טומאת האישה בנידתה ובמצבים נוספים.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -82,6 +151,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "נדה",
     "titleVariants": [
         "Talmud Niddah",
@@ -92,8 +164,8 @@
         "Niddah"
     ],
     "heTitleVariants": [
-        "נדה",
-        "נידה"
+        "נידה",
+        "נדה"
     ],
     "alts": {
         "Chapters": {
@@ -103,6 +175,33 @@
                     "depth": 1,
                     "wholeRef": "Niddah 2a:1-12b:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-128"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-128"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -154,6 +253,33 @@
                     "depth": 1,
                     "wholeRef": "Niddah 13a:1-21a:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-223"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-223"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -200,6 +326,33 @@
                     "depth": 1,
                     "wholeRef": "Niddah 21a:4-31b:17",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-323"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-323"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -251,6 +404,33 @@
                     "depth": 1,
                     "wholeRef": "Niddah 31b:18-39b:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-419"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-419"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "lang": "en",
@@ -297,6 +477,33 @@
                     "depth": 1,
                     "wholeRef": "Niddah 40a:1-48a:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-517"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-517"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "lang": "en",
@@ -343,6 +550,33 @@
                     "depth": 1,
                     "wholeRef": "Niddah 48a:11-54b:9",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-615"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-615"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "lang": "en",
@@ -386,6 +620,33 @@
                     "depth": 1,
                     "wholeRef": "Niddah 54b:10-57a:17",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-713"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-713"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "lang": "en",
@@ -421,6 +682,33 @@
                     "depth": 1,
                     "wholeRef": "Niddah 57b:1-59a:17",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-813"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-813"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "lang": "en",
@@ -454,6 +742,33 @@
                     "depth": 1,
                     "wholeRef": "Niddah 59b:1-64b:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-913"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-913"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "lang": "en",
@@ -494,6 +809,44 @@
                     "depth": 1,
                     "wholeRef": "Niddah 64b:5-73a:16",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-108"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-108"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
                     "titles": [
                         {
                             "lang": "en",
@@ -552,11 +905,6 @@
                 },
                 {
                     "lang": "he",
-                    "text": "נדה",
-                    "primary": true
-                },
-                {
-                    "lang": "he",
                     "text": "נידה"
                 },
                 {
@@ -566,6 +914,11 @@
                 {
                     "text": "BT Niddah",
                     "lang": "en"
+                },
+                {
+                    "text": "נדה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Niddah",

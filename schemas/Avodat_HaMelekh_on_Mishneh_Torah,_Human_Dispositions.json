@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "avodat-hamelekh",
+                    "hilchot",
+                    "human-dispositions"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "avodat-hamelekh",
+                    "human-dispositions"
+                ]
+            }
+        ],
+        "lengths": [
+            7,
+            65,
+            264
+        ],
         "titles": [
             {
                 "text": "עבודת המלך על משנה תורה, הלכות דעות",
@@ -42,11 +62,17 @@
         "key": "Avodat HaMelekh on Mishneh Torah, Human Dispositions"
     },
     "authors": [
-        "Menachem Mendel Krakowski"
+        {
+            "en": "Menachem Mendel Krakowski",
+            "he": "מנחם קרקובסקי",
+            "slug": "menachem-mendel-krakowski"
+        }
     ],
     "enDesc": "An important work on Rambam's Sefer HaMadah, it focuses on Rambam's sources, and presents a comparative study with other medieval rabbis that discussed the same topics .",
     "pubDate": "1931",
+    "compDate": "1900",
     "pubPlace": "Vilna",
+    "errorMargin": "30",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -79,5 +105,9 @@
         "מפרשים",
         "עבודת המלך",
         "ספר מדע"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1870  - c.1930 CE)",
+        "he": " (1870 - 1930 לספירה בקירוב)"
+    }
 }

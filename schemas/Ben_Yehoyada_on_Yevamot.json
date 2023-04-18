@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Acharonim on Talmud",
         "Ben Yehoyada"
     ],
     "schema": {
@@ -16,6 +16,19 @@
         "sectionNames": [
             "Daf",
             "Paragraph"
+        ],
+        "lengths": [
+            244,
+            120
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -38,7 +51,11 @@
         "key": "Ben Yehoyada on Yevamot"
     },
     "authors": [
-        "Yosef Hayyim"
+        {
+            "en": "Yosef Hayyim",
+            "he": "יוסף חיים",
+            "slug": "yosef-hayyim"
+        }
     ],
     "enDesc": "One of the major commentaries on the Aggadah in the Babylonian Talmud. It is one of Rabbi Yosef Hayyim (Ben Ish Chai)'s two works on aggadah, both of which offer analytic as well as kabbalistic interpretations of the Talmud's narrative sections.",
     "pubDate": "1897-1903",
@@ -73,7 +90,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "אחרונים על התלמוד",
         "בן יהוידע"
     ],
     "compDateString": {

@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "avodah-zarah"
+                ]
+            }
+        ],
         "lengths": [
-            150,
-            7551
+            152,
+            2131
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -54,11 +118,6 @@
                 "lang": "en"
             },
             {
-                "text": "עבודה זרה",
-                "primary": true,
-                "lang": "he"
-            },
-            {
                 "text": "ע\"ז",
                 "lang": "he"
             },
@@ -69,6 +128,15 @@
             {
                 "text": "BT Avodah Zarah",
                 "lang": "en"
+            },
+            {
+                "text": "ע”ז",
+                "lang": "he"
+            },
+            {
+                "text": "עבודה זרה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Avodah Zarah",
@@ -89,12 +157,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         26,
         7
     ],
     "authors": [],
-    "enDesc": "Avodah Zarah (Foreign worship) belongs to the fourth order, Nezikin (The Order of Damages) and presents the laws of interactions between Jews and Gentiles and/or idolaters (from a Jewish perspective). It has five chapters.",
+    "enDesc": "Tractate Avodah Zara (“Idolatry”) is a tractate in Seder Nezikin (“Order of Damages\") that discusses the prohibition of idolatry and regulations on interactions between Jews and idolaters. The first two chapters address economic relationships with idolaters and consumption of their food. The third and fourth chapters discuss laws related to forbidden idols and images and the process of their nullification, and the fifth chapter discusses the prohibition of deriving benefit from wine that was poured as libation for idol worship.",
+    "enShortDesc": "Disassociating from idolatry, regulations on business interactions between Jews and idolaters.",
+    "heShortDesc": "התרחקות מעבודת אלילים וכללים המסדירים את הקשר בין יהודים ועובדי אלילים.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -102,6 +175,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "עבודה זרה",
     "titleVariants": [
         "Talmud Avodah Zarah",
@@ -116,9 +192,10 @@
         "Avodah Zarah"
     ],
     "heTitleVariants": [
-        "עבודה זרה",
         "ע\"ז",
-        "ע״ז"
+        "ע״ז",
+        "ע”ז",
+        "עבודה זרה"
     ],
     "alts": {
         "Chapters": {
@@ -128,6 +205,33 @@
                     "depth": 1,
                     "wholeRef": "Avodah Zarah 2a:1-22a:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-11"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-11"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -198,6 +302,33 @@
                     "depth": 1,
                     "wholeRef": "Avodah Zarah 22a:11-40b:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-21"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-21"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -265,6 +396,33 @@
                     "depth": 1,
                     "wholeRef": "Avodah Zarah 40b:12-49b:17",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-31"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-31"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -313,6 +471,33 @@
                     "depth": 1,
                     "wholeRef": "Avodah Zarah 49b:18-61b:16",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-41"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-41"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -367,6 +552,44 @@
                     "depth": 1,
                     "wholeRef": "Avodah Zarah 62a:1-76b:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-51"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-51"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -456,11 +679,6 @@
                     "lang": "en"
                 },
                 {
-                    "text": "עבודה זרה",
-                    "primary": true,
-                    "lang": "he"
-                },
-                {
                     "text": "ע\"ז",
                     "lang": "he"
                 },
@@ -471,6 +689,15 @@
                 {
                     "text": "BT Avodah Zarah",
                     "lang": "en"
+                },
+                {
+                    "text": "ע”ז",
+                    "lang": "he"
+                },
+                {
+                    "text": "עבודה זרה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Avodah Zarah",

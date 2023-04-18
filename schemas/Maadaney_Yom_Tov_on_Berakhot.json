@@ -3,6 +3,8 @@
     "categories": [
         "Talmud",
         "Bavli",
+        "Rishonim on Talmud",
+        "Rosh",
         "Commentary",
         "Maadaney Yom Tov",
         "Seder Zeraim"
@@ -15,6 +17,26 @@
         ],
         "sectionNames": [
             "Siman"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "maadaney-yom-tov",
+                    "berakhot"
+                ]
+            }
+        ],
+        "lengths": [
+            1571
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -36,9 +58,13 @@
         "key": "Maadaney Yom Tov on Berakhot"
     },
     "authors": [
-        "Yom-Tov Lipmann Heller"
+        {
+            "en": "Yom-Tov Lipmann Heller",
+            "he": "יום-טוב ליפמן הלר",
+            "slug": "yom-tov-lipmann-heller"
+        }
     ],
-    "enDesc": "Commentary written by Rabbi Yom Tov Lipmann Heller on Rabbi Asher ben Yehiel’s \"Piskei HaRosh\".",
+    "enDesc": "Commentary written by Rabbi Yom Tov Lipmann Heller on Rabbeinu Asher ben Yechiel’s \"Piskei HaRosh.\"",
     "pubDate": "1628",
     "compDate": "1615",
     "compPlace": "Prague",
@@ -71,6 +97,8 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
+        "ראשונים על התלמוד",
+        "רא\"ש",
         "מפרשים",
         "מעדני יום טוב",
         "סדר זרעים"

@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "avodah-zarah"
+                ]
+            }
+        ],
         "lengths": [
             5,
             50
@@ -33,11 +52,6 @@
                 "text": "M Avodah Zarah"
             },
             {
-                "lang": "he",
-                "text": "משנה עבודה זרה",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Ab. Zar."
             },
@@ -46,8 +60,13 @@
                 "text": "Mishnah Abodah Zarah"
             },
             {
-                "lang": "en",
+                "text": "משנה עבודה זרה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Avodah Zarah",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -64,7 +83,9 @@
         8
     ],
     "authors": [],
-    "enDesc": "Avodah Zarah (Foreign worship) belongs to the fourth order, Nezikin (The Order of Damages) and presents the laws of interactions between Jews and Gentiles and/or idolaters (from a Jewish perspective). It has five chapters.",
+    "enDesc": "Tractate Avodah Zara (“Idolatry”) is a tractate in Seder Nezikin (“Order of Damages\") that discusses the prohibition of idolatry and regulations on interactions between Jews and idolaters. The first two chapters address economic relationships with idolaters and consumption of their food. The third and fourth chapters discuss laws related to forbidden idols and images and the process of their nullification, and the fifth chapter discusses the prohibition of deriving benefit from wine that was poured as libation for idol worship.",
+    "enShortDesc": "Disassociating from idolatry, regulations on business interactions between Jews and idolaters.",
+    "heShortDesc": "התרחקות מעבודת אלילים וכללים המסדירים את הקשר בין יהודים ועובדי אלילים.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה עבודה זרה",
     "titleVariants": [
         "M. Avodah Zarah",

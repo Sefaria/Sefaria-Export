@@ -2,7 +2,7 @@
     "title": "Ralbag on I Samuel",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Ralbag",
         "Prophets"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ralbag",
+                    "i-samuel"
+                ]
+            }
+        ],
+        "lengths": [
+            31,
+            267,
+            318
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -157,7 +175,11 @@
         "key": "Ralbag on I Samuel"
     },
     "authors": [
-        "Ralbag"
+        {
+            "en": "Ralbag",
+            "he": "רלב\"ג",
+            "slug": "ralbag"
+        }
     ],
     "enDesc": "A commentary written by Rabbi Levi ben Gershon (1288–1344) of Provence. Ralbag was a Talmudist, mathematician and astronomer. He was a rationalist which is reflected in his approach to angels and miracles in his commentary. The commentary is divided into 3 parts: the lexicon (bi’ur ha-milot), exegesis (bi’ur ha-parasha), and the lessons (to’alot).",
     "pubDate": "1480",
@@ -222,7 +244,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "רלב\"ג",
         "נביאים"
     ],

@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yitzchak-yeranen",
+                    "hilchot",
+                    "repentance"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yitzchak-yeranen",
+                    "repentance"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            4,
+            6
+        ],
         "titles": [
             {
                 "text": "יצחק ירנן על משנה תורה, הלכות תשובה",
@@ -41,9 +61,18 @@
         ],
         "key": "Yitzchak Yeranen on Mishneh Torah, Repentance"
     },
-    "authors": [],
+    "authors": [
+        {
+            "en": "Elyakim ben Isaac Gaṭigno",
+            "he": "אליקים בן יצחק גאטינייו",
+            "slug": "elyakim-ben-isaac-gaigno"
+        }
+    ],
     "pubDate": "1785",
-    "pubPlace": "Salonica / Thessaloniki ",
+    "compDate": "1760",
+    "compPlace": "Izmir / Smyrna",
+    "pubPlace": "Salonica / Thessaloniki",
+    "errorMargin": "20",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -76,5 +105,13 @@
         "מפרשים",
         "יצחק ירנן",
         "ספר מדע"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1740  - c.1780 CE)",
+        "he": " (1740 - 1780 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Izmir / Smyrna",
+        "he": "איזמיר"
+    }
 }

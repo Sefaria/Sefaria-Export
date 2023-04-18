@@ -7,56 +7,100 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "eruvin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "eruvin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "eruvin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "eruvin"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "eruvin"
+            ]
+        },
         "lengths": [
-            130,
-            304
+            10,
+            94,
+            415
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Eiruvin"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Eruvin"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Eiruvin"
-            },
-            {
-                "lang": "en",
-                "text": "JT Eiruvin"
-            },
-            {
-                "lang": "en",
-                "text": "JT Eruvin"
-            },
-            {
-                "lang": "en",
-                "text": "Jerusalem Talmud Eiruvin"
-            },
-            {
-                "primary": true,
+                "text": "תלמוד ירושלמי עירובין",
                 "lang": "he",
-                "text": "תלמוד ירושלמי עירובין"
+                "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי עירובין"
+                "text": "Talmud Yerushalmi Eiruvin",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Erub."
+                "text": "Yerushalmi Eruvin",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Eiruvin",
+                "lang": "en"
+            },
+            {
+                "text": "JT Eiruvin",
+                "lang": "en"
+            },
+            {
+                "text": "JT Eruvin",
+                "lang": "en"
+            },
+            {
+                "text": "Jerusalem Talmud Eiruvin",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי עירובין",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Erub.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Eruvin",
@@ -67,23 +111,27 @@
         "title": "Jerusalem Talmud Eruvin",
         "heTitle": "תלמוד ירושלמי עירובין",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Eruvin"
     },
     "order": [
         13
     ],
-    "authors": [],
-    "enDesc": "Eruvim (Mixtures) belongs to the second order, Moed (Festivals) and discusses the Eruv or Sabbath-bound - a category of constructions/delineations that alter the domains of the Sabbath for carrying and travel. It has ten chapters.",
+    "enDesc": "Eruvin (literally, “mixtures” referring to the symbolic combination of separate domains) is the second tractate in Seder Moed (Order of Festivals) and consists of ten chapters. It serves as a continuation of tractate Shabbat, discussing the rabbinic enactments - namely, ritual enclosures and designated food items - that legally expand the areas in which one can carry and travel on Shabbat.",
+    "enShortDesc": "Enclosures that legally expand the areas in which one can carry and travel on Shabbat.",
+    "heShortDesc": "תיחום המרחיב באופן סמלי את התחומים שמותר ללכת ולשאת בהם חפצים בשבת.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי עירובין",
     "titleVariants": [
         "Talmud Yerushalmi Eiruvin",
@@ -99,11 +147,893 @@
         "תלמוד ירושלמי עירובין",
         "ירושלמי עירובין"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 1:1:2-10:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 1:1:2-6",
+                        "Jerusalem Talmud Eruvin 1:1:6-16",
+                        "Jerusalem Talmud Eruvin 1:1:16-2:2",
+                        "Jerusalem Talmud Eruvin 1:2:2-6:2",
+                        "Jerusalem Talmud Eruvin 1:6:2-8:4",
+                        "Jerusalem Talmud Eruvin 1:8:4-10:5",
+                        "Jerusalem Talmud Eruvin 1:10:5-6"
+                    ],
+                    "startingAddress": "18b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מבוי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "מבוי",
+                    "offset": 69
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 2:1:1-8:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 2:1:1-3",
+                        "Jerusalem Talmud Eruvin 2:1:3-4:2",
+                        "Jerusalem Talmud Eruvin 2:4:2-8:4"
+                    ],
+                    "startingAddress": "19d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "עושין פסין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "עושין פסין",
+                    "offset": 75
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 3:1:1-10:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 3:1:1-2",
+                        "Jerusalem Talmud Eruvin 3:1:2-4",
+                        "Jerusalem Talmud Eruvin 3:1:4-3:2",
+                        "Jerusalem Talmud Eruvin 3:3:2-5:2",
+                        "Jerusalem Talmud Eruvin 3:5:2-8:3",
+                        "Jerusalem Talmud Eruvin 3:8:3-10:2"
+                    ],
+                    "startingAddress": "20b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בכל מערבין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "בכל מערבין",
+                    "offset": 77
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 4:1:1-10:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 4:1:1-2",
+                        "Jerusalem Talmud Eruvin 4:1:2-4:2",
+                        "Jerusalem Talmud Eruvin 4:4:2-10:2"
+                    ],
+                    "startingAddress": "21c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שהוציאוהו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "מי שהוציאוהו",
+                    "offset": 82
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 5:1:1-8:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 5:1:1-2",
+                        "Jerusalem Talmud Eruvin 5:1:2-8",
+                        "Jerusalem Talmud Eruvin 5:1:8-2:3",
+                        "Jerusalem Talmud Eruvin 5:2:3-7:3",
+                        "Jerusalem Talmud Eruvin 5:7:3-8:4"
+                    ],
+                    "startingAddress": "22a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כיצד מעברין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "כיצד מעברין",
+                    "offset": 84
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 6:1:1-10:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 6:1:1-2",
+                        "Jerusalem Talmud Eruvin 6:1:2-3:3",
+                        "Jerusalem Talmud Eruvin 6:3:3-6:3",
+                        "Jerusalem Talmud Eruvin 6:6:3-8:6",
+                        "Jerusalem Talmud Eruvin 6:8:6-10:3"
+                    ],
+                    "startingAddress": "23a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הדר",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "הדר",
+                    "offset": 88
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 7:1:1-10:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 7:1:1-2",
+                        "Jerusalem Talmud Eruvin 7:1:2-2:5",
+                        "Jerusalem Talmud Eruvin 7:2:5-9:2",
+                        "Jerusalem Talmud Eruvin 7:9:2-10:4"
+                    ],
+                    "startingAddress": "24a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "חלון",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "חלון",
+                    "offset": 92
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 8:1:1-9:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 8:1:1-2",
+                        "Jerusalem Talmud Eruvin 8:1:2-8:3",
+                        "Jerusalem Talmud Eruvin 8:8:3-9:4"
+                    ],
+                    "startingAddress": "24d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כיצד משתתפין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "כיצד משתתפין",
+                    "offset": 95
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 9:1:1-5:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 9:1:1-2",
+                        "Jerusalem Talmud Eruvin 9:1:2-4:2",
+                        "Jerusalem Talmud Eruvin 9:4:2-5:3"
+                    ],
+                    "startingAddress": "25b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל גגות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "כל גגות",
+                    "offset": 97
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 10:1:1-14:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 10:1:1-2",
+                        "Jerusalem Talmud Eruvin 10:1:2-3:2",
+                        "Jerusalem Talmud Eruvin 10:3:2-9:2",
+                        "Jerusalem Talmud Eruvin 10:9:2-13:2",
+                        "Jerusalem Talmud Eruvin 10:13:2-14:6"
+                    ],
+                    "startingAddress": "25d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 10",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המוצא תפילין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 10",
+                    "heTitle": "המוצא תפילין",
+                    "offset": 99
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי עירובין",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Talmud Yerushalmi Eiruvin",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Eruvin",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Eiruvin",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Eiruvin",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Eruvin",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Eiruvin",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי עירובין",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Erub.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Eruvin",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Eruvin",
+            "heTitle": "תלמוד ירושלמי עירובין"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 1:1:1-10:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 1:1:1-2",
+                        "Jerusalem Talmud Eruvin 1:1:2",
+                        "Jerusalem Talmud Eruvin 1:1:2-4",
+                        "Jerusalem Talmud Eruvin 1:1:4-7",
+                        "Jerusalem Talmud Eruvin 1:1:7-9",
+                        "Jerusalem Talmud Eruvin 1:1:9-12",
+                        "Jerusalem Talmud Eruvin 1:1:12-13",
+                        "Jerusalem Talmud Eruvin 1:1:13-14",
+                        "Jerusalem Talmud Eruvin 1:1:14-18",
+                        "Jerusalem Talmud Eruvin 1:1:18-22",
+                        "Jerusalem Talmud Eruvin 1:1:22-26",
+                        "Jerusalem Talmud Eruvin 1:1:26-2:3",
+                        "Jerusalem Talmud Eruvin 1:2:3-3:4",
+                        "Jerusalem Talmud Eruvin 1:3:4-4:4",
+                        "Jerusalem Talmud Eruvin 1:4:4-5:4",
+                        "Jerusalem Talmud Eruvin 1:5:4-6:3",
+                        "Jerusalem Talmud Eruvin 1:6:3-6",
+                        "Jerusalem Talmud Eruvin 1:6:6-7:4",
+                        "Jerusalem Talmud Eruvin 1:7:4-8:3",
+                        "Jerusalem Talmud Eruvin 1:8:3-9:3",
+                        "Jerusalem Talmud Eruvin 1:9:3-5",
+                        "Jerusalem Talmud Eruvin 1:9:5-10:2",
+                        "Jerusalem Talmud Eruvin 1:10:2-3",
+                        "Jerusalem Talmud Eruvin 1:10:3-5",
+                        "Jerusalem Talmud Eruvin 1:10:5-6"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מבוי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "מבוי",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 2:1:1-8:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 2:1:1-3",
+                        "Jerusalem Talmud Eruvin 2:1:3-4",
+                        "Jerusalem Talmud Eruvin 2:1:4-6",
+                        "Jerusalem Talmud Eruvin 2:1:6-8",
+                        "Jerusalem Talmud Eruvin 2:1:8-2:2",
+                        "Jerusalem Talmud Eruvin 2:2:2-4:2",
+                        "Jerusalem Talmud Eruvin 2:4:2-5:2",
+                        "Jerusalem Talmud Eruvin 2:5:2-6:1",
+                        "Jerusalem Talmud Eruvin 2:6:1-8:3",
+                        "Jerusalem Talmud Eruvin 2:8:3-4"
+                    ],
+                    "startingAddress": "13b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "עושין פסין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "עושין פסין",
+                    "offset": 25
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 3:1:1-10:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 3:1:1-2",
+                        "Jerusalem Talmud Eruvin 3:1:2-5",
+                        "Jerusalem Talmud Eruvin 3:1:5-7",
+                        "Jerusalem Talmud Eruvin 3:1:7-10",
+                        "Jerusalem Talmud Eruvin 3:1:10-2:3",
+                        "Jerusalem Talmud Eruvin 3:2:3-3:1",
+                        "Jerusalem Talmud Eruvin 3:3:1-2",
+                        "Jerusalem Talmud Eruvin 3:3:2-4",
+                        "Jerusalem Talmud Eruvin 3:3:4-4:1",
+                        "Jerusalem Talmud Eruvin 3:4:1-4",
+                        "Jerusalem Talmud Eruvin 3:4:4-5",
+                        "Jerusalem Talmud Eruvin 3:4:5-5:2",
+                        "Jerusalem Talmud Eruvin 3:5:2-4",
+                        "Jerusalem Talmud Eruvin 3:5:4-7:1",
+                        "Jerusalem Talmud Eruvin 3:7:1-3",
+                        "Jerusalem Talmud Eruvin 3:7:3-8:3",
+                        "Jerusalem Talmud Eruvin 3:8:3-9:3",
+                        "Jerusalem Talmud Eruvin 3:9:3-10:2"
+                    ],
+                    "startingAddress": "18a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בכל מערבין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "בכל מערבין",
+                    "offset": 34
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 4:1:1-10:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 4:1:1-2",
+                        "Jerusalem Talmud Eruvin 4:1:2-4",
+                        "Jerusalem Talmud Eruvin 4:1:4-7",
+                        "Jerusalem Talmud Eruvin 4:1:7-3:3",
+                        "Jerusalem Talmud Eruvin 4:3:3-5:3",
+                        "Jerusalem Talmud Eruvin 4:5:3-7:1",
+                        "Jerusalem Talmud Eruvin 4:7:1-9:2",
+                        "Jerusalem Talmud Eruvin 4:9:2-10:2",
+                        "Jerusalem Talmud Eruvin 4:10:2"
+                    ],
+                    "startingAddress": "26b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שהוציאוהו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "מי שהוציאוהו",
+                    "offset": 51
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 5:1:1-8:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 5:1:1-4",
+                        "Jerusalem Talmud Eruvin 5:1:4-5",
+                        "Jerusalem Talmud Eruvin 5:1:5-10",
+                        "Jerusalem Talmud Eruvin 5:1:10-13",
+                        "Jerusalem Talmud Eruvin 5:1:13-15",
+                        "Jerusalem Talmud Eruvin 5:1:15-17",
+                        "Jerusalem Talmud Eruvin 5:1:17-2:1",
+                        "Jerusalem Talmud Eruvin 5:2:1-3",
+                        "Jerusalem Talmud Eruvin 5:2:3-3:3",
+                        "Jerusalem Talmud Eruvin 5:3:3-4:2",
+                        "Jerusalem Talmud Eruvin 5:4:2-5:2",
+                        "Jerusalem Talmud Eruvin 5:5:2-7:1",
+                        "Jerusalem Talmud Eruvin 5:7:1-4",
+                        "Jerusalem Talmud Eruvin 5:7:4-8:2",
+                        "Jerusalem Talmud Eruvin 5:8:2-4"
+                    ],
+                    "startingAddress": "30b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כיצד מעברין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "כיצד מעברין",
+                    "offset": 59
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 6:1:1-10:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 6:1:1-2:2",
+                        "Jerusalem Talmud Eruvin 6:2:2-5",
+                        "Jerusalem Talmud Eruvin 6:2:5-3:2",
+                        "Jerusalem Talmud Eruvin 6:3:2-4:1",
+                        "Jerusalem Talmud Eruvin 6:4:1-4",
+                        "Jerusalem Talmud Eruvin 6:4:4-5:2",
+                        "Jerusalem Talmud Eruvin 6:5:2-6:3",
+                        "Jerusalem Talmud Eruvin 6:6:3-7:2",
+                        "Jerusalem Talmud Eruvin 6:7:2-3",
+                        "Jerusalem Talmud Eruvin 6:7:3-8:2",
+                        "Jerusalem Talmud Eruvin 6:8:2-6",
+                        "Jerusalem Talmud Eruvin 6:8:6-8",
+                        "Jerusalem Talmud Eruvin 6:8:8-10:1",
+                        "Jerusalem Talmud Eruvin 6:10:1-3",
+                        "Jerusalem Talmud Eruvin 6:10:3"
+                    ],
+                    "startingAddress": "38a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הדר",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "הדר",
+                    "offset": 74
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 7:1:1-10:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 7:1:1-3",
+                        "Jerusalem Talmud Eruvin 7:1:3-5",
+                        "Jerusalem Talmud Eruvin 7:1:5-2:1",
+                        "Jerusalem Talmud Eruvin 7:2:1-4",
+                        "Jerusalem Talmud Eruvin 7:2:4-3:1",
+                        "Jerusalem Talmud Eruvin 7:3:1-5:1",
+                        "Jerusalem Talmud Eruvin 7:5:1-6:1",
+                        "Jerusalem Talmud Eruvin 7:6:1-3",
+                        "Jerusalem Talmud Eruvin 7:6:3-7:2",
+                        "Jerusalem Talmud Eruvin 7:7:2-10:1",
+                        "Jerusalem Talmud Eruvin 7:10:1-4"
+                    ],
+                    "startingAddress": "45a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "חלון",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "חלון",
+                    "offset": 88
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 8:1:1-9:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 8:1:1-2",
+                        "Jerusalem Talmud Eruvin 8:1:2-2:3",
+                        "Jerusalem Talmud Eruvin 8:2:3-3:3",
+                        "Jerusalem Talmud Eruvin 8:3:3-7",
+                        "Jerusalem Talmud Eruvin 8:3:7-4:3",
+                        "Jerusalem Talmud Eruvin 8:4:3-6:4",
+                        "Jerusalem Talmud Eruvin 8:6:4-8:1",
+                        "Jerusalem Talmud Eruvin 8:8:1-3",
+                        "Jerusalem Talmud Eruvin 8:8:3-6",
+                        "Jerusalem Talmud Eruvin 8:8:6-9:2",
+                        "Jerusalem Talmud Eruvin 8:9:2-4"
+                    ],
+                    "startingAddress": "50b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כיצד משתתפין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "כיצד משתתפין",
+                    "offset": 99
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 9:1:1-5:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 9:1:1-3",
+                        "Jerusalem Talmud Eruvin 9:1:3-8",
+                        "Jerusalem Talmud Eruvin 9:1:8-3:2",
+                        "Jerusalem Talmud Eruvin 9:3:2-4:4",
+                        "Jerusalem Talmud Eruvin 9:4:4-5:3",
+                        "Jerusalem Talmud Eruvin 9:5:3"
+                    ],
+                    "startingAddress": "56a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל גגות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "כל גגות",
+                    "offset": 110
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Eruvin 10:1:1-14:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Eruvin 10:1:1-3",
+                        "Jerusalem Talmud Eruvin 10:1:3-6",
+                        "Jerusalem Talmud Eruvin 10:1:6-2:1",
+                        "Jerusalem Talmud Eruvin 10:2:1-3:2",
+                        "Jerusalem Talmud Eruvin 10:3:2-5:1",
+                        "Jerusalem Talmud Eruvin 10:5:1-6:2",
+                        "Jerusalem Talmud Eruvin 10:6:2-7:1",
+                        "Jerusalem Talmud Eruvin 10:7:1-8:4",
+                        "Jerusalem Talmud Eruvin 10:8:4-9:2",
+                        "Jerusalem Talmud Eruvin 10:9:2-10:3",
+                        "Jerusalem Talmud Eruvin 10:10:3-12:2",
+                        "Jerusalem Talmud Eruvin 10:12:2-13:3",
+                        "Jerusalem Talmud Eruvin 10:13:3-14:2",
+                        "Jerusalem Talmud Eruvin 10:14:2-5",
+                        "Jerusalem Talmud Eruvin 10:14:5-6"
+                    ],
+                    "startingAddress": "58b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 10",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המוצא תפילין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 10",
+                    "heTitle": "המוצא תפילין",
+                    "offset": 115
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי עירובין",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Talmud Yerushalmi Eiruvin",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Eruvin",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Eiruvin",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Eiruvin",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Eruvin",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Eiruvin",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי עירובין",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Erub.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Eruvin",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Eruvin",
+            "heTitle": "תלמוד ירושלמי עירובין"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

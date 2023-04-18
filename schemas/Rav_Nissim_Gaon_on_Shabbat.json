@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Rav Nissim Gaon"
     ],
     "schema": {
@@ -16,6 +16,27 @@
         "sectionNames": [
             "Daf",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rav-nissim-gaon",
+                    "shabbat"
+                ]
+            }
+        ],
+        "lengths": [
+            314,
+            238
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -38,12 +59,17 @@
         "key": "Rav Nissim Gaon on Shabbat"
     },
     "authors": [
-        "Nissim Gaon"
+        {
+            "en": "Nissim Gaon",
+            "he": "",
+            "slug": "nissim-gaon"
+        }
     ],
     "pubDate": "1847",
-    "compDate": "940",
+    "compDate": "1025",
+    "compPlace": "North Africa",
     "pubPlace": "Vienna",
-    "errorMargin": "20",
+    "errorMargin": "30",
     "era": "RI",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -71,11 +97,15 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "רב ניסים גאון"
     ],
     "compDateString": {
-        "en": " (c.920  - c.960 CE)",
-        "he": " (920 - 960 לספירה בקירוב)"
+        "en": " (c.995  - c.1055 CE)",
+        "he": " (995 - 1055 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "North Africa",
+        "he": "צפון אפריקה"
     }
 }

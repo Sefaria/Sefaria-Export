@@ -2,7 +2,7 @@
     "title": "Rabbeinu Chananel on Exodus",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Rabbeinu Chananel",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rabbeinu-chananel",
+                    "exodus"
+                ]
+            }
+        ],
+        "lengths": [
+            40,
+            33,
+            46
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -57,8 +75,8 @@
                 "text": "Rabbeinu Chananel on Shemoth"
             },
             {
-                "lang": "he",
                 "text": "ר' חננאל על שמות",
+                "lang": "he",
                 "primary": true
             },
             {
@@ -77,7 +95,11 @@
         "key": "Rabbeinu Chananel on Exodus"
     },
     "authors": [
-        "Rabeinu Chananel"
+        {
+            "en": "Rabeinu Chananel",
+            "he": "רבנו חננאל",
+            "slug": "rabeinu-chananel"
+        }
     ],
     "enDesc": "Written by Rabbi Chananel ben Chushiel, known as Rabbeinu Chananel, this commentary on the Chumash is cited by many later Torah commentators, most notably Rabbi Bahya ben Asher. Rabbeinu Chananel directs some of his comments against the Karaites.",
     "pubDate": "1492",
@@ -123,7 +145,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "רבינו חננאל",
         "תורה"
     ],

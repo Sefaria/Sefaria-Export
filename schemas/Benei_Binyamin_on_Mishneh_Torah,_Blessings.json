@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "benei-binyamin",
+                    "hilchot",
+                    "blessings"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "benei-binyamin",
+                    "blessings"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            40,
+            42
+        ],
         "titles": [
             {
                 "text": "בני בנימין על משנה תורה, הלכות ברכות",
@@ -42,8 +62,16 @@
         "key": "Benei Binyamin on Mishneh Torah, Blessings"
     },
     "authors": [
-        "Eliyahu David Rabinowitz Teomim"
+        {
+            "en": "Eliyahu David Rabinowitz Teomim",
+            "he": "אליהו דוד רבינוביץ' תאומים",
+            "slug": "eliyahu-david-rabinowitz-teomim"
+        }
     ],
+    "pubDate": "1947",
+    "compDate": "1875",
+    "pubPlace": "New York",
+    "errorMargin": "30",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -76,5 +104,9 @@
         "מפרשים",
         "בני בנימין",
         "ספר אהבה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1845  - c.1905 CE)",
+        "he": " (1845 - 1905 לספירה בקירוב)"
+    }
 }

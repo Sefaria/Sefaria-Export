@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chiddushei-rabbi-akiva-eiger",
+                    "hilchot",
+                    "reading-the-shema"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-rabbi-akiva-eiger",
+                    "reading-the-shema"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            1,
+            1
+        ],
         "titles": [
             {
                 "text": "חידושי רבי עקיבא איגר על משנה תורה, הלכות קריאת שמע",
@@ -42,8 +62,14 @@
         "key": "Chiddushei Rabbi Akiva Eiger on Mishneh Torah, Reading the Shema"
     },
     "authors": [
-        "Akiva Eiger"
+        {
+            "en": "Akiva Eiger",
+            "he": "עֲקִיבָא  אֵיגֶר",
+            "slug": "akiva-eiger"
+        }
     ],
+    "compDate": "1810",
+    "errorMargin": "25",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -76,5 +102,9 @@
         "מפרשים",
         "חידושי רבי עקיבא איגר",
         "ספר אהבה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1785  - c.1835 CE)",
+        "he": " (1785 - 1835 לספירה בקירוב)"
+    }
 }

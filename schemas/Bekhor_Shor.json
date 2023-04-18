@@ -2,7 +2,7 @@
     "title": "Bekhor Shor",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Bekhor Shor"
     ],
     "schema": {
@@ -183,10 +183,19 @@
                 "key": "Deuteronomy"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "bekhor-shor",
+                    "numbers"
+                ]
+            }
+        ],
         "titles": [
             {
-                "lang": "he",
                 "text": "בכור שור",
+                "lang": "he",
                 "primary": true
             },
             {
@@ -204,9 +213,15 @@
         11
     ],
     "authors": [
-        "Yosef Bekhor Shor"
+        {
+            "en": "Yosef Bekhor Shor",
+            "he": "יוסף בכור שור",
+            "slug": "yosef-bekhor-shor"
+        }
     ],
     "enDesc": "An independent and original commentary on the Torah focused on the simple understanding  (peshat) by one of the Tosafist masters. This work would become influential among subsequent Ashkenazi commentators, such as Chizukuni.",
+    "enShortDesc": "12th-century commentary by a French Tosafist, focusing on literal interpretations and offering rational explanations of miraculous biblical events.",
+    "heShortDesc": "פירוש של אחד מבעלי התוספות בצרפת מן המאה ה-12, המתמקד בביאור מילים וביטויים ובמתן הסברים רציונליים לניסים במקרא.",
     "pubDate": "1856",
     "compDate": "1170",
     "compPlace": "Middle-Age France",
@@ -250,7 +265,7 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "בכור שור"
     ],
     "compDateString": {

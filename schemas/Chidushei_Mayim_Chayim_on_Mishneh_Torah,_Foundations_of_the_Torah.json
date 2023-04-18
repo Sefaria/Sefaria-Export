@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushei-mayim-chayim",
+                    "hilchot",
+                    "foundations-of-the-torah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-mayim-chayim",
+                    "foundations-of-the-torah"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            17,
+            20
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Chidushei Mayim Chayim on Mishneh Torah, Foundations of the Torah",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Chidushei Mayim Chayim on Mishneh Torah, Foundations of the Torah",
@@ -42,7 +62,11 @@
         "key": "Chidushei Mayim Chayim on Mishneh Torah, Foundations of the Torah"
     },
     "authors": [
-        "Hezekiah da Silva"
+        {
+            "en": "Hezekiah da Silva",
+            "he": "חזקיה די סילוה",
+            "slug": "hezekiah-da-silva"
+        }
     ],
     "pubDate": "1730",
     "compDate": "1686",

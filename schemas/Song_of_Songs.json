@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "song-of-songs"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "song-of-songs"
+                ]
+            }
         ],
         "lengths": [
             8,
@@ -61,9 +74,8 @@
                 "lang": "en"
             },
             {
-                "text": "שיר השירים",
-                "primary": true,
-                "lang": "he"
+                "text": "Cantique des cant.",
+                "lang": "en"
             },
             {
                 "text": "שה\"ש",
@@ -90,9 +102,22 @@
                 "lang": "he"
             },
             {
+                "text": "שה”ש",
+                "lang": "he"
+            },
+            {
+                "text": "שיה”ש",
+                "lang": "he"
+            },
+            {
+                "text": "שיר השירים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Song of Songs",
-                "primary": true,
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Song of Songs",
@@ -107,13 +132,20 @@
         30,
         4
     ],
-    "enDesc": "Shir Hashirim (The Song of Songs), also known as the Song of Solomon is the first of the five Megillot (scrolls) of Ketuvim (Writings) the last section of the Tanakh (Bible). Scripturally, it is unique in its celebration of sexual love. It gives \"the voices of two lovers, praising each other, yearning for each other, proffering invitations to enjoy\". The two are in harmony, each desiring the other and rejoicing in sexual intimacy; the women (or \"daughters\") of Jerusalem form a chorus to the lovers, functioning as an audience whose participation in the lovers' erotic encounters facilitates the participation of the reader. Jewish tradition reads it as an allegory of the relationship between God and Israel. The story is read on the prior to Sabbath each week by Sephardim and on Shabbat during Pesah by Ashkenazim.",
+    "authors": [],
+    "enDesc": "Song of Songs (“Shir Hashirim”) is one of the five megillot (scrolls), part of the section of the Hebrew Bible called Writings. Attributed in its opening verse to King Solomon, the book records poetic conversations between two lovers, describing their pursuit of each other through vineyards and fields of blossoming flowers. It is traditionally understood as a metaphor for the loving relationship between God and the people of Israel, and is often read publicly on Passover or on Shabbat evening.",
+    "heDesc": "שיר השירים הוא המגילה הראשונה שבחמש המגילות, קובץ בחטיבת הכתובים שבמקרא, ופסוק הפתיחה של המגילה מייחס אותה לשלמה המלך. המגילה מורכבת מסדרה של שירי אהבה המתארים את חיפושיהם ההדדיים של האוהבים בין כרמים ושדות מלבלבים. חז\"ל פירשו את המגילה כאלגוריה ליחסי עם ישראל עם אלוקיו, והיא נקראת בציבור בשבת חול המועד פסח ובערבי שבת.",
+    "enShortDesc": "Poetic conversations of two lovers, traditionally read as a metaphor for God and Israel.",
+    "heShortDesc": "שיח פיוטי בין נאהבים שנתפרש במסורת חז\"ל כאלגוריה ליחסי עם ישראל עם אלוקיו.",
     "pubDate": "1488",
     "compDate": "-500",
     "compPlace": "Judea/Israel",
     "pubPlace": "Soncino",
     "errorMargin": "400",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "שיר השירים",
     "titleVariants": [
         "Shir HaShirim",
@@ -126,16 +158,19 @@
         "Songs",
         "Shir haShirim",
         "Shir Hashirim",
+        "Cantique des cant.",
         "Song of Songs"
     ],
     "heTitleVariants": [
-        "שיר השירים",
         "שה\"ש",
         "שיר",
         "שה״ש",
         "שה''ש",
         "שיה\"ש",
-        "שיה״ש"
+        "שיה״ש",
+        "שה”ש",
+        "שיה”ש",
+        "שיר השירים"
     ],
     "sectionNames": [
         "Chapter",

@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "ketubot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "ketubot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "ketubot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "ketubot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "ketubot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "ketubot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "ketubot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "ketubot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ketubot"
+                ]
+            }
+        ],
         "lengths": [
-            222,
-            11174
+            224,
+            3038
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -58,11 +122,6 @@
                 "text": "Ket."
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "כתובות"
-            },
-            {
                 "lang": "he",
                 "text": "כתובו'"
             },
@@ -73,6 +132,11 @@
             {
                 "text": "BT Ketubot",
                 "lang": "en"
+            },
+            {
+                "text": "כתובות",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Ketubot",
@@ -93,12 +157,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         14,
         2
     ],
     "authors": [],
-    "enDesc": "Ketubot (Prenuptial agreements) belongs to the third order, Nashim (Women) and discusses the Ketubah (Judaism's prenuptial agreement), as well as topics such as virginity, Jus primae noctis and the obligations of a couple towards each other. It has thirteen chapters.",
+    "enDesc": "Ketubot is the second tractate in Seder Nashim (“Order of Women,” which addresses family law). Its thirteen chapters primarily discuss the ketubah (marriage contract) and obligations between a husband and wife during marriage and after the dissolution of marriage. The tractate also addresses topics such as giving testimony, vows, and slander.",
+    "enShortDesc": "The marital contract (Ketubah) and obligations between husband and wife.",
+    "heShortDesc": "שטר הכתובה, חובות הבעל לאשתו וחובות האישה לבעלה.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -106,6 +175,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "כתובות",
     "titleVariants": [
         "Talmud Ketubot",
@@ -121,9 +193,9 @@
         "Ketubot"
     ],
     "heTitleVariants": [
-        "כתובות",
         "כתובו'",
-        "כתובו׳"
+        "כתובו׳",
+        "כתובות"
     ],
     "alts": {
         "Chapters": {
@@ -133,6 +205,33 @@
                     "depth": 1,
                     "wholeRef": "Ketubot 2a:1-15b:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-115"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-115"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "primary": true,
@@ -190,6 +289,33 @@
                     "depth": 1,
                     "wholeRef": "Ketubot 15b:12-28b:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-214"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-214"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "primary": true,
@@ -246,6 +372,33 @@
                     "depth": 1,
                     "wholeRef": "Ketubot 29a:1-41b:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-314"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-314"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "primary": true,
@@ -301,6 +454,33 @@
                     "depth": 1,
                     "wholeRef": "Ketubot 41b:11-54b:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-412"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-412"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "primary": true,
@@ -357,6 +537,33 @@
                     "depth": 1,
                     "wholeRef": "Ketubot 54b:6-65b:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-512"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-512"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "primary": true,
@@ -409,6 +616,33 @@
                     "depth": 1,
                     "wholeRef": "Ketubot 65b:13-70a:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-610"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-610"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "primary": true,
@@ -448,6 +682,33 @@
                     "depth": 1,
                     "wholeRef": "Ketubot 70a:7-77b:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-79"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-79"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "primary": true,
@@ -493,6 +754,33 @@
                     "depth": 1,
                     "wholeRef": "Ketubot 78a:1-82b:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-89"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-89"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "primary": true,
@@ -532,6 +820,33 @@
                     "depth": 1,
                     "wholeRef": "Ketubot 83a:1-90a:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-99"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-99"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "primary": true,
@@ -576,6 +891,33 @@
                     "depth": 1,
                     "wholeRef": "Ketubot 90a:8-95b:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-105"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-105"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
                     "titles": [
                         {
                             "primary": true,
@@ -617,6 +959,33 @@
                     "depth": 1,
                     "wholeRef": "Ketubot 95b:15-101b:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-116"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eleventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-116"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eleventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 11,
                     "titles": [
                         {
                             "primary": true,
@@ -659,6 +1028,33 @@
                     "depth": 1,
                     "wholeRef": "Ketubot 101b:13-104b:18",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-122"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "twelfth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-122"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "twelfth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 12,
                     "titles": [
                         {
                             "primary": true,
@@ -695,6 +1091,44 @@
                     "depth": 1,
                     "wholeRef": "Ketubot 104b:19-112b:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-131"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "thirteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-131"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "thirteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 13,
                     "titles": [
                         {
                             "primary": true,
@@ -775,11 +1209,6 @@
                     "text": "Ket."
                 },
                 {
-                    "primary": true,
-                    "lang": "he",
-                    "text": "כתובות"
-                },
-                {
                     "lang": "he",
                     "text": "כתובו'"
                 },
@@ -790,6 +1219,11 @@
                 {
                     "text": "BT Ketubot",
                     "lang": "en"
+                },
+                {
+                    "text": "כתובות",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Ketubot",

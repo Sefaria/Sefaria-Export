@@ -85,6 +85,15 @@
                 "key": "Dinei Migo"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "hagahot-imrei-barukh",
+                    "choshen-mishpat"
+                ]
+            }
+        ],
         "titles": [
             {
                 "text": "הגהות אמרי ברוך על שלחן ערוך חושן משפט",
@@ -102,14 +111,22 @@
         "key": "Hagahot Imrei Barukh on Shulchan Arukh, Choshen Mishpat"
     },
     "authors": [
-        "Barukh Frankel-Teomim"
+        {
+            "en": "Barukh Frankel-Teomim",
+            "he": "ברוך תאומים-פרנקל",
+            "slug": "barukh-frankel-teomim"
+        }
     ],
+    "pubDate": "1880",
+    "compDate": "1805",
+    "pubPlace": "Vilna",
+    "errorMargin": "25",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Choshen Mishpat",
-            "he": "חושן משפט"
+            "he": "שולחן ערוך, חושן משפט"
         }
     ],
     "collective_title": {
@@ -128,5 +145,9 @@
         "שולחן ערוך",
         "מפרשים",
         "הגהות אמרי ברוך"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1780  - c.1830 CE)",
+        "he": " (1780 - 1830 לספירה בקירוב)"
+    }
 }

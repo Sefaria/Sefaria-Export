@@ -2,7 +2,7 @@
     "title": "Chelkat Mechokek on Job",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Alshich",
         "Writings"
     ],
@@ -10,14 +10,32 @@
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
-            "Integer",
+            "Perek",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "alshich",
+                    "job"
+                ]
+            }
+        ],
+        "lengths": [
+            42,
+            1017,
+            1183
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -49,7 +67,11 @@
         "key": "Chelkat Mechokek on Job"
     },
     "authors": [
-        "Alshikh"
+        {
+            "en": "Alshikh",
+            "he": "אלשיך",
+            "slug": "alshikh"
+        }
     ],
     "enDesc": "A commentary on the book of Proverbs by Rabbi Moshe Alshikh. One of the great rabbis of the heyday of Kabbalah in Safed, he uses different modes of interpretation - including Kabbalah - in order to address various questions he poses on the text.",
     "pubDate": "1603",
@@ -86,7 +108,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "אלשיך",
         "כתובים"
     ],

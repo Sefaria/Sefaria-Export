@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Rosh",
         "Seder Nashim"
     ],
@@ -20,10 +20,33 @@
             "Halakhah",
             "Siman"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rosh",
+                    "nedarim"
+                ]
+            }
+        ],
+        "lengths": [
+            182,
+            97,
+            104
+        ],
+        "referenceableSections": [
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
+                "text": "פסקי הרא\"ש על נדרים",
                 "lang": "he",
-                "text": " פסקי הראש על נדרים",
                 "primary": true
             },
             {
@@ -33,7 +56,7 @@
             }
         ],
         "title": "Rosh on Nedarim",
-        "heTitle": " פסקי הראש על נדרים",
+        "heTitle": "פסקי הרא\"ש על נדרים",
         "heSectionNames": [
             "פרק",
             "הלכה",
@@ -42,7 +65,11 @@
         "key": "Rosh on Nedarim"
     },
     "authors": [
-        "Rosh"
+        {
+            "en": "Rosh",
+            "he": "רא\"ש",
+            "slug": "rosh"
+        }
     ],
     "enDesc": "Talmud commentary written by the the Rosh, Rabbi Asher ben Yehiel, a German and Spanish halakhic authority (c. 1250 - 1327). Having been a leader in both Germany and Spain, the Rosh was familiar with the leading halakhic authorities of both countries and included teachings from both. The Rosh’s commentary displays his independence of judgement as he states his legal opinion according to what he views as most sound, even if it goes against other respected authorities.",
     "pubDate": "1520-23",
@@ -62,12 +89,12 @@
         "en": "Rosh",
         "he": "רא\"ש"
     },
-    "heTitle": " פסקי הראש על נדרים",
+    "heTitle": "פסקי הרא\"ש על נדרים",
     "titleVariants": [
         "Rosh on Nedarim"
     ],
     "heTitleVariants": [
-        " פסקי הראש על נדרים"
+        "פסקי הרא\"ש על נדרים"
     ],
     "sectionNames": [
         "Chapter",
@@ -78,7 +105,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "רא\"ש",
         "סדר נשים"
     ],

@@ -2,7 +2,7 @@
     "title": "Shadal on Leviticus",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
         "Shadal",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "shadal",
+                    "leviticus"
+                ]
+            }
+        ],
+        "lengths": [
+            27,
+            241,
+            294
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -33,13 +51,21 @@
                 "text": "Shadal on Lev"
             },
             {
-                "lang": "he",
+                "text": "שד״ל על ויקרא",
+                "lang": "he"
+            },
+            {
+                "text": "שד”ל על ויקרא",
+                "lang": "he"
+            },
+            {
                 "text": "שד\"ל על ויקרא",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Shadal on Leviticus",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -53,9 +79,13 @@
         "key": "Shadal on Leviticus"
     },
     "authors": [
-        "Shadal"
+        {
+            "en": "Shadal",
+            "he": "שד\"ל",
+            "slug": "shadal"
+        }
     ],
-    "enDesc": "Commentary written by Samuel David Luzzatto (known by the acronym, Shadal), (Italy 1800 – 1865). Shadal’s commentary develops a unique approach to resolving the problem that occurs when the pshat (contextual) meaning of the text conflicts with halakha, as presented in midrash halakha. Shadal argues that the pshat reflects what the Torah means and the midrash reflects the halakha and not biblical interpretation. He claims that instead of being biblical interpretation, the midrash halakha is rabbinic legislation with the desire to take a more lenient position than the Torah text.",
+    "enDesc": "Commentary written by Samuel David Luzzatto (known by the acronym, Shadal), (Italy 1800 – 1865). Shadal’s commentary develops a unique approach to resolving the problem that occurs when the pshat (contextual) meaning of the text conflicts with halakhah, as presented in midrash halakha. Shadal argues that the pshat reflects what the Torah means and the midrash reflects the halakha and not biblical interpretation. He claims that instead of being biblical interpretation, the midrash halakha is rabbinic legislation with the desire to take a more lenient position than the Torah text.",
     "pubDate": "1871",
     "compDate": "1850",
     "compPlace": "Padua",
@@ -83,6 +113,8 @@
         "Shadal on Leviticus"
     ],
     "heTitleVariants": [
+        "שד״ל על ויקרא",
+        "שד”ל על ויקרא",
         "שד\"ל על ויקרא"
     ],
     "sectionNames": [
@@ -93,7 +125,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
         "שד\"ל",
         "תורה"
     ],

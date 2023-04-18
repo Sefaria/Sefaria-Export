@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary"
+        "Rishonim on Talmud"
     ],
     "schema": {
         "nodes": [
@@ -15,6 +15,15 @@
                 ],
                 "sectionNames": [
                     "Paragraph"
+                ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
                 ],
                 "titles": [
                     {
@@ -46,6 +55,15 @@
                     "Daf",
                     "Comment"
                 ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
                 "default": true,
                 "title": "",
                 "heTitle": "",
@@ -54,6 +72,15 @@
                     "פירוש"
                 ],
                 "key": "default"
+            }
+        ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "raah",
+                    "berakhot"
+                ]
             }
         ],
         "titles": [
@@ -73,10 +100,18 @@
         "key": "Chidushei HaRa'ah on Berakhot"
     },
     "authors": [
-        "Aharon HaLevi"
+        {
+            "en": "Aharon HaLevi",
+            "he": "אהרן הלוי",
+            "slug": "aharon-halevi"
+        }
     ],
+    "enShortDesc": "13th-century commentary on the Rif by a student of the Ramban and grandson of the Baal Hameor.",
     "pubDate": "2007",
+    "compDate": "1270",
+    "compPlace": "Middle-Age Spain",
     "pubPlace": "Jerusalem, Israel",
+    "errorMargin": "15",
     "era": "RI",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -99,6 +134,14 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים"
-    ]
+        "ראשונים על התלמוד"
+    ],
+    "compDateString": {
+        "en": " (c.1255  - c.1285 CE)",
+        "he": " (1255 - 1285 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Middle-Age Spain",
+        "he": "ספרד של ימי הביניים"
+    }
 }

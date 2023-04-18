@@ -11,13 +11,26 @@
         "depth": 3,
         "addressTypes": [
             "Siman",
-            "Integer",
+            "SeifKatan",
             "Integer"
         ],
         "sectionNames": [
             "Siman",
             "Seif Katan",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kaf-hachayim",
+                    "yoreh-deah"
+                ]
+            }
+        ],
+        "lengths": [
+            403,
+            8348,
+            8648
         ],
         "toc_zoom": 2,
         "titles": [
@@ -26,8 +39,16 @@
                 "text": "כה\"ח יו\"ד"
             },
             {
-                "lang": "he",
+                "text": "כה״ח יו״ד",
+                "lang": "he"
+            },
+            {
+                "text": "כה”ח יו”ד",
+                "lang": "he"
+            },
+            {
                 "text": "כף החיים על שולחן ערוך יורה דעה",
+                "lang": "he",
                 "primary": true
             },
             {
@@ -46,7 +67,11 @@
         "key": "Kaf HaChayim on Shulchan Arukh, Yoreh De'ah"
     },
     "authors": [
-        "Yaakov Chaim Sofer"
+        {
+            "en": "Yaakov Chaim Sofer",
+            "he": "יעקב חיים סופר",
+            "slug": "yaakov-chaim-sofer"
+        }
     ],
     "enDesc": "Multi-volume digest and commentary on Orach Chaim and Yoreh Deah sections of Shulchan Aruch, especially relied upon by Sephardic Jews.",
     "heDesc": "חיבור הלכתי רב-היקף על חלקי אורח חיים וקצת מיורה דעה שבשלחן ערוך, הנחשב לאחד מחיבורי ההלכה המרכזיים והחשובים לציבור הספרדי.",
@@ -60,7 +85,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan_Arukh,_Yoreh_De'ah",
-            "he": "יורה דעה"
+            "he": "שולחן ערוך, יורה דעה"
         }
     ],
     "collective_title": {
@@ -74,6 +99,8 @@
     ],
     "heTitleVariants": [
         "כה\"ח יו\"ד",
+        "כה״ח יו״ד",
+        "כה”ח יו”ד",
         "כף החיים על שולחן ערוך יורה דעה"
     ],
     "sectionNames": [

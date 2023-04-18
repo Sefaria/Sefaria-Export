@@ -2,7 +2,7 @@
     "title": "Bamidbar Rabbah",
     "categories": [
         "Midrash",
-        "Aggadic Midrash",
+        "Aggadah",
         "Midrash Rabbah"
     ],
     "schema": {
@@ -16,67 +16,96 @@
             "Chapter",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "numbers",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "midrash",
+                    "numbers",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "midrash-rabbah",
+                    "numbers"
+                ]
+            }
+        ],
+        "lengths": [
+            23,
+            444
+        ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Numbers Rabbah"
+                "text": "Numbers Rabbah",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Bemidbar Rabba"
+                "text": "Bemidbar Rabba",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Bamidbar Rabba"
+                "text": "Bamidbar Rabba",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "B'midbar Rabba"
+                "text": "B'midbar Rabba",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "B'midbar Rabbah"
+                "text": "B'midbar Rabbah",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Numbers Rabba"
+                "text": "Numbers Rabba",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "midrash rabbah numbers"
+                "text": "Num. R.",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Num. R."
+                "text": "Numeri Rabbah",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Numeri Rabbah"
+                "text": "Numb. R.",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Numb. R."
+                "text": "Bemidbar Rabbah",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Bemidbar Rabbah"
+                "text": "Num. Rab.",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Num. Rab."
+                "text": "Midrash Rabbah Numbers",
+                "lang": "en"
             },
             {
-                "primary": true,
+                "text": "במ\"ר",
+                "lang": "he"
+            },
+            {
+                "text": "במ״ר",
+                "lang": "he"
+            },
+            {
+                "text": "במ”ר",
+                "lang": "he"
+            },
+            {
+                "text": "במדבר רבה",
                 "lang": "he",
-                "text": "במדבר רבה"
-            },
-            {
-                "lang": "he",
-                "text": "במ\"ר"
-            },
-            {
-                "lang": "he",
-                "text": "במ״ר"
+                "primary": true
             },
             {
                 "text": "Bamidbar Rabbah",
@@ -96,15 +125,19 @@
         4.0
     ],
     "authors": [],
-    "enDesc": "Bamidbar Rabbah (The Great Numbers) is a midrash comprising a collection of rabbinical homiletical interpretations of the Book of Genesis. It contains many simple explanations of words and sentences, often in Aramaic, suitable for the instruction of youth. It also contains varied haggadic expositions popular in the public lectures of the synagogues and schools. The tradition that Rabbi Hoshaiah is the author of Genesis Rabbah may be taken to mean that he began the work as numerous additions have been made over the subsequent years before it was redacted (4th-5th Century CE). The editor strung together various longer or shorter explanations and haggadic interpretations of the successive passages, sometimes anonymously, sometimes citing the author. Even then the text was probably not closed, for longer or shorter passages could always be added, the number of prefatory passages to a section be increased, and those existing be enlarged by accretion.  It is divided into sections variably numbered between 97-101. This arrangement shows some similarity with the triennial reading of the Torah as was practised in Israel.",
-    "heDesc": "",
+    "enDesc": "Bamidbar Rabbah is a 12th-century midrash on the Book of Numbers, consisting of two distinct parts: the first provides verse-by-verse interpretations for the first seven chapters of the Book of Numbers, while the second offers sermons connected to chapter 8-36. The second part is almost identical to the Midrash Tanchuma on these chapters.",
+    "heDesc": "\"במדבר רבה\" הינו מדרש המכיל אוסף פרשנויות חז\"ליות דרשניות לספר במדבר. החיבור מורכב משני חלקים: פרשיות 1 עד 14 מפרשים את פרשות במדבר ונשא, וכוללים גם פירוש דרשני מאוחר על במדבר א-ז. החלק השני, פרשיות 33-15, מצטט את מדרש התנחומא על במדבר ח כמעט מילה במילה. מרבית החוקרים מתארכים את החיבור למאה ה-12.",
+    "enShortDesc": "12th-century midrash on the Book of Numbers with an interpretative part and a homiletic part.",
+    "heShortDesc": "מדרש מן המאה ה-12 על ספר במדבר, ובו שני חלקים: אחד פרשני, והשני דרשני.",
     "pubDate": "1512",
-    "compDate": "400",
+    "compDate": "1200",
     "compPlace": "Talmudic Israel/Babylon",
-    "pubPlace": "Constantinople",
-    "errorMargin": "200",
-    "era": "A",
+    "pubPlace": "Istanbul",
+    "era": "RI",
     "is_cited": true,
+    "corpora": [
+        "Midrash Rabbah"
+    ],
     "heTitle": "במדבר רבה",
     "titleVariants": [
         "Numbers Rabbah",
@@ -113,18 +146,19 @@
         "B'midbar Rabba",
         "B'midbar Rabbah",
         "Numbers Rabba",
-        "midrash rabbah numbers",
         "Num. R.",
         "Numeri Rabbah",
         "Numb. R.",
         "Bemidbar Rabbah",
         "Num. Rab.",
+        "Midrash Rabbah Numbers",
         "Bamidbar Rabbah"
     ],
     "heTitleVariants": [
-        "במדבר רבה",
         "במ\"ר",
-        "במ״ר"
+        "במ״ר",
+        "במ”ר",
+        "במדבר רבה"
     ],
     "sectionNames": [
         "Chapter",
@@ -133,12 +167,12 @@
     "depth": 2,
     "heCategories": [
         "מדרש",
-        "מדרש אגדה",
+        "אגדה",
         "מדרש רבה"
     ],
     "compDateString": {
-        "en": " (c.200  - c.600 CE)",
-        "he": " (200 - 600 לספירה בקירוב)"
+        "en": " (1200 CE)",
+        "he": " (1200 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel/Babylon",

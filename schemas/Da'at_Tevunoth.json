@@ -1,38 +1,45 @@
 {
     "title": "Da'at Tevunoth",
     "categories": [
-        "Kabbalah"
+        "Kabbalah",
+        "Ramchal"
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 1,
+        "depth": 2,
         "addressTypes": [
+            "Integer",
             "Integer"
         ],
         "sectionNames": [
-            "Number"
+            "Chapter",
+            "Paragraph"
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Da'ath Tevunoth"
+                "text": "Daat Tevunoth",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Daat Tevunot"
+                "text": "Daat Tevunot",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Da'at Tevunot"
+                "text": "Da'at Tevunot",
+                "lang": "en"
             },
             {
-                "lang": "he",
+                "text": "The Knowing Heart",
+                "lang": "en"
+            },
+            {
                 "text": "דעת תבונות",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ספר דעת תבונות"
+                "text": "ספר דעת תבונות",
+                "lang": "he"
             },
             {
                 "text": "Da'at Tevunoth",
@@ -43,14 +50,22 @@
         "title": "Da'at Tevunoth",
         "heTitle": "דעת תבונות",
         "heSectionNames": [
-            ""
+            "פרק",
+            "פסקה"
         ],
         "key": "Da'at Tevunoth"
     },
     "authors": [
-        "Moshe Chaim Luzzatto"
+        {
+            "en": "Moshe Chaim Luzzatto",
+            "he": "משה חיים לוצאטו",
+            "slug": "moshe-chaim-luzzatto"
+        }
     ],
     "enDesc": "Written in the form of a dialog between the intellect and the soul, Luzzatto explains God's expectations of man from a kabbalistic perspective.",
+    "heDesc": "",
+    "enShortDesc": "Dialogue between the intellect and the soul about the purpose of the world and humankind, in accessible language.",
+    "heShortDesc": "ויכוח בין השכל לנשמה על משמעות העולם והאנושות, נכתב בשפה ברורה ונגישה.",
     "pubDate": "1899",
     "compDate": "1739",
     "compPlace": "Amsterdam",
@@ -59,9 +74,10 @@
     "era": "AH",
     "heTitle": "דעת תבונות",
     "titleVariants": [
-        "Da'ath Tevunoth",
+        "Daat Tevunoth",
         "Daat Tevunot",
         "Da'at Tevunot",
+        "The Knowing Heart",
         "Da'at Tevunoth"
     ],
     "heTitleVariants": [
@@ -69,11 +85,13 @@
         "ספר דעת תבונות"
     ],
     "sectionNames": [
-        "Number"
+        "Chapter",
+        "Paragraph"
     ],
-    "depth": 1,
+    "depth": 2,
     "heCategories": [
-        "קבלה"
+        "קבלה",
+        "רמח\"ל"
     ],
     "compDateString": {
         "en": " (c.1735  - c.1743 CE)",

@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "orlah"
+                ]
+            }
+        ],
         "lengths": [
             3,
             35
@@ -31,11 +50,6 @@
             {
                 "lang": "en",
                 "text": "M. Orlah"
-            },
-            {
-                "lang": "he",
-                "text": "משנה ערלה",
-                "primary": true
             },
             {
                 "lang": "he",
@@ -58,8 +72,13 @@
                 "text": "Mishnah ʿOrlah"
             },
             {
-                "lang": "en",
+                "text": "משנה ערלה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Orlah",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -77,6 +96,8 @@
     ],
     "authors": [],
     "enDesc": "Orlah (Blockage [of Trees]) belongs to the first order, Zera'im (seeds) and discusses the first-fruit gifts to the Kohanim and Temple, as stated in Exodus 23:19; Deuteronomy 26:1. It consists of three to four chapters.",
+    "enShortDesc": "Fruit growing on a tree in its first three years, when benefitting from the fruit is prohibited.",
+    "heShortDesc": "האיסור לאכול וליהנות מפירות העץ בשלוש השנים הראשונות לנטיעתו ודיני תערובות של מאכלים אסורים ומותרים לאכילה.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -84,6 +105,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה ערלה",
     "titleVariants": [
         "M Orlah",
@@ -96,8 +120,8 @@
         "Mishnah Orlah"
     ],
     "heTitleVariants": [
-        "משנה ערלה",
-        "ערלה"
+        "ערלה",
+        "משנה ערלה"
     ],
     "sectionNames": [
         "Chapter",

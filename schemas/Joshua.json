@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "joshua"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "joshua"
+                ]
+            }
         ],
         "lengths": [
             24,
@@ -41,18 +54,22 @@
                 "lang": "en"
             },
             {
-                "primary": true,
-                "text": "יהושע",
-                "lang": "he"
+                "text": "Josué",
+                "lang": "en"
             },
             {
                 "text": "יהושוע",
                 "lang": "he"
             },
             {
-                "primary": true,
+                "text": "יהושע",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Joshua",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Joshua",
@@ -67,13 +84,20 @@
         6,
         1
     ],
-    "enDesc": "The first of the four books making up the Neviim Rishonim (Early Prophets) - Joshua begins with a commandment to take possession of Canaan and a warning to Joshua to keep faith with the Covenant. Then the Israelites cross the Jordan through the miraculous intervention of God and the Ark of the Covenant and are circumcised. The conquest of Canaan begins with Jericho and Ai and renewal of the Berit (Covenant). The book continues with the conquest of the south of country before the narratives moves on to the northern campaign. Joshua defeats a multi-ethic coalition headed by the King of Hazor. The book shifts from the conquest of the land to its division between the tribes. The book concludes with Joshua charging the leaders of Israel to remain faithful to God and a warning of the consequences of not doing so.",
+    "authors": [],
+    "enDesc": "Joshua (“Yehoshua”) is the first book of the Prophets, beginning after the death of Moses and marking the onset of a new chapter for the Israelites as they settle in their homeland. Under Joshua’s leadership, the Israelites send spies and prepare to enter Israel. They cross the Jordan river with divine intervention and begin conquering, starting with the miraculous fall of Jericho’s walls. The book’s second half describes the dividing of land among Israel’s tribes and ends with Joshua’s death.",
+    "heDesc": "יהושע, הספר הפותח את ספרי נביאים, עוסק בתקופה חדשה המתחילה עם מות משה וכניסת בני ישראל לארץ. בהנהגתו של יהושע, בני ישראל שולחים מרגלים לתור את הארץ ומתכוננים לקראת הכניסה. הם חוצים את הירדן בהתערבות אלוהית ומתחילים לכבוש את הארץ עם הפלת חומות יריחו. במחצית השנייה של הספר מתוארת חלוקת הארץ בין שבטי ישראל, והספר נחתם בנאום הפרידה של יהושע מהעם ובמותו.",
+    "enShortDesc": "The Israelites enter, conquer, and settle Israel under the leadership of Joshua.",
+    "heShortDesc": "תחת הנהגתו של יהושע, בני ישראל נכנסים לארץ ישראל, כובשים אותה ומתיישבים בה.",
     "pubDate": "1488",
     "compDate": "-900",
     "compPlace": "Canaan",
     "pubPlace": "Soncino",
     "errorMargin": "400",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "יהושע",
     "titleVariants": [
         "Jos",
@@ -81,11 +105,12 @@
         "Jos.",
         "Josh",
         "Josh.",
+        "Josué",
         "Joshua"
     ],
     "heTitleVariants": [
-        "יהושע",
-        "יהושוע"
+        "יהושוע",
+        "יהושע"
     ],
     "sectionNames": [
         "Chapter",

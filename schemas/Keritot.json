@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "keritot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "keritot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "keritot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "keritot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "keritot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "keritot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "keritot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "keritot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "keritot"
+                ]
+            }
+        ],
         "lengths": [
-            54,
-            3648
+            56,
+            1211
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -50,11 +114,6 @@
                 "lang": "en"
             },
             {
-                "text": "כריתות",
-                "primary": true,
-                "lang": "he"
-            },
-            {
                 "text": "Ker.",
                 "lang": "en"
             },
@@ -69,6 +128,11 @@
             {
                 "text": "BT Keritot",
                 "lang": "en"
+            },
+            {
+                "text": "כריתות",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Keritot",
@@ -89,12 +153,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         34,
         7
     ],
     "authors": [],
-    "enDesc": "Keritot (Excisions) belongs to the fifth order, Kodshim (Holy things) and discusses the commandments for which the penalty is karet \"excision\") as well as the sacrifices associated with their (mostly unwitting) transgression. It has six chapters.",
+    "enDesc": "Keritot (plural of “Karet,” or the punishment of divinely-issued severance from the Jewish people) is a tractate within Seder Kodashim (“Order of Holy Things”). It mainly discusses prohibitions for which the Torah imposes karet for those who knowingly transgress. It also discusses the sin offering brought when one unintentionally violates these prohibitions (chatat), as well as the provisional guilt offering brought when one is unsure if they violated these prohibitions (asham).",
+    "enShortDesc": "Karet, divinely-issued severance from the Jewish people, and sacrifices for unintentional sin.",
+    "heShortDesc": "עונש כרת וקורבנות על חטאים שנעשו בשגגה.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -102,6 +171,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "כריתות",
     "titleVariants": [
         "Talmud Keritot",
@@ -128,6 +200,33 @@
                     "depth": 1,
                     "wholeRef": "Keritot 2a:1-8b:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-114"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-114"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -171,6 +270,33 @@
                     "depth": 1,
                     "wholeRef": "Keritot 8b:4-11b:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-213"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-213"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -207,6 +333,33 @@
                     "depth": 1,
                     "wholeRef": "Keritot 11b:6-17a:25",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-313"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-313"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -248,6 +401,33 @@
                     "depth": 1,
                     "wholeRef": "Keritot 17a:26-20b:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-411"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-411"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -285,6 +465,33 @@
                     "depth": 1,
                     "wholeRef": "Keritot 20b:7-23b:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-511"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-511"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -321,6 +528,44 @@
                     "depth": 1,
                     "wholeRef": "Keritot 23b:12-28b:9",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-69"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-69"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -387,11 +632,6 @@
                     "lang": "en"
                 },
                 {
-                    "text": "כריתות",
-                    "primary": true,
-                    "lang": "he"
-                },
-                {
                     "text": "Ker.",
                     "lang": "en"
                 },
@@ -406,6 +646,11 @@
                 {
                     "text": "BT Keritot",
                     "lang": "en"
+                },
+                {
+                    "text": "כריתות",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Keritot",

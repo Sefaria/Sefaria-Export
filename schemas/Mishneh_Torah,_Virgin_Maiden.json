@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "virgin-maiden"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "virgin-maiden"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "virgin-maiden"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "virgin-maiden"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "virgin-maiden"
+                ]
+            }
+        ],
         "lengths": [
-            3
+            3,
+            44
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות נערה בתולה",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות נערה בתולה"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' נערה בתולה"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות נערה בתולה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות נערה בתולה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' נערה בתולה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' נערה בתולה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות נערה בתולה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות נערה בתולה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' נערה בתולה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' נערה בתולה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות נערה בתולה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Virgin Maiden",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,7 +167,11 @@
         4
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The fourth book is Nashim (Women). Naarah Betulah: the law of a man who seduces or rapes an unmarried woman.",
     "pubDate": "1474",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Virgin Maiden"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות נערה בתולה",
         "רמב\"ם, הלכות נערה בתולה",
         "משנה תורה, הל' נערה בתולה",
         "רמב\"ם, הל' נערה בתולה",
         "רמב\"ם הלכות נערה בתולה",
-        "רמב\"ם הל' נערה בתולה"
+        "רמב\"ם הל' נערה בתולה",
+        "רמב״ם, הלכות נערה בתולה",
+        "רמב”ם, הלכות נערה בתולה",
+        "רמב״ם, הל' נערה בתולה",
+        "רמב”ם, הל' נערה בתולה",
+        "רמב״ם הלכות נערה בתולה",
+        "רמב”ם הלכות נערה בתולה",
+        "רמב״ם הל' נערה בתולה",
+        "רמב”ם הל' נערה בתולה",
+        "משנה תורה, הלכות נערה בתולה"
     ],
     "sectionNames": [
         "Chapter",

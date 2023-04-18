@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "paschal-offering"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "paschal-offering"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "paschal-offering"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "paschal-offering"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "paschal-offering"
+                ]
+            }
+        ],
         "lengths": [
-            10
+            10,
+            125
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות קרבן פסח",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות קרבן פסח"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' קרבן פסח"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות קרבן פסח",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות קרבן פסח",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' קרבן פסח",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' קרבן פסח",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות קרבן פסח",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות קרבן פסח",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' קרבן פסח",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' קרבן פסח",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות קרבן פסח",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Paschal Offering",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,9 +167,13 @@
         1
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The ninth book is Korbanot (Offerings): laws for offerings in the Temple, excepting those of the whole community. Hilchot Korban Pesah.",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Paschal Offering"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות קרבן פסח",
         "רמב\"ם, הלכות קרבן פסח",
         "משנה תורה, הל' קרבן פסח",
         "רמב\"ם, הל' קרבן פסח",
         "רמב\"ם הלכות קרבן פסח",
-        "רמב\"ם הל' קרבן פסח"
+        "רמב\"ם הל' קרבן פסח",
+        "רמב״ם, הלכות קרבן פסח",
+        "רמב”ם, הלכות קרבן פסח",
+        "רמב״ם, הל' קרבן פסח",
+        "רמב”ם, הל' קרבן פסח",
+        "רמב״ם הלכות קרבן פסח",
+        "רמב”ם הלכות קרבן פסח",
+        "רמב״ם הל' קרבן פסח",
+        "רמב”ם הל' קרבן פסח",
+        "משנה תורה, הלכות קרבן פסח"
     ],
     "sectionNames": [
         "Chapter",

@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Rosh",
         "Seder Nezikin"
     ],
@@ -20,10 +20,33 @@
             "Halakhah",
             "Siman"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rosh",
+                    "sanhedrin"
+                ]
+            }
+        ],
+        "lengths": [
+            226,
+            94,
+            115
+        ],
+        "referenceableSections": [
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
+                "text": "פסקי הרא\"ש על סנהדרין",
                 "lang": "he",
-                "text": " פסקי הראש על סנהדרין",
                 "primary": true
             },
             {
@@ -33,7 +56,7 @@
             }
         ],
         "title": "Rosh on Sanhedrin",
-        "heTitle": " פסקי הראש על סנהדרין",
+        "heTitle": "פסקי הרא\"ש על סנהדרין",
         "heSectionNames": [
             "פרק",
             "הלכה",
@@ -42,7 +65,11 @@
         "key": "Rosh on Sanhedrin"
     },
     "authors": [
-        "Rosh"
+        {
+            "en": "Rosh",
+            "he": "רא\"ש",
+            "slug": "rosh"
+        }
     ],
     "enDesc": "Talmud commentary written by the the Rosh, Rabbi Asher ben Yehiel, a German and Spanish halakhic authority (c. 1250 - 1327). Having been a leader in both Germany and Spain, the Rosh was familiar with the leading halakhic authorities of both countries and included teachings from both. The Rosh’s commentary displays his independence of judgement as he states his legal opinion according to what he views as most sound, even if it goes against other respected authorities.",
     "compDate": "1300",
@@ -61,12 +88,12 @@
         "en": "Rosh",
         "he": "רא\"ש"
     },
-    "heTitle": " פסקי הראש על סנהדרין",
+    "heTitle": "פסקי הרא\"ש על סנהדרין",
     "titleVariants": [
         "Rosh on Sanhedrin"
     ],
     "heTitleVariants": [
-        " פסקי הראש על סנהדרין"
+        "פסקי הרא\"ש על סנהדרין"
     ],
     "sectionNames": [
         "Chapter",
@@ -77,7 +104,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "רא\"ש",
         "סדר נזיקין"
     ],

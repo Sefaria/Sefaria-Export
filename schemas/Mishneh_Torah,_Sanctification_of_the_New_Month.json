@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "sanctification-of-the-new-month"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "sanctification-of-the-new-month"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "sanctification-of-the-new-month"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "sanctification-of-the-new-month"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "sanctification-of-the-new-month"
+                ]
+            }
+        ],
         "lengths": [
-            19
+            19,
+            235
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות קידוש החודש",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות קידוש החודש"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' קידוש החודש"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות קידוש החודש",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות קידוש החודש",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' קידוש החודש",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' קידוש החודש",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות קידוש החודש",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות קידוש החודש",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' קידוש החודש",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' קידוש החודש",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות קידוש החודש",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Sanctification of the New Month",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,7 +167,11 @@
         8
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The third book is Zemanim (Times). Laws of Rosh Hodesh (New Moon).",
     "pubDate": "1474",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Sanctification of the New Month"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות קידוש החודש",
         "רמב\"ם, הלכות קידוש החודש",
         "משנה תורה, הל' קידוש החודש",
         "רמב\"ם, הל' קידוש החודש",
         "רמב\"ם הלכות קידוש החודש",
-        "רמב\"ם הל' קידוש החודש"
+        "רמב\"ם הל' קידוש החודש",
+        "רמב״ם, הלכות קידוש החודש",
+        "רמב”ם, הלכות קידוש החודש",
+        "רמב״ם, הל' קידוש החודש",
+        "רמב”ם, הל' קידוש החודש",
+        "רמב״ם הלכות קידוש החודש",
+        "רמב”ם הלכות קידוש החודש",
+        "רמב״ם הל' קידוש החודש",
+        "רמב”ם הל' קידוש החודש",
+        "משנה תורה, הלכות קידוש החודש"
     ],
     "sectionNames": [
         "Chapter",

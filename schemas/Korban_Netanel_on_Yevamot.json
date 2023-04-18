@@ -3,6 +3,8 @@
     "categories": [
         "Talmud",
         "Bavli",
+        "Rishonim on Talmud",
+        "Rosh",
         "Commentary",
         "Korban Netanel",
         "Seder Nashim"
@@ -18,6 +20,27 @@
             "Seif",
             "siman"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "korban-netanel",
+                    "yevamot"
+                ]
+            }
+        ],
+        "lengths": [
+            244,
+            537
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -25,8 +48,8 @@
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Korban Netanel on Yevamot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -39,9 +62,13 @@
         "key": "Korban Netanel on Yevamot"
     },
     "authors": [
-        "Nathaniel Weil"
+        {
+            "en": "Nathaniel Weil",
+            "he": "נתנאל וייל",
+            "slug": "nathaniel-weil"
+        }
     ],
-    "enDesc": "Commentary of Rabbi Nathaniel Weil (Germany, 1687 –1769) on Rabbi Asher ben Yehiel’s \"Piskei HaRosh\".",
+    "enDesc": "Commentary of Rabbi Nathaniel Weil (Germany, 1687–1769) on Rabbeinu Asher ben Yechiel’s \"Piskei HaRosh.\"",
     "pubDate": "1755",
     "compDate": "1750",
     "compPlace": "Mühringen",
@@ -75,6 +102,8 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
+        "ראשונים על התלמוד",
+        "רא\"ש",
         "מפרשים",
         "קרבן נתנאל",
         "סדר נשים"

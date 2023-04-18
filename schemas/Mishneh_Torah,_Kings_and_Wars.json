@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "kings-and-wars"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "kings-and-wars"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "kings-and-wars"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "kings-and-wars"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "kings-and-wars"
+                ]
+            }
+        ],
         "lengths": [
-            12
+            12,
+            131
         ],
         "titles": [
             {
@@ -66,11 +101,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות מלכים ומלחמות",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות מלכים ומלחמות"
             },
             {
@@ -98,8 +128,45 @@
                 "text": "הל' מלכים"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות מלכים ומלחמות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות מלכים ומלחמות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' מלכים ומלחמות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' מלכים ומלחמות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות מלכים ומלחמות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות מלכים ומלחמות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' מלכים ומלחמות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' מלכים ומלחמות",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות מלכים ומלחמות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Kings and Wars",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -116,7 +183,11 @@
         5
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The fourteenth book is Sefer Shofetim (Judges: the laws relating legislators, the Sanhedrin, the king, and the judges — it also addresses the Noahide Laws and those pertaining to Messianic times). Hilchot Melachim Umilhamoteyhem (Kings and their wars‎)",
     "pubDate": "1474",
@@ -142,14 +213,22 @@
         "Mishneh Torah, Kings and Wars"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות מלכים ומלחמות",
         "רמב\"ם, הלכות מלכים ומלחמות",
         "משנה תורה, הל' מלכים ומלחמות",
         "רמב\"ם, הל' מלכים ומלחמות",
         "רמב\"ם הלכות מלכים ומלחמות",
         "רמב\"ם הל' מלכים ומלחמות",
         "הלכות מלכים",
-        "הל' מלכים"
+        "הל' מלכים",
+        "רמב״ם, הלכות מלכים ומלחמות",
+        "רמב”ם, הלכות מלכים ומלחמות",
+        "רמב״ם, הל' מלכים ומלחמות",
+        "רמב”ם, הל' מלכים ומלחמות",
+        "רמב״ם הלכות מלכים ומלחמות",
+        "רמב”ם הלכות מלכים ומלחמות",
+        "רמב״ם הל' מלכים ומלחמות",
+        "רמב”ם הל' מלכים ומלחמות",
+        "משנה תורה, הלכות מלכים ומלחמות"
     ],
     "sectionNames": [
         "Chapter",

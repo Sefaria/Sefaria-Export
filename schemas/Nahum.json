@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "nahum"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "nahum"
+                ]
+            }
         ],
         "lengths": [
             3,
@@ -21,21 +34,25 @@
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Nah."
+                "text": "Nah.",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Nah"
+                "text": "Nah",
+                "lang": "en"
             },
             {
-                "lang": "he",
+                "text": "Nachum",
+                "lang": "en"
+            },
+            {
                 "text": "נחום",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Nahum",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -51,17 +68,25 @@
         21,
         16
     ],
-    "enDesc": "The Book of Nahum is the seventh of the Tere Asar (Twelve Minor Prophets). The term denotes the short length of the text in relation to the longer prophetic texts known as the Major Prophets. According to some, Nahum prophesies at the beginning of the reign of Ahaz. Others, however, think that his prophecies refer to the latter half of the reign of Hezekiah. The book of Nahum consists of two parts: Chapter one shows the majesty and might of God in goodness and severity. Chapters two and three describe the fall of Nineveh the capital of the Assyrian empire.",
+    "authors": [],
+    "enDesc": "Nahum is one of the 12 books of Minor Prophets (“Trei Asar”), taking place in the 7th century BCE. Unlike most other prophets, Nahum (whose name means “comfort”) does not rebuke or call for reform, but instead praises God and celebrates the downfall of the powerful and oppressive Assyrian empire. He describes the destruction of its capital, Nineveh, and the resulting salvation of Israel.",
+    "heDesc": "ספר נחום הוא חלק מתרי עשר, קובץ הכולל ספרי נבואה קצרים. בניגוד לנביאים אחרים, דבריו של נחום אינם מוכיחים על חטאים או קוראים לחזרה בתשובה אלא כוללים שירי הלל לאלוהים על מפלתה של האימפריה האשורית בתקופת בית המקדש הראשון. הנביא מתאר את חורבן נינוה בירת אשור ואת ישועת ישראל.",
+    "enShortDesc": "A celebratory prophecy about the downfall of the Assyrian empire, an oppressor of Israel.",
+    "heShortDesc": "נבואה חגיגית על נפילת ממלכת אשור - צוררת ישראל.",
     "pubDate": "1488",
     "compDate": "-650",
     "compPlace": "Judea/Israel",
     "pubPlace": "Soncino",
     "errorMargin": "50",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "נחום",
     "titleVariants": [
         "Nah.",
         "Nah",
+        "Nachum",
         "Nahum"
     ],
     "heTitleVariants": [

@@ -2,7 +2,7 @@
     "title": "Malbim on Genesis",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
         "Malbim",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "malbim",
+                    "genesis"
+                ]
+            }
+        ],
+        "lengths": [
+            50,
+            1042,
+            1202
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -49,7 +67,11 @@
         "key": "Malbim on Genesis"
     },
     "authors": [
-        "Malbim"
+        {
+            "en": "Malbim",
+            "he": "מלבי\"ם",
+            "slug": "malbim"
+        }
     ],
     "enDesc": "Popular Biblical commentary by Rabbi Meir Leibush ben Yehiel Michel Wisser (Malbim). A trademark of the Malbim’s commentary is his belief that there are no synonyms or repetition in the Tanakh. Each word represents a different idea or concept.",
     "heDesc": "פירוש פופולרי על תנ\"ך של ר' מאיר לייבוש בן יחיאל מיכל ויסר (מלבי\"ם). בפירושו לחומש הוא מביא את מדרשי ההלכה ודן בהם בהשוואה לפשט הפסוקים תוך דיוקים בדקדוק המקרא. המלבי\"ם נודע בדרך ייחודית בפירושו למקרא, ולשיטתו אין שום חזרה וכפילות בפסוקים ('מילים נרדפות' כפי שכונה על ידי מפרשים אחרים), אלא כל מילה מייצגת מושג או רעיון אחר.",
@@ -86,7 +108,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
         "מלבי\"ם",
         "תורה"
     ],

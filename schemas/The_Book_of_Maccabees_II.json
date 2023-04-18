@@ -1,6 +1,7 @@
 {
     "title": "The Book of Maccabees II",
     "categories": [
+        "Second Temple",
         "Apocrypha"
     ],
     "schema": {
@@ -8,11 +9,28 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "i-maccabees1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sefer",
+                    "i-maccabees1"
+                ]
+            }
+        ],
+        "lengths": [
+            15,
+            660
         ],
         "titles": [
             {
@@ -25,16 +43,16 @@
             },
             {
                 "lang": "he",
-                "text": "ספר מקבים ב",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "ספר חשמונאים ב"
             },
             {
                 "lang": "en",
                 "text": "II Macc."
+            },
+            {
+                "text": "ספר מקבים ב",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "The Book of Maccabees II",
@@ -51,8 +69,10 @@
         "key": "The Book of Maccabees II"
     },
     "authors": [],
-    "enDesc": "2 Maccabees is a deuterocanonical book which focuses on the Jews' revolt against Antiochus IV Epiphanes and concludes with the defeat of the Syrian general Nicanor in 161 BC by Judas Maccabeus, the hero of the work. Unlike 1 Maccabees, 2 Maccabees was written in Koine Greek,[1] probably Alexandria, Egypt, c 124 BC. It presents a revised version of the historical events recounted in the first seven chapters of 1 Maccabees, adding material from the Pharisaic tradition, including prayer for the dead and the resurrection on Judgement Day. Catholics and Orthodox consider the work to be canonical and part of the Bible. Protestants and Jews reject most of the doctrinal innovations present in the work. Some Protestants include 2 Maccabees as part of the Biblical Apocrypha, useful for reading in the church. Article VI of the Thirty-Nine Articles of the Church of England defines it as useful but not the basis of doctrine and not necessary for salvation.",
-    "heDesc": "ספר מקבים ב' הינו ספר חיצוני, המתמקד במרד היהודי נגד אנטיוכוס הרביעי (אנטיוכוס אפיפאנס) ונחתם בהבסת הגנרל הסורי ניקנור, בשנת 161, על ידי יהודה המכבי, גיבור היצירה. שלא כמו ספר מקבים א', מקבים ב' נכתב ביוונית קוינה, ככל הנראה באלכסנדריה, מצרים, סביבות השנה 124 לפני הספירה. הספר מציג גרסה 'מתוקנת' של האירועים ההיסטוריים המסופרים בשבעת הפרקים הראשונים של מקבים א', בתוספת חומר מהמסורת הפרושית, הכולל תפילה עבור המתים ותחיית המתים ביום הדין. נוצרים קתוליים ואורתודוכסיים מחשיבים את היצירה לחלק קאנוני של התנ\"ך. נוצרים פרוטסטנטיים ויהודים דוחים את מרבית החידושים הדוקטרינליים המצויים ביצירה. ישנם נוצרים פרוטסטנטיים הכוללים את מקבים ב' כחלק מהספרות החיצונית לתנ\"ך, אותה מקריאים בכנסייה. העיקרון השישי מתוך שלושים ותשעת העקרונות של כנסיית אנגלית מגדיר את הספר כשימושי, אך לא כבסיס לדוקטרינה וכבלתי נחוץ להשגת הישועה.",
+    "enDesc": "The Book of Maccabees II is an apocryphal summary of a five-volume work that has not been preserved, likely composed in the 2nd century BCE and detailing events of that century that formed the basis of the Chanukah story. It focuses on accounts of hellenization, persecution of Jews under King Antiochus, and battles of Judah Maccabee. Unlike Maccabees I, it was composed in Greek and has a strong religious tone; it incorporates much supernatural intervention and emphasizes religious martyrdom with stories like that of the Jewish woman and her seven sons (II Maccabees 7). The work has no official status in Judaism, but it is often studied to enrich the understanding of Chanukah.",
+    "heDesc": "ספר מקבים ב' הינו ספר חיצוני, המתמקד במרד היהודי נגד אנטיוכוס הרביעי (אנטיוכוס אפיפאנס) ונחתם בהבסת הגנרל הסורי ניקנור, בשנת 161, על ידי יהודה המקבי, גיבור היצירה. שלא כמו ספר מקבים א', מקבים ב' נכתב ביוונית קוינה, ככל הנראה באלכסנדריה, מצרים, סביבות השנה 124 לפני הספירה. הספר מציג גרסה 'מתוקנת' של האירועים ההיסטוריים המסופרים בשבעת הפרקים הראשונים של מקבים א', בתוספת חומר מהמסורת הפרושית, הכולל תפילה עבור המתים ותחיית המתים ביום הדין. נוצרים קתוליים ואורתודוכסיים מחשיבים את היצירה לחלק קאנוני של התנ\"ך. נוצרים פרוטסטנטיים ויהודים דוחים את מרבית החידושים הדוקטרינליים המצויים ביצירה. ישנם נוצרים פרוטסטנטיים הכוללים את מקבים ב' כחלק מהספרות החיצונית לתנ\"ך, אותה מקריאים בכנסייה. העיקרון השישי מתוך שלושים ותשעת העקרונות של כנסיית אנגלית מגדיר את הספר כשימושי, אך לא כבסיס לדוקטרינה וכבלתי נחוץ להשגת הישועה.",
+    "enShortDesc": "Accounts of hellenization, persecution of Jews under Antiochus, and battles of Judah Maccabee.",
+    "heShortDesc": "תקופת ההלניזם, רדיפת היהודים בימי שלטון אנטיוכוס וקרבות יהודה המקבי.",
     "compDate": "-143",
     "compPlace": "Hellenistic Egypt",
     "errorMargin": "10",
@@ -65,8 +85,8 @@
         "The Book of Maccabees II"
     ],
     "heTitleVariants": [
-        "ספר מקבים ב",
-        "ספר חשמונאים ב"
+        "ספר חשמונאים ב",
+        "ספר מקבים ב"
     ],
     "sectionNames": [
         "Chapter",
@@ -74,6 +94,7 @@
     ],
     "depth": 2,
     "heCategories": [
+        "בית שני",
         "ספרים חיצונים"
     ],
     "compDateString": {

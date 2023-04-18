@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Tosafot Shantz",
         "Seder Nashim"
     ],
@@ -17,6 +17,19 @@
         "sectionNames": [
             "Daf",
             "Comment"
+        ],
+        "lengths": [
+            98,
+            211
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,7 +52,11 @@
         "key": "Tosafot Shantz on Sotah"
     },
     "authors": [
-        "Samson ben Abraham of Sens"
+        {
+            "en": "Samson ben Abraham of Sens",
+            "he": "שמשון בן אברהם משאנץ",
+            "slug": "samson-ben-abraham-of-sens"
+        }
     ],
     "enDesc": "A group of highly influential writings from the French school of Tosafists, partially reflective of the teaching of Rabbi Yitzchak (known by his initials as RI) of Dampierre.",
     "compDate": "1195",
@@ -72,7 +89,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "תוספות שאנץ",
         "סדר נשים"
     ],

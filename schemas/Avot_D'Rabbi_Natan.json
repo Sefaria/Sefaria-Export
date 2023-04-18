@@ -1,7 +1,8 @@
 {
     "title": "Avot D'Rabbi Natan",
     "categories": [
-        "Tanaitic",
+        "Talmud",
+        "Bavli",
         "Minor Tractates"
     ],
     "schema": {
@@ -14,6 +15,23 @@
         "sectionNames": [
             "Chapter",
             "Halakhah"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "avot-drabbi-natan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "avot-drabbi-natan"
+                ]
+            }
+        ],
+        "lengths": [
+            41,
+            253
         ],
         "titles": [
             {
@@ -37,9 +55,21 @@
                 "lang": "en"
             },
             {
-                "primary": true,
+                "text": "Avot D’Rebbe Natan",
+                "lang": "en"
+            },
+            {
+                "text": "Avos d'Rabbi Natan",
+                "lang": "en"
+            },
+            {
+                "text": "Avos d'rebbe Natan",
+                "lang": "en"
+            },
+            {
                 "text": "אבות דרבי נתן",
-                "lang": "he"
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Avot D'Rabbi Natan",
@@ -56,7 +86,9 @@
         "key": "Avot D'Rabbi Natan"
     },
     "authors": [],
-    "enDesc": "The minor tractates (Masekhtot Ketanot) are essays from the Tannaitic period or later dealing with topics about which no formal tractate exists in the Mishnah. The first eight or so contain much original material; the last seven or so are collections of material scattered throughout the Talmud. Avot of Rabbi Natan (Fathers of Rabbi Nathan). The Schechter edition contains two different versions (version A has 41 chapters and version B has 48).",
+    "enDesc": "Avot d’Rabbi Natan (“Fathers of Rabbi Nathan”) is a companion volume to Pirkei Avot, presenting maxims of wisdom alongside explanations and stories. Like Pirkei Avot, its organization is chronological, beginning with statements of early rabbis and continuing through successive generations of rabbis. The date of its composition and its precise relationship to Pirkei Avot are matters of debate.",
+    "enShortDesc": "Companion volume to Pirkei Avot with maxims of wisdom alongside explanations and stories.",
+    "heShortDesc": "חיבור המקביל בתוכנו לפרקי אבות, ומכיל דברי חכמה לצד פירושים ואגדות.",
     "pubDate": "1550",
     "compDate": "800",
     "compPlace": "Talmudic Israel/Babylon",
@@ -71,6 +103,9 @@
         "Aboth d. R. Nathan",
         "Aboth de R. Nathan",
         "Aboth d. R. Nathan (<i>a</i>)",
+        "Avot D’Rebbe Natan",
+        "Avos d'Rabbi Natan",
+        "Avos d'rebbe Natan",
         "Avot D'Rabbi Natan"
     ],
     "heTitleVariants": [
@@ -82,7 +117,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
+        "תלמוד",
+        "בבלי",
         "מסכתות קטנות"
     ],
     "compDateString": {

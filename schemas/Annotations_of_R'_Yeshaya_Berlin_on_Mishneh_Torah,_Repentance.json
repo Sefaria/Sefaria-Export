@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "annotations-of-r-yeshaya-berlin",
+                    "hilchot",
+                    "repentance"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "annotations-of-r-yeshaya-berlin",
+                    "repentance"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            3,
+            3
+        ],
         "titles": [
             {
                 "text": "חידושים והגהות הגרי\"ב על משנה תורה, הלכות תשובה",
@@ -42,7 +62,11 @@
         "key": "Annotations of R' Yeshaya Berlin on Mishneh Torah, Repentance"
     },
     "authors": [
-        "Isaiah Berlin"
+        {
+            "en": "Isaiah Berlin",
+            "he": "ישעיה פיק ברלין",
+            "slug": "isaiah-berlin"
+        }
     ],
     "compDate": "1775",
     "pubPlace": "Jerusalem, Israel",

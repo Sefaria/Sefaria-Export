@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "divorce"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "divorce"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "divorce"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "divorce"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "divorce"
+                ]
+            }
+        ],
         "lengths": [
-            13
+            13,
+            333
         ],
         "titles": [
             {
@@ -70,11 +105,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות גירושין",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות גירושין"
             },
             {
@@ -94,8 +124,45 @@
                 "text": "רמב\"ם הל' גירושין"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות גירושין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות גירושין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' גירושין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' גירושין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות גירושין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות גירושין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' גירושין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' גירושין",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות גירושין",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Divorce",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -112,7 +179,11 @@
         2
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The fourth book is Nashim (Women). Gerushin: laws of divorce.",
     "pubDate": "1474",
@@ -139,12 +210,20 @@
         "Mishneh Torah, Divorce"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות גירושין",
         "רמב\"ם, הלכות גירושין",
         "משנה תורה, הל' גירושין",
         "רמב\"ם, הל' גירושין",
         "רמב\"ם הלכות גירושין",
-        "רמב\"ם הל' גירושין"
+        "רמב\"ם הל' גירושין",
+        "רמב״ם, הלכות גירושין",
+        "רמב”ם, הלכות גירושין",
+        "רמב״ם, הל' גירושין",
+        "רמב”ם, הל' גירושין",
+        "רמב״ם הלכות גירושין",
+        "רמב”ם הלכות גירושין",
+        "רמב״ם הל' גירושין",
+        "רמב”ם הל' גירושין",
+        "משנה תורה, הלכות גירושין"
     ],
     "sectionNames": [
         "Chapter",

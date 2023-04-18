@@ -7,44 +7,88 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "orlah"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "orlah"
+            ]
+        },
         "lengths": [
-            40,
-            78
+            3,
+            21,
+            176
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "JT Orlah"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Orlah"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Orlah"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי ערלה",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי ערלה"
+                "text": "JT Orlah",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Orl."
+                "text": "Talmud Yerushalmi Orlah",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Orlah",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי ערלה",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Orl.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Orlah",
@@ -55,23 +99,27 @@
         "title": "Jerusalem Talmud Orlah",
         "heTitle": "תלמוד ירושלמי ערלה",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Orlah"
     },
     "order": [
         10
     ],
-    "authors": [],
     "enDesc": "Orlah (Blockage [of Trees]) belongs to the first order, Zera'im (seeds) and discusses the first-fruit gifts to the Kohanim and Temple, as stated in Exodus 23:19; Deuteronomy 26:1. It consists of three to four chapters. Orlah (Blockage [of Trees]) belongs to the first order, Zera'im (seeds) and discusses the first-fruit gifts to the Kohanim and Temple, as stated in Exodus 23:19; Deuteronomy 26:1. It consists of three to four chapters.",
+    "enShortDesc": "Fruit growing on a tree in its first three years, when benefitting from the fruit is prohibited.",
+    "heShortDesc": "האיסור לאכול וליהנות מפירות העץ בשלוש השנים הראשונות לנטיעתו ודיני תערובות של מאכלים אסורים ומותרים לאכילה.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי ערלה",
     "titleVariants": [
         "JT Orlah",
@@ -84,11 +132,325 @@
         "תלמוד ירושלמי ערלה",
         "ירושלמי ערלה"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Orlah 1:1:2-5:9",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Orlah 1:1:2-9",
+                        "Jerusalem Talmud Orlah 1:1:9-2:4",
+                        "Jerusalem Talmud Orlah 1:2:4-3:11",
+                        "Jerusalem Talmud Orlah 1:3:11-5:5",
+                        "Jerusalem Talmud Orlah 1:5:5-9"
+                    ],
+                    "startingAddress": "60c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק א",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "פרק א",
+                    "offset": 238
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Orlah 2:1:1-9:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Orlah 2:1:1-2",
+                        "Jerusalem Talmud Orlah 2:1:2-15",
+                        "Jerusalem Talmud Orlah 2:1:15-4:4",
+                        "Jerusalem Talmud Orlah 2:4:4-6:4",
+                        "Jerusalem Talmud Orlah 2:6:4-9:4"
+                    ],
+                    "startingAddress": "61c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ב",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "פרק ב",
+                    "offset": 242
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Orlah 3:1:1-7:9",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Orlah 3:1:1-2",
+                        "Jerusalem Talmud Orlah 3:1:2-12",
+                        "Jerusalem Talmud Orlah 3:1:12-4:3",
+                        "Jerusalem Talmud Orlah 3:4:3-7:9"
+                    ],
+                    "startingAddress": "62c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ג",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "פרק ג",
+                    "offset": 246
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי ערלה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Orlah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Orlah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Orlah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי ערלה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Orl.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Orlah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Orlah",
+            "heTitle": "תלמוד ירושלמי ערלה"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Orlah 1:1:1-5:9",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Orlah 1:1:1-6",
+                        "Jerusalem Talmud Orlah 1:1:6-10",
+                        "Jerusalem Talmud Orlah 1:1:10-14",
+                        "Jerusalem Talmud Orlah 1:1:14-18",
+                        "Jerusalem Talmud Orlah 1:1:18-2:2",
+                        "Jerusalem Talmud Orlah 1:2:2-7",
+                        "Jerusalem Talmud Orlah 1:2:7-9",
+                        "Jerusalem Talmud Orlah 1:2:9-3:3",
+                        "Jerusalem Talmud Orlah 1:3:3-6",
+                        "Jerusalem Talmud Orlah 1:3:6-9",
+                        "Jerusalem Talmud Orlah 1:3:9-13",
+                        "Jerusalem Talmud Orlah 1:3:13-4:1",
+                        "Jerusalem Talmud Orlah 1:4:1-6",
+                        "Jerusalem Talmud Orlah 1:4:6-5:2",
+                        "Jerusalem Talmud Orlah 1:5:2-9"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק א",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "פרק א",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Orlah 2:1:1-9:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Orlah 2:1:1-4",
+                        "Jerusalem Talmud Orlah 2:1:4-6",
+                        "Jerusalem Talmud Orlah 2:1:6-10",
+                        "Jerusalem Talmud Orlah 2:1:10-14",
+                        "Jerusalem Talmud Orlah 2:1:14-19",
+                        "Jerusalem Talmud Orlah 2:1:19-21",
+                        "Jerusalem Talmud Orlah 2:1:21-2:2",
+                        "Jerusalem Talmud Orlah 2:2:2",
+                        "Jerusalem Talmud Orlah 2:2:2-3:5",
+                        "Jerusalem Talmud Orlah 2:3:5-4:2",
+                        "Jerusalem Talmud Orlah 2:4:2-5",
+                        "Jerusalem Talmud Orlah 2:4:5-5:4",
+                        "Jerusalem Talmud Orlah 2:5:4-6:2",
+                        "Jerusalem Talmud Orlah 2:6:2-7:4",
+                        "Jerusalem Talmud Orlah 2:7:4-9:1",
+                        "Jerusalem Talmud Orlah 2:9:1-4",
+                        "Jerusalem Talmud Orlah 2:9:4"
+                    ],
+                    "startingAddress": "8b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ב",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "פרק ב",
+                    "offset": 15
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Orlah 3:1:1-7:9",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Orlah 3:1:1-6",
+                        "Jerusalem Talmud Orlah 3:1:6-12",
+                        "Jerusalem Talmud Orlah 3:1:12-16",
+                        "Jerusalem Talmud Orlah 3:1:16-2:3",
+                        "Jerusalem Talmud Orlah 3:2:3-3:1",
+                        "Jerusalem Talmud Orlah 3:3:1-5:2",
+                        "Jerusalem Talmud Orlah 3:5:2-6:4",
+                        "Jerusalem Talmud Orlah 3:6:4-7:7",
+                        "Jerusalem Talmud Orlah 3:7:7-9"
+                    ],
+                    "startingAddress": "16b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ג",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "פרק ג",
+                    "offset": 31
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי ערלה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Orlah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Orlah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Orlah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי ערלה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Orl.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Orlah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Orlah",
+            "heTitle": "תלמוד ירושלמי ערלה"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

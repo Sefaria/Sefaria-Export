@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "i-chronicles"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "i-chronicles"
+                ]
+            }
         ],
         "lengths": [
             29,
@@ -105,11 +118,6 @@
                 "text": "Divrei Hayamim I"
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "דברי הימים א"
-            },
-            {
                 "lang": "he",
                 "text": "דברי הימים א׳"
             },
@@ -138,9 +146,22 @@
                 "text": "דהי״א"
             },
             {
-                "primary": true,
+                "text": "דה”א",
+                "lang": "he"
+            },
+            {
+                "text": "דהי”א",
+                "lang": "he"
+            },
+            {
+                "text": "דברי הימים א",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "I Chronicles",
                 "lang": "en",
-                "text": "I Chronicles"
+                "primary": true
             }
         ],
         "title": "I Chronicles",
@@ -155,13 +176,20 @@
         38,
         12
     ],
-    "enDesc": "The two Books of Chronicles are the final books of the Tanakh. They follow the two Books of Kings and precede Ezra–Nehemiah, thus concluding the history-oriented books of the Tanakh. Chronicles begins at the beginning of the history of humanity, with Adam, and the story is then carried forward, almost entirely by genealogical lists, down to the founding of the Israelite monarchy (1 Chronicles 1–9). The bulk of the remainder of 1 Chronicles, after a brief account of Saul, is concerned with the reign of David (1 Chronicles 11–29). The next long section concerns David's son Solomon (2 Chronicles 1–9), and the final part is concerned with the kingdom of Judah with occasional references to the kingdom of Israel (2 Chronicles 10–36). In the last chapter Judah is destroyed and the people taken into exile in Babylon, and in the final verses the Persian king Cyrus conquers Babylon, and authorises the restoration of the Temple in Jerusalem, and the return of the exiles.",
+    "authors": [],
+    "enDesc": "I Chronicles (“Divrei Hayamim Aleph”) is the first half of the last book of the Hebrew Bible. It retells biblical history, beginning with Adam. While parts of the book align with details that appear in the Torah and early Prophets, much of it contains additions, gaps, or alternative explanations. The first 10 chapters cover up to the death of King Saul, mostly through genealogical lists. The remaining 19 chapters primarily concern the reign of David and the beginning of the reign of Solomon, emphasizing the centrality of Jerusalem and the stability of the Davidic dynasty.",
+    "heDesc": "דברי הימים א, מחציתו הראשונה של הספר האחרון בתנ\"ך, חוזר על ההיסטוריה המקראית החל מימי האדם הראשון. אומנם חלקים מהספר תואמים לפרטים שנזכרו בתורה ובנביאים ראשונים, אולם יש בו גם תוספות רבות, חוסרים והסברים חלופיים. עשרת הפרקים הראשונים של הספר סוקרים את תולדות העולם עד ימי מלכותו של שאול בעיקר באמצעות רשימות יוחסין, ו-19 הפרקים האחרים נוגעים בעיקר למלכות דוד ולראשית ימי שלטון שלמה בשימת דגש על מרכזיותה של ירושלים ועל יציבות שושלת בית דוד.",
+    "enShortDesc": "Recounts of events in the Torah and early Prophets, focusing on King David.",
+    "heShortDesc": "חזרה על אירועים שכבר סופרו בתורה ובנביאים ראשונים, בדגש על קורותיו של דוד המלך.",
     "pubDate": "1488",
     "compDate": "-400",
     "compPlace": "Second Temple Judea",
     "pubPlace": "Soncino",
     "errorMargin": "50",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "דברי הימים א",
     "titleVariants": [
         "1 Chronicles",
@@ -188,14 +216,16 @@
         "I Chronicles"
     ],
     "heTitleVariants": [
-        "דברי הימים א",
         "דברי הימים א׳",
         "דברי הימים א'",
         "דה\"א",
         "דה״א",
         "דהי''א",
         "דהי\"א",
-        "דהי״א"
+        "דהי״א",
+        "דה”א",
+        "דהי”א",
+        "דברי הימים א"
     ],
     "sectionNames": [
         "Chapter",

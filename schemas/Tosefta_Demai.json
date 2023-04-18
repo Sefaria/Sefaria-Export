@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Demai",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Zeraim"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "demai"
+                ]
+            }
+        ],
         "lengths": [
-            8
+            8,
+            151
         ],
         "titles": [
             {
@@ -37,17 +46,17 @@
                 "text": "Tos. Dmai"
             },
             {
-                "lang": "he",
-                "text": "תוספתא דמאי",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Dem."
             },
             {
-                "lang": "en",
+                "text": "תוספתא דמאי",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Demai",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -63,7 +72,9 @@
         3
     ],
     "authors": [],
-    "enDesc": "Demai (Doubtful Produce) belongs to the first order, Zera'im (seeds) and discusses various cases in which it is not certain whether the priestly donations have been taken from produce. It consists of eight chapters.",
+    "enDesc": "Demai (“Produce from One Who is Suspected to Have Neglected Tithing”) is a tractate in Seder Zeraim (“Order of Seeds”) that discusses the concept of “demai” and how to tithe it. Its seven chapters address details such as which fruits are exempt from the laws of demai, situations in which it is permissible to eat demai without tithing, and guidelines for determining whether an unknown person can be trusted to have tithed.",
+    "enShortDesc": "Produce from one who is suspected to have neglected tithing and the requirement to tithe it.",
+    "heShortDesc": "החובה להפריש מעשרות מתבואה או פירות שנלקחו מאדם החשוד שלא הפרישם.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -89,8 +100,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר זרעים"
     ],
     "compDateString": {

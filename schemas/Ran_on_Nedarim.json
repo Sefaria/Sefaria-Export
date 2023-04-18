@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Ran",
         "Seder Nashim"
     ],
@@ -19,6 +19,29 @@
             "Daf",
             "Line",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ran",
+                    "nedarim"
+                ]
+            }
+        ],
+        "lengths": [
+            182,
+            1115,
+            1984
+        ],
+        "referenceableSections": [
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^(.+?)[\\-–]",
+            "^(?:(?:מתני'|גמ')\\s?)?(.+)$"
         ],
         "titles": [
             {
@@ -106,7 +129,11 @@
         "key": "Ran on Nedarim"
     },
     "authors": [
-        "Ran"
+        {
+            "en": "Ran",
+            "he": "ר\"ן",
+            "slug": "ran"
+        }
     ],
     "enDesc": "Written by Nissim ben Reuven of Girona (c.1320 - c.1376), the Ran’s Talmud commentary on the Talmud focuses on practical halakha. The commentary on Nedarim is printed alongside the text of the Talmud in the Vilna edition and is regarded as the foremost commentary on this tractate, being that the authorship of the commentary ascribed to Rashi is in doubt.",
     "pubDate": "1588",
@@ -159,7 +186,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "ר\"ן",
         "סדר נשים"
     ],

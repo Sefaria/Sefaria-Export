@@ -2,7 +2,7 @@
     "title": "Massat Moshe on Esther",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Alshich",
         "Writings"
     ],
@@ -61,6 +61,15 @@
                 "key": "default"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "alshich",
+                    "esther"
+                ]
+            }
+        ],
         "titles": [
             {
                 "text": "Alshich on Esther",
@@ -76,9 +85,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Massat Moshe on Esther",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Massat Moshe on Esther",
@@ -86,7 +95,11 @@
         "key": "Massat Moshe on Esther"
     },
     "authors": [
-        "Alshikh"
+        {
+            "en": "Alshikh",
+            "he": "אלשיך",
+            "slug": "alshikh"
+        }
     ],
     "enDesc": "Commentary of R' Moshe Alshikh on Megilat Esther.",
     "heDesc": "פירושו של ר' משה אלשיך על מגילת אסתר.",
@@ -117,7 +130,7 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "אלשיך",
         "כתובים"
     ],

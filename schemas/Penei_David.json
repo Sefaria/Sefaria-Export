@@ -2,8 +2,8 @@
     "title": "Penei David",
     "categories": [
         "Tanakh",
-        "Commentary",
-        "Penei David"
+        "Acharonim on Tanakh",
+        "Chida"
     ],
     "schema": {
         "nodes": [
@@ -1588,10 +1588,19 @@
                 "key": "Deuteronomy"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "penei-david",
+                    "numbers"
+                ]
+            }
+        ],
         "titles": [
             {
-                "lang": "he",
                 "text": "פני דוד",
+                "lang": "he",
                 "primary": true
             },
             {
@@ -1605,7 +1614,11 @@
         "key": "Penei David"
     },
     "authors": [
-        "Hayyim Joseph David Azulay"
+        {
+            "en": "Hayyim Joseph David Azulay",
+            "he": "חיים דוד אזולאי",
+            "slug": "hayyim-joseph-david-azulay"
+        }
     ],
     "enDesc": "Commentary on Torah by Chida.",
     "heDesc": "פירושים והערות על התורה כסדר הפרשיות מהחיד\"א.",
@@ -1652,8 +1665,8 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
-        "פני דוד"
+        "אחרונים על התנ״ך",
+        "חיד״א"
     ],
     "compDateString": {
         "en": " (c.1768  - c.1792 CE)",

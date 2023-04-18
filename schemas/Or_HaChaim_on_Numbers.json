@@ -2,7 +2,7 @@
     "title": "Or HaChaim on Numbers",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
         "Or HaChaim",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "or-hachaim",
+                    "numbers"
+                ]
+            }
+        ],
+        "lengths": [
+            36,
+            403,
+            1054
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -57,8 +75,8 @@
                 "text": "Or Hachaim on Numbers"
             },
             {
-                "lang": "he",
                 "text": "אור החיים על במדבר",
+                "lang": "he",
                 "primary": true
             },
             {
@@ -77,7 +95,11 @@
         "key": "Or HaChaim on Numbers"
     },
     "authors": [
-        "Chaim ibn Attar"
+        {
+            "en": "Chaim ibn Attar",
+            "he": "חיים בן עטר",
+            "slug": "chaim-ibn-attar"
+        }
     ],
     "enDesc": "Written by Rabbi Hayyim ben Moshe ibn Attar (1696-1743), Or HaChaim is a classical commentary on the Chumash.  Rabbi Hayyim was a Moroccan Kabbalist and Talmudist which is reflected in his commentary.",
     "pubDate": "1742",
@@ -123,7 +145,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
         "אור החיים",
         "תורה"
     ],

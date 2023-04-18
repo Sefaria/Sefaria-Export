@@ -480,13 +480,13 @@
                                 "primary": true
                             },
                             {
-                                "text": "עשרת המכות",
+                                "text": "עשר המכות",
                                 "lang": "he",
                                 "primary": true
                             }
                         ],
                         "title": "The Ten Plagues",
-                        "heTitle": "עשרת המכות",
+                        "heTitle": "עשר המכות",
                         "heSectionNames": [
                             "פסקה",
                             "פירוש"
@@ -1380,13 +1380,18 @@
         "key": "Zevach Pesach on Pesach Haggadah"
     },
     "authors": [
-        "Abarbanel"
+        {
+            "en": "Abarbanel",
+            "he": "אברבנאל",
+            "slug": "abarbanel"
+        }
     ],
     "enDesc": "A comprehensive commentary to the Haggadah written in typical Abarbanel style: He asks many insightful textual questions, reports possible answers from other commentators and finally relates his own original explanations.",
+    "enShortDesc": "16th-century commentary by Rabbi Don Yitzchak Abarbanel, structured as questions with detailed answers.",
     "pubDate": "1505",
+    "compDate": "1496",
     "compPlace": "Monopoli",
     "pubPlace": "Constantinople",
-    "errorMargin": "1496",
     "dependence": "Commentary",
     "base_text_titles": [
         {
@@ -1411,6 +1416,10 @@
         "הגדה",
         "מפרשים"
     ],
+    "compDateString": {
+        "en": " (1496 CE)",
+        "he": " (1496 לספירה)"
+    },
     "compPlaceString": {
         "en": "Monopoli",
         "he": "מונופולי "

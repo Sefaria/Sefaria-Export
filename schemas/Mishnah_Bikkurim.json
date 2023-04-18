@@ -15,9 +15,28 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "bikkurim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bikkurim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "bikkurim"
+                ]
+            }
+        ],
         "lengths": [
             4,
-            34
+            39
         ],
         "titles": [
             {
@@ -57,18 +76,18 @@
                 "lang": "en"
             },
             {
-                "text": "משנה ביכורים",
-                "primary": true,
-                "lang": "he"
-            },
-            {
                 "text": "ביכורים",
                 "lang": "he"
             },
             {
+                "text": "משנה ביכורים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Bikkurim",
-                "primary": true,
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Mishnah Bikkurim",
@@ -85,6 +104,8 @@
     ],
     "authors": [],
     "enDesc": "Bikkurim (First-Fruits) belongs to the first order, Zera'im (seeds) and discusses the prohibition of the immediate use of a tree after it has been planted, as stated in Leviticus 19:23-25. It consists of three chapters.",
+    "enShortDesc": "First fruits and grains ceremoniously brought to the Temple and given to a priest next to the altar.",
+    "heShortDesc": "טקס הבאת ביכורי פירות ותבואה משבעת המינים לבית המקדש ונתינתם לכהן ליד המזבח.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -92,6 +113,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה ביכורים",
     "titleVariants": [
         "M Bikkurim",
@@ -106,8 +130,8 @@
         "Mishnah Bikkurim"
     ],
     "heTitleVariants": [
-        "משנה ביכורים",
-        "ביכורים"
+        "ביכורים",
+        "משנה ביכורים"
     ],
     "sectionNames": [
         "Chapter",

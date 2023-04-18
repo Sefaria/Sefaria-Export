@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "habakkuk"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "habakkuk"
+                ]
+            }
         ],
         "lengths": [
             3,
@@ -41,9 +54,17 @@
                 "lang": "en"
             },
             {
-                "primary": true,
+                "text": "Chavakuk",
+                "lang": "en"
+            },
+            {
+                "text": "Habacuc",
+                "lang": "en"
+            },
+            {
                 "text": "חבקוק",
-                "lang": "he"
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Habakkuk",
@@ -64,13 +85,19 @@
         17
     ],
     "authors": [],
-    "enDesc": "The Book of Jonah is the fifth of the Tere Asar (Twelve MinorProphets). The term denotes the short length of the text in relation to the longer prophetic texts known as the Major Prophets.  Jonah son of Amittai  is sent by God to prophesy the destruction of city of Nineveh but instead attempts to escape the divine mission. He boards a ship but God calls up a great storm and he is swallowed by a great fish. Jonah repents and is vomited out onto dry land. He travels to Nineveh and calls on the people to repent. Jonah is furious, however, and angrily tells God that this is the reason he tried to flee from Him, as he knew Him to be a just and merciful God. He then beseeches God to kill him, a request which is denied when God causes a tree to grow over him, giving him shade. Initially grateful, Jonah's anger returns the next day, when God sends a worm to eat the plant, withering it, and he tells God that it would be better if he were dead. God responds, \"You are concerned about the bush, for which you did not labour and which you did not grow; it came into being in a night and perished in a night. And should I not be concerned about Nineveh, that great city, in which there are more than a hundred and twenty thousand people who do not know their right hand from their left, and also many animals? “Jonah is read as the Haftarah for the afternoon of Yom Kippur due to its story of God's willingness to forgive those who repent.",
+    "enDesc": "Habakkuk is one of 12 books of Minor Prophets (“Trei Asar”), marked by their shortness. Speaking during the First Temple period, likely toward the end of the 7th century BCE, the prophet opens by charging God to explain the unjust success of the Chaldeans, oppressors of Israel. God responds, encouraging patience and suggesting that “the righteous person shall live by their faith.' (2:4) The book ends with the prophet’s prayer of praise to God.",
+    "heDesc": "ספר חבקוק הוא חלק מתרי עשר, קובץ הכולל ספרי נבואה קצרים. חבקוק שימש נביא בימי בית המקדש הראשון, כנראה לקראת סוף המאה השביעית לפני הספירה, ועסק בשאלת הגמול. בפתח הספר פנייה לאלוהים בבקשה להסביר את הצלחתם של הכשדים לנוכח מעשי העוולה שבידיהם ושעבודם את ישראל. תשובתו של אלוהים, המופיעה בפרק ב', מציעה התאזרות בסבלנות וגורסת: ״צדיק באמונתו יחיה.\" הפרק השלישי, החותם את הספר, הוא שיר הלל לאלוהים המביע בקשת ישועה והבעת אמון באלוהים.",
+    "enShortDesc": "Charging God to explain the unjust success of the Babylonians, God’s response, and a prayer.",
+    "heShortDesc": "קריאה לאלוהים לנימוק ההצלחה חסרת הצדק של ממלכת בבל, תשובתו של אלוהים ותפילה.",
     "pubDate": "1488",
     "compDate": "-450",
     "compPlace": "Judea/Israel",
     "pubPlace": "Soncino",
     "errorMargin": "150",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "חבקוק",
     "titleVariants": [
         "Hab.",
@@ -78,6 +105,8 @@
         "Havakkuk",
         "Habakuk",
         "Habbakuk",
+        "Chavakuk",
+        "Habacuc",
         "Habakkuk"
     ],
     "heTitleVariants": [

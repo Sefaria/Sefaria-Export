@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "tahorot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tahorot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "tahorot"
+                ]
+            }
+        ],
         "lengths": [
             10,
             92
@@ -38,11 +57,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה טהרות",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "טהרות"
             },
             {
@@ -62,8 +76,13 @@
                 "text": "Mishnah Tohãroth"
             },
             {
-                "lang": "en",
+                "text": "משנה טהרות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Tahorot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -81,6 +100,8 @@
     ],
     "authors": [],
     "enDesc": "Tahorot (Purities) belongs to the sixth order, Tahorot (Purities) and discusses the miscellaneous laws of purity, especially the actual mechanics of contracting impurity and the laws of the impurity of food. It has ten chapters.",
+    "enShortDesc": "How food, drinks, objects and people become impure and spread impurity.",
+    "heShortDesc": "הדרכים שבהן מיני מאכל ומשקה, כלים ואנשים נהיים טמאים ומטמאים אחרים.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -88,6 +109,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה טהרות",
     "titleVariants": [
         "M. Tahorot",
@@ -101,8 +125,8 @@
         "Mishnah Tahorot"
     ],
     "heTitleVariants": [
-        "משנה טהרות",
-        "טהרות"
+        "טהרות",
+        "משנה טהרות"
     ],
     "sectionNames": [
         "Chapter",

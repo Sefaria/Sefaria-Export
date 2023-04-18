@@ -4,20 +4,168 @@
         "Responsa"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 2,
-        "addressTypes": [
-            "Integer",
-            "Integer"
-        ],
-        "sectionNames": [
-            "Teshuva",
-            "Paragraph"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Siman",
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "Orach Chayim",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "אורח חיים",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Orach Chayim",
+                "heTitle": "אורח חיים",
+                "heSectionNames": [
+                    "סימן",
+                    "פסקה"
+                ],
+                "key": "Orach Chayim"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Siman",
+                    "Paragraph"
+                ],
+                "sharedTitle": "Yoreh Deah",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Yoreh Deah",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "יורה דעה",
+                        "primary": true
+                    }
+                ],
+                "title": "Yoreh Deah",
+                "heTitle": "יורה דעה",
+                "heSectionNames": [
+                    "סימן",
+                    "פסקה"
+                ],
+                "key": "Yoreh Deah"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Siman",
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "Even HaEzer",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "אבן העזר",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Even HaEzer",
+                "heTitle": "אבן העזר",
+                "heSectionNames": [
+                    "סימן",
+                    "פסקה"
+                ],
+                "key": "Even HaEzer"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Siman",
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "Choshen Mishpat",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "חושן משפט",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Choshen Mishpat",
+                "heTitle": "חושן משפט",
+                "heSectionNames": [
+                    "סימן",
+                    "פסקה"
+                ],
+                "key": "Choshen Mishpat"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Siman",
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "Omissions",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "השמטות",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Omissions",
+                "heTitle": "השמטות",
+                "heSectionNames": [
+                    "סימן",
+                    "פסקה"
+                ],
+                "key": "Omissions"
+            }
         ],
         "titles": [
             {
-                "lang": "he",
                 "text": "האלף לך שלמה",
+                "lang": "he",
                 "primary": true
             },
             {
@@ -28,16 +176,18 @@
         ],
         "title": "HaElef Lekha Shlomo",
         "heTitle": "האלף לך שלמה",
-        "heSectionNames": [
-            "",
-            "פסקה"
-        ],
         "key": "HaElef Lekha Shlomo"
     },
     "authors": [
-        "Shlomo Kluger"
+        {
+            "en": "Shlomo Kluger",
+            "he": "שלמה קלוגר",
+            "slug": "shlomo-kluger"
+        }
     ],
     "enDesc": "Responsa on a wide variety of topics from one of the leading rabbis of the 19th century.",
+    "enShortDesc": "19th-century responsa of Rav Shlomo Kluger, arranged according to the sections of the Shulchan Arukh.",
+    "heShortDesc": "שאלות ותשובות מאת הרב שלמה קלוגר, בן המאה ה-19.",
     "pubDate": "1910",
     "compDate": "1850",
     "pubPlace": "Lemberg, Galicia",
@@ -50,11 +200,6 @@
     "heTitleVariants": [
         "האלף לך שלמה"
     ],
-    "sectionNames": [
-        "Teshuva",
-        "Paragraph"
-    ],
-    "depth": 2,
     "heCategories": [
         "שו\"ת"
     ],

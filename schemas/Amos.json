@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "amos"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amos"
+                ]
+            }
         ],
         "lengths": [
             9,
@@ -21,13 +34,13 @@
         ],
         "titles": [
             {
+                "text": "Am.",
+                "lang": "en"
+            },
+            {
                 "text": "עמוס",
                 "lang": "he",
                 "primary": true
-            },
-            {
-                "text": "Am.",
-                "lang": "en"
             },
             {
                 "text": "Amos",
@@ -48,13 +61,19 @@
         12
     ],
     "authors": [],
-    "enDesc": "The Book of Amos is third of the Tere Asar (Twelve MinorProphets). The term denotes the short length of the text in relation to the longer prophetic texts known as the Major Prophets. Amos was an older contemporary of Hosea and Isaiah, and was active during the reign of Jeroboam II. Amos lived in the kingdom of Judah but preached in the northern kingdomof Israel. His major themes of social justice, God's omnipotence, and divine judgment became staples of prophecy",
+    "enDesc": "Amos is the third of 12 books of Minor Prophets (“Trei Asar”), marked by their shortness. The prophet is presented in the book as a shepherd and tender of sycamore trees from the southern town of Tekoa. Speaking during the First Temple period, he primarily delivers messages to the people of the northern kingdom of Israel. Amos condemns their oppression of the poor, arrogance, and insincere ritual worship, describing their future punishments and calling for reform.",
+    "heDesc": "ספר עמוס הוא השלישי בקובץ תרי עשר, הכולל ספרי נבואה קצרים. עמוס מוצג בספר כרועה צאן ובולס (מגדל) שקמים שגר בתקוע בתקופת בית המקדש הראשון. דבריו נאמרו בבית אל והיו מכוונים כלפי תושבי ממלכת ישראל הצפונית. בפתח הספר שורת נבואות זעם המציינות את פשעי ממלכות יהודה, ישראל והעמים השכנים, הנוגעים לשעבוד עניים, למידת היהירות ולפולחן האלילות, ומציינים את העונש שיבוא בעקבותיהם. הספר נחתם בנבואת נחמה בדבר שיבת עם ישראל אל אדמתו.",
+    "enShortDesc": "Condemnation of oppression and arrogance in the nations and Israel, and a call for reform.",
+    "heShortDesc": "הוקעת הדיכוי והיוהרה השוררים באומות ובישראל וקריאה לתיקון מעמיק.",
     "pubDate": "1488",
     "compDate": "-800",
     "compPlace": "Judea/Israel",
     "pubPlace": "Soncino",
     "errorMargin": "200",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "עמוס",
     "titleVariants": [
         "Am.",

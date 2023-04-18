@@ -57,6 +57,15 @@
                 "key": "default"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chiddushei-hilkhot-niddah",
+                    "yoreh-deah"
+                ]
+            }
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -74,7 +83,11 @@
         "key": "Chiddushei Hilkhot Niddah on Shulchan Arukh, Yoreh De'ah"
     },
     "authors": [
-        "Jonathan Eybeschutz"
+        {
+            "en": "Jonathan Eybeschutz",
+            "he": "יהונתן אייבשיץ",
+            "slug": "jonathan-eybeschutz"
+        }
     ],
     "compDate": "1739",
     "errorMargin": "25",
@@ -83,7 +96,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Yoreh De'ah",
-            "he": "יורה דעה"
+            "he": "שולחן ערוך, יורה דעה"
         }
     ],
     "collective_title": {

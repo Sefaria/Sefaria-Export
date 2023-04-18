@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "leavened-and-unleavened-bread"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "leavened-and-unleavened-bread"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "leavened-and-unleavened-bread"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "leavened-and-unleavened-bread"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "leavened-and-unleavened-bread"
+                ]
+            }
+        ],
         "lengths": [
-            9
+            9,
+            158
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות חמץ ומצה",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות חמץ ומצה"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' חמץ ומצה"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות חמץ ומצה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות חמץ ומצה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' חמץ ומצה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' חמץ ומצה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות חמץ ומצה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות חמץ ומצה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' חמץ ומצה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' חמץ ומצה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות חמץ ומצה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Leavened and Unleavened Bread",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,7 +167,11 @@
         5
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The third book is Zemanim (Times). Hametz u-Matza; laws of Passover",
     "pubDate": "1474",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Leavened and Unleavened Bread"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות חמץ ומצה",
         "רמב\"ם, הלכות חמץ ומצה",
         "משנה תורה, הל' חמץ ומצה",
         "רמב\"ם, הל' חמץ ומצה",
         "רמב\"ם הלכות חמץ ומצה",
-        "רמב\"ם הל' חמץ ומצה"
+        "רמב\"ם הל' חמץ ומצה",
+        "רמב״ם, הלכות חמץ ומצה",
+        "רמב”ם, הלכות חמץ ומצה",
+        "רמב״ם, הל' חמץ ומצה",
+        "רמב”ם, הל' חמץ ומצה",
+        "רמב״ם הלכות חמץ ומצה",
+        "רמב”ם הלכות חמץ ומצה",
+        "רמב״ם הל' חמץ ומצה",
+        "רמב”ם הל' חמץ ומצה",
+        "משנה תורה, הלכות חמץ ומצה"
     ],
     "sectionNames": [
         "Chapter",

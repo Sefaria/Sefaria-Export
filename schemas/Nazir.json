@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "nazir"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "nazir"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "nazir"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "nazir"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "nazir"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "nazir"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "nazir"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "nazir"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "nazir"
+                ]
+            }
+        ],
         "lengths": [
-            130,
-            3741
+            132,
+            1299
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -34,17 +98,17 @@
                 "text": "Masekhet Nazir"
             },
             {
-                "lang": "he",
-                "text": "נזיר",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Naz."
             },
             {
                 "text": "BT Nazir",
                 "lang": "en"
+            },
+            {
+                "text": "נזיר",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Nazir",
@@ -65,12 +129,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         16,
         4
     ],
     "authors": [],
-    "enDesc": "Nazir (One who abstains) belongs to the third order, Nashim (Women) and discusses details of the Nazirite vow and being a Nazirite (Num 6). It has nine chapters.",
+    "enDesc": "Nazir is a tractate in Seder Nashim (“Order of Women,” which addresses family law). Its nine chapters discuss laws relating to the nazarite, or one who vows abstinence from wine, haircuts, and ritual impurity generated from contact with corpses. Among the topics analyzed are different types of nazarite vows and their implications, the sacrifices brought at the end of the fulfillment of a nazarite vow, and cases of uncertainty with regards to a nazarite’s purity status.",
+    "enShortDesc": "The nazarite, or one who vows abstinence from wine, haircuts, and ritual impurity generated from contact with corpses.",
+    "heShortDesc": "הנזיר: אדם שנודר להימנע מיין, מתספורת ומהיטמאות למת לפרק זמן מוגדר.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -78,6 +147,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "נזיר",
     "titleVariants": [
         "Talmud Nazir",
@@ -98,6 +170,33 @@
                     "depth": 1,
                     "wholeRef": "Nazir 2a:1-8b:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-126"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-126"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -141,6 +240,33 @@
                     "depth": 1,
                     "wholeRef": "Nazir 9a:1-16a:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-221"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-221"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -185,6 +311,33 @@
                     "depth": 1,
                     "wholeRef": "Nazir 16a:4-20b:2",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-321"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-321"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -224,6 +377,33 @@
                     "depth": 1,
                     "wholeRef": "Nazir 20b:3-30b:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-417"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-417"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "lang": "en",
@@ -274,6 +454,33 @@
                     "depth": 1,
                     "wholeRef": "Nazir 30b:11-34a:9",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-515"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-515"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "lang": "en",
@@ -311,6 +518,33 @@
                     "depth": 1,
                     "wholeRef": "Nazir 34a:10-47a:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-613"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-613"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "lang": "en",
@@ -367,6 +601,33 @@
                     "depth": 1,
                     "wholeRef": "Nazir 47a:6-57a:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-711"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-711"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "lang": "en",
@@ -417,6 +678,33 @@
                     "depth": 1,
                     "wholeRef": "Nazir 57a:4-61a:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-811"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-811"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "lang": "en",
@@ -455,6 +743,44 @@
                     "depth": 1,
                     "wholeRef": "Nazir 61a:6-66b:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-911"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-911"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "lang": "en",
@@ -506,17 +832,17 @@
                     "text": "Masekhet Nazir"
                 },
                 {
-                    "lang": "he",
-                    "text": "נזיר",
-                    "primary": true
-                },
-                {
                     "lang": "en",
                     "text": "Naz."
                 },
                 {
                     "text": "BT Nazir",
                     "lang": "en"
+                },
+                {
+                    "text": "נזיר",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Nazir",

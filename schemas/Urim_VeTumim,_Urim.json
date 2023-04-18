@@ -17,6 +17,18 @@
             "Siman",
             "Seif"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "urim-vetumim-urim",
+                    "choshen-mishpat"
+                ]
+            }
+        ],
+        "lengths": [
+            427,
+            4080
+        ],
         "titles": [
             {
                 "primary": true,
@@ -24,9 +36,9 @@
                 "text": "אורים ותומים, אורים"
             },
             {
-                "primary": true,
+                "text": "Urim VeTumim, Urim",
                 "lang": "en",
-                "text": "Urim VeTumim, Urim"
+                "primary": true
             }
         ],
         "title": "Urim VeTumim, Urim",
@@ -38,9 +50,13 @@
         "key": "Urim VeTumim, Urim"
     },
     "authors": [
-        "Jonathan Eybeschutz"
+        {
+            "en": "Jonathan Eybeschutz",
+            "he": "יהונתן אייבשיץ",
+            "slug": "jonathan-eybeschutz"
+        }
     ],
-    "enDesc": "Commentary of Rabbi Yonatan Eybeschutz on Choshen Mishpat.",
+    "enDesc": "Commentary of Rabbi Jonathan Eybeschutz on Choshen Mishpat.",
     "pubDate": "1775",
     "compDate": "1739",
     "pubPlace": "Karlsruhe",
@@ -50,7 +66,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Choshen Mishpat",
-            "he": "חושן משפט"
+            "he": "שולחן ערוך, חושן משפט"
         }
     ],
     "collective_title": {

@@ -3,7 +3,8 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary"
+        "Rishonim on Talmud",
+        "Yad Ramah"
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
@@ -15,6 +16,27 @@
         "sectionNames": [
             "Daf",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yad-ramah",
+                    "bava-batra"
+                ]
+            }
+        ],
+        "lengths": [
+            352,
+            3771
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -37,12 +59,16 @@
         "key": "Yad Ramah on Bava Batra"
     },
     "authors": [
-        "Meir Abulafia"
+        {
+            "en": "Meir Abulafia",
+            "he": "מאיר הלוי אבולעפיה",
+            "slug": "meir-abulafia"
+        }
     ],
     "enDesc": "One of the classic Rishonim (midieval scholars) on certain tractates.",
     "pubDate": "1790",
     "compDate": "1224",
-    "pubPlace": "Salonica / Thessaloniki ",
+    "pubPlace": "Salonica / Thessaloniki",
     "errorMargin": "20",
     "era": "RI",
     "dependence": "Commentary",
@@ -72,7 +98,8 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים"
+        "ראשונים על התלמוד",
+        "יד רמה"
     ],
     "compDateString": {
         "en": " (c.1204  - c.1244 CE)",

@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "annotations-of-r-yeshaya-berlin",
+                    "hilchot",
+                    "rest-on-a-holiday"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "annotations-of-r-yeshaya-berlin",
+                    "rest-on-a-holiday"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            1,
+            1
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,7 +62,11 @@
         "key": "Annotations of R' Yeshaya Berlin on Mishneh Torah, Rest on a Holiday"
     },
     "authors": [
-        "Isaiah Berlin"
+        {
+            "en": "Isaiah Berlin",
+            "he": "ישעיה פיק ברלין",
+            "slug": "isaiah-berlin"
+        }
     ],
     "compDate": "1775",
     "pubPlace": "Jerusalem, Israel",

@@ -15,6 +15,16 @@
                 "sectionNames": [
                     "Paragraph"
                 ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "introduction"
+                        ]
+                    }
+                ],
+                "referenceableSections": [
+                    false
+                ],
                 "titles": [
                     {
                         "primary": true,
@@ -43,6 +53,16 @@
                 "sectionNames": [
                     "Line"
                 ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "a-pleasant-song"
+                        ]
+                    }
+                ],
+                "referenceableSections": [
+                    false
+                ],
                 "titles": [
                     {
                         "primary": true,
@@ -70,6 +90,16 @@
                 ],
                 "sectionNames": [
                     "Paragraph"
+                ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "go-see"
+                        ]
+                    }
+                ],
+                "referenceableSections": [
+                    false
                 ],
                 "titles": [
                     {
@@ -104,6 +134,11 @@
                     "Comment"
                 ],
                 "toc_zoom": 2,
+                "referenceableSections": [
+                    true,
+                    true,
+                    false
+                ],
                 "default": true,
                 "title": "",
                 "heTitle": "",
@@ -127,7 +162,19 @@
                     "Section",
                     "Comment"
                 ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "part-ii"
+                        ]
+                    }
+                ],
                 "toc_zoom": 2,
+                "referenceableSections": [
+                    true,
+                    true,
+                    false
+                ],
                 "titles": [
                     {
                         "primary": true,
@@ -164,6 +211,17 @@
                     "Manuscript",
                     "Paragraph"
                 ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "additions-from-manuscript"
+                        ]
+                    }
+                ],
+                "referenceableSections": [
+                    true,
+                    false
+                ],
                 "titles": [
                     {
                         "primary": true,
@@ -185,15 +243,31 @@
                 "key": "Letters"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "likutei-moharan"
+                ]
+            }
+        ],
         "titles": [
             {
                 "text": "Likutei Moharan Kama",
                 "lang": "en"
             },
             {
-                "primary": true,
-                "text": "ליקוטי מוהר\"ן",
+                "text": "ליקוטי מוהר״ן",
                 "lang": "he"
+            },
+            {
+                "text": "ליקוטי מוהר”ן",
+                "lang": "he"
+            },
+            {
+                "text": "ליקוטי מוהר\"ן",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Likutei Moharan",
@@ -206,18 +280,25 @@
         "key": "Likutei Moharan"
     },
     "authors": [
-        "Nachman of Breslov"
+        {
+            "en": "Nachman of Breslov",
+            "he": "נחמן מברסלב‎",
+            "slug": "nachman-of-breslov"
+        }
     ],
     "enDesc": "The first part (teachings 1-286) was printed in 1808 in Ostrog, still during the life of the author.  The second part was printed in 1811 in Mogilev, after the death of the author.  A combined edition was printed in 1821.",
+    "enShortDesc": "Rebbe Nachman’s magnum opus, containing interpretations of talmudic stories and of parts of the Zohar, among other sermons.",
+    "heShortDesc": "יצירת מופת של רבי נחמן, הכוללת פרשנות לאגדות התלמוד ולחלקים מן הזוהר לצד דרשות נוספות.",
     "pubDate": "1808",
     "compDate": "1805",
     "compPlace": "Bratslav, Ukraine",
     "pubPlace": "Ostroh",
     "errorMargin": "3",
     "era": "AH",
+    "is_cited": true,
     "dedication": {
-        "en": "Dedicated by Mo and Elisa Septimus in honor of R. Chaim Kramer, R. Nasan Maimon, the Ostrova-Biala Rebbe, and all chasidim of R. Nachman.",
-        "he": "מוקדש על ידי מוֹ ואליסה ספטימוס לכבוד הרב חיים קרמר שליט\"א, הרב נתן מיימון שליט\"א, האדמו\"ר מאוסטרובה־ביאלא שליט\"א, ולזכות כלל חסידיו של רבי נחמן מברסלב"
+        "he": "מוקדש על־ידי מוֹ ואליסה ספטימוס לכבוד האדמו\"ר מאוסטרובה־ביאלא, ר' חיים קרמר, ר' נתן מימון, וכלל חסידי רבי נחמן, ולזכרו של דניאל פנסטר.",
+        "en": "Dedicated by Mo and Elisa Septimus in honor of the Ostrova-Biala Rebbe, R. Chaim Kramer, R. Nasan Maimon, and all chasidim of R. Nachman, and in memory of Daniel Fenster."
     },
     "heTitle": "ליקוטי מוהר\"ן",
     "titleVariants": [
@@ -225,6 +306,8 @@
         "Likutei Moharan"
     ],
     "heTitleVariants": [
+        "ליקוטי מוהר״ן",
+        "ליקוטי מוהר”ן",
         "ליקוטי מוהר\"ן"
     ],
     "heCategories": [

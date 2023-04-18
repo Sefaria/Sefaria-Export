@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "annotations-of-r-yeshaya-berlin",
+                    "hilchot",
+                    "torah-study"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "annotations-of-r-yeshaya-berlin",
+                    "torah-study"
+                ]
+            }
+        ],
+        "lengths": [
+            7,
+            1,
+            1
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,7 +62,11 @@
         "key": "Annotations of R' Yeshaya Berlin on Mishneh Torah, Torah Study"
     },
     "authors": [
-        "Isaiah Berlin"
+        {
+            "en": "Isaiah Berlin",
+            "he": "ישעיה פיק ברלין",
+            "slug": "isaiah-berlin"
+        }
     ],
     "compDate": "1775",
     "pubPlace": "Jerusalem, Israel",

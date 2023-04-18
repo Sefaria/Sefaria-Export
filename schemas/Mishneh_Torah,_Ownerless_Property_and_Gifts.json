@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "ownerless-property-and-gifts"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "ownerless-property-and-gifts"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "ownerless-property-and-gifts"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "ownerless-property-and-gifts"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "ownerless-property-and-gifts"
+                ]
+            }
+        ],
         "lengths": [
-            12
+            12,
+            219
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות זכייה ומתנה",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות זכייה ומתנה"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' זכייה ומתנה"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות זכייה ומתנה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות זכייה ומתנה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' זכייה ומתנה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' זכייה ומתנה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות זכייה ומתנה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות זכייה ומתנה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' זכייה ומתנה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' זכייה ומתנה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות זכייה ומתנה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Ownerless Property and Gifts",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,9 +167,13 @@
         2
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The twelfth book is Sefer Kinyan (Acquisition: laws of the marketplace). Hilchot Zechiyah umatanah. ",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Ownerless Property and Gifts"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות זכייה ומתנה",
         "רמב\"ם, הלכות זכייה ומתנה",
         "משנה תורה, הל' זכייה ומתנה",
         "רמב\"ם, הל' זכייה ומתנה",
         "רמב\"ם הלכות זכייה ומתנה",
-        "רמב\"ם הל' זכייה ומתנה"
+        "רמב\"ם הל' זכייה ומתנה",
+        "רמב״ם, הלכות זכייה ומתנה",
+        "רמב”ם, הלכות זכייה ומתנה",
+        "רמב״ם, הל' זכייה ומתנה",
+        "רמב”ם, הל' זכייה ומתנה",
+        "רמב״ם הלכות זכייה ומתנה",
+        "רמב”ם הלכות זכייה ומתנה",
+        "רמב״ם הל' זכייה ומתנה",
+        "רמב”ם הל' זכייה ומתנה",
+        "משנה תורה, הלכות זכייה ומתנה"
     ],
     "sectionNames": [
         "Chapter",

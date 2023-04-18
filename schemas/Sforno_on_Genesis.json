@@ -2,22 +2,95 @@
     "title": "Sforno on Genesis",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Sforno",
         "Torah"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 3,
-        "addressTypes": [
-            "Perek",
-            "Integer",
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Pasuk",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Verse",
+                    "Comment"
+                ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "sforno",
+                            "genesis"
+                        ]
+                    }
+                ],
+                "lengths": [
+                    50,
+                    805,
+                    1308
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
+            }
         ],
-        "sectionNames": [
-            "Chapter",
-            "Verse",
-            "Comment"
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sforno",
+                    "genesis"
+                ]
+            }
         ],
         "titles": [
             {
@@ -58,11 +131,6 @@
             },
             {
                 "lang": "he",
-                "text": "ספורנו על בראשית",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "ספורנו על ברא'"
             },
             {
@@ -82,6 +150,11 @@
                 "text": "ספורנו על בְּרֵאשִׁית"
             },
             {
+                "text": "ספורנו על בראשית",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Sforno on Genesis",
                 "lang": "en",
                 "primary": true
@@ -89,17 +162,17 @@
         ],
         "title": "Sforno on Genesis",
         "heTitle": "ספורנו על בראשית",
-        "heSectionNames": [
-            "פרק",
-            "פסוק",
-            "פירוש"
-        ],
         "key": "Sforno on Genesis"
     },
     "authors": [
-        "Sforno"
+        {
+            "en": "Sforno",
+            "he": "ספורנו",
+            "slug": "sforno"
+        }
     ],
-    "enDesc": "Commentary on the Torah by Rabbi Ovadiah ben Jacob Sforno, a 16th-century Italian rabbi and physician.  ",
+    "enDesc": "Commentary on the Torah by Rabbi Ovadiah ben Jacob Sforno, a 16th-century Italian rabbi and physician. The author often cites rabbinic statements to address philosophical as well as textual issues, and offers many novel interpretations rooted in these traditions.",
+    "enShortDesc": "16th-century commentary on the Torah by Rabbi Ovadiah ben Jacob Sforno, an Italian rabbi and physician.",
     "pubDate": "1567",
     "compDate": "1525",
     "compPlace": "Bologna",
@@ -133,22 +206,16 @@
         "Sforno on Genesis"
     ],
     "heTitleVariants": [
-        "ספורנו על בראשית",
         "ספורנו על ברא'",
         "ספורנו על בר'",
         "ספורנו על בר׳",
         "ספורנו על ברא׳",
-        "ספורנו על בְּרֵאשִׁית"
+        "ספורנו על בְּרֵאשִׁית",
+        "ספורנו על בראשית"
     ],
-    "sectionNames": [
-        "Chapter",
-        "Verse",
-        "Comment"
-    ],
-    "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "ספורנו",
         "תורה"
     ],

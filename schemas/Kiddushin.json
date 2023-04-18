@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kiddushin"
+                ]
+            }
+        ],
         "lengths": [
-            162,
-            8517
+            164,
+            2406
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -66,11 +130,6 @@
                 "text": "Qid."
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "קידושין"
-            },
-            {
                 "lang": "he",
                 "text": "קדושין"
             },
@@ -95,6 +154,11 @@
                 "lang": "en"
             },
             {
+                "text": "קידושין",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Kiddushin",
                 "lang": "en",
                 "primary": true
@@ -113,12 +177,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         19,
         7
     ],
     "authors": [],
-    "enDesc": "Kiddushin (Documents) belongs to the third order, Nashim (Women) and discusses the initial stage of marriage – betrothal, as well as the laws of Jewish lineages. It has four chapters.",
+    "enDesc": "Kiddushin (“Betrothal”)  is the last tractate in Seder Nashim (“Order of Women,” which addresses family law). Its four chapters primarily discuss laws relating to betrothal. Also addressed are laws of acquisition, sending representatives to perform legal actions, lineage, and the prohibition of seclusion between a man and a woman not married to each other.",
+    "enShortDesc": "Betrothal, marriage, acquisitions, and lineage.",
+    "heShortDesc": "קידושין, נישואין, דיני קניין וענייני יוחסין.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -126,6 +195,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "קידושין",
     "titleVariants": [
         "Masechet Kiddushin",
@@ -143,12 +215,12 @@
         "Kiddushin"
     ],
     "heTitleVariants": [
-        "קידושין",
         "קדושין",
         "קדושי'",
         "קידושי'",
         "קידושי׳",
-        "קדושי׳"
+        "קדושי׳",
+        "קידושין"
     ],
     "alts": {
         "Chapters": {
@@ -158,6 +230,33 @@
                     "depth": 1,
                     "wholeRef": "Kiddushin 2a:1-41a:2",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-117"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-117"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "primary": true,
@@ -266,6 +365,33 @@
                     "depth": 1,
                     "wholeRef": "Kiddushin 41a:3-58b:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-215"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-215"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "primary": true,
@@ -331,6 +457,33 @@
                     "depth": 1,
                     "wholeRef": "Kiddushin 58b:12-69a:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-315"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-315"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "primary": true,
@@ -382,6 +535,44 @@
                     "depth": 1,
                     "wholeRef": "Kiddushin 69a:12-82b:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-413"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-413"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "primary": true,
@@ -481,11 +672,6 @@
                     "text": "Qid."
                 },
                 {
-                    "primary": true,
-                    "lang": "he",
-                    "text": "קידושין"
-                },
-                {
                     "lang": "he",
                     "text": "קדושין"
                 },
@@ -508,6 +694,11 @@
                 {
                     "text": "BT Kiddushin",
                     "lang": "en"
+                },
+                {
+                    "text": "קידושין",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Kiddushin",

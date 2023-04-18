@@ -11,21 +11,33 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
         ],
-        "titles": [
+        "match_templates": [
             {
-                "lang": "he",
-                "text": "תרגום איוב",
-                "primary": true
-            },
+                "term_slugs": [
+                    "aramaic-targum",
+                    "job"
+                ]
+            }
+        ],
+        "lengths": [
+            42,
+            1070
+        ],
+        "titles": [
             {
                 "lang": "en",
                 "text": "Targ. Job"
+            },
+            {
+                "text": "תרגום איוב",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Aramaic Targum to Job",

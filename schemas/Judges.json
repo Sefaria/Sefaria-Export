@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "judges"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "judges"
+                ]
+            }
         ],
         "lengths": [
             21,
@@ -21,37 +34,45 @@
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Shoftim"
+                "text": "Shoftim",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Jdg"
+                "text": "Jdg",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Judg"
+                "text": "Judg",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Jdg."
+                "text": "Jdg.",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Judg."
+                "text": "Judg.",
+                "lang": "en"
             },
             {
-                "primary": true,
+                "text": "Jud.",
+                "lang": "en"
+            },
+            {
+                "text": "Judices",
+                "lang": "en"
+            },
+            {
+                "text": "Shofetim",
+                "lang": "en"
+            },
+            {
+                "text": "Juges",
+                "lang": "en"
+            },
+            {
+                "text": "שופטים",
                 "lang": "he",
-                "text": "שופטים"
-            },
-            {
-                "lang": "en",
-                "text": "Jud."
-            },
-            {
-                "lang": "en",
-                "text": "Judices"
+                "primary": true
             },
             {
                 "text": "Judges",
@@ -72,13 +93,19 @@
         2
     ],
     "authors": [],
-    "enDesc": "The second of the four books making up the Neviim Rishonim (Early Prophets) - Shofetim (Judges) is divided into three major sections: a double prologue, a main body and a double epilogue. The book opens with the Israelites in the land of Canaan which God has promised to them, but worshiping foreign gods. The main body gives six accounts each concerning a major judge and their struggles against the oppressive kings of the surrounding nations. The main judges are Othniel, Ehud, Deborah and Barak, Gideon, Abimelech an Israelite who oppresses his own people, Jephthah and Samson. The minor judges are Shamgar, Tola, Jair, Ibzan, Elon and Abdon. The Epilogue concludes with stories that are not connected to a specific judge; Dan and the Idols of Micah and Gibeah and the Levite Concubine.",
+    "enDesc": "Judges (“Shoftim”) is the second book of the Prophets, describing the period after Joshua’s leadership and before the advent of monarchy, when Israel lacked long-term centralized leadership. The book details cycles of sin, foreign oppression, repentance, and redemption through leaders appointed by God, like Deborah, Gideon, and Samson. It ends by highlighting the chaos of the period with stories about theft, idolatry, rape, murder, and civil war.",
+    "heDesc": "שופטים הוא הספר השני בספרי הנביאים ומתאר את תקופת הביניים בין מותו של יהושע ובין ייסוד המלוכה בישראל. בימים ההם חסרה הנהגה יציבה בישראל, והספר מתאר את המעבר משופט אחד למשנהו. בספר מחזוריות של חטא, עונש, זעקת בני ישראל אל הא-ל וישועתם בידי מנהיגים במינויו, ובהם גדעון, שמשון הגיבור, דבורה הנביאה ויפתח הגלעדי. סיומו של הספר עוסק באנרכיה השוררת, שיש בה גזל, אונס, רצח, עבודת אלילים ומלחמת אזרחים.",
+    "enShortDesc": "Cycles of sin, foreign oppression, repentance, and redemption through leaders appointed by God.",
+    "heShortDesc": "מעגלים חוזרים של חטא, דיכוי תחת שלטון זר, חזרה בתשובה וגאולה בעזרת מנהיגים נבחרים.",
     "pubDate": "1488",
     "compDate": "-900",
     "compPlace": "Canaan",
     "pubPlace": "Soncino",
     "errorMargin": "400",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "שופטים",
     "titleVariants": [
         "Shoftim",
@@ -88,6 +115,8 @@
         "Judg.",
         "Jud.",
         "Judices",
+        "Shofetim",
+        "Juges",
         "Judges"
     ],
     "heTitleVariants": [

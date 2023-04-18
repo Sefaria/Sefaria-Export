@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "even-haazel",
+                    "hilchot",
+                    "sales"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "even-haazel",
+                    "sales"
+                ]
+            }
+        ],
+        "lengths": [
+            30,
+            131,
+            134
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,11 +62,18 @@
         "key": "Even Ha'azel on Mishneh Torah, Sales"
     },
     "authors": [
-        "Isser Zalman Meltzer"
+        {
+            "en": "Isser Zalman Meltzer",
+            "he": "איסר זלמן מלצר",
+            "slug": "isser-zalman-meltzer"
+        }
     ],
-    "enDesc": "Part of an involved nine-volume commentary on Rambam's Mishneh Torah. ",
+    "enDesc": "Part of an involved nine-volume commentary on Rambam's Mishneh Torah.",
     "pubDate": "1938",
+    "compDate": "1933",
+    "compPlace": "Jerusalem",
     "pubPlace": "Jerusalem",
+    "errorMargin": "5",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -79,5 +106,13 @@
         "מפרשים",
         "אבן האזל",
         "ספר קניין"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1928  - c.1938 CE)",
+        "he": " (1928 - 1938 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Jerusalem",
+        "he": "ירושלים"
+    }
 }

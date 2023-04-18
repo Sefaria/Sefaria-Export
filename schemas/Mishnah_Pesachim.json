@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "pesachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "pesachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "pesachim"
+                ]
+            }
+        ],
         "lengths": [
             10,
             89
@@ -37,11 +56,6 @@
                 "text": "Mishnah Pesahim"
             },
             {
-                "lang": "he",
-                "text": "משנה פסחים",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Pes."
             },
@@ -50,8 +64,13 @@
                 "text": "Mishnah P’saḥim"
             },
             {
-                "lang": "en",
+                "text": "משנה פסחים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Pesachim",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -68,7 +87,9 @@
         3
     ],
     "authors": [],
-    "enDesc": "Pesahim (Passover Festivals) belongs to the second order, Moed (Festivals) and discusses the prescriptions regarding the Passover and the paschal sacrifice. It has ten chapters.",
+    "enDesc": "Pesachim (“Passover Festivals”) is the third tractate in Seder Moed (“Festivals”). Its ten chapters discuss laws relating to Passover: the consumption of matzah (unleavened bread) and maror (bitter herbs), the prohibitions against owning or consuming chametz (leavened bread) on the festival, the paschal lamb that used to be offered at the Temple in Jerusalem, and the order of the seder (ritual feast) held on the first evening of the holiday.\n.",
+    "enShortDesc": "Passover: ridding of chametz, the Paschal lamb offering, matzah, maror, and the Seder.",
+    "heShortDesc": "דינים הקשורים לחג הפסח: איסור חמץ, קורבן הפסח, מצה, מרור וליל הסדר.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -76,6 +97,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה פסחים",
     "titleVariants": [
         "Mishna Pesachim",

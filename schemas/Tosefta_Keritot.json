@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Keritot",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Kodashim"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "keritot"
+                ]
+            }
+        ],
         "lengths": [
-            4
+            4,
+            41
         ],
         "titles": [
             {
@@ -49,17 +58,17 @@
                 "text": "Tosefta Keritut"
             },
             {
-                "lang": "he",
-                "text": "תוספתא כריתות",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Ker."
             },
             {
-                "lang": "en",
+                "text": "תוספתא כריתות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Keritot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -75,7 +84,9 @@
         8
     ],
     "authors": [],
-    "enDesc": "Keritot (Excisions) belongs to the fifth order, Kodshim (Holy things) and discusses the commandments for which the penalty is karet \"excision\") as well as the sacrifices associated with their (mostly unwitting) transgression. It has four chapters.",
+    "enDesc": "Keritot (plural of “Karet,” or the punishment of divinely-issued severance from the Jewish people) is a tractate within Seder Kodashim (“Order of Holy Things”). It mainly discusses prohibitions for which the Torah imposes karet for those who knowingly transgress. It also discusses the sin offering brought when one unintentionally violates these prohibitions (chatat), as well as the provisional guilt offering brought when one is unsure if they violated these prohibitions (asham).",
+    "enShortDesc": "Karet, divinely-issued severance from the Jewish people, and sacrifices for unintentional sin.",
+    "heShortDesc": "עונש כרת וקורבנות על חטאים שנעשו בשגגה.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -104,8 +115,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר קדשים"
     ],
     "compDateString": {

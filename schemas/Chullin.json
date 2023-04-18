@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "chullin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "chullin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "chullin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "chullin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "chullin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "chullin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "chullin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "chullin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chullin"
+                ]
+            }
+        ],
         "lengths": [
-            281,
-            13642
+            283,
+            4393
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -50,13 +114,13 @@
                 "text": "Hul."
             },
             {
-                "lang": "he",
-                "text": "חולין",
-                "primary": true
-            },
-            {
                 "text": "BT Chullin",
                 "lang": "en"
+            },
+            {
+                "text": "חולין",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Chullin",
@@ -77,12 +141,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         30,
         3
     ],
     "authors": [],
-    "enDesc": "Hulin (Ordinary/Mundane Things) belongs to the fifth order, Kodshim (Holy things) and discusses the laws of slaughter and meat consumption (i.e. animals used for every-day as opposed to sacred reasons). It has twelve chapters.",
+    "enDesc": "Chullin (lit: “Ordinary,” referring to animal and birds consumed in non-consecrated contexts) is the third tractate in Seder Kodashim (“Order of Holy Things\"). Its twelve chapters discuss laws related to non-sacred consumption of meat, such as ritual slaughter of non-consecrated animals and birds, kosher and non-kosher living beings, the obligation to cover the blood of slaughtered animals, and the prohibitions of mixing meat and dairy products and of slaughtering an animal and its offspring on the same day. The tractate’s last chapter discusses the obligation to send away a mother bird when taking her young or eggs (shiluach hakein).",
+    "enShortDesc": "Slaughter of animals and birds for non-consecrated purposes, other aspects of kashrut.",
+    "heShortDesc": "שחיטת חיות ועופות שלא לשם קורבן וענייני כשרות נוספים.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -90,6 +159,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "חולין",
     "titleVariants": [
         "Tractate Chullin",
@@ -113,6 +185,33 @@
                     "depth": 1,
                     "wholeRef": "Chullin 2a:1-26b:19",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-19"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-19"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -192,6 +291,33 @@
                     "depth": 1,
                     "wholeRef": "Chullin 27a:1-42a:2",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-29"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-29"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -252,6 +378,33 @@
                     "depth": 1,
                     "wholeRef": "Chullin 42a:3-67b:16",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-39"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-39"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -333,6 +486,33 @@
                     "depth": 1,
                     "wholeRef": "Chullin 68a:1-78a:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-48"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-48"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "lang": "en",
@@ -383,6 +563,33 @@
                     "depth": 1,
                     "wholeRef": "Chullin 78a:5-83b:2",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-58"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-58"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "lang": "en",
@@ -424,6 +631,33 @@
                     "depth": 1,
                     "wholeRef": "Chullin 83b:3-89b:2",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-66"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-66"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "lang": "en",
@@ -466,6 +700,33 @@
                     "depth": 1,
                     "wholeRef": "Chullin 89b:3-103b:15",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-76"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-76"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "lang": "en",
@@ -524,6 +785,33 @@
                     "depth": 1,
                     "wholeRef": "Chullin 103b:16-117b:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-86"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-86"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "lang": "en",
@@ -582,6 +870,33 @@
                     "depth": 1,
                     "wholeRef": "Chullin 117b:6-129b:18",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-96"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-96"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "lang": "en",
@@ -636,6 +951,33 @@
                     "depth": 1,
                     "wholeRef": "Chullin 130a:1-134b:25",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-103"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-103"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
                     "titles": [
                         {
                             "lang": "en",
@@ -675,6 +1017,33 @@
                     "depth": 1,
                     "wholeRef": "Chullin 135a:1-138b:2",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-111"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eleventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-111"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eleventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 11,
                     "titles": [
                         {
                             "lang": "en",
@@ -712,6 +1081,44 @@
                     "depth": 1,
                     "wholeRef": "Chullin 138b:3-142a:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-121"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "twelfth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-121"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "twelfth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 12,
                     "titles": [
                         {
                             "lang": "en",
@@ -775,13 +1182,13 @@
                     "text": "Hul."
                 },
                 {
-                    "lang": "he",
-                    "text": "חולין",
-                    "primary": true
-                },
-                {
                     "text": "BT Chullin",
                     "lang": "en"
+                },
+                {
+                    "text": "חולין",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Chullin",

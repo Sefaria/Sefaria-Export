@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "shekalim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "shekalim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "shekalim"
+                ]
+            }
+        ],
         "lengths": [
             8,
             52
@@ -31,11 +50,6 @@
             {
                 "lang": "en",
                 "text": "M Shekalim"
-            },
-            {
-                "lang": "he",
-                "text": "משנה שקלים",
-                "primary": true
             },
             {
                 "lang": "he",
@@ -58,8 +72,13 @@
                 "text": "Mishnah Sh’ḳalim"
             },
             {
-                "lang": "en",
+                "text": "משנה שקלים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Shekalim",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -76,7 +95,9 @@
         4
     ],
     "authors": [],
-    "enDesc": "Sheqalim (Shekels) belongs to the second order, Moed (Festivals) and discusses the collection of the half-Shekel as well as the expenses and expenditure of the Temple. It has eight chapters.",
+    "enDesc": "Shekalim (Shekels) belongs to the second order, Moed (Festivals) and discusses the collection of the half-Shekel as well as the expenses and expenditure of the Temple. It has eight chapters.",
+    "enShortDesc": "Annual half-shekel donations to the Temple, administration and inventory of the Temple.",
+    "heShortDesc": "תרומה של מחצית השקל הניתנת לבית המקדש בכל שנה וענייני ניהולו ותפעולו של בית המקדש.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -84,6 +105,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה שקלים",
     "titleVariants": [
         "M. Shekalim",
@@ -96,8 +120,8 @@
         "Mishnah Shekalim"
     ],
     "heTitleVariants": [
-        "משנה שקלים",
-        "שקלים"
+        "שקלים",
+        "משנה שקלים"
     ],
     "sectionNames": [
         "Chapter",

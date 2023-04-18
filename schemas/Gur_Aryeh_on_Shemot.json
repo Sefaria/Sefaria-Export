@@ -2,7 +2,7 @@
     "title": "Gur Aryeh on Shemot",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
         "Gur Aryeh",
         "Torah"
     ],
@@ -11,7 +11,7 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
@@ -19,19 +19,37 @@
             "Verse",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "gur-aryeh",
+                    "exodus"
+                ]
+            }
+        ],
+        "lengths": [
+            40,
+            537,
+            968
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
                 "lang": "en",
                 "text": "Gur Aryeh on Exod."
             },
             {
-                "lang": "he",
                 "text": "גור אריה על שמות",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Gur Aryeh on Shemot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -45,7 +63,11 @@
         "key": "Gur Aryeh on Shemot"
     },
     "authors": [
-        "Maharal"
+        {
+            "en": "Maharal",
+            "he": "מהר\"ל",
+            "slug": "maharal"
+        }
     ],
     "enDesc": "Maharal's supercommentary to Rashi's Torah commentary.",
     "heDesc": "פירושו של המהר\"ל מפראג לפירוש רש\"י על התורה.",
@@ -84,7 +106,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
         "גור אריה",
         "תורה"
     ],

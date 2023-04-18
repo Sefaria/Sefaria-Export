@@ -11,21 +11,28 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "onkelos",
+                    "genesis"
+                ]
+            }
+        ],
+        "lengths": [
+            50,
+            1533
+        ],
         "titles": [
             {
                 "lang": "en",
                 "text": "Targum Onkelos Genesis"
-            },
-            {
-                "primary": true,
-                "lang": "he",
-                "text": "תרגום אונקלוס על בראשית"
             },
             {
                 "lang": "en",
@@ -36,9 +43,14 @@
                 "text": "Targ. O. Gen."
             },
             {
-                "primary": true,
+                "text": "תרגום אונקלוס על בראשית",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "Onkelos Genesis",
                 "lang": "en",
-                "text": "Onkelos Genesis"
+                "primary": true
             }
         ],
         "title": "Onkelos Genesis",
@@ -49,6 +61,7 @@
         ],
         "key": "Onkelos Genesis"
     },
+    "authors": [],
     "enDesc": "Targum Onkelos is the official eastern (Babylonian) targum (Aramaic translation) to the Torah. However, its early origins may have been western, in Israel. Some identify this translation as the work of Aquila of Sinope in an Aramaic translation (Zvi Hirsch Chajes), or believe that the name \"Onkelos\" originally referred to Aquila but was applied in error to the Aramaic instead of the Greek translation. The translator is unique in that he avoids any type of personification. Samuel D. Luzzatto suggests that the translation was originally meant for the \"simple people\". This view was strongly rebutted by Nathan Marcus Adler in his introduction to Netinah La-Ger. In Talmudic times, and to this day in Yemenite Jewish communities, Targum Onkelos was recited by heart as a verse-by-verse translation alternately with the Hebrew verses of the Torah in the synagogue. The Talmud states that \"a person should complete his portions of scripture along with the community, reading the scripture twice and the targum once (Shnayim mikra ve-echad targum).\" This passage is taken by many to refer to Targum Onkelos.",
     "pubDate": "1482",
     "compDate": "100",
@@ -713,11 +726,6 @@
                     "text": "Targum Onkelos Genesis"
                 },
                 {
-                    "primary": true,
-                    "lang": "he",
-                    "text": "תרגום אונקלוס על בראשית"
-                },
-                {
                     "lang": "en",
                     "text": "Targ. Gen."
                 },
@@ -726,9 +734,14 @@
                     "text": "Targ. O. Gen."
                 },
                 {
-                    "primary": true,
+                    "text": "תרגום אונקלוס על בראשית",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Onkelos Genesis",
                     "lang": "en",
-                    "text": "Onkelos Genesis"
+                    "primary": true
                 }
             ],
             "title": "Onkelos Genesis",

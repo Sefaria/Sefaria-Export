@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "one-who-injures-a-person-or-property"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "one-who-injures-a-person-or-property"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "one-who-injures-a-person-or-property"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "one-who-injures-a-person-or-property"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "one-who-injures-a-person-or-property"
+                ]
+            }
+        ],
         "lengths": [
-            8
+            8,
+            135
         ],
         "titles": [
             {
@@ -66,11 +101,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות חובל ומזיק",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות חובל ומזיק"
             },
             {
@@ -94,6 +124,43 @@
                 "text": "הל' חובל ומזיק"
             },
             {
+                "text": "רמב״ם, הלכות חובל ומזיק",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות חובל ומזיק",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' חובל ומזיק",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' חובל ומזיק",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות חובל ומזיק",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות חובל ומזיק",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' חובל ומזיק",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' חובל ומזיק",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות חובל ומזיק",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, One Who Injures a Person or Property",
                 "lang": "en",
                 "primary": true
@@ -112,7 +179,11 @@
         4
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The eleventh book is Sefer Nezikim (Injuries: criminal and tort law). Hilchot Hovel Umazik.",
     "pubDate": "1474",
@@ -138,13 +209,21 @@
         "Mishneh Torah, One Who Injures a Person or Property"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות חובל ומזיק",
         "רמב\"ם, הלכות חובל ומזיק",
         "משנה תורה, הל' חובל ומזיק",
         "רמב\"ם, הל' חובל ומזיק",
         "רמב\"ם הלכות חובל ומזיק",
         "רמב\"ם הל' חובל ומזיק",
-        "הל' חובל ומזיק"
+        "הל' חובל ומזיק",
+        "רמב״ם, הלכות חובל ומזיק",
+        "רמב”ם, הלכות חובל ומזיק",
+        "רמב״ם, הל' חובל ומזיק",
+        "רמב”ם, הל' חובל ומזיק",
+        "רמב״ם הלכות חובל ומזיק",
+        "רמב”ם הלכות חובל ומזיק",
+        "רמב״ם הל' חובל ומזיק",
+        "רמב”ם הל' חובל ומזיק",
+        "משנה תורה, הלכות חובל ומזיק"
     ],
     "sectionNames": [
         "Chapter",

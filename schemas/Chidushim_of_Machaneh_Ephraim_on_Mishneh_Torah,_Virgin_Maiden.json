@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushim-of-machaneh-ephraim",
+                    "hilchot",
+                    "virgin-maiden"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushim-of-machaneh-ephraim",
+                    "virgin-maiden"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            1,
+            1
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Chidushim of Machaneh Ephraim on Mishneh Torah, Virgin Maiden",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Chidushim of Machaneh Ephraim on Mishneh Torah, Virgin Maiden",
@@ -42,7 +62,11 @@
         "key": "Chidushim of Machaneh Ephraim on Mishneh Torah, Virgin Maiden"
     },
     "authors": [
-        "Ephraim Navon"
+        {
+            "en": "Ephraim Navon",
+            "he": "אפרים נבון",
+            "slug": "ephraim-navon"
+        }
     ],
     "pubDate": "1738",
     "compDate": "1720",

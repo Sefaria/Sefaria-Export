@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "ruth"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ruth"
+                ]
+            }
         ],
         "lengths": [
             4,
@@ -21,18 +34,22 @@
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Rut"
+                "text": "Rut",
+                "lang": "en"
             },
             {
-                "primary": true,
+                "text": "Rus",
+                "lang": "en"
+            },
+            {
+                "text": "רות",
                 "lang": "he",
-                "text": "רות"
+                "primary": true
             },
             {
-                "primary": true,
+                "text": "Ruth",
                 "lang": "en",
-                "text": "Ruth"
+                "primary": true
             }
         ],
         "title": "Ruth",
@@ -47,16 +64,24 @@
         31,
         5
     ],
-    "enDesc": "Ruth (Book of Ruth) is the second of the five Megillot (scrolls) of Ketuvim (Writings) the last section of the Tanakh (Bible). The book tells of Ruth's accepting the God of the Israelites as her God and the Israelite people as her own. In Ruth 1:16 and 17 Ruth tells Naomi, her Israelite mother in law, \"Where you go I will go, and where you stay I will stay. Your people will be my people and your God my God. Where you die I will die, and there I will be buried. May the Lord deal with me, be it ever so severely, if even death separates you and me.\" The book is held in esteem by Jews who fall under the category of Jews-by-choice, as is evidenced by the considerable presence of Boaz in rabbinic literature. The \"Book of Ruth\" also functions liturgically, as it is read during the Jewish holiday of Shavuot (\"Weeks\").",
+    "authors": [],
+    "enDesc": "The Book of Ruth is one of the five megillot (scrolls), part of the section of the Hebrew Bible called Writings, and is traditionally read on the holiday of Shavuot. It tells the story of Ruth, a widow of Moabite origin who insists on staying with her widowed, Israelite mother-in-law, declaring “wherever you go, I will go... your people shall be my people, and your God my God” (1:16). Ruth’s loyalty leads her to the field of her kinsman, Boaz, whom she ultimately marries. Together they have a child, who later becomes the grandfather of King David.",
+    "heDesc": "מגילת רות היא השנייה בקובץ חמש מגילות שבחטיבת הכתובים שבמקרא, ונקראת בחג השבועות. היא מספרת את סיפורה של של רות, אלמנה שמוצאה במואב, הדבקה בחמותה האלמנה היהודייה ומצהירה \"באשר תלכי אלך, עמך עמי ואלוקייך אלוקיי\" (רות א, טז). נאמנותה של רות מוליכה אותה לשדהו של מיטיבה בועז, והוא נושא אותה לאישה. בנם הנולד להם נעשה לימים סבו של דוד המלך.",
+    "enShortDesc": "A Moabite widow remains loyal to her mother-in-law and to Israel, embarking on a new beginning.",
+    "heShortDesc": "אלמנה מואבייה נוהגת בחמותה במידת החסד ומצטרפת לעם ישראל בצאתה לדרך חדשה.",
     "pubDate": "1488",
     "compDate": "-650",
     "compPlace": "Judea/Israel",
     "pubPlace": "Soncino",
     "errorMargin": "250",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "רות",
     "titleVariants": [
         "Rut",
+        "Rus",
         "Ruth"
     ],
     "heTitleVariants": [

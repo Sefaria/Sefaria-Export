@@ -7,44 +7,88 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "yevamot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "yevamot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "yevamot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "yevamot"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "yevamot"
+            ]
+        },
         "lengths": [
-            169,
-            422
+            16,
+            143,
+            638
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "JT Yevamot,Yerushalmi Yevamot"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Yevamot"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Yevamos"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי יבמות",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי יבמות"
+                "text": "JT Yevamot,Yerushalmi Yevamot",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Yeb."
+                "text": "Talmud Yerushalmi Yevamot",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Yevamos",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי יבמות",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Yeb.",
+                "lang": "en"
             },
             {
                 "text": "JT Yevamot",
@@ -59,23 +103,27 @@
         "title": "Jerusalem Talmud Yevamot",
         "heTitle": "תלמוד ירושלמי יבמות",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Yevamot"
     },
     "order": [
         24
     ],
-    "authors": [],
-    "enDesc": "Yevamot (Levirate marriage) belongs to the third order, Nashim (Women) and discusses the mandated marriage of a widow to her brother-in-law, deals with the Jewish law of levirate marriage (Deut. 25:5–10) and other topics, such as the status of minors. It has sixteen chapters.",
+    "enDesc": "Yevamot (the plural of the word used to refer to one’s childless brother’s widow) is the first tractate in Seder Nashim (“Order of Women,” which addresses family law). Its sixteen chapters discuss yibum, the Torah-mandated marriage of a widow to the brother of her childless husband as well as chalitzah, the alternative rite discharging that obligation, in which the widow takes off the shoe of her husband’s brother and spits on the floor.",
+    "enShortDesc": "The mandated marriage of a widow to the brother of her childless husband and the alternative rite discharging that obligation.",
+    "heShortDesc": "ייבום, חליצה ואיסורי עריות.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי יבמות",
     "titleVariants": [
         "JT Yevamot,Yerushalmi Yevamot",
@@ -89,11 +137,1313 @@
         "תלמוד ירושלמי יבמות",
         "ירושלמי יבמות"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 1:1:2-6:9",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 1:1:2-4",
+                        "Jerusalem Talmud Yevamot 1:1:4-13",
+                        "Jerusalem Talmud Yevamot 1:1:13-22",
+                        "Jerusalem Talmud Yevamot 1:1:22-2:9",
+                        "Jerusalem Talmud Yevamot 1:2:9-6:5",
+                        "Jerusalem Talmud Yevamot 1:6:5-9"
+                    ],
+                    "startingAddress": "2a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "חמש עשרה נשים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "חמש עשרה נשים",
+                    "offset": 4
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 2:1:1-12:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 2:1:1-2",
+                        "Jerusalem Talmud Yevamot 2:1:2-2:5",
+                        "Jerusalem Talmud Yevamot 2:2:5-6:2",
+                        "Jerusalem Talmud Yevamot 2:6:2-11:4",
+                        "Jerusalem Talmud Yevamot 2:11:4-12:3"
+                    ],
+                    "startingAddress": "3b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כיצד אשת אחיו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "כיצד אשת אחיו",
+                    "offset": 9
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 3:1:1-12:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 3:1:1-2",
+                        "Jerusalem Talmud Yevamot 3:1:2-9",
+                        "Jerusalem Talmud Yevamot 3:1:9-4:3",
+                        "Jerusalem Talmud Yevamot 3:4:3-12:5"
+                    ],
+                    "startingAddress": "4b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "ארבעה אחין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "ארבעה אחין",
+                    "offset": 13
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 4:1:1-16:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 4:1:1-2",
+                        "Jerusalem Talmud Yevamot 4:1:2",
+                        "Jerusalem Talmud Yevamot 4:1:2-2:4",
+                        "Jerusalem Talmud Yevamot 4:2:4-8:2",
+                        "Jerusalem Talmud Yevamot 4:8:2-11:6",
+                        "Jerusalem Talmud Yevamot 4:11:6-15:2",
+                        "Jerusalem Talmud Yevamot 4:15:2-16:2"
+                    ],
+                    "startingAddress": "5a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "החולץ",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "החולץ",
+                    "offset": 16
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 5:1:1-8:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 5:1:1-5",
+                        "Jerusalem Talmud Yevamot 5:1:5-4:2",
+                        "Jerusalem Talmud Yevamot 5:4:2-8:2"
+                    ],
+                    "startingAddress": "6c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "רבן גמליאל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "רבן גמליאל",
+                    "offset": 22
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 6:1:1-6:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 6:1:1-2",
+                        "Jerusalem Talmud Yevamot 6:1:2-3:2",
+                        "Jerusalem Talmud Yevamot 6:3:2-6:4",
+                        "Jerusalem Talmud Yevamot 6:6:4-6"
+                    ],
+                    "startingAddress": "7a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הבא על יבמתו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "הבא על יבמתו",
+                    "offset": 24
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 7:1:1-8:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 7:1:1-2",
+                        "Jerusalem Talmud Yevamot 7:1:2-3:5",
+                        "Jerusalem Talmud Yevamot 7:3:5-6:2",
+                        "Jerusalem Talmud Yevamot 7:6:2-8:3"
+                    ],
+                    "startingAddress": "7d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אלמנה לכהן גדול",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "אלמנה לכהן גדול",
+                    "offset": 27
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 8:1:1-6:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 8:1:1-4",
+                        "Jerusalem Talmud Yevamot 8:1:4-13",
+                        "Jerusalem Talmud Yevamot 8:1:13-2:2",
+                        "Jerusalem Talmud Yevamot 8:2:2-12",
+                        "Jerusalem Talmud Yevamot 8:2:12-3:9",
+                        "Jerusalem Talmud Yevamot 8:3:9-6:5"
+                    ],
+                    "startingAddress": "8c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הערל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "הערל",
+                    "offset": 30
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 9:1:1-8:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 9:1:1-2",
+                        "Jerusalem Talmud Yevamot 9:1:2-4:6",
+                        "Jerusalem Talmud Yevamot 9:4:6-8:2"
+                    ],
+                    "startingAddress": "9d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "יש מותרות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "יש מותרות",
+                    "offset": 35
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 10:1:1-8:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 10:1:1-2",
+                        "Jerusalem Talmud Yevamot 10:1:2-6",
+                        "Jerusalem Talmud Yevamot 10:1:6-3:3",
+                        "Jerusalem Talmud Yevamot 10:3:3-6:7",
+                        "Jerusalem Talmud Yevamot 10:6:7-8:3",
+                        "Jerusalem Talmud Yevamot 10:8:3-4"
+                    ],
+                    "startingAddress": "10b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 10",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האישה רבה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 10",
+                    "heTitle": "האישה רבה",
+                    "offset": 37
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 11:1:1-7:9",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 11:1:1-4",
+                        "Jerusalem Talmud Yevamot 11:1:4-2:3",
+                        "Jerusalem Talmud Yevamot 11:2:3-7:4",
+                        "Jerusalem Talmud Yevamot 11:7:4-9"
+                    ],
+                    "startingAddress": "11c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 11",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "נושאין על האנוסה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 11",
+                    "heTitle": "נושאין על האנוסה",
+                    "offset": 42
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 12:1:1-6:8",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 12:1:1-5",
+                        "Jerusalem Talmud Yevamot 12:1:5-2:3",
+                        "Jerusalem Talmud Yevamot 12:2:3-6:3",
+                        "Jerusalem Talmud Yevamot 12:6:3-8"
+                    ],
+                    "startingAddress": "12b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 12",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מצות חליצה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 12",
+                    "heTitle": "מצות חליצה",
+                    "offset": 45
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 13:1:1-14:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 13:1:1-2",
+                        "Jerusalem Talmud Yevamot 13:1:2-5",
+                        "Jerusalem Talmud Yevamot 13:1:5-2:7",
+                        "Jerusalem Talmud Yevamot 13:2:7-7:4",
+                        "Jerusalem Talmud Yevamot 13:7:4-14:3"
+                    ],
+                    "startingAddress": "13a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 13",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בית שמאי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 13",
+                    "heTitle": "בית שמאי",
+                    "offset": 48
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 14:1:1-7:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 14:1:1-2",
+                        "Jerusalem Talmud Yevamot 14:1:2-5:2",
+                        "Jerusalem Talmud Yevamot 14:5:2-7:2"
+                    ],
+                    "startingAddress": "14a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 14",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "חרש שנשא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 14",
+                    "heTitle": "חרש שנשא",
+                    "offset": 52
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 15:1:1-10:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 15:1:1-2",
+                        "Jerusalem Talmud Yevamot 15:1:2-3:9",
+                        "Jerusalem Talmud Yevamot 15:3:9-5:4",
+                        "Jerusalem Talmud Yevamot 15:5:4-10:3"
+                    ],
+                    "startingAddress": "14c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 15",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האשה שלום",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 15",
+                    "heTitle": "האשה שלום",
+                    "offset": 54
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 16:1:1-9:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 16:1:1-2",
+                        "Jerusalem Talmud Yevamot 16:1:2-3:6",
+                        "Jerusalem Talmud Yevamot 16:3:6-6:4",
+                        "Jerusalem Talmud Yevamot 16:6:4-7:2",
+                        "Jerusalem Talmud Yevamot 16:7:2-9:2"
+                    ],
+                    "startingAddress": "15b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 16",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האשה בתרא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 16",
+                    "heTitle": "האשה בתרא",
+                    "offset": 57
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי יבמות",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Yevamot,Yerushalmi Yevamot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Yevamot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Yevamos",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי יבמות",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Yeb.",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Yevamot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Yevamot",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Yevamot",
+            "heTitle": "תלמוד ירושלמי יבמות"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 1:1:1-6:9",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 1:1:1-6",
+                        "Jerusalem Talmud Yevamot 1:1:6-7",
+                        "Jerusalem Talmud Yevamot 1:1:7-10",
+                        "Jerusalem Talmud Yevamot 1:1:10-14",
+                        "Jerusalem Talmud Yevamot 1:1:14-17",
+                        "Jerusalem Talmud Yevamot 1:1:17-18",
+                        "Jerusalem Talmud Yevamot 1:1:18-20",
+                        "Jerusalem Talmud Yevamot 1:1:20-21",
+                        "Jerusalem Talmud Yevamot 1:1:21-24",
+                        "Jerusalem Talmud Yevamot 1:1:24-2:2",
+                        "Jerusalem Talmud Yevamot 1:2:2-5",
+                        "Jerusalem Talmud Yevamot 1:2:5-10",
+                        "Jerusalem Talmud Yevamot 1:2:10-5:2",
+                        "Jerusalem Talmud Yevamot 1:5:2-6:2",
+                        "Jerusalem Talmud Yevamot 1:6:2-5",
+                        "Jerusalem Talmud Yevamot 1:6:5-8",
+                        "Jerusalem Talmud Yevamot 1:6:8-9"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "חמש עשרה נשים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "חמש עשרה נשים",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 2:1:1-12:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 2:1:1-6",
+                        "Jerusalem Talmud Yevamot 2:1:6-2:3",
+                        "Jerusalem Talmud Yevamot 2:2:3-4",
+                        "Jerusalem Talmud Yevamot 2:2:4-3:1",
+                        "Jerusalem Talmud Yevamot 2:3:1-4:2",
+                        "Jerusalem Talmud Yevamot 2:4:2-7",
+                        "Jerusalem Talmud Yevamot 2:4:7-10",
+                        "Jerusalem Talmud Yevamot 2:4:10-6:5",
+                        "Jerusalem Talmud Yevamot 2:6:5-8:3",
+                        "Jerusalem Talmud Yevamot 2:8:3-10:3",
+                        "Jerusalem Talmud Yevamot 2:10:3-11:2",
+                        "Jerusalem Talmud Yevamot 2:11:2-12:2",
+                        "Jerusalem Talmud Yevamot 2:12:2-3"
+                    ],
+                    "startingAddress": "9b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כיצד אשת אחיו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "כיצד אשת אחיו",
+                    "offset": 17
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 3:1:1-12:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 3:1:1-3",
+                        "Jerusalem Talmud Yevamot 3:1:3-4",
+                        "Jerusalem Talmud Yevamot 3:1:4-5",
+                        "Jerusalem Talmud Yevamot 3:1:5-6",
+                        "Jerusalem Talmud Yevamot 3:1:6-8",
+                        "Jerusalem Talmud Yevamot 3:1:8-10",
+                        "Jerusalem Talmud Yevamot 3:1:10-2:1",
+                        "Jerusalem Talmud Yevamot 3:2:1-3:2",
+                        "Jerusalem Talmud Yevamot 3:3:2-4",
+                        "Jerusalem Talmud Yevamot 3:3:4-4:3",
+                        "Jerusalem Talmud Yevamot 3:4:3-8:2",
+                        "Jerusalem Talmud Yevamot 3:8:2-9:4",
+                        "Jerusalem Talmud Yevamot 3:9:4-11:1",
+                        "Jerusalem Talmud Yevamot 3:11:1-12:5"
+                    ],
+                    "startingAddress": "15b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "ארבעה אחין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "ארבעה אחין",
+                    "offset": 29
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 4:1:1-16:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 4:1:1-2",
+                        "Jerusalem Talmud Yevamot 4:1:2-4",
+                        "Jerusalem Talmud Yevamot 4:1:4-6",
+                        "Jerusalem Talmud Yevamot 4:1:6-2:3",
+                        "Jerusalem Talmud Yevamot 4:2:3-4",
+                        "Jerusalem Talmud Yevamot 4:2:4-7",
+                        "Jerusalem Talmud Yevamot 4:2:7-4:2",
+                        "Jerusalem Talmud Yevamot 4:4:2-7:3",
+                        "Jerusalem Talmud Yevamot 4:7:3-8:3",
+                        "Jerusalem Talmud Yevamot 4:8:3-11:1",
+                        "Jerusalem Talmud Yevamot 4:11:1-4",
+                        "Jerusalem Talmud Yevamot 4:11:4-6",
+                        "Jerusalem Talmud Yevamot 4:11:6-8",
+                        "Jerusalem Talmud Yevamot 4:11:8-12:3",
+                        "Jerusalem Talmud Yevamot 4:12:3-15:3",
+                        "Jerusalem Talmud Yevamot 4:15:3-16:2",
+                        "Jerusalem Talmud Yevamot 4:16:2"
+                    ],
+                    "startingAddress": "22a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "החולץ",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "החולץ",
+                    "offset": 42
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 5:1:1-8:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 5:1:1-5",
+                        "Jerusalem Talmud Yevamot 5:1:5-7",
+                        "Jerusalem Talmud Yevamot 5:1:7-10",
+                        "Jerusalem Talmud Yevamot 5:1:10-2:3",
+                        "Jerusalem Talmud Yevamot 5:2:3-4:1",
+                        "Jerusalem Talmud Yevamot 5:4:1-3",
+                        "Jerusalem Talmud Yevamot 5:4:3-6:1",
+                        "Jerusalem Talmud Yevamot 5:6:1-8:1",
+                        "Jerusalem Talmud Yevamot 5:8:1-2",
+                        "Jerusalem Talmud Yevamot 5:8:2"
+                    ],
+                    "startingAddress": "30a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "רבן גמליאל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "רבן גמליאל",
+                    "offset": 58
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 6:1:1-6:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 6:1:1-3",
+                        "Jerusalem Talmud Yevamot 6:1:3-7",
+                        "Jerusalem Talmud Yevamot 6:1:7-3:1",
+                        "Jerusalem Talmud Yevamot 6:3:1-2",
+                        "Jerusalem Talmud Yevamot 6:3:2-4:5",
+                        "Jerusalem Talmud Yevamot 6:4:5-5:2",
+                        "Jerusalem Talmud Yevamot 6:5:2-6:3",
+                        "Jerusalem Talmud Yevamot 6:6:3-6",
+                        "Jerusalem Talmud Yevamot 6:6:6"
+                    ],
+                    "startingAddress": "34b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הבא על יבמתו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "הבא על יבמתו",
+                    "offset": 67
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 7:1:1-8:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 7:1:1-3",
+                        "Jerusalem Talmud Yevamot 7:1:3-4",
+                        "Jerusalem Talmud Yevamot 7:1:4-8",
+                        "Jerusalem Talmud Yevamot 7:1:8-3:2",
+                        "Jerusalem Talmud Yevamot 7:3:2-3",
+                        "Jerusalem Talmud Yevamot 7:3:3-5",
+                        "Jerusalem Talmud Yevamot 7:3:5-4:2",
+                        "Jerusalem Talmud Yevamot 7:4:2-5:4",
+                        "Jerusalem Talmud Yevamot 7:5:4-6:2",
+                        "Jerusalem Talmud Yevamot 7:6:2-8:3"
+                    ],
+                    "startingAddress": "38b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אלמנה לכהן גדול",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "אלמנה לכהן גדול",
+                    "offset": 75
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 8:1:1-6:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 8:1:1-2",
+                        "Jerusalem Talmud Yevamot 8:1:2-6",
+                        "Jerusalem Talmud Yevamot 8:1:6-8",
+                        "Jerusalem Talmud Yevamot 8:1:8-12",
+                        "Jerusalem Talmud Yevamot 8:1:12-15",
+                        "Jerusalem Talmud Yevamot 8:1:15-18",
+                        "Jerusalem Talmud Yevamot 8:1:18-2:2",
+                        "Jerusalem Talmud Yevamot 8:2:2-4",
+                        "Jerusalem Talmud Yevamot 8:2:4-6",
+                        "Jerusalem Talmud Yevamot 8:2:6-9",
+                        "Jerusalem Talmud Yevamot 8:2:9-12",
+                        "Jerusalem Talmud Yevamot 8:2:12-3:5",
+                        "Jerusalem Talmud Yevamot 8:3:5-8",
+                        "Jerusalem Talmud Yevamot 8:3:8-4:1",
+                        "Jerusalem Talmud Yevamot 8:4:1-6:2",
+                        "Jerusalem Talmud Yevamot 8:6:2-5"
+                    ],
+                    "startingAddress": "43a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הערל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "הערל",
+                    "offset": 84
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 9:1:1-8:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 9:1:1-2:2",
+                        "Jerusalem Talmud Yevamot 9:2:2-4:4",
+                        "Jerusalem Talmud Yevamot 9:4:4-5:1",
+                        "Jerusalem Talmud Yevamot 9:5:1-8:2",
+                        "Jerusalem Talmud Yevamot 9:8:2"
+                    ],
+                    "startingAddress": "51a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "יש מותרות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "יש מותרות",
+                    "offset": 100
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 10:1:1-8:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 10:1:1-2",
+                        "Jerusalem Talmud Yevamot 10:1:2-5",
+                        "Jerusalem Talmud Yevamot 10:1:5-11",
+                        "Jerusalem Talmud Yevamot 10:1:11-12",
+                        "Jerusalem Talmud Yevamot 10:1:12-2:2",
+                        "Jerusalem Talmud Yevamot 10:2:2-3:2",
+                        "Jerusalem Talmud Yevamot 10:3:2-4",
+                        "Jerusalem Talmud Yevamot 10:3:4-5:3",
+                        "Jerusalem Talmud Yevamot 10:5:3-6:4",
+                        "Jerusalem Talmud Yevamot 10:6:4-7",
+                        "Jerusalem Talmud Yevamot 10:6:7-7:3",
+                        "Jerusalem Talmud Yevamot 10:7:3-6",
+                        "Jerusalem Talmud Yevamot 10:7:6-8",
+                        "Jerusalem Talmud Yevamot 10:7:8-8:3",
+                        "Jerusalem Talmud Yevamot 10:8:3-4"
+                    ],
+                    "startingAddress": "53a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 10",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האישה רבה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 10",
+                    "heTitle": "האישה רבה",
+                    "offset": 104
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 11:1:1-7:9",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 11:1:1-2",
+                        "Jerusalem Talmud Yevamot 11:1:2-5",
+                        "Jerusalem Talmud Yevamot 11:1:5-7",
+                        "Jerusalem Talmud Yevamot 11:1:7-11",
+                        "Jerusalem Talmud Yevamot 11:1:11-2:2",
+                        "Jerusalem Talmud Yevamot 11:2:2-6",
+                        "Jerusalem Talmud Yevamot 11:2:6-3:1",
+                        "Jerusalem Talmud Yevamot 11:3:1-5:5",
+                        "Jerusalem Talmud Yevamot 11:5:5-6:3",
+                        "Jerusalem Talmud Yevamot 11:6:3-7:3",
+                        "Jerusalem Talmud Yevamot 11:7:3-8",
+                        "Jerusalem Talmud Yevamot 11:7:8-9"
+                    ],
+                    "startingAddress": "60a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 11",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "נושאין על האנוסה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 11",
+                    "heTitle": "נושאין על האנוסה",
+                    "offset": 118
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 12:1:1-6:8",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 12:1:1-8",
+                        "Jerusalem Talmud Yevamot 12:1:8-14",
+                        "Jerusalem Talmud Yevamot 12:1:14-17",
+                        "Jerusalem Talmud Yevamot 12:1:17-2:4",
+                        "Jerusalem Talmud Yevamot 12:2:4-6",
+                        "Jerusalem Talmud Yevamot 12:2:6-4:2",
+                        "Jerusalem Talmud Yevamot 12:4:2-6:1",
+                        "Jerusalem Talmud Yevamot 12:6:1-6",
+                        "Jerusalem Talmud Yevamot 12:6:6-8"
+                    ],
+                    "startingAddress": "65b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 12",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מצות חליצה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 12",
+                    "heTitle": "מצות חליצה",
+                    "offset": 129
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 13:1:1-14:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 13:1:1-2",
+                        "Jerusalem Talmud Yevamot 13:1:2-6",
+                        "Jerusalem Talmud Yevamot 13:1:6-13",
+                        "Jerusalem Talmud Yevamot 13:1:13-2:6",
+                        "Jerusalem Talmud Yevamot 13:2:6-8",
+                        "Jerusalem Talmud Yevamot 13:2:8-9",
+                        "Jerusalem Talmud Yevamot 13:2:9-6:1",
+                        "Jerusalem Talmud Yevamot 13:6:1-4",
+                        "Jerusalem Talmud Yevamot 13:6:4-7:3",
+                        "Jerusalem Talmud Yevamot 13:7:3-8:2",
+                        "Jerusalem Talmud Yevamot 13:8:2-14:1",
+                        "Jerusalem Talmud Yevamot 13:14:1-3",
+                        "Jerusalem Talmud Yevamot 13:14:3"
+                    ],
+                    "startingAddress": "69b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 13",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בית שמאי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 13",
+                    "heTitle": "בית שמאי",
+                    "offset": 137
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 14:1:1-7:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 14:1:1-4",
+                        "Jerusalem Talmud Yevamot 14:1:4-2:3",
+                        "Jerusalem Talmud Yevamot 14:2:3-7:1",
+                        "Jerusalem Talmud Yevamot 14:7:1-2"
+                    ],
+                    "startingAddress": "75b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 14",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "חרש שנשא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 14",
+                    "heTitle": "חרש שנשא",
+                    "offset": 149
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 15:1:1-10:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 15:1:1-4",
+                        "Jerusalem Talmud Yevamot 15:1:4-2:2",
+                        "Jerusalem Talmud Yevamot 15:2:2-3:7",
+                        "Jerusalem Talmud Yevamot 15:3:7-9",
+                        "Jerusalem Talmud Yevamot 15:3:9-4:4",
+                        "Jerusalem Talmud Yevamot 15:4:4-5:2",
+                        "Jerusalem Talmud Yevamot 15:5:2-4",
+                        "Jerusalem Talmud Yevamot 15:5:4-8:2",
+                        "Jerusalem Talmud Yevamot 15:8:2-9:3",
+                        "Jerusalem Talmud Yevamot 15:9:3-10:3"
+                    ],
+                    "startingAddress": "77a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 15",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האשה שלום",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 15",
+                    "heTitle": "האשה שלום",
+                    "offset": 152
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Yevamot 16:1:1-9:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Yevamot 16:1:1-2",
+                        "Jerusalem Talmud Yevamot 16:1:2-2:3",
+                        "Jerusalem Talmud Yevamot 16:2:3-3:5",
+                        "Jerusalem Talmud Yevamot 16:3:5-4:2",
+                        "Jerusalem Talmud Yevamot 16:4:2-5:5",
+                        "Jerusalem Talmud Yevamot 16:5:5-6:4",
+                        "Jerusalem Talmud Yevamot 16:6:4-9:2",
+                        "Jerusalem Talmud Yevamot 16:9:2"
+                    ],
+                    "startingAddress": "81b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 16",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האשה בתרא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 16",
+                    "heTitle": "האשה בתרא",
+                    "offset": 161
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי יבמות",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Yevamot,Yerushalmi Yevamot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Yevamot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Yevamos",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי יבמות",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Yeb.",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Yevamot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Yevamot",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Yevamot",
+            "heTitle": "תלמוד ירושלמי יבמות"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

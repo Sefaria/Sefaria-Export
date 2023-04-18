@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "sacrifices-rendered-unfit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "sacrifices-rendered-unfit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "sacrifices-rendered-unfit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "sacrifices-rendered-unfit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "sacrifices-rendered-unfit"
+                ]
+            }
+        ],
         "lengths": [
-            19
+            19,
+            345
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות פסולי המוקדשין",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות פסולי המוקדשין"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' פסולי המוקדשין"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות פסולי המוקדשין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות פסולי המוקדשין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' פסולי המוקדשין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' פסולי המוקדשין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות פסולי המוקדשין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות פסולי המוקדשין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' פסולי המוקדשין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' פסולי המוקדשין",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות פסולי המוקדשין",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Sacrifices Rendered Unfit",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,9 +167,13 @@
         7
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The eighth book is Avodah (Divine Service): the laws of the Temple in Jerusalem. Hilchot Pesule Hamukdashim: Laws of consecrated entities that have been disqualified.",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Sacrifices Rendered Unfit"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות פסולי המוקדשין",
         "רמב\"ם, הלכות פסולי המוקדשין",
         "משנה תורה, הל' פסולי המוקדשין",
         "רמב\"ם, הל' פסולי המוקדשין",
         "רמב\"ם הלכות פסולי המוקדשין",
-        "רמב\"ם הל' פסולי המוקדשין"
+        "רמב\"ם הל' פסולי המוקדשין",
+        "רמב״ם, הלכות פסולי המוקדשין",
+        "רמב”ם, הלכות פסולי המוקדשין",
+        "רמב״ם, הל' פסולי המוקדשין",
+        "רמב”ם, הל' פסולי המוקדשין",
+        "רמב״ם הלכות פסולי המוקדשין",
+        "רמב”ם הלכות פסולי המוקדשין",
+        "רמב״ם הל' פסולי המוקדשין",
+        "רמב”ם הל' פסולי המוקדשין",
+        "משנה תורה, הלכות פסולי המוקדשין"
     ],
     "sectionNames": [
         "Chapter",

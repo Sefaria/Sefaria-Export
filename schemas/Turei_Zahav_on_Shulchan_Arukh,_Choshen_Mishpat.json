@@ -17,11 +17,31 @@
             "Siman",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "turei-zahav",
+                    "choshen-mishpat"
+                ]
+            }
+        ],
+        "lengths": [
+            427,
+            1579
+        ],
         "titles": [
             {
-                "primary": true,
+                "text": "Taz CM",
+                "lang": "en"
+            },
+            {
+                "text": "Taz SA CM",
+                "lang": "en"
+            },
+            {
                 "text": "טורי זהב על שולחן ערוך חושן משפט",
-                "lang": "he"
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Turei Zahav on Shulchan Arukh, Choshen Mishpat",
@@ -38,18 +58,25 @@
         "key": "Turei Zahav on Shulchan Arukh, Choshen Mishpat"
     },
     "authors": [
-        "David HaLevi Segal"
+        {
+            "en": "David HaLevi Segal",
+            "he": "דוד הלוי סגל",
+            "slug": "david-halevi-segal"
+        }
     ],
-    "enDesc": "An analytical commentary almost exclusively discussing the commentaries of Rabbi Ovadia MiBartenura and Rabbi Yom Tov Lipmann Heller (Tosafot Yom Tov) on the Mishnah.",
+    "enDesc": "",
+    "heDesc": "אחד מנושאי כלים העקריים על השלחן ערוך.",
     "pubDate": "1646",
+    "compDate": "1640",
     "compPlace": "Ostroh",
     "pubPlace": "Lublin",
+    "errorMargin": "5",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Choshen Mishpat",
-            "he": "חושן משפט"
+            "he": "שולחן ערוך, חושן משפט"
         }
     ],
     "collective_title": {
@@ -58,6 +85,8 @@
     },
     "heTitle": "טורי זהב על שולחן ערוך חושן משפט",
     "titleVariants": [
+        "Taz CM",
+        "Taz SA CM",
         "Turei Zahav on Shulchan Arukh, Choshen Mishpat"
     ],
     "heTitleVariants": [
@@ -74,6 +103,10 @@
         "מפרשים",
         "טורי זהב"
     ],
+    "compDateString": {
+        "en": " (c.1635  - c.1645 CE)",
+        "he": " (1635 - 1645 לספירה בקירוב)"
+    },
     "compPlaceString": {
         "en": "Ostroh",
         "he": "אוסטראה"

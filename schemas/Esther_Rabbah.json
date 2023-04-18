@@ -2,7 +2,7 @@
     "title": "Esther Rabbah",
     "categories": [
         "Midrash",
-        "Aggadic Midrash",
+        "Aggadah",
         "Midrash Rabbah"
     ],
     "schema": {
@@ -15,6 +15,13 @@
                 ],
                 "sectionNames": [
                     "Paragraph"
+                ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "petichta"
+                        ]
+                    }
                 ],
                 "titles": [
                     {
@@ -46,6 +53,7 @@
                     "Chapter",
                     "Paragraph"
                 ],
+                "match_templates": [],
                 "default": true,
                 "title": "",
                 "heTitle": "",
@@ -56,39 +64,77 @@
                 "key": "default"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "esther",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "midrash",
+                    "esther",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "midrash-rabbah",
+                    "esther"
+                ]
+            }
+        ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Ester Rabba"
+                "text": "Ester Rabba",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Esther Rabba"
+                "text": "Esther Rabba",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Ester Rabbah"
+                "text": "Ester Rabbah",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Esth. R."
+                "text": "Esth. R.",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Esth. Rab."
+                "text": "Esth. Rab.",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Est. Rab."
+                "text": "Est. Rab.",
+                "lang": "en"
             },
             {
-                "lang": "he",
+                "text": "Esth. Rabbah",
+                "lang": "en"
+            },
+            {
+                "text": "Esth. Rabba",
+                "lang": "en"
+            },
+            {
+                "text": "אסת\"ר",
+                "lang": "he"
+            },
+            {
+                "text": "אסת״ר",
+                "lang": "he"
+            },
+            {
+                "text": "אסת”ר",
+                "lang": "he"
+            },
+            {
                 "text": "אסתר רבה",
-                "primary": true
-            },
-            {
                 "lang": "he",
-                "text": "אסת\"ר"
+                "primary": true
             },
             {
                 "text": "Esther Rabbah",
@@ -104,8 +150,10 @@
         8.0
     ],
     "authors": [],
-    "enDesc": "Devarim Rabbah (The Great Deuteronomy) is an aggadic midrash or homiletic commentary on Deuteronomy. Unlike Bereshit Rabbah, the Midrash to Deuteronomy does not contain running commentaries on the text of the Bible, but twenty-five complete, independent homilies, together with two fragmentary ones. These are arranged as sedarim, the Sabbatical lessons for public worship according to the Palestinian triennial cycle. The stylistic manner of the opening discourse with a halakhic question is so closely connected with the original Midrash Tanḥuma. However, the introductory formula Yelamdenu (\"May our teacher instruct us?\") was used so often it was oftned named Yelamdenu. It was written around 900.",
-    "heDesc": "אסתר רבה הינו מדרש על מגילת אסתר. המדרש מכיל שש פרשיות, אשר לכל אחת הקדמה אחת או יותר. זאת, מלבד במהדורות וילנא וורשא, המחלקות מחדש את הטקסט באופן אקראי יותר. לפי מבנהו והיקפו של המדרש, נראה שמדובר באוסף חלקי, הלקוח מהחומר האגדי הרב הקיים על מגילת אסתר. הספר שואב חומר ממדרשים קדומים יותר, והורחב לאורך מאות שנים. ככל הנראה נכתב החיבור במאה העשירית, אך יש המתארכים אותו למאות ה-12 או ה-13.",
+    "enDesc": "Esther Rabbah, also known as “Midrash Achashverosh” or “Midrash Megillah,” is a midrash on the Book of Esther consisting of two distinct parts: the first, compiled around the sixth century, provides verse-by-verse interpretations. The second, compiled around the 11th century, retells and expands upon the Esther story. The two parts were likely compiled into one work around the 12th or 13th century.",
+    "heDesc": "\"אסתר רבה\" הינו מדרש על מגילת אסתר. המדרש מכיל שש פרשיות, אשר לכל אחת הקדמה אחת או יותר. זאת, מלבד במהדורות וילנא וורשא, המחלקות מחדש את הטקסט באופן אקראי יותר. לפי מבנהו והיקפו של המדרש, נראה שמדובר באוסף חלקי, הלקוח מהחומר האגדי הרב הקיים על מגילת אסתר. הספר שואב חומר ממדרשים קדומים יותר, והורחב לאורך מאות שנים. ככל הנראה נכתב החיבור במאה העשירית, אך יש המתארכים אותו למאות ה-12 או ה-13.",
+    "enShortDesc": "Midrash on the Book of Esther consisting of two distinct parts from different eras.",
+    "heShortDesc": "מדרש על מגילת אסתר ובו שני חלקים משתי תקופות שונות: בחלק הראשון פירוש שנסוב על פסוקי המגילה, ובחלק השני שיכתוב והרחבה של הסיפור.",
     "pubDate": "1519",
     "compDate": "1200",
     "compPlace": "Talmudic Israel/Babylon",
@@ -113,6 +161,13 @@
     "errorMargin": "100",
     "era": "RI",
     "is_cited": true,
+    "dedication": {
+        "he": "מוקדש לכבודם של הרב ברוך הערץ ודבורה גילה אייזנברג",
+        "en": "Dedicated in honor of Rabbi Barry and Debra Eisenberg."
+    },
+    "corpora": [
+        "Midrash Rabbah"
+    ],
     "heTitle": "אסתר רבה",
     "titleVariants": [
         "Ester Rabba",
@@ -121,15 +176,19 @@
         "Esth. R.",
         "Esth. Rab.",
         "Est. Rab.",
+        "Esth. Rabbah",
+        "Esth. Rabba",
         "Esther Rabbah"
     ],
     "heTitleVariants": [
-        "אסתר רבה",
-        "אסת\"ר"
+        "אסת\"ר",
+        "אסת״ר",
+        "אסת”ר",
+        "אסתר רבה"
     ],
     "heCategories": [
         "מדרש",
-        "מדרש אגדה",
+        "אגדה",
         "מדרש רבה"
     ],
     "compDateString": {

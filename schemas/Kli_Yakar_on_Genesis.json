@@ -2,22 +2,95 @@
     "title": "Kli Yakar on Genesis",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
         "Kli Yakar",
         "Torah"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 3,
-        "addressTypes": [
-            "Perek",
-            "Integer",
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Pasuk",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Verse",
+                    "Comment"
+                ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "kli-yakar",
+                            "genesis"
+                        ]
+                    }
+                ],
+                "lengths": [
+                    50,
+                    276,
+                    567
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
+            }
         ],
-        "sectionNames": [
-            "Chapter",
-            "Verse",
-            "Comment"
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kli-yakar",
+                    "genesis"
+                ]
+            }
         ],
         "titles": [
             {
@@ -58,11 +131,6 @@
             },
             {
                 "lang": "he",
-                "text": "כלי יקר על בראשית",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "כלי יקר על ברא'"
             },
             {
@@ -82,6 +150,11 @@
                 "text": "כלי יקר על בְּרֵאשִׁית"
             },
             {
+                "text": "כלי יקר על בראשית",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Kli Yakar on Genesis",
                 "lang": "en",
                 "primary": true
@@ -89,15 +162,14 @@
         ],
         "title": "Kli Yakar on Genesis",
         "heTitle": "כלי יקר על בראשית",
-        "heSectionNames": [
-            "פרק",
-            "פסוק",
-            "פירוש"
-        ],
         "key": "Kli Yakar on Genesis"
     },
     "authors": [
-        "Shlomo Ephraim ben Aaron Luntschitz"
+        {
+            "en": "Shlomo Ephraim ben Aaron Luntschitz",
+            "he": "שלמה אפרים מלונטשיץ",
+            "slug": "shlomo-ephraim-ben-aaron-luntschitz"
+        }
     ],
     "enDesc": "Torah commentary written by Rabbi Shlomo Ephraim ben Aaron Luntschitz and originally published in 1602. The name, Kli Yakar, comes from Proverbs 20:15 where it says that wise speech is a “kli yakar”,  a precious object.",
     "pubDate": "1602",
@@ -133,22 +205,16 @@
         "Kli Yakar on Genesis"
     ],
     "heTitleVariants": [
-        "כלי יקר על בראשית",
         "כלי יקר על ברא'",
         "כלי יקר על בר'",
         "כלי יקר על בר׳",
         "כלי יקר על ברא׳",
-        "כלי יקר על בְּרֵאשִׁית"
+        "כלי יקר על בְּרֵאשִׁית",
+        "כלי יקר על בראשית"
     ],
-    "sectionNames": [
-        "Chapter",
-        "Verse",
-        "Comment"
-    ],
-    "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
         "כלי יקר",
         "תורה"
     ],

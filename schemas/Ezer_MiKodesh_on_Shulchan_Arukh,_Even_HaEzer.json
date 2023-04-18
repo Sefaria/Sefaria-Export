@@ -56,6 +56,15 @@
                 "key": "Seder HaGet"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ezer-mikodesh",
+                    "even-haezer"
+                ]
+            }
+        ],
         "titles": [
             {
                 "text": "עזר מקודש על שלחן ערוך אבן העזר",
@@ -73,16 +82,22 @@
         "key": "Ezer MiKodesh on Shulchan Arukh, Even HaEzer"
     },
     "authors": [
-        "Abraham David Wahrman"
+        {
+            "en": "Abraham David Wahrman",
+            "he": "אברהם דוד וואהרמן",
+            "slug": "abraham-david-wahrman"
+        }
     ],
     "pubDate": "1932-1933",
+    "compDate": "1815",
     "pubPlace": "Biłgoraj, Poland",
+    "errorMargin": "20",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Even HaEzer",
-            "he": "אבן העזר"
+            "he": "שולחן ערוך, אבן העזר"
         }
     ],
     "collective_title": {
@@ -100,5 +115,9 @@
         "הלכה",
         "שולחן ערוך",
         "מפרשים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1795  - c.1835 CE)",
+        "he": " (1795 - 1835 לספירה בקירוב)"
+    }
 }

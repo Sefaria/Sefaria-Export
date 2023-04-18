@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Ktav Yad Rashi",
         "Seder Kodashim"
     ],
@@ -19,6 +19,29 @@
             "Daf",
             "Line",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ktav-yad-rashi",
+                    "menachot"
+                ]
+            }
+        ],
+        "lengths": [
+            219,
+            554,
+            1026
+        ],
+        "referenceableSections": [
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -58,7 +81,11 @@
         "key": "Ktav Yad Rashi on Menachot"
     },
     "authors": [
-        "Rashi"
+        {
+            "en": "Rashi",
+            "he": "רש״י",
+            "slug": "rashi"
+        }
     ],
     "compDate": "1090",
     "compPlace": "Middle-Age France",
@@ -96,7 +123,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "כתב יד רש\"י",
         "סדר קדשים"
     ],

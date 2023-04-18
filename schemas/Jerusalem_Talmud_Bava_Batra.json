@@ -7,48 +7,92 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "bava-batra"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "bava-batra"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "bava-batra"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "bava-batra"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "bava-batra"
+            ]
+        },
         "lengths": [
-            67,
-            199
+            10,
+            76,
+            260
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Yerushalmi Bava Batra"
-            },
-            {
-                "lang": "en",
-                "text": "JT Bava Batra"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Bava Batra"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Bava Basra"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי בבא בתרא",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי בבא בתרא"
+                "text": "Yerushalmi Bava Batra",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. B. Bath."
+                "text": "JT Bava Batra",
+                "lang": "en"
+            },
+            {
+                "text": "Talmud Yerushalmi Bava Batra",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Bava Basra",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי בבא בתרא",
+                "lang": "he"
+            },
+            {
+                "text": "Y. B. Bath.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Bava Batra",
@@ -59,23 +103,27 @@
         "title": "Jerusalem Talmud Bava Batra",
         "heTitle": "תלמוד ירושלמי בבא בתרא",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Bava Batra"
     },
     "order": [
         33
     ],
-    "authors": [],
-    "enDesc": "Bava Batra (Final Gate) belongs to the fourth order, Nezikin (The Order of Damages) and discusses the civil matters, largely torts and property law. It has ten chapters.",
+    "enDesc": "Bava Batra (״The Last Gate״) is the third of a series of three tractates in Seder Nezikin (“Order of Damages\") that deal with civil laws. It addresses relations between neighbors, presumptions of ownership and deeds, and laws of sales and inheritance. Bava Batra stands out from its surrounding tractates in that the vast majority of its laws are not explicitly biblical in origin, but rather rabbinic ordinances based on the sages’ understanding of human nature, societal conventions, and the need to establish limits and guidelines to regulate business relationships.",
+    "enShortDesc": "Relationships between neighbors, land ownership, sales, and inheritance.",
+    "heShortDesc": "יחסים בין שכנים, בעלות על קרקע, מכירת קרקעות ודיני ירושה.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי בבא בתרא",
     "titleVariants": [
         "Yerushalmi Bava Batra",
@@ -89,11 +137,802 @@
         "תלמוד ירושלמי בבא בתרא",
         "ירושלמי בבא בתרא"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 1:1:2-5:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 1:1:2-5:2",
+                        "Jerusalem Talmud Bava Batra 1:5:2-6"
+                    ],
+                    "startingAddress": "12d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "השותפין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "השותפין",
+                    "offset": 47
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 2:1:1-11:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 2:1:1-2",
+                        "Jerusalem Talmud Bava Batra 2:1:2-4:2",
+                        "Jerusalem Talmud Bava Batra 2:4:2-11:5"
+                    ],
+                    "startingAddress": "13a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "לא יחפור",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "לא יחפור",
+                    "offset": 48
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 3:1:1-11:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 3:1:1-2",
+                        "Jerusalem Talmud Bava Batra 3:1:2-7",
+                        "Jerusalem Talmud Bava Batra 3:1:7-7:2",
+                        "Jerusalem Talmud Bava Batra 3:7:2-11:2"
+                    ],
+                    "startingAddress": "13c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "חזקת הבתים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "חזקת הבתים",
+                    "offset": 50
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 4:1:1-8:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 4:1:1-2",
+                        "Jerusalem Talmud Bava Batra 4:1:2-8:3",
+                        "Jerusalem Talmud Bava Batra 4:8:3-4"
+                    ],
+                    "startingAddress": "14b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המוכר את הבית",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "המוכר את הבית",
+                    "offset": 53
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 5:1:1-5:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 5:1:1-2",
+                        "Jerusalem Talmud Bava Batra 5:1:2-5:2",
+                        "Jerusalem Talmud Bava Batra 5:5:2-3"
+                    ],
+                    "startingAddress": "14d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המוכר את הספינה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "המוכר את הספינה",
+                    "offset": 55
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 6:1:1-4:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 6:1:1-7",
+                        "Jerusalem Talmud Bava Batra 6:1:7-4:2"
+                    ],
+                    "startingAddress": "15b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המוכר פירות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "המוכר פירות",
+                    "offset": 57
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 7:1:1-4:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 7:1:1-2",
+                        "Jerusalem Talmud Bava Batra 7:1:2-4:2"
+                    ],
+                    "startingAddress": "15c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בית כור",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "בית כור",
+                    "offset": 58
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 8:1:1-9:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 8:1:1-2",
+                        "Jerusalem Talmud Bava Batra 8:1:2-3:2",
+                        "Jerusalem Talmud Bava Batra 8:3:2-8:2",
+                        "Jerusalem Talmud Bava Batra 8:8:2-9:2"
+                    ],
+                    "startingAddress": "15d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "יש נוחלין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "יש נוחלין",
+                    "offset": 59
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 9:1:1-9:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 9:1:1-2",
+                        "Jerusalem Talmud Bava Batra 9:1:2-3:4",
+                        "Jerusalem Talmud Bava Batra 9:3:4-7:2",
+                        "Jerusalem Talmud Bava Batra 9:7:2-9:2"
+                    ],
+                    "startingAddress": "16c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שמת",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "מי שמת",
+                    "offset": 62
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 10:1:1-10:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 10:1:1-2",
+                        "Jerusalem Talmud Bava Batra 10:1:2-6:4",
+                        "Jerusalem Talmud Bava Batra 10:6:4-10:4"
+                    ],
+                    "startingAddress": "17b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 10",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "גט פשוט",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 10",
+                    "heTitle": "גט פשוט",
+                    "offset": 65
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי בבא בתרא",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Yerushalmi Bava Batra",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Bava Batra",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Bava Batra",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Bava Basra",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי בבא בתרא",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. B. Bath.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Bava Batra",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Bava Batra",
+            "heTitle": "תלמוד ירושלמי בבא בתרא"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 1:1:1-5:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 1:1:1-2",
+                        "Jerusalem Talmud Bava Batra 1:1:2-3:2",
+                        "Jerusalem Talmud Bava Batra 1:3:2-4:2",
+                        "Jerusalem Talmud Bava Batra 1:4:2-5:3",
+                        "Jerusalem Talmud Bava Batra 1:5:3-6",
+                        "Jerusalem Talmud Bava Batra 1:5:6"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "השותפין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "השותפין",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 2:1:1-11:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 2:1:1-4",
+                        "Jerusalem Talmud Bava Batra 2:1:4-2:2",
+                        "Jerusalem Talmud Bava Batra 2:2:2-3:5",
+                        "Jerusalem Talmud Bava Batra 2:3:5-4:2",
+                        "Jerusalem Talmud Bava Batra 2:4:2-5:2",
+                        "Jerusalem Talmud Bava Batra 2:5:2-7:1",
+                        "Jerusalem Talmud Bava Batra 2:7:1-10:1",
+                        "Jerusalem Talmud Bava Batra 2:10:1-11:2",
+                        "Jerusalem Talmud Bava Batra 2:11:2-5"
+                    ],
+                    "startingAddress": "3b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "לא יחפור",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "לא יחפור",
+                    "offset": 5
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 3:1:1-11:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 3:1:1-3",
+                        "Jerusalem Talmud Bava Batra 3:1:3-5",
+                        "Jerusalem Talmud Bava Batra 3:1:5-6",
+                        "Jerusalem Talmud Bava Batra 3:1:6-3:2",
+                        "Jerusalem Talmud Bava Batra 3:3:2-4:1",
+                        "Jerusalem Talmud Bava Batra 3:4:1-5:1",
+                        "Jerusalem Talmud Bava Batra 3:5:1-6",
+                        "Jerusalem Talmud Bava Batra 3:5:6-8:1",
+                        "Jerusalem Talmud Bava Batra 3:8:1-4",
+                        "Jerusalem Talmud Bava Batra 3:8:4-10:2",
+                        "Jerusalem Talmud Bava Batra 3:10:2-4",
+                        "Jerusalem Talmud Bava Batra 3:10:4-11:2"
+                    ],
+                    "startingAddress": "7b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "חזקת הבתים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "חזקת הבתים",
+                    "offset": 13
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 4:1:1-8:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 4:1:1-2:1",
+                        "Jerusalem Talmud Bava Batra 4:2:1-4:2",
+                        "Jerusalem Talmud Bava Batra 4:4:2-8:1",
+                        "Jerusalem Talmud Bava Batra 4:8:1-4",
+                        "Jerusalem Talmud Bava Batra 4:8:4"
+                    ],
+                    "startingAddress": "13a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המוכר את הבית",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "המוכר את הבית",
+                    "offset": 24
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 5:1:1-5:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 5:1:1-3",
+                        "Jerusalem Talmud Bava Batra 5:1:3-4",
+                        "Jerusalem Talmud Bava Batra 5:1:4-7",
+                        "Jerusalem Talmud Bava Batra 5:1:7-4:1",
+                        "Jerusalem Talmud Bava Batra 5:4:1-5:1",
+                        "Jerusalem Talmud Bava Batra 5:5:1-3"
+                    ],
+                    "startingAddress": "15b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המוכר את הספינה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "המוכר את הספינה",
+                    "offset": 29
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 6:1:1-4:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 6:1:1-2",
+                        "Jerusalem Talmud Bava Batra 6:1:2-6",
+                        "Jerusalem Talmud Bava Batra 6:1:6-2:1",
+                        "Jerusalem Talmud Bava Batra 6:2:1-4:1",
+                        "Jerusalem Talmud Bava Batra 6:4:1-2"
+                    ],
+                    "startingAddress": "18a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המוכר פירות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "המוכר פירות",
+                    "offset": 34
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 7:1:1-4:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 7:1:1-2",
+                        "Jerusalem Talmud Bava Batra 7:1:2-2:2",
+                        "Jerusalem Talmud Bava Batra 7:2:2-4:2"
+                    ],
+                    "startingAddress": "20a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בית כור",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "בית כור",
+                    "offset": 38
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 8:1:1-9:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 8:1:1-2",
+                        "Jerusalem Talmud Bava Batra 8:1:2-2:1",
+                        "Jerusalem Talmud Bava Batra 8:2:1-7",
+                        "Jerusalem Talmud Bava Batra 8:2:7-4:1",
+                        "Jerusalem Talmud Bava Batra 8:4:1-5:2",
+                        "Jerusalem Talmud Bava Batra 8:5:2-3",
+                        "Jerusalem Talmud Bava Batra 8:5:3-7:1",
+                        "Jerusalem Talmud Bava Batra 8:7:1-4",
+                        "Jerusalem Talmud Bava Batra 8:7:4-8:3",
+                        "Jerusalem Talmud Bava Batra 8:8:3-5",
+                        "Jerusalem Talmud Bava Batra 8:8:5-9:2"
+                    ],
+                    "startingAddress": "21b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "יש נוחלין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "יש נוחלין",
+                    "offset": 41
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 9:1:1-9:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 9:1:1-4",
+                        "Jerusalem Talmud Bava Batra 9:1:4-5",
+                        "Jerusalem Talmud Bava Batra 9:1:5-3:1",
+                        "Jerusalem Talmud Bava Batra 9:3:1-4:1",
+                        "Jerusalem Talmud Bava Batra 9:4:1-5:3",
+                        "Jerusalem Talmud Bava Batra 9:5:3-6:3",
+                        "Jerusalem Talmud Bava Batra 9:6:3-7:2",
+                        "Jerusalem Talmud Bava Batra 9:7:2-9:1",
+                        "Jerusalem Talmud Bava Batra 9:9:1-2"
+                    ],
+                    "startingAddress": "26b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שמת",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "מי שמת",
+                    "offset": 51
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Bava Batra 10:1:1-10:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Bava Batra 10:1:1-6",
+                        "Jerusalem Talmud Bava Batra 10:1:6-9",
+                        "Jerusalem Talmud Bava Batra 10:1:9-4:1",
+                        "Jerusalem Talmud Bava Batra 10:4:1-5:1",
+                        "Jerusalem Talmud Bava Batra 10:5:1-6:4",
+                        "Jerusalem Talmud Bava Batra 10:6:4-9:2",
+                        "Jerusalem Talmud Bava Batra 10:9:2-10:2",
+                        "Jerusalem Talmud Bava Batra 10:10:2-4"
+                    ],
+                    "startingAddress": "30b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 10",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "גט פשוט",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 10",
+                    "heTitle": "גט פשוט",
+                    "offset": 59
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי בבא בתרא",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Yerushalmi Bava Batra",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Bava Batra",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Bava Batra",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Bava Basra",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי בבא בתרא",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. B. Bath.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Bava Batra",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Bava Batra",
+            "heTitle": "תלמוד ירושלמי בבא בתרא"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

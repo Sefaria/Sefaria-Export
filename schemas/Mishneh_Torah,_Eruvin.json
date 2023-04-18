@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "eruvin1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "eruvin1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "eruvin1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "eruvin1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "eruvin1"
+                ]
+            }
+        ],
         "lengths": [
-            8
+            8,
+            163
         ],
         "titles": [
             {
@@ -39,11 +74,6 @@
             {
                 "lang": "en",
                 "text": "Rambam, Eruvin"
-            },
-            {
-                "lang": "he",
-                "text": "משנה תורה, הלכות עירובין",
-                "primary": true
             },
             {
                 "lang": "he",
@@ -74,8 +104,45 @@
                 "text": "רמב\"ם הל' עירובין"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות עירובין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות עירובין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' עירובין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' עירובין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות עירובין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות עירובין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' עירובין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' עירובין",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות עירובין",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Eruvin",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -92,7 +159,11 @@
         2
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The third book is Zemanim (Times). Eruvin; a Rabbinic device that facilitates Sabbath observance.",
     "pubDate": "1474",
@@ -114,12 +185,20 @@
         "Mishneh Torah, Eruvin"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות עירובין",
         "רמב\"ם, הלכות עירובין",
         "משנה תורה, הל' עירובין",
         "רמב\"ם, הל' עירובין",
         "רמב\"ם הלכות עירובין",
-        "רמב\"ם הל' עירובין"
+        "רמב\"ם הל' עירובין",
+        "רמב״ם, הלכות עירובין",
+        "רמב”ם, הלכות עירובין",
+        "רמב״ם, הל' עירובין",
+        "רמב”ם, הל' עירובין",
+        "רמב״ם הלכות עירובין",
+        "רמב”ם הלכות עירובין",
+        "רמב״ם הל' עירובין",
+        "רמב”ם הל' עירובין",
+        "משנה תורה, הלכות עירובין"
     ],
     "sectionNames": [
         "Chapter",

@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "shabbat"
+                ]
+            }
+        ],
         "lengths": [
             24,
             139
@@ -37,11 +56,6 @@
                 "text": "Mishnah Shab."
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "משנה שבת"
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Sabb."
             },
@@ -50,9 +64,14 @@
                 "text": "Mishnah Sabbath"
             },
             {
-                "primary": true,
+                "text": "משנה שבת",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "Mishnah Shabbat",
                 "lang": "en",
-                "text": "Mishnah Shabbat"
+                "primary": true
             }
         ],
         "title": "Mishnah Shabbat",
@@ -68,7 +87,9 @@
         1
     ],
     "authors": [],
-    "enDesc": "Shabbat (Sabbath) belongs to the second order, Moed (Festivals) and discusses the 39 prohibitions of \"work\" on the Shabbat. It has twenty four chapters.",
+    "enDesc": "Shabbat (“Sabbath”) is the first tractate in Seder Moed (Order of Festivals). Its 24 chapters discuss the 39 melachot (creative labors prohibited on Shabbat), prohibitions of carrying on Shabbat, and positive commandments that preserve the sanctity of the day, such as lighting candles and eating three meals.",
+    "enShortDesc": "Creative work prohibited on Shabbat and other laws that preserve the sanctity of the day.",
+    "heShortDesc": "מלאכות האסורות בשבת ודינים הקשורים לקדושת היום.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -76,6 +97,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה שבת",
     "titleVariants": [
         "M Shabbat",

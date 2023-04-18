@@ -7,48 +7,92 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "makkot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "makkot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "makkot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "makkot"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "makkot"
+            ]
+        },
         "lengths": [
-            18,
-            55
+            3,
+            28,
+            75
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Yerushalmi Makkos"
-            },
-            {
-                "lang": "en",
-                "text": "JT Makkot"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Makkot"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Makkot"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי מכות",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי מכות"
+                "text": "Yerushalmi Makkos",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Macc."
+                "text": "JT Makkot",
+                "lang": "en"
+            },
+            {
+                "text": "Talmud Yerushalmi Makkot",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Makkot",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי מכות",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Macc.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Makkot",
@@ -59,23 +103,27 @@
         "title": "Jerusalem Talmud Makkot",
         "heTitle": "תלמוד ירושלמי מכות",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Makkot"
     },
     "order": [
         37
     ],
-    "authors": [],
-    "enDesc": "Makkot (Lashes) belongs to the fourth order, Nezikin (The Order of Damages) and discusses collusive witnesses, cities of refuge and the punishment of lashes. It has three chapters.",
+    "enDesc": "Tractate Makkot (“Lashes”) is a tractate in Seder Nezikin (“Order of Damages\") that serves as a companion tractate to Sanhedrin. Makkot addresses court-administered punishments, covering topics like false witnesses (eidim zomemim) and the process of administering their punishments and exile to cities of refuge for inadvertent murderers.",
+    "enShortDesc": "False witnesses and cities of refuge for inadvertent murderers.",
+    "heShortDesc": "עדים זוממים וערי מקלט לרוצחים בשגגה.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי מכות",
     "titleVariants": [
         "Yerushalmi Makkos",
@@ -89,11 +137,305 @@
         "תלמוד ירושלמי מכות",
         "ירושלמי מכות"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Makkot 1:1:2-8:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Makkot 1:1:2-4:2",
+                        "Jerusalem Talmud Makkot 1:4:2-8:3"
+                    ],
+                    "startingAddress": "31a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כיצד העדים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "כיצד העדים",
+                    "offset": 120
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Makkot 2:1:1-2:7:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Makkot 2:1:1-2",
+                        "Jerusalem Talmud Makkot 2:1:2-4:3",
+                        "Jerusalem Talmud Makkot 2:4:3-6:12",
+                        "Jerusalem Talmud Makkot 2:6:12-2:7:4"
+                    ],
+                    "startingAddress": "31b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אלו הן הגולין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "אלו הן הגולין",
+                    "offset": 121
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Makkot 3:1:1-13:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Makkot 3:1:1-3:5:1",
+                        "Jerusalem Talmud Makkot 3:5:1-13:5"
+                    ],
+                    "startingAddress": "32a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אלו הן הלוקין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "אלו הן הלוקין",
+                    "offset": 124
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי מכות",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Yerushalmi Makkos",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Makkot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Makkot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Makkot",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי מכות",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Macc.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Makkot",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Makkot",
+            "heTitle": "תלמוד ירושלמי מכות"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Makkot 1:1:1-8:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Makkot 1:1:1-4",
+                        "Jerusalem Talmud Makkot 1:1:4-2:2",
+                        "Jerusalem Talmud Makkot 1:2:2-4",
+                        "Jerusalem Talmud Makkot 1:2:4-3:2",
+                        "Jerusalem Talmud Makkot 1:3:2-4:2",
+                        "Jerusalem Talmud Makkot 1:4:2-6:2",
+                        "Jerusalem Talmud Makkot 1:6:2-7:3",
+                        "Jerusalem Talmud Makkot 1:7:3-8:3"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כיצד העדים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "כיצד העדים",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Makkot 2:1:1-7:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Makkot 2:1:1-3:1",
+                        "Jerusalem Talmud Makkot 2:3:1-5:1",
+                        "Jerusalem Talmud Makkot 2:5:1-6:1",
+                        "Jerusalem Talmud Makkot 2:6:1-7",
+                        "Jerusalem Talmud Makkot 2:6:7-11",
+                        "Jerusalem Talmud Makkot 2:6:11-7:2",
+                        "Jerusalem Talmud Makkot 2:7:2-4"
+                    ],
+                    "startingAddress": "5a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אלו הן הגולין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "אלו הן הגולין",
+                    "offset": 8
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Makkot 3:1:1-13:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Makkot 3:1:1-3:1",
+                        "Jerusalem Talmud Makkot 3:3:1-7:1",
+                        "Jerusalem Talmud Makkot 3:7:1-11:1",
+                        "Jerusalem Talmud Makkot 3:11:1-13:5"
+                    ],
+                    "startingAddress": "8a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אלו הן הלוקין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "אלו הן הלוקין",
+                    "offset": 14
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי מכות",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Yerushalmi Makkos",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Makkot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Makkot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Makkot",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי מכות",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Macc.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Makkot",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Makkot",
+            "heTitle": "תלמוד ירושלמי מכות"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

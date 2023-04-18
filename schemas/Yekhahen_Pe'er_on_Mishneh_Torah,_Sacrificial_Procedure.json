@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yekhahen-peer",
+                    "hilchot",
+                    "sacrificial-procedure"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yekhahen-peer",
+                    "sacrificial-procedure"
+                ]
+            }
+        ],
+        "lengths": [
+            19,
+            35,
+            35
+        ],
         "titles": [
             {
                 "text": "יכהן פאר על משנה תורה, הלכות מעשה הקרבנות",
@@ -42,10 +62,17 @@
         "key": "Yekhahen Pe'er on Mishneh Torah, Sacrificial Procedure"
     },
     "authors": [
-        "Hanoch Tzvi Hakohen Levin"
+        {
+            "en": "Hanoch Tzvi Hakohen Levin",
+            "he": "חנוך צבי הכהן לוין",
+            "slug": "hanoch-tzvi-hakohen-levin"
+        }
     ],
     "pubDate": "1936",
+    "compDate": "1915",
+    "compPlace": "Poland",
     "pubPlace": "Warsaw",
+    "errorMargin": "20",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -78,5 +105,13 @@
         "מפרשים",
         "יכהן פאר",
         "ספר עבודה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1895  - c.1935 CE)",
+        "he": " (1895 - 1935 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Poland",
+        "he": "פולין"
+    }
 }

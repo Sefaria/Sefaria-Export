@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "eduyot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "eduyot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "eduyot"
+                ]
+            }
+        ],
         "lengths": [
             8,
             74
@@ -69,11 +88,6 @@
                 "text": "Eduyyot"
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "משנה עדיות"
-            },
-            {
                 "lang": "he",
                 "text": "משנה עדויות"
             },
@@ -82,9 +96,14 @@
                 "text": "עדיות"
             },
             {
-                "primary": true,
+                "text": "משנה עדיות",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "Mishnah Eduyot",
                 "lang": "en",
-                "text": "Mishnah Eduyot"
+                "primary": true
             }
         ],
         "title": "Mishnah Eduyot",
@@ -101,6 +120,8 @@
     ],
     "authors": [],
     "enDesc": "Eduyot (Testimonies) belongs to the fourth order, Nezikin (The Order of Damages) and presents case studies of legal disputes in Mishnaic times and the miscellaneous testimonies that illustrate various Sages and principles of halakha. It has eight chapters.",
+    "enShortDesc": "The only tractate without a unified subject, organized as collections of laws on various topics.",
+    "heShortDesc": "המסכת היחידה שאין לה נושא מרכזי אחד אלא מובאות בה הלכות במגוון עניינים.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -108,6 +129,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה עדיות",
     "titleVariants": [
         "M. Eduyot",
@@ -125,9 +149,9 @@
         "Mishnah Eduyot"
     ],
     "heTitleVariants": [
-        "משנה עדיות",
         "משנה עדויות",
-        "עדיות"
+        "עדיות",
+        "משנה עדיות"
     ],
     "sectionNames": [
         "Chapter",

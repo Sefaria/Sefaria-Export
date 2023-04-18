@@ -191,12 +191,16 @@
                 "key": "Deuteronomy"
             }
         ],
-        "titles": [
+        "nodeType": "SchemaNode",
+        "match_templates": [
             {
-                "primary": true,
-                "text": "תפסיר רס\"ג",
-                "lang": "he"
-            },
+                "term_slugs": [
+                    "tafsir-rasag",
+                    "numbers"
+                ]
+            }
+        ],
+        "titles": [
             {
                 "text": "Tafsir Torah",
                 "lang": "en"
@@ -210,6 +214,19 @@
                 "lang": "en"
             },
             {
+                "text": "תפסיר רס״ג",
+                "lang": "he"
+            },
+            {
+                "text": "תפסיר רס”ג",
+                "lang": "he"
+            },
+            {
+                "text": "תפסיר רס\"ג",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tafsir Rasag",
                 "lang": "en",
                 "primary": true
@@ -220,10 +237,16 @@
         "key": "Tafsir Rasag"
     },
     "authors": [
-        "Saadia Gaon"
+        {
+            "en": "Saadia Gaon",
+            "he": "סעדיה גאון",
+            "slug": "saadia-gaon"
+        }
     ],
     "enDesc": "Translation and commentary on the Torah by Saadia Gaon. (\"Tafsir\" is an Arabic term meaning 'Biblical commentary'). Although we have it in Judeo-Arabic form, Ibn Ezra seems to indicate that it was originally written in Arabic letters as well.",
     "heDesc": "",
+    "enShortDesc": "Rav Saadia Gaon’s influential 10th-century translation of the Torah into Arabic using Hebrew characters.",
+    "heShortDesc": "תרגום רב-השפעה של התורה לערבית באותיות עבריות שחיבר הרב סעדיה גאון במאה ה-10.",
     "pubDate": "1546",
     "compDate": "930",
     "pubPlace": "Constantinople",
@@ -265,8 +288,10 @@
         "Tafsir Rasag"
     ],
     "heTitleVariants": [
-        "תפסיר רס\"ג",
-        "תפסיר תורה"
+        "תפסיר תורה",
+        "תפסיר רס״ג",
+        "תפסיר רס”ג",
+        "תפסיר רס\"ג"
     ],
     "heCategories": [
         "תנ\"ך",

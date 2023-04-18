@@ -2,7 +2,7 @@
     "title": "Midrash Mishlei",
     "categories": [
         "Midrash",
-        "Aggadic Midrash"
+        "Aggadah"
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
@@ -15,15 +15,25 @@
             "Chapter",
             "Verse"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "midrash-mishlei"
+                ]
+            }
+        ],
+        "lengths": [
+            31,
+            140
+        ],
+        "referenceableSections": [
+            true,
+            false
+        ],
         "titles": [
             {
                 "lang": "en",
                 "text": "Agadat Mishle"
-            },
-            {
-                "lang": "he",
-                "text": "מדרש משלי",
-                "primary": true
             },
             {
                 "lang": "en",
@@ -34,8 +44,13 @@
                 "text": "Midrash Proverbs"
             },
             {
-                "lang": "en",
+                "text": "מדרש משלי",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Midrash Mishlei",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -48,8 +63,10 @@
         "key": "Midrash Mishlei"
     },
     "authors": [],
-    "enDesc": "Midrash Mishlei (Midrash on Proverbs) is an aggadic midrash to the Book of Proverbs. It follows a simple brief style free of the more common formulations found in other aggadic works. It has not been preserved entirely, with some chapters missing sections. The exact time or place where the  editor lived cannot be determined for certain but he may have been Babylonian.",
+    "enDesc": "Midrash Mishlei is a medieval midrash on the Book of Proverbs. Its style is simple, with brief verse-by-verse commentary rarely found in earlier midrashim but common in later biblical interpretations. The exact time and place of composition are subject to debate. The work has not been preserved entirely, with some chapters missing sections.",
     "heDesc": "מדרש משלי הינו מדרש אגדי על ספר משלי. המדרש מנוסח בצורה קצרה ופשוטה, הנקייה מהניסוחים הסבוכים יותר המצויים בתדירות גבוהה בספרי אגדה אחרים. המדרש לא נשתמר בשלמותו, וחלקים מפרקים מסוימים אינם בידינו. לא ניתן לקבוע בוודאות את זמנו או מיקומו המדויק של עורך המדרש, אך ישנה סבירות מסוימת שהוא חי בבבל.",
+    "enShortDesc": "Medieval midrash on the Book of Proverbs with simple verse-by-verse commentary.",
+    "heShortDesc": "מדרש מימי הביניים על ספר משלי עם פירוש בהיר ורצוף על פסוקי הספר.",
     "pubDate": "1893",
     "compDate": "800",
     "compPlace": "Talmudic Israel/Babylon",
@@ -74,7 +91,7 @@
     "depth": 2,
     "heCategories": [
         "מדרש",
-        "מדרש אגדה"
+        "אגדה"
     ],
     "compDateString": {
         "en": " (c.750  - c.850 CE)",

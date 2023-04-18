@@ -2,7 +2,7 @@
     "title": "Saadia Gaon on Numbers",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Saadia Gaon",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "saadia-gaon",
+                    "numbers"
+                ]
+            }
+        ],
+        "lengths": [
+            36,
+            0,
+            0
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -78,12 +96,20 @@
             },
             {
                 "lang": "he",
-                "text": "ר' סעדיה גאון על במדבר",
-                "primary": true
+                "text": "רס\"ג על במדבר"
             },
             {
+                "text": "רס״ג על במדבר",
+                "lang": "he"
+            },
+            {
+                "text": "רס”ג על במדבר",
+                "lang": "he"
+            },
+            {
+                "text": "ר' סעדיה גאון על במדבר",
                 "lang": "he",
-                "text": "רס\"ג על במדבר"
+                "primary": true
             },
             {
                 "text": "Saadia Gaon on Numbers",
@@ -101,7 +127,11 @@
         "key": "Saadia Gaon on Numbers"
     },
     "authors": [
-        "Saadia Gaon"
+        {
+            "en": "Saadia Gaon",
+            "he": "סעדיה גאון",
+            "slug": "saadia-gaon"
+        }
     ],
     "enDesc": "Commentary written by Saadia Gaon (Babylonia, 882-942). Saadia Gaon translated and wrote commentary on the Torah in Judeo-Arabic.",
     "compDate": "930",
@@ -139,8 +169,10 @@
         "Saadia Gaon on Numbers"
     ],
     "heTitleVariants": [
-        "ר' סעדיה גאון על במדבר",
-        "רס\"ג על במדבר"
+        "רס\"ג על במדבר",
+        "רס״ג על במדבר",
+        "רס”ג על במדבר",
+        "ר' סעדיה גאון על במדבר"
     ],
     "sectionNames": [
         "Chapter",
@@ -150,7 +182,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "ר' סעדיה גאון",
         "תורה"
     ],

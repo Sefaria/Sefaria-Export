@@ -2,7 +2,7 @@
     "title": "Yeriot Shlomo on Torah",
     "categories": [
         "Tanakh",
-        "Commentary"
+        "Acharonim on Tanakh"
     ],
     "schema": {
         "nodes": [
@@ -210,6 +210,15 @@
                 "key": "Deuteronomy"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yeriot-shlomo",
+                    "numbers"
+                ]
+            }
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -231,11 +240,19 @@
         "key": "Yeriot Shlomo on Torah"
     },
     "authors": [
-        "Maharshal"
+        {
+            "en": "Maharshal",
+            "he": "מהרש\"ל",
+            "slug": "maharshal"
+        }
     ],
     "enDesc": "A super-commentary on Rabbi Eliyahu Mizrachi's super-commentary on Rashi.",
+    "enShortDesc": "16th-century supercommentary on the Mizrachi supercommentary on Rashi’s Torah commentary.",
+    "heShortDesc": "ביאור מן המאה ה-16 לפירוש המזרחי שנכתב על פירוש רש\"י לתורה.",
     "pubDate": "1609",
+    "compDate": "1550",
     "pubPlace": "Prague",
+    "errorMargin": "20",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -274,6 +291,10 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים"
-    ]
+        "אחרונים על התנ״ך"
+    ],
+    "compDateString": {
+        "en": " (c.1530  - c.1570 CE)",
+        "he": " (1530 - 1570 לספירה בקירוב)"
+    }
 }

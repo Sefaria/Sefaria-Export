@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Acharonim on Talmud",
         "Chokhmat Shlomo",
         "Seder Nashim"
     ],
@@ -17,6 +17,27 @@
         "sectionNames": [
             "Daf",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chokhmat-shlomo",
+                    "gittin"
+                ]
+            }
+        ],
+        "lengths": [
+            180,
+            348
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -33,9 +54,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Chokhmat Shlomo on Gittin",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Chokhmat Shlomo on Gittin",
@@ -47,7 +68,11 @@
         "key": "Chokhmat Shlomo on Gittin"
     },
     "authors": [
-        "Maharshal"
+        {
+            "en": "Maharshal",
+            "he": "מהרש\"ל",
+            "slug": "maharshal"
+        }
     ],
     "enDesc": "Glosses on the Talmud by Rabbi Shlomo Luria (Maharshal). An important component of the commentary is establishing the correct text of the Talmud. Maharshal scrutinized the published editions of the Talmud as well as the commentaries of Rashi, Tosafot, and other Rishonim. An abridged version of Chochmat Shlomo appears in nearly all editions of the Talmud today, together with the commentary of Maharsha.",
     "pubDate": "1582",
@@ -83,7 +108,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "אחרונים על התלמוד",
         "חכמת שלמה",
         "סדר נשים"
     ],

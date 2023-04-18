@@ -2,7 +2,7 @@
     "title": "Daat Zkenim on Genesis",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Daat Zkenim",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "daat-zkenim",
+                    "genesis"
+                ]
+            }
+        ],
+        "lengths": [
+            50,
+            262,
+            323
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -138,11 +156,6 @@
             },
             {
                 "lang": "he",
-                "text": "דעת זקנים על בראשית",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "דעת זקנים בעלי התוספות על בראשית"
             },
             {
@@ -210,6 +223,11 @@
                 "text": "דעת זקנים על בְּרֵאשִׁית"
             },
             {
+                "text": "דעת זקנים על בראשית",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Daat Zkenim on Genesis",
                 "lang": "en",
                 "primary": true
@@ -225,7 +243,11 @@
         "key": "Daat Zkenim on Genesis"
     },
     "authors": [
-        "Tosafot"
+        {
+            "en": "Tosafot",
+            "he": "תוספות",
+            "slug": "tosafot"
+        }
     ],
     "enDesc": "Daat Zekenim is a Torah commentary compiled by later generations of scholars from the writings of the Franco-German school in the 12th-13th century (Ba’alei Tosafot).",
     "heDesc": "פירוש לתורה שנלקט מכתבי בעלי התוספות.",
@@ -282,7 +304,6 @@
         "Daat Zkenim on Genesis"
     ],
     "heTitleVariants": [
-        "דעת זקנים על בראשית",
         "דעת זקנים בעלי התוספות על בראשית",
         "דעת זקנים בעלי התוספות על ברא'",
         "דעת זקנים בעלי התוספות על בר'",
@@ -299,7 +320,8 @@
         "דעת זקנים על בר'",
         "דעת זקנים על בר׳",
         "דעת זקנים על ברא׳",
-        "דעת זקנים על בְּרֵאשִׁית"
+        "דעת זקנים על בְּרֵאשִׁית",
+        "דעת זקנים על בראשית"
     ],
     "sectionNames": [
         "Chapter",
@@ -309,7 +331,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "דעת זקנים",
         "תורה"
     ],

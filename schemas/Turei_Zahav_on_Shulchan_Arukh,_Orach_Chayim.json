@@ -17,6 +17,18 @@
             "Siman",
             "Seif"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "turei-zahav",
+                    "orach-chayim"
+                ]
+            }
+        ],
+        "lengths": [
+            697,
+            3195
+        ],
         "titles": [
             {
                 "text": "Taz on Shulchan Arukh, Orach Chayim",
@@ -47,6 +59,10 @@
                 "lang": "en"
             },
             {
+                "text": "Taz OC",
+                "lang": "en"
+            },
+            {
                 "text": "טורי זהב על שולחן ערוך אורח חיים",
                 "lang": "he",
                 "primary": true
@@ -74,10 +90,14 @@
         "key": "Turei Zahav on Shulchan Arukh, Orach Chayim"
     },
     "authors": [
-        "David HaLevi Segal"
+        {
+            "en": "David HaLevi Segal",
+            "he": "דוד הלוי סגל",
+            "slug": "david-halevi-segal"
+        }
     ],
     "enDesc": "More commonly known as Taz, it is one of the standard commentaries printed alongside the text of Shulchan Arukh. Due to its insightful nature and its early historical position, it greatly influenced subsequent halakhic practice.",
-    "heDesc": "אחד מנושאי הכלים העקריים של השולחן ערוך. ",
+    "heDesc": "אחד מנושאי הכלים העקריים של השולחן ערוך.",
     "pubDate": "1646",
     "compDate": "1640",
     "compPlace": "Ostroh",
@@ -88,7 +108,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Orach Chayim",
-            "he": "אורח חיים"
+            "he": "שולחן ערוך, אורח חיים"
         }
     ],
     "collective_title": {
@@ -104,6 +124,7 @@
         "Taz on SA OC",
         "Taz on Shulchan Aruch OC",
         "Taz on Shulchan Arukh OC",
+        "Taz OC",
         "Turei Zahav on Shulchan Arukh, Orach Chayim"
     ],
     "heTitleVariants": [
@@ -1680,6 +1701,10 @@
                 },
                 {
                     "text": "Taz on Shulchan Arukh OC",
+                    "lang": "en"
+                },
+                {
+                    "text": "Taz OC",
                     "lang": "en"
                 },
                 {

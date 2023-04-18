@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Acharonim on Talmud",
         "Ben Yehoyada"
     ],
     "schema": {
@@ -16,6 +16,15 @@
                 ],
                 "sectionNames": [
                     "Paragraph"
+                ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
                 ],
                 "sharedTitle": "Introduction",
                 "titles": [
@@ -52,6 +61,15 @@
                     "Daf",
                     "Paragraph"
                 ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
                 "default": true,
                 "title": "",
                 "heTitle": "",
@@ -79,7 +97,11 @@
         "key": "Ben Yehoyada on Berakhot"
     },
     "authors": [
-        "Yosef Hayyim"
+        {
+            "en": "Yosef Hayyim",
+            "he": "יוסף חיים",
+            "slug": "yosef-hayyim"
+        }
     ],
     "enDesc": "Extensive commentary on the Aggadic portions of the Talmud, authored by the famed Sephardic Halakhic authority, Rabbi Yosef Hayyim of Baghdad (Ben Ish Chai).",
     "heDesc": "ביאור רחב על כל חלקי האגדה של התלמוד בבלי וירושלמי, חובר על ידי רב יוסף חיים מבגדד (בן איש חי).",
@@ -110,7 +132,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "אחרונים על התלמוד",
         "בן יהוידע"
     ],
     "compDateString": {

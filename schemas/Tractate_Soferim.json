@@ -1,7 +1,8 @@
 {
     "title": "Tractate Soferim",
     "categories": [
-        "Tanaitic",
+        "Talmud",
+        "Bavli",
         "Minor Tractates"
     ],
     "schema": {
@@ -14,6 +15,23 @@
         "sectionNames": [
             "Chapter",
             "Halakhah"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "soferim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "soferim"
+                ]
+            }
+        ],
+        "lengths": [
+            21,
+            227
         ],
         "titles": [
             {
@@ -56,7 +74,9 @@
         "key": "Tractate Soferim"
     },
     "authors": [],
-    "enDesc": "The minor tractates (Masekhtot Ketanot) are essays from the Tannaitic period or later dealing with topics about which no formal tractate exists in the Mishnah. The first eight or so contain much original material; the last seven or so are collections of material scattered throughout the Talmud. Soferim (Scribes). This tractate appears in two different versions in the Jerusalem and Babylonian Talmuds.",
+    "enDesc": "Tractate Soferim (“Scribes”) is one of the minor tractates, or works written in the style of the Mishnah  on topics for which there is no specific tractate in the Mishnah or Talmud. It was likely compiled in the eighth century in Israel, though certain segments are of earlier origin. It discusses the process of writing Torah scrolls, the spelling of biblical words, and the public reading of biblical texts. It ends with two chapters on the rabbinic holidays of Chanukah and Purim. Many medieval legal authorities considered the tractate to be a reliable source of law.",
+    "enShortDesc": "Writing Torah scrolls and other holy books, the public reading of biblical texts.",
+    "heShortDesc": "כתיבת ספר תורה וספרי קדושה אחרים, קריאת חלקים מן התנ\"ך בציבור.",
     "pubDate": "1732",
     "compDate": "750",
     "compPlace": "Talmudic Israel/Babylon",
@@ -81,7 +101,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
+        "תלמוד",
+        "בבלי",
         "מסכתות קטנות"
     ],
     "compDateString": {

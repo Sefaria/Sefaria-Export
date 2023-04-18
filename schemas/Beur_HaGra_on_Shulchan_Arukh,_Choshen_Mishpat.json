@@ -57,11 +57,32 @@
                 "key": "Dinei Migo"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "beur-hagra",
+                    "choshen-mishpat"
+                ]
+            }
+        ],
         "titles": [
             {
-                "primary": true,
+                "text": "Beur HaGra CM",
+                "lang": "en"
+            },
+            {
+                "text": "Beiur HaGra CM",
+                "lang": "en"
+            },
+            {
+                "text": "Biur HaGra CM",
+                "lang": "en"
+            },
+            {
+                "text": "ביאור הגר\"א על שולחן ערוך חושן משפט",
                 "lang": "he",
-                "text": "ביאור הגר\"א על שולחן ערוך חושן משפט"
+                "primary": true
             },
             {
                 "text": "Beur HaGra on Shulchan Arukh, Choshen Mishpat",
@@ -74,7 +95,11 @@
         "key": "Beur HaGra on Shulchan Arukh, Choshen Mishpat"
     },
     "authors": [
-        "Vilna Gaon"
+        {
+            "en": "Vilna Gaon",
+            "he": "אליהו בן שלמה זלמן מווילנה",
+            "slug": "vilna-gaon"
+        }
     ],
     "enDesc": "Commentary of the Vilna Gaon on Shulchan Arukh, mainly containing source references. Because of it's brief style, it is often difficult to determine the author's intention. This has spawned a number of supercommentaries that have been written on this work.",
     "heDesc": "פירוש קצר על דברי השלחן ערוך. באופן כללי, תפקיד הפירוש הוא למצוא את מקורות הדינים בסוגיות הש\"ס. מפאת קיצורו, קשה לעיתים לפענח את כוונתו, ובשל כך נכתבו עליו פירושים רבים.",
@@ -88,7 +113,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Choshen Mishpat",
-            "he": "חושן משפט"
+            "he": "שולחן ערוך, חושן משפט"
         }
     ],
     "collective_title": {
@@ -97,6 +122,9 @@
     },
     "heTitle": "ביאור הגר\"א על שולחן ערוך חושן משפט",
     "titleVariants": [
+        "Beur HaGra CM",
+        "Beiur HaGra CM",
+        "Biur HaGra CM",
         "Beur HaGra on Shulchan Arukh, Choshen Mishpat"
     ],
     "heTitleVariants": [
@@ -1580,9 +1608,21 @@
             ],
             "titles": [
                 {
-                    "primary": true,
+                    "text": "Beur HaGra CM",
+                    "lang": "en"
+                },
+                {
+                    "text": "Beiur HaGra CM",
+                    "lang": "en"
+                },
+                {
+                    "text": "Biur HaGra CM",
+                    "lang": "en"
+                },
+                {
+                    "text": "ביאור הגר\"א על שולחן ערוך חושן משפט",
                     "lang": "he",
-                    "text": "ביאור הגר\"א על שולחן ערוך חושן משפט"
+                    "primary": true
                 },
                 {
                     "text": "Beur HaGra on Shulchan Arukh, Choshen Mishpat",

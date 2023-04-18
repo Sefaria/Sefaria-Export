@@ -2,7 +2,7 @@
     "title": "Or HaChaim on Deuteronomy",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
         "Or HaChaim",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "or-hachaim",
+                    "deuteronomy"
+                ]
+            }
+        ],
+        "lengths": [
+            34,
+            300,
+            902
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -66,16 +84,16 @@
             },
             {
                 "lang": "he",
-                "text": "אור החיים על דברים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "אור החיים על דברי'"
             },
             {
                 "lang": "he",
                 "text": "אור החיים על דברי׳"
+            },
+            {
+                "text": "אור החיים על דברים",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Or HaChaim on Deuteronomy",
@@ -93,7 +111,11 @@
         "key": "Or HaChaim on Deuteronomy"
     },
     "authors": [
-        "Chaim ibn Attar"
+        {
+            "en": "Chaim ibn Attar",
+            "he": "חיים בן עטר",
+            "slug": "chaim-ibn-attar"
+        }
     ],
     "enDesc": "Written by Rabbi Hayyim ben Moshe ibn Attar (1696-1743), Or HaChaim is a classical commentary on the Chumash.  Rabbi Hayyim was a Moroccan Kabbalist and Talmudist which is reflected in his commentary.",
     "pubDate": "1742",
@@ -131,9 +153,9 @@
         "Or HaChaim on Deuteronomy"
     ],
     "heTitleVariants": [
-        "אור החיים על דברים",
         "אור החיים על דברי'",
-        "אור החיים על דברי׳"
+        "אור החיים על דברי׳",
+        "אור החיים על דברים"
     ],
     "sectionNames": [
         "Chapter",
@@ -143,7 +165,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
         "אור החיים",
         "תורה"
     ],

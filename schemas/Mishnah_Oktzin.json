@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "oktzin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "oktzin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "oktzin"
+                ]
+            }
+        ],
         "lengths": [
             3,
             28
@@ -61,11 +80,6 @@
                 "text": "Mishnah ʿUḳtsin"
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "משנה עוקצים"
-            },
-            {
                 "lang": "he",
                 "text": "עוקצים"
             },
@@ -78,9 +92,14 @@
                 "text": "משנה עוקצין"
             },
             {
-                "primary": true,
+                "text": "משנה עוקצים",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "Mishnah Oktzin",
                 "lang": "en",
-                "text": "Mishnah Oktzin"
+                "primary": true
             }
         ],
         "title": "Mishnah Oktzin",
@@ -97,6 +116,8 @@
     ],
     "authors": [],
     "enDesc": "Ukzim (Stems) belongs to the sixth order, Tahorot (Purities) and discusses the impurity of the stalks of fruit. It has three chapters.",
+    "enShortDesc": "Stems and other attachments to food, their susceptibility to impurity.",
+    "heShortDesc": "מעמדם בדיני טומאה וטהרה של עוקצי פירות וחלקים טפלים המחוברים למזון.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -104,6 +125,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה עוקצים",
     "titleVariants": [
         "M. Oktzin",
@@ -119,10 +143,10 @@
         "Mishnah Oktzin"
     ],
     "heTitleVariants": [
-        "משנה עוקצים",
         "עוקצים",
         "עוקצין",
-        "משנה עוקצין"
+        "משנה עוקצין",
+        "משנה עוקצים"
     ],
     "sectionNames": [
         "Chapter",

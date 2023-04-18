@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "malachi"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "malachi"
+                ]
+            }
         ],
         "lengths": [
             3,
@@ -26,6 +39,10 @@
             },
             {
                 "text": "Mal",
+                "lang": "en"
+            },
+            {
+                "text": "Malach.",
                 "lang": "en"
             },
             {
@@ -51,17 +68,25 @@
         26,
         21
     ],
-    "enDesc": "The Book of Malachi is the twelfth of the Tere Asar (Twelve Minor Prophets). The term denotes the short length of the text in relation to the longer prophetic texts known as the Major Prophets. The book is commonly attributed to a prophet by the name of Malachi though one of the Targums identifies Ezra as the author of Malachi. The Book of Malachi was written to correct the lax religious and social behaviour of the Israelites – particularly the priests – in post-exilic Jerusalem. Although the prophets urged the people of Judah and Israel to see their exile as punishment for failing to uphold their covenant with God, it was not long after they had been restored to the land and to Temple worship that the people's commitment to their God began once again to wane.",
+    "authors": [],
+    "enDesc": "Malachi is the last book of the Prophets, and according to rabbinic tradition, marks the end of prophecy in Israel. Speaking during the Second Temple period, Malachi criticizes the priests for their disingenuous ritual worship in the Temple and chastises the people for their infidelity to their spouses and to God. Yet he also emphasizes God's love for Israel and encourages the people to repent, describing God’s future blessings.",
+    "heDesc": "ספר מלאכי הוא חלק מתרי עשר, קובץ הכולל ספרי נבואה קצרים. על פי המסורת, ספר זה מציין את חתימת תקופת הנבואה בישראל. מלאכי ניבא בימי בית המקדש השני, ונבואותיו מבקרות את הכהנים ואת דרכי עבודת הא-ל הפסולות שבידיהם וכן מזהירות את העם מפני חוסר הנאמנות שלהם כלפי נשותיהם וכלפי אלוהים. עם זאת מלאכי מדגיש את אהבתו של הא-ל לעמו, מתאר את ברכות ה' בעתיד ומעודד את ישראל לחזור בתשובה.",
+    "enShortDesc": "Criticism of disingenuous ritual worship and descriptions of God’s future blessings.",
+    "heShortDesc": "ביקורת על השקר והצביעות שליוו את עבודת הפולחן ותיאורים של השפע העתידי שיעניק אלוהים לצדיקים.",
     "pubDate": "1488",
     "compDate": "-450",
     "compPlace": "Second Temple Judea",
     "pubPlace": "Soncino",
     "errorMargin": "70",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "מלאכי",
     "titleVariants": [
         "Mal.",
         "Mal",
+        "Malach.",
         "Malachi"
     ],
     "heTitleVariants": [

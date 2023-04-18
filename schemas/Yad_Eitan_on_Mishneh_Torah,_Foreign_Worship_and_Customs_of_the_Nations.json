@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yad-eitan",
+                    "hilchot",
+                    "foreign-worship-and-customs-of-the-nations"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yad-eitan",
+                    "foreign-worship-and-customs-of-the-nations"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            14,
+            17
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Yad Eitan on Mishneh Torah, Foreign Worship and Customs of the Nations",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Yad Eitan on Mishneh Torah, Foreign Worship and Customs of the Nations",
@@ -42,7 +62,11 @@
         "key": "Yad Eitan on Mishneh Torah, Foreign Worship and Customs of the Nations"
     },
     "authors": [
-        "Avraham Maskil L'Eitan"
+        {
+            "en": "Avraham Maskil L'Eitan",
+            "he": "אברהם משכיל לאיתן",
+            "slug": "avraham-maskil-leitan"
+        }
     ],
     "heDesc": "הערות וציוני מקורות לדברי הרמב\"ם בספר משנה תורה.",
     "pubDate": "1900",

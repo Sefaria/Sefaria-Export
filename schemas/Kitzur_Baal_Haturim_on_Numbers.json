@@ -1,9 +1,9 @@
 {
-    "title": "Kitzur Baal Haturim on Numbers",
+    "title": "Kitzur Baal HaTurim on Numbers",
     "categories": [
         "Tanakh",
-        "Commentary",
-        "Kitzur Baal Haturim",
+        "Rishonim on Tanakh",
+        "Kitzur Baal HaTurim",
         "Torah"
     ],
     "schema": {
@@ -11,7 +11,7 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
@@ -19,7 +19,41 @@
             "Verse",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kitzur-baal-haturim",
+                    "numbers"
+                ]
+            }
+        ],
+        "lengths": [
+            36,
+            315,
+            452
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
+            {
+                "text": "Kitzur Baal HaTurim on Num.",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal HaTurim on Num",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal HaTurim on Bamidbar",
+                "lang": "en"
+            },
+            {
+                "text": "Kitzur Baal HaTurim on Bemidbar",
+                "lang": "en"
+            },
             {
                 "text": "Kitzur Baal Haturim on Num.",
                 "lang": "en"
@@ -37,27 +71,35 @@
                 "lang": "en"
             },
             {
-                "primary": true,
-                "text": "קיצור בעל הטורים על במדבר",
-                "lang": "he"
+                "text": "Kitzur Baal Haturim on Numbers",
+                "lang": "en"
             },
             {
-                "text": "Kitzur Baal Haturim on Numbers",
+                "text": "קיצור בעל הטורים על במדבר",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "Kitzur Baal HaTurim on Numbers",
                 "lang": "en",
                 "primary": true
             }
         ],
-        "title": "Kitzur Baal Haturim on Numbers",
+        "title": "Kitzur Baal HaTurim on Numbers",
         "heTitle": "קיצור בעל הטורים על במדבר",
         "heSectionNames": [
             "פרק",
             "פסוק",
             "פירוש"
         ],
-        "key": "Kitzur Baal Haturim on Numbers"
+        "key": "Kitzur Baal HaTurim on Numbers"
     },
     "authors": [
-        "Jacob ben Asher"
+        {
+            "en": "Jacob ben Asher",
+            "he": "יעקב בן אשר",
+            "slug": "jacob-ben-asher"
+        }
     ],
     "enDesc": "Abridgement of the Torah commentary written by Jacob ben Asher, Ba’al HaTurim. The author was a halakhic scholar and biblical commentator in Medieval Spain.",
     "pubDate": "1514",
@@ -75,17 +117,22 @@
     ],
     "base_text_mapping": "many_to_one",
     "collective_title": {
-        "en": "Kitzur Baal Haturim",
+        "en": "Kitzur Baal HaTurim",
         "he": "קיצור בעל הטורים"
     },
     "is_cited": true,
     "heTitle": "קיצור בעל הטורים על במדבר",
     "titleVariants": [
+        "Kitzur Baal HaTurim on Num.",
+        "Kitzur Baal HaTurim on Num",
+        "Kitzur Baal HaTurim on Bamidbar",
+        "Kitzur Baal HaTurim on Bemidbar",
         "Kitzur Baal Haturim on Num.",
         "Kitzur Baal Haturim on Num",
         "Kitzur Baal Haturim on Bamidbar",
         "Kitzur Baal Haturim on Bemidbar",
-        "Kitzur Baal Haturim on Numbers"
+        "Kitzur Baal Haturim on Numbers",
+        "Kitzur Baal HaTurim on Numbers"
     ],
     "heTitleVariants": [
         "קיצור בעל הטורים על במדבר"
@@ -98,7 +145,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "קיצור בעל הטורים",
         "תורה"
     ],

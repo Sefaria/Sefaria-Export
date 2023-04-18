@@ -11,21 +11,33 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
         ],
-        "titles": [
+        "match_templates": [
             {
-                "lang": "he",
-                "text": "תרגום איכה",
-                "primary": true
-            },
+                "term_slugs": [
+                    "aramaic-targum",
+                    "lamentations"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            154
+        ],
+        "titles": [
             {
                 "lang": "en",
                 "text": "Targ. Lam."
+            },
+            {
+                "text": "תרגום איכה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Aramaic Targum to Lamentations",

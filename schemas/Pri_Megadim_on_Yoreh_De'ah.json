@@ -363,6 +363,15 @@
                 "key": "Klal Rov veChazakah"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "pri-megadim",
+                    "yoreh-deah"
+                ]
+            }
+        ],
         "titles": [
             {
                 "primary": true,
@@ -380,7 +389,11 @@
         "key": "Pri Megadim on Yoreh De'ah"
     },
     "authors": [
-        "Joseph ben Meir Teomim"
+        {
+            "en": "Joseph ben Meir Teomim",
+            "he": "יעקב בן מאיר תאמים",
+            "slug": "joseph-ben-meir-teomim"
+        }
     ],
     "enDesc": "A sophisticated analysis of the main commentaries of this section of Shulchan Arukh, it is a favorite with top yeshiva students.",
     "pubDate": "1772",
@@ -392,7 +405,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Yoreh De'ah",
-            "he": "יורה דעה"
+            "he": "שולחן ערוך, יורה דעה"
         },
         {
             "en": "Siftei Kohen on Shulchan Arukh, Yoreh De'ah",

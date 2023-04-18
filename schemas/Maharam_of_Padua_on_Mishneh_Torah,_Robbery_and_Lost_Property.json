@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "maharam-of-padua",
+                    "hilchot",
+                    "robbery-and-lost-property"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "maharam-of-padua",
+                    "robbery-and-lost-property"
+                ]
+            }
+        ],
+        "lengths": [
+            18,
+            1,
+            1
+        ],
         "titles": [
             {
                 "text": "הגהות מהר\"ם פדווא על משנה תורה, הלכות גזילה ואבידה",
@@ -42,10 +62,17 @@
         "key": "Maharam of Padua on Mishneh Torah, Robbery and Lost Property"
     },
     "authors": [
-        "Maharam of Padua"
+        {
+            "en": "Maharam of Padua",
+            "he": "מהר\"ם פדובה",
+            "slug": "maharam-of-padua"
+        }
     ],
     "pubDate": "1550-1551",
+    "compDate": "1540",
+    "compPlace": "Padua",
     "pubPlace": "Venice",
+    "errorMargin": "10",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -78,5 +105,13 @@
         "מפרשים",
         "הגהות מהר\"ם פדווא",
         "ספר נזיקין"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1530  - c.1550 CE)",
+        "he": " (1530 - 1550 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Padua",
+        "he": "פדובה"
+    }
 }

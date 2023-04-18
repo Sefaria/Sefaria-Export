@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yekar-tiferet",
+                    "hilchot",
+                    "agents-and-partners"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yekar-tiferet",
+                    "agents-and-partners"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            79,
+            152
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Yekar Tiferet on Mishneh Torah, Agents and Partners",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Yekar Tiferet on Mishneh Torah, Agents and Partners",
@@ -42,7 +62,11 @@
         "key": "Yekar Tiferet on Mishneh Torah, Agents and Partners"
     },
     "authors": [
-        "David ben Solomon ibn (Abi) Zimra"
+        {
+            "en": "David ben Solomon ibn (Abi) Zimra",
+            "he": "דוד בן שלמה אבן אבי זמרא",
+            "slug": "david-ben-solomon-ibn-(abi)-zimra"
+        }
     ],
     "enDesc": "Commentary of Radvaz to the parts of Rambam's Mishneh Torah on which the commentary 'Maggid Mishneh' was not written.",
     "heDesc": "פירוש הרדב\"ז על החלקים במשנה תורה שלא נכתב עליהם הפירוש 'מגיד משנה'.",

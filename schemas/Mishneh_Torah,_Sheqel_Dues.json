@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "sheqel-dues"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "sheqel-dues"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "sheqel-dues"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "sheqel-dues"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "sheqel-dues"
+                ]
+            }
+        ],
         "lengths": [
-            4
+            4,
+            47
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות שקלים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות שקלים"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' שקלים"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות שקלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות שקלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' שקלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' שקלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות שקלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות שקלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' שקלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' שקלים",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות שקלים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Sheqel Dues",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,7 +167,11 @@
         7
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The third book is Zemanim (Times). Laws of Sheqalim.",
     "pubDate": "1474",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Sheqel Dues"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות שקלים",
         "רמב\"ם, הלכות שקלים",
         "משנה תורה, הל' שקלים",
         "רמב\"ם, הל' שקלים",
         "רמב\"ם הלכות שקלים",
-        "רמב\"ם הל' שקלים"
+        "רמב\"ם הל' שקלים",
+        "רמב״ם, הלכות שקלים",
+        "רמב”ם, הלכות שקלים",
+        "רמב״ם, הל' שקלים",
+        "רמב”ם, הל' שקלים",
+        "רמב״ם הלכות שקלים",
+        "רמב”ם הלכות שקלים",
+        "רמב״ם הל' שקלים",
+        "רמב”ם הל' שקלים",
+        "משנה תורה, הלכות שקלים"
     ],
     "sectionNames": [
         "Chapter",

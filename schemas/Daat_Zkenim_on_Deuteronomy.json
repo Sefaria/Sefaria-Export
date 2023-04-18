@@ -2,7 +2,7 @@
     "title": "Daat Zkenim on Deuteronomy",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Daat Zkenim",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "daat-zkenim",
+                    "deuteronomy"
+                ]
+            }
+        ],
+        "lengths": [
+            34,
+            163,
+            252
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -90,11 +108,6 @@
             },
             {
                 "lang": "he",
-                "text": "דעת זקנים על דברים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "דעת זקנים בעלי התוספות על דברים"
             },
             {
@@ -126,6 +139,11 @@
                 "text": "דעת זקנים על דברי׳"
             },
             {
+                "text": "דעת זקנים על דברים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Daat Zkenim on Deuteronomy",
                 "lang": "en",
                 "primary": true
@@ -141,7 +159,11 @@
         "key": "Daat Zkenim on Deuteronomy"
     },
     "authors": [
-        "Tosafot"
+        {
+            "en": "Tosafot",
+            "he": "תוספות",
+            "slug": "tosafot"
+        }
     ],
     "enDesc": "Daat Zekenim is a Torah commentary compiled by later generations of scholars from the writings of the Franco-German school in the 12th-13th century (Ba’alei Tosafot).",
     "heDesc": "פירוש לתורה שנלקט מכתבי בעלי התוספות.",
@@ -186,7 +208,6 @@
         "Daat Zkenim on Deuteronomy"
     ],
     "heTitleVariants": [
-        "דעת זקנים על דברים",
         "דעת זקנים בעלי התוספות על דברים",
         "דעת זקנים בעלי התוספות על דברי'",
         "דעת זקנים בעלי התוספות על דברי׳",
@@ -194,7 +215,8 @@
         "דעת זקנים על התורה על דברי'",
         "דעת זקנים על התורה על דברי׳",
         "דעת זקנים על דברי'",
-        "דעת זקנים על דברי׳"
+        "דעת זקנים על דברי׳",
+        "דעת זקנים על דברים"
     ],
     "sectionNames": [
         "Chapter",
@@ -204,7 +226,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "דעת זקנים",
         "תורה"
     ],

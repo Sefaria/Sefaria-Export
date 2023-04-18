@@ -18,6 +18,25 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ohr-sameach",
+                    "hilchot",
+                    "transmission-of-the-oral-law"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ohr-sameach",
+                    "transmission-of-the-oral-law"
+                ]
+            }
+        ],
+        "lengths": [
+            45,
+            1
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -39,11 +58,18 @@
         "key": "Ohr Sameach on Mishneh Torah, Transmission of the Oral Law"
     },
     "authors": [
-        "Meir Simha HaKohen Dvinsk"
+        {
+            "en": "Meir Simha HaKohen Dvinsk",
+            "he": "רבי מאיר שמחה הכהן מדווינסק",
+            "slug": "meir-simha-hakohen-dvinsk"
+        }
     ],
     "enDesc": "Rabbi Meir Simcha of Dvinsk's commentary on Rambam's Mishneh Torah, in which he exhibits the great breadth of his knowledge as he tries to resolve apparent contradictions found in Mishneh Torah.",
     "pubDate": "1901",
+    "compDate": "1892",
+    "compPlace": "Daugavpils / Dvinsk",
     "pubPlace": "Riga",
+    "errorMargin": "9",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -75,5 +101,13 @@
         "מפרשים",
         "אור שמח",
         "הקדמה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1883  - c.1901 CE)",
+        "he": " (1883 - 1901 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Daugavpils / Dvinsk",
+        "he": "דאוגבפילס / דווינסק"
+    }
 }

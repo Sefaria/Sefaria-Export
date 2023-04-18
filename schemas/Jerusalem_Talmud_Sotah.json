@@ -7,44 +7,88 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "sotah"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "sotah"
+            ]
+        },
         "lengths": [
-            93,
-            229
+            9,
+            73,
+            382
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Yerushalmi Sotah"
-            },
-            {
-                "lang": "en",
-                "text": "JT Sotah"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Sotah"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי סוטה",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי סוטה"
+                "text": "Yerushalmi Sotah",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Sot."
+                "text": "JT Sotah",
+                "lang": "en"
+            },
+            {
+                "text": "Talmud Yerushalmi Sotah",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי סוטה",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Sot.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Sotah",
@@ -55,23 +99,27 @@
         "title": "Jerusalem Talmud Sotah",
         "heTitle": "תלמוד ירושלמי סוטה",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Sotah"
     },
     "order": [
         25
     ],
-    "authors": [],
-    "enDesc": "Sotah (Wayward Wife) belongs to the third order, Nashim (Women) and discusses the ritual of the Sotah – the woman suspected of adultery (Num 5) as well as other rituals involving a spoken formula (such as breaking the heifer's neck, the King's septa-annual public Torah reading, the Blessings and Curses of Mount Gerizim and Mount Ebal, etc...). It has nine chapters.",
+    "enDesc": "Sotah is a tractate in Seder Nashim (“Order of Women,” which addresses family law). Its first six chapters discuss laws relating to a sotah, or woman whose husband suspects her of adultery. The tractate outlines the process the sotah experiences, beginning with a warning issued by her husband and her seclusion with another man and through the steps of the ritual performed in the Temple in order to determine her culpability. The last three chapters discuss other rituals that involve recitation.",
+    "enShortDesc": "A woman suspected of adultery, the ritual determining her culpability, and other rituals involving recitation.",
+    "heShortDesc": "אישה החשודה בבגידה בבעלה, טקס בירור מעמדה וטקסים אחרים הכרוכים באמירה.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי סוטה",
     "titleVariants": [
         "Yerushalmi Sotah",
@@ -84,11 +132,773 @@
         "תלמוד ירושלמי סוטה",
         "ירושלמי סוטה"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 1:1:2-10:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 1:1:2-9",
+                        "Jerusalem Talmud Sotah 1:1:9-2:10",
+                        "Jerusalem Talmud Sotah 1:2:10-4:5",
+                        "Jerusalem Talmud Sotah 1:4:5-8:4",
+                        "Jerusalem Talmud Sotah 1:8:4-10:3",
+                        "Jerusalem Talmud Sotah 1:10:3-6"
+                    ],
+                    "startingAddress": "16b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המקנא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "המקנא",
+                    "offset": 61
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 2:1:1-6:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 2:1:1-2",
+                        "Jerusalem Talmud Sotah 2:1:2-2:4",
+                        "Jerusalem Talmud Sotah 2:2:4-5:2",
+                        "Jerusalem Talmud Sotah 2:5:2-6:2"
+                    ],
+                    "startingAddress": "17c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "היה מביא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "היה מביא",
+                    "offset": 66
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 3:1:1-8:7",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 3:1:1-2",
+                        "Jerusalem Talmud Sotah 3:1:2-5",
+                        "Jerusalem Talmud Sotah 3:1:5-4:6",
+                        "Jerusalem Talmud Sotah 3:4:6-6:5",
+                        "Jerusalem Talmud Sotah 3:6:5-8:7"
+                    ],
+                    "startingAddress": "18b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "היה נוטל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "היה נוטל",
+                    "offset": 69
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 4:1:1-5:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 4:1:1-2",
+                        "Jerusalem Talmud Sotah 4:1:2-3:4",
+                        "Jerusalem Talmud Sotah 4:3:4-5:4"
+                    ],
+                    "startingAddress": "19b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "ארוסה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "ארוסה",
+                    "offset": 73
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 5:1:1-6:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 5:1:1-2",
+                        "Jerusalem Talmud Sotah 5:1:2-2:5",
+                        "Jerusalem Talmud Sotah 5:2:5-3:3",
+                        "Jerusalem Talmud Sotah 5:3:3-6:2",
+                        "Jerusalem Talmud Sotah 5:6:2-5"
+                    ],
+                    "startingAddress": "19d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כשם שהמים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "כשם שהמים",
+                    "offset": 75
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 6:1:1-4:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 6:1:1-2:2",
+                        "Jerusalem Talmud Sotah 6:2:2-4:4"
+                    ],
+                    "startingAddress": "20d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שקינא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "מי שקינא",
+                    "offset": 79
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 7:1:1-8:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 7:1:1-2",
+                        "Jerusalem Talmud Sotah 7:1:2-7",
+                        "Jerusalem Talmud Sotah 7:1:7-4:4",
+                        "Jerusalem Talmud Sotah 7:4:4-5:5",
+                        "Jerusalem Talmud Sotah 7:5:5-8:2"
+                    ],
+                    "startingAddress": "21a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אלו נאמרין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "אלו נאמרין",
+                    "offset": 80
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 8:1:1-10:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 8:1:1-2",
+                        "Jerusalem Talmud Sotah 8:1:2-3:3",
+                        "Jerusalem Talmud Sotah 8:3:3-9",
+                        "Jerusalem Talmud Sotah 8:3:9-6:2",
+                        "Jerusalem Talmud Sotah 8:6:2-10:5"
+                    ],
+                    "startingAddress": "22a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "משוח מלחמה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "משוח מלחמה",
+                    "offset": 84
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 9:1:1-16:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 9:1:1-2",
+                        "Jerusalem Talmud Sotah 9:1:2-4",
+                        "Jerusalem Talmud Sotah 9:1:4-4:2",
+                        "Jerusalem Talmud Sotah 9:4:2-6:3",
+                        "Jerusalem Talmud Sotah 9:6:3-11:8",
+                        "Jerusalem Talmud Sotah 9:11:8-15:2",
+                        "Jerusalem Talmud Sotah 9:15:2-16:4"
+                    ],
+                    "startingAddress": "23a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "עגלה ערופה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "עגלה ערופה",
+                    "offset": 88
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי סוטה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Yerushalmi Sotah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Sotah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Sotah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי סוטה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Sot.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Sotah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Sotah",
+            "heTitle": "תלמוד ירושלמי סוטה"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 1:1:1-10:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 1:1:1-6",
+                        "Jerusalem Talmud Sotah 1:1:6-9",
+                        "Jerusalem Talmud Sotah 1:1:9-10",
+                        "Jerusalem Talmud Sotah 1:1:10-2:1",
+                        "Jerusalem Talmud Sotah 1:2:1-5",
+                        "Jerusalem Talmud Sotah 1:2:5-7",
+                        "Jerusalem Talmud Sotah 1:2:7-10",
+                        "Jerusalem Talmud Sotah 1:2:10-3:2",
+                        "Jerusalem Talmud Sotah 1:3:2-4:3",
+                        "Jerusalem Talmud Sotah 1:4:3-5:1",
+                        "Jerusalem Talmud Sotah 1:5:1-6:1",
+                        "Jerusalem Talmud Sotah 1:6:1-7:4",
+                        "Jerusalem Talmud Sotah 1:7:4-8:5",
+                        "Jerusalem Talmud Sotah 1:8:5-11",
+                        "Jerusalem Talmud Sotah 1:8:11-10:4",
+                        "Jerusalem Talmud Sotah 1:10:4-6"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המקנא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "המקנא",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 2:1:1-6:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 2:1:1-2",
+                        "Jerusalem Talmud Sotah 2:1:2-4",
+                        "Jerusalem Talmud Sotah 2:1:4-9",
+                        "Jerusalem Talmud Sotah 2:1:9-2:5",
+                        "Jerusalem Talmud Sotah 2:2:5-9",
+                        "Jerusalem Talmud Sotah 2:2:9-4:1",
+                        "Jerusalem Talmud Sotah 2:4:1-5:1",
+                        "Jerusalem Talmud Sotah 2:5:1-5",
+                        "Jerusalem Talmud Sotah 2:5:5-6",
+                        "Jerusalem Talmud Sotah 2:5:6-6:1",
+                        "Jerusalem Talmud Sotah 2:6:1-2"
+                    ],
+                    "startingAddress": "8b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "היה מביא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "היה מביא",
+                    "offset": 15
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 3:1:1-8:7",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 3:1:1-4",
+                        "Jerusalem Talmud Sotah 3:1:4-2:1",
+                        "Jerusalem Talmud Sotah 3:2:1-3:2",
+                        "Jerusalem Talmud Sotah 3:3:2-4:1",
+                        "Jerusalem Talmud Sotah 3:4:1-6",
+                        "Jerusalem Talmud Sotah 3:4:6-11",
+                        "Jerusalem Talmud Sotah 3:4:11-5:3",
+                        "Jerusalem Talmud Sotah 3:5:3-6:5",
+                        "Jerusalem Talmud Sotah 3:6:5-6",
+                        "Jerusalem Talmud Sotah 3:6:6-8:2",
+                        "Jerusalem Talmud Sotah 3:8:2-7"
+                    ],
+                    "startingAddress": "13b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "היה נוטל",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "היה נוטל",
+                    "offset": 25
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 4:1:1-5:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 4:1:1-3",
+                        "Jerusalem Talmud Sotah 4:1:3-2:2",
+                        "Jerusalem Talmud Sotah 4:2:2-4:1",
+                        "Jerusalem Talmud Sotah 4:4:1-5:3",
+                        "Jerusalem Talmud Sotah 4:5:3-4"
+                    ],
+                    "startingAddress": "18b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "ארוסה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "ארוסה",
+                    "offset": 35
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 5:1:1-6:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 5:1:1-5",
+                        "Jerusalem Talmud Sotah 5:1:5",
+                        "Jerusalem Talmud Sotah 5:1:5-2:3",
+                        "Jerusalem Talmud Sotah 5:2:3-5",
+                        "Jerusalem Talmud Sotah 5:2:5-6",
+                        "Jerusalem Talmud Sotah 5:2:6-8",
+                        "Jerusalem Talmud Sotah 5:2:8-11",
+                        "Jerusalem Talmud Sotah 5:2:11-3:2",
+                        "Jerusalem Talmud Sotah 5:3:2-4:3",
+                        "Jerusalem Talmud Sotah 5:4:3-5:6",
+                        "Jerusalem Talmud Sotah 5:5:6-6:3",
+                        "Jerusalem Talmud Sotah 5:6:3-5"
+                    ],
+                    "startingAddress": "20b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כשם שהמים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "כשם שהמים",
+                    "offset": 39
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 6:1:1-4:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 6:1:1-2",
+                        "Jerusalem Talmud Sotah 6:1:2-2:4",
+                        "Jerusalem Talmud Sotah 6:2:4-3:1",
+                        "Jerusalem Talmud Sotah 6:3:1-2",
+                        "Jerusalem Talmud Sotah 6:3:2-4:4",
+                        "Jerusalem Talmud Sotah 6:4:4",
+                        "Jerusalem Talmud Sotah 6:4:4"
+                    ],
+                    "startingAddress": "26a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שקינא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "מי שקינא",
+                    "offset": 50
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 7:1:1-8:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 7:1:1-5",
+                        "Jerusalem Talmud Sotah 7:1:5-2:2",
+                        "Jerusalem Talmud Sotah 7:2:2-3:2",
+                        "Jerusalem Talmud Sotah 7:3:2-4:4",
+                        "Jerusalem Talmud Sotah 7:4:4-7",
+                        "Jerusalem Talmud Sotah 7:4:7-9",
+                        "Jerusalem Talmud Sotah 7:4:9-5:3",
+                        "Jerusalem Talmud Sotah 7:5:3-6",
+                        "Jerusalem Talmud Sotah 7:5:6-6:3",
+                        "Jerusalem Talmud Sotah 7:6:3-7:3",
+                        "Jerusalem Talmud Sotah 7:7:3-8:2"
+                    ],
+                    "startingAddress": "29a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אלו נאמרין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "אלו נאמרין",
+                    "offset": 56
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 8:1:1-10:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 8:1:1-2",
+                        "Jerusalem Talmud Sotah 8:1:2-2:2",
+                        "Jerusalem Talmud Sotah 8:2:2-3:3",
+                        "Jerusalem Talmud Sotah 8:3:3-6",
+                        "Jerusalem Talmud Sotah 8:3:6-9",
+                        "Jerusalem Talmud Sotah 8:3:9-12",
+                        "Jerusalem Talmud Sotah 8:3:12-4:3",
+                        "Jerusalem Talmud Sotah 8:4:3-5:5",
+                        "Jerusalem Talmud Sotah 8:5:5-8:1",
+                        "Jerusalem Talmud Sotah 8:8:1-9:2",
+                        "Jerusalem Talmud Sotah 8:9:2-10:1",
+                        "Jerusalem Talmud Sotah 8:10:1-5"
+                    ],
+                    "startingAddress": "34a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "משוח מלחמה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "משוח מלחמה",
+                    "offset": 66
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Sotah 9:1:1-16:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Sotah 9:1:1-2",
+                        "Jerusalem Talmud Sotah 9:1:2-6",
+                        "Jerusalem Talmud Sotah 9:1:6-2:1",
+                        "Jerusalem Talmud Sotah 9:2:1-7",
+                        "Jerusalem Talmud Sotah 9:2:7-4:2",
+                        "Jerusalem Talmud Sotah 9:4:2-5:4",
+                        "Jerusalem Talmud Sotah 9:5:4-7",
+                        "Jerusalem Talmud Sotah 9:5:7-6:3",
+                        "Jerusalem Talmud Sotah 9:6:3-8:1",
+                        "Jerusalem Talmud Sotah 9:8:1-11:2",
+                        "Jerusalem Talmud Sotah 9:11:2-8",
+                        "Jerusalem Talmud Sotah 9:11:8-13:2",
+                        "Jerusalem Talmud Sotah 9:13:2-14:1",
+                        "Jerusalem Talmud Sotah 9:14:1-15:6",
+                        "Jerusalem Talmud Sotah 9:15:6-16:1",
+                        "Jerusalem Talmud Sotah 9:16:1-4"
+                    ],
+                    "startingAddress": "39b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "עגלה ערופה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "עגלה ערופה",
+                    "offset": 77
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי סוטה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Yerushalmi Sotah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Sotah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Sotah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי סוטה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Sot.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Sotah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Sotah",
+            "heTitle": "תלמוד ירושלמי סוטה"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

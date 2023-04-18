@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "neighbors"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "neighbors"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "neighbors"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "neighbors"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "neighbors"
+                ]
+            }
+        ],
         "lengths": [
-            14
+            14,
+            157
         ],
         "titles": [
             {
@@ -66,11 +101,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות שכנים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות שכנים"
             },
             {
@@ -90,8 +120,45 @@
                 "text": "רמב\"ם הל' שכנים"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות שכנים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות שכנים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' שכנים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' שכנים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות שכנים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות שכנים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' שכנים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' שכנים",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות שכנים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Neighbors",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -108,9 +175,13 @@
         3
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The twelfth book is Sefer Kinyan (Acquisition: laws of the marketplace). Hilchot Shechenim. ",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -134,12 +205,20 @@
         "Mishneh Torah, Neighbors"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות שכנים",
         "רמב\"ם, הלכות שכנים",
         "משנה תורה, הל' שכנים",
         "רמב\"ם, הל' שכנים",
         "רמב\"ם הלכות שכנים",
-        "רמב\"ם הל' שכנים"
+        "רמב\"ם הל' שכנים",
+        "רמב״ם, הלכות שכנים",
+        "רמב”ם, הלכות שכנים",
+        "רמב״ם, הל' שכנים",
+        "רמב”ם, הל' שכנים",
+        "רמב״ם הלכות שכנים",
+        "רמב”ם הלכות שכנים",
+        "רמב״ם הל' שכנים",
+        "רמב”ם הל' שכנים",
+        "משנה תורה, הלכות שכנים"
     ],
     "sectionNames": [
         "Chapter",

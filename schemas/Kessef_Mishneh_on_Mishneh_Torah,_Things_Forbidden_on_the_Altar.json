@@ -2,9 +2,9 @@
     "title": "Kessef Mishneh on Mishneh Torah, Things Forbidden on the Altar",
     "categories": [
         "Halakhah",
+        "Mishneh Torah",
         "Commentary",
         "Kessef Mishneh",
-        "Mishneh Torah",
         "Sefer Avodah"
     ],
     "schema": {
@@ -20,15 +20,31 @@
             "Halakhah",
             "Comment"
         ],
-        "titles": [
+        "match_templates": [
             {
-                "lang": "en",
-                "text": "Kessef Mishneh on Mishneh Torah, Things Forbidden on the Alter"
+                "term_slugs": [
+                    "kessef-mishneh",
+                    "hilchot",
+                    "things-forbidden-on-the-altar"
+                ]
             },
             {
-                "primary": true,
+                "term_slugs": [
+                    "kessef-mishneh",
+                    "things-forbidden-on-the-altar"
+                ]
+            }
+        ],
+        "lengths": [
+            7,
+            89,
+            233
+        ],
+        "titles": [
+            {
+                "text": "כסף משנה על משנה תורה, הלכות איסורי המזבח",
                 "lang": "he",
-                "text": "כסף משנה על משנה תורה, הלכות איסורי המזבח"
+                "primary": true
             },
             {
                 "text": "Kessef Mishneh on Mishneh Torah, Things Forbidden on the Altar",
@@ -46,9 +62,13 @@
         "key": "Kessef Mishneh on Mishneh Torah, Things Forbidden on the Altar"
     },
     "authors": [
-        "Joseph Karo"
+        {
+            "en": "Joseph Karo",
+            "he": "יוסף קארו",
+            "slug": "joseph-karo"
+        }
     ],
-    "enDesc": "Kessef Mishneh is a commentary on Rambam’s Mishneh Torah, written by Joseph Karo, and published during his lifetime. In the introduction to this work, the author writes that his goal was to cite the source of each law, and to defend the Rambam from Raavad's arguments. ",
+    "enDesc": "Kessef Mishneh is a commentary on Rambam’s Mishneh Torah, written by Joseph Karo, and published during his lifetime. In the introduction to this work, the author writes that his goal was to cite the source of each law, and to defend the Rambam from Raavad's arguments.",
     "heDesc": "",
     "pubDate": "1574-1575",
     "compDate": "1560",
@@ -63,14 +83,13 @@
             "he": "משנה תורה, הלכות איסורי המזבח"
         }
     ],
-    "base_text_mapping": null,
+    "base_text_mapping": "many_to_one",
     "collective_title": {
         "en": "Kessef Mishneh",
         "he": "כסף משנה"
     },
     "heTitle": "כסף משנה על משנה תורה, הלכות איסורי המזבח",
     "titleVariants": [
-        "Kessef Mishneh on Mishneh Torah, Things Forbidden on the Alter",
         "Kessef Mishneh on Mishneh Torah, Things Forbidden on the Altar"
     ],
     "heTitleVariants": [
@@ -84,9 +103,9 @@
     "depth": 3,
     "heCategories": [
         "הלכה",
+        "משנה תורה",
         "מפרשים",
         "כסף משנה",
-        "משנה תורה",
         "ספר עבודה"
     ],
     "compDateString": {

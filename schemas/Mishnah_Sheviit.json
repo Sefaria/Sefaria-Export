@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "sheviit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheviit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "sheviit"
+                ]
+            }
+        ],
         "lengths": [
             10,
             89
@@ -62,11 +81,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה שביעית",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "שביעית"
             },
             {
@@ -74,8 +88,13 @@
                 "text": "מסכת שביעית"
             },
             {
-                "lang": "en",
+                "text": "משנה שביעית",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Sheviit",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -92,7 +111,9 @@
         5
     ],
     "authors": [],
-    "enDesc": "Sheviit (Seventh Year) belongs to the first order, Zera'im (seeds) and discusses rules of agricultural and fiscal regulations concerning the Sabbatical Year, as stated in Exodus 23:11, Leviticus 25:1-8, Deuteronomy 15:1-11. It consists of ten chapters.",
+    "enDesc": "Sheviit (“Seventh”) is a tractate in Seder Zeraim (“Order of Seeds”). It discusses the biblically-mandated seventh year of the agricultural cycle, known as the Shemitah year, when working the land is prohibited, produce that grows on the land takes on a sacred status, and debts are forgiven. The tractate’s ten chapters address details such as types of prohibited agricultural practices, timelines of prohibitions, and the places in which Shemitah applies.",
+    "enShortDesc": "The seventh year of the agricultural cycle, when working the land is prohibited and debts are forgiven.",
+    "heShortDesc": "דיני שנת השמיטה, השנה השביעית במחזור החקלאי, שבה אסור לעבוד את האדמה וכן החובות בטלים.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -100,6 +121,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה שביעית",
     "titleVariants": [
         "M Sheviit",
@@ -115,9 +139,9 @@
         "Mishnah Sheviit"
     ],
     "heTitleVariants": [
-        "משנה שביעית",
         "שביעית",
-        "מסכת שביעית"
+        "מסכת שביעית",
+        "משנה שביעית"
     ],
     "sectionNames": [
         "Chapter",

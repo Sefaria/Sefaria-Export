@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "maharam-of-padua",
+                    "hilchot",
+                    "one-who-injures-a-person-or-property"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "maharam-of-padua",
+                    "one-who-injures-a-person-or-property"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            1,
+            1
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,10 +62,17 @@
         "key": "Maharam of Padua on Mishneh Torah, One Who Injures a Person or Property"
     },
     "authors": [
-        "Maharam of Padua"
+        {
+            "en": "Maharam of Padua",
+            "he": "מהר\"ם פדובה",
+            "slug": "maharam-of-padua"
+        }
     ],
     "pubDate": "1550-1551",
+    "compDate": "1540",
+    "compPlace": "Padua",
     "pubPlace": "Venice",
+    "errorMargin": "10",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -78,5 +105,13 @@
         "מפרשים",
         "הגהות מהר\"ם פדווא",
         "ספר נזיקין"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1530  - c.1550 CE)",
+        "he": " (1530 - 1550 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Padua",
+        "he": "פדובה"
+    }
 }

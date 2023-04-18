@@ -2,7 +2,7 @@
     "title": "Shadal on Genesis",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
         "Shadal",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "shadal",
+                    "genesis"
+                ]
+            }
+        ],
+        "lengths": [
+            50,
+            975,
+            1675
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -58,11 +76,6 @@
             },
             {
                 "lang": "he",
-                "text": "שד\"ל על בראשית",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "שד\"ל על ברא'"
             },
             {
@@ -82,8 +95,61 @@
                 "text": "שד\"ל על בְּרֵאשִׁית"
             },
             {
-                "lang": "en",
+                "text": "שד״ל על בראשית",
+                "lang": "he"
+            },
+            {
+                "text": "שד”ל על בראשית",
+                "lang": "he"
+            },
+            {
+                "text": "שד״ל על ברא'",
+                "lang": "he"
+            },
+            {
+                "text": "שד”ל על ברא'",
+                "lang": "he"
+            },
+            {
+                "text": "שד״ל על בר'",
+                "lang": "he"
+            },
+            {
+                "text": "שד”ל על בר'",
+                "lang": "he"
+            },
+            {
+                "text": "שד״ל על בר׳",
+                "lang": "he"
+            },
+            {
+                "text": "שד”ל על בר׳",
+                "lang": "he"
+            },
+            {
+                "text": "שד״ל על ברא׳",
+                "lang": "he"
+            },
+            {
+                "text": "שד”ל על ברא׳",
+                "lang": "he"
+            },
+            {
+                "text": "שד״ל על בְּרֵאשִׁית",
+                "lang": "he"
+            },
+            {
+                "text": "שד”ל על בְּרֵאשִׁית",
+                "lang": "he"
+            },
+            {
+                "text": "שד\"ל על בראשית",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Shadal on Genesis",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -97,9 +163,13 @@
         "key": "Shadal on Genesis"
     },
     "authors": [
-        "Shadal"
+        {
+            "en": "Shadal",
+            "he": "שד\"ל",
+            "slug": "shadal"
+        }
     ],
-    "enDesc": "Commentary written by Samuel David Luzzatto (known by the acronym, Shadal), (Italy 1800 – 1865). Shadal’s commentary develops a unique approach to resolving the problem that occurs when the pshat (contextual) meaning of the text conflicts with halakha, as presented in midrash halakha. Shadal argues that the pshat reflects what the Torah means and the midrash reflects the halakha and not biblical interpretation. He claims that instead of being biblical interpretation, the midrash halakha is rabbinic legislation with the desire to take a more lenient position than the Torah text.",
+    "enDesc": "Commentary written by Samuel David Luzzatto (known by the acronym, Shadal), (Italy 1800 – 1865). Shadal’s commentary develops a unique approach to resolving the problem that occurs when the pshat (contextual) meaning of the text conflicts with halakhah, as presented in midrash halakha. Shadal argues that the pshat reflects what the Torah means and the midrash reflects the halakha and not biblical interpretation. He claims that instead of being biblical interpretation, the midrash halakha is rabbinic legislation with the desire to take a more lenient position than the Torah text.",
     "pubDate": "1871",
     "compDate": "1850",
     "compPlace": "Padua",
@@ -133,12 +203,24 @@
         "Shadal on Genesis"
     ],
     "heTitleVariants": [
-        "שד\"ל על בראשית",
         "שד\"ל על ברא'",
         "שד\"ל על בר'",
         "שד\"ל על בר׳",
         "שד\"ל על ברא׳",
-        "שד\"ל על בְּרֵאשִׁית"
+        "שד\"ל על בְּרֵאשִׁית",
+        "שד״ל על בראשית",
+        "שד”ל על בראשית",
+        "שד״ל על ברא'",
+        "שד”ל על ברא'",
+        "שד״ל על בר'",
+        "שד”ל על בר'",
+        "שד״ל על בר׳",
+        "שד”ל על בר׳",
+        "שד״ל על ברא׳",
+        "שד”ל על ברא׳",
+        "שד״ל על בְּרֵאשִׁית",
+        "שד”ל על בְּרֵאשִׁית",
+        "שד\"ל על בראשית"
     ],
     "sectionNames": [
         "Chapter",
@@ -148,7 +230,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
         "שד\"ל",
         "תורה"
     ],

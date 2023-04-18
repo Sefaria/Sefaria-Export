@@ -1,6 +1,7 @@
 {
     "title": "The Book of Maccabees I",
     "categories": [
+        "Second Temple",
         "Apocrypha"
     ],
     "schema": {
@@ -8,11 +9,28 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "i-maccabees"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sefer",
+                    "i-maccabees"
+                ]
+            }
+        ],
+        "lengths": [
+            16,
+            954
         ],
         "titles": [
             {
@@ -33,11 +51,6 @@
             },
             {
                 "lang": "he",
-                "text": "ספר מקבים א",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "ספר מקבים"
             },
             {
@@ -49,8 +62,13 @@
                 "text": "I Macc."
             },
             {
-                "lang": "en",
+                "text": "ספר מקבים א",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "The Book of Maccabees I",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -63,8 +81,10 @@
         "key": "The Book of Maccabees I"
     },
     "authors": [],
-    "enDesc": "1 Maccabees is a book written in Hebrew by a Jewish author after the restoration of an independent Jewish kingdom, about the latter part of the 2nd century BC. The original Hebrew is lost and the most important surviving version is the Greek translation contained in the Septuagint. The book is held as canonical scripture by some Christian churches (including Catholic,Orthodox, and Coptic churches), but not by Anglican and Protestant denominations. Such Protestants consider it to be an apocryphal book (see also Deuterocanon). In modern-day Judaism, the book is often of great historical interest, but has no official religious status.",
+    "enDesc": "The Book of Maccabees I is an apocryphal work recounting the victories of the Maccabees over the Syrian Greeks and the rededication of the Second Temple in Jerusalem in 164 BCE, the stories behind the holiday of Chanukah. Written in Hebrew by a Jewish author who was likely an eyewitness to the events he describes, the work is considered an important historical source for the period. It has no official religious status in Judaism, but it is often studied to enrich the understanding of Chanukah.",
     "heDesc": "מקבים א' הינו ספר עברי אשר חובר על ידי מחבר יהודי לאחר ביסוסה מחדש של ממלכה יהודית עצמאית, אשר נושאו חלקו השני של המאה השנייה לפני הספירה. החיבור העברי המקורי אבד, והגרסה החשובה ביותר שלו ששרדה הינה התרגום היווני המצוי בתרגום השבעים. החיבור נחשב, על ידי מספר פלגים נוצריים (כולל הנצרות הקתולית והאורתודוכסים והכנסייה הקופטית), לחלק מהקאנון התנ\"כי, אך לא על ידי הזרם האנגליקני או הפרוטסטנטי. נוצרים פרוטסטנטיים מתייחסים אל הספר כספר חיצוני (ראו גם קאנון דויטרונומיסטי). ביהדות המודרנית הספר מעורר לעתים קרובות עניין היסטוריוגרפי רב, אך אין לו מעמד דתי רשמי.",
+    "enShortDesc": "Accounts of the Maccabees’ revolt against the Syrian Greeks, the story behind Chanukah.",
+    "heShortDesc": "סיפור מרד המקבים נגד היוונים הסוריים, המצוין בחג החנוכה.",
     "compDate": "-135",
     "compPlace": "Second Temple Judea",
     "errorMargin": "10",
@@ -79,9 +99,9 @@
         "The Book of Maccabees I"
     ],
     "heTitleVariants": [
-        "ספר מקבים א",
         "ספר מקבים",
-        "ספר חשמונאים א"
+        "ספר חשמונאים א",
+        "ספר מקבים א"
     ],
     "sectionNames": [
         "Chapter",
@@ -89,6 +109,7 @@
     ],
     "depth": 2,
     "heCategories": [
+        "בית שני",
         "ספרים חיצונים"
     ],
     "compDateString": {

@@ -20,6 +20,26 @@
             "Halakhah",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-lamelech",
+                    "hilchot",
+                    "second-tithes-and-fourth-years-fruit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-lamelech",
+                    "second-tithes-and-fourth-years-fruit"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            17,
+            17
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,11 +62,18 @@
         "key": "Mishneh LaMelech on Mishneh Torah, Second Tithes and Fourth Year's Fruit"
     },
     "authors": [
-        "Judah Rosanes"
+        {
+            "en": "Judah Rosanes",
+            "he": "יהודה רוזאניס",
+            "slug": "judah-rosanes"
+        }
     ],
     "enDesc": "Originally written as a book of Talmudic novellae (chiddushim), it was redacted into a commentary on Rambam's Mishneh Torah by the author's devoted student, Rabbi Ya'akov Kuli, author of Me'am Loez.",
     "pubDate": "1731",
+    "compDate": "1695",
+    "compPlace": "Constantinople",
     "pubPlace": "Constantinople",
+    "errorMargin": "20",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -79,5 +106,13 @@
         "מפרשים",
         "משנה למלך",
         "ספר זרעים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1675  - c.1715 CE)",
+        "he": " (1675 - 1715 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Constantinople",
+        "he": "קושטא / קונסטנטינה"
+    }
 }

@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "har-hamoriyah",
+                    "hilchot",
+                    "sacrifices-rendered-unfit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "har-hamoriyah",
+                    "sacrifices-rendered-unfit"
+                ]
+            }
+        ],
+        "lengths": [
+            19,
+            344,
+            786
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,9 +62,15 @@
         "key": "Har HaMoriyah on Mishneh Torah, Sacrifices Rendered Unfit"
     },
     "authors": [
-        "Meir Yonah Brancki"
+        {
+            "en": "Meir Yonah Brancki",
+            "he": "מאיר יונה ברנצקי",
+            "slug": "meir-yonah-brancki"
+        }
     ],
     "pubDate": "1968",
+    "compDate": "1865",
+    "errorMargin": "25",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -77,5 +103,9 @@
         "מפרשים",
         "הר המוריה",
         "ספר עבודה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1840  - c.1890 CE)",
+        "he": " (1840 - 1890 לספירה בקירוב)"
+    }
 }

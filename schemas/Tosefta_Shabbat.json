@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Shabbat",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Moed"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "shabbat"
+                ]
+            }
+        ],
         "lengths": [
-            18
+            18,
+            233
         ],
         "titles": [
             {
@@ -37,17 +46,17 @@
                 "text": "Tos. Shabbat"
             },
             {
-                "lang": "he",
-                "text": "תוספתא שבת",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Sabb."
             },
             {
-                "lang": "en",
+                "text": "תוספתא שבת",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Shabbat",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -63,7 +72,9 @@
         1
     ],
     "authors": [],
-    "enDesc": "Shabbat (Sabbath) belongs to the second order, Moed (Festivals) and discusses the 39 prohibitions of \"work\" on the Shabbat. It has eighteen chapters.",
+    "enDesc": "Shabbat (“Sabbath”) is the first tractate in Seder Moed (Order of Festivals). Its 24 chapters discuss the 39 melachot (creative labors prohibited on Shabbat), prohibitions of carrying on Shabbat, and positive commandments that preserve the sanctity of the day, such as lighting candles and eating three meals. \n.",
+    "enShortDesc": "Creative work prohibited on Shabbat and other laws that preserve the sanctity of the day.",
+    "heShortDesc": "מלאכות האסורות בשבת ודינים הקשורים לקדושת היום.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -89,8 +100,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר מועד"
     ],
     "compDateString": {

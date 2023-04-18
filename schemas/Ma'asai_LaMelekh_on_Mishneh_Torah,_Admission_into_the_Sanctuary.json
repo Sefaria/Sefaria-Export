@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "maasai-lamelekh",
+                    "hilchot",
+                    "admission-into-the-sanctuary"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "maasai-lamelekh",
+                    "admission-into-the-sanctuary"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            119,
+            151
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,10 +62,17 @@
         "key": "Ma'asai LaMelekh on Mishneh Torah, Admission into the Sanctuary"
     },
     "authors": [
-        "Yeshaya Zilberstein"
+        {
+            "en": "Yeshaya Zilberstein",
+            "he": "ישעיהו זילברשטיין",
+            "slug": "yeshaya-zilberstein"
+        }
     ],
     "pubDate": "1913",
+    "compDate": "1905",
+    "compPlace": "Waitzen",
     "pubPlace": "Waitzen",
+    "errorMargin": "8",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -78,5 +105,13 @@
         "מפרשים",
         "מעשי למלך",
         "ספר עבודה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1897  - c.1913 CE)",
+        "he": " (1897 - 1913 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Waitzen",
+        "he": "ואץ"
+    }
 }

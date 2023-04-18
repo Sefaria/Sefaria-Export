@@ -2,7 +2,7 @@
     "title": "Ibn Ezra on Haggai",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Ibn Ezra",
         "Prophets"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ibn-ezra",
+                    "haggai"
+                ]
+            }
+        ],
+        "lengths": [
+            2,
+            36,
+            58
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -53,9 +71,13 @@
         "key": "Ibn Ezra on Haggai"
     },
     "authors": [
-        "Ibn Ezra"
+        {
+            "en": "Ibn Ezra",
+            "he": "אבן עזרא",
+            "slug": "ibn-ezra"
+        }
     ],
-    "enDesc": "Ibn Ezra’s commentary on the Tanakh reflects his knowledge as a Hebrew grammarian and philologist. His commentary is terse and aims to discover the pshat, the contextual meaning, of the text. Ibn Ezra was known for his independent ideas which aroused much controversy. Many view Ibn Ezra as the forefather of Biblical criticism. As an example, in the last chapter of Sefer Devarim (34:10), Ibn Ezra comments that Joshua, and not Moshe, wrote from this point until the end of the Torah. ",
+    "enDesc": "Ibn Ezra’s commentary on the Tanakh reflects his knowledge as a Hebrew grammarian and philologist. His commentary is terse and aims to discover the pshat, the contextual meaning, of the text. Ibn Ezra was known for his independent ideas which aroused much controversy. Many view Ibn Ezra as the forefather of Biblical criticism. As an example, in the last chapter of Sefer Devarim (34:10), Ibn Ezra comments that Joshua, and not Moshe, wrote from this point until the end of the Torah.",
     "pubDate": "1524",
     "compDate": "1160",
     "compPlace": "Middle-Age France/Italy/England",
@@ -92,7 +114,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "אבן עזרא",
         "נביאים"
     ],

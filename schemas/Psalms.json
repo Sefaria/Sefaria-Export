@@ -9,15 +9,28 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "psalms"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "psalms"
+                ]
+            }
+        ],
         "lengths": [
             150,
-            2529
+            2527
         ],
         "titles": [
             {
@@ -47,11 +60,6 @@
             {
                 "text": "Tehillim",
                 "lang": "en"
-            },
-            {
-                "text": "תהילים",
-                "lang": "he",
-                "primary": true
             },
             {
                 "text": "תהלים",
@@ -94,6 +102,15 @@
                 "lang": "he"
             },
             {
+                "text": "תלים",
+                "lang": "he"
+            },
+            {
+                "text": "תהילים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Psalms",
                 "lang": "en",
                 "primary": true
@@ -112,13 +129,19 @@
         1
     ],
     "authors": [],
-    "enDesc": "Tehillim (Book of Psalms) is the first book of the Ketuvim(Writings), the third section of the Tanakh (Bible). The book is an anthology of 150 individual psalms. Many of the psalms are linked to the name of King David, although his authorship was question by the mediaeval commentator Moses Ibn Giqatillah. The book is divided into five books that parallel the five books of the Torah (Pentateuch). There are five genres of Psalms; Hymns, songs of praise for God's work in creation or in history. Communal laments marking a disaster in the community. Royal Psalms pertaining to such matters as the king's coronation, marriage and battles. Individual laments on the fate of the particular individual. Personal thanksgiving psalms to God expressing praises on deliverance from distress. In addition to these five major genres there are communal thanksgiving psalms, wisdom psalms, pilgrimage psalms on their way to Jerusalem; entrance and prophetic liturgies and a group of mixed psalms which could not be assigned to any category.",
+    "enDesc": "Psalms (“Tehillim”), the first book of the section in the Hebrew Bible called Writings, is an anthology of 150 poems attributed to King David and to others. It includes songs of praise to God, laments of communal or personal tragedy, and expressions of anger, despair, hope, and gratitude. Psalms are prevalent throughout Jewish liturgy and commonly recited as an independent form of prayer. They are often sung or chanted.",
+    "heDesc": "תהילים, הספר הפותח את ספרי הכתובים, הוא קובץ של מאה וחמישים מזמורים המיוחסים לדוד המלך ולאישים אחרים. יש בספר מזמורי תהילה לא-ל, קינות על אסונות אישיים ולאומיים והבעת רגשות זעם, ייאוש, תקווה ושבח. מזמורי תהילים משולבים רבות בסדר התפילה ומושרים או מדוקלמים לעיתים קרובות כתפילה בפני עצמה.",
+    "enShortDesc": "Poems of despair, hope, gratitude, and supplication to God, attributed to David and others.",
+    "heShortDesc": "פיוטים המביעים קשת רגשות - תקווה ודכדוך, שבח ותחנונים לאלוהים - ומיוחסים לדוד המלך ולאישים אחרים.",
     "pubDate": "1488",
     "compDate": "-500",
     "compPlace": "Judea/Israel",
     "pubPlace": "Soncino",
     "errorMargin": "500",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "תהילים",
     "titleVariants": [
         "Ps",
@@ -131,7 +154,6 @@
         "Psalms"
     ],
     "heTitleVariants": [
-        "תהילים",
         "תהלים",
         "תְּהִלִּים",
         "תילים",
@@ -141,7 +163,9 @@
         "תהלי׳",
         "תהלי'",
         "תהל'",
-        "תהל׳"
+        "תהל׳",
+        "תלים",
+        "תהילים"
     ],
     "alts": {
         "30 Day Cycle": {
@@ -151,6 +175,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 1-9",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 1",
@@ -189,6 +214,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 10-17",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 2",
@@ -226,6 +252,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 18-22",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 3",
@@ -260,6 +287,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 23-28",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 4",
@@ -295,6 +323,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 29-34",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 5",
@@ -330,6 +359,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 35-38",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 6",
@@ -363,6 +393,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 39-43",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 7",
@@ -397,6 +428,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 44-48",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 8",
@@ -431,6 +463,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 49-54",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 9",
@@ -466,6 +499,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 55-59",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 10",
@@ -500,6 +534,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 60-65",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 11",
@@ -535,6 +570,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 66-68",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 12",
@@ -567,6 +603,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 69-71",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 13",
@@ -599,6 +636,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 72-76",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 14",
@@ -633,6 +671,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 77-78",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 15",
@@ -664,6 +703,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 79-82",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 16",
@@ -697,6 +737,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 83-87",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 17",
@@ -731,6 +772,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 88-89",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 18",
@@ -762,6 +804,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 90-96",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 19",
@@ -798,6 +841,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 97-103",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 20",
@@ -834,6 +878,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 104-105",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 21",
@@ -865,6 +910,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 106-107",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 22",
@@ -896,6 +942,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 108-112",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 23",
@@ -930,6 +977,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 113-118",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 24",
@@ -965,6 +1013,7 @@
                     "depth": 1,
                     "wholeRef": "Psalm 119:1-96",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 25",
@@ -995,6 +1044,7 @@
                     "depth": 1,
                     "wholeRef": "Psalm 119:97-176",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 26",
@@ -1025,6 +1075,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 120-134",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 27",
@@ -1069,6 +1120,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 135-139",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 28",
@@ -1103,6 +1155,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 140-144",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 29",
@@ -1137,6 +1190,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 145-150 ",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Day 30",
@@ -1198,11 +1252,6 @@
                     "lang": "en"
                 },
                 {
-                    "text": "תהילים",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "תהלים",
                     "lang": "he"
                 },
@@ -1243,6 +1292,15 @@
                     "lang": "he"
                 },
                 {
+                    "text": "תלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "תהילים",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
                     "text": "Psalms",
                     "lang": "en",
                     "primary": true
@@ -1251,13 +1309,14 @@
             "title": "Psalms",
             "heTitle": "תהילים"
         },
-        "Books": {
+        "Book": {
             "nodes": [
                 {
                     "nodeType": "ArrayMapNode",
                     "depth": 1,
                     "wholeRef": "Psalms 1-41",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Book 1",
@@ -1328,6 +1387,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 42-72",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Book 2",
@@ -1388,6 +1448,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 73-89",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Book 3",
@@ -1434,6 +1495,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 90-106",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Book 4",
@@ -1480,6 +1542,7 @@
                     "depth": 1,
                     "wholeRef": "Psalms 107-150",
                     "includeSections": true,
+                    "match_templates": [],
                     "titles": [
                         {
                             "text": "Book 5",
@@ -1579,11 +1642,6 @@
                     "lang": "en"
                 },
                 {
-                    "text": "תהילים",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "תהלים",
                     "lang": "he"
                 },
@@ -1622,6 +1680,15 @@
                 {
                     "text": "תהל׳",
                     "lang": "he"
+                },
+                {
+                    "text": "תלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "תהילים",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Psalms",

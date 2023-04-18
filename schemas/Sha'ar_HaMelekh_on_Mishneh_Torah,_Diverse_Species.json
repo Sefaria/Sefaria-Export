@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "shaar-hamelekh",
+                    "hilchot",
+                    "diverse-species"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "shaar-hamelekh",
+                    "diverse-species"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            9,
+            9
+        ],
         "titles": [
             {
                 "text": "שער המלך על משנה תורה, הלכות כלאים",
@@ -42,11 +62,17 @@
         "key": "Sha'ar HaMelekh on Mishneh Torah, Diverse Species"
     },
     "authors": [
-        "Isaac Nunis-Bilmonte"
+        {
+            "en": "Isaac Nunis-Bilmonte",
+            "he": "יצחק בן משה נוניש בילמונטי",
+            "slug": "isaac-nunis-bilmonte"
+        }
     ],
     "pubDate": "1771",
+    "compDate": "1750",
     "compPlace": "Izmir / Smyrna",
-    "pubPlace": "Salonica / Thessaloniki ",
+    "pubPlace": "Salonica / Thessaloniki",
+    "errorMargin": "20",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -80,6 +106,10 @@
         "שער המלך",
         "ספר זרעים"
     ],
+    "compDateString": {
+        "en": " (c.1730  - c.1770 CE)",
+        "he": " (1730 - 1770 לספירה בקירוב)"
+    },
     "compPlaceString": {
         "en": "Izmir / Smyrna",
         "he": "איזמיר"

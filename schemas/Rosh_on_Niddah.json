@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Rosh",
         "Seder Tahorot"
     ],
@@ -21,6 +21,16 @@
                     "Chapter",
                     "Halakhah",
                     "siman"
+                ],
+                "referenceableSections": [
+                    true,
+                    false,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
                 ],
                 "default": true,
                 "title": "",
@@ -42,6 +52,15 @@
                 "sectionNames": [
                     "Seif",
                     "siman"
+                ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
                 ],
                 "titles": [
                     {
@@ -74,6 +93,15 @@
                     "Seif",
                     "Siman"
                 ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
                 "titles": [
                     {
                         "lang": "en",
@@ -95,6 +123,15 @@
                 "key": "Hilchot Mikvaot"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rosh",
+                    "niddah"
+                ]
+            }
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -112,7 +149,11 @@
         "key": "Rosh on Niddah"
     },
     "authors": [
-        "Rosh"
+        {
+            "en": "Rosh",
+            "he": "רא\"ש",
+            "slug": "rosh"
+        }
     ],
     "enDesc": "Talmud commentary written by the the Rosh, Rabbi Asher ben Yehiel, a German and Spanish halakhic authority (c. 1250 - 1327). Having been a leader in both Germany and Spain, the Rosh was familiar with the leading halakhic authorities of both countries and included teachings from both. The Rosh’s commentary displays his independence of judgement as he states his legal opinion according to what he views as most sound, even if it goes against other respected authorities.",
     "compDate": "1300",
@@ -141,7 +182,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "רא\"ש",
         "סדר טהרות"
     ],

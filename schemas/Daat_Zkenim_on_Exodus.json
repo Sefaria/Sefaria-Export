@@ -2,7 +2,7 @@
     "title": "Daat Zkenim on Exodus",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Daat Zkenim",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "daat-zkenim",
+                    "exodus"
+                ]
+            }
+        ],
+        "lengths": [
+            40,
+            215,
+            267
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -138,16 +156,16 @@
             },
             {
                 "lang": "he",
-                "text": "דעת זקנים על שמות",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "דעת זקנים בעלי התוספות על שמות"
             },
             {
                 "lang": "he",
                 "text": "דעת זקנים על התורה על שמות"
+            },
+            {
+                "text": "דעת זקנים על שמות",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Daat Zkenim on Exodus",
@@ -165,7 +183,11 @@
         "key": "Daat Zkenim on Exodus"
     },
     "authors": [
-        "Tosafot"
+        {
+            "en": "Tosafot",
+            "he": "תוספות",
+            "slug": "tosafot"
+        }
     ],
     "enDesc": "Daat Zekenim is a Torah commentary compiled by later generations of scholars from the writings of the Franco-German school in the 12th-13th century (Ba’alei Tosafot).",
     "heDesc": "פירוש לתורה שנלקט מכתבי בעלי התוספות.",
@@ -222,9 +244,9 @@
         "Daat Zkenim on Exodus"
     ],
     "heTitleVariants": [
-        "דעת זקנים על שמות",
         "דעת זקנים בעלי התוספות על שמות",
-        "דעת זקנים על התורה על שמות"
+        "דעת זקנים על התורה על שמות",
+        "דעת זקנים על שמות"
     ],
     "sectionNames": [
         "Chapter",
@@ -234,7 +256,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "דעת זקנים",
         "תורה"
     ],

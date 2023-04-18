@@ -2,40 +2,103 @@
     "title": "Pesikta Rabbati",
     "categories": [
         "Midrash",
-        "Aggadic Midrash"
+        "Aggadah"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 2,
-        "addressTypes": [
-            "Perek",
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
+                    "Section"
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Section"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "חלק"
+                ],
+                "key": "default"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
+                    "Section"
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Section"
+                ],
+                "titles": [
+                    {
+                        "text": "Supplement A",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "הוספה א",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Supplement A",
+                "heTitle": "הוספה א",
+                "heSectionNames": [
+                    "פרק",
+                    "חלק"
+                ],
+                "key": "Supplement A"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "Supplement B",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "הוספה ב",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Supplement B",
+                "heTitle": "הוספה ב",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Supplement B"
+            }
         ],
-        "sectionNames": [
-            "Chapter",
-            "Section"
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "pesikta-rabbati"
+                ]
+            }
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Pesik. R."
-            },
-            {
-                "lang": "en",
-                "text": "P’siḳta Rabbathi"
-            },
-            {
-                "lang": "en",
-                "text": "Pesiḳta Rabbathi"
-            },
-            {
+                "text": "פסיקתא רבתי",
                 "lang": "he",
-                "primary": true,
-                "text": "פסיקתא רבתי"
-            },
-            {
-                "lang": "he",
-                "text": "פסי\"ר"
+                "primary": true
             },
             {
                 "text": "Pesikta Rabbati",
@@ -45,37 +108,26 @@
         ],
         "title": "Pesikta Rabbati",
         "heTitle": "פסיקתא רבתי",
-        "heSectionNames": [
-            "פרק",
-            "חלק"
-        ],
         "key": "Pesikta Rabbati"
     },
     "authors": [],
-    "enDesc": "A book of midrash arranged according to the weekly and special parsha readings of the Torah.",
+    "enDesc": "Pesikta Rabbati (“Great Sections”) is a medieval book of midrash on weekly Torah readings and those read on special occasions. The term “rabbati” (great) is meant to distinguish the work from the earlier and smaller Pesikta d’Rav Kahana. Pesikta Rabbati contains midrashim from Pesikta d’Rav Kahana and other earlier sources.",
+    "enShortDesc": "Medieval midrash on weekly Torah readings and those read on special occasions.",
+    "heShortDesc": "מדרש מימי הביניים על פרשיות השבוע ועל קריאות התורה בשבתות מיוחדות, מועדים ותעניות.",
     "compDate": "750",
     "compPlace": "Talmudic Israel",
     "errorMargin": "150",
     "is_cited": true,
     "heTitle": "פסיקתא רבתי",
     "titleVariants": [
-        "Pesik. R.",
-        "P’siḳta Rabbathi",
-        "Pesiḳta Rabbathi",
         "Pesikta Rabbati"
     ],
     "heTitleVariants": [
-        "פסיקתא רבתי",
-        "פסי\"ר"
+        "פסיקתא רבתי"
     ],
-    "sectionNames": [
-        "Chapter",
-        "Section"
-    ],
-    "depth": 2,
     "heCategories": [
         "מדרש",
-        "מדרש אגדה"
+        "אגדה"
     ],
     "compDateString": {
         "en": " (c.600  - c.900 CE)",

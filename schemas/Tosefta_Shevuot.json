@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Shevuot",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Nezikin"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "shevuot"
+                ]
+            }
+        ],
         "lengths": [
-            6
+            6,
+            37
         ],
         "titles": [
             {
@@ -37,17 +46,17 @@
                 "text": "Tosefta Shvuot"
             },
             {
-                "lang": "he",
-                "text": "תוספתא שבועות",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Shebu."
             },
             {
-                "lang": "en",
+                "text": "תוספתא שבועות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Shevuot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -63,7 +72,9 @@
         6
     ],
     "authors": [],
-    "enDesc": "Shevuot (Oaths) belongs to the fourth order, Nezikin (The Order of Damages) and discusses various types of oaths and their consequences. It has six chapters.",
+    "enDesc": "Tractate Shevuot (“Oaths”) is a tractate in Seder Nezikin (“Order of Damages\"). Its discusess the sacrifices brought to atone for entering the Temple or eating from a sacrifice while impure, as well as different types of oaths, like those taken by litigants in court.",
+    "enShortDesc": "Oaths and the process of atoning for entering the Temple or eating from a sacrifice while impure.",
+    "heShortDesc": "דיני הנכנס לבית המקדש או אוכל בשר קורבן בהיותו טמא, דיני שבועות.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -89,8 +100,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר נזיקין"
     ],
     "compDateString": {

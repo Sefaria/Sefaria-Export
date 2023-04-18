@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Acharonim on Talmud",
         "Benayahu"
     ],
     "schema": {
@@ -16,6 +16,19 @@
         "sectionNames": [
             "Daf",
             "Line"
+        ],
+        "lengths": [
+            53,
+            15
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -38,7 +51,11 @@
         "key": "Benayahu on Chagigah"
     },
     "authors": [
-        "Yosef Hayyim"
+        {
+            "en": "Yosef Hayyim",
+            "he": "יוסף חיים",
+            "slug": "yosef-hayyim"
+        }
     ],
     "enDesc": "The shorter of Rabbi Yosef Hayyim (Ben Ish Chai)'s two works on aggadah, it offers analytic as well as kabbalistic interpretations of the Talmud's narrative sections.",
     "pubDate": "1905",
@@ -74,7 +91,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "אחרונים על התלמוד",
         "בניהו"
     ],
     "compDateString": {

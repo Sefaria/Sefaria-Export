@@ -7,44 +7,88 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "kilayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "kilayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "kilayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "kilayim"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "kilayim"
+            ]
+        },
         "lengths": [
-            88,
-            192
+            9,
+            56,
+            322
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "JT Kilayim"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Kilayim"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Kilayim"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי כלאים",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי כלאים"
+                "text": "JT Kilayim",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Kil."
+                "text": "Talmud Yerushalmi Kilayim",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Kilayim",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי כלאים",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Kil.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Kilayim",
@@ -55,23 +99,27 @@
         "title": "Jerusalem Talmud Kilayim",
         "heTitle": "תלמוד ירושלמי כלאים",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Kilayim"
     },
     "order": [
         4
     ],
-    "authors": [],
-    "enDesc": "Kilayim (Of Two Sorts) belongs to the first order, Zera'im (seeds) and discusses rules regarding forbidden mixtures in agriculture, clothing and breeding, as stated in Leviticus 19:19; Deuteronomy 22:9-11. It consists of nine chapters.",
+    "enDesc": "Kilayim (“Mixtures”) is a tractate in Seder Zeraim (“Order of Seeds”) that discusses biblical prohibitions of mixed species, based in Leviticus 19:19 and Deuteronomy 22:9-11. These include planting certain mixtures of seeds, grafting different species of trees, growing plants other than grapevines in a vineyard, crossbreeding animals, working certain animals together, and mixing wool and linen in clothing.",
+    "enShortDesc": "Prohibited mixtures of certain seeds, plants, animals, or materials of clothing.",
+    "heShortDesc": "האיסור להכליא זה בזה זרעים, צמחים או בעלי חיים מסוימים ולערב צמר ופשתן בבגד אחד.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי כלאים",
     "titleVariants": [
         "JT Kilayim",
@@ -84,11 +132,755 @@
         "תלמוד ירושלמי כלאים",
         "ירושלמי כלאים"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 1:1:2-9:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 1:1:2-6",
+                        "Jerusalem Talmud Kilayim 1:1:6-7:3",
+                        "Jerusalem Talmud Kilayim 1:7:3-9:5"
+                    ],
+                    "startingAddress": "26d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק א",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "פרק א",
+                    "offset": 103
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 2:1:1-8:9",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 2:1:1-2",
+                        "Jerusalem Talmud Kilayim 2:1:2-6",
+                        "Jerusalem Talmud Kilayim 2:1:6-4:2",
+                        "Jerusalem Talmud Kilayim 2:4:2-8:3",
+                        "Jerusalem Talmud Kilayim 2:8:3-9"
+                    ],
+                    "startingAddress": "27b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ב",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "פרק ב",
+                    "offset": 105
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 3:1:1-6:7",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 3:1:1-2",
+                        "Jerusalem Talmud Kilayim 3:1:2-2:4",
+                        "Jerusalem Talmud Kilayim 3:2:4-6:6",
+                        "Jerusalem Talmud Kilayim 3:6:6-7"
+                    ],
+                    "startingAddress": "28b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ג",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "פרק ג",
+                    "offset": 109
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 4:1:1-6:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 4:1:1-3",
+                        "Jerusalem Talmud Kilayim 4:1:3-3:2",
+                        "Jerusalem Talmud Kilayim 4:3:2-6:5"
+                    ],
+                    "startingAddress": "29a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ד",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "פרק ד",
+                    "offset": 112
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 5:1:1-7:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 5:1:1-2",
+                        "Jerusalem Talmud Kilayim 5:1:2-3:3",
+                        "Jerusalem Talmud Kilayim 5:3:3-7:5"
+                    ],
+                    "startingAddress": "29c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "פרק ה",
+                    "offset": 114
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 6:1:1-4:9",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 6:1:1-2",
+                        "Jerusalem Talmud Kilayim 6:1:2-2:2",
+                        "Jerusalem Talmud Kilayim 6:2:2-4:9"
+                    ],
+                    "startingAddress": "30a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "פרק ו",
+                    "offset": 116
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 7:1:1-6:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 7:1:1-2",
+                        "Jerusalem Talmud Kilayim 7:1:2-3:3",
+                        "Jerusalem Talmud Kilayim 7:3:3-6:5"
+                    ],
+                    "startingAddress": "30c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ז",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "פרק ז",
+                    "offset": 118
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 8:1:1-4:8",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 8:1:1-2",
+                        "Jerusalem Talmud Kilayim 8:1:2-11",
+                        "Jerusalem Talmud Kilayim 8:1:11-4:8",
+                        "Jerusalem Talmud Kilayim 8:4:8"
+                    ],
+                    "startingAddress": "31a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ח",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "פרק ח",
+                    "offset": 120
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 9:1:1-6:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 9:1:1-5",
+                        "Jerusalem Talmud Kilayim 9:1:5-3:3",
+                        "Jerusalem Talmud Kilayim 9:3:3-10",
+                        "Jerusalem Talmud Kilayim 9:3:10-17",
+                        "Jerusalem Talmud Kilayim 9:3:17-6:6"
+                    ],
+                    "startingAddress": "31d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ט",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "פרק ט",
+                    "offset": 123
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי כלאים",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Kilayim",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Kilayim",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Kilayim",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי כלאים",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Kil.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Kilayim",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Kilayim",
+            "heTitle": "תלמוד ירושלמי כלאים"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 1:1:1-9:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 1:1:1-4",
+                        "Jerusalem Talmud Kilayim 1:1:4-2:1",
+                        "Jerusalem Talmud Kilayim 1:2:1-4:3",
+                        "Jerusalem Talmud Kilayim 1:4:3-6:3",
+                        "Jerusalem Talmud Kilayim 1:6:3-7:3",
+                        "Jerusalem Talmud Kilayim 1:7:3-6",
+                        "Jerusalem Talmud Kilayim 1:7:6-9:2",
+                        "Jerusalem Talmud Kilayim 1:9:2-4",
+                        "Jerusalem Talmud Kilayim 1:9:4-5",
+                        "Jerusalem Talmud Kilayim 1:9:5"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק א",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "פרק א",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 2:1:1-8:9",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 2:1:1-5",
+                        "Jerusalem Talmud Kilayim 2:1:5-9",
+                        "Jerusalem Talmud Kilayim 2:1:9-11",
+                        "Jerusalem Talmud Kilayim 2:1:11-3:2",
+                        "Jerusalem Talmud Kilayim 2:3:2-4",
+                        "Jerusalem Talmud Kilayim 2:3:4",
+                        "Jerusalem Talmud Kilayim 2:3:4-4:3",
+                        "Jerusalem Talmud Kilayim 2:4:3-5:3",
+                        "Jerusalem Talmud Kilayim 2:5:3-6:2",
+                        "Jerusalem Talmud Kilayim 2:6:2-5",
+                        "Jerusalem Talmud Kilayim 2:6:5-7:1",
+                        "Jerusalem Talmud Kilayim 2:7:1-8:2",
+                        "Jerusalem Talmud Kilayim 2:8:2-7",
+                        "Jerusalem Talmud Kilayim 2:8:7-9"
+                    ],
+                    "startingAddress": "6a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ב",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "פרק ב",
+                    "offset": 10
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 3:1:1-6:7",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 3:1:1-2",
+                        "Jerusalem Talmud Kilayim 3:1:2",
+                        "Jerusalem Talmud Kilayim 3:1:2-3",
+                        "Jerusalem Talmud Kilayim 3:1:3-6",
+                        "Jerusalem Talmud Kilayim 3:1:6-2:3",
+                        "Jerusalem Talmud Kilayim 3:2:3-3:1",
+                        "Jerusalem Talmud Kilayim 3:3:1-4:1",
+                        "Jerusalem Talmud Kilayim 3:4:1-3",
+                        "Jerusalem Talmud Kilayim 3:4:3-5:1",
+                        "Jerusalem Talmud Kilayim 3:5:1-6:1",
+                        "Jerusalem Talmud Kilayim 3:6:1-6",
+                        "Jerusalem Talmud Kilayim 3:6:6-7"
+                    ],
+                    "startingAddress": "13a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ג",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "פרק ג",
+                    "offset": 24
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 4:1:1-6:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 4:1:1-2",
+                        "Jerusalem Talmud Kilayim 4:1:2-5",
+                        "Jerusalem Talmud Kilayim 4:1:5-7",
+                        "Jerusalem Talmud Kilayim 4:1:7-8",
+                        "Jerusalem Talmud Kilayim 4:1:8-2:4",
+                        "Jerusalem Talmud Kilayim 4:2:4-9",
+                        "Jerusalem Talmud Kilayim 4:2:9-3:2",
+                        "Jerusalem Talmud Kilayim 4:3:2-5:1",
+                        "Jerusalem Talmud Kilayim 4:5:1-6:3",
+                        "Jerusalem Talmud Kilayim 4:6:3-5"
+                    ],
+                    "startingAddress": "18b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ד",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "פרק ד",
+                    "offset": 35
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 5:1:1-7:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 5:1:1-4",
+                        "Jerusalem Talmud Kilayim 5:1:4-5",
+                        "Jerusalem Talmud Kilayim 5:1:5",
+                        "Jerusalem Talmud Kilayim 5:1:5-2:2",
+                        "Jerusalem Talmud Kilayim 5:2:2-3:1",
+                        "Jerusalem Talmud Kilayim 5:3:1-4:1",
+                        "Jerusalem Talmud Kilayim 5:4:1-5:2",
+                        "Jerusalem Talmud Kilayim 5:5:2-6:3",
+                        "Jerusalem Talmud Kilayim 5:6:3-7:5"
+                    ],
+                    "startingAddress": "23b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "פרק ה",
+                    "offset": 45
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 6:1:1-4:9",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 6:1:1-3",
+                        "Jerusalem Talmud Kilayim 6:1:3-4",
+                        "Jerusalem Talmud Kilayim 6:1:4-2:2",
+                        "Jerusalem Talmud Kilayim 6:2:2-5",
+                        "Jerusalem Talmud Kilayim 6:2:5-3:4",
+                        "Jerusalem Talmud Kilayim 6:3:4-4:4",
+                        "Jerusalem Talmud Kilayim 6:4:4-9",
+                        "Jerusalem Talmud Kilayim 6:4:9"
+                    ],
+                    "startingAddress": "28a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "פרק ו",
+                    "offset": 54
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 7:1:1-6:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 7:1:1-3",
+                        "Jerusalem Talmud Kilayim 7:1:3-2:3",
+                        "Jerusalem Talmud Kilayim 7:2:3-6",
+                        "Jerusalem Talmud Kilayim 7:2:6-3:2",
+                        "Jerusalem Talmud Kilayim 7:3:2-4",
+                        "Jerusalem Talmud Kilayim 7:3:4-4:2",
+                        "Jerusalem Talmud Kilayim 7:4:2-6:2",
+                        "Jerusalem Talmud Kilayim 7:6:2-5",
+                        "Jerusalem Talmud Kilayim 7:6:5"
+                    ],
+                    "startingAddress": "31b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ז",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "פרק ז",
+                    "offset": 61
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 8:1:1-4:8",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 8:1:1-3",
+                        "Jerusalem Talmud Kilayim 8:1:3-4",
+                        "Jerusalem Talmud Kilayim 8:1:4-6",
+                        "Jerusalem Talmud Kilayim 8:1:6-8",
+                        "Jerusalem Talmud Kilayim 8:1:8-2:1",
+                        "Jerusalem Talmud Kilayim 8:2:1-3:2",
+                        "Jerusalem Talmud Kilayim 8:3:2-6",
+                        "Jerusalem Talmud Kilayim 8:3:6-4:5",
+                        "Jerusalem Talmud Kilayim 8:4:5-8"
+                    ],
+                    "startingAddress": "35b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ח",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "פרק ח",
+                    "offset": 69
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Kilayim 9:1:1-6:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Kilayim 9:1:1-2",
+                        "Jerusalem Talmud Kilayim 9:1:2-7",
+                        "Jerusalem Talmud Kilayim 9:1:7-12",
+                        "Jerusalem Talmud Kilayim 9:1:12-2:5",
+                        "Jerusalem Talmud Kilayim 9:2:5-3:3",
+                        "Jerusalem Talmud Kilayim 9:3:3-8",
+                        "Jerusalem Talmud Kilayim 9:3:8-13",
+                        "Jerusalem Talmud Kilayim 9:3:13-4:5",
+                        "Jerusalem Talmud Kilayim 9:4:5-5:2",
+                        "Jerusalem Talmud Kilayim 9:5:2-6:3",
+                        "Jerusalem Talmud Kilayim 9:6:3-6"
+                    ],
+                    "startingAddress": "39b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ט",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "פרק ט",
+                    "offset": 77
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי כלאים",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Kilayim",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Kilayim",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Kilayim",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי כלאים",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Kil.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Kilayim",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Kilayim",
+            "heTitle": "תלמוד ירושלמי כלאים"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

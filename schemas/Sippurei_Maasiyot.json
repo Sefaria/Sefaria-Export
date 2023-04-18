@@ -5,20 +5,91 @@
         "Breslov"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 2,
-        "addressTypes": [
-            "Perek",
-            "Integer"
-        ],
-        "sectionNames": [
-            "Chapter",
-            "Section"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Paragraph"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסקה"
+                ],
+                "key": "default"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "Talks Following the Story Tales",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "שיחות שאחר סיפורי המעשיות",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Talks Following the Story Tales",
+                "heTitle": "שיחות שאחר סיפורי המעשיות",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Talks Following the Story Tales"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "Additional Tales",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "סיפורי מעשיות נוספים",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Additional Tales",
+                "heTitle": "סיפורי מעשיות נוספים",
+                "heSectionNames": [
+                    "פרק",
+                    "פסקה"
+                ],
+                "key": "Additional Tales"
+            }
         ],
         "titles": [
             {
+                "text": "סיפורי מעשיות",
                 "lang": "he",
-                "text": "ספורי מעשיות",
                 "primary": true
             },
             {
@@ -28,35 +99,470 @@
             }
         ],
         "title": "Sippurei Maasiyot",
-        "heTitle": "ספורי מעשיות",
-        "heSectionNames": [
-            "פרק",
-            "חלק"
-        ],
+        "heTitle": "סיפורי מעשיות",
         "key": "Sippurei Maasiyot"
     },
+    "default_struct": "Chapters",
     "authors": [
-        "Nathan Sternhartz"
+        {
+            "en": "Nathan Sternhartz",
+            "he": "נתן שטרנהרץ",
+            "slug": "nathan-sternhartz"
+        }
     ],
     "enDesc": "Allegoric tales recounted by R' Nachman of Breslov and recorded by his disciple, R' Natan.",
     "heDesc": "מעשיות בדרך משל שסיפר ר' נחמן מברסלב לתלמידו ר' נתן, שרשם אותם והוציאם לאור.",
+    "enShortDesc": "Collection of tales recounted by Rebbe Nachman, originally published as a bilingual Yiddish-Hebrew work.",
+    "heShortDesc": "אוסף מעשיות שסיפר רבי נחמן, פורסם לראשונה בחיבור דו-שפתי (בעברית וביידיש).",
     "pubDate": "1816",
     "compDate": "1810",
     "pubPlace": "Ostroh",
     "errorMargin": "7",
     "era": "AH",
-    "heTitle": "ספורי מעשיות",
+    "heTitle": "סיפורי מעשיות",
     "titleVariants": [
         "Sippurei Maasiyot"
     ],
     "heTitleVariants": [
-        "ספורי מעשיות"
+        "סיפורי מעשיות"
     ],
-    "sectionNames": [
-        "Chapter",
-        "Section"
-    ],
-    "depth": 2,
+    "alts": {
+        "Chapters": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Sippurei Maasiyot 1",
+                    "titles": [
+                        {
+                            "text": "Tale 1; The Lost Princess",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מעשה א; מאבידת בת מלך",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Tale 1; The Lost Princess",
+                    "heTitle": "מעשה א; מאבידת בת מלך"
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Sippurei Maasiyot 2",
+                    "titles": [
+                        {
+                            "text": "Tale 2; The Emperor and the King",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מעשה ב; ממלך וקיסר",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Tale 2; The Emperor and the King",
+                    "heTitle": "מעשה ב; ממלך וקיסר"
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Sippurei Maasiyot 3",
+                    "titles": [
+                        {
+                            "text": "Tale 3; The Son Who Could Not Walk",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מעשה ג; מחיגר",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Tale 3; The Son Who Could Not Walk",
+                    "heTitle": "מעשה ג; מחיגר"
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Sippurei Maasiyot 4",
+                    "titles": [
+                        {
+                            "text": "Tale 4; The King Who Decreed Conversion",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מעשה ד; ממלך שגזר",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Tale 4; The King Who Decreed Conversion",
+                    "heTitle": "מעשה ד; ממלך שגזר"
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Sippurei Maasiyot 5",
+                    "titles": [
+                        {
+                            "text": "Tale 5; The King's Son Who Was Made of Precious Stones",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מעשה ה; מבן מלך שהיה מאבנים טובות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Tale 5; The King's Son Who Was Made of Precious Stones",
+                    "heTitle": "מעשה ה; מבן מלך שהיה מאבנים טובות"
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Sippurei Maasiyot 6",
+                    "titles": [
+                        {
+                            "text": "Tale 6; The Humble King",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מעשה ו; ממלך עניו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Tale 6; The Humble King",
+                    "heTitle": "מעשה ו; ממלך עניו"
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Sippurei Maasiyot 7",
+                    "titles": [
+                        {
+                            "text": "Tale 7; The Fly and the Spider",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מעשה ז; מזבוב ועכביש",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Tale 7; The Fly and the Spider",
+                    "heTitle": "מעשה ז; מזבוב ועכביש"
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Sippurei Maasiyot 8",
+                    "titles": [
+                        {
+                            "text": "Tale 8; The Rabbi and His Only Son",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מעשה ח; מרב ובן יחיד",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Tale 8; The Rabbi and His Only Son",
+                    "heTitle": "מעשה ח; מרב ובן יחיד"
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Sippurei Maasiyot 9",
+                    "titles": [
+                        {
+                            "text": "Tale 9; The Clever Man and the Simple Man",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מעשה ט; מחכם ותם",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Tale 9; The Clever Man and the Simple Man",
+                    "heTitle": "מעשה ט; מחכם ותם"
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Sippurei Maasiyot 10",
+                    "titles": [
+                        {
+                            "text": "Tale 10; The Burgher and the Pauper",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מעשה י; מבערגיר [סוחר] ועני",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Tale 10; The Burgher and the Pauper",
+                    "heTitle": "מעשה י; מבערגיר [סוחר] ועני"
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Sippurei Maasiyot 11",
+                    "titles": [
+                        {
+                            "text": "Tale 11; The King's Son and the Maid's Son Who Were Exchanged",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מעשה יא; מבן מלך ובן השפחה שנתחלפו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Tale 11; The King's Son and the Maid's Son Who Were Exchanged",
+                    "heTitle": "מעשה יא; מבן מלך ובן השפחה שנתחלפו"
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Sippurei Maasiyot 12",
+                    "titles": [
+                        {
+                            "text": "Tale 12; The Prayer Leader",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מעשה יב; מבעל תפילה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Tale 12; The Prayer Leader",
+                    "heTitle": "מעשה יב; מבעל תפילה"
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Sippurei Maasiyot 13",
+                    "titles": [
+                        {
+                            "text": "Tale 13; The Seven Beggars",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מעשה יג; משבעה קבצנים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Tale 13; The Seven Beggars",
+                    "heTitle": "מעשה יג; משבעה קבצנים"
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Sippurei Maasiyot, Talks Following the Story Tales",
+                    "titles": [
+                        {
+                            "text": "Talks Following the Story Tales",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שיחות שאחר סיפורי המעשיות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Talks Following the Story Tales",
+                    "heTitle": "שיחות שאחר סיפורי המעשיות"
+                },
+                {
+                    "nodes": [
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 0,
+                            "wholeRef": "Sippurei Maasiyot, Additional Tales 1",
+                            "titles": [
+                                {
+                                    "text": "The Treasure Beneath the Bridge",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "מעשה מאוצר תחת הגשר",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "The Treasure Beneath the Bridge",
+                            "heTitle": "מעשה מאוצר תחת הגשר"
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 0,
+                            "wholeRef": "Sippurei Maasiyot, Additional Tales 2",
+                            "titles": [
+                                {
+                                    "text": "The Gentleman Who Traveled With a Coachman",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "מעשה מאיש אדון אחד שנסע עם בעל עגלה",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "The Gentleman Who Traveled With a Coachman",
+                            "heTitle": "מעשה מאיש אדון אחד שנסע עם בעל עגלה"
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 0,
+                            "wholeRef": "Sippurei Maasiyot, Additional Tales 3",
+                            "titles": [
+                                {
+                                    "text": "A Story of Trust",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "מעשה מביטחון",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "A Story of Trust",
+                            "heTitle": "מעשה מביטחון"
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 0,
+                            "wholeRef": "Sippurei Maasiyot, Additional Tales 4",
+                            "titles": [
+                                {
+                                    "text": "The King and the Woodsman",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "מעשה ממלך אחד שהלך לצוד חיות",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "The King and the Woodsman",
+                            "heTitle": "מעשה ממלך אחד שהלך לצוד חיות"
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 0,
+                            "wholeRef": "Sippurei Maasiyot, Additional Tales 5",
+                            "titles": [
+                                {
+                                    "text": "A Story of Marror",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "מעשה ממרור",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "A Story of Marror",
+                            "heTitle": "מעשה ממרור"
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 0,
+                            "wholeRef": "Sippurei Maasiyot, Additional Tales 6",
+                            "titles": [
+                                {
+                                    "text": "A Story of a Pauper Who Supported Himself From Digging Clay",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "מעשה מעני אחד שהיה מתפרנס מטיט",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "A Story of a Pauper Who Supported Himself From Digging Clay",
+                            "heTitle": "מעשה מעני אחד שהיה מתפרנס מטיט"
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 0,
+                            "wholeRef": "Sippurei Maasiyot, Additional Tales 7",
+                            "titles": [
+                                {
+                                    "text": "\"You Have Labored in Vain\"",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "מעשה עבדת בחינם ואתה אוכל בחינם",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "\"You Have Labored in Vain\"",
+                            "heTitle": "מעשה עבדת בחינם ואתה אוכל בחינם"
+                        }
+                    ],
+                    "titles": [
+                        {
+                            "text": "Additional Tales",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "סיפורי מעשיות נוספים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Additional Tales",
+                    "heTitle": "סיפורי מעשיות נוספים"
+                }
+            ],
+            "titles": [
+                {
+                    "text": "סיפורי מעשיות",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Sippurei Maasiyot",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Sippurei Maasiyot",
+            "heTitle": "סיפורי מעשיות"
+        }
+    },
     "heCategories": [
         "חסידות",
         "ברסלב"

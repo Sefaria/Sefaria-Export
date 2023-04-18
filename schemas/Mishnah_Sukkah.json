@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "sukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "sukkah"
+                ]
+            }
+        ],
         "lengths": [
             5,
             53
@@ -41,17 +60,17 @@
                 "text": "Mishnah Succah"
             },
             {
-                "lang": "he",
-                "text": "משנה סוכה",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Succ."
             },
             {
-                "lang": "en",
+                "text": "משנה סוכה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Sukkah",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -68,7 +87,9 @@
         6
     ],
     "authors": [],
-    "enDesc": "Sukkah (Booths) belongs to the second order, Moed (Festivals) and discusses the festival of Sukkot (the Feast of Tabernacles) and the Sukkah itself. Also deals with the Four Species (Lulav, Etrog, Hadass, Aravah — Palm branch, Citron, Myrtle, Willow) which are waved on Sukkot. It has five chapters.",
+    "enDesc": "Tractate Sukkah is located in Seder Moed (“the Order of Festivals”) and discusses the holiday of Sukkot. It consists of five chapters; the first two chapters discuss the structure of and obligation to dwell in the sukkah. The remaining chapters discuss laws of the four species and the celebration of Sukkot in the Temple, describing ceremonies involving willow branches and water libations.",
+    "enShortDesc": "The structure of and obligation to dwell in the sukkah, the four species, and celebrating the holiday in the Temple.",
+    "heShortDesc": "מבנה הסוכה, החובה לשבת בסוכה, ארבעת המינים ושמחת החג בבית המקדש.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -76,6 +97,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה סוכה",
     "titleVariants": [
         "Mishna Sukkah",

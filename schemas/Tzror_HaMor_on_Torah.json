@@ -2,7 +2,7 @@
     "title": "Tzror HaMor on Torah",
     "categories": [
         "Tanakh",
-        "Commentary"
+        "Rishonim on Tanakh"
     ],
     "schema": {
         "nodes": [
@@ -182,6 +182,15 @@
                 "key": "Deuteronomy"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tzror-hamor",
+                    "numbers"
+                ]
+            }
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -193,8 +202,8 @@
                 "text": "צרור המור על תורה"
             },
             {
-                "lang": "en",
                 "text": "Tzror HaMor on Torah",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -203,10 +212,16 @@
         "key": "Tzror HaMor on Torah"
     },
     "authors": [
-        "Abraham Saba"
+        {
+            "en": "Abraham Saba",
+            "he": "אברהם סבע",
+            "slug": "abraham-saba"
+        }
     ],
     "enDesc": "Commentary on the Torah containing interpretations according to both the plain sense as well as the mystical teachings of the Zohar.",
     "heDesc": "פירוש על התורה בדרך הפשט והנסתר.",
+    "enShortDesc": "16th-century commentary with literal explanations as well as mystical ones based on the teachings of the Zohar.",
+    "heShortDesc": "פירושי פשט ומיסטיקה המבוססים על ספר הזוהר, מן המאה ה-16.",
     "pubDate": "1502",
     "compDate": "1485",
     "pubPlace": "Venice",
@@ -249,7 +264,7 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים"
+        "ראשונים על התנ״ך"
     ],
     "compDateString": {
         "en": " (c.1460  - c.1510 CE)",

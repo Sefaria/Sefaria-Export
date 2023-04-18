@@ -2,7 +2,7 @@
     "title": "Saadia Gaon on Exodus",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Saadia Gaon",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "saadia-gaon",
+                    "exodus"
+                ]
+            }
+        ],
+        "lengths": [
+            40,
+            0,
+            0
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -138,12 +156,20 @@
             },
             {
                 "lang": "he",
-                "text": "ר' סעדיה גאון על שמות",
-                "primary": true
+                "text": "רס\"ג על שמות"
             },
             {
+                "text": "רס״ג על שמות",
+                "lang": "he"
+            },
+            {
+                "text": "רס”ג על שמות",
+                "lang": "he"
+            },
+            {
+                "text": "ר' סעדיה גאון על שמות",
                 "lang": "he",
-                "text": "רס\"ג על שמות"
+                "primary": true
             },
             {
                 "text": "Saadia Gaon on Exodus",
@@ -161,7 +187,11 @@
         "key": "Saadia Gaon on Exodus"
     },
     "authors": [
-        "Saadia Gaon"
+        {
+            "en": "Saadia Gaon",
+            "he": "סעדיה גאון",
+            "slug": "saadia-gaon"
+        }
     ],
     "enDesc": "Commentary written by Saadia Gaon (Babylonia, 882-942). Saadia Gaon translated and wrote commentary on the Torah in Judeo-Arabic.",
     "compDate": "930",
@@ -214,8 +244,10 @@
         "Saadia Gaon on Exodus"
     ],
     "heTitleVariants": [
-        "ר' סעדיה גאון על שמות",
-        "רס\"ג על שמות"
+        "רס\"ג על שמות",
+        "רס״ג על שמות",
+        "רס”ג על שמות",
+        "ר' סעדיה גאון על שמות"
     ],
     "sectionNames": [
         "Chapter",
@@ -225,7 +257,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "ר' סעדיה גאון",
         "תורה"
     ],

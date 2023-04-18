@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bava-kamma"
+                ]
+            }
+        ],
         "lengths": [
-            236,
-            12050
+            238,
+            4314
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -51,11 +115,6 @@
             },
             {
                 "lang": "he",
-                "text": "בבא קמא",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "ב\"ק"
             },
             {
@@ -73,6 +132,15 @@
             {
                 "text": "BT Bava Kamma",
                 "lang": "en"
+            },
+            {
+                "text": "ב”ק",
+                "lang": "he"
+            },
+            {
+                "text": "בבא קמא",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Bava Kamma",
@@ -93,12 +161,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         20,
         1
     ],
     "authors": [],
-    "enDesc": "Bava Kamma (First Gate) belongs to the fourth order, Nezikin (The Order of Damages) and discusses the civil matters, largely damages and compensation. It has ten chapters.",
+    "enDesc": "Bava Kamma (״The First Gate״) is the first of a series of three tractates in Seder Nezikin (“Order of Damages\") that deal with civil matters. Bava Kamma focuses on the laws of torts: the first six chapters mostly address damages inflicted by one’s property, while the last four chapters discuss damages inflicted by people, such as theft and injury.",
+    "enShortDesc": "Liability and compensation for damages inflicted on people or property.",
+    "heShortDesc": "אחריות לנזקי אדם או רכוש והפיצויים עליהם.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -106,6 +179,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "בבא קמא",
     "titleVariants": [
         "Talmud Bava Kamma",
@@ -121,9 +197,10 @@
         "Bava Kamma"
     ],
     "heTitleVariants": [
-        "בבא קמא",
         "ב\"ק",
-        "ב״ק"
+        "ב״ק",
+        "ב”ק",
+        "בבא קמא"
     ],
     "alts": {
         "Chapters": {
@@ -133,6 +210,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Kamma 2a:1-17a:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-13"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-13"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -193,6 +297,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Kamma 17a:13-27a:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-23"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-23"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -243,6 +374,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Kamma 27a:13-36a:8",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-33"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-33"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -291,6 +449,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Kamma 36a:9-46a:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-43"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-43"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "lang": "en",
@@ -341,6 +526,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Kamma 46a:7-55a:16",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-53"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-53"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "lang": "en",
@@ -389,6 +601,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Kamma 55b:1-62b:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-62"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-62"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "lang": "en",
@@ -433,6 +672,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Kamma 62b:7-83a:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-72"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-72"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "lang": "en",
@@ -504,6 +770,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Kamma 83b:1-93a:20",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-82"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-82"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "lang": "en",
@@ -553,6 +846,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Kamma 93b:1-111a:21",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-92"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-92"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "lang": "en",
@@ -618,6 +938,44 @@
                     "depth": 1,
                     "wholeRef": "Bava Kamma 111b:1-119b:21",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-101"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-101"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
                     "titles": [
                         {
                             "lang": "en",
@@ -691,11 +1049,6 @@
                 },
                 {
                     "lang": "he",
-                    "text": "בבא קמא",
-                    "primary": true
-                },
-                {
-                    "lang": "he",
                     "text": "ב\"ק"
                 },
                 {
@@ -713,6 +1066,15 @@
                 {
                     "text": "BT Bava Kamma",
                     "lang": "en"
+                },
+                {
+                    "text": "ב”ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "בבא קמא",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Bava Kamma",

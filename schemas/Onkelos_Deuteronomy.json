@@ -11,21 +11,28 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "onkelos",
+                    "deuteronomy"
+                ]
+            }
+        ],
+        "lengths": [
+            34,
+            956
+        ],
         "titles": [
             {
                 "text": "Targum Onkelos Deuteronomy",
                 "lang": "en"
-            },
-            {
-                "text": "תרגום אונקלוס על דברים",
-                "primary": true,
-                "lang": "he"
             },
             {
                 "text": "Targ. Deut.",
@@ -36,9 +43,14 @@
                 "lang": "en"
             },
             {
+                "text": "תרגום אונקלוס על דברים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Onkelos Deuteronomy",
-                "primary": true,
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Onkelos Deuteronomy",
@@ -660,11 +672,6 @@
                     "lang": "en"
                 },
                 {
-                    "text": "תרגום אונקלוס על דברים",
-                    "primary": true,
-                    "lang": "he"
-                },
-                {
                     "text": "Targ. Deut.",
                     "lang": "en"
                 },
@@ -673,9 +680,14 @@
                     "lang": "en"
                 },
                 {
+                    "text": "תרגום אונקלוס על דברים",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
                     "text": "Onkelos Deuteronomy",
-                    "primary": true,
-                    "lang": "en"
+                    "lang": "en",
+                    "primary": true
                 }
             ],
             "title": "Onkelos Deuteronomy",

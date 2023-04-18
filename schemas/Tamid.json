@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tamid"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "tamid"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "tamid"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tamid"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tamid"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "tamid"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "tamid"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "tamid"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tamid"
+                ]
+            }
+        ],
         "lengths": [
             66,
-            665
+            207
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -34,17 +98,17 @@
                 "text": "Masekhet Tamid"
             },
             {
-                "lang": "he",
-                "text": "תמיד",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tam."
             },
             {
                 "text": "BT Tamid",
                 "lang": "en"
+            },
+            {
+                "text": "תמיד",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Tamid",
@@ -65,12 +129,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         36,
         9
     ],
     "authors": [],
-    "enDesc": "Tamid (Always) belongs to the fifth order, Kodshim (Holy things)  and discusses the procedure of the Tamid (daily sacrifice). It has six or seven chapters.",
+    "enDesc": "Tractate Tamid (“Daily Burnt Offering”) is a tractate within Seder Kodashim (“Order of Holy Things”). It discusses the daily Temple service, with a focus on the burnt-offerings brought every morning and afternoon. The mishnayot (plural of mishnah) of Tamid stand out from those of other tractates in that they contain almost no disputes, instead telling a narrative about what happened in the Temple..",
+    "enShortDesc": "The daily Temple service, including the burnt-offerings brought every morning and afternoon.",
+    "heShortDesc": "העבודה הנעשית במקדש בכל יום הכוללת את קורבן התמיד המוקרב בבוקר ובין הערביים.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -78,6 +147,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "תמיד",
     "titleVariants": [
         "Tractate Tamid",
@@ -98,6 +170,33 @@
                     "depth": 1,
                     "wholeRef": "Tamid 25b:1-28b:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-140"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-140"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -134,6 +233,33 @@
                     "depth": 1,
                     "wholeRef": "Tamid 28b:8-30a:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-234"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-234"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -167,6 +293,33 @@
                     "depth": 1,
                     "wholeRef": "Tamid 30a:5-30b:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-332"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-332"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -198,6 +351,33 @@
                     "depth": 1,
                     "wholeRef": "Tamid 30b:13-32b:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-428"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-428"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "lang": "en",
@@ -232,6 +412,33 @@
                     "depth": 1,
                     "wholeRef": "Tamid 32b:8-33a:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-524"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-524"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "lang": "en",
@@ -263,6 +470,33 @@
                     "depth": 1,
                     "wholeRef": "Tamid 33a:8-14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-621"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-621"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "lang": "en",
@@ -293,6 +527,44 @@
                     "depth": 1,
                     "wholeRef": "Tamid 33b:1-12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-719"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-719"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "lang": "en",
@@ -333,17 +605,17 @@
                     "text": "Masekhet Tamid"
                 },
                 {
-                    "lang": "he",
-                    "text": "תמיד",
-                    "primary": true
-                },
-                {
                     "lang": "en",
                     "text": "Tam."
                 },
                 {
                     "text": "BT Tamid",
                     "lang": "en"
+                },
+                {
+                    "text": "תמיד",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Tamid",

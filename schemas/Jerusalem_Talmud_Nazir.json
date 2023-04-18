@@ -7,44 +7,88 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "nazir"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "nazir"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "nazir"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "nazir"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "nazir"
+            ]
+        },
         "lengths": [
-            94,
-            190
+            9,
+            55,
+            305
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "JT Nazir"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Nazir"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Nazir"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי נזיר",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי נזיר"
+                "text": "JT Nazir",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Naz."
+                "text": "Talmud Yerushalmi Nazir",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Nazir",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי נזיר",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Naz.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Nazir",
@@ -55,23 +99,27 @@
         "title": "Jerusalem Talmud Nazir",
         "heTitle": "תלמוד ירושלמי נזיר",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Nazir"
     },
     "order": [
         28
     ],
-    "authors": [],
-    "enDesc": "Nazir (One who abstains) belongs to the third order, Nashim (Women) and discusses details of the Nazirite vow and being a Nazirite (Num 6). It has nine chapters.",
+    "enDesc": "Nazir is a tractate in Seder Nashim (“Order of Women,” which addresses family law). Its nine chapters discuss laws relating to the nazarite, or one who vows abstinence from wine, haircuts, and ritual impurity generated from contact with corpses. Among the topics analyzed are different types of nazarite vows and their implications, the sacrifices brought at the end of the fulfillment of a nazarite vow, and cases of uncertainty with regards to a nazarite’s purity status.",
+    "enShortDesc": "The nazarite, or one who vows abstinence from wine, haircuts, and ritual impurity generated from contact with corpses.",
+    "heShortDesc": "הנזיר: אדם שנודר להימנע מיין, מתספורת ומהיטמאות למת לפרק זמן מוגדר.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי נזיר",
     "titleVariants": [
         "JT Nazir",
@@ -84,11 +132,769 @@
         "תלמוד ירושלמי נזיר",
         "ירושלמי נזיר"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 1:1:2-5:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 1:1:2-7",
+                        "Jerusalem Talmud Nazir 1:1:7-2:10",
+                        "Jerusalem Talmud Nazir 1:2:10-5:4"
+                    ],
+                    "startingAddress": "51a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל כנויי נזירות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "כל כנויי נזירות",
+                    "offset": 200
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 2:1:1-10:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 2:1:1-2",
+                        "Jerusalem Talmud Nazir 2:1:2-2:4",
+                        "Jerusalem Talmud Nazir 2:2:4-9:2",
+                        "Jerusalem Talmud Nazir 2:9:2-10:3"
+                    ],
+                    "startingAddress": "51c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הריני נזיר",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "הריני נזיר",
+                    "offset": 202
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 3:1:1-7:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 3:1:1-2",
+                        "Jerusalem Talmud Nazir 3:1:2-5:3",
+                        "Jerusalem Talmud Nazir 3:5:3-7:3"
+                    ],
+                    "startingAddress": "52b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שאמר קמא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "מי שאמר קמא",
+                    "offset": 205
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 4:1:1-6:8",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 4:1:1-2",
+                        "Jerusalem Talmud Nazir 4:1:2-3:2",
+                        "Jerusalem Talmud Nazir 4:3:2-4:9",
+                        "Jerusalem Talmud Nazir 4:4:9-6:8"
+                    ],
+                    "startingAddress": "52d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שאמר בתרא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "מי שאמר בתרא",
+                    "offset": 207
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 5:1:1-4:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 5:1:1-2",
+                        "Jerusalem Talmud Nazir 5:1:2-9",
+                        "Jerusalem Talmud Nazir 5:1:9-3:3",
+                        "Jerusalem Talmud Nazir 5:3:3-4:6"
+                    ],
+                    "startingAddress": "53c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בית שמאי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "בית שמאי",
+                    "offset": 210
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 6:1:1-11:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 6:1:1-2",
+                        "Jerusalem Talmud Nazir 6:1:2-6",
+                        "Jerusalem Talmud Nazir 6:1:6-12",
+                        "Jerusalem Talmud Nazir 6:1:12-3:4",
+                        "Jerusalem Talmud Nazir 6:3:4-7:2",
+                        "Jerusalem Talmud Nazir 6:7:2-11:2",
+                        "Jerusalem Talmud Nazir 6:11:2-3"
+                    ],
+                    "startingAddress": "54b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שלשה מינין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "שלשה מינין",
+                    "offset": 213
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 7:1:1-4:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 7:1:1-4",
+                        "Jerusalem Talmud Nazir 7:1:4-20",
+                        "Jerusalem Talmud Nazir 7:1:20-2:7",
+                        "Jerusalem Talmud Nazir 7:2:7-4:2",
+                        "Jerusalem Talmud Nazir 7:4:2-3"
+                    ],
+                    "startingAddress": "55d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כהן גדול",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "כהן גדול",
+                    "offset": 219
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 8:1:1-2:16",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 8:1:1-2",
+                        "Jerusalem Talmud Nazir 8:1:2-2:3",
+                        "Jerusalem Talmud Nazir 8:2:3-16"
+                    ],
+                    "startingAddress": "56d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שני נזירים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "שני נזירים",
+                    "offset": 223
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 9:1:1-6:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 9:1:1-2",
+                        "Jerusalem Talmud Nazir 9:1:2-2:6",
+                        "Jerusalem Talmud Nazir 9:2:6-4:2",
+                        "Jerusalem Talmud Nazir 9:4:2-6:2"
+                    ],
+                    "startingAddress": "57b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הכותים אין להם נזירות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "הכותים אין להם נזירות",
+                    "offset": 225
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי נזיר",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Nazir",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Nazir",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Nazir",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי נזיר",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Naz.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Nazir",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Nazir",
+            "heTitle": "תלמוד ירושלמי נזיר"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 1:1:1-5:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 1:1:1-3",
+                        "Jerusalem Talmud Nazir 1:1:3-7",
+                        "Jerusalem Talmud Nazir 1:1:7-9",
+                        "Jerusalem Talmud Nazir 1:1:9-2:5",
+                        "Jerusalem Talmud Nazir 1:2:5-7",
+                        "Jerusalem Talmud Nazir 1:2:7-9",
+                        "Jerusalem Talmud Nazir 1:2:9-3:2",
+                        "Jerusalem Talmud Nazir 1:3:2-5:1",
+                        "Jerusalem Talmud Nazir 1:5:1-4"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כל כנויי נזירות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "כל כנויי נזירות",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 2:1:1-10:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 2:1:1-2",
+                        "Jerusalem Talmud Nazir 2:1:2-4",
+                        "Jerusalem Talmud Nazir 2:1:4-2:2",
+                        "Jerusalem Talmud Nazir 2:2:2-4:1",
+                        "Jerusalem Talmud Nazir 2:4:1-5:1",
+                        "Jerusalem Talmud Nazir 2:5:1-3",
+                        "Jerusalem Talmud Nazir 2:5:3-7:2",
+                        "Jerusalem Talmud Nazir 2:7:2-9:1",
+                        "Jerusalem Talmud Nazir 2:9:1-2",
+                        "Jerusalem Talmud Nazir 2:9:2-10:2",
+                        "Jerusalem Talmud Nazir 2:10:2-3",
+                        "Jerusalem Talmud Nazir 2:10:3",
+                        "Jerusalem Talmud Nazir 2:10:3"
+                    ],
+                    "startingAddress": "5a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הריני נזיר",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "הריני נזיר",
+                    "offset": 8
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 3:1:1-7:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 3:1:1-3",
+                        "Jerusalem Talmud Nazir 3:1:3-2:2",
+                        "Jerusalem Talmud Nazir 3:2:2",
+                        "Jerusalem Talmud Nazir 3:2:2-4:1",
+                        "Jerusalem Talmud Nazir 3:4:1-2",
+                        "Jerusalem Talmud Nazir 3:4:2-5:3",
+                        "Jerusalem Talmud Nazir 3:5:3-5",
+                        "Jerusalem Talmud Nazir 3:5:5-7",
+                        "Jerusalem Talmud Nazir 3:5:7-6:1",
+                        "Jerusalem Talmud Nazir 3:6:1-7:2",
+                        "Jerusalem Talmud Nazir 3:7:2-3"
+                    ],
+                    "startingAddress": "11a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שאמר קמא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "מי שאמר קמא",
+                    "offset": 20
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 4:1:1-6:8",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 4:1:1-2",
+                        "Jerusalem Talmud Nazir 4:1:2-2:2",
+                        "Jerusalem Talmud Nazir 4:2:2-3:5",
+                        "Jerusalem Talmud Nazir 4:3:5-4:3",
+                        "Jerusalem Talmud Nazir 4:4:3-7",
+                        "Jerusalem Talmud Nazir 4:4:7-5:1",
+                        "Jerusalem Talmud Nazir 4:5:1-6:1",
+                        "Jerusalem Talmud Nazir 4:6:1-6",
+                        "Jerusalem Talmud Nazir 4:6:6-8"
+                    ],
+                    "startingAddress": "16a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שאמר בתרא",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "מי שאמר בתרא",
+                    "offset": 30
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 5:1:1-4:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 5:1:1-3",
+                        "Jerusalem Talmud Nazir 5:1:3-6",
+                        "Jerusalem Talmud Nazir 5:1:6-7",
+                        "Jerusalem Talmud Nazir 5:1:7-9",
+                        "Jerusalem Talmud Nazir 5:1:9-12",
+                        "Jerusalem Talmud Nazir 5:1:12-2:3",
+                        "Jerusalem Talmud Nazir 5:2:3-3:3",
+                        "Jerusalem Talmud Nazir 5:3:3-4:1",
+                        "Jerusalem Talmud Nazir 5:4:1-6"
+                    ],
+                    "startingAddress": "20a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בית שמאי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "בית שמאי",
+                    "offset": 38
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 6:1:1-11:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 6:1:1-2",
+                        "Jerusalem Talmud Nazir 6:1:2-4",
+                        "Jerusalem Talmud Nazir 6:1:4-6",
+                        "Jerusalem Talmud Nazir 6:1:6-7",
+                        "Jerusalem Talmud Nazir 6:1:7-9",
+                        "Jerusalem Talmud Nazir 6:1:9-11",
+                        "Jerusalem Talmud Nazir 6:1:11-14",
+                        "Jerusalem Talmud Nazir 6:1:14-2:5",
+                        "Jerusalem Talmud Nazir 6:2:5-3:2",
+                        "Jerusalem Talmud Nazir 6:3:2-5",
+                        "Jerusalem Talmud Nazir 6:3:5-4:3",
+                        "Jerusalem Talmud Nazir 6:4:3-6:2",
+                        "Jerusalem Talmud Nazir 6:6:2-7:2",
+                        "Jerusalem Talmud Nazir 6:7:2-9:1",
+                        "Jerusalem Talmud Nazir 6:9:1-5",
+                        "Jerusalem Talmud Nazir 6:9:5-9",
+                        "Jerusalem Talmud Nazir 6:9:9-11:2",
+                        "Jerusalem Talmud Nazir 6:11:2-3"
+                    ],
+                    "startingAddress": "24a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שלשה מינין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "שלשה מינין",
+                    "offset": 46
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 7:1:1-4:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 7:1:1-2",
+                        "Jerusalem Talmud Nazir 7:1:2-6",
+                        "Jerusalem Talmud Nazir 7:1:6-11",
+                        "Jerusalem Talmud Nazir 7:1:11-20",
+                        "Jerusalem Talmud Nazir 7:1:20-2:1",
+                        "Jerusalem Talmud Nazir 7:2:1-4",
+                        "Jerusalem Talmud Nazir 7:2:4-7",
+                        "Jerusalem Talmud Nazir 7:2:7-11",
+                        "Jerusalem Talmud Nazir 7:2:11-3:4",
+                        "Jerusalem Talmud Nazir 7:3:4-6",
+                        "Jerusalem Talmud Nazir 7:3:6-4:2",
+                        "Jerusalem Talmud Nazir 7:4:2-3",
+                        "Jerusalem Talmud Nazir 7:4:3"
+                    ],
+                    "startingAddress": "32b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "כהן גדול",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "כהן גדול",
+                    "offset": 63
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 8:1:1-2:16",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 8:1:1-2",
+                        "Jerusalem Talmud Nazir 8:1:2-3",
+                        "Jerusalem Talmud Nazir 8:1:3-5",
+                        "Jerusalem Talmud Nazir 8:1:5-9",
+                        "Jerusalem Talmud Nazir 8:1:9-2:2",
+                        "Jerusalem Talmud Nazir 8:2:2-8",
+                        "Jerusalem Talmud Nazir 8:2:8-13",
+                        "Jerusalem Talmud Nazir 8:2:13-16"
+                    ],
+                    "startingAddress": "38b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שני נזירים",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "שני נזירים",
+                    "offset": 75
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Nazir 9:1:1-6:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Nazir 9:1:1-3",
+                        "Jerusalem Talmud Nazir 9:1:3-4",
+                        "Jerusalem Talmud Nazir 9:1:4-6",
+                        "Jerusalem Talmud Nazir 9:1:6-2:3",
+                        "Jerusalem Talmud Nazir 9:2:3-6",
+                        "Jerusalem Talmud Nazir 9:2:6-10",
+                        "Jerusalem Talmud Nazir 9:2:10-3:2",
+                        "Jerusalem Talmud Nazir 9:3:2-7",
+                        "Jerusalem Talmud Nazir 9:3:7-4:2",
+                        "Jerusalem Talmud Nazir 9:4:2-5:2",
+                        "Jerusalem Talmud Nazir 9:5:2-6:1",
+                        "Jerusalem Talmud Nazir 9:6:1-2"
+                    ],
+                    "startingAddress": "42a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הכותים אין להם נזירות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "הכותים אין להם נזירות",
+                    "offset": 82
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי נזיר",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "JT Nazir",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Nazir",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Nazir",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי נזיר",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Naz.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Nazir",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Nazir",
+            "heTitle": "תלמוד ירושלמי נזיר"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

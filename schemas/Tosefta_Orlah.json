@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Orlah",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Zeraim"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "orlah"
+                ]
+            }
+        ],
         "lengths": [
-            1
+            1,
+            8
         ],
         "titles": [
             {
@@ -29,17 +38,17 @@
                 "text": "Tos. Orlah"
             },
             {
-                "lang": "he",
-                "text": "תוספתא ערלה",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Orl."
             },
             {
-                "lang": "en",
+                "text": "תוספתא ערלה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Orlah",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -56,6 +65,8 @@
     ],
     "authors": [],
     "enDesc": "Orlah (Blockage [of Trees]) belongs to the first order, Zera'im (seeds) and discusses the first-fruit gifts to the Kohanim and Temple, as stated in Exodus 23:19; Deuteronomy 26:1. It consists of three to one chapters.",
+    "enShortDesc": "Fruit growing on a tree in its first three years, when benefitting from the fruit is prohibited.",
+    "heShortDesc": "האיסור לאכול וליהנות מפירות העץ בשלוש השנים הראשונות לנטיעתו ודיני תערובות של מאכלים אסורים ומותרים לאכילה.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -79,8 +90,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר זרעים"
     ],
     "compDateString": {

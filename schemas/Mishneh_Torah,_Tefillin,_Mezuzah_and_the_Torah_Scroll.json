@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "tefillin-mezuzah-and-the-torah-scroll"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "tefillin-mezuzah-and-the-torah-scroll"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "tefillin-mezuzah-and-the-torah-scroll"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "tefillin-mezuzah-and-the-torah-scroll"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "tefillin-mezuzah-and-the-torah-scroll"
+                ]
+            }
+        ],
         "lengths": [
-            10
+            10,
+            146
         ],
         "titles": [
             {
@@ -55,11 +90,6 @@
             {
                 "lang": "en",
                 "text": "Rambam, Hilkhot Tefillin, Mezuzah, v'Sefer Torah"
-            },
-            {
-                "primary": true,
-                "lang": "he",
-                "text": "משנה תורה, הלכות תפילין ומזוזה וספר תורה"
             },
             {
                 "lang": "he",
@@ -102,9 +132,62 @@
                 "text": "משנה תורה, הלכות מזוזה"
             },
             {
-                "primary": true,
+                "text": "רמב״ם, הלכות תפילין ומזוזה וספר תורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות תפילין ומזוזה וספר תורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' תפילין ומזוזה וספר תורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' תפילין ומזוזה וספר תורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות תפילין ומזוזה וספר תורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות תפילין ומזוזה וספר תורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' תפילין ומזוזה וספר תורה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' תפילין ומזוזה וספר תורה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה לרמב״ם, הלכות ספר תורה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה לרמב”ם, הלכות ספר תורה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות ס״ת",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות ס”ת",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות תפילין ומזוזה וספר תורה",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll",
                 "lang": "en",
-                "text": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll"
+                "primary": true
             }
         ],
         "title": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll",
@@ -120,9 +203,13 @@
         3
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The second book is Ahavah (Love): the precepts which must be observed at all times if the love due to God is to be remembered continually (prayer, tefillin).",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -144,7 +231,6 @@
         "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות תפילין ומזוזה וספר תורה",
         "רמב\"ם, הלכות תפילין ומזוזה וספר תורה",
         "משנה תורה, הל' תפילין ומזוזה וספר תורה",
         "רמב\"ם, הל' תפילין ומזוזה וספר תורה",
@@ -154,7 +240,20 @@
         "משנה תורה, הלכות ספר תורה",
         "משנה תורה, הלכות ס\"ת",
         "משנה תורה, הלכות תפילין",
-        "משנה תורה, הלכות מזוזה"
+        "משנה תורה, הלכות מזוזה",
+        "רמב״ם, הלכות תפילין ומזוזה וספר תורה",
+        "רמב”ם, הלכות תפילין ומזוזה וספר תורה",
+        "רמב״ם, הל' תפילין ומזוזה וספר תורה",
+        "רמב”ם, הל' תפילין ומזוזה וספר תורה",
+        "רמב״ם הלכות תפילין ומזוזה וספר תורה",
+        "רמב”ם הלכות תפילין ומזוזה וספר תורה",
+        "רמב״ם הל' תפילין ומזוזה וספר תורה",
+        "רמב”ם הל' תפילין ומזוזה וספר תורה",
+        "משנה תורה לרמב״ם, הלכות ספר תורה",
+        "משנה תורה לרמב”ם, הלכות ספר תורה",
+        "משנה תורה, הלכות ס״ת",
+        "משנה תורה, הלכות ס”ת",
+        "משנה תורה, הלכות תפילין ומזוזה וספר תורה"
     ],
     "sectionNames": [
         "Chapter",

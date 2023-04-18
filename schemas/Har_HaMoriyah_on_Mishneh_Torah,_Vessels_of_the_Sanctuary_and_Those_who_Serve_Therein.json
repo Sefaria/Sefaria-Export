@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "har-hamoriyah",
+                    "hilchot",
+                    "vessels-of-the-sanctuary-and-those-who-serve-therein"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "har-hamoriyah",
+                    "vessels-of-the-sanctuary-and-those-who-serve-therein"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            149,
+            382
+        ],
         "titles": [
             {
                 "text": "הר המוריה על משנה תורה, הלכות כלי המקדש והעובדין בו",
@@ -42,9 +62,15 @@
         "key": "Har HaMoriyah on Mishneh Torah, Vessels of the Sanctuary and Those who Serve Therein"
     },
     "authors": [
-        "Meir Yonah Brancki"
+        {
+            "en": "Meir Yonah Brancki",
+            "he": "מאיר יונה ברנצקי",
+            "slug": "meir-yonah-brancki"
+        }
     ],
     "pubDate": "1968",
+    "compDate": "1865",
+    "errorMargin": "25",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -77,5 +103,9 @@
         "מפרשים",
         "הר המוריה",
         "ספר עבודה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1840  - c.1890 CE)",
+        "he": " (1840 - 1890 לספירה בקירוב)"
+    }
 }

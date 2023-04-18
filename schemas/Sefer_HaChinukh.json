@@ -1,7 +1,8 @@
 {
     "title": "Sefer HaChinukh",
     "categories": [
-        "Halakhah"
+        "Halakhah",
+        "Sifrei Mitzvot"
     ],
     "schema": {
         "nodes": [
@@ -65,12 +66,16 @@
                 "nodeType": "JaggedArrayNode",
                 "depth": 2,
                 "addressTypes": [
-                    "Integer",
+                    "Siman",
                     "Integer"
                 ],
                 "sectionNames": [
                     "Mitzvah",
                     "Paragraph"
+                ],
+                "referenceableSections": [
+                    true,
+                    false
                 ],
                 "default": true,
                 "title": "",
@@ -80,6 +85,20 @@
                     "פסקה"
                 ],
                 "key": "default"
+            }
+        ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "hachinukh"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sefer",
+                    "hachinukh"
+                ]
             }
         ],
         "titles": [
@@ -97,12 +116,12 @@
             },
             {
                 "lang": "he",
-                "primary": true,
-                "text": "ספר החינוך"
+                "text": "ספר החנוך"
             },
             {
+                "text": "ספר החינוך",
                 "lang": "he",
-                "text": "ספר החנוך"
+                "primary": true
             },
             {
                 "text": "Sefer HaChinukh",
@@ -115,8 +134,10 @@
         "key": "Sefer HaChinukh"
     },
     "authors": [],
-    "enDesc": "The Sefer ha-Hinukh (Book of Education),  is a work which systematically discusses the 613 commandments of the Torah. It was published anonymously in 13th century Spain. The work's enumeration of the commandments is based upon Maimonides' system of counting as per his Sefer Hamitzvot; each is listed according to its appearance in the weekly Torah portion and the work is structured correspondingly. It separately discusses each of the 613 commandments, both from a legal and a moral perspective. For each, the discussion starts by linking the mitzvah to its Biblical source, and then addresses the philosophical underpinnings of the commandment. Following this, it presents a brief overview of the halakha (practical Jewish law) governing its observance - usually based on Maimonides' Mishneh Torah - and closes with a summary as to the commandment's applicability. The sixteenth century author Gedaliah ibn Yaḥyah credited the Sefer ha-Hinukh to Rabbi Aharon HaLevi of Barcelona(1235-c. 1290), a Talmudic scholar and halakhist; but others disagree, as the views of the Hinukh contradict opinions held by HaLevi in other works. This has led to the conclusion that the true author to Sefer Ha-Hinukh was a different Rabbi Aharon Halevi, a student of the Rashba, rather than his colleague Though there is a debate about who is the true author, it is agreed upon that the Sefer ha-Hinukh was written by a father to his son, upon reaching the age of Bar Mitzvah. Professor Israel Ta-Shma of the Hebrew University of Jerusalem argued that the author is in fact Aaron's brother, Pinchas ben Joseph ha-Levi.",
+    "enDesc": "The Sefer HaChinukh (“Book of Education”) is an anonymous work written in 13th-century Spain that clearly details the 613 commandments and explains the reasons behind them. In his introduction, the author explains that he wrote the book to “awaken the hearts'' of his teenage son and his peers, hoping to foster in them a sense of connection to the commandments. For each commandment, the author cites a biblical source, addresses the philosophical underpinnings of the commandment, presents a brief overview of the details of its observance, and summarizes the commandment’s applicability. The work remains popular today, especially in educational settings.",
     "heDesc": "ספר החינוך מבאר את תרי\"ג המצוות, מסודר לפי פרשיות התורה. המחבר של הספר כותב בהקדמתו שחיברו כדי \"לעורר לב הנער בני והילדים חביריו בכל שבוע ושבוע, אחר שילמדו אותו הסדר בחשבון המצות, ולהרגיל אותם בהם ולהתפיס מחשבתם במחשבת טהרה וחשבון של עיקר, טרם שיכניסו בלבם חשבונות של שחוק ושל מה לך ומה בכך, וגם כי יזקינו לא יסורו ממנו\"...  המחבר מזהה עצמו רק כ\"איש יהודי מבית לוי ברצלוני\", ויש חילוקי דעות לגבי זהותו המדויקת. יש המייחסים את הספר לר' אהרן הלוי (רא\"ה), אבל כבר הוכח בבירור שהוא לא חיברו. אחרים מיחסים אותו לר' פנחס הלוי, אחיו של הרא\"ה. היחודיות של ספר החינוך הוא בזה שמלבד דיני המצוה, המחבר דן גם בשרשיו וטעמו, שלא כספרים הלכתיים אחרים.",
+    "enShortDesc": "Anonymous medieval work detailing and explaining the 613 commandments.",
+    "heShortDesc": "חיבור אנונימי מימי הביניים המונה ומפרט את תרי״ג מצוות התורה.",
     "pubDate": "1523",
     "compDate": "1270",
     "compPlace": "Middle-Age Spain",
@@ -132,17 +153,30 @@
         "Sefer HaChinukh"
     ],
     "heTitleVariants": [
-        "ספר החינוך",
-        "ספר החנוך"
+        "ספר החנוך",
+        "ספר החינוך"
     ],
     "alts": {
-        "Parsha": {
+        "Parasha": {
             "nodes": [
                 {
                     "nodeType": "ArrayMapNode",
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.1",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "bereshit"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "bereshit"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Bereshit",
                     "titles": [
                         {
@@ -194,7 +228,7 @@
                         "Sefer HaChinukh 1"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -206,6 +240,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.2",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "lech-lecha"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "lech-lecha"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Lech Lecha",
                     "titles": [
                         {
@@ -237,7 +284,7 @@
                         "Sefer HaChinukh 2"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -249,6 +296,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "vayishlach"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "vayishlach"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Vayishlach",
                     "titles": [
                         {
@@ -276,7 +336,7 @@
                         "Sefer HaChinukh 3"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -288,6 +348,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.4-23",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "bo"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "bo"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Bo",
                     "titles": [
                         {
@@ -334,7 +407,7 @@
                         "Sefer HaChinukh 23"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -346,6 +419,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.24",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "beshalach"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "beshalach"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Beshalach",
                     "titles": [
                         {
@@ -373,7 +459,7 @@
                         "Sefer HaChinukh 24"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -385,6 +471,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.25-41",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "yitro"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "yitro"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Yitro",
                     "titles": [
                         {
@@ -436,7 +535,7 @@
                         "Sefer HaChinukh 41"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -448,6 +547,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.42-94",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "mishpatim"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "mishpatim"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Mishpatim",
                     "titles": [
                         {
@@ -527,7 +639,7 @@
                         "Sefer HaChinukh 94"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -539,6 +651,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.95-97",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "terumah"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "terumah"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Terumah",
                     "titles": [
                         {
@@ -580,7 +705,7 @@
                         "Sefer HaChinukh 97"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -592,6 +717,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.98-104",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "tetzaveh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "tetzaveh"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Tetzaveh",
                     "titles": [
                         {
@@ -641,7 +779,7 @@
                         "Sefer HaChinukh 104"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -653,6 +791,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.105-113",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "ki-tisa"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "ki-tisa"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Ki Tisa",
                     "titles": [
                         {
@@ -696,7 +847,7 @@
                         "Sefer HaChinukh 113"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -708,6 +859,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.114",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "vayakhel"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "vayakhel"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Vayakhel",
                     "titles": [
                         {
@@ -739,7 +903,7 @@
                         "Sefer HaChinukh 114"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -751,6 +915,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.115-130",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "vayikra"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "vayikra"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Vayikra",
                     "titles": [
                         {
@@ -793,7 +970,7 @@
                         "Sefer HaChinukh 130"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -805,6 +982,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.131-148",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "tzav"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "tzav"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Tzav",
                     "titles": [
                         {
@@ -849,7 +1039,7 @@
                         "Sefer HaChinukh 148"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -861,6 +1051,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.149-165",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "shmini"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "shmini"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Shmini",
                     "titles": [
                         {
@@ -916,7 +1119,7 @@
                         "Sefer HaChinukh 165"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -928,6 +1131,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.166-172",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "tazria"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "tazria"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Tazria",
                     "titles": [
                         {
@@ -965,7 +1181,7 @@
                         "Sefer HaChinukh 172"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -977,6 +1193,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.173-183",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "metzora"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "metzora"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Metzora",
                     "titles": [
                         {
@@ -1022,7 +1251,7 @@
                         "Sefer HaChinukh 183"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1034,6 +1263,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.184-211",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "achrei-mot"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "achrei-mot"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Achrei Mot",
                     "titles": [
                         {
@@ -1092,7 +1334,7 @@
                         "Sefer HaChinukh 211"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1104,6 +1346,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.212-262",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "kedoshim"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "kedoshim"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Kedoshim",
                     "titles": [
                         {
@@ -1181,7 +1436,7 @@
                         "Sefer HaChinukh 262"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1193,6 +1448,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.263-325",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "emor"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "emor"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Emor",
                     "titles": [
                         {
@@ -1286,7 +1554,7 @@
                         "Sefer HaChinukh 325"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1298,6 +1566,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.326-349",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "behar"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "behar"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Behar",
                     "titles": [
                         {
@@ -1348,7 +1629,7 @@
                         "Sefer HaChinukh 349"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1360,6 +1641,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.350-361",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "bechukotai"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "bechukotai"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Bechukotai",
                     "titles": [
                         {
@@ -1410,7 +1704,7 @@
                         "Sefer HaChinukh 361"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1422,6 +1716,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.362-379",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "nasso"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "nasso"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Nasso",
                     "titles": [
                         {
@@ -1474,7 +1781,7 @@
                         "Sefer HaChinukh 379"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1486,6 +1793,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.380-384",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "behaalotcha"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "behaalotcha"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Beha'alotcha",
                     "titles": [
                         {
@@ -1545,7 +1865,7 @@
                         "Sefer HaChinukh 384"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1557,6 +1877,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.385-387",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "shlach"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "shlach"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Sh'lach",
                     "titles": [
                         {
@@ -1598,7 +1931,7 @@
                         "Sefer HaChinukh 387"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1610,6 +1943,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.388-396",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "korach"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "korach"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Korach",
                     "titles": [
                         {
@@ -1653,7 +1999,7 @@
                         "Sefer HaChinukh 396"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1665,6 +2011,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.397-399",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "chukat"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "chukat"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Chukat",
                     "titles": [
                         {
@@ -1702,7 +2061,7 @@
                         "Sefer HaChinukh 399"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1714,6 +2073,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.400-405",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "pinchas"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "pinchas"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Pinchas",
                     "titles": [
                         {
@@ -1746,7 +2118,7 @@
                         "Sefer HaChinukh 405"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1758,6 +2130,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.406-407",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "matot"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "matot"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Matot",
                     "titles": [
                         {
@@ -1790,7 +2175,7 @@
                         "Sefer HaChinukh 407"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1802,6 +2187,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.408-413",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "masei"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "masei"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Masei",
                     "titles": [
                         {
@@ -1842,7 +2240,7 @@
                         "Sefer HaChinukh 413"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1854,6 +2252,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.414-415",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "devarim"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "devarim"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Devarim",
                     "titles": [
                         {
@@ -1890,7 +2301,7 @@
                         "Sefer HaChinukh 415"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1902,6 +2313,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.416-427",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "vaetchanan"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "vaetchanan"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Vaetchanan",
                     "titles": [
                         {
@@ -1960,7 +2384,7 @@
                         "Sefer HaChinukh 427"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -1972,6 +2396,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.428-435",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "eikev"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "eikev"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Eikev",
                     "titles": [
                         {
@@ -2010,7 +2447,7 @@
                         "Sefer HaChinukh 435"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -2022,6 +2459,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.436-490",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "reeh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "reeh"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Re'eh",
                     "titles": [
                         {
@@ -2103,7 +2553,7 @@
                         "Sefer HaChinukh 490"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -2115,6 +2565,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.491-531",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "shoftim"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "shoftim"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Shoftim",
                     "titles": [
                         {
@@ -2190,7 +2653,7 @@
                         "Sefer HaChinukh 531"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -2202,6 +2665,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.532-605",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "ki-teitzei"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "ki-teitzei"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Ki Teitzei",
                     "titles": [
                         {
@@ -2322,7 +2798,7 @@
                         "Sefer HaChinukh 605"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -2334,6 +2810,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.606-611",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "ki-tavo"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "ki-tavo"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Ki Tavo",
                     "titles": [
                         {
@@ -2366,7 +2855,7 @@
                         "Sefer HaChinukh 611"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -2378,6 +2867,19 @@
                     "depth": 1,
                     "wholeRef": "Sefer HaChinukh.612-613",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "vayeilech"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "vayeilech"
+                            ]
+                        }
+                    ],
                     "sharedTitle": "Vayeilech",
                     "titles": [
                         {
@@ -2414,7 +2916,7 @@
                         "Sefer HaChinukh 613"
                     ],
                     "addressTypes": [
-                        "Integer"
+                        "Siman"
                     ],
                     "sectionNames": [
                         "Mitzvah"
@@ -2437,12 +2939,12 @@
                 },
                 {
                     "lang": "he",
-                    "primary": true,
-                    "text": "ספר החינוך"
+                    "text": "ספר החנוך"
                 },
                 {
+                    "text": "ספר החינוך",
                     "lang": "he",
-                    "text": "ספר החנוך"
+                    "primary": true
                 },
                 {
                     "text": "Sefer HaChinukh",
@@ -2455,7 +2957,8 @@
         }
     },
     "heCategories": [
-        "הלכה"
+        "הלכה",
+        "ספרי מצוות"
     ],
     "compDateString": {
         "en": " (c.1255  - c.1285 CE)",

@@ -17,6 +17,18 @@
             "Siman",
             "Seif"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "torat-hashlamim",
+                    "yoreh-deah"
+                ]
+            }
+        ],
+        "lengths": [
+            403,
+            281
+        ],
         "titles": [
             {
                 "primary": true,
@@ -24,9 +36,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Torat HaShlamim on Shulchan Arukh, Yoreh De'ah",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Torat HaShlamim on Shulchan Arukh, Yoreh De'ah",
@@ -38,7 +50,11 @@
         "key": "Torat HaShlamim on Shulchan Arukh, Yoreh De'ah"
     },
     "authors": [
-        "Jacob Reischer"
+        {
+            "en": "Jacob Reischer",
+            "he": "יעקב ריישר",
+            "slug": "jacob-reischer"
+        }
     ],
     "enDesc": "Commentary on Hilchot Niddah in Shulchan Arukh Yoreh Deah.",
     "heDesc": "פירוש על שלחן ערוך יורה דעה - הלכות נדה.",
@@ -51,7 +67,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Yoreh De'ah",
-            "he": "יורה דעה"
+            "he": "שולחן ערוך, יורה דעה"
         }
     ],
     "collective_title": {
@@ -2219,9 +2235,9 @@
                     "lang": "he"
                 },
                 {
-                    "primary": true,
                     "text": "Torat HaShlamim on Shulchan Arukh, Yoreh De'ah",
-                    "lang": "en"
+                    "lang": "en",
+                    "primary": true
                 }
             ],
             "title": "Torat HaShlamim on Shulchan Arukh, Yoreh De'ah",

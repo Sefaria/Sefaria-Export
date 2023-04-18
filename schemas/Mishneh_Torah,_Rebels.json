@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "rebels"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "rebels"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "rebels"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "rebels"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "rebels"
+                ]
+            }
+        ],
         "lengths": [
-            7
+            7,
+            69
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות ממרים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות ממרים"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' ממרים"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות ממרים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות ממרים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' ממרים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' ממרים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות ממרים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות ממרים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' ממרים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' ממרים",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות ממרים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Rebels",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,7 +167,11 @@
         3
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The fourteenth book is Sefer Shofetim (‎Judges: the laws relating legislators, the Sanhedrin, the king, and the judges — it also addresses the Noahide Laws and those pertaining to Messianic times). Hilchot Mamrim (Rebels‎)",
     "pubDate": "1474",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Rebels"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות ממרים",
         "רמב\"ם, הלכות ממרים",
         "משנה תורה, הל' ממרים",
         "רמב\"ם, הל' ממרים",
         "רמב\"ם הלכות ממרים",
-        "רמב\"ם הל' ממרים"
+        "רמב\"ם הל' ממרים",
+        "רמב״ם, הלכות ממרים",
+        "רמב”ם, הלכות ממרים",
+        "רמב״ם, הל' ממרים",
+        "רמב”ם, הל' ממרים",
+        "רמב״ם הלכות ממרים",
+        "רמב”ם הלכות ממרים",
+        "רמב״ם הל' ממרים",
+        "רמב”ם הל' ממרים",
+        "משנה תורה, הלכות ממרים"
     ],
     "sectionNames": [
         "Chapter",

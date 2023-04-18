@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "ezra"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ezra"
+                ]
+            }
         ],
         "lengths": [
             10,
@@ -21,21 +34,25 @@
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Ezr."
+                "text": "Ezr.",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Ezr"
+                "text": "Ezr",
+                "lang": "en"
             },
             {
-                "lang": "he",
+                "text": "Esdras",
+                "lang": "en"
+            },
+            {
                 "text": "עזרא",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Ezra",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -51,17 +68,25 @@
         36,
         10
     ],
-    "enDesc": "Ezra–Nehemiah is the original combined version of the biblical books of Ezra and Nehemiah—the two were originally one, but were divided by Christians in the 3rd century CE and in Jewish circles in the 15th century. The text of Ezra–Nehemiah is composed largely in Late Biblical Hebrew with significant sections in Aramaic; there are occasional reflections of Old Persian vocabulary, but little significant influence from Greek. Covering the period from the fall of Babylon in 539 BCE to the second half of the 5th century BCE, it tells of the successive missions to Jerusalem of Zerubbabel, Ezra, and Nehemiah, and their efforts to restore the worship of the God of Israel and to create a purified Jewish community. The narrative is highly schematic, each stage of the restoration following the same pattern: God \"stirs up\" the Persian king, the king commissions a Jewish leader to undertake a task, the leader overcomes opposition and succeeds, and success is marked by a great assembly.",
+    "authors": [],
+    "enDesc": "Ezra is one of the books of the section in the Hebrew Bible called Writings, and originally included the book of Nehemiah as well. The two books describe the Jewish return to Israel in the 6th and 5th centuries BCE, following seven decades of Babylonian exile. The book of Ezra recounts the challenges faced by those building the Second Temple and the celebration upon the Temple’s completion. It also tells of Ezra the scribe, under whose leadership a group of intermarried Jewish men agree to send away their foreign wives.",
+    "heDesc": "עזרא הוא אחד הספרים שבחטיבת הכתובים שבמקרא, ובמקור נכלל בו גם ספר נחמיה. שני הספרים מתארים את שיבת ציון במאה השישית והחמישית לפני הספירה לאחר כמה עשורים של גלות בבבל. בספר עזרא מתוארים האתגרים שעמדו בפני בוני המקדש וחגיגות חנוכת הבית עם סיום הבנייה. כמו כן מסופר בו על עזרא הסופר, שבהנהגתו ניאותה קבוצה של יהודים שנשאו נשים לא יהודיות לשלח את נשותיהם.",
+    "enShortDesc": "Rebuilding the Temple after decades of exile and religious revival led by Ezra the scribe.",
+    "heShortDesc": "לאחר עשרות שנות גלות בית המקדש נבנה מחדש ועזרא הסופר מוביל תחייה רוחנית.",
     "pubDate": "1488",
     "compDate": "-400",
     "compPlace": "Second Temple Judea",
     "pubPlace": "Soncino",
     "errorMargin": "50",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "עזרא",
     "titleVariants": [
         "Ezr.",
         "Ezr",
+        "Esdras",
         "Ezra"
     ],
     "heTitleVariants": [

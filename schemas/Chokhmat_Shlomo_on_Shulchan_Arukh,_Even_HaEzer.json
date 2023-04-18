@@ -17,6 +17,18 @@
             "Siman",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chokhmat-shlomo",
+                    "even-haezer"
+                ]
+            }
+        ],
+        "lengths": [
+            178,
+            419
+        ],
         "titles": [
             {
                 "primary": true,
@@ -38,14 +50,20 @@
         "key": "Chokhmat Shlomo on Shulchan Arukh, Even HaEzer"
     },
     "authors": [
-        "Shlomo Kluger"
+        {
+            "en": "Shlomo Kluger",
+            "he": "שלמה קלוגר",
+            "slug": "shlomo-kluger"
+        }
     ],
+    "compDate": "1850",
+    "errorMargin": "25",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Even HaEzer",
-            "he": "אבן העזר"
+            "he": "שולחן ערוך, אבן העזר"
         }
     ],
     "collective_title": {
@@ -69,5 +87,9 @@
         "שולחן ערוך",
         "מפרשים",
         "חכמת שלמה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1825  - c.1875 CE)",
+        "he": " (1825 - 1875 לספירה בקירוב)"
+    }
 }

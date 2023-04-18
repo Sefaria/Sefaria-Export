@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Ritva",
         "Seder Nashim"
     ],
@@ -17,6 +17,27 @@
         "sectionNames": [
             "Daf",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ritva",
+                    "yevamot"
+                ]
+            }
+        ],
+        "lengths": [
+            244,
+            1530
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,7 +60,11 @@
         "key": "Ritva on Yevamot"
     },
     "authors": [
-        "Ritva"
+        {
+            "en": "Ritva",
+            "he": "ריטב\"א",
+            "slug": "ritva"
+        }
     ],
     "enDesc": "Concise commentary on the Talmud, written by Rabbi Yom Tov ben Avraham Isbilli (Ritva). The author was a Spanish, medieval rabbi and halakhic authority. His commentaries to many tractates of the Talmud are a mainstay of yeshiva study to this day.",
     "pubDate": "1833",
@@ -809,7 +834,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "ריטב\"א",
         "סדר נשים"
     ],

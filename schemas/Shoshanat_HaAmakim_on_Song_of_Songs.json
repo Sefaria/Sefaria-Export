@@ -2,7 +2,7 @@
     "title": "Shoshanat HaAmakim on Song of Songs",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Alshich",
         "Writings"
     ],
@@ -11,7 +11,7 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
@@ -19,7 +19,25 @@
             "Verse",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "alshich",
+                    "song-of-songs"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            56,
+            113
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
                 "text": "Alshich on Song of Songs",
@@ -39,9 +57,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Shoshanat HaAmakim on Song of Songs",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Shoshanat HaAmakim on Song of Songs",
@@ -54,10 +72,14 @@
         "key": "Shoshanat HaAmakim on Song of Songs"
     },
     "authors": [
-        "Alshikh"
+        {
+            "en": "Alshikh",
+            "he": "אלשיך",
+            "slug": "alshikh"
+        }
     ],
     "enDesc": "Commentary of R' Moshe Alshikh on Solomon's Song of Songs, based on his lectures. It was the first to appear in print, and was edited by Alshikh himself in 1591.  Like many other commentators, he understands the Song to be an allegory which represents a dialogue between God and the exiled nation of Israel.",
-    "heDesc": "ביאורו של ר' משה אלשיך למגילת שיר השירים, מבוסס על דרשותיו. הספר הוא הראשון לראות אור הדפוס ונערך על ידי האלשיך עצמו ב-1591. ",
+    "heDesc": "ביאורו של ר' משה אלשיך למגילת שיר השירים, מבוסס על דרשותיו. הספר הוא הראשון לראות אור הדפוס ונערך על ידי האלשיך עצמו ב-1591.",
     "pubDate": "1591",
     "compDate": "1567",
     "pubPlace": "Venice",
@@ -92,7 +114,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "אלשיך",
         "כתובים"
     ],

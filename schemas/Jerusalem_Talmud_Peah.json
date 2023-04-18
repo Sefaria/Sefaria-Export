@@ -7,56 +7,100 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "peah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "peah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "peah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "peah"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "peah"
+            ]
+        },
         "lengths": [
-            74,
-            168
+            8,
+            55,
+            403
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Yerushalmi Pe'ah"
-            },
-            {
-                "lang": "en",
-                "text": "JT Pe'ah"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Pe'ah"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Peah"
-            },
-            {
-                "lang": "en",
-                "text": "JT Peah"
-            },
-            {
-                "lang": "en",
-                "text": "Jerusalem Talmud Péah"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי פאה",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי פאה"
+                "text": "Yerushalmi Pe'ah",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Peah"
+                "text": "JT Pe'ah",
+                "lang": "en"
+            },
+            {
+                "text": "Talmud Yerushalmi Pe'ah",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Peah",
+                "lang": "en"
+            },
+            {
+                "text": "JT Peah",
+                "lang": "en"
+            },
+            {
+                "text": "Jerusalem Talmud Péah",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי פאה",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Peah",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Peah",
@@ -67,23 +111,27 @@
         "title": "Jerusalem Talmud Peah",
         "heTitle": "תלמוד ירושלמי פאה",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Peah"
     },
     "order": [
         2
     ],
-    "authors": [],
-    "enDesc": "Peah (Corner) belongs to the first order, Zera'im (seeds) and discusses the regulations concerning the commandment to leave the corner of one's field for the poor as stated in Leviticus 19:9-10, Leviticus 23:22; Deuteronomy 24:19-22, and with the rights of the poor in general. It consists of eight chapters.",
+    "enDesc": "Peah (“Corner”) is the second tractate in Seder Zeraim (“Order of Seeds”) and the first in the order to explicitly address the order’s main topic, agricultural commandments. The tractate’s first four chapters discuss the mitzvah of peah, or leaving crops in the corner of a field for the poor to take, based in Leviticus 19:9 and 23:22. The remaining four chapters discuss other agricultural gifts to the poor, such as the obligation to leave ears of grain that fell during harvest (leket) and sheaves of grain that were forgotten in the field (shikhechah) for the poor.",
+    "enShortDesc": "Crops left in the corner of a field for the poor to take, other agricultural gifts to the poor.",
+    "heShortDesc": "הקצאת חלק מתבואת השדה לעניים ומתנות אחרות מגידולי הקרקע הניתנות לעניים.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי פאה",
     "titleVariants": [
         "Yerushalmi Pe'ah",
@@ -99,11 +147,703 @@
         "תלמוד ירושלמי פאה",
         "ירושלמי פאה"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 1:1:2-5:8",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 1:1:2-8",
+                        "Jerusalem Talmud Peah 1:1:8-20",
+                        "Jerusalem Talmud Peah 1:1:20-30",
+                        "Jerusalem Talmud Peah 1:1:30-39",
+                        "Jerusalem Talmud Peah 1:1:39-49",
+                        "Jerusalem Talmud Peah 1:1:49-3:4",
+                        "Jerusalem Talmud Peah 1:3:4-5:8",
+                        "Jerusalem Talmud Peah 1:5:8"
+                    ],
+                    "startingAddress": "15a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק א",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "פרק א",
+                    "offset": 56
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 2:1:1-5:7",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 2:1:1-11",
+                        "Jerusalem Talmud Peah 2:1:11-5:4",
+                        "Jerusalem Talmud Peah 2:5:4-7"
+                    ],
+                    "startingAddress": "16d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ב",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "פרק ב",
+                    "offset": 63
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 3:1:1-7:19",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 3:1:1-4",
+                        "Jerusalem Talmud Peah 3:1:4-6:2",
+                        "Jerusalem Talmud Peah 3:6:2-7:17",
+                        "Jerusalem Talmud Peah 3:7:17-19"
+                    ],
+                    "startingAddress": "17b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ג",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "פרק ג",
+                    "offset": 65
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 4:1:1-7:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 4:1:1-2:4",
+                        "Jerusalem Talmud Peah 4:2:4-6:6",
+                        "Jerusalem Talmud Peah 4:6:6-7:6"
+                    ],
+                    "startingAddress": "18a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ד",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "פרק ד",
+                    "offset": 68
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 5:1:1-7:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 5:1:1-2",
+                        "Jerusalem Talmud Peah 5:1:2-2:8",
+                        "Jerusalem Talmud Peah 5:2:8-7:2"
+                    ],
+                    "startingAddress": "18c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "פרק ה",
+                    "offset": 70
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 6:1:1-8:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 6:1:1-2",
+                        "Jerusalem Talmud Peah 6:1:2-2:5",
+                        "Jerusalem Talmud Peah 6:2:5-6:2",
+                        "Jerusalem Talmud Peah 6:6:2-8:4"
+                    ],
+                    "startingAddress": "19a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "פרק ו",
+                    "offset": 72
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 7:1:1-7:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 7:1:1-2",
+                        "Jerusalem Talmud Peah 7:1:2-3:12",
+                        "Jerusalem Talmud Peah 7:3:12-5:8",
+                        "Jerusalem Talmud Peah 7:5:8-7:5"
+                    ],
+                    "startingAddress": "19d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ז",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "פרק ז",
+                    "offset": 75
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 8:1:1-8:15",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 8:1:1-2",
+                        "Jerusalem Talmud Peah 8:1:2-4:4",
+                        "Jerusalem Talmud Peah 8:4:4-7:8",
+                        "Jerusalem Talmud Peah 8:7:8-8:15"
+                    ],
+                    "startingAddress": "20c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ח",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "פרק ח",
+                    "offset": 78
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי פאה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Yerushalmi Pe'ah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Pe'ah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Pe'ah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Peah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Peah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Péah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי פאה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Peah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Peah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Peah",
+            "heTitle": "תלמוד ירושלמי פאה"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 1:1:1-5:8",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 1:1:1-3",
+                        "Jerusalem Talmud Peah 1:1:3-6",
+                        "Jerusalem Talmud Peah 1:1:6-11",
+                        "Jerusalem Talmud Peah 1:1:11-15",
+                        "Jerusalem Talmud Peah 1:1:15-22",
+                        "Jerusalem Talmud Peah 1:1:22-31",
+                        "Jerusalem Talmud Peah 1:1:31-39",
+                        "Jerusalem Talmud Peah 1:1:39-47",
+                        "Jerusalem Talmud Peah 1:1:47-56",
+                        "Jerusalem Talmud Peah 1:1:56-3:1",
+                        "Jerusalem Talmud Peah 1:3:1-3",
+                        "Jerusalem Talmud Peah 1:3:3-5",
+                        "Jerusalem Talmud Peah 1:3:5-4:1",
+                        "Jerusalem Talmud Peah 1:4:1-3",
+                        "Jerusalem Talmud Peah 1:4:3-7",
+                        "Jerusalem Talmud Peah 1:4:7-5:1",
+                        "Jerusalem Talmud Peah 1:5:1-2",
+                        "Jerusalem Talmud Peah 1:5:2-8"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק א",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "פרק א",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 2:1:1-5:7",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 2:1:1-4",
+                        "Jerusalem Talmud Peah 2:1:4-9",
+                        "Jerusalem Talmud Peah 2:1:9-11",
+                        "Jerusalem Talmud Peah 2:1:11-3:2",
+                        "Jerusalem Talmud Peah 2:3:2-4:3",
+                        "Jerusalem Talmud Peah 2:4:3-5:1",
+                        "Jerusalem Talmud Peah 2:5:1-7",
+                        "Jerusalem Talmud Peah 2:5:7"
+                    ],
+                    "startingAddress": "10b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ב",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "פרק ב",
+                    "offset": 19
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 3:1:1-7:19",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 3:1:1-7",
+                        "Jerusalem Talmud Peah 3:1:7-10",
+                        "Jerusalem Talmud Peah 3:1:10-2:4",
+                        "Jerusalem Talmud Peah 3:2:4-4:3",
+                        "Jerusalem Talmud Peah 3:4:3-5:4",
+                        "Jerusalem Talmud Peah 3:5:4-7:1",
+                        "Jerusalem Talmud Peah 3:7:1-3",
+                        "Jerusalem Talmud Peah 3:7:3-7",
+                        "Jerusalem Talmud Peah 3:7:7-13",
+                        "Jerusalem Talmud Peah 3:7:13-18",
+                        "Jerusalem Talmud Peah 3:7:18",
+                        "Jerusalem Talmud Peah 3:7:18-19"
+                    ],
+                    "startingAddress": "14a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ג",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "פרק ג",
+                    "offset": 26
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 4:1:1-7:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 4:1:1-3",
+                        "Jerusalem Talmud Peah 4:1:3-2:1",
+                        "Jerusalem Talmud Peah 4:2:1-5",
+                        "Jerusalem Talmud Peah 4:2:5-7",
+                        "Jerusalem Talmud Peah 4:2:7-5:3",
+                        "Jerusalem Talmud Peah 4:5:3-6:6",
+                        "Jerusalem Talmud Peah 4:6:6-9",
+                        "Jerusalem Talmud Peah 4:6:9-7:1",
+                        "Jerusalem Talmud Peah 4:7:1-5",
+                        "Jerusalem Talmud Peah 4:7:5-6"
+                    ],
+                    "startingAddress": "20a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ד",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "פרק ד",
+                    "offset": 38
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 5:1:1-7:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 5:1:1-3",
+                        "Jerusalem Talmud Peah 5:1:3-2:2",
+                        "Jerusalem Talmud Peah 5:2:2-5",
+                        "Jerusalem Talmud Peah 5:2:5-7",
+                        "Jerusalem Talmud Peah 5:2:7-3:5",
+                        "Jerusalem Talmud Peah 5:3:5-5:3",
+                        "Jerusalem Talmud Peah 5:5:3-7:2"
+                    ],
+                    "startingAddress": "24b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "פרק ה",
+                    "offset": 47
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 6:1:1-8:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 6:1:1-7",
+                        "Jerusalem Talmud Peah 6:1:7-2:1",
+                        "Jerusalem Talmud Peah 6:2:1-3:1",
+                        "Jerusalem Talmud Peah 6:3:1-4",
+                        "Jerusalem Talmud Peah 6:3:4-5:3",
+                        "Jerusalem Talmud Peah 6:5:3-6:7",
+                        "Jerusalem Talmud Peah 6:6:7-8:4"
+                    ],
+                    "startingAddress": "28a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "פרק ו",
+                    "offset": 54
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 7:1:1-7:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 7:1:1-2:1",
+                        "Jerusalem Talmud Peah 7:2:1-6",
+                        "Jerusalem Talmud Peah 7:2:6-3:5",
+                        "Jerusalem Talmud Peah 7:3:5-4:2",
+                        "Jerusalem Talmud Peah 7:4:2-5:3",
+                        "Jerusalem Talmud Peah 7:5:3-11",
+                        "Jerusalem Talmud Peah 7:5:11-7:3",
+                        "Jerusalem Talmud Peah 7:7:3-5"
+                    ],
+                    "startingAddress": "31b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ז",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "פרק ז",
+                    "offset": 61
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Peah 8:1:1-8:15",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Peah 8:1:1-2:1",
+                        "Jerusalem Talmud Peah 8:2:1-3:2",
+                        "Jerusalem Talmud Peah 8:3:2-5:4",
+                        "Jerusalem Talmud Peah 8:5:4-7:1",
+                        "Jerusalem Talmud Peah 8:7:1-8:5",
+                        "Jerusalem Talmud Peah 8:8:5-15"
+                    ],
+                    "startingAddress": "35a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "פרק ח",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "פרק ח",
+                    "offset": 68
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי פאה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Yerushalmi Pe'ah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Pe'ah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Pe'ah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Peah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Peah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Péah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי פאה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Peah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Peah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Peah",
+            "heTitle": "תלמוד ירושלמי פאה"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

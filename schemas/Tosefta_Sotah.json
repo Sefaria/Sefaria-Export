@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Sotah",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Nashim"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "sotah"
+                ]
+            }
+        ],
         "lengths": [
-            15
+            15,
+            101
         ],
         "titles": [
             {
@@ -33,17 +42,17 @@
                 "text": "Tosefta Sota"
             },
             {
-                "lang": "he",
-                "text": "תוספתא סוטה",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Sot."
             },
             {
-                "lang": "en",
+                "text": "תוספתא סוטה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Sotah",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -59,7 +68,9 @@
         5
     ],
     "authors": [],
-    "enDesc": "Sotah (Wayward Wife) belongs to the third order, Nashim (Women) and discusses the ritual of the Sotah – the woman suspected of adultery (Num 5) as well as other rituals involving a spoken formula (such as breaking the heifer's neck, the King's septa-annual public Torah reading, the Blessings and Curses of Mount Gerizim and Mount Ebal, etc...). It has fifteen chapters.",
+    "enDesc": "Sotah is a tractate in Seder Nashim (“Order of Women,” which addresses family law) that discusses laws relating to a sotah, or woman whose husband suspects her of adultery. The tractate outlines the process the sotah experiences, beginning with a warning issued by her husband and her seclusion with another man and through the steps of the ritual performed in the Temple in order to determine her culpability.",
+    "enShortDesc": "A woman suspected of adultery, the ritual determining her culpability, and other rituals involving recitation.",
+    "heShortDesc": "אישה החשודה בבגידה בבעלה, טקס בירור מעמדה וטקסים אחרים הכרוכים באמירה.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -84,8 +95,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר נשים"
     ],
     "compDateString": {

@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "the-order-of-prayer"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "the-order-of-prayer"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "the-order-of-prayer"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "the-order-of-prayer"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "the-order-of-prayer"
+                ]
+            }
+        ],
         "lengths": [
-            5
+            5,
+            68
         ],
         "titles": [
             {
@@ -34,11 +69,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, סדר התפילה",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, סדר התפילה"
             },
             {
@@ -46,8 +76,29 @@
                 "text": "רמב\"ם סדר התפילה"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, סדר התפילה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, סדר התפילה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם סדר התפילה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם סדר התפילה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, סדר התפילה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, The Order of Prayer",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -64,9 +115,13 @@
         7
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The second book is Ahavah (Love): the precepts which must be observed at all times if the love due to God is to be remembered continually (prayer, tefillin).",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -82,9 +137,13 @@
         "Mishneh Torah, The Order of Prayer"
     ],
     "heTitleVariants": [
-        "משנה תורה, סדר התפילה",
         "רמב\"ם, סדר התפילה",
-        "רמב\"ם סדר התפילה"
+        "רמב\"ם סדר התפילה",
+        "רמב״ם, סדר התפילה",
+        "רמב”ם, סדר התפילה",
+        "רמב״ם סדר התפילה",
+        "רמב”ם סדר התפילה",
+        "משנה תורה, סדר התפילה"
     ],
     "sectionNames": [
         "Chapter",

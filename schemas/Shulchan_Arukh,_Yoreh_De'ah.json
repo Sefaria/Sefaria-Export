@@ -15,6 +15,23 @@
             "Siman",
             "Seif"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "shulchan-arukh",
+                    "yoreh-deah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yoreh-deah"
+                ]
+            }
+        ],
+        "lengths": [
+            403,
+            3701
+        ],
         "titles": [
             {
                 "text": "Yoreh De'ah",
@@ -97,9 +114,16 @@
                 "lang": "en"
             },
             {
-                "text": "יורה דעה",
-                "lang": "he",
-                "primary": true
+                "text": "Shulhan Arukh Yoreh Deah",
+                "lang": "en"
+            },
+            {
+                "text": "Shulhan Aruch Yoreh Deah",
+                "lang": "en"
+            },
+            {
+                "text": "YD",
+                "lang": "en"
             },
             {
                 "text": "שולחן ערוך יורה דעה",
@@ -130,13 +154,58 @@
                 "lang": "he"
             },
             {
+                "text": "שו״ע יו״ד",
+                "lang": "he"
+            },
+            {
+                "text": "שו”ע יו”ד",
+                "lang": "he"
+            },
+            {
+                "text": "שולחן ערוך יו״ד",
+                "lang": "he"
+            },
+            {
+                "text": "שולחן ערוך יו”ד",
+                "lang": "he"
+            },
+            {
+                "text": "שלחן ערוך יו״ד",
+                "lang": "he"
+            },
+            {
+                "text": "שלחן ערוך יו”ד",
+                "lang": "he"
+            },
+            {
+                "text": "יו\"ד סי'",
+                "lang": "he"
+            },
+            {
+                "text": "יו”ד סי'",
+                "lang": "he"
+            },
+            {
+                "text": "יו”ד",
+                "lang": "he"
+            },
+            {
+                "text": "יורה דעה",
+                "lang": "he"
+            },
+            {
+                "text": "שולחן ערוך, יורה דעה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Shulchan Arukh, Yoreh De'ah",
                 "lang": "en",
                 "primary": true
             }
         ],
         "title": "Shulchan Arukh, Yoreh De'ah",
-        "heTitle": "יורה דעה",
+        "heTitle": "שולחן ערוך, יורה דעה",
         "heSectionNames": [
             "סימן",
             "סעיף"
@@ -147,16 +216,22 @@
         2
     ],
     "authors": [
-        "Joseph Karo"
+        {
+            "en": "Joseph Karo",
+            "he": "יוסף קארו",
+            "slug": "joseph-karo"
+        }
     ],
-    "enDesc": "The second section is Yoreh Deah - laws of kashrut; religious conversion; Mourning; Laws pertaining to Israel; Laws of family purity.",
+    "enDesc": "The Shulchan Arukh (“Set Table”) is the most widely accepted code of Jewish law ever written. Compiled in the 16th century by Rabbi Yosef Karo, it is a condensed and simplified version of the Beit Yosef, a commentary that Karo wrote on the Tur. Karo’s rulings are in accordance with Sephardic traditions; the text of the Shulchan Arukh also includes the glosses of Rabbi Moshe Isserles, which cite Ashkenazic traditions. Yoreh De’ah (“He Will Give Instruction,” a reference to Isaiah 28:9) is the second and most varied of four sections, discussing a range of topics not covered in the other sections. These include ritual slaughter, kashrut, conversion, mourning, niddah, tzedakah, usury, and laws applicable in Israel.",
+    "enShortDesc": "Ritual slaughter, kashrut, conversion, mourning, niddah, tzedakah, and laws applicable in Israel.",
+    "heShortDesc": "הלכות שחיטה, כשרות, גרות, אבלות, נידה, צדקה, ומצוות חקלאיות התלויות בארץ.",
     "pubDate": "1564",
     "compDate": "1563",
     "compPlace": "Safed",
     "pubPlace": "Venice",
     "era": "AH",
     "is_cited": true,
-    "heTitle": "יורה דעה",
+    "heTitle": "שולחן ערוך, יורה דעה",
     "titleVariants": [
         "Yoreh De'ah",
         "Yoreh Deah",
@@ -178,17 +253,30 @@
         "Yoreh De'a",
         "Shulhan Arukh, Yoreh Deah",
         "Shulchan Arukh Yoreh Deah",
+        "Shulhan Arukh Yoreh Deah",
+        "Shulhan Aruch Yoreh Deah",
+        "YD",
         "Shulchan Arukh, Yoreh De'ah"
     ],
     "heTitleVariants": [
-        "יורה דעה",
         "שולחן ערוך יורה דעה",
         "שו\"ע יו\"ד",
         "שולחן ערוך יו\"ד",
         "שלחן ערוך יו\"ד",
         "יו״ד סי'",
         "יו\"ד",
-        "יו״ד"
+        "יו״ד",
+        "שו״ע יו״ד",
+        "שו”ע יו”ד",
+        "שולחן ערוך יו״ד",
+        "שולחן ערוך יו”ד",
+        "שלחן ערוך יו״ד",
+        "שלחן ערוך יו”ד",
+        "יו\"ד סי'",
+        "יו”ד סי'",
+        "יו”ד",
+        "יורה דעה",
+        "שולחן ערוך, יורה דעה"
     ],
     "alts": {
         "Topic": {
@@ -2419,9 +2507,16 @@
                     "lang": "en"
                 },
                 {
-                    "text": "יורה דעה",
-                    "lang": "he",
-                    "primary": true
+                    "text": "Shulhan Arukh Yoreh Deah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Shulhan Aruch Yoreh Deah",
+                    "lang": "en"
+                },
+                {
+                    "text": "YD",
+                    "lang": "en"
                 },
                 {
                     "text": "שולחן ערוך יורה דעה",
@@ -2452,13 +2547,58 @@
                     "lang": "he"
                 },
                 {
+                    "text": "שו״ע יו״ד",
+                    "lang": "he"
+                },
+                {
+                    "text": "שו”ע יו”ד",
+                    "lang": "he"
+                },
+                {
+                    "text": "שולחן ערוך יו״ד",
+                    "lang": "he"
+                },
+                {
+                    "text": "שולחן ערוך יו”ד",
+                    "lang": "he"
+                },
+                {
+                    "text": "שלחן ערוך יו״ד",
+                    "lang": "he"
+                },
+                {
+                    "text": "שלחן ערוך יו”ד",
+                    "lang": "he"
+                },
+                {
+                    "text": "יו\"ד סי'",
+                    "lang": "he"
+                },
+                {
+                    "text": "יו”ד סי'",
+                    "lang": "he"
+                },
+                {
+                    "text": "יו”ד",
+                    "lang": "he"
+                },
+                {
+                    "text": "יורה דעה",
+                    "lang": "he"
+                },
+                {
+                    "text": "שולחן ערוך, יורה דעה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
                     "text": "Shulchan Arukh, Yoreh De'ah",
                     "lang": "en",
                     "primary": true
                 }
             ],
             "title": "Shulchan Arukh, Yoreh De'ah",
-            "heTitle": "יורה דעה"
+            "heTitle": "שולחן ערוך, יורה דעה"
         }
     },
     "sectionNames": [

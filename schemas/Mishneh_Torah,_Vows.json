@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "vows"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "vows"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "vows"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "vows"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "vows"
+                ]
+            }
+        ],
         "lengths": [
-            13
+            13,
+            250
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות נדרים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות נדרים"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' נדרים"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות נדרים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות נדרים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' נדרים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' נדרים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות נדרים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות נדרים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' נדרים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' נדרים",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות נדרים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Vows",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,9 +167,13 @@
         2
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The sixth book is Hafla'ah (Separation): laws of vows and oaths. Nedarim: Laws of oaths (to do an action).",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Vows"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות נדרים",
         "רמב\"ם, הלכות נדרים",
         "משנה תורה, הל' נדרים",
         "רמב\"ם, הל' נדרים",
         "רמב\"ם הלכות נדרים",
-        "רמב\"ם הל' נדרים"
+        "רמב\"ם הל' נדרים",
+        "רמב״ם, הלכות נדרים",
+        "רמב”ם, הלכות נדרים",
+        "רמב״ם, הל' נדרים",
+        "רמב”ם, הל' נדרים",
+        "רמב״ם הלכות נדרים",
+        "רמב”ם הלכות נדרים",
+        "רמב״ם הל' נדרים",
+        "רמב”ם הל' נדרים",
+        "משנה תורה, הלכות נדרים"
     ],
     "sectionNames": [
         "Chapter",

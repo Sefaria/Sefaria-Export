@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "ritual-slaughter"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "ritual-slaughter"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "ritual-slaughter"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "ritual-slaughter"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "ritual-slaughter"
+                ]
+            }
+        ],
         "lengths": [
-            14
+            14,
+            279
         ],
         "titles": [
             {
@@ -62,11 +97,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות שחיטה",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "משנה תורה, הל' שחיטה"
             },
             {
@@ -86,8 +116,45 @@
                 "text": "רמב\"ם הל' שחיטה"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות שחיטה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות שחיטה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' שחיטה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' שחיטה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות שחיטה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות שחיטה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' שחיטה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' שחיטה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות שחיטה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Ritual Slaughter",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -104,9 +171,13 @@
         3
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The fifth book is Kedushah (Holiness). Shehitah: laws of ritual slaughter",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -129,12 +200,20 @@
         "Mishneh Torah, Ritual Slaughter"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות שחיטה",
         "משנה תורה, הל' שחיטה",
         "רמב\"ם, הלכות שחיטה",
         "רמב\"ם, הל' שחיטה",
         "רמב\"ם הלכות שחיטה",
-        "רמב\"ם הל' שחיטה"
+        "רמב\"ם הל' שחיטה",
+        "רמב״ם, הלכות שחיטה",
+        "רמב”ם, הלכות שחיטה",
+        "רמב״ם, הל' שחיטה",
+        "רמב”ם, הל' שחיטה",
+        "רמב״ם הלכות שחיטה",
+        "רמב”ם הלכות שחיטה",
+        "רמב״ם הל' שחיטה",
+        "רמב”ם הל' שחיטה",
+        "משנה תורה, הלכות שחיטה"
     ],
     "sectionNames": [
         "Chapter",

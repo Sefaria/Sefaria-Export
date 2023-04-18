@@ -1,18 +1,64 @@
 {
     "title": "Shivchei HaBesht",
     "categories": [
-        "Chasidut"
+        "Chasidut",
+        "Other Chasidut Works"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 2,
-        "addressTypes": [
-            "Integer",
-            "Integer"
-        ],
-        "sectionNames": [
-            "Story",
-            "Paragraph"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Story",
+                    "Paragraph"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "סיפור",
+                    "פסקה"
+                ],
+                "key": "default"
+            }
         ],
         "titles": [
             {
@@ -28,17 +74,19 @@
         ],
         "title": "Shivchei HaBesht",
         "heTitle": "שבחי הבעש\"ט",
-        "heSectionNames": [
-            "סיפור",
-            "פסקה"
-        ],
         "key": "Shivchei HaBesht"
     },
     "authors": [
-        "Dov Ber ben Samuel"
+        {
+            "en": "Dov Ber ben Samuel",
+            "he": "דוב בער בן שמואל מלינץ",
+            "slug": "dov-ber-ben-samuel"
+        }
     ],
     "enDesc": "A collection of legends about the Baal Shem Tov, founder of Chasidism, written by Dov ben Samuel Baer, a son-in-law of the Besht's secretary.  The book exists in two different versions: the Kopys edition (1815), and the Berdychiv edition of the same year. The latter omits many legends which are found in the former, especially those that are of a particularly extraordinary nature. Later editions, of which there are more than ten, follow either of these editions, and some are combinations of the two.",
     "heDesc": "קובץ של כמאתיים וחמישים סיפורים מחייו ופועלו של מייסד תנועת החסידות, ר' ישראל בעל שם טוב, נכתב על ידי דוב בער בן שמואל שהיה חתנו של מזכירו (כותב קמיעות ועוזרו האישי) של הבעל שם טוב.",
+    "enShortDesc": "19th-century anthology of stories about the Baal Shem Tov, considered an important source of information about him.",
+    "heShortDesc": "קובץ מעשיות על הבעל שם טוב, נכתב במאה ה-19 ונחשב למקור חשוב למידע על אודותיו.",
     "pubDate": "1815",
     "compDate": "1795",
     "pubPlace": "Kopys",
@@ -51,13 +99,9 @@
     "heTitleVariants": [
         "שבחי הבעש\"ט"
     ],
-    "sectionNames": [
-        "Story",
-        "Paragraph"
-    ],
-    "depth": 2,
     "heCategories": [
-        "חסידות"
+        "חסידות",
+        "ספרי חסידות נוספים"
     ],
     "compDateString": {
         "en": " (c.1780  - c.1810 CE)",

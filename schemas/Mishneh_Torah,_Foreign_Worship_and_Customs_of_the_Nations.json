@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "foreign-worship-and-customs-of-the-nations"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "foreign-worship-and-customs-of-the-nations"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "foreign-worship-and-customs-of-the-nations"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "foreign-worship-and-customs-of-the-nations"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "foreign-worship-and-customs-of-the-nations"
+                ]
+            }
+        ],
         "lengths": [
-            12
+            12,
+            148
         ],
         "titles": [
             {
@@ -69,11 +104,6 @@
                 "lang": "en"
             },
             {
-                "primary": true,
-                "text": "משנה תורה, הלכות עבודה זרה וחוקות הגויים",
-                "lang": "he"
-            },
-            {
                 "text": "רמב\"ם, הלכות עבודה זרה וחוקות הגויים",
                 "lang": "he"
             },
@@ -106,9 +136,62 @@
                 "lang": "he"
             },
             {
-                "primary": true,
+                "text": "רמב״ם, הלכות עבודה זרה וחוקות הגויים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות עבודה זרה וחוקות הגויים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' עבודה זרה וחוקות הגויים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' עבודה זרה וחוקות הגויים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות עבודה זרה וחוקות הגויים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות עבודה זרה וחוקות הגויים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' עבודה זרה וחוקות הגויים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' עבודה זרה וחוקות הגויים",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות עכו״ם",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות עכו”ם",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הלכות עכו״ם",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות עכו”ם",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות עבודה זרה וחוקות הגויים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Foreign Worship and Customs of the Nations",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Mishneh Torah, Foreign Worship and Customs of the Nations",
@@ -124,9 +207,13 @@
         4
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The first book is HaMadda (Knowledge): Avodah Zarah: the prohibition against idolatry",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -151,7 +238,6 @@
         "Mishneh Torah, Foreign Worship and Customs of the Nations"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות עבודה זרה וחוקות הגויים",
         "רמב\"ם, הלכות עבודה זרה וחוקות הגויים",
         "משנה תורה, הל' עבודה זרה וחוקות הגויים",
         "רמב\"ם, הל' עבודה זרה וחוקות הגויים",
@@ -159,7 +245,20 @@
         "רמב\"ם הל' עבודה זרה וחוקות הגויים",
         "הלכות עבודה זרה",
         "משנה תורה, הלכות עכו\"ם",
-        "רמב\"ם, הלכות עכו\"ם"
+        "רמב\"ם, הלכות עכו\"ם",
+        "רמב״ם, הלכות עבודה זרה וחוקות הגויים",
+        "רמב”ם, הלכות עבודה זרה וחוקות הגויים",
+        "רמב״ם, הל' עבודה זרה וחוקות הגויים",
+        "רמב”ם, הל' עבודה זרה וחוקות הגויים",
+        "רמב״ם הלכות עבודה זרה וחוקות הגויים",
+        "רמב”ם הלכות עבודה זרה וחוקות הגויים",
+        "רמב״ם הל' עבודה זרה וחוקות הגויים",
+        "רמב”ם הל' עבודה זרה וחוקות הגויים",
+        "משנה תורה, הלכות עכו״ם",
+        "משנה תורה, הלכות עכו”ם",
+        "רמב״ם, הלכות עכו״ם",
+        "רמב”ם, הלכות עכו”ם",
+        "משנה תורה, הלכות עבודה זרה וחוקות הגויים"
     ],
     "sectionNames": [
         "Chapter",

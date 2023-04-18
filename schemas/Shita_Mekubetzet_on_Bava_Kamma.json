@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Acharonim on Talmud",
         "Shita Mekubetzet",
         "Seder Nezikin"
     ],
@@ -17,6 +17,27 @@
         "sectionNames": [
             "Daf",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "shita-mekubetzet",
+                    "bava-kamma"
+                ]
+            }
+        ],
+        "lengths": [
+            238,
+            2520
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,7 +60,11 @@
         "key": "Shita Mekubetzet on Bava Kamma"
     },
     "authors": [
-        "Bezalel ben Abraham Ashkenazi"
+        {
+            "en": "Bezalel ben Abraham Ashkenazi",
+            "he": "בצלאל בן אברהם אשכנזי",
+            "slug": "bezalel-ben-abraham-ashkenazi"
+        }
     ],
     "enDesc": "Written by Bezalel ben Abraham Ashkenazi (c.1520 – c.1592), Shita Mekubetzet is a collection of glosses on the Talmud. Within the work are contained many passages of Talmudic commentary that are not found anywhere else.",
     "pubDate": "1762",
@@ -75,7 +100,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "אחרונים על התלמוד",
         "שיטה מקובצת",
         "סדר נזיקין"
     ],

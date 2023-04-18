@@ -61,35 +61,52 @@
                 "key": "Dinei Migo"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "siftei-kohen",
+                    "choshen-mishpat"
+                ]
+            }
+        ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Shakh on Shulchan Arukh, Choshen Mishpat"
+                "text": "Shakh on Shulchan Arukh, Choshen Mishpat",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Shach on Shulchan Arukh, Choshen Mishpat"
+                "text": "Shach on Shulchan Arukh, Choshen Mishpat",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "<i>Shakh, Ḥoshen Mishpat</i>"
+                "text": "<i>Shakh, Ḥoshen Mishpat</i>",
+                "lang": "en"
             },
             {
-                "primary": true,
+                "text": "Shakh CM",
+                "lang": "en"
+            },
+            {
+                "text": "Shakh SA CM",
+                "lang": "en"
+            },
+            {
+                "text": "שפתי כהן על שולחן ערוך חושן משפט",
                 "lang": "he",
-                "text": "שפתי כהן על שולחן ערוך חושן משפט"
+                "primary": true
             },
             {
-                "lang": "he",
-                "text": "ש\"ך ח\"מ"
+                "text": "ש\"ך ח\"מ",
+                "lang": "he"
             },
             {
-                "lang": "he",
-                "text": "ש״ך ח״מ"
+                "text": "ש״ך ח״מ",
+                "lang": "he"
             },
             {
-                "lang": "he",
-                "text": "ש\"ך חושן משפט"
+                "text": "ש\"ך חושן משפט",
+                "lang": "he"
             },
             {
                 "text": "Siftei Kohen on Shulchan Arukh, Choshen Mishpat",
@@ -102,7 +119,11 @@
         "key": "Siftei Kohen on Shulchan Arukh, Choshen Mishpat"
     },
     "authors": [
-        "Shabbatai ben Meir Hakohen"
+        {
+            "en": "Shabbatai ben Meir Hakohen",
+            "he": "שבתי בן מאיר הכהן",
+            "slug": "shabbatai-ben-meir-hakohen"
+        }
     ],
     "enDesc": "One of the standard and highly regarded commentaries on Shulchan Arukh, Choshen Mishpat.",
     "pubDate": "1663-1664",
@@ -114,7 +135,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Choshen Mishpat",
-            "he": "חושן משפט"
+            "he": "שולחן ערוך, חושן משפט"
         }
     ],
     "collective_title": {
@@ -126,6 +147,8 @@
         "Shakh on Shulchan Arukh, Choshen Mishpat",
         "Shach on Shulchan Arukh, Choshen Mishpat",
         "<i>Shakh, Ḥoshen Mishpat</i>",
+        "Shakh CM",
+        "Shakh SA CM",
         "Siftei Kohen on Shulchan Arukh, Choshen Mishpat"
     ],
     "heTitleVariants": [
@@ -1687,33 +1710,41 @@
             ],
             "titles": [
                 {
-                    "lang": "en",
-                    "text": "Shakh on Shulchan Arukh, Choshen Mishpat"
+                    "text": "Shakh on Shulchan Arukh, Choshen Mishpat",
+                    "lang": "en"
                 },
                 {
-                    "lang": "en",
-                    "text": "Shach on Shulchan Arukh, Choshen Mishpat"
+                    "text": "Shach on Shulchan Arukh, Choshen Mishpat",
+                    "lang": "en"
                 },
                 {
-                    "lang": "en",
-                    "text": "<i>Shakh, Ḥoshen Mishpat</i>"
+                    "text": "<i>Shakh, Ḥoshen Mishpat</i>",
+                    "lang": "en"
                 },
                 {
-                    "primary": true,
+                    "text": "Shakh CM",
+                    "lang": "en"
+                },
+                {
+                    "text": "Shakh SA CM",
+                    "lang": "en"
+                },
+                {
+                    "text": "שפתי כהן על שולחן ערוך חושן משפט",
                     "lang": "he",
-                    "text": "שפתי כהן על שולחן ערוך חושן משפט"
+                    "primary": true
                 },
                 {
-                    "lang": "he",
-                    "text": "ש\"ך ח\"מ"
+                    "text": "ש\"ך ח\"מ",
+                    "lang": "he"
                 },
                 {
-                    "lang": "he",
-                    "text": "ש״ך ח״מ"
+                    "text": "ש״ך ח״מ",
+                    "lang": "he"
                 },
                 {
-                    "lang": "he",
-                    "text": "ש\"ך חושן משפט"
+                    "text": "ש\"ך חושן משפט",
+                    "lang": "he"
                 },
                 {
                     "text": "Siftei Kohen on Shulchan Arukh, Choshen Mishpat",

@@ -11,21 +11,33 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
         ],
-        "titles": [
+        "match_templates": [
             {
-                "lang": "he",
-                "text": "תרגום קהלת",
-                "primary": true
-            },
+                "term_slugs": [
+                    "aramaic-targum",
+                    "ecclesiastes"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            222
+        ],
+        "titles": [
             {
                 "lang": "en",
                 "text": "Targ. Koh."
+            },
+            {
+                "text": "תרגום קהלת",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Aramaic Targum to Ecclesiastes",

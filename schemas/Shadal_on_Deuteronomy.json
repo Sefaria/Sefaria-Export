@@ -2,7 +2,7 @@
     "title": "Shadal on Deuteronomy",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Acharonim on Tanakh",
         "Shadal",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "shadal",
+                    "deuteronomy"
+                ]
+            }
+        ],
+        "lengths": [
+            34,
+            301,
+            371
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -42,16 +60,40 @@
             },
             {
                 "lang": "he",
-                "text": "שד\"ל על דברים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "שד\"ל על דברי'"
             },
             {
                 "lang": "he",
                 "text": "שד\"ל על דברי׳"
+            },
+            {
+                "text": "שד״ל על דברים",
+                "lang": "he"
+            },
+            {
+                "text": "שד”ל על דברים",
+                "lang": "he"
+            },
+            {
+                "text": "שד״ל על דברי'",
+                "lang": "he"
+            },
+            {
+                "text": "שד”ל על דברי'",
+                "lang": "he"
+            },
+            {
+                "text": "שד״ל על דברי׳",
+                "lang": "he"
+            },
+            {
+                "text": "שד”ל על דברי׳",
+                "lang": "he"
+            },
+            {
+                "text": "שד\"ל על דברים",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Shadal on Deuteronomy",
@@ -69,9 +111,13 @@
         "key": "Shadal on Deuteronomy"
     },
     "authors": [
-        "Shadal"
+        {
+            "en": "Shadal",
+            "he": "שד\"ל",
+            "slug": "shadal"
+        }
     ],
-    "enDesc": "Commentary written by R. Samuel David Luzzatto, Shadal, (Italy 1800 – 1865). Shadal’s commentary develops a unique approach to resolving the problem that occurs when the pshat (contextual) meaning of the text conflicts with halakha, as presented in midrash halakha. Shadal argues that the pshat reflects what the Torah means and the midrash reflects the halakha and not biblical interpretation. He claims that instead of being biblical interpretation, the midrash halakha is rabbinic legislation with the desire to take a more lenient position than the Torah text. ",
+    "enDesc": "Commentary written by R. Samuel David Luzzatto, Shadal, (Italy 1800 – 1865). Shadal’s commentary develops a unique approach to resolving the problem that occurs when the pshat (contextual) meaning of the text conflicts with halakha, as presented in midrash halakha. Shadal argues that the pshat reflects what the Torah means and the midrash reflects the halakha and not biblical interpretation. He claims that instead of being biblical interpretation, the midrash halakha is rabbinic legislation with the desire to take a more lenient position than the Torah text.",
     "pubDate": "1871",
     "compDate": "1855",
     "compPlace": "Padua",
@@ -101,9 +147,15 @@
         "Shadal on Deuteronomy"
     ],
     "heTitleVariants": [
-        "שד\"ל על דברים",
         "שד\"ל על דברי'",
-        "שד\"ל על דברי׳"
+        "שד\"ל על דברי׳",
+        "שד״ל על דברים",
+        "שד”ל על דברים",
+        "שד״ל על דברי'",
+        "שד”ל על דברי'",
+        "שד״ל על דברי׳",
+        "שד”ל על דברי׳",
+        "שד\"ל על דברים"
     ],
     "sectionNames": [
         "Chapter",
@@ -113,7 +165,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "אחרונים על התנ״ך",
         "שד\"ל",
         "תורה"
     ],

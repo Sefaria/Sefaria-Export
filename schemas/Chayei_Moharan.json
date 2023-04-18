@@ -5,61 +5,84 @@
         "Breslov"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 2,
-        "addressTypes": [
-            "Perek",
-            "Integer"
-        ],
-        "sectionNames": [
-            "Chapter",
-            "Verse"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "Introduction",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "הקדמה",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Paragraph"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסקה"
+                ],
+                "key": "default"
+            }
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Hayyei Moharan"
-            },
-            {
-                "lang": "he",
                 "text": "חיי מוהר\"ן",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "חיי מוהרן"
-            },
-            {
-                "lang": "he",
-                "text": "חיי מוהר\"נ"
-            },
-            {
-                "lang": "he",
-                "text": "חיי מוהר״ן"
-            },
-            {
-                "lang": "he",
-                "text": "חיי מוהר״נ"
-            },
-            {
-                "lang": "en",
                 "text": "Chayei Moharan",
+                "lang": "en",
                 "primary": true
             }
         ],
         "title": "Chayei Moharan",
         "heTitle": "חיי מוהר\"ן",
-        "heSectionNames": [
-            "פרק",
-            "פסוק"
-        ],
         "key": "Chayei Moharan"
     },
+    "default_struct": "Topic",
     "authors": [
-        "Nathan Sternhartz"
+        {
+            "en": "Nathan Sternhartz",
+            "he": "נתן שטרנהרץ",
+            "slug": "nathan-sternhartz"
+        }
     ],
     "enDesc": "Biography of R' Nachman of Breslov, written by his student R' Natan.",
     "heDesc": "תורות וקורות חייו של ר' נחמן מברסלב, נכתב ע\"י תלמידו ר' נתן.",
+    "enShortDesc": "Biography of Rebbe Nachman by his student Rebbe Natan.",
+    "heShortDesc": "ביוגרפיה של רבי נחמן שכתב תלמידו רבי נתן.",
     "pubDate": "1874",
     "compDate": "1820",
     "pubPlace": "Lemberg",
@@ -67,21 +90,1340 @@
     "era": "AH",
     "heTitle": "חיי מוהר\"ן",
     "titleVariants": [
-        "Hayyei Moharan",
         "Chayei Moharan"
     ],
     "heTitleVariants": [
-        "חיי מוהר\"ן",
-        "חיי מוהרן",
-        "חיי מוהר\"נ",
-        "חיי מוהר״ן",
-        "חיי מוהר״נ"
+        "חיי מוהר\"ן"
     ],
-    "sectionNames": [
-        "Chapter",
-        "Verse"
-    ],
-    "depth": 2,
+    "alts": {
+        "Topic": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 0,
+                    "wholeRef": "Chayei Moharan, Introduction",
+                    "includeSections": false,
+                    "titles": [
+                        {
+                            "text": "Introduction",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הקדמה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Introduction",
+                    "heTitle": "הקדמה"
+                },
+                {
+                    "nodes": [
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 1-59",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "Pertaining to the Torahs\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "﻿שיחות וסיפורים וענינים שהיה אצל כל תורה ומעשה",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "Pertaining to the Torahs\n",
+                            "heTitle": "﻿שיחות וסיפורים וענינים שהיה אצל כל תורה ומעשה",
+                            "refs": [
+                                "Chayei Moharan 1",
+                                "Chayei Moharan 2",
+                                "Chayei Moharan 3",
+                                "Chayei Moharan 4",
+                                "Chayei Moharan 5",
+                                "Chayei Moharan 6",
+                                "Chayei Moharan 7",
+                                "Chayei Moharan 8",
+                                "Chayei Moharan 9",
+                                "Chayei Moharan 10",
+                                "Chayei Moharan 11",
+                                "Chayei Moharan 12",
+                                "Chayei Moharan 13",
+                                "Chayei Moharan 14",
+                                "Chayei Moharan 15",
+                                "Chayei Moharan 16",
+                                "Chayei Moharan 17",
+                                "Chayei Moharan 18",
+                                "Chayei Moharan 19",
+                                "Chayei Moharan 20",
+                                "Chayei Moharan 21",
+                                "Chayei Moharan 22",
+                                "Chayei Moharan 23",
+                                "Chayei Moharan 24",
+                                "Chayei Moharan 25",
+                                "Chayei Moharan 26",
+                                "Chayei Moharan 27",
+                                "Chayei Moharan 28",
+                                "Chayei Moharan 29",
+                                "Chayei Moharan 30",
+                                "Chayei Moharan 31",
+                                "Chayei Moharan 32",
+                                "Chayei Moharan 33",
+                                "Chayei Moharan 34",
+                                "Chayei Moharan 35",
+                                "Chayei Moharan 36",
+                                "Chayei Moharan 37",
+                                "Chayei Moharan 38",
+                                "Chayei Moharan 39",
+                                "Chayei Moharan 40",
+                                "Chayei Moharan 41",
+                                "Chayei Moharan 42",
+                                "Chayei Moharan 43",
+                                "Chayei Moharan 44",
+                                "Chayei Moharan 45",
+                                "Chayei Moharan 46",
+                                "Chayei Moharan 47",
+                                "Chayei Moharan 48",
+                                "Chayei Moharan 49",
+                                "Chayei Moharan 50",
+                                "Chayei Moharan 51",
+                                "Chayei Moharan 52",
+                                "Chayei Moharan 53",
+                                "Chayei Moharan 54",
+                                "Chayei Moharan 55",
+                                "Chayei Moharan 56",
+                                "Chayei Moharan 57",
+                                "Chayei Moharan 58",
+                                "Chayei Moharan 59"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 0
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 60-66",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "Pertaining to Sippurei Maasiyot\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "שייך לסיפורי מעשיות",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "Pertaining to Sippurei Maasiyot\n",
+                            "heTitle": "שייך לסיפורי מעשיות",
+                            "refs": [
+                                "Chayei Moharan 60",
+                                "Chayei Moharan 61",
+                                "Chayei Moharan 62",
+                                "Chayei Moharan 63",
+                                "Chayei Moharan 64",
+                                "Chayei Moharan 65",
+                                "Chayei Moharan 66"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 59
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 67-73",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "Pertaining to Sichot HaRan\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "שייך לשיחות הר\"ן",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "Pertaining to Sichot HaRan\n",
+                            "heTitle": "שייך לשיחות הר\"ן",
+                            "refs": [
+                                "Chayei Moharan 67",
+                                "Chayei Moharan 68",
+                                "Chayei Moharan 69",
+                                "Chayei Moharan 70",
+                                "Chayei Moharan 71",
+                                "Chayei Moharan 72",
+                                "Chayei Moharan 73"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 66
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 74-77",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "Pertaining to Sefer HaMidot\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "שייך לספר המידות",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "Pertaining to Sefer HaMidot\n",
+                            "heTitle": "שייך לספר המידות",
+                            "refs": [
+                                "Chayei Moharan 74",
+                                "Chayei Moharan 75",
+                                "Chayei Moharan 76",
+                                "Chayei Moharan 77"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 73
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 78-80",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "Pertaining to Conversations Surrounding Likutei Moharan\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "על תורות בליקוטי מוהר\"ן\n",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "Pertaining to Conversations Surrounding Likutei Moharan\n",
+                            "heTitle": "על תורות בליקוטי מוהר\"ן\n",
+                            "refs": [
+                                "Chayei Moharan 78",
+                                "Chayei Moharan 79",
+                                "Chayei Moharan 80"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 77
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 81-103",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "New Stories\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "סיפורים חדשים",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "New Stories\n",
+                            "heTitle": "סיפורים חדשים",
+                            "refs": [
+                                "Chayei Moharan 81",
+                                "Chayei Moharan 82",
+                                "Chayei Moharan 83",
+                                "Chayei Moharan 84",
+                                "Chayei Moharan 85",
+                                "Chayei Moharan 86",
+                                "Chayei Moharan 87",
+                                "Chayei Moharan 88",
+                                "Chayei Moharan 89",
+                                "Chayei Moharan 90",
+                                "Chayei Moharan 91",
+                                "Chayei Moharan 92",
+                                "Chayei Moharan 93",
+                                "Chayei Moharan 94",
+                                "Chayei Moharan 95",
+                                "Chayei Moharan 96",
+                                "Chayei Moharan 97",
+                                "Chayei Moharan 98",
+                                "Chayei Moharan 99",
+                                "Chayei Moharan 100",
+                                "Chayei Moharan 101",
+                                "Chayei Moharan 102",
+                                "Chayei Moharan 103"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 80
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 104-128",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "His Place of Birth and Residence and his Trips and Excursions\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "מקום לידתו וישיבתו ונסיעותיו וטלטוליו",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "His Place of Birth and Residence and his Trips and Excursions\n",
+                            "heTitle": "מקום לידתו וישיבתו ונסיעותיו וטלטוליו",
+                            "refs": [
+                                "Chayei Moharan 104",
+                                "Chayei Moharan 105",
+                                "Chayei Moharan 106",
+                                "Chayei Moharan 107",
+                                "Chayei Moharan 108",
+                                "Chayei Moharan 109",
+                                "Chayei Moharan 110",
+                                "Chayei Moharan 111",
+                                "Chayei Moharan 112",
+                                "Chayei Moharan 113",
+                                "Chayei Moharan 114",
+                                "Chayei Moharan 115",
+                                "Chayei Moharan 116",
+                                "Chayei Moharan 117",
+                                "Chayei Moharan 118",
+                                "Chayei Moharan 119",
+                                "Chayei Moharan 120",
+                                "Chayei Moharan 121",
+                                "Chayei Moharan 122",
+                                "Chayei Moharan 123",
+                                "Chayei Moharan 124",
+                                "Chayei Moharan 125",
+                                "Chayei Moharan 126",
+                                "Chayei Moharan 127",
+                                "Chayei Moharan 128"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 103
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 129-150",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "His Journey to the Land of Israel\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "נסיעתו לארץ ישראל",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "His Journey to the Land of Israel\n",
+                            "heTitle": "נסיעתו לארץ ישראל",
+                            "refs": [
+                                "Chayei Moharan 129",
+                                "Chayei Moharan 130",
+                                "Chayei Moharan 131",
+                                "Chayei Moharan 132",
+                                "Chayei Moharan 133",
+                                "Chayei Moharan 134",
+                                "Chayei Moharan 135",
+                                "Chayei Moharan 136",
+                                "Chayei Moharan 137",
+                                "Chayei Moharan 138",
+                                "Chayei Moharan 139",
+                                "Chayei Moharan 140",
+                                "Chayei Moharan 141",
+                                "Chayei Moharan 142",
+                                "Chayei Moharan 143",
+                                "Chayei Moharan 144",
+                                "Chayei Moharan 145",
+                                "Chayei Moharan 146",
+                                "Chayei Moharan 147",
+                                "Chayei Moharan 148",
+                                "Chayei Moharan 149",
+                                "Chayei Moharan 150"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 128
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 151-166",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "His Journey to Navritch, Zaslav, Dubna and Brod\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "נסיעתו לנאווריטש, לזאסלאב, לדובנא ולבראד",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "His Journey to Navritch, Zaslav, Dubna and Brod\n",
+                            "heTitle": "נסיעתו לנאווריטש, לזאסלאב, לדובנא ולבראד",
+                            "refs": [
+                                "Chayei Moharan 151",
+                                "Chayei Moharan 152",
+                                "Chayei Moharan 153",
+                                "Chayei Moharan 154",
+                                "Chayei Moharan 155",
+                                "Chayei Moharan 156",
+                                "Chayei Moharan 157",
+                                "Chayei Moharan 158",
+                                "Chayei Moharan 159",
+                                "Chayei Moharan 160",
+                                "Chayei Moharan 161",
+                                "Chayei Moharan 162",
+                                "Chayei Moharan 163",
+                                "Chayei Moharan 164",
+                                "Chayei Moharan 165",
+                                "Chayei Moharan 166"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 150
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 167-184",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "His Journey to Lemberg\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "נסיעתו ללמברג",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "His Journey to Lemberg\n",
+                            "heTitle": "נסיעתו ללמברג",
+                            "refs": [
+                                "Chayei Moharan 167",
+                                "Chayei Moharan 168",
+                                "Chayei Moharan 169",
+                                "Chayei Moharan 170",
+                                "Chayei Moharan 171",
+                                "Chayei Moharan 172",
+                                "Chayei Moharan 173",
+                                "Chayei Moharan 174",
+                                "Chayei Moharan 175",
+                                "Chayei Moharan 176",
+                                "Chayei Moharan 177",
+                                "Chayei Moharan 178",
+                                "Chayei Moharan 179",
+                                "Chayei Moharan 180",
+                                "Chayei Moharan 181",
+                                "Chayei Moharan 182",
+                                "Chayei Moharan 183",
+                                "Chayei Moharan 184"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 166
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 185-229",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "His Journey to and his Residence in Uman\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "נסיעתו וישיבתו באומין",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "His Journey to and his Residence in Uman\n",
+                            "heTitle": "נסיעתו וישיבתו באומין",
+                            "refs": [
+                                "Chayei Moharan 185",
+                                "Chayei Moharan 186",
+                                "Chayei Moharan 187",
+                                "Chayei Moharan 188",
+                                "Chayei Moharan 189",
+                                "Chayei Moharan 190",
+                                "Chayei Moharan 191",
+                                "Chayei Moharan 192",
+                                "Chayei Moharan 193",
+                                "Chayei Moharan 194",
+                                "Chayei Moharan 195",
+                                "Chayei Moharan 196",
+                                "Chayei Moharan 197",
+                                "Chayei Moharan 198",
+                                "Chayei Moharan 199",
+                                "Chayei Moharan 200",
+                                "Chayei Moharan 201",
+                                "Chayei Moharan 202",
+                                "Chayei Moharan 203",
+                                "Chayei Moharan 204",
+                                "Chayei Moharan 205",
+                                "Chayei Moharan 206",
+                                "Chayei Moharan 207",
+                                "Chayei Moharan 208",
+                                "Chayei Moharan 209",
+                                "Chayei Moharan 210",
+                                "Chayei Moharan 211",
+                                "Chayei Moharan 212",
+                                "Chayei Moharan 213",
+                                "Chayei Moharan 214",
+                                "Chayei Moharan 215",
+                                "Chayei Moharan 216",
+                                "Chayei Moharan 217",
+                                "Chayei Moharan 218",
+                                "Chayei Moharan 219",
+                                "Chayei Moharan 220",
+                                "Chayei Moharan 221",
+                                "Chayei Moharan 222",
+                                "Chayei Moharan 223",
+                                "Chayei Moharan 224",
+                                "Chayei Moharan 225",
+                                "Chayei Moharan 226",
+                                "Chayei Moharan 227",
+                                "Chayei Moharan 228",
+                                "Chayei Moharan 229"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 184
+                        }
+                    ],
+                    "titles": [
+                        {
+                            "text": "Part I",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "חלק א",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Part I",
+                    "heTitle": "חלק א"
+                },
+                {
+                    "nodes": [
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 230-240",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "His Effort and Toil in Service of Hashem\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "יגיעתו וטרחתו בעבודת ה'",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "His Effort and Toil in Service of Hashem\n",
+                            "heTitle": "יגיעתו וטרחתו בעבודת ה'",
+                            "refs": [
+                                "Chayei Moharan 230",
+                                "Chayei Moharan 231",
+                                "Chayei Moharan 232",
+                                "Chayei Moharan 233",
+                                "Chayei Moharan 234",
+                                "Chayei Moharan 235",
+                                "Chayei Moharan 236",
+                                "Chayei Moharan 237",
+                                "Chayei Moharan 238",
+                                "Chayei Moharan 239",
+                                "Chayei Moharan 240"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 229
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 241-290",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "The Greatness of his Awesome Attainments\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "גדולת נוראות השגתו",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "The Greatness of his Awesome Attainments\n",
+                            "heTitle": "גדולת נוראות השגתו",
+                            "refs": [
+                                "Chayei Moharan 241",
+                                "Chayei Moharan 242",
+                                "Chayei Moharan 243",
+                                "Chayei Moharan 244",
+                                "Chayei Moharan 245",
+                                "Chayei Moharan 246",
+                                "Chayei Moharan 247",
+                                "Chayei Moharan 248",
+                                "Chayei Moharan 249",
+                                "Chayei Moharan 250",
+                                "Chayei Moharan 251",
+                                "Chayei Moharan 252",
+                                "Chayei Moharan 253",
+                                "Chayei Moharan 254",
+                                "Chayei Moharan 255",
+                                "Chayei Moharan 256",
+                                "Chayei Moharan 257",
+                                "Chayei Moharan 258",
+                                "Chayei Moharan 259",
+                                "Chayei Moharan 260",
+                                "Chayei Moharan 261",
+                                "Chayei Moharan 262",
+                                "Chayei Moharan 263",
+                                "Chayei Moharan 264",
+                                "Chayei Moharan 265",
+                                "Chayei Moharan 266",
+                                "Chayei Moharan 267",
+                                "Chayei Moharan 268",
+                                "Chayei Moharan 269",
+                                "Chayei Moharan 270",
+                                "Chayei Moharan 271",
+                                "Chayei Moharan 272",
+                                "Chayei Moharan 273",
+                                "Chayei Moharan 274",
+                                "Chayei Moharan 275",
+                                "Chayei Moharan 276",
+                                "Chayei Moharan 277",
+                                "Chayei Moharan 278",
+                                "Chayei Moharan 279",
+                                "Chayei Moharan 280",
+                                "Chayei Moharan 281",
+                                "Chayei Moharan 282",
+                                "Chayei Moharan 283",
+                                "Chayei Moharan 284",
+                                "Chayei Moharan 285",
+                                "Chayei Moharan 286",
+                                "Chayei Moharan 287",
+                                "Chayei Moharan 288",
+                                "Chayei Moharan 289",
+                                "Chayei Moharan 290"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 240
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 291-339",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "His Followers' Stature\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "מעלת המתקרבים אליו",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "His Followers' Stature\n",
+                            "heTitle": "מעלת המתקרבים אליו",
+                            "refs": [
+                                "Chayei Moharan 291",
+                                "Chayei Moharan 292",
+                                "Chayei Moharan 293",
+                                "Chayei Moharan 294",
+                                "Chayei Moharan 295",
+                                "Chayei Moharan 296",
+                                "Chayei Moharan 297",
+                                "Chayei Moharan 298",
+                                "Chayei Moharan 299",
+                                "Chayei Moharan 300",
+                                "Chayei Moharan 301",
+                                "Chayei Moharan 302",
+                                "Chayei Moharan 303",
+                                "Chayei Moharan 304",
+                                "Chayei Moharan 305",
+                                "Chayei Moharan 306",
+                                "Chayei Moharan 307",
+                                "Chayei Moharan 308",
+                                "Chayei Moharan 309",
+                                "Chayei Moharan 310",
+                                "Chayei Moharan 311",
+                                "Chayei Moharan 312",
+                                "Chayei Moharan 313",
+                                "Chayei Moharan 314",
+                                "Chayei Moharan 315",
+                                "Chayei Moharan 316",
+                                "Chayei Moharan 317",
+                                "Chayei Moharan 318",
+                                "Chayei Moharan 319",
+                                "Chayei Moharan 320",
+                                "Chayei Moharan 321",
+                                "Chayei Moharan 322",
+                                "Chayei Moharan 323",
+                                "Chayei Moharan 324",
+                                "Chayei Moharan 325",
+                                "Chayei Moharan 326",
+                                "Chayei Moharan 327",
+                                "Chayei Moharan 328",
+                                "Chayei Moharan 329",
+                                "Chayei Moharan 330",
+                                "Chayei Moharan 331",
+                                "Chayei Moharan 332",
+                                "Chayei Moharan 333",
+                                "Chayei Moharan 334",
+                                "Chayei Moharan 335",
+                                "Chayei Moharan 336",
+                                "Chayei Moharan 337",
+                                "Chayei Moharan 338",
+                                "Chayei Moharan 339"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 290
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 340-391",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "The Heights of his Holy Torot and Books\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "מעלת תורתו וספריו הקדושים",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "The Heights of his Holy Torot and Books\n",
+                            "heTitle": "מעלת תורתו וספריו הקדושים",
+                            "refs": [
+                                "Chayei Moharan 340",
+                                "Chayei Moharan 341",
+                                "Chayei Moharan 342",
+                                "Chayei Moharan 343",
+                                "Chayei Moharan 344",
+                                "Chayei Moharan 345",
+                                "Chayei Moharan 346",
+                                "Chayei Moharan 347",
+                                "Chayei Moharan 348",
+                                "Chayei Moharan 349",
+                                "Chayei Moharan 350",
+                                "Chayei Moharan 351",
+                                "Chayei Moharan 352",
+                                "Chayei Moharan 353",
+                                "Chayei Moharan 354",
+                                "Chayei Moharan 355",
+                                "Chayei Moharan 356",
+                                "Chayei Moharan 357",
+                                "Chayei Moharan 358",
+                                "Chayei Moharan 359",
+                                "Chayei Moharan 360",
+                                "Chayei Moharan 361",
+                                "Chayei Moharan 362",
+                                "Chayei Moharan 363",
+                                "Chayei Moharan 364",
+                                "Chayei Moharan 365",
+                                "Chayei Moharan 366",
+                                "Chayei Moharan 367",
+                                "Chayei Moharan 368",
+                                "Chayei Moharan 369",
+                                "Chayei Moharan 370",
+                                "Chayei Moharan 371",
+                                "Chayei Moharan 372",
+                                "Chayei Moharan 373",
+                                "Chayei Moharan 374",
+                                "Chayei Moharan 375",
+                                "Chayei Moharan 376",
+                                "Chayei Moharan 377",
+                                "Chayei Moharan 378",
+                                "Chayei Moharan 379",
+                                "Chayei Moharan 380",
+                                "Chayei Moharan 381",
+                                "Chayei Moharan 382",
+                                "Chayei Moharan 383",
+                                "Chayei Moharan 384",
+                                "Chayei Moharan 385",
+                                "Chayei Moharan 386",
+                                "Chayei Moharan 387",
+                                "Chayei Moharan 388",
+                                "Chayei Moharan 389",
+                                "Chayei Moharan 390",
+                                "Chayei Moharan 391"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 339
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 392-402",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "The Matter of the Controversy Over him\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "ענין המחלוקת שעליו",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "The Matter of the Controversy Over him\n",
+                            "heTitle": "ענין המחלוקת שעליו",
+                            "refs": [
+                                "Chayei Moharan 392",
+                                "Chayei Moharan 393",
+                                "Chayei Moharan 394",
+                                "Chayei Moharan 395",
+                                "Chayei Moharan 396",
+                                "Chayei Moharan 397",
+                                "Chayei Moharan 398",
+                                "Chayei Moharan 399",
+                                "Chayei Moharan 400",
+                                "Chayei Moharan 401",
+                                "Chayei Moharan 402"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 391
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 403-406",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "The Great Preciousness of his Rosh Hashanah\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "גודל יקרת ראש השנה שלו",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "The Great Preciousness of his Rosh Hashanah\n",
+                            "heTitle": "גודל יקרת ראש השנה שלו",
+                            "refs": [
+                                "Chayei Moharan 403",
+                                "Chayei Moharan 404",
+                                "Chayei Moharan 405",
+                                "Chayei Moharan 406"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 402
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 407-425",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "To Distance Oneself from Chakirot and Strengthen Oneself in Emunah\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "להתרחק מחקירות ולהתחזק באמונה",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "To Distance Oneself from Chakirot and Strengthen Oneself in Emunah\n",
+                            "heTitle": "להתרחק מחקירות ולהתחזק באמונה",
+                            "refs": [
+                                "Chayei Moharan 407",
+                                "Chayei Moharan 408",
+                                "Chayei Moharan 409",
+                                "Chayei Moharan 410",
+                                "Chayei Moharan 411",
+                                "Chayei Moharan 412",
+                                "Chayei Moharan 413",
+                                "Chayei Moharan 414",
+                                "Chayei Moharan 415",
+                                "Chayei Moharan 416",
+                                "Chayei Moharan 417",
+                                "Chayei Moharan 418",
+                                "Chayei Moharan 419",
+                                "Chayei Moharan 420",
+                                "Chayei Moharan 421",
+                                "Chayei Moharan 422",
+                                "Chayei Moharan 423",
+                                "Chayei Moharan 424",
+                                "Chayei Moharan 425"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 406
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 426-429",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "His Witty Sayings\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "דברי צחות שלו",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "His Witty Sayings\n",
+                            "heTitle": "דברי צחות שלו",
+                            "refs": [
+                                "Chayei Moharan 426",
+                                "Chayei Moharan 427",
+                                "Chayei Moharan 428",
+                                "Chayei Moharan 429"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 425
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 430-435",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "Not to Be Insistent on Anything, and Not to Press the Time\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "שלא להתעקש על שום דבר ואין לדחוק את השעה",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "Not to Be Insistent on Anything, and Not to Press the Time\n",
+                            "heTitle": "שלא להתעקש על שום דבר ואין לדחוק את השעה",
+                            "refs": [
+                                "Chayei Moharan 430",
+                                "Chayei Moharan 431",
+                                "Chayei Moharan 432",
+                                "Chayei Moharan 433",
+                                "Chayei Moharan 434",
+                                "Chayei Moharan 435"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 429
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 436-443",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "The Benefits of Hitbodedut With God\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "מעלת ההתבודדות",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "The Benefits of Hitbodedut With God\n",
+                            "heTitle": "מעלת ההתבודדות",
+                            "refs": [
+                                "Chayei Moharan 436",
+                                "Chayei Moharan 437",
+                                "Chayei Moharan 438",
+                                "Chayei Moharan 439",
+                                "Chayei Moharan 440",
+                                "Chayei Moharan 441",
+                                "Chayei Moharan 442",
+                                "Chayei Moharan 443"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 435
+                        },
+                        {
+                            "nodeType": "ArrayMapNode",
+                            "depth": 1,
+                            "wholeRef": "Chayei Moharan 444-615",
+                            "includeSections": true,
+                            "titles": [
+                                {
+                                    "text": "His Devotion to Hashem\n",
+                                    "lang": "en",
+                                    "primary": true
+                                },
+                                {
+                                    "text": "עבודת השם",
+                                    "lang": "he",
+                                    "primary": true
+                                }
+                            ],
+                            "title": "His Devotion to Hashem\n",
+                            "heTitle": "עבודת השם",
+                            "refs": [
+                                "Chayei Moharan 444",
+                                "Chayei Moharan 445",
+                                "Chayei Moharan 446",
+                                "Chayei Moharan 447",
+                                "Chayei Moharan 448",
+                                "Chayei Moharan 449",
+                                "Chayei Moharan 450",
+                                "Chayei Moharan 451",
+                                "Chayei Moharan 452",
+                                "Chayei Moharan 453",
+                                "Chayei Moharan 454",
+                                "Chayei Moharan 455",
+                                "Chayei Moharan 456",
+                                "Chayei Moharan 457",
+                                "Chayei Moharan 458",
+                                "Chayei Moharan 459",
+                                "Chayei Moharan 460",
+                                "Chayei Moharan 461",
+                                "Chayei Moharan 462",
+                                "Chayei Moharan 463",
+                                "Chayei Moharan 464",
+                                "Chayei Moharan 465",
+                                "Chayei Moharan 466",
+                                "Chayei Moharan 467",
+                                "Chayei Moharan 468",
+                                "Chayei Moharan 469",
+                                "Chayei Moharan 470",
+                                "Chayei Moharan 471",
+                                "Chayei Moharan 472",
+                                "Chayei Moharan 473",
+                                "Chayei Moharan 474",
+                                "Chayei Moharan 475",
+                                "Chayei Moharan 476",
+                                "Chayei Moharan 477",
+                                "Chayei Moharan 478",
+                                "Chayei Moharan 479",
+                                "Chayei Moharan 480",
+                                "Chayei Moharan 481",
+                                "Chayei Moharan 482",
+                                "Chayei Moharan 483",
+                                "Chayei Moharan 484",
+                                "Chayei Moharan 485",
+                                "Chayei Moharan 486",
+                                "Chayei Moharan 487",
+                                "Chayei Moharan 488",
+                                "Chayei Moharan 489",
+                                "Chayei Moharan 490",
+                                "Chayei Moharan 491",
+                                "Chayei Moharan 492",
+                                "Chayei Moharan 493",
+                                "Chayei Moharan 494",
+                                "Chayei Moharan 495",
+                                "Chayei Moharan 496",
+                                "Chayei Moharan 497",
+                                "Chayei Moharan 498",
+                                "Chayei Moharan 499",
+                                "Chayei Moharan 500",
+                                "Chayei Moharan 501",
+                                "Chayei Moharan 502",
+                                "Chayei Moharan 503",
+                                "Chayei Moharan 504",
+                                "Chayei Moharan 505",
+                                "Chayei Moharan 506",
+                                "Chayei Moharan 507",
+                                "Chayei Moharan 508",
+                                "Chayei Moharan 509",
+                                "Chayei Moharan 510",
+                                "Chayei Moharan 511",
+                                "Chayei Moharan 512",
+                                "Chayei Moharan 513",
+                                "Chayei Moharan 514",
+                                "Chayei Moharan 515",
+                                "Chayei Moharan 516",
+                                "Chayei Moharan 517",
+                                "Chayei Moharan 518",
+                                "Chayei Moharan 519",
+                                "Chayei Moharan 520",
+                                "Chayei Moharan 521",
+                                "Chayei Moharan 522",
+                                "Chayei Moharan 523",
+                                "Chayei Moharan 524",
+                                "Chayei Moharan 525",
+                                "Chayei Moharan 526",
+                                "Chayei Moharan 527",
+                                "Chayei Moharan 528",
+                                "Chayei Moharan 529",
+                                "Chayei Moharan 530",
+                                "Chayei Moharan 531",
+                                "Chayei Moharan 532",
+                                "Chayei Moharan 533",
+                                "Chayei Moharan 534",
+                                "Chayei Moharan 535",
+                                "Chayei Moharan 536",
+                                "Chayei Moharan 537",
+                                "Chayei Moharan 538",
+                                "Chayei Moharan 539",
+                                "Chayei Moharan 540",
+                                "Chayei Moharan 541",
+                                "Chayei Moharan 542",
+                                "Chayei Moharan 543",
+                                "Chayei Moharan 544",
+                                "Chayei Moharan 545",
+                                "Chayei Moharan 546",
+                                "Chayei Moharan 547",
+                                "Chayei Moharan 548",
+                                "Chayei Moharan 549",
+                                "Chayei Moharan 550",
+                                "Chayei Moharan 551",
+                                "Chayei Moharan 552",
+                                "Chayei Moharan 553",
+                                "Chayei Moharan 554",
+                                "Chayei Moharan 555",
+                                "Chayei Moharan 556",
+                                "Chayei Moharan 557",
+                                "Chayei Moharan 558",
+                                "Chayei Moharan 559",
+                                "Chayei Moharan 560",
+                                "Chayei Moharan 561",
+                                "Chayei Moharan 562",
+                                "Chayei Moharan 563",
+                                "Chayei Moharan 564",
+                                "Chayei Moharan 565",
+                                "Chayei Moharan 566",
+                                "Chayei Moharan 567",
+                                "Chayei Moharan 568",
+                                "Chayei Moharan 569",
+                                "Chayei Moharan 570",
+                                "Chayei Moharan 571",
+                                "Chayei Moharan 572",
+                                "Chayei Moharan 573",
+                                "Chayei Moharan 574",
+                                "Chayei Moharan 575",
+                                "Chayei Moharan 576",
+                                "Chayei Moharan 577",
+                                "Chayei Moharan 578",
+                                "Chayei Moharan 579",
+                                "Chayei Moharan 580",
+                                "Chayei Moharan 581",
+                                "Chayei Moharan 582",
+                                "Chayei Moharan 583",
+                                "Chayei Moharan 584",
+                                "Chayei Moharan 585",
+                                "Chayei Moharan 586",
+                                "Chayei Moharan 587",
+                                "Chayei Moharan 588",
+                                "Chayei Moharan 589",
+                                "Chayei Moharan 590",
+                                "Chayei Moharan 591",
+                                "Chayei Moharan 592",
+                                "Chayei Moharan 593",
+                                "Chayei Moharan 594",
+                                "Chayei Moharan 595",
+                                "Chayei Moharan 596",
+                                "Chayei Moharan 597",
+                                "Chayei Moharan 598",
+                                "Chayei Moharan 599",
+                                "Chayei Moharan 600",
+                                "Chayei Moharan 601",
+                                "Chayei Moharan 602",
+                                "Chayei Moharan 603",
+                                "Chayei Moharan 604",
+                                "Chayei Moharan 605",
+                                "Chayei Moharan 606",
+                                "Chayei Moharan 607",
+                                "Chayei Moharan 608",
+                                "Chayei Moharan 609",
+                                "Chayei Moharan 610",
+                                "Chayei Moharan 611",
+                                "Chayei Moharan 612",
+                                "Chayei Moharan 613",
+                                "Chayei Moharan 614",
+                                "Chayei Moharan 615"
+                            ],
+                            "addressTypes": [
+                                "Integer"
+                            ],
+                            "sectionNames": [
+                                "Chapter"
+                            ],
+                            "offset": 443
+                        }
+                    ],
+                    "titles": [
+                        {
+                            "text": "Part II",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "חלק ב",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Part II",
+                    "heTitle": "חלק ב"
+                }
+            ],
+            "titles": [
+                {
+                    "text": "חיי מוהר\"ן",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Chayei Moharan",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Chayei Moharan",
+            "heTitle": "חיי מוהר\"ן"
+        }
+    },
     "heCategories": [
         "חסידות",
         "ברסלב"

@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "deuteronomy"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "deuteronomy"
+                ]
+            }
         ],
         "lengths": [
             34,
@@ -61,9 +74,16 @@
                 "lang": "en"
             },
             {
-                "text": "דברים",
-                "primary": true,
-                "lang": "he"
+                "text": "Deutéronome",
+                "lang": "en"
+            },
+            {
+                "text": "Deutéron.",
+                "lang": "en"
+            },
+            {
+                "text": "Deutér.",
+                "lang": "en"
             },
             {
                 "text": "דברי'",
@@ -74,9 +94,14 @@
                 "lang": "he"
             },
             {
+                "text": "דברים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Deuteronomy",
-                "primary": true,
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Deuteronomy",
@@ -92,13 +117,19 @@
         5
     ],
     "authors": [],
-    "enDesc": "Devarim (Deuteronomy) consists of three sermons by Moses delivered shortly before entering the Promised Land. The first sermon recalls the period of forty years of wondering in the wilderness and concludes with an exhortation to observe the Torah’s commandments. The second reminds the Israelites to remain loyal to God and not to follow strange gods. To observe the laws He has given them, on which possession of the Promised Land is dependent. The third provides comfort that even if Israel is unfaithful and exiled from the land, through repentance a return is possible.",
+    "enDesc": "Deuteronomy (“Devarim”) is the fifth and last book of the Torah, primarily consisting of Moses’ final speeches ahead of his death. He reminds the Israelites of seminal events that happened in the desert, like the sin of the spies, the giving of the Torah, and the sin of the Golden Calf. He also reviews old laws, introduces new laws to follow as the Israelites enter Israel, and emphasizes the importance of faithfulness to God.",
+    "heDesc": "ספר דברים הוא החמישי בחמשת חומשי התורה ומורכב בעיקר מנאומיו האחרונים של משה טרם מותו. משה מזכיר לבני ישראל אירועי מפתח שקרו במדבר, דוגמת מתן תורה, חטא העגל וחטא המרגלים. נוסף על כך הוא סוקר את המצוות שניתנו לבני ישראל בעבר ומוסיף פרטים המתאימים לחיים בארץ, ובהם ריכוז עבודת הקורבנות במקום אשר יבחר האל וסדרי המשפט. לקראת סיום מתואר מעמד הקללה והברכה בהר גריזים והר עיבל ומובאת שירת האזינו, המדגישה את חובת ההליכה בדרכי אלוהים.",
+    "enShortDesc": "Moses’ final speeches, recalling events of the desert, reviewing old laws, introducing new ones, and calling for faithfulness to God.",
+    "heShortDesc": "נאומי משה האחרונים, חזרה על אירועי המדבר, סקירה של חוקים שנאמרו בספרים הקודמים, הצגת חוקים חדשים וקריאה לנאמנות לאלוהים.",
     "pubDate": "1488",
     "compDate": "-900",
     "compPlace": "Sinai/Canaan",
     "pubPlace": "Soncino",
     "errorMargin": "500",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "דברים",
     "titleVariants": [
         "Deu.",
@@ -111,12 +142,15 @@
         "Deuter.",
         "Debarim",
         "Dev.",
+        "Deutéronome",
+        "Deutéron.",
+        "Deutér.",
         "Deuteronomy"
     ],
     "heTitleVariants": [
-        "דברים",
         "דברי'",
-        "דברי׳"
+        "דברי׳",
+        "דברים"
     ],
     "alts": {
         "Parasha": {
@@ -139,6 +173,21 @@
                         "Deuteronomy 2:2-2:30",
                         "Deuteronomy 2:31-3:14",
                         "Deuteronomy 3:15-3:22"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "devarim"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "devarim"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Devarim",
                     "titles": [
@@ -190,6 +239,21 @@
                         "Deuteronomy 5:19-6:3",
                         "Deuteronomy 6:4-6:25",
                         "Deuteronomy 7:1-7:11"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "vaetchanan"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "vaetchanan"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Vaetchanan",
                     "titles": [
@@ -254,6 +318,21 @@
                         "Deuteronomy 11:10-11:21",
                         "Deuteronomy 11:22-11:25"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "eikev"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eikev"
+                            ],
+                            "scope": "any"
+                        }
+                    ],
                     "sharedTitle": "Eikev",
                     "titles": [
                         {
@@ -301,6 +380,21 @@
                         "Deuteronomy 15:1-15:18",
                         "Deuteronomy 15:19-16:17"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "reeh"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "reeh"
+                            ],
+                            "scope": "any"
+                        }
+                    ],
                     "sharedTitle": "Re'eh",
                     "titles": [
                         {
@@ -343,6 +437,21 @@
                         "Deuteronomy 18:14-19:13",
                         "Deuteronomy 19:14-20:9",
                         "Deuteronomy 20:10-21:9"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "shoftim"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "shoftim"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Shoftim",
                     "titles": [
@@ -394,6 +503,21 @@
                         "Deuteronomy 23:25-24:4",
                         "Deuteronomy 24:5-24:13",
                         "Deuteronomy 24:14-25:19"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "ki-teitzei"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ki-teitzei"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Ki Teitzei",
                     "titles": [
@@ -458,6 +582,21 @@
                         "Deuteronomy 28:7-28:69",
                         "Deuteronomy 29:1-29:8"
                     ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "ki-tavo"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ki-tavo"
+                            ],
+                            "scope": "any"
+                        }
+                    ],
                     "sharedTitle": "Ki Tavo",
                     "titles": [
                         {
@@ -500,6 +639,21 @@
                         "Deuteronomy 30:7-30:10",
                         "Deuteronomy 30:11-30:14",
                         "Deuteronomy 30:15-30:20"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "nitzavim"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "nitzavim"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Nitzavim",
                     "titles": [
@@ -547,6 +701,21 @@
                         "Deuteronomy 31:14-31:19",
                         "Deuteronomy 31:20-31:24",
                         "Deuteronomy 31:25-31:30"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "vayeilech"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "vayeilech"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Vayeilech",
                     "titles": [
@@ -598,6 +767,21 @@
                         "Deuteronomy 32:29-32:39",
                         "Deuteronomy 32:40-32:43",
                         "Deuteronomy 32:44-32:52"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "haazinu"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "haazinu"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "Ha'Azinu",
                     "titles": [
@@ -657,6 +841,21 @@
                         "Deuteronomy 33:22–26",
                         "Deuteronomy 33:27–29",
                         "Deuteronomy 34:1-12"
+                    ],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "parasha",
+                                "vzot-haberachah"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "vzot-haberachah"
+                            ],
+                            "scope": "any"
+                        }
                     ],
                     "sharedTitle": "V'Zot HaBerachah",
                     "titles": [
@@ -733,9 +932,16 @@
                     "lang": "en"
                 },
                 {
-                    "text": "דברים",
-                    "primary": true,
-                    "lang": "he"
+                    "text": "Deutéronome",
+                    "lang": "en"
+                },
+                {
+                    "text": "Deutéron.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Deutér.",
+                    "lang": "en"
                 },
                 {
                     "text": "דברי'",
@@ -746,9 +952,14 @@
                     "lang": "he"
                 },
                 {
+                    "text": "דברים",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
                     "text": "Deuteronomy",
-                    "primary": true,
-                    "lang": "en"
+                    "lang": "en",
+                    "primary": true
                 }
             ],
             "title": "Deuteronomy",

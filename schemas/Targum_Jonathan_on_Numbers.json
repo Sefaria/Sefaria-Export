@@ -11,21 +11,28 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "targum-jonathan",
+                    "numbers"
+                ]
+            }
+        ],
+        "lengths": [
+            36,
+            1288
+        ],
         "titles": [
             {
                 "lang": "en",
                 "text": "Targum Yonatan on Numbers"
-            },
-            {
-                "lang": "he",
-                "text": "תרגום יונתן על במדבר",
-                "primary": true
             },
             {
                 "lang": "en",
@@ -34,6 +41,11 @@
             {
                 "lang": "en",
                 "text": "Targ. Y. I Num."
+            },
+            {
+                "text": "תרגום יונתן על במדבר",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Targum Jonathan on Numbers",

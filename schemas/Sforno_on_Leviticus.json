@@ -2,7 +2,7 @@
     "title": "Sforno on Leviticus",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Sforno",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sforno",
+                    "leviticus"
+                ]
+            }
+        ],
+        "lengths": [
+            27,
+            241,
+            333
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -33,8 +51,8 @@
                 "text": "Sforno on Lev"
             },
             {
-                "lang": "he",
                 "text": "ספורנו על ויקרא",
+                "lang": "he",
                 "primary": true
             },
             {
@@ -53,9 +71,14 @@
         "key": "Sforno on Leviticus"
     },
     "authors": [
-        "Sforno"
+        {
+            "en": "Sforno",
+            "he": "ספורנו",
+            "slug": "sforno"
+        }
     ],
-    "enDesc": "Commentary on the Torah by Rabbi Ovadiah ben Jacob Sforno, a 16th-century Italian rabbi and physician.  ",
+    "enDesc": "Commentary on the Torah by Rabbi Ovadiah ben Jacob Sforno, a 16th-century Italian rabbi and physician. The author often cites rabbinic statements to address philosophical as well as textual issues, and offers many novel interpretations rooted in these traditions.",
+    "enShortDesc": "16th-century commentary on the Torah by Rabbi Ovadiah ben Jacob Sforno, an Italian rabbi and physician.",
     "pubDate": "1567",
     "compDate": "1525",
     "compPlace": "Bologna",
@@ -93,7 +116,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "ספורנו",
         "תורה"
     ],

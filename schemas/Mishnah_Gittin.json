@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "gittin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gittin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "gittin"
+                ]
+            }
+        ],
         "lengths": [
             9,
             75
@@ -33,11 +52,6 @@
                 "text": "M. Gittin"
             },
             {
-                "lang": "he",
-                "text": "משנה גיטין",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Gitt."
             },
@@ -46,8 +60,13 @@
                 "text": "Mishnah Giṭṭin"
             },
             {
-                "lang": "en",
+                "text": "משנה גיטין",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Gittin",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -64,7 +83,9 @@
         6
     ],
     "authors": [],
-    "enDesc": "Gittin (Documents) belongs to the third order, Nashim (Women) and discusses the concepts of divorces and other documents. It has nine chapters.",
+    "enDesc": "Gittin (plural of “Get,” or writ of divorce) is a tractate in Seder Nashim (“Order of Women,” which addresses family law). Its nine chapters primarily discuss the process of writing and transmitting a get. Chapter four addresses the concept of tikkun ha’olam, or enactments instituted by the sages for the betterment of the world.",
+    "enShortDesc": "Laws relating to divorce, focusing on the get (bill of divorce) and its delivery.",
+    "heShortDesc": "דיני גירושין, בדגש על כתיבת שטר הגט ונתינתו.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה גיטין",
     "titleVariants": [
         "Mishna Gittin",

@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Yadayim",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Tahorot"
     ],
     "schema": {
@@ -16,42 +16,55 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "yadayim"
+                ]
+            }
+        ],
         "lengths": [
-            2
+            2,
+            18
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Tos. Yadayim"
+                "text": "Tos. Yadayim",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "T. Yadayim"
+                "text": "T. Yadayim",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Tosefta Yadaim"
+                "text": "Tosefta Yadaim",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Tos. Yadaim"
+                "text": "Tos. Yadaim",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "T. Yadaim"
+                "text": "T. Yadaim",
+                "lang": "en"
             },
             {
-                "lang": "he",
+                "text": "Tosef. Yad.",
+                "lang": "en"
+            },
+            {
+                "text": "תוספתא ידיים",
+                "lang": "he"
+            },
+            {
                 "text": "תוספתא ידים",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "en",
-                "text": "Tosef. Yad."
-            },
-            {
-                "lang": "en",
                 "text": "Tosefta Yadayim",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -68,6 +81,8 @@
     ],
     "authors": [],
     "enDesc": "Yadayim (Hands) belongs to the sixth order, Tahorot (Purities) and discusses Rabbinic impurity related to the hands. It has two chapters.",
+    "enShortDesc": "Rabbinic decree to wash hands before eating due to assumed impurity of the hands.",
+    "heShortDesc": "גזרת חכמים ליטול ידיים לפני האכילה בשל ההנחה שהידיים טמאות.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -86,6 +101,7 @@
         "Tosefta Yadayim"
     ],
     "heTitleVariants": [
+        "תוספתא ידיים",
         "תוספתא ידים"
     ],
     "sectionNames": [
@@ -94,8 +110,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר טהרות"
     ],
     "compDateString": {

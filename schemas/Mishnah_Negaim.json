@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "negaim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "negaim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "negaim"
+                ]
+            }
+        ],
         "lengths": [
             14,
             115
@@ -31,11 +50,6 @@
             {
                 "lang": "en",
                 "text": "M Negaim"
-            },
-            {
-                "lang": "he",
-                "text": "משנה נגעים",
-                "primary": true
             },
             {
                 "lang": "he",
@@ -58,8 +72,13 @@
                 "text": "Mishnah N’gaʿim"
             },
             {
-                "lang": "en",
+                "text": "משנה נגעים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Negaim",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -77,6 +96,8 @@
     ],
     "authors": [],
     "enDesc": "Negaim (Plagues) belongs to the sixth order, Tahorot (Purities) and discusses the uncleanness from a corpse and its peculiar property of defling people or objects either by the latter \"tenting\" over the corpse, or by the corpse \"tenting\" over them, or by the presence of both corpse and person or object under the same roof or tent. It has fourteen chapters.",
+    "enShortDesc": "Tzaraat, a discoloration condition on skin, houses, or clothing, purification for the infected.",
+    "heShortDesc": "דיני נגע הצרעת המופיע על עור האדם, בקירות הבית או בבגדים ודרכי ההיטהרות מן הנגע.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -84,6 +105,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה נגעים",
     "titleVariants": [
         "Mishna Negaim",
@@ -96,8 +120,8 @@
         "Mishnah Negaim"
     ],
     "heTitleVariants": [
-        "משנה נגעים",
-        "נגעים"
+        "נגעים",
+        "משנה נגעים"
     ],
     "sectionNames": [
         "Chapter",

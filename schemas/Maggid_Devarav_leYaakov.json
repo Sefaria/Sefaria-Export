@@ -5,15 +5,60 @@
         "Early Works"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 2,
-        "addressTypes": [
-            "Perek",
-            "Integer"
-        ],
-        "sectionNames": [
-            "Chapter",
-            "Paragraph"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Perek",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Paragraph"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסקה"
+                ],
+                "key": "default"
+            }
         ],
         "titles": [
             {
@@ -38,24 +83,26 @@
                 "text": "ליקוטי אמרים"
             },
             {
-                "lang": "en",
                 "text": "Maggid Devarav leYaakov",
+                "lang": "en",
                 "primary": true
             }
         ],
         "title": "Maggid Devarav leYaakov",
         "heTitle": "מגיד דבריו ליעקב",
-        "heSectionNames": [
-            "פרק",
-            "פסקה"
-        ],
         "key": "Maggid Devarav leYaakov"
     },
     "authors": [
-        "Dov Ber of Mezeritch"
+        {
+            "en": "Dov Ber of Mezeritch",
+            "he": "דב בער ממזריטש",
+            "slug": "dov-ber-of-mezeritch"
+        }
     ],
     "enDesc": "Teachings of the Maggid of Mezeritch, compiled by his students. (The last letters of the three words in the title spell the Maggid's name \"Dov\").",
     "heDesc": "ליקוט של תורות מהמגיד ממעזריטש, נערך על ידי תלמידיו. (סופי תיבות של שם הספר הם אותיות \"דוב\".)",
+    "enShortDesc": "Collection of teachings from Rabbi Dov Ber (the “Maggid”) of Mezeritch, compiled by his student Rabbi Shlomo of Lutzk.",
+    "heShortDesc": "אוסף דרשותיו של רבי דב בער (המגיד) ממעזריטש, שליקט תלמידו רבי שלמה מלוצק.",
     "pubDate": "1781",
     "compDate": "1770",
     "compPlace": "",
@@ -73,11 +120,6 @@
         "לקוטי אמרים",
         "ליקוטי אמרים"
     ],
-    "sectionNames": [
-        "Chapter",
-        "Paragraph"
-    ],
-    "depth": 2,
     "heCategories": [
         "חסידות",
         "ספרי ראשית"

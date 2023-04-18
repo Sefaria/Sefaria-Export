@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chagigah"
+                ]
+            }
+        ],
         "lengths": [
-            51,
-            2482
+            53,
+            735
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -66,13 +130,13 @@
                 "lang": "en"
             },
             {
-                "text": "חגיגה",
-                "primary": true,
-                "lang": "he"
-            },
-            {
                 "text": "BT Chagigah",
                 "lang": "en"
+            },
+            {
+                "text": "חגיגה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Chagigah",
@@ -93,12 +157,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         12,
         11
     ],
     "authors": [],
-    "enDesc": "Hagggiah (Festival Offering) belongs to the second order, Moed (Festivals) and the Three Pilgrimage Festivals (Passover, Shavuot, Sukkot) and the pilgrimage offering that men were supposed to bring in Jerusalem. It has three chapters.",
+    "enDesc": "Tractate Chagigah (“Festival Offering”) is located in Seder Moed (“the Order of Festivals”) and addresses the commandment to make a pilgrimage to the Temple on the holidays of Passover, Shavuot, and Sukkot. The tractate focuses on the sacrifices offered then and the ritual purity required of those who visit the Temple. Chagigah also includes long digressions with esoteric interpretations of the biblical stories of creation in the Book of Genesis and the divine chariot in the Book of Ezekiel.",
+    "enShortDesc": "Sacrifices offered on pilgrimage to Jerusalem on the Festivals, ritual purity, and esoteric discussions of creation.",
+    "heShortDesc": "קורבנות המוקרבים בעת העלייה לרגל לירושלים בשלושת הרגלים (פסח, שבועות וסוכות), דיני טהרה ודיונים העוסקים בבריאת העולם ובמעשה מרכבה.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -106,6 +175,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "חגיגה",
     "titleVariants": [
         "Talmud Chagigah",
@@ -133,6 +205,33 @@
                     "depth": 1,
                     "wholeRef": "Chagigah 2a:1-11b:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-18"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-18"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -182,6 +281,33 @@
                     "depth": 1,
                     "wholeRef": "Chagigah 11b:6-20b:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-28"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-28"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -230,6 +356,44 @@
                     "depth": 1,
                     "wholeRef": "Chagigah 20b:7-27a:9",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-38"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-38"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -315,13 +479,13 @@
                     "lang": "en"
                 },
                 {
-                    "text": "חגיגה",
-                    "primary": true,
-                    "lang": "he"
-                },
-                {
                     "text": "BT Chagigah",
                     "lang": "en"
+                },
+                {
+                    "text": "חגיגה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Chagigah",

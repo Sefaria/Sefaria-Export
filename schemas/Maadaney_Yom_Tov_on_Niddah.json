@@ -3,6 +3,8 @@
     "categories": [
         "Talmud",
         "Bavli",
+        "Rishonim on Talmud",
+        "Rosh",
         "Commentary",
         "Maadaney Yom Tov",
         "Seder Tahorot"
@@ -17,6 +19,15 @@
                 ],
                 "sectionNames": [
                     "Siman"
+                ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
                 ],
                 "default": true,
                 "title": "",
@@ -34,6 +45,15 @@
                 ],
                 "sectionNames": [
                     "Siman"
+                ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
                 ],
                 "titles": [
                     {
@@ -63,6 +83,15 @@
                 "sectionNames": [
                     "Siman"
                 ],
+                "referenceableSections": [
+                    true,
+                    true
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
                 "titles": [
                     {
                         "lang": "en",
@@ -83,6 +112,15 @@
                 "key": "Hilchot Mikvaot"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "maadaney-yom-tov",
+                    "niddah"
+                ]
+            }
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -100,7 +138,11 @@
         "key": "Maadaney Yom Tov on Niddah"
     },
     "authors": [
-        "Yom-Tov Lipmann Heller"
+        {
+            "en": "Yom-Tov Lipmann Heller",
+            "he": "יום-טוב ליפמן הלר",
+            "slug": "yom-tov-lipmann-heller"
+        }
     ],
     "enDesc": "Commentary written by Rabbi Yom Tov Lipmann Heller on Rabbi Asher ben Yehiel’s \"Piskei HaRosh\".",
     "pubDate": "1628",
@@ -131,6 +173,8 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
+        "ראשונים על התלמוד",
+        "רא\"ש",
         "מפרשים",
         "מעדני יום טוב",
         "סדר טהרות"

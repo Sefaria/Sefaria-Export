@@ -2,7 +2,7 @@
     "title": "Daat Zkenim on Leviticus",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Daat Zkenim",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "daat-zkenim",
+                    "leviticus"
+                ]
+            }
+        ],
+        "lengths": [
+            27,
+            104,
+            126
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -66,16 +84,16 @@
             },
             {
                 "lang": "he",
-                "text": "דעת זקנים על ויקרא",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "דעת זקנים בעלי התוספות על ויקרא"
             },
             {
                 "lang": "he",
                 "text": "דעת זקנים על התורה על ויקרא"
+            },
+            {
+                "text": "דעת זקנים על ויקרא",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Daat Zkenim on Leviticus",
@@ -93,7 +111,11 @@
         "key": "Daat Zkenim on Leviticus"
     },
     "authors": [
-        "Tosafot"
+        {
+            "en": "Tosafot",
+            "he": "תוספות",
+            "slug": "tosafot"
+        }
     ],
     "enDesc": "Daat Zekenim is a Torah commentary compiled by later generations of scholars from the writings of the Franco-German school in the 12th-13th century (Ba’alei Tosafot).",
     "heDesc": "פירוש לתורה שנלקט מכתבי בעלי התוספות.",
@@ -132,9 +154,9 @@
         "Daat Zkenim on Leviticus"
     ],
     "heTitleVariants": [
-        "דעת זקנים על ויקרא",
         "דעת זקנים בעלי התוספות על ויקרא",
-        "דעת זקנים על התורה על ויקרא"
+        "דעת זקנים על התורה על ויקרא",
+        "דעת זקנים על ויקרא"
     ],
     "sectionNames": [
         "Chapter",
@@ -144,7 +166,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "דעת זקנים",
         "תורה"
     ],

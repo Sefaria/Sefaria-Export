@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Rashbam",
         "Seder Kodashim"
     ],
@@ -19,6 +19,29 @@
             "Daf",
             "Line",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rashbam",
+                    "menachot"
+                ]
+            }
+        ],
+        "lengths": [
+            219,
+            15,
+            21
+        ],
+        "referenceableSections": [
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -66,7 +89,11 @@
         "key": "Rashbam on Menachot"
     },
     "authors": [
-        "Rashbam"
+        {
+            "en": "Rashbam",
+            "he": "רשב״ם",
+            "slug": "rashbam"
+        }
     ],
     "enDesc": "A classic Talmud commentary written by Rashbam -  Rashi’s grandson and a major Tosafist. This short commentary on only one page of this tractate is found in the standard edition of the Talmud.",
     "compDate": "1140",
@@ -107,7 +134,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "רשב\"ם",
         "סדר קדשים"
     ],

@@ -2,7 +2,7 @@
     "title": "Shemot Rabbah",
     "categories": [
         "Midrash",
-        "Aggadic Midrash",
+        "Aggadah",
         "Midrash Rabbah"
     ],
     "schema": {
@@ -15,6 +15,31 @@
         "sectionNames": [
             "Chapter",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "exodus",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "midrash",
+                    "exodus",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "midrash-rabbah",
+                    "exodus"
+                ]
+            }
+        ],
+        "lengths": [
+            52,
+            464
         ],
         "titles": [
             {
@@ -66,11 +91,6 @@
                 "text": "Sh’mot ‎Rabbah"
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "שמות רבה"
-            },
-            {
                 "lang": "he",
                 "text": "שמו\"ר"
             },
@@ -95,6 +115,19 @@
                 "text": "שמ״ר"
             },
             {
+                "text": "שמו”ר",
+                "lang": "he"
+            },
+            {
+                "text": "שמ”ר",
+                "lang": "he"
+            },
+            {
+                "text": "שמות רבה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Shemot Rabbah",
                 "lang": "en",
                 "primary": true
@@ -112,14 +145,19 @@
         2.0
     ],
     "authors": [],
-    "enDesc": "Shemot Rabbah (The Great Exodus) is the midrash to the book of Shemot, containing in the printed editions 52 parshiyot. It is not uniform in its composition. In parshiyot 1-14 the proems are almost invariably followed by the running commentary on the entire seder or other Scriptural division. The author includes sources Tanhuma as well as others. Zunz ascribes the composition of the entire work to the 11th or 12th century",
-    "heDesc": "שמות רבה הינו מדרש לספר שמות הכולל, בגרסאות המודפסות שלו, 52 פרשיות. המדרש אינו אחיד מבחינה סגנונית. בפרשיות 14-1 ההקדמות כמעט תמיד מקדימות דרשות המפרשות, באופן רציף ומסודר, את פסוקי הסדר או הקטע המקראי הכלול בפרשה. החלק השני, פרשיות 52-15, הינו בעל אופי דרשני שונה, ובנוי סביב נושאים שונים הקשורים לפסוקים הפותחים את סדרי הקריאה בתורה. המחבר כולל בחלק זה מקורות אחרים, למשל התנחומא. צונץ ייחס את יצירת החיבור המאוגד למאות ה-11 או ה-12.",
+    "enDesc": "Shemot Rabbah is a midrash on the Book of Exodus, consisting of two distinct parts compiled in different eras: the first provides verse-by-verse interpretations of the first ten chapters of the Book of Exodus, while the second offers sermons connected to chapters 12-40. The two parts were likely compiled into one work around the 12th century, and the dating of each section is subject to debate.",
+    "heDesc": "\"שמות רבה\" הינו מדרש לספר שמות הכולל, בגרסאות המודפסות שלו, 52 פרשיות. המדרש אינו אחיד מבחינה סגנונית. בפרשיות 14-1 ההקדמות כמעט תמיד מקדימות דרשות המפרשות, באופן רציף ומסודר, את פסוקי הסדר או הקטע המקראי הכלול בפרשה. החלק השני, פרשיות 52-15, הינו בעל אופי דרשני שונה, ובנוי סביב נושאים שונים הקשורים לפסוקים הפותחים את סדרי הקריאה בתורה. המחבר כולל בחלק זה מקורות אחרים, למשל התנחומא. צונץ ייחס את יצירת החיבור המאוגד למאות ה-11 או ה-12.",
+    "enShortDesc": "Midrash on the Book of Exodus consisting of two parts from different eras.",
+    "heShortDesc": "מדרש על ספר שמות, ובו שני חלקים משתי תקופות שונות.",
     "pubDate": "1512",
     "compDate": "1200",
     "compPlace": "Talmudic Israel/Babylon",
     "pubPlace": "Istanbul",
     "era": "RI",
     "is_cited": true,
+    "corpora": [
+        "Midrash Rabbah"
+    ],
     "heTitle": "שמות רבה",
     "titleVariants": [
         "Exodus Rabbah",
@@ -137,13 +175,15 @@
         "Shemot Rabbah"
     ],
     "heTitleVariants": [
-        "שמות רבה",
         "שמו\"ר",
         "מדרש רבה שמות",
         "שמו''ר",
         "שמו״ר",
         "שמ\"ר",
-        "שמ״ר"
+        "שמ״ר",
+        "שמו”ר",
+        "שמ”ר",
+        "שמות רבה"
     ],
     "sectionNames": [
         "Chapter",
@@ -152,7 +192,7 @@
     "depth": 2,
     "heCategories": [
         "מדרש",
-        "מדרש אגדה",
+        "אגדה",
         "מדרש רבה"
     ],
     "compDateString": {

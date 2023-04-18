@@ -1,7 +1,8 @@
 {
     "title": "Tractate Avadim",
     "categories": [
-        "Tanaitic",
+        "Talmud",
+        "Bavli",
         "Minor Tractates"
     ],
     "schema": {
@@ -15,12 +16,24 @@
             "Chapter",
             "Halakhah"
         ],
-        "titles": [
+        "match_templates": [
             {
-                "lang": "he",
-                "text": "מסכת עבדים",
-                "primary": true
+                "term_slugs": [
+                    "avadim"
+                ]
             },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "avadim"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            25
+        ],
+        "titles": [
             {
                 "lang": "en",
                 "text": "Abad."
@@ -38,6 +51,11 @@
                 "text": "Treat. Abadim"
             },
             {
+                "text": "מסכת עבדים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tractate Avadim",
                 "lang": "en",
                 "primary": true
@@ -52,7 +70,9 @@
         "key": "Tractate Avadim"
     },
     "authors": [],
-    "enDesc": "The minor tractates (Masekhtot Ketanot) are essays from the Tannaitic period or later dealing with topics about which no formal tractate exists in the Mishnah. The first eight or so contain much original material; the last seven or so are collections of material scattered throughout the Talmud. Soferim (Scribes). This tractate deals with issues relating to slaves.",
+    "enDesc": "Tractate Avadim (\"Slaves\") is one of seven small tractates that addresses topics for which there is no specific tractate in the Mishnah or Talmud. These tractates are written in the terse style of the Mishnah and are likely from the time period of the Mishnah or early Talmud, but their dating and places of composition are subject to debate. The first two chapters deal with the sale, acquisition, treatment, and redemption of the Eved Ivri, or Hebrew indentured servant. The last chapter deals with the Eved Kenaani, or gentile slave.",
+    "enShortDesc": "Slaves and indentured servants; their sale, acquisition, working conditions, and liberation process.",
+    "heShortDesc": "עבד עברי ועבד כנעני: מכירתם, קנייתם, תנאי עבודתם ותהליך שחרורם.",
     "compDate": "400",
     "compPlace": "Talmudic Israel/Babylon",
     "errorMargin": "500",
@@ -75,7 +95,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
+        "תלמוד",
+        "בבלי",
         "מסכתות קטנות"
     ],
     "compDateString": {

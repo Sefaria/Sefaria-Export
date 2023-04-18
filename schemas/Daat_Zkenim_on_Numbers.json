@@ -2,7 +2,7 @@
     "title": "Daat Zkenim on Numbers",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Daat Zkenim",
         "Torah"
     ],
@@ -11,13 +11,31 @@
         "depth": 3,
         "addressTypes": [
             "Perek",
-            "Integer",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Verse",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "daat-zkenim",
+                    "numbers"
+                ]
+            }
+        ],
+        "lengths": [
+            36,
+            164,
+            229
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -78,16 +96,16 @@
             },
             {
                 "lang": "he",
-                "text": "דעת זקנים על במדבר",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "דעת זקנים בעלי התוספות על במדבר"
             },
             {
                 "lang": "he",
                 "text": "דעת זקנים על התורה על במדבר"
+            },
+            {
+                "text": "דעת זקנים על במדבר",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Daat Zkenim on Numbers",
@@ -105,7 +123,11 @@
         "key": "Daat Zkenim on Numbers"
     },
     "authors": [
-        "Tosafot"
+        {
+            "en": "Tosafot",
+            "he": "תוספות",
+            "slug": "tosafot"
+        }
     ],
     "enDesc": "Daat Zekenim is a Torah commentary compiled by later generations of scholars from the writings of the Franco-German school in the 12th-13th century (Ba’alei Tosafot).",
     "heDesc": "פירוש לתורה שנלקט מכתבי בעלי התוספות.",
@@ -147,9 +169,9 @@
         "Daat Zkenim on Numbers"
     ],
     "heTitleVariants": [
-        "דעת זקנים על במדבר",
         "דעת זקנים בעלי התוספות על במדבר",
-        "דעת זקנים על התורה על במדבר"
+        "דעת זקנים על התורה על במדבר",
+        "דעת זקנים על במדבר"
     ],
     "sectionNames": [
         "Chapter",
@@ -159,7 +181,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "דעת זקנים",
         "תורה"
     ],

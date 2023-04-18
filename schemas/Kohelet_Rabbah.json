@@ -2,7 +2,7 @@
     "title": "Kohelet Rabbah",
     "categories": [
         "Midrash",
-        "Aggadic Midrash",
+        "Aggadah",
         "Midrash Rabbah"
     ],
     "schema": {
@@ -17,6 +17,32 @@
             "Parasha",
             "Chapter",
             "Midrash"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ecclesiastes",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "midrash",
+                    "ecclesiastes",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "midrash-rabbah",
+                    "ecclesiastes"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            193,
+            271
         ],
         "titles": [
             {
@@ -45,11 +71,6 @@
             },
             {
                 "lang": "he",
-                "text": "קוהלת רבה",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "קה\"ר"
             },
             {
@@ -59,6 +80,15 @@
             {
                 "lang": "he",
                 "text": "קהלת רבה"
+            },
+            {
+                "text": "קה”ר",
+                "lang": "he"
+            },
+            {
+                "text": "קוהלת רבה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Kohelet Rabbah",
@@ -79,8 +109,10 @@
         9.0
     ],
     "authors": [],
-    "enDesc": "Kohelet Rabbah (The Great Ecclesiastes) is a haggadic commentary on Ecclesiastes. It follows the Biblical book verse by verse, only a few verses remaining without comment. The author confined himself chiefly to collecting and editing earlier sources including Bereshit  Rabbah, Pesiḳta, Ekhah Rabbah, Vayiḳra Rabbah, Shir haShirim Rabbah, the Jerusalem and Babylonian Talmud as well as others sources. The editor probably lived between the 6th and 8th centuries.",
-    "heDesc": "קהלת רבה הינו פירוש אגדי על מגילת קהלת. המדרש מפרש את פסוקי המגילה על הסדר, כאשר רק מספר מצומצם של פסוקים אינם זוכים לפירוש. מחבר המדרש הסתפק בעיקר באיסוף ועריכת מקורות קדומים יותר, ביניהם בראשית רבה, הפסיקתא, מדרשי איכה רבה, ויקרא רבה ושיר השירים רבה, התלמוד הירושלמי והבבלי ומקורות נוספים. העורך ככל הנראה חי מתישהו בתקופה שבין המאות ה-6 וה-8.",
+    "enDesc": "Kohelet Rabbah is a midrash on Ecclesiastes with verse-by-verse interpretations, compiled between the 6th and 8th centuries. The work mostly presents material from earlier sources, including Bereishit Rabbah, Pesiḳta d’Rav Kahana, Eikhah Rabbah, Vayiḳra Rabbah, Shir haShirim Rabbah, and the Jerusalem and Babylonian Talmuds. Ecclesiastes is interpreted in the midrash as a religious allegory. Verses that celebrate the joy of eating and drinking, for example, are read as metaphors for learning Torah and performing mitzvot.",
+    "heDesc": "\"קהלת רבה\" הינו פירוש אגדי על מגילת קהלת. המדרש מפרש את פסוקי המגילה על הסדר, כאשר רק מספר מצומצם של פסוקים אינם זוכים לפירוש. מחבר המדרש הסתפק בעיקר באיסוף ועריכת מקורות קדומים יותר, ביניהם בראשית רבה, הפסיקתא, מדרשי איכה רבה, ויקרא רבה ושיר השירים רבה, התלמוד הירושלמי והבבלי ומקורות נוספים. העורך ככל הנראה חי מתישהו בתקופה שבין המאות ה-6 וה-8.",
+    "enShortDesc": "Midrash on Ecclesiastes with verse-by-verse commentary, compiled between the 6th and 8th centuries.",
+    "heShortDesc": "מדרש על ספר קהלת עם פירוש רצוף, שחובר בין המאות השישית לשמינית.",
     "pubDate": "1519",
     "compDate": "825",
     "compPlace": "Talmudic Israel/Babylon",
@@ -88,6 +120,13 @@
     "errorMargin": "125",
     "era": "GN",
     "is_cited": true,
+    "dedication": {
+        "en": "Dedicated in memory of Rabbi Manfred Rechtschaffen by the Rechtschaffen family.",
+        "he": "מוקדש לזכרו של הרב מנפרד רכטשאפן על-ידי משפחת רכטשאפן"
+    },
+    "corpora": [
+        "Midrash Rabbah"
+    ],
     "heTitle": "קוהלת רבה",
     "titleVariants": [
         "Koheleth Rabbah",
@@ -99,10 +138,11 @@
         "Kohelet Rabbah"
     ],
     "heTitleVariants": [
-        "קוהלת רבה",
         "קה\"ר",
         "קה״ר",
-        "קהלת רבה"
+        "קהלת רבה",
+        "קה”ר",
+        "קוהלת רבה"
     ],
     "sectionNames": [
         "Parasha",
@@ -112,7 +152,7 @@
     "depth": 3,
     "heCategories": [
         "מדרש",
-        "מדרש אגדה",
+        "אגדה",
         "מדרש רבה"
     ],
     "compDateString": {

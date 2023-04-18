@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "maasai-lamelekh",
+                    "hilchot",
+                    "the-chosen-temple"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "maasai-lamelekh",
+                    "the-chosen-temple"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            124,
+            131
+        ],
         "titles": [
             {
                 "text": "מעשי למלך על משנה תורה, הלכות בית הבחירה",
@@ -42,10 +62,17 @@
         "key": "Ma'asai LaMelekh on Mishneh Torah, The Chosen Temple"
     },
     "authors": [
-        "Yeshaya Zilberstein"
+        {
+            "en": "Yeshaya Zilberstein",
+            "he": "ישעיהו זילברשטיין",
+            "slug": "yeshaya-zilberstein"
+        }
     ],
     "pubDate": "1913",
+    "compDate": "1905",
+    "compPlace": "Waitzen",
     "pubPlace": "Waitzen",
+    "errorMargin": "8",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -78,5 +105,13 @@
         "מפרשים",
         "מעשי למלך",
         "ספר עבודה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1897  - c.1913 CE)",
+        "he": " (1897 - 1913 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Waitzen",
+        "he": "ואץ"
+    }
 }

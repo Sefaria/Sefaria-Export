@@ -11,11 +11,23 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "aramaic-targum",
+                    "psalms"
+                ]
+            }
+        ],
+        "lengths": [
+            150,
+            2527
         ],
         "titles": [
             {
@@ -27,13 +39,13 @@
                 "text": "Targum on Psalms"
             },
             {
-                "lang": "he",
-                "text": "תרגום תהלים",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Targ. Ps."
+            },
+            {
+                "text": "תרגום תהלים",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Aramaic Targum to Psalms",

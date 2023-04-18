@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "yoma"
+                ]
+            }
+        ],
         "lengths": [
             8,
             61
@@ -33,13 +52,13 @@
                 "text": "M. Yoma"
             },
             {
-                "lang": "he",
                 "text": "משנה יומא",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Mishnah Yoma",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -56,7 +75,9 @@
         5
     ],
     "authors": [],
-    "enDesc": "Yoma (The Day) belongs to the second order, Moed (Festivals) and discusses the prescriptions Yom Kippur, especially the ceremony by the Kohen Gadol. It has eight chapters.",
+    "enDesc": "Tractate Yoma (“The Day,” referring to Yom Kippur) is located in Seder Moed (“the Order of Festivals”). It consists of eight chapters; the first seven discuss the preparation for and service of the High Priest in the Temple on Yom Kippur day. The last chapter discusses the laws of fasting, other prohibitions of Yom Kippur, and the process of repentance.",
+    "enShortDesc": "Yom Kippur: the High Priest’s preparation, the Temple service, the fast, and repentance.",
+    "heShortDesc": "יום הכיפורים: הכנות הכהן הגדול, העבודה בבית המקדש, הצום והתשובה.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -64,6 +85,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה יומא",
     "titleVariants": [
         "M Yoma",

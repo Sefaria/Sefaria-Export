@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "sukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "sukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "sukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "sukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "sukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "sukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "sukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "sukkah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sukkah"
+                ]
+            }
+        ],
         "lengths": [
-            110,
-            4640
+            112,
+            1361
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -42,17 +106,17 @@
                 "text": "Sukka"
             },
             {
-                "lang": "he",
-                "text": "סוכה",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Succ."
             },
             {
                 "text": "BT Sukkah",
                 "lang": "en"
+            },
+            {
+                "text": "סוכה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Sukkah",
@@ -73,12 +137,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         7,
         6
     ],
     "authors": [],
-    "enDesc": "Sukkah (Booths) belongs to the second order, Moed (Festivals) and discusses the festival of Sukkot (the Feast of Tabernacles) and the Sukkah itself. Also deals with the Four Species (Lulav, Etrog, Hadass, Aravah — Palm branch, Citron, Myrtle, Willow) which are waved on Sukkot. It has five chapters.",
+    "enDesc": "Tractate Sukkah is located in Seder Moed (“the Order of Festivals”) and discusses the holiday of Sukkot. It consists of five chapters; the first two chapters discuss the structure of and obligation to dwell in the sukkah. The remaining chapters discuss laws of the four species and the celebration of Sukkot in the Temple, describing ceremonies involving willow branches and water libations.",
+    "enShortDesc": "The structure of and obligation to dwell in the sukkah, the four species, and celebrating the holiday in the Temple.",
+    "heShortDesc": "מבנה הסוכה, החובה לשבת בסוכה, ארבעת המינים ושמחת החג בבית המקדש.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -86,6 +155,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "סוכה",
     "titleVariants": [
         "Tractate Sukkah",
@@ -108,6 +180,33 @@
                     "depth": 1,
                     "wholeRef": "Sukkah 2a:1-20b:9",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-138"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-138"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -175,6 +274,33 @@
                     "depth": 1,
                     "wholeRef": "Sukkah 20b:10-29b:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-232"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-232"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -223,6 +349,33 @@
                     "depth": 1,
                     "wholeRef": "Sukkah 29b:4-42b:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-330"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-330"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -279,6 +432,33 @@
                     "depth": 1,
                     "wholeRef": "Sukkah 42b:5-50a:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-426"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-426"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "lang": "en",
@@ -324,6 +504,44 @@
                     "depth": 1,
                     "wholeRef": "Sukkah 50a:6-56b:9",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-523"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-523"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "lang": "en",
@@ -385,17 +603,17 @@
                     "text": "Sukka"
                 },
                 {
-                    "lang": "he",
-                    "text": "סוכה",
-                    "primary": true
-                },
-                {
                     "lang": "en",
                     "text": "Succ."
                 },
                 {
                     "text": "BT Sukkah",
                     "lang": "en"
+                },
+                {
+                    "text": "סוכה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Sukkah",

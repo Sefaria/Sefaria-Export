@@ -1,7 +1,8 @@
 {
     "title": "Tractate Derekh Eretz Rabbah",
     "categories": [
-        "Tanaitic",
+        "Talmud",
+        "Bavli",
         "Minor Tractates"
     ],
     "schema": {
@@ -15,12 +16,24 @@
             "Chapter",
             "Halakhah"
         ],
-        "titles": [
+        "match_templates": [
             {
-                "lang": "he",
-                "text": "מסכת דרך ארץ רבה",
-                "primary": true
+                "term_slugs": [
+                    "derekh-eretz-rabbah"
+                ]
             },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "derekh-eretz-rabbah"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            99
+        ],
+        "titles": [
             {
                 "lang": "en",
                 "text": "Der. Er."
@@ -28,6 +41,11 @@
             {
                 "lang": "en",
                 "text": "Treat. Der. Er."
+            },
+            {
+                "text": "מסכת דרך ארץ רבה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Tractate Derekh Eretz Rabbah",
@@ -44,7 +62,9 @@
         "key": "Tractate Derekh Eretz Rabbah"
     },
     "authors": [],
-    "enDesc": "The minor tractates (Masekhtot Ketanot) are essays from the Tannaitic period or later dealing with topics about which no formal tractate exists in the Mishnah. The first eight or so contain much original material; the last seven or so are collections of material scattered throughout the Talmud. Soferim (Scribes). This tractate deals with proper behavior.",
+    "enDesc": "Derekh Eretz Rabbah (“The Great Way of the Land”) is one of the minor tractates, or works written in the style of the Mishnah on topics for which there is no specific tractate in the Mishnah or Talmud. The tractate is composed of several parts, the bulk of which is likely from the time period of the Mishnah or early Talmud. The first chapter discusses prohibited marriages. The second chapter discusses sins of the wicked and extols the virtues of the righteous. The remaining nine chapters discuss rules of conduct and etiquette for sages and their disciples.",
+    "enShortDesc": "Ethics and morals, proper etiquette and conduct in daily life.",
+    "heShortDesc": "ענייני אתיקה ומוסר, נימוסין וכללי התנהגות בחיי היום־יום.",
     "compDate": "400",
     "compPlace": "Talmudic Israel/Babylon",
     "errorMargin": "500",
@@ -65,7 +85,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
+        "תלמוד",
+        "בבלי",
         "מסכתות קטנות"
     ],
     "compDateString": {

@@ -7,56 +7,100 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "ketubot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "ketubot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "ketubot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "ketubot"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "ketubot"
+            ]
+        },
         "lengths": [
-            143,
-            358
+            13,
+            120,
+            517
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Yerushalmi Ketubot"
-            },
-            {
-                "lang": "en",
-                "text": "JT Ktubot"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Kesuvos"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Ketubot"
-            },
-            {
-                "lang": "en",
-                "text": "JT Ketubot"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Ktubot"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי כתובות",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי כתובות"
+                "text": "Yerushalmi Ketubot",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Keth."
+                "text": "JT Ktubot",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Kesuvos",
+                "lang": "en"
+            },
+            {
+                "text": "Talmud Yerushalmi Ketubot",
+                "lang": "en"
+            },
+            {
+                "text": "JT Ketubot",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Ktubot",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי כתובות",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Keth.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Ketubot",
@@ -67,23 +111,27 @@
         "title": "Jerusalem Talmud Ketubot",
         "heTitle": "תלמוד ירושלמי כתובות",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Ketubot"
     },
     "order": [
         26
     ],
-    "authors": [],
-    "enDesc": "Ketubot (Prenuptial agreements) belongs to the third order, Nashim (Women) and discusses the Ketubah (Judaism's prenuptial agreement), as well as topics such as virginity, Jus primae noctis and the obligations of a couple towards each other. It has thirteen chapters.",
+    "enDesc": "Ketubot is the second tractate in Seder Nashim (“Order of Women,” which addresses family law). Its thirteen chapters primarily discuss the ketubah (marriage contract) and obligations between a husband and wife during marriage and after the dissolution of marriage. The tractate also addresses topics such as giving testimony, vows, and slander.",
+    "enShortDesc": "The marital contract (Ketubah) and obligations between husband and wife.",
+    "heShortDesc": "שטר הכתובה, חובות הבעל לאשתו וחובות האישה לבעלה.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי כתובות",
     "titleVariants": [
         "Yerushalmi Ketubot",
@@ -99,11 +147,1101 @@
         "תלמוד ירושלמי כתובות",
         "ירושלמי כתובות"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 1:1:2-10:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 1:1:2-9",
+                        "Jerusalem Talmud Ketubot 1:1:9-2:2",
+                        "Jerusalem Talmud Ketubot 1:2:2-4:3",
+                        "Jerusalem Talmud Ketubot 1:4:3-8:3",
+                        "Jerusalem Talmud Ketubot 1:8:3-10:6",
+                        "Jerusalem Talmud Ketubot 1:10:6"
+                    ],
+                    "startingAddress": "24d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בתולה נשאת",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "בתולה נשאת",
+                    "offset": 95
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 2:1:1-10:8",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 2:1:1-4",
+                        "Jerusalem Talmud Ketubot 2:1:4-3:5",
+                        "Jerusalem Talmud Ketubot 2:3:5-6:3",
+                        "Jerusalem Talmud Ketubot 2:6:3-10:8",
+                        "Jerusalem Talmud Ketubot 2:10:8"
+                    ],
+                    "startingAddress": "26a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האשה שנתארמלה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "האשה שנתארמלה",
+                    "offset": 100
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 3:1:1-10:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 3:1:1-4",
+                        "Jerusalem Talmud Ketubot 3:1:4-14",
+                        "Jerusalem Talmud Ketubot 3:1:14-5:2",
+                        "Jerusalem Talmud Ketubot 3:5:2-9:4",
+                        "Jerusalem Talmud Ketubot 3:9:4-10:2"
+                    ],
+                    "startingAddress": "27a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אלו נערות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "אלו נערות",
+                    "offset": 104
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 4:1:1-14:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 4:1:1-2",
+                        "Jerusalem Talmud Ketubot 4:1:2-4:3",
+                        "Jerusalem Talmud Ketubot 4:4:3-11",
+                        "Jerusalem Talmud Ketubot 4:4:11-8:9",
+                        "Jerusalem Talmud Ketubot 4:8:9-11:3",
+                        "Jerusalem Talmud Ketubot 4:11:3-14:3"
+                    ],
+                    "startingAddress": "28a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "נערה שנתפתתה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "נערה שנתפתתה",
+                    "offset": 108
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 5:1:1-11:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 5:1:1-2",
+                        "Jerusalem Talmud Ketubot 5:1:2-6",
+                        "Jerusalem Talmud Ketubot 5:1:6-5:2",
+                        "Jerusalem Talmud Ketubot 5:5:2-7:3",
+                        "Jerusalem Talmud Ketubot 5:7:3-11:3",
+                        "Jerusalem Talmud Ketubot 5:11:3"
+                    ],
+                    "startingAddress": "29b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אף על פי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "אף על פי",
+                    "offset": 113
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 6:1:1-7:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 6:1:1-3:2",
+                        "Jerusalem Talmud Ketubot 6:3:2-7:3",
+                        "Jerusalem Talmud Ketubot 6:7:3-4"
+                    ],
+                    "startingAddress": "30c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מציאת האשה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "מציאת האשה",
+                    "offset": 118
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 7:1:1-9:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 7:1:1-2",
+                        "Jerusalem Talmud Ketubot 7:1:2-6:5",
+                        "Jerusalem Talmud Ketubot 7:6:5-7:5",
+                        "Jerusalem Talmud Ketubot 7:7:5-9:3"
+                    ],
+                    "startingAddress": "31a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המדיר",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "המדיר",
+                    "offset": 120
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 8:1:1-11:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 8:1:1-2",
+                        "Jerusalem Talmud Ketubot 8:1:2-5:2",
+                        "Jerusalem Talmud Ketubot 8:5:2-11:4",
+                        "Jerusalem Talmud Ketubot 8:11:4-5"
+                    ],
+                    "startingAddress": "31d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האשה שנפלו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "האשה שנפלו",
+                    "offset": 123
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 9:1:1-10:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 9:1:1-2",
+                        "Jerusalem Talmud Ketubot 9:1:2-12",
+                        "Jerusalem Talmud Ketubot 9:1:12-5:3",
+                        "Jerusalem Talmud Ketubot 9:5:3-9:2",
+                        "Jerusalem Talmud Ketubot 9:9:2-10:5"
+                    ],
+                    "startingAddress": "32c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הכותב לאשתו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "הכותב לאשתו",
+                    "offset": 126
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 10:1:1-6:2",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 10:1:1-2",
+                        "Jerusalem Talmud Ketubot 10:1:2-4:4",
+                        "Jerusalem Talmud Ketubot 10:4:4-6:2"
+                    ],
+                    "startingAddress": "33c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 10",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שהיה נשוי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 10",
+                    "heTitle": "מי שהיה נשוי",
+                    "offset": 130
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 11:1:1-7:8",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 11:1:1-4",
+                        "Jerusalem Talmud Ketubot 11:1:4-4:2",
+                        "Jerusalem Talmud Ketubot 11:4:2-7:7",
+                        "Jerusalem Talmud Ketubot 11:7:7-8"
+                    ],
+                    "startingAddress": "34a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 11",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אלמנה ניזונת",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 11",
+                    "heTitle": "אלמנה ניזונת",
+                    "offset": 132
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 12:1:1-5:4",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 12:1:1-3:3",
+                        "Jerusalem Talmud Ketubot 12:3:3-10",
+                        "Jerusalem Talmud Ketubot 12:3:10-5:4",
+                        "Jerusalem Talmud Ketubot 12:5:4"
+                    ],
+                    "startingAddress": "34d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 12",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הנושא את האשה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 12",
+                    "heTitle": "הנושא את האשה",
+                    "offset": 135
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 13:1:1-11:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 13:1:1-3",
+                        "Jerusalem Talmud Ketubot 13:1:3-3:2",
+                        "Jerusalem Talmud Ketubot 13:3:2-6:2",
+                        "Jerusalem Talmud Ketubot 13:6:2-11:3"
+                    ],
+                    "startingAddress": "35c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 13",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שני דייני גזירות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 13",
+                    "heTitle": "שני דייני גזירות",
+                    "offset": 138
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי כתובות",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Yerushalmi Ketubot",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Ktubot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Kesuvos",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Ketubot",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Ketubot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Ktubot",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי כתובות",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Keth.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Ketubot",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Ketubot",
+            "heTitle": "תלמוד ירושלמי כתובות"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 1:1:1-10:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 1:1:1-4",
+                        "Jerusalem Talmud Ketubot 1:1:4-6",
+                        "Jerusalem Talmud Ketubot 1:1:6-9",
+                        "Jerusalem Talmud Ketubot 1:1:9-14",
+                        "Jerusalem Talmud Ketubot 1:1:14-17",
+                        "Jerusalem Talmud Ketubot 1:1:17-2:5",
+                        "Jerusalem Talmud Ketubot 1:2:5-3:1",
+                        "Jerusalem Talmud Ketubot 1:3:1-5",
+                        "Jerusalem Talmud Ketubot 1:3:5-4:5",
+                        "Jerusalem Talmud Ketubot 1:4:5-5:3",
+                        "Jerusalem Talmud Ketubot 1:5:3-6:3",
+                        "Jerusalem Talmud Ketubot 1:6:3-8:2",
+                        "Jerusalem Talmud Ketubot 1:8:2-9:3",
+                        "Jerusalem Talmud Ketubot 1:9:3-10:3",
+                        "Jerusalem Talmud Ketubot 1:10:3-4",
+                        "Jerusalem Talmud Ketubot 1:10:4-6"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בתולה נשאת",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "בתולה נשאת",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 2:1:1-10:8",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 2:1:1-4",
+                        "Jerusalem Talmud Ketubot 2:1:4-2:1",
+                        "Jerusalem Talmud Ketubot 2:2:1-4",
+                        "Jerusalem Talmud Ketubot 2:2:4",
+                        "Jerusalem Talmud Ketubot 2:2:4-3:3",
+                        "Jerusalem Talmud Ketubot 2:3:3-4:5",
+                        "Jerusalem Talmud Ketubot 2:4:5-6",
+                        "Jerusalem Talmud Ketubot 2:4:6-5:4",
+                        "Jerusalem Talmud Ketubot 2:5:4-7:2",
+                        "Jerusalem Talmud Ketubot 2:7:2-4",
+                        "Jerusalem Talmud Ketubot 2:7:4-9:4",
+                        "Jerusalem Talmud Ketubot 2:9:4-10:3",
+                        "Jerusalem Talmud Ketubot 2:10:3-8"
+                    ],
+                    "startingAddress": "9a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האשה שנתארמלה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "האשה שנתארמלה",
+                    "offset": 16
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 3:1:1-10:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 3:1:1-4",
+                        "Jerusalem Talmud Ketubot 3:1:4-7",
+                        "Jerusalem Talmud Ketubot 3:1:7-12",
+                        "Jerusalem Talmud Ketubot 3:1:12-13",
+                        "Jerusalem Talmud Ketubot 3:1:13-16",
+                        "Jerusalem Talmud Ketubot 3:1:16-18",
+                        "Jerusalem Talmud Ketubot 3:1:18-3:3",
+                        "Jerusalem Talmud Ketubot 3:3:3-5:1",
+                        "Jerusalem Talmud Ketubot 3:5:1-4",
+                        "Jerusalem Talmud Ketubot 3:5:4-6:2",
+                        "Jerusalem Talmud Ketubot 3:6:2-3",
+                        "Jerusalem Talmud Ketubot 3:6:3-7:2",
+                        "Jerusalem Talmud Ketubot 3:7:2-8:1",
+                        "Jerusalem Talmud Ketubot 3:8:1-9:3",
+                        "Jerusalem Talmud Ketubot 3:9:3-10:2",
+                        "Jerusalem Talmud Ketubot 3:10:2"
+                    ],
+                    "startingAddress": "15b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אלו נערות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "אלו נערות",
+                    "offset": 29
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 4:1:1-14:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 4:1:1-4",
+                        "Jerusalem Talmud Ketubot 4:1:4-6",
+                        "Jerusalem Talmud Ketubot 4:1:6-2:1",
+                        "Jerusalem Talmud Ketubot 4:2:1-3",
+                        "Jerusalem Talmud Ketubot 4:2:3-3:2",
+                        "Jerusalem Talmud Ketubot 4:3:2-4:3",
+                        "Jerusalem Talmud Ketubot 4:4:3-7",
+                        "Jerusalem Talmud Ketubot 4:4:7-8",
+                        "Jerusalem Talmud Ketubot 4:4:8-9",
+                        "Jerusalem Talmud Ketubot 4:4:9-12",
+                        "Jerusalem Talmud Ketubot 4:4:12-7:1",
+                        "Jerusalem Talmud Ketubot 4:7:1-8:4",
+                        "Jerusalem Talmud Ketubot 4:8:4-12",
+                        "Jerusalem Talmud Ketubot 4:8:12-9:1",
+                        "Jerusalem Talmud Ketubot 4:9:1-11:3",
+                        "Jerusalem Talmud Ketubot 4:11:3-12:2",
+                        "Jerusalem Talmud Ketubot 4:12:2-14:3"
+                    ],
+                    "startingAddress": "23a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "נערה שנתפתתה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "נערה שנתפתתה",
+                    "offset": 44
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 5:1:1-11:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 5:1:1-3",
+                        "Jerusalem Talmud Ketubot 5:1:3-4",
+                        "Jerusalem Talmud Ketubot 5:1:4-6",
+                        "Jerusalem Talmud Ketubot 5:1:6-2:2",
+                        "Jerusalem Talmud Ketubot 5:2:2-3:1",
+                        "Jerusalem Talmud Ketubot 5:3:1-4:1",
+                        "Jerusalem Talmud Ketubot 5:4:1-5:2",
+                        "Jerusalem Talmud Ketubot 5:5:2-3",
+                        "Jerusalem Talmud Ketubot 5:5:3-4",
+                        "Jerusalem Talmud Ketubot 5:5:4-6:3",
+                        "Jerusalem Talmud Ketubot 5:6:3-5",
+                        "Jerusalem Talmud Ketubot 5:6:5-7:5",
+                        "Jerusalem Talmud Ketubot 5:7:5-8:3",
+                        "Jerusalem Talmud Ketubot 5:8:3-10:1",
+                        "Jerusalem Talmud Ketubot 5:10:1-11:3"
+                    ],
+                    "startingAddress": "31b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 5",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אף על פי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 5",
+                    "heTitle": "אף על פי",
+                    "offset": 61
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 6:1:1-7:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 6:1:1-2",
+                        "Jerusalem Talmud Ketubot 6:1:2-3",
+                        "Jerusalem Talmud Ketubot 6:1:3-3:2",
+                        "Jerusalem Talmud Ketubot 6:3:2-4:2",
+                        "Jerusalem Talmud Ketubot 6:4:2-5:2",
+                        "Jerusalem Talmud Ketubot 6:5:2-6:3",
+                        "Jerusalem Talmud Ketubot 6:6:3-7:1",
+                        "Jerusalem Talmud Ketubot 6:7:1-4",
+                        "Jerusalem Talmud Ketubot 6:7:4"
+                    ],
+                    "startingAddress": "38b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 6",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מציאת האשה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 6",
+                    "heTitle": "מציאת האשה",
+                    "offset": 75
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 7:1:1-9:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 7:1:1-3",
+                        "Jerusalem Talmud Ketubot 7:1:3-2:1",
+                        "Jerusalem Talmud Ketubot 7:2:1-5:1",
+                        "Jerusalem Talmud Ketubot 7:5:1-6:6",
+                        "Jerusalem Talmud Ketubot 7:6:6-7",
+                        "Jerusalem Talmud Ketubot 7:6:7-7:3",
+                        "Jerusalem Talmud Ketubot 7:7:3-5",
+                        "Jerusalem Talmud Ketubot 7:7:5-8:2",
+                        "Jerusalem Talmud Ketubot 7:8:2-9:3"
+                    ],
+                    "startingAddress": "43a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 7",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "המדיר",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 7",
+                    "heTitle": "המדיר",
+                    "offset": 84
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 8:1:1-11:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 8:1:1-2:2",
+                        "Jerusalem Talmud Ketubot 8:2:2-4:2",
+                        "Jerusalem Talmud Ketubot 8:4:2-6:2",
+                        "Jerusalem Talmud Ketubot 8:6:2-9:1",
+                        "Jerusalem Talmud Ketubot 8:9:1-10:3",
+                        "Jerusalem Talmud Ketubot 8:10:3",
+                        "Jerusalem Talmud Ketubot 8:10:3-11:5",
+                        "Jerusalem Talmud Ketubot 8:11:5"
+                    ],
+                    "startingAddress": "47b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 8",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "האשה שנפלו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 8",
+                    "heTitle": "האשה שנפלו",
+                    "offset": 93
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 9:1:1-10:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 9:1:1-2",
+                        "Jerusalem Talmud Ketubot 9:1:2-5",
+                        "Jerusalem Talmud Ketubot 9:1:5-7",
+                        "Jerusalem Talmud Ketubot 9:1:7-12",
+                        "Jerusalem Talmud Ketubot 9:1:12",
+                        "Jerusalem Talmud Ketubot 9:1:12-3:1",
+                        "Jerusalem Talmud Ketubot 9:3:1-4:2",
+                        "Jerusalem Talmud Ketubot 9:4:2-5:3",
+                        "Jerusalem Talmud Ketubot 9:5:3-6:2",
+                        "Jerusalem Talmud Ketubot 9:6:2-7:6",
+                        "Jerusalem Talmud Ketubot 9:7:6-8:1",
+                        "Jerusalem Talmud Ketubot 9:8:1-9:1",
+                        "Jerusalem Talmud Ketubot 9:9:1-10:1",
+                        "Jerusalem Talmud Ketubot 9:10:1-5"
+                    ],
+                    "startingAddress": "51a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 9",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הכותב לאשתו",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 9",
+                    "heTitle": "הכותב לאשתו",
+                    "offset": 100
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 10:1:1-6:2",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 10:1:1-6",
+                        "Jerusalem Talmud Ketubot 10:1:6-2:3",
+                        "Jerusalem Talmud Ketubot 10:2:3-4:1",
+                        "Jerusalem Talmud Ketubot 10:4:1-4",
+                        "Jerusalem Talmud Ketubot 10:4:4-5:2",
+                        "Jerusalem Talmud Ketubot 10:5:2-6:2",
+                        "Jerusalem Talmud Ketubot 10:6:2"
+                    ],
+                    "startingAddress": "58a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 10",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מי שהיה נשוי",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 10",
+                    "heTitle": "מי שהיה נשוי",
+                    "offset": 114
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 11:1:1-7:8",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 11:1:1-5",
+                        "Jerusalem Talmud Ketubot 11:1:5-2:4",
+                        "Jerusalem Talmud Ketubot 11:2:4-3:2",
+                        "Jerusalem Talmud Ketubot 11:3:2-4:2",
+                        "Jerusalem Talmud Ketubot 11:4:2-6:2",
+                        "Jerusalem Talmud Ketubot 11:6:2-7:1",
+                        "Jerusalem Talmud Ketubot 11:7:1-8"
+                    ],
+                    "startingAddress": "61a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 11",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אלמנה ניזונת",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 11",
+                    "heTitle": "אלמנה ניזונת",
+                    "offset": 120
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 12:1:1-5:4",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 12:1:1-2:2",
+                        "Jerusalem Talmud Ketubot 12:2:2-3:3",
+                        "Jerusalem Talmud Ketubot 12:3:3-8",
+                        "Jerusalem Talmud Ketubot 12:3:8-10",
+                        "Jerusalem Talmud Ketubot 12:3:10-14",
+                        "Jerusalem Talmud Ketubot 12:3:14-5:2",
+                        "Jerusalem Talmud Ketubot 12:5:2-4"
+                    ],
+                    "startingAddress": "64b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 12",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הנושא את האשה",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 12",
+                    "heTitle": "הנושא את האשה",
+                    "offset": 127
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Ketubot 13:1:1-11:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Ketubot 13:1:1-2",
+                        "Jerusalem Talmud Ketubot 13:1:2-5",
+                        "Jerusalem Talmud Ketubot 13:1:5-2:3",
+                        "Jerusalem Talmud Ketubot 13:2:3-3:1",
+                        "Jerusalem Talmud Ketubot 13:3:1-4",
+                        "Jerusalem Talmud Ketubot 13:3:4-4:3",
+                        "Jerusalem Talmud Ketubot 13:4:3-7:1",
+                        "Jerusalem Talmud Ketubot 13:7:1-8:2",
+                        "Jerusalem Talmud Ketubot 13:8:2-10:2",
+                        "Jerusalem Talmud Ketubot 13:10:2-11:3"
+                    ],
+                    "startingAddress": "67b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 13",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "שני דייני גזירות",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 13",
+                    "heTitle": "שני דייני גזירות",
+                    "offset": 133
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי כתובות",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Yerushalmi Ketubot",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Ktubot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Kesuvos",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Ketubot",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Ketubot",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Ktubot",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי כתובות",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Keth.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Ketubot",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Ketubot",
+            "heTitle": "תלמוד ירושלמי כתובות"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

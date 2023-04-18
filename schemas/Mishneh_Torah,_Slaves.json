@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "slaves"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "slaves"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "slaves"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "slaves"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "slaves"
+                ]
+            }
+        ],
         "lengths": [
-            9
+            9,
+            116
         ],
         "titles": [
             {
@@ -62,11 +97,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות עבדים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות עבדים"
             },
             {
@@ -86,8 +116,45 @@
                 "text": "רמב\"ם הל' עבדים"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות עבדים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות עבדים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' עבדים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' עבדים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות עבדים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות עבדים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' עבדים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' עבדים",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות עבדים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Slaves",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -104,9 +171,13 @@
         5
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The twelfth book is Sefer Kinyan (Acquisition: laws of the marketplace). Hilchot Avadim.",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -129,12 +200,20 @@
         "Mishneh Torah, Slaves"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות עבדים",
         "רמב\"ם, הלכות עבדים",
         "משנה תורה, הל' עבדים",
         "רמב\"ם, הל' עבדים",
         "רמב\"ם הלכות עבדים",
-        "רמב\"ם הל' עבדים"
+        "רמב\"ם הל' עבדים",
+        "רמב״ם, הלכות עבדים",
+        "רמב”ם, הלכות עבדים",
+        "רמב״ם, הל' עבדים",
+        "רמב”ם, הל' עבדים",
+        "רמב״ם הלכות עבדים",
+        "רמב”ם הלכות עבדים",
+        "רמב״ם הל' עבדים",
+        "רמב”ם הל' עבדים",
+        "משנה תורה, הלכות עבדים"
     ],
     "sectionNames": [
         "Chapter",

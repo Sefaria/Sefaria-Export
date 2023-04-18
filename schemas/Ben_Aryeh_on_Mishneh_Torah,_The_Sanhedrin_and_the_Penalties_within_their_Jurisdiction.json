@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ben-aryeh",
+                    "hilchot",
+                    "the-sanhedrin-and-the-penalties-within-their-jurisdiction"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ben-aryeh",
+                    "the-sanhedrin-and-the-penalties-within-their-jurisdiction"
+                ]
+            }
+        ],
+        "lengths": [
+            26,
+            10,
+            10
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,7 +62,11 @@
         "key": "Ben Aryeh on Mishneh Torah, The Sanhedrin and the Penalties within their Jurisdiction"
     },
     "authors": [
-        "Zev ben Aryeh"
+        {
+            "en": "Zev ben Aryeh",
+            "he": "זאב בן אריה",
+            "slug": "zev-ben-aryeh"
+        }
     ],
     "heDesc": "חידושים וציוני מראה מקומות לדברי הרמב\"ם",
     "compDate": "1840",

@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "even-haazel",
+                    "hilchot",
+                    "virgin-maiden"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "even-haazel",
+                    "virgin-maiden"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            5,
+            5
+        ],
         "titles": [
             {
                 "text": "אבן האזל על משנה תורה, הלכות נערה בתולה",
@@ -42,11 +62,18 @@
         "key": "Even Ha'azel on Mishneh Torah, Virgin Maiden"
     },
     "authors": [
-        "Isser Zalman Meltzer"
+        {
+            "en": "Isser Zalman Meltzer",
+            "he": "איסר זלמן מלצר",
+            "slug": "isser-zalman-meltzer"
+        }
     ],
-    "enDesc": "Part of an involved nine-volume commentary on Rambam's Mishneh Torah. ",
+    "enDesc": "Part of an involved nine-volume commentary on Rambam's Mishneh Torah.",
     "pubDate": "1955",
+    "compDate": "1950",
+    "compPlace": "Jerusalem",
     "pubPlace": "Jerusalem",
+    "errorMargin": "5",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -79,5 +106,13 @@
         "מפרשים",
         "אבן האזל",
         "ספר נשים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1945  - c.1955 CE)",
+        "he": " (1945 - 1955 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Jerusalem",
+        "he": "ירושלים"
+    }
 }

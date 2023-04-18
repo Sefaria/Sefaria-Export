@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "daily-offerings-and-additional-offerings"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "daily-offerings-and-additional-offerings"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "daily-offerings-and-additional-offerings"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "daily-offerings-and-additional-offerings"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "daily-offerings-and-additional-offerings"
+                ]
+            }
+        ],
         "lengths": [
-            10
+            10,
+            168
         ],
         "titles": [
             {
@@ -66,11 +101,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות תמידים ומוספין",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות תמידים ומוספין"
             },
             {
@@ -90,8 +120,45 @@
                 "text": "רמב\"ם הל' תמידים ומוספין"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות תמידים ומוספין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות תמידים ומוספין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' תמידים ומוספין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' תמידים ומוספין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות תמידים ומוספין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות תמידים ומוספין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' תמידים ומוספין",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' תמידים ומוספין",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות תמידים ומוספין",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Daily Offerings and Additional Offerings",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -108,9 +175,13 @@
         6
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
-    "enDesc": "The eighth book is Avodah (Divine Service): the laws of the Temple in Jerusalem. Hilchot Temidim umusafim: Laws of continual and additional offerings",
+    "enDesc": "The Mishneh Torah (“Repetition of the Torah”), also referred to as Yad HaChazakah (“The Strong Hand”), is a monumental legal code and one of the most organized, comprehensive, and influential works of Jewish law. Written over a period of ten years, the work systematically categorizes and clearly explains all aspects of Jewish observance, including those applicable only in Temple times.",
     "pubDate": "1474",
     "compDate": "1177",
     "compPlace": "Middle-Age Egypt",
@@ -134,12 +205,20 @@
         "Mishneh Torah, Daily Offerings and Additional Offerings"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות תמידים ומוספין",
         "רמב\"ם, הלכות תמידים ומוספין",
         "משנה תורה, הל' תמידים ומוספין",
         "רמב\"ם, הל' תמידים ומוספין",
         "רמב\"ם הלכות תמידים ומוספין",
-        "רמב\"ם הל' תמידים ומוספין"
+        "רמב\"ם הל' תמידים ומוספין",
+        "רמב״ם, הלכות תמידים ומוספין",
+        "רמב”ם, הלכות תמידים ומוספין",
+        "רמב״ם, הל' תמידים ומוספין",
+        "רמב”ם, הל' תמידים ומוספין",
+        "רמב״ם הלכות תמידים ומוספין",
+        "רמב”ם הלכות תמידים ומוספין",
+        "רמב״ם הל' תמידים ומוספין",
+        "רמב”ם הל' תמידים ומוספין",
+        "משנה תורה, הלכות תמידים ומוספין"
     ],
     "sectionNames": [
         "Chapter",

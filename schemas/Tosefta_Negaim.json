@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Negaim",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Tahorot"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "negaim"
+                ]
+            }
+        ],
         "lengths": [
-            9
+            9,
+            98
         ],
         "titles": [
             {
@@ -33,17 +42,17 @@
                 "text": "Tosefta Nega'im"
             },
             {
-                "lang": "he",
-                "text": "תוספתא נגעים",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Neg."
             },
             {
-                "lang": "en",
+                "text": "תוספתא נגעים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Negaim",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -60,6 +69,8 @@
     ],
     "authors": [],
     "enDesc": "Negaim (Plagues) belongs to the sixth order, Tahorot (Purities) and discusses the uncleanness from a corpse and its peculiar property of defling people or objects either by the latter \"tenting\" over the corpse, or by the corpse \"tenting\" over them, or by the presence of both corpse and person or object under the same roof or tent. It has nine chapters.",
+    "enShortDesc": "Tzaraat, a discoloration condition on skin, houses, or clothing, purification for the infected.",
+    "heShortDesc": "דיני נגע הצרעת המופיע על עור האדם, בקירות הבית או בבגדים ודרכי ההיטהרות מן הנגע.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -84,8 +95,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר טהרות"
     ],
     "compDateString": {

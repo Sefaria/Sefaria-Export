@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yad-eitan",
+                    "hilchot",
+                    "sales"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yad-eitan",
+                    "sales"
+                ]
+            }
+        ],
+        "lengths": [
+            30,
+            9,
+            10
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Yad Eitan on Mishneh Torah, Sales",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Yad Eitan on Mishneh Torah, Sales",
@@ -42,7 +62,11 @@
         "key": "Yad Eitan on Mishneh Torah, Sales"
     },
     "authors": [
-        "Avraham Maskil L'Eitan"
+        {
+            "en": "Avraham Maskil L'Eitan",
+            "he": "אברהם משכיל לאיתן",
+            "slug": "avraham-maskil-leitan"
+        }
     ],
     "heDesc": "הערות וציוני מקורות לדברי הרמב\"ם בספר משנה תורה.",
     "pubDate": "1900",

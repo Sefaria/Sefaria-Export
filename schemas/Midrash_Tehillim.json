@@ -2,56 +2,83 @@
     "title": "Midrash Tehillim",
     "categories": [
         "Midrash",
-        "Aggadic Midrash"
+        "Aggadah"
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
         "depth": 2,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Integer"
         ],
         "sectionNames": [
             "Psalm",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "midrash-tehillim"
+                ]
+            }
+        ],
+        "lengths": [
+            150,
+            806
+        ],
+        "referenceableSections": [
+            true,
+            false
+        ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Midrash Shocher Tov"
+                "text": "Midrash Shocher Tov",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Midrash Shohar Tov"
+                "text": "Midrash Shohar Tov",
+                "lang": "en"
             },
             {
-                "lang": "he",
+                "text": "Midr. Till.",
+                "lang": "en"
+            },
+            {
+                "text": "Midrash Tillim",
+                "lang": "en"
+            },
+            {
+                "text": "Midr. Till. to Ps.",
+                "lang": "en"
+            },
+            {
+                "text": "Midrash Schohartob",
+                "lang": "en"
+            },
+            {
+                "text": "מדרש שוחר טוב",
+                "lang": "he"
+            },
+            {
+                "text": "שוח\"ט",
+                "lang": "he"
+            },
+            {
+                "text": "מדרש תהלים",
+                "lang": "he"
+            },
+            {
+                "text": "שוח״ט",
+                "lang": "he"
+            },
+            {
+                "text": "שוח”ט",
+                "lang": "he"
+            },
+            {
                 "text": "מדרש תהילים",
+                "lang": "he",
                 "primary": true
-            },
-            {
-                "lang": "he",
-                "text": "מדרש שוחר טוב"
-            },
-            {
-                "lang": "he",
-                "text": "שוח\"ט"
-            },
-            {
-                "lang": "he",
-                "text": "מדרש תהלים"
-            },
-            {
-                "lang": "en",
-                "text": "Midr. Till."
-            },
-            {
-                "lang": "en",
-                "text": "Midrash Tillim"
-            },
-            {
-                "lang": "en",
-                "text": "Midr. Till. to Ps."
             },
             {
                 "text": "Midrash Tehillim",
@@ -68,7 +95,9 @@
         "key": "Midrash Tehillim"
     },
     "authors": [],
-    "enDesc": "A book of midrash discussing the Psalms.",
+    "enDesc": "Midrash Tehillim, also referred to as Midrash Shocher Tov, is a midrash on the Book of Psalms. The work consists of two sections that are distinct in their language and style: the first and oldest section contains midrashim on Psalms 1–118. The second section, added at a later point offers midrashim on Psalms 119–150. Both sections encompass a range of styles and interpretation methods. The precise editors, dates, and places of composition are subject to debate.",
+    "enShortDesc": "Midrash on the Book of Psalms consisting of two distinct parts.",
+    "heShortDesc": "מדרש בן שני חלקים על ספר תהלים.",
     "compDate": "1250",
     "compPlace": "Narbonne",
     "errorMargin": "200",
@@ -80,13 +109,16 @@
         "Midr. Till.",
         "Midrash Tillim",
         "Midr. Till. to Ps.",
+        "Midrash Schohartob",
         "Midrash Tehillim"
     ],
     "heTitleVariants": [
-        "מדרש תהילים",
         "מדרש שוחר טוב",
         "שוח\"ט",
-        "מדרש תהלים"
+        "מדרש תהלים",
+        "שוח״ט",
+        "שוח”ט",
+        "מדרש תהילים"
     ],
     "sectionNames": [
         "Psalm",
@@ -95,7 +127,7 @@
     "depth": 2,
     "heCategories": [
         "מדרש",
-        "מדרש אגדה"
+        "אגדה"
     ],
     "compDateString": {
         "en": " (c.1050  - c.1450 CE)",

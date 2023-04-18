@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "shorshei-hayam",
+                    "hilchot",
+                    "rest-on-the-tenth-of-tishrei"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "shorshei-hayam",
+                    "rest-on-the-tenth-of-tishrei"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            1,
+            1
+        ],
         "titles": [
             {
                 "text": "שורשי הים על משנה תורה, הלכות שביתת עשור",
@@ -42,10 +62,17 @@
         "key": "Shorshei HaYam on Mishneh Torah, Rest on the Tenth of Tishrei"
     },
     "authors": [
-        "Yitzchak Mayo"
+        {
+            "en": "Yitzchak Mayo",
+            "he": "יצחק מאיו",
+            "slug": "yitzchak-mayo"
+        }
     ],
     "pubDate": "1806-1807",
-    "pubPlace": "Salonica / Thessaloniki ",
+    "compDate": "1790",
+    "compPlace": "Izmir / Smyrna",
+    "pubPlace": "Salonica / Thessaloniki",
+    "errorMargin": "15",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -78,5 +105,13 @@
         "מפרשים",
         "שורשי הים",
         "ספר זמנים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1775  - c.1805 CE)",
+        "he": " (1775 - 1805 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Izmir / Smyrna",
+        "he": "איזמיר"
+    }
 }

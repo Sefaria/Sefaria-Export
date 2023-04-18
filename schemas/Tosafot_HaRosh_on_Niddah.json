@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Tosafot HaRosh",
         "Seder Tahorot"
     ],
@@ -17,6 +17,27 @@
         "sectionNames": [
             "Daf",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosafot-harosh",
+                    "niddah"
+                ]
+            }
+        ],
+        "lengths": [
+            146,
+            725
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,7 +60,11 @@
         "key": "Tosafot HaRosh on Niddah"
     },
     "authors": [
-        "Rosh"
+        {
+            "en": "Rosh",
+            "he": "רא\"ש",
+            "slug": "rosh"
+        }
     ],
     "enDesc": "Largely a redaction of previous Tosafist glosses on the Talmud written earlier in France and Germany, it gave Spanish scholars access to that tradition for many centuries, until other editions of Tosafot became more universally accessible.",
     "compDate": "1300",
@@ -71,7 +96,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "תוספות הרא\"ש",
         "סדר טהרות"
     ],

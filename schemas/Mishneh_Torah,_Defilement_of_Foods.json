@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "defilement-of-foods"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "defilement-of-foods"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "defilement-of-foods"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "defilement-of-foods"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "defilement-of-foods"
+                ]
+            }
+        ],
         "lengths": [
-            16
+            16,
+            259
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות טומאת אוכלים",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות טומאת אוכלים"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' טומאת אוכלים"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות טומאת אוכלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות טומאת אוכלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' טומאת אוכלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' טומאת אוכלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות טומאת אוכלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות טומאת אוכלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' טומאת אוכלים",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' טומאת אוכלים",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות טומאת אוכלים",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Defilement of Foods",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,7 +167,11 @@
         6
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The tenth book is Sefer Taharah (Cleanness: the rules of purity). Hilchot Tumat Okhalin.",
     "pubDate": "1474",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Defilement of Foods"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות טומאת אוכלים",
         "רמב\"ם, הלכות טומאת אוכלים",
         "משנה תורה, הל' טומאת אוכלים",
         "רמב\"ם, הל' טומאת אוכלים",
         "רמב\"ם הלכות טומאת אוכלים",
-        "רמב\"ם הל' טומאת אוכלים"
+        "רמב\"ם הל' טומאת אוכלים",
+        "רמב״ם, הלכות טומאת אוכלים",
+        "רמב”ם, הלכות טומאת אוכלים",
+        "רמב״ם, הל' טומאת אוכלים",
+        "רמב”ם, הל' טומאת אוכלים",
+        "רמב״ם הלכות טומאת אוכלים",
+        "רמב”ם הלכות טומאת אוכלים",
+        "רמב״ם הל' טומאת אוכלים",
+        "רמב”ם הל' טומאת אוכלים",
+        "משנה תורה, הלכות טומאת אוכלים"
     ],
     "sectionNames": [
         "Chapter",

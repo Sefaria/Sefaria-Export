@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Eduyot",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Nezikin"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "eduyot"
+                ]
+            }
+        ],
         "lengths": [
-            3
+            3,
+            27
         ],
         "titles": [
             {
@@ -29,11 +38,6 @@
                 "text": "T. Eduyot"
             },
             {
-                "lang": "he",
-                "text": "תוספתא עדויות",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Ed."
             },
@@ -42,8 +46,13 @@
                 "text": "Tosef. Eduy."
             },
             {
-                "lang": "en",
+                "text": "תוספתא עדויות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Eduyot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -60,6 +69,8 @@
     ],
     "authors": [],
     "enDesc": "Eduyot (Testimonies) belongs to the fourth order, Nezikin (The Order of Damages) and presents case studies of legal disputes in Mishnaic times and the miscellaneous testimonies that illustrate various Sages and principles of halakha. It has three chapters.",
+    "enShortDesc": "The only tractate without a unified subject, organized as collections of laws on various topics.",
+    "heShortDesc": "המסכת היחידה שאין לה נושא מרכזי אחד אלא מובאות בה הלכות במגוון עניינים.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -84,8 +95,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר נזיקין"
     ],
     "compDateString": {

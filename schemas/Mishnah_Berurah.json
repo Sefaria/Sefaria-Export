@@ -7,15 +7,91 @@
         "Mishnah Berurah"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 2,
-        "addressTypes": [
-            "Siman",
-            "Integer"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "Introduction",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "הקדמה",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "Introduction to the Laws of Shabbat",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "הקדמה להלכות שבת",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Introduction to the Laws of Shabbat",
+                "heTitle": "הקדמה להלכות שבת",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction to the Laws of Shabbat"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Siman",
+                    "SeifKatan"
+                ],
+                "sectionNames": [
+                    "Siman",
+                    "Seif Katan"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "סימן",
+                    "סעיף קטן"
+                ],
+                "key": "default"
+            }
         ],
-        "sectionNames": [
-            "Siman",
-            "Seif Katan"
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah-berurah"
+                ]
+            }
         ],
         "titles": [
             {
@@ -59,6 +135,14 @@
                 "lang": "en"
             },
             {
+                "text": "Drafting - Summer - Product Announcements",
+                "lang": "en"
+            },
+            {
+                "text": "Mishna Berurah",
+                "lang": "en"
+            },
+            {
                 "text": "משנה ברורה",
                 "lang": "he",
                 "primary": true
@@ -71,16 +155,16 @@
         ],
         "title": "Mishnah Berurah",
         "heTitle": "משנה ברורה",
-        "heSectionNames": [
-            "סימן",
-            "סעיף קטן"
-        ],
         "key": "Mishnah Berurah"
     },
     "authors": [
-        "Israel Meir Kagan"
+        {
+            "en": "Israel Meir Kagan",
+            "he": "רבי ישראל מאיר הכהן",
+            "slug": "israel-meir-kagan"
+        }
     ],
-    "enDesc": "Mishnah Berurah (Clarified Teaching) is a work of halakhah by Rabbi Yisrael Meir Kagan also colloquially known by the name of another of his books, Hafez Hayyim (Desirer of Life). His Mishnah Berurah is a commentary on Orah Hayyim, the first section of the Shulhan Arukh which deals with laws of prayer, synagogue, Shabbat and holidays, summarizing the opinions of the post-Medieval rabbinic authority. It is widely used as a reference and has mostly supplanted the Hayyei Adam and the Arukh HaShulhan as the primary authority on Jewish daily living among Ashkenazi Jews. He displays a tendency towards stringency though he does include lenient opinions.",
+    "enDesc": "Mishnah Berurah (Clarified Teaching) is a work of halakhah by Rabbi Yisrael Meir Kagan also colloquially known by the name of another of his books, Hafez Hayyim (Desirer of Life). His Mishnah Berurah is a commentary on Orach Chaim, the first section of the Shulchan Arukh, which deals with laws of prayer, synagogue, Shabbat and holidays, summarizing the opinions of the post-Medieval rabbinic authority. It is widely used as a reference and has mostly supplanted the Chayei Adam and the Arukh HaShulchan as the primary authority on Jewish daily living among Ashkenazi Jews. He displays a tendency towards stringency though he does include lenient opinions.",
     "heDesc": "ה\"משנה ברורה\" הינה יצירת הלכה פרי עטו של ר' ישראל מאיר הכהן מראדין, הידוע גם כ\"חפץ חיים\", כשמו של ספר נוסף שלו. המשנה ברורה הינה פירוש על \"אורח חיים\", החלק הראשון של ה\"שולחן ערוך\", העוסק בהלכות תפילה, בית הכנסת, שבת וחגים, והוא מסכם את דעותיהם של הסמכויות הרבניות הבתר-ימי-ביניימיות בנושאים אלו. הספר נמצא בשימוש רחב, ותפס כמעט לחלוטין את מקום ה\"חיי אדם\" ו\"ערוך השולחן\" כסמכות המרכזית בנושא החיים היהודיים היום-יומיים בקרב יהודי אשכנז. המחבר מפגין בספר נטייה לפסיקה מחמירה, למרות שהוא כולל בו גם דעות מקילות.",
     "pubDate": "1884-1907",
     "compDate": "1890",
@@ -92,7 +176,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Orach Chayim",
-            "he": "אורח חיים"
+            "he": "שולחן ערוך, אורח חיים"
         }
     ],
     "is_cited": true,
@@ -108,16 +192,13 @@
         "Mishnah Berurah O.C.",
         "Mishnah Brura",
         "Mishnah Brurah",
+        "Drafting - Summer - Product Announcements",
+        "Mishna Berurah",
         "Mishnah Berurah"
     ],
     "heTitleVariants": [
         "משנה ברורה"
     ],
-    "sectionNames": [
-        "Siman",
-        "Seif Katan"
-    ],
-    "depth": 2,
     "heCategories": [
         "הלכה",
         "שולחן ערוך",

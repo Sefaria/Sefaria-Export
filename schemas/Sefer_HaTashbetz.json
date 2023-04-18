@@ -1,7 +1,8 @@
 {
     "title": "Sefer HaTashbetz",
     "categories": [
-        "Responsa"
+        "Responsa",
+        "Rishonim"
     ],
     "schema": {
         "nodes": [
@@ -196,9 +197,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Sefer HaTashbetz",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Sefer HaTashbetz",
@@ -206,10 +207,16 @@
         "key": "Sefer HaTashbetz"
     },
     "authors": [
-        "Shimon ben Tzemach Duran"
+        {
+            "en": "Shimon ben Tzemach Duran",
+            "he": "שמעון בן צמח דוראן",
+            "slug": "shimon-ben-tzemach-duran"
+        }
     ],
     "enDesc": "Collection of over 900 responsa of the Rashbatz (Tashbetz is an acronym for \"Teshuvot Shimon ben Tzemach\"). In addition to Halacha, these correspondences cover many other facets of Judaism, including Aggadah, philosophy and astronomy.",
-    "heDesc": "שו\"ת מהרשב\"ץ (תשב\"ץ = תשובות שמעון בן צמח). ",
+    "heDesc": "שו\"ת מהרשב\"ץ (תשב\"ץ = תשובות שמעון בן צמח).",
+    "enShortDesc": "15th-century responsa of the North African Rav Shimon ben Tzemach Duran, with a number of letters on math, history, and grammar.",
+    "heShortDesc": "שאלות ותשובות מאת הרב שמעון בן צמח דוראן מצפון אפריקה, בן המאה ה-15, הכוללות גם מכתבים בתחומי המתמטיקה, ההיסטוריה והדקדוק.",
     "pubDate": "1739",
     "compDate": "1414",
     "compPlace": "Algiers",
@@ -224,7 +231,8 @@
         "ספר התשב\"ץ"
     ],
     "heCategories": [
-        "שו\"ת"
+        "שו\"ת",
+        "ראשונים"
     ],
     "compDateString": {
         "en": " (c.1384  - c.1444 CE)",

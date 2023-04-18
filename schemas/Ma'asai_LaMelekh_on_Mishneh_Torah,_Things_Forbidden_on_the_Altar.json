@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "maasai-lamelekh",
+                    "hilchot",
+                    "things-forbidden-on-the-altar"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "maasai-lamelekh",
+                    "things-forbidden-on-the-altar"
+                ]
+            }
+        ],
+        "lengths": [
+            7,
+            82,
+            151
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -42,10 +62,17 @@
         "key": "Ma'asai LaMelekh on Mishneh Torah, Things Forbidden on the Altar"
     },
     "authors": [
-        "Yeshaya Zilberstein"
+        {
+            "en": "Yeshaya Zilberstein",
+            "he": "ישעיהו זילברשטיין",
+            "slug": "yeshaya-zilberstein"
+        }
     ],
     "pubDate": "1913",
+    "compDate": "1905",
+    "compPlace": "Waitzen",
     "pubPlace": "Waitzen",
+    "errorMargin": "8",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -78,5 +105,13 @@
         "מפרשים",
         "מעשי למלך",
         "ספר עבודה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1897  - c.1913 CE)",
+        "he": " (1897 - 1913 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Waitzen",
+        "he": "ואץ"
+    }
 }

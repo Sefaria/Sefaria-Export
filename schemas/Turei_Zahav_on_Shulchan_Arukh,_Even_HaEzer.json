@@ -85,15 +85,36 @@
                 "key": "Seder HaGet"
             }
         ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "turei-zahav",
+                    "even-haezer"
+                ]
+            }
+        ],
         "titles": [
             {
                 "text": "Taz on Shulchan Arukh, Even HaEzer",
                 "lang": "en"
             },
             {
-                "primary": true,
+                "text": "Taz EH",
+                "lang": "en"
+            },
+            {
+                "text": "Taz SA EH",
+                "lang": "en"
+            },
+            {
+                "text": "Taz Shulchan Aruch EH",
+                "lang": "en"
+            },
+            {
                 "text": "טורי זהב על שולחן ערוך אבן העזר",
-                "lang": "he"
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "ט״ז על שולחן ערוך אבן העזר",
@@ -114,10 +135,14 @@
         "key": "Turei Zahav on Shulchan Arukh, Even HaEzer"
     },
     "authors": [
-        "David HaLevi Segal"
+        {
+            "en": "David HaLevi Segal",
+            "he": "דוד הלוי סגל",
+            "slug": "david-halevi-segal"
+        }
     ],
     "enDesc": "More commonly known as Taz, it is one of the standard commentaries printed alongside the text of Shulchan Arukh. Due to its insightful nature and its early historical position, it greatly influenced subsequent halakhic practice.",
-    "heDesc": "אחד מנושאי הכלים העקריים של השולחן ערוך. ",
+    "heDesc": "אחד מנושאי הכלים העקריים של השולחן ערוך.",
     "pubDate": "1754",
     "compDate": "1645",
     "compPlace": "Ostroh",
@@ -128,7 +153,7 @@
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Even HaEzer",
-            "he": "אבן העזר"
+            "he": "שולחן ערוך, אבן העזר"
         }
     ],
     "collective_title": {
@@ -138,6 +163,9 @@
     "heTitle": "טורי זהב על שולחן ערוך אבן העזר",
     "titleVariants": [
         "Taz on Shulchan Arukh, Even HaEzer",
+        "Taz EH",
+        "Taz SA EH",
+        "Taz Shulchan Aruch EH",
         "Turei Zahav on Shulchan Arukh, Even HaEzer"
     ],
     "heTitleVariants": [
@@ -565,9 +593,21 @@
                     "lang": "en"
                 },
                 {
-                    "primary": true,
+                    "text": "Taz EH",
+                    "lang": "en"
+                },
+                {
+                    "text": "Taz SA EH",
+                    "lang": "en"
+                },
+                {
+                    "text": "Taz Shulchan Aruch EH",
+                    "lang": "en"
+                },
+                {
                     "text": "טורי זהב על שולחן ערוך אבן העזר",
-                    "lang": "he"
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "ט״ז על שולחן ערוך אבן העזר",

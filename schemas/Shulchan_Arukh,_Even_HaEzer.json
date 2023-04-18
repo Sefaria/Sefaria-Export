@@ -11,7 +11,7 @@
                 "depth": 2,
                 "addressTypes": [
                     "Siman",
-                    "Integer"
+                    "Seif"
                 ],
                 "sectionNames": [
                     "Siman",
@@ -34,6 +34,13 @@
                 ],
                 "sectionNames": [
                     "Seif"
+                ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "seder-haget"
+                        ]
+                    }
                 ],
                 "titles": [
                     {
@@ -63,6 +70,13 @@
                 "sectionNames": [
                     "Seif"
                 ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "seder-halitzah"
+                        ]
+                    }
+                ],
                 "titles": [
                     {
                         "primary": true,
@@ -81,6 +95,20 @@
                     "סעיף"
                 ],
                 "key": "Seder Halitzah"
+            }
+        ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "shulchan-arukh",
+                    "even-haezer"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "even-haezer"
+                ]
             }
         ],
         "titles": [
@@ -129,35 +157,6 @@
                 "lang": "en"
             },
             {
-                "primary": true,
-                "text": "אבן העזר",
-                "lang": "he"
-            },
-            {
-                "text": "שולחן ערוך אבן העזר",
-                "lang": "he"
-            },
-            {
-                "text": "אה\"ע",
-                "lang": "he"
-            },
-            {
-                "text": "אבה\"ע",
-                "lang": "he"
-            },
-            {
-                "text": "שו\"ע אה\"ע",
-                "lang": "he"
-            },
-            {
-                "text": "אה״ע סי'",
-                "lang": "he"
-            },
-            {
-                "text": "אה״ע",
-                "lang": "he"
-            },
-            {
                 "text": "SA EH",
                 "lang": "en"
             },
@@ -186,29 +185,96 @@
                 "lang": "en"
             },
             {
+                "text": "שולחן ערוך אבן העזר",
+                "lang": "he"
+            },
+            {
+                "text": "אה\"ע",
+                "lang": "he"
+            },
+            {
+                "text": "אבה\"ע",
+                "lang": "he"
+            },
+            {
+                "text": "שו\"ע אה\"ע",
+                "lang": "he"
+            },
+            {
+                "text": "אה״ע סי'",
+                "lang": "he"
+            },
+            {
+                "text": "אה״ע",
+                "lang": "he"
+            },
+            {
+                "text": "אה”ע",
+                "lang": "he"
+            },
+            {
+                "text": "אבה״ע",
+                "lang": "he"
+            },
+            {
+                "text": "אבה”ע",
+                "lang": "he"
+            },
+            {
+                "text": "שו״ע אה״ע",
+                "lang": "he"
+            },
+            {
+                "text": "שו”ע אה”ע",
+                "lang": "he"
+            },
+            {
+                "text": "אה\"ע סי'",
+                "lang": "he"
+            },
+            {
+                "text": "אה”ע סי'",
+                "lang": "he"
+            },
+            {
+                "text": "אבן העזר",
+                "lang": "he"
+            },
+            {
+                "text": "שולחן ערוך, אבן העזר",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Shulchan Arukh, Even HaEzer",
                 "lang": "en",
                 "primary": true
             }
         ],
         "title": "Shulchan Arukh, Even HaEzer",
-        "heTitle": "אבן העזר",
+        "heTitle": "שולחן ערוך, אבן העזר",
         "key": "Shulchan Arukh, Even HaEzer"
     },
     "order": [
         3
     ],
     "authors": [
-        "Joseph Karo"
+        {
+            "en": "Joseph Karo",
+            "he": "יוסף קארו",
+            "slug": "joseph-karo"
+        }
     ],
-    "enDesc": "The third section is Even Ha-Ezer - laws of marriage, divorce and related issues.",
+    "enDesc": "The Shulchan Arukh (“Set Table”) is the most widely accepted code of Jewish law ever written. Compiled in the 16th century by Rabbi Yosef Karo, it is a condensed and simplified version of the Beit Yosef, a commentary that Karo wrote on the Tur. Karo’s rulings are in accordance with Sephardic traditions; the text of the Shulchan Arukh also includes the glosses of Rabbi Moshe Isserles, which cite Ashkenazic traditions. Even HaEzer (“The Stone of Help,” a reference to I Samuel 7:12) is the third of four sections. It discusses family law, focusing on marriage, divorce, and yibbum (levirate marriage), with sections on sexual conduct, procreation, and adultery.",
+    "enShortDesc": "Family law: marriage, divorce, sexual conduct.",
+    "heShortDesc": "דיני משפחה: נישואין, גירושין, הלכות אישות.",
     "pubDate": "1564",
     "compDate": "1563",
     "compPlace": "Safed",
     "pubPlace": "Venice",
     "era": "AH",
     "is_cited": true,
-    "heTitle": "אבן העזר",
+    "heTitle": "שולחן ערוך, אבן העזר",
     "titleVariants": [
         "Even HaEzer",
         "EH",
@@ -231,13 +297,21 @@
         "Shulchan Arukh, Even HaEzer"
     ],
     "heTitleVariants": [
-        "אבן העזר",
         "שולחן ערוך אבן העזר",
         "אה\"ע",
         "אבה\"ע",
         "שו\"ע אה\"ע",
         "אה״ע סי'",
-        "אה״ע"
+        "אה״ע",
+        "אה”ע",
+        "אבה״ע",
+        "אבה”ע",
+        "שו״ע אה״ע",
+        "שו”ע אה”ע",
+        "אה\"ע סי'",
+        "אה”ע סי'",
+        "אבן העזר",
+        "שולחן ערוך, אבן העזר"
     ],
     "alts": {
         "Topic": {
@@ -699,35 +773,6 @@
                     "lang": "en"
                 },
                 {
-                    "primary": true,
-                    "text": "אבן העזר",
-                    "lang": "he"
-                },
-                {
-                    "text": "שולחן ערוך אבן העזר",
-                    "lang": "he"
-                },
-                {
-                    "text": "אה\"ע",
-                    "lang": "he"
-                },
-                {
-                    "text": "אבה\"ע",
-                    "lang": "he"
-                },
-                {
-                    "text": "שו\"ע אה\"ע",
-                    "lang": "he"
-                },
-                {
-                    "text": "אה״ע סי'",
-                    "lang": "he"
-                },
-                {
-                    "text": "אה״ע",
-                    "lang": "he"
-                },
-                {
                     "text": "SA EH",
                     "lang": "en"
                 },
@@ -756,13 +801,74 @@
                     "lang": "en"
                 },
                 {
+                    "text": "שולחן ערוך אבן העזר",
+                    "lang": "he"
+                },
+                {
+                    "text": "אה\"ע",
+                    "lang": "he"
+                },
+                {
+                    "text": "אבה\"ע",
+                    "lang": "he"
+                },
+                {
+                    "text": "שו\"ע אה\"ע",
+                    "lang": "he"
+                },
+                {
+                    "text": "אה״ע סי'",
+                    "lang": "he"
+                },
+                {
+                    "text": "אה״ע",
+                    "lang": "he"
+                },
+                {
+                    "text": "אה”ע",
+                    "lang": "he"
+                },
+                {
+                    "text": "אבה״ע",
+                    "lang": "he"
+                },
+                {
+                    "text": "אבה”ע",
+                    "lang": "he"
+                },
+                {
+                    "text": "שו״ע אה״ע",
+                    "lang": "he"
+                },
+                {
+                    "text": "שו”ע אה”ע",
+                    "lang": "he"
+                },
+                {
+                    "text": "אה\"ע סי'",
+                    "lang": "he"
+                },
+                {
+                    "text": "אה”ע סי'",
+                    "lang": "he"
+                },
+                {
+                    "text": "אבן העזר",
+                    "lang": "he"
+                },
+                {
+                    "text": "שולחן ערוך, אבן העזר",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
                     "text": "Shulchan Arukh, Even HaEzer",
                     "lang": "en",
                     "primary": true
                 }
             ],
             "title": "Shulchan Arukh, Even HaEzer",
-            "heTitle": "אבן העזר"
+            "heTitle": "שולחן ערוך, אבן העזר"
         }
     },
     "heCategories": [

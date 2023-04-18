@@ -1,7 +1,8 @@
 {
     "title": "Sefer Yetzirah Gra Version",
     "categories": [
-        "Kabbalah"
+        "Kabbalah",
+        "Sefer Yetzirah"
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
@@ -14,15 +15,38 @@
             "Chapter",
             "Mishnah"
         ],
-        "titles": [
+        "match_templates": [
             {
-                "lang": "en",
-                "text": "The Book of Formation"
+                "term_slugs": [
+                    "yetzirah",
+                    "gra1"
+                ]
             },
             {
+                "term_slugs": [
+                    "sefer",
+                    "yetzirah",
+                    "gra1"
+                ]
+            }
+        ],
+        "lengths": [
+            6,
+            62
+        ],
+        "titles": [
+            {
+                "text": "The Book of Formation",
+                "lang": "en"
+            },
+            {
+                "text": "ספר יצירה נוסח הגר\"א",
                 "lang": "he",
-                "text": "ספר יצירה: נוסח הגר\"א",
                 "primary": true
+            },
+            {
+                "text": "ספר יצירה: נוסח הגר\"א",
+                "lang": "he"
             },
             {
                 "text": "Sefer Yetzirah Gra Version",
@@ -31,7 +55,7 @@
             }
         ],
         "title": "Sefer Yetzirah Gra Version",
-        "heTitle": "ספר יצירה: נוסח הגר\"א",
+        "heTitle": "ספר יצירה נוסח הגר\"א",
         "heSectionNames": [
             "פרק",
             "משנה"
@@ -40,17 +64,20 @@
     },
     "authors": [],
     "enDesc": "",
+    "enShortDesc": "Shorter version of the text of Sefer Yetzirah edited by the Vilna Gaon.",
+    "heShortDesc": "גרסה קצרה של ספר יצירה, בעריכת הגאון מווילנה.",
     "pubDate": "",
     "compDate": "250",
     "pubPlace": "",
     "errorMargin": "800",
     "era": "A",
-    "heTitle": "ספר יצירה: נוסח הגר\"א",
+    "heTitle": "ספר יצירה נוסח הגר\"א",
     "titleVariants": [
         "The Book of Formation",
         "Sefer Yetzirah Gra Version"
     ],
     "heTitleVariants": [
+        "ספר יצירה נוסח הגר\"א",
         "ספר יצירה: נוסח הגר\"א"
     ],
     "sectionNames": [
@@ -59,7 +86,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "קבלה"
+        "קבלה",
+        "ספר יצירה"
     ],
     "compDateString": {
         "en": " (c.550 BCE  - c.1050 CE)",

@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "pesachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "pesachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "pesachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "pesachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "pesachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "pesachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "pesachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "pesachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "pesachim"
+                ]
+            }
+        ],
         "lengths": [
-            240,
-            11546
+            242,
+            3519
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -50,9 +114,16 @@
                 "lang": "en"
             },
             {
-                "primary": true,
-                "text": "פסחים",
-                "lang": "he"
+                "text": "BT Pesachim",
+                "lang": "en"
+            },
+            {
+                "text": "Psachim",
+                "lang": "en"
+            },
+            {
+                "text": "Pesaḥim ",
+                "lang": "en"
             },
             {
                 "text": "פסחי'",
@@ -63,8 +134,9 @@
                 "lang": "he"
             },
             {
-                "text": "BT Pesachim",
-                "lang": "en"
+                "text": "פסחים",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Pesachim",
@@ -85,12 +157,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         4,
         3
     ],
     "authors": [],
-    "enDesc": "Pesahim (Passover Festivals) belongs to the second order, Moed (Festivals) and discusses the prescriptions regarding the Passover and the paschal sacrifice. It has ten chapters.",
+    "enDesc": "Pesachim (“Passover Festivals”) is the third tractate in Seder Moed (“Festivals”). Its ten chapters discuss laws relating to Passover: the consumption of matzah (unleavened bread) and maror (bitter herbs), the prohibitions against owning or consuming chametz (leavened bread) on the festival, the paschal lamb that used to be offered at the Temple in Jerusalem, and the order of the seder (ritual feast) held on the first evening of the holiday.\n.",
+    "enShortDesc": "Passover: ridding of chametz, the Paschal lamb offering, matzah, maror, and the Seder.",
+    "heShortDesc": "דינים הקשורים לחג הפסח: איסור חמץ, קורבן הפסח, מצה, מרור וליל הסדר.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -98,6 +175,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "פסחים",
     "titleVariants": [
         "Masekhet Pesachim",
@@ -108,12 +188,14 @@
         "P’saḥim",
         "Pessachim",
         "BT Pesachim",
+        "Psachim",
+        "Pesaḥim ",
         "Pesachim"
     ],
     "heTitleVariants": [
-        "פסחים",
         "פסחי'",
-        "פסחי׳"
+        "פסחי׳",
+        "פסחים"
     ],
     "alts": {
         "Chapters": {
@@ -123,6 +205,33 @@
                     "depth": 1,
                     "wholeRef": "Pesachim 2a:1-21a:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-129"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-129"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "primary": true,
@@ -191,6 +300,33 @@
                     "depth": 1,
                     "wholeRef": "Pesachim 21a:8-42a:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-224"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-224"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "primary": true,
@@ -263,6 +399,33 @@
                     "depth": 1,
                     "wholeRef": "Pesachim 42a:15-50a:22",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-324"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-324"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "primary": true,
@@ -309,6 +472,33 @@
                     "depth": 1,
                     "wholeRef": "Pesachim 50a:23-57b:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-420"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-420"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "primary": true,
@@ -354,6 +544,33 @@
                     "depth": 1,
                     "wholeRef": "Pesachim 58a:1-65b:9",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-518"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-518"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "primary": true,
@@ -399,6 +616,33 @@
                     "depth": 1,
                     "wholeRef": "Pesachim 65b:10-73b:16",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-616"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-616"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "primary": true,
@@ -445,6 +689,33 @@
                     "depth": 1,
                     "wholeRef": "Pesachim 74a:1-86b:13",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-714"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-714"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "primary": true,
@@ -500,6 +771,33 @@
                     "depth": 1,
                     "wholeRef": "Pesachim 87a:1-92b:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-814"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-814"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "primary": true,
@@ -541,6 +839,33 @@
                     "depth": 1,
                     "wholeRef": "Pesachim 92b:4-99a:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-914"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-914"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "primary": true,
@@ -584,6 +909,44 @@
                     "depth": 1,
                     "wholeRef": "Pesachim 99b:1-121b:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-109"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-109"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
                     "titles": [
                         {
                             "primary": true,
@@ -684,9 +1047,16 @@
                     "lang": "en"
                 },
                 {
-                    "primary": true,
-                    "text": "פסחים",
-                    "lang": "he"
+                    "text": "BT Pesachim",
+                    "lang": "en"
+                },
+                {
+                    "text": "Psachim",
+                    "lang": "en"
+                },
+                {
+                    "text": "Pesaḥim ",
+                    "lang": "en"
                 },
                 {
                     "text": "פסחי'",
@@ -697,8 +1067,9 @@
                     "lang": "he"
                 },
                 {
-                    "text": "BT Pesachim",
-                    "lang": "en"
+                    "text": "פסחים",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Pesachim",

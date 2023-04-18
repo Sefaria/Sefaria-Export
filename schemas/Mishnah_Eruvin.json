@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "eruvin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "eruvin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "eruvin"
+                ]
+            }
+        ],
         "lengths": [
             10,
             96
@@ -33,11 +52,6 @@
                 "text": "Mishna Eruvin"
             },
             {
-                "lang": "he",
-                "text": "משנה עירובין",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah Erub."
             },
@@ -46,8 +60,13 @@
                 "text": "Mishnah Erubin"
             },
             {
-                "lang": "en",
+                "text": "משנה עירובין",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Eruvin",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -64,7 +83,9 @@
         2
     ],
     "authors": [],
-    "enDesc": "Eruvim (Mixtures) belongs to the second order, Moed (Festivals) and discusses the Eruv or Sabbath-bound - a category of constructions/delineations that alter the domains of the Sabbath for carrying and travel. It has ten chapters.",
+    "enDesc": "Eruvin (literally, “mixtures” referring to the symbolic combination of separate domains) is the second tractate in Seder Moed (Order of Festivals) and consists of ten chapters. It serves as a continuation of tractate Shabbat, discussing the rabbinic enactments - namely, ritual enclosures and designated food items - that legally expand the areas in which one can carry and travel on Shabbat.",
+    "enShortDesc": "Enclosures that legally expand the areas in which one can carry and travel on Shabbat.",
+    "heShortDesc": "תיחום המרחיב באופן סמלי את התחומים שמותר ללכת ולשאת בהם חפצים בשבת.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה עירובין",
     "titleVariants": [
         "M Eruvin",

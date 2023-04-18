@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "commentary-of-mahari-kurkus-and-radbaz",
+                    "hilchot",
+                    "vessels-of-the-sanctuary-and-those-who-serve-therein"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "commentary-of-mahari-kurkus-and-radbaz",
+                    "vessels-of-the-sanctuary-and-those-who-serve-therein"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            103,
+            174
+        ],
         "titles": [
             {
                 "text": "באורי מהר\"י קורקוס והרדב\"ז על משנה תורה, הלכות כלי המקדש והעובדין בו",
@@ -42,12 +62,22 @@
         "key": "Commentary of Mahari Kurkus and Radbaz on Mishneh Torah, Vessels of the Sanctuary and Those who Serve Therein"
     },
     "authors": [
-        "David ben Solomon ibn (Abi) Zimra",
-        "Yosef Kurkus"
+        {
+            "en": "David ben Solomon ibn (Abi) Zimra",
+            "he": "דוד בן שלמה אבן אבי זמרא",
+            "slug": "david-ben-solomon-ibn-(abi)-zimra"
+        },
+        {
+            "en": "Yosef Kurkus",
+            "he": "יוסף קורקוס",
+            "slug": "yosef-kurkus"
+        }
     ],
     "enDesc": "An analytical joint commentary by two famous 16th century Egyptian rabbis on the sacrificial rite as discussed in Rambam's Mishneh Torah.",
     "pubDate": "1946-1947",
+    "compDate": "1510",
     "pubPlace": "New York",
+    "errorMargin": "50",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -80,5 +110,9 @@
         "מפרשים",
         "באורי מהר\"י קורקוס והרדב\"ז",
         "ספר עבודה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1460  - c.1560 CE)",
+        "he": " (1460 - 1560 לספירה בקירוב)"
+    }
 }

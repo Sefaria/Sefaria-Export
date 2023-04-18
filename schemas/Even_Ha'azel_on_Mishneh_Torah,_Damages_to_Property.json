@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "even-haazel",
+                    "hilchot",
+                    "damages-to-property"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "even-haazel",
+                    "damages-to-property"
+                ]
+            }
+        ],
+        "lengths": [
+            14,
+            123,
+            123
+        ],
         "titles": [
             {
                 "text": "אבן האזל על משנה תורה, הלכות נזקי ממון",
@@ -42,11 +62,18 @@
         "key": "Even Ha'azel on Mishneh Torah, Damages to Property"
     },
     "authors": [
-        "Isser Zalman Meltzer"
+        {
+            "en": "Isser Zalman Meltzer",
+            "he": "איסר זלמן מלצר",
+            "slug": "isser-zalman-meltzer"
+        }
     ],
-    "enDesc": "Part of an involved nine-volume commentary on Rambam's Mishneh Torah. ",
+    "enDesc": "Part of an involved nine-volume commentary on Rambam's Mishneh Torah.",
     "pubDate": "1935",
+    "compDate": "1930",
+    "compPlace": "Jerusalem",
     "pubPlace": "Jerusalem",
+    "errorMargin": "5",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -79,5 +106,13 @@
         "מפרשים",
         "אבן האזל",
         "ספר נזיקין"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1925  - c.1935 CE)",
+        "he": " (1925 - 1935 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Jerusalem",
+        "he": "ירושלים"
+    }
 }

@@ -2,23 +2,69 @@
     "title": "Abarbanel on Torah",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Abarbanel"
     ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 3,
-                "addressTypes": [
-                    "Perek",
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Verse",
-                    "Paragraph"
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "sharedTitle": "Introduction",
+                        "titles": [
+                            {
+                                "lang": "en",
+                                "text": "Introduction",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "הקדמה",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "מבוא"
+                            }
+                        ],
+                        "title": "Introduction",
+                        "heTitle": "הקדמה",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Introduction"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 3,
+                        "addressTypes": [
+                            "Perek",
+                            "Integer",
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Chapter",
+                            "Verse",
+                            "Paragraph"
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "פרק",
+                            "פסוק",
+                            "פסקה"
+                        ],
+                        "key": "default"
+                    }
                 ],
                 "titles": [
                     {
@@ -34,25 +80,66 @@
                 ],
                 "title": "Genesis",
                 "heTitle": "בראשית",
-                "heSectionNames": [
-                    "פרק",
-                    "פסוק",
-                    "פסקה"
-                ],
                 "key": "Genesis"
             },
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 3,
-                "addressTypes": [
-                    "Perek",
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Verse",
-                    "Paragraph"
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "sharedTitle": "Introduction",
+                        "titles": [
+                            {
+                                "lang": "en",
+                                "text": "Introduction",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "הקדמה",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "מבוא"
+                            }
+                        ],
+                        "title": "Introduction",
+                        "heTitle": "הקדמה",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Introduction"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 3,
+                        "addressTypes": [
+                            "Perek",
+                            "Integer",
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Chapter",
+                            "Verse",
+                            "Paragraph"
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "פרק",
+                            "פסוק",
+                            "פסקה"
+                        ],
+                        "key": "default"
+                    }
                 ],
                 "titles": [
                     {
@@ -68,25 +155,66 @@
                 ],
                 "title": "Exodus",
                 "heTitle": "שמות",
-                "heSectionNames": [
-                    "פרק",
-                    "פסוק",
-                    "פסקה"
-                ],
                 "key": "Exodus"
             },
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 3,
-                "addressTypes": [
-                    "Perek",
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Verse",
-                    "Paragraph"
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "sharedTitle": "Introduction",
+                        "titles": [
+                            {
+                                "lang": "en",
+                                "text": "Introduction",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "הקדמה",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "מבוא"
+                            }
+                        ],
+                        "title": "Introduction",
+                        "heTitle": "הקדמה",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Introduction"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 3,
+                        "addressTypes": [
+                            "Perek",
+                            "Integer",
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Chapter",
+                            "Verse",
+                            "Paragraph"
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "פרק",
+                            "פסוק",
+                            "פסקה"
+                        ],
+                        "key": "default"
+                    }
                 ],
                 "titles": [
                     {
@@ -102,25 +230,66 @@
                 ],
                 "title": "Leviticus",
                 "heTitle": "ויקרא",
-                "heSectionNames": [
-                    "פרק",
-                    "פסוק",
-                    "פסקה"
-                ],
                 "key": "Leviticus"
             },
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 3,
-                "addressTypes": [
-                    "Perek",
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Verse",
-                    "Paragraph"
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "sharedTitle": "Introduction",
+                        "titles": [
+                            {
+                                "lang": "en",
+                                "text": "Introduction",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "הקדמה",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "מבוא"
+                            }
+                        ],
+                        "title": "Introduction",
+                        "heTitle": "הקדמה",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Introduction"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 3,
+                        "addressTypes": [
+                            "Perek",
+                            "Integer",
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Chapter",
+                            "Verse",
+                            "Paragraph"
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "פרק",
+                            "פסוק",
+                            "פסקה"
+                        ],
+                        "key": "default"
+                    }
                 ],
                 "titles": [
                     {
@@ -136,25 +305,66 @@
                 ],
                 "title": "Numbers",
                 "heTitle": "במדבר",
-                "heSectionNames": [
-                    "פרק",
-                    "פסוק",
-                    "פסקה"
-                ],
                 "key": "Numbers"
             },
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 3,
-                "addressTypes": [
-                    "Perek",
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Verse",
-                    "Paragraph"
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "sharedTitle": "Introduction",
+                        "titles": [
+                            {
+                                "lang": "en",
+                                "text": "Introduction",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "הקדמה",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "מבוא"
+                            }
+                        ],
+                        "title": "Introduction",
+                        "heTitle": "הקדמה",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Introduction"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 3,
+                        "addressTypes": [
+                            "Perek",
+                            "Integer",
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Chapter",
+                            "Verse",
+                            "Paragraph"
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "פרק",
+                            "פסוק",
+                            "פסקה"
+                        ],
+                        "key": "default"
+                    }
                 ],
                 "titles": [
                     {
@@ -170,18 +380,22 @@
                 ],
                 "title": "Deuteronomy",
                 "heTitle": "דברים",
-                "heSectionNames": [
-                    "פרק",
-                    "פסוק",
-                    "פסקה"
-                ],
                 "key": "Deuteronomy"
+            }
+        ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "abarbanel",
+                    "numbers"
+                ]
             }
         ],
         "titles": [
             {
-                "lang": "he",
                 "text": "אברבנאל על תורה",
+                "lang": "he",
                 "primary": true
             },
             {
@@ -195,7 +409,11 @@
         "key": "Abarbanel on Torah"
     },
     "authors": [
-        "Abarbanel"
+        {
+            "en": "Abarbanel",
+            "he": "אברבנאל",
+            "slug": "abarbanel"
+        }
     ],
     "enDesc": "Abarbanel's commentary always begins with a number of questions about the text at hand, which he answers over the course of his exegesis.",
     "pubDate": "1579",
@@ -242,7 +460,7 @@
     ],
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "אברבנאל"
     ],
     "compDateString": {

@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yad-eitan",
+                    "hilchot",
+                    "first-fruits-and-other-gifts-to-priests-outside-the-sanctuary"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yad-eitan",
+                    "first-fruits-and-other-gifts-to-priests-outside-the-sanctuary"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            7,
+            7
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Yad Eitan on Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Yad Eitan on Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary",
@@ -42,7 +62,11 @@
         "key": "Yad Eitan on Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary"
     },
     "authors": [
-        "Avraham Maskil L'Eitan"
+        {
+            "en": "Avraham Maskil L'Eitan",
+            "he": "אברהם משכיל לאיתן",
+            "slug": "avraham-maskil-leitan"
+        }
     ],
     "heDesc": "הערות וציוני מקורות לדברי הרמב\"ם בספר משנה תורה.",
     "pubDate": "1900",

@@ -7,44 +7,88 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "megillah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "megillah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "megillah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "megillah"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "megillah"
+            ]
+        },
         "lengths": [
-            67,
-            137
+            4,
+            38,
+            232
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Megillah"
-            },
-            {
-                "lang": "en",
-                "text": "JT Megillah"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Megillah"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי מגילה",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי מגילה"
+                "text": "Talmud Yerushalmi Megillah",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Meg."
+                "text": "JT Megillah",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Megillah",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי מגילה",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Meg.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Megillah",
@@ -55,23 +99,27 @@
         "title": "Jerusalem Talmud Megillah",
         "heTitle": "תלמוד ירושלמי מגילה",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Megillah"
     },
     "order": [
         21
     ],
-    "authors": [],
-    "enDesc": "Megillah (Scroll) belongs to the second order, Moed (Festivals) and discusses regulations and prescriptions regarding the reading of the scroll of Esther at Purim, and the reading of other passages from the Torah and Neviim in the synagogue. It has four chapters.",
+    "enDesc": "Tractate Megillah (“Scroll”) is located in Seder Moed (“the Order of Festivals”). The first two chapters discuss the laws of reading the scroll of Esther on the holiday of Purim and include interpretations of and elaborations upon the scroll’s story. The remaining two chapters discuss laws of public reading of the Torah and Prophets, public prayer, and treatment and selling of sacred objects and synagogues.",
+    "enShortDesc": "Reading the scroll of Esther on Purim, synagogue rituals, and treatment of sacred objects.",
+    "heShortDesc": "קריאת מגילת אסתר בפורים, קריאת התורה וההפטרות בבית הכנסת ודיני קדושת בית הכנסת ותשמישי קדושה.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי מגילה",
     "titleVariants": [
         "Talmud Yerushalmi Megillah",
@@ -84,11 +132,428 @@
         "תלמוד ירושלמי מגילה",
         "ירושלמי מגילה"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Megillah 1:1:2-12:8",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Megillah 1:1:2",
+                        "Jerusalem Talmud Megillah 1:1:2-9",
+                        "Jerusalem Talmud Megillah 1:1:9-4:4",
+                        "Jerusalem Talmud Megillah 1:4:4-11",
+                        "Jerusalem Talmud Megillah 1:4:11-5:7",
+                        "Jerusalem Talmud Megillah 1:5:7-7:2",
+                        "Jerusalem Talmud Megillah 1:7:2-9:4",
+                        "Jerusalem Talmud Megillah 1:9:4-10",
+                        "Jerusalem Talmud Megillah 1:9:10-17",
+                        "Jerusalem Talmud Megillah 1:9:17-10:8",
+                        "Jerusalem Talmud Megillah 1:10:8-11:5",
+                        "Jerusalem Talmud Megillah 1:11:5-12:4",
+                        "Jerusalem Talmud Megillah 1:12:4-8"
+                    ],
+                    "startingAddress": "69d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מגילה נקראת",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "מגילה נקראת",
+                    "offset": 275
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Megillah 2:1:1-7:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Megillah 2:1:1-2",
+                        "Jerusalem Talmud Megillah 2:1:2-3:2",
+                        "Jerusalem Talmud Megillah 2:3:2-5:7",
+                        "Jerusalem Talmud Megillah 2:5:7-7:5"
+                    ],
+                    "startingAddress": "72d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הקורא למפרע",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "הקורא למפרע",
+                    "offset": 287
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Megillah 3:1:1-7:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Megillah 3:1:1-2",
+                        "Jerusalem Talmud Megillah 3:1:2-10",
+                        "Jerusalem Talmud Megillah 3:1:10-4:3",
+                        "Jerusalem Talmud Megillah 3:4:3-7:4",
+                        "Jerusalem Talmud Megillah 3:7:4-6"
+                    ],
+                    "startingAddress": "73c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הקורא עומד",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "הקורא עומד",
+                    "offset": 290
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Megillah 4:1:1-12:6",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Megillah 4:1:1-2",
+                        "Jerusalem Talmud Megillah 4:1:2-11",
+                        "Jerusalem Talmud Megillah 4:1:11-4:4",
+                        "Jerusalem Talmud Megillah 4:4:4-8:2",
+                        "Jerusalem Talmud Megillah 4:8:2-12:6",
+                        "Jerusalem Talmud Megillah 4:12:6"
+                    ],
+                    "startingAddress": "74c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בני העיר",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "בני העיר",
+                    "offset": 294
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי מגילה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Talmud Yerushalmi Megillah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Megillah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Megillah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי מגילה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Meg.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Megillah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Megillah",
+            "heTitle": "תלמוד ירושלמי מגילה"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Megillah 1:1:1-12:8",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Megillah 1:1:1-2",
+                        "Jerusalem Talmud Megillah 1:1:2-4",
+                        "Jerusalem Talmud Megillah 1:1:4",
+                        "Jerusalem Talmud Megillah 1:1:4-8",
+                        "Jerusalem Talmud Megillah 1:1:8-10",
+                        "Jerusalem Talmud Megillah 1:1:10-3:2",
+                        "Jerusalem Talmud Megillah 1:3:2-3",
+                        "Jerusalem Talmud Megillah 1:3:3-4:2",
+                        "Jerusalem Talmud Megillah 1:4:2-6",
+                        "Jerusalem Talmud Megillah 1:4:6-9",
+                        "Jerusalem Talmud Megillah 1:4:9-12",
+                        "Jerusalem Talmud Megillah 1:4:12-5:3",
+                        "Jerusalem Talmud Megillah 1:5:3-7",
+                        "Jerusalem Talmud Megillah 1:5:7-6:3",
+                        "Jerusalem Talmud Megillah 1:6:3-5",
+                        "Jerusalem Talmud Megillah 1:6:5-7:3",
+                        "Jerusalem Talmud Megillah 1:7:3-8:3",
+                        "Jerusalem Talmud Megillah 1:8:3-4",
+                        "Jerusalem Talmud Megillah 1:8:4-9:4",
+                        "Jerusalem Talmud Megillah 1:9:4-6",
+                        "Jerusalem Talmud Megillah 1:9:6-9",
+                        "Jerusalem Talmud Megillah 1:9:9-10",
+                        "Jerusalem Talmud Megillah 1:9:10-12",
+                        "Jerusalem Talmud Megillah 1:9:12-17",
+                        "Jerusalem Talmud Megillah 1:9:17-10:1",
+                        "Jerusalem Talmud Megillah 1:10:1-4",
+                        "Jerusalem Talmud Megillah 1:10:4-8",
+                        "Jerusalem Talmud Megillah 1:10:8-11:3",
+                        "Jerusalem Talmud Megillah 1:11:3-5",
+                        "Jerusalem Talmud Megillah 1:11:5-6",
+                        "Jerusalem Talmud Megillah 1:11:6-7",
+                        "Jerusalem Talmud Megillah 1:11:7-12:3",
+                        "Jerusalem Talmud Megillah 1:12:3-4",
+                        "Jerusalem Talmud Megillah 1:12:5-8",
+                        "Jerusalem Talmud Megillah 1:12:8-9"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "מגילה נקראת",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "מגילה נקראת",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Megillah 2:1:1-7:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Megillah 2:1:1-3",
+                        "Jerusalem Talmud Megillah 2:1:3-2:1",
+                        "Jerusalem Talmud Megillah 2:2:1-6",
+                        "Jerusalem Talmud Megillah 2:2:6-3:2",
+                        "Jerusalem Talmud Megillah 2:3:2-4:4",
+                        "Jerusalem Talmud Megillah 2:4:4-5:2",
+                        "Jerusalem Talmud Megillah 2:5:2-6:1",
+                        "Jerusalem Talmud Megillah 2:6:1-7:2",
+                        "Jerusalem Talmud Megillah 2:7:2-5",
+                        "Jerusalem Talmud Megillah 2:7:5"
+                    ],
+                    "startingAddress": "18a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הקורא למפרע",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "הקורא למפרע",
+                    "offset": 34
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Megillah 3:1:1-7:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Megillah 3:1:1-3",
+                        "Jerusalem Talmud Megillah 3:1:3-5",
+                        "Jerusalem Talmud Megillah 3:1:5-10",
+                        "Jerusalem Talmud Megillah 3:1:10-2:5",
+                        "Jerusalem Talmud Megillah 3:2:5-3:1",
+                        "Jerusalem Talmud Megillah 3:3:1-4:3",
+                        "Jerusalem Talmud Megillah 3:4:3-5:3",
+                        "Jerusalem Talmud Megillah 3:5:3-7:1",
+                        "Jerusalem Talmud Megillah 3:7:1-3",
+                        "Jerusalem Talmud Megillah 3:7:3-6",
+                        "Jerusalem Talmud Megillah 3:7:6"
+                    ],
+                    "startingAddress": "22b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הקורא עומד",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "הקורא עומד",
+                    "offset": 43
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Megillah 4:1:1-12:6",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Megillah 4:1:1-4",
+                        "Jerusalem Talmud Megillah 4:1:4-8",
+                        "Jerusalem Talmud Megillah 4:1:8-11",
+                        "Jerusalem Talmud Megillah 4:1:11-13",
+                        "Jerusalem Talmud Megillah 4:1:13-2:2",
+                        "Jerusalem Talmud Megillah 4:2:2-4:1",
+                        "Jerusalem Talmud Megillah 4:4:1-6",
+                        "Jerusalem Talmud Megillah 4:4:6-5:2",
+                        "Jerusalem Talmud Megillah 4:5:2-6",
+                        "Jerusalem Talmud Megillah 4:5:6-7:2",
+                        "Jerusalem Talmud Megillah 4:7:2-10:3",
+                        "Jerusalem Talmud Megillah 4:10:3-11:2",
+                        "Jerusalem Talmud Megillah 4:11:2-12:3",
+                        "Jerusalem Talmud Megillah 4:12:3-6"
+                    ],
+                    "startingAddress": "27b",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 4",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "בני העיר",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 4",
+                    "heTitle": "בני העיר",
+                    "offset": 53
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי מגילה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Talmud Yerushalmi Megillah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Megillah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Megillah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי מגילה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Meg.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Megillah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Megillah",
+            "heTitle": "תלמוד ירושלמי מגילה"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

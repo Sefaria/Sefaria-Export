@@ -16,47 +16,119 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "bekhorot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "bekhorot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bekhorot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "bekhorot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "bekhorot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "bekhorot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "bekhorot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "bekhorot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bekhorot"
+                ]
+            }
+        ],
         "lengths": [
-            119,
-            6174
+            121,
+            1957
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Talmud Bekhorot"
+                "text": "Talmud Bekhorot",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Tractate Bekhorot"
+                "text": "Tractate Bekhorot",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Masekhet Bekhorot"
+                "text": "Masekhet Bekhorot",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Bechorot"
+                "text": "Bechorot",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Bekh."
+                "text": "Bekh.",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "B’khoroth"
+                "text": "B’khoroth",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Bek."
-            },
-            {
-                "lang": "he",
-                "text": "בכורות",
-                "primary": true
+                "text": "Bek.",
+                "lang": "en"
             },
             {
                 "text": "BT Bekhorot",
                 "lang": "en"
+            },
+            {
+                "text": "Bechoros",
+                "lang": "en"
+            },
+            {
+                "text": "Bchoros",
+                "lang": "en"
+            },
+            {
+                "text": "בכורות",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Bekhorot",
@@ -77,12 +149,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         31,
         4
     ],
     "authors": [],
-    "enDesc": "Bekhorot (First Born) belongs to the fifth order, Kodshim (Holy things) and discusses the sanctification and redemption of animal and human firstborns. It has nine chapters.",
+    "enDesc": "Bekhorot (“Firstborns”) is a tractate in Seder Kodashim (“Order of Holy Things\") that discusses three categories of firstborns: a woman’s firstborn son, the male firstborn of a kosher domesticated animal, and a male firstborn donkey. The Torah assigns a sacred status to each of these and requires them to be consecrated - either through transfer to a priest, redemption, or sacrifice, depending on the firstborn and the circumstances. Bekhorot discusses details of this process, such as determining whether an animal is a firstborn in questionable cases and blemishes that disqualify a firstborn animal from being sacrificed in the Temple.",
+    "enShortDesc": "Transfer of first-born kosher animals to a priest, redemption of first-born donkeys and people.",
+    "heShortDesc": "נתינת בכורות של בהמות טהורות לכהן, פדיון הוולד הבכור של החמור, פדיון בכור האדם ומעשר בהמה.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -90,6 +167,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "בכורות",
     "titleVariants": [
         "Talmud Bekhorot",
@@ -100,6 +180,8 @@
         "B’khoroth",
         "Bek.",
         "BT Bekhorot",
+        "Bechoros",
+        "Bchoros",
         "Bekhorot"
     ],
     "heTitleVariants": [
@@ -113,6 +195,33 @@
                     "depth": 1,
                     "wholeRef": "Bekhorot 2a:1-13a:8",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-16"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-16"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -165,6 +274,33 @@
                     "depth": 1,
                     "wholeRef": "Bekhorot 13a:9-19b:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-26"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-26"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -208,6 +344,33 @@
                     "depth": 1,
                     "wholeRef": "Bekhorot 19b:5-26b:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-36"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-36"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -252,6 +415,33 @@
                     "depth": 1,
                     "wholeRef": "Bekhorot 26b:8-31a:13",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-46"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-46"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "lang": "en",
@@ -291,6 +481,33 @@
                     "depth": 1,
                     "wholeRef": "Bekhorot 31a:14-37a:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-56"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-56"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "lang": "en",
@@ -333,6 +550,33 @@
                     "depth": 1,
                     "wholeRef": "Bekhorot 37a:15-43a:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-64"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-64"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "lang": "en",
@@ -375,6 +619,33 @@
                     "depth": 1,
                     "wholeRef": "Bekhorot 43a:4-46a:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-74"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-74"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "lang": "en",
@@ -411,6 +682,33 @@
                     "depth": 1,
                     "wholeRef": "Bekhorot 46a:5-52b:18",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-84"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-84"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "lang": "en",
@@ -454,6 +752,44 @@
                     "depth": 1,
                     "wholeRef": "Bekhorot 53a:1-61a:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-94"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-94"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "lang": "en",
@@ -498,41 +834,49 @@
             ],
             "titles": [
                 {
-                    "lang": "en",
-                    "text": "Talmud Bekhorot"
+                    "text": "Talmud Bekhorot",
+                    "lang": "en"
                 },
                 {
-                    "lang": "en",
-                    "text": "Tractate Bekhorot"
+                    "text": "Tractate Bekhorot",
+                    "lang": "en"
                 },
                 {
-                    "lang": "en",
-                    "text": "Masekhet Bekhorot"
+                    "text": "Masekhet Bekhorot",
+                    "lang": "en"
                 },
                 {
-                    "lang": "en",
-                    "text": "Bechorot"
+                    "text": "Bechorot",
+                    "lang": "en"
                 },
                 {
-                    "lang": "en",
-                    "text": "Bekh."
+                    "text": "Bekh.",
+                    "lang": "en"
                 },
                 {
-                    "lang": "en",
-                    "text": "B’khoroth"
+                    "text": "B’khoroth",
+                    "lang": "en"
                 },
                 {
-                    "lang": "en",
-                    "text": "Bek."
-                },
-                {
-                    "lang": "he",
-                    "text": "בכורות",
-                    "primary": true
+                    "text": "Bek.",
+                    "lang": "en"
                 },
                 {
                     "text": "BT Bekhorot",
                     "lang": "en"
+                },
+                {
+                    "text": "Bechoros",
+                    "lang": "en"
+                },
+                {
+                    "text": "Bchoros",
+                    "lang": "en"
+                },
+                {
+                    "text": "בכורות",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Bekhorot",

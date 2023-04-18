@@ -9,11 +9,24 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "ecclesiastes"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ecclesiastes"
+                ]
+            }
         ],
         "lengths": [
             12,
@@ -49,18 +62,26 @@
                 "lang": "en"
             },
             {
-                "text": "קהלת",
-                "primary": true,
-                "lang": "he"
+                "text": "Koheles",
+                "lang": "en"
+            },
+            {
+                "text": "Ecclésiaste",
+                "lang": "en"
             },
             {
                 "text": "קוהלת",
                 "lang": "he"
             },
             {
+                "text": "קהלת",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Ecclesiastes",
-                "primary": true,
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Ecclesiastes",
@@ -75,13 +96,20 @@
         33,
         7
     ],
-    "enDesc": "Qoheleth (Book of Ecclesiastes ) is the fourth of the five Megillot (scrolls) of Ketuvim (Writings) the last section of the Tanakh (Bible). It proceeds to discuss the meaning of life and the best way of life. He proclaims all the actions of man to be inherently hevel, meaning \"vain\", \"futile\", \"empty\", \"meaningless\", \"temporary\", \"transitory\", \"fleeting\", or \"mere breath,\" as the lives of both wise and foolish people end in death. While Koheleth clearly endorses wisdom as a means for a well-lived earthly life, he does not ascribe eternal meaning to it. In light of this senselessness, one should enjoy the simple pleasures of daily life, such as eating, drinking, and taking enjoyment in one's work, which are gifts from the hand of God. The book concludes with the injunction: \"Fear God, and keep his commandments; for that is the whole duty of everyone\" (12:13). The author \"Koheleth\" uses a literary device to introduce himself as \"son of David king in Jerusalem\" - Solomon. It is read by Yemenite and Ashkenazi Jews during Sukkot.",
+    "authors": [],
+    "enDesc": "Ecclesiastes (“Kohelet”) is one of the five megillot (scrolls), part of the section of the Hebrew Bible called Writings, and is often read publicly on the holiday of Sukkot. Attributed in the book’s opening verse to a son of King David (traditionally identified as King Solomon) the book explores the meaning of life, reckoning with death, futility, and purpose. The book often suggests that “all is vanity” and “nothing is new under the sun,” but also concludes by asserting that life’s purpose can be found in fear of God and adherence to God’s laws.",
+    "heDesc": "ספר קהלת הוא אחד מקובץ חמש מגילות שבחטיבת הכתובים, ונהוג לקוראו בציבור בשבת חול המועד סוכות. פסוק הפתיחה של המגילה מייחס אותה לבנו של דוד המלך (המזוהה במסורת עם שלמה המלך). הספר בוחן את משמעות החיים ועוסק במוות, בבטלה ובחיפוש אחר תכלית. לעיתים קרובות הוא חוזר על המסקנה כי \"הכול הבל\" וטוען כי \"אין חדש תחת השמש\", אך סיכומו הוא כי אפשר למצוא את תכלית החיים ביראת הא-ל ובדבקות בחוקיו.",
+    "enShortDesc": "An exploration of the meaning of life, reckoning with death, futility, and purpose.",
+    "heShortDesc": "חקירת משמעות החיים באמצעות בחינת המוות, הבטלה והתכלית.",
     "pubDate": "1488",
     "compDate": "-500",
     "compPlace": "Judea/Israel",
     "pubPlace": "Soncino",
     "errorMargin": "400",
     "is_cited": true,
+    "corpora": [
+        "Tanakh"
+    ],
     "heTitle": "קהלת",
     "titleVariants": [
         "Eccles.",
@@ -91,11 +119,13 @@
         "Koheleth",
         "Koh.",
         "Eccl.",
+        "Koheles",
+        "Ecclésiaste",
         "Ecclesiastes"
     ],
     "heTitleVariants": [
-        "קהלת",
-        "קוהלת"
+        "קוהלת",
+        "קהלת"
     ],
     "sectionNames": [
         "Chapter",

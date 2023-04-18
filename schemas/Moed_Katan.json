@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "moed-katan"
+                ]
+            }
+        ],
         "lengths": [
-            55,
-            3322
+            57,
+            1026
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -74,11 +138,6 @@
                 "lang": "en"
             },
             {
-                "text": "מועד קטן",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "מ\"ק",
                 "lang": "he"
             },
@@ -93,6 +152,19 @@
             {
                 "text": "מו\"ק",
                 "lang": "he"
+            },
+            {
+                "text": "מ”ק",
+                "lang": "he"
+            },
+            {
+                "text": "מו”ק",
+                "lang": "he"
+            },
+            {
+                "text": "מועד קטן",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Moed Katan",
@@ -113,12 +185,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         11,
         10
     ],
     "authors": [],
-    "enDesc": "Moed Qatan (Little Festival) belongs to the second order, Moed (Festivals) and discusses Chol Hamoed, the intermediate festival days of Pesach and Sukkot and the laws of mourning. It has three chapters.",
+    "enDesc": "Tractate Moed Katan (“Minor Holiday”) is located in Seder Moed (“the Order of Festivals”). The tractate’s first two chapters discuss the laws of Chol Hamoed, or the intermediate days of Passover and Sukkot, with a focus on permitted and prohibited work on these days. The last chapter discusses laws of mourning, ex-communication, leprosy and stories about the deaths of different talmudic sages.",
+    "enShortDesc": "Chol HaMoed (the intermediate days of Passover and Sukkot), mourning and ex-communication.",
+    "heShortDesc": "חול המועד (הימים בסוכות ובפסח שאינם ימים טובים), אבלות ונידוי.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -126,6 +203,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "מועד קטן",
     "titleVariants": [
         "Masekhet Moed Katan",
@@ -144,11 +224,13 @@
         "Moed Katan"
     ],
     "heTitleVariants": [
-        "מועד קטן",
         "מ\"ק",
         "מו״ק",
         "מ״ק",
-        "מו\"ק"
+        "מו\"ק",
+        "מ”ק",
+        "מו”ק",
+        "מועד קטן"
     ],
     "alts": {
         "Chapters": {
@@ -158,6 +240,33 @@
                     "depth": 1,
                     "wholeRef": "Moed Katan 2a:1-11a:21",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-125"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-125"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -206,6 +315,33 @@
                     "depth": 1,
                     "wholeRef": "Moed Katan 11b:1-13b:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-220"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-220"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -240,6 +376,44 @@
                     "depth": 1,
                     "wholeRef": "Moed Katan 13b:15-29a:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-320"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-320"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -351,11 +525,6 @@
                     "lang": "en"
                 },
                 {
-                    "text": "מועד קטן",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "מ\"ק",
                     "lang": "he"
                 },
@@ -370,6 +539,19 @@
                 {
                     "text": "מו\"ק",
                     "lang": "he"
+                },
+                {
+                    "text": "מ”ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "מו”ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "מועד קטן",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Moed Katan",

@@ -1,7 +1,8 @@
 {
     "title": "Mivchar HaPeninim",
     "categories": [
-        "Musar"
+        "Musar",
+        "Rishonim"
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
@@ -16,12 +17,12 @@
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "A Choice of Pearls"
+                "text": "A Choice of Pearls",
+                "lang": "en"
             },
             {
-                "lang": "he",
                 "text": "מבחר הפנינים",
+                "lang": "he",
                 "primary": true
             },
             {
@@ -39,11 +40,20 @@
         "key": "Mivchar HaPeninim"
     },
     "authors": [
-        "Solomon ibn Gabirol"
+        {
+            "en": "Solomon ibn Gabirol",
+            "he": "שלמה בן יהודה אבן גבירול",
+            "slug": "solomon-ibn-gabirol"
+        }
     ],
     "enDesc": "A classic made up of ethical maxims, divided into seventeen behavioral categories, such as faith, love, stinginess, etc.",
+    "heDesc": "",
+    "enShortDesc": "11th-century collection of short maxims arranged according to behavioral categories, originally composed in Arabic.",
+    "heShortDesc": ". \nחיבור מן המאה ה-11, במקור בערבית, ובו פתגמים קצרים על חיי מוסר המסודרים לפי מידות.",
     "pubDate": "1484",
+    "compDate": "1050",
     "pubPlace": "Soncino",
+    "errorMargin": "100",
     "era": "RI",
     "heTitle": "מבחר הפנינים",
     "titleVariants": [
@@ -1339,12 +1349,12 @@
             ],
             "titles": [
                 {
-                    "lang": "en",
-                    "text": "A Choice of Pearls"
+                    "text": "A Choice of Pearls",
+                    "lang": "en"
                 },
                 {
-                    "lang": "he",
                     "text": "מבחר הפנינים",
+                    "lang": "he",
                     "primary": true
                 },
                 {
@@ -1363,6 +1373,11 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרי מוסר"
-    ]
+        "ספרי מוסר",
+        "ראשונים"
+    ],
+    "compDateString": {
+        "en": " (c.950  - c.1150 CE)",
+        "he": " (950 - 1150 לספירה בקירוב)"
+    }
 }

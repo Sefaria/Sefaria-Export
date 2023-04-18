@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "red-heifer"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "red-heifer"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "red-heifer"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "red-heifer"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "red-heifer"
+                ]
+            }
+        ],
         "lengths": [
-            15
+            15,
+            166
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות פרה אדומה",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות פרה אדומה"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' פרה אדומה"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות פרה אדומה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות פרה אדומה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' פרה אדומה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' פרה אדומה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות פרה אדומה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות פרה אדומה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' פרה אדומה",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' פרה אדומה",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות פרה אדומה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Red Heifer",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,7 +167,11 @@
         2
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The tenth book is Sefer Taharah (Cleanness: the rules of purity). Hilchot Para Aduma.",
     "pubDate": "1474",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Red Heifer"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות פרה אדומה",
         "רמב\"ם, הלכות פרה אדומה",
         "משנה תורה, הל' פרה אדומה",
         "רמב\"ם, הל' פרה אדומה",
         "רמב\"ם הלכות פרה אדומה",
-        "רמב\"ם הל' פרה אדומה"
+        "רמב\"ם הל' פרה אדומה",
+        "רמב״ם, הלכות פרה אדומה",
+        "רמב”ם, הלכות פרה אדומה",
+        "רמב״ם, הל' פרה אדומה",
+        "רמב”ם, הל' פרה אדומה",
+        "רמב״ם הלכות פרה אדומה",
+        "רמב”ם הלכות פרה אדומה",
+        "רמב״ם הל' פרה אדומה",
+        "רמב”ם הל' פרה אדומה",
+        "משנה תורה, הלכות פרה אדומה"
     ],
     "sectionNames": [
         "Chapter",

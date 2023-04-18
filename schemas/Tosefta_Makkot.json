@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Makkot",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Nezikin"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "makkot"
+                ]
+            }
+        ],
         "lengths": [
-            4
+            4,
+            27
         ],
         "titles": [
             {
@@ -41,17 +50,17 @@
                 "text": "Tosefta Makot"
             },
             {
-                "lang": "he",
-                "text": "תוספתא מכות",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Macc."
             },
             {
-                "lang": "en",
+                "text": "תוספתא מכות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Makkot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -67,7 +76,9 @@
         5
     ],
     "authors": [],
-    "enDesc": "Makkot (Lashes) belongs to the fourth order, Nezikin (The Order of Damages) and discusses collusive witnesses, cities of refuge and the punishment of lashes. It has four chapters.",
+    "enDesc": "Tractate Makkot (“Lashes”) is a tractate in Seder Nezikin (“Order of Damages\") that serves as a companion tractate to Sanhedrin. Makkot addresses court-administered punishments, covering topics like false witnesses (eidim zomemim) and the process of administering their punishments, exile to cities of refuge for inadvertent murderers, and the punishment of lashes.",
+    "enShortDesc": "Court-administered lashing, false witnesses, and cities of refuge for inadvertent murderers.",
+    "heShortDesc": "עדים זוממים, ערי מקלט לרוצחים בשגגה ועונש מלקות.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -94,8 +105,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר נזיקין"
     ],
     "compDateString": {

@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "bava-metzia"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bava-metzia"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "bava-metzia"
+                ]
+            }
+        ],
         "lengths": [
             10,
             101
@@ -33,17 +52,17 @@
                 "text": "M Bava Metzia"
             },
             {
-                "lang": "he",
-                "text": "משנה בבא מציעא",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Mishnah B. Mets."
             },
             {
                 "lang": "en",
                 "text": "Mishnah Baba M’tsiʿa"
+            },
+            {
+                "text": "משנה בבא מציעא",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Mishnah Bava Metzia",
@@ -64,7 +83,9 @@
         2
     ],
     "authors": [],
-    "enDesc": "Bava Metzia (Middle Gate) belongs to the fourth order, Nezikin (The Order of Damages) and discusses the civil matters, largely torts and property law. It has ten chapters.",
+    "enDesc": "Bava Metzia (״The Middle Gate״) is the second of a series of three tractates in Seder Nezikin (“Order of Damages\") that deal with civil laws. It mainly focuses on interpersonal matters that are not connected to damages, such as disputed property, usury, returning lost objects, guarding, renting, borrowing, and responsibilities of workers and employers.",
+    "enShortDesc": "Disputed property, returning lost objects, guarding, renting, borrowing, and responsibilities of workers and employers.",
+    "heShortDesc": "רכוש שיש עליו מחלוקת, השבת אבדה, דיני שמירה, שכירה ושאילה וחובותיהם של מעסיקים ושל עובדים.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -72,6 +93,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה בבא מציעא",
     "titleVariants": [
         "Mishna Bava Metzia",

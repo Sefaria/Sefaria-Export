@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Horayot",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Nezikin"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "horayot"
+                ]
+            }
+        ],
         "lengths": [
-            2
+            2,
+            19
         ],
         "titles": [
             {
@@ -37,17 +46,17 @@
                 "text": "Tos. Horayos"
             },
             {
-                "lang": "he",
-                "text": "תוספתא הוריות",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Hor."
             },
             {
-                "lang": "en",
+                "text": "תוספתא הוריות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Horayot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -63,7 +72,9 @@
         9
     ],
     "authors": [],
-    "enDesc": "Horayot (Decisions) belongs to the fourth order, Nezikin (The Order of Damages) and discusses the communal sin-offering brought for major errors by the Sanhedrin. It has two chapters.",
+    "enDesc": "Horayot (“Decisions”) is the last tractate in Seder Nezikin (“Order of Damages\"). Its two chapters discuss erroneous rulings of the court, inadvertent sins of kings, High Priests, or political leaders, and the sacrifices brought as atonement. The conclusion of the tractate addresses the statuses of various members of the Jewish people and how to prioritize them when necessary.",
+    "enShortDesc": "Atoning for erroneous rulings of the court and inadvertent sins of leaders.",
+    "heShortDesc": "כפרה על פסיקות שגויות שהורו בבית הדין ועל חטאים בשגגה של כהנים גדולים ומלכים.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -89,8 +100,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר נזיקין"
     ],
     "compDateString": {

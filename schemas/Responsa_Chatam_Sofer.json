@@ -1,7 +1,8 @@
 {
     "title": "Responsa Chatam Sofer",
     "categories": [
-        "Responsa"
+        "Responsa",
+        "Acharonim"
     ],
     "schema": {
         "nodes": [
@@ -166,25 +167,29 @@
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Teshuvot Hatam Sofer"
+                "text": "Teshuvot Hatam Sofer",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Teshuvot Chatam Sofer"
+                "text": "Teshuvot Chatam Sofer",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Responsa Hatam Sofer"
+                "text": "Responsa Hatam Sofer",
+                "lang": "en"
             },
             {
-                "lang": "he",
+                "text": "Teshuvot Ḥatam Sofer",
+                "lang": "en"
+            },
+            {
                 "text": "שו\"ת חתם סופר",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "שו\"ת חת\"ס"
+                "text": "שו\"ת חת\"ס",
+                "lang": "he"
             },
             {
                 "text": "Responsa Chatam Sofer",
@@ -197,13 +202,20 @@
         "key": "Responsa Chatam Sofer"
     },
     "authors": [
-        "Moses Sofer"
+        {
+            "en": "Moses Sofer",
+            "he": "משה סופר",
+            "slug": "moses-sofer"
+        }
     ],
     "enDesc": "A voluminous and highly influential series of responsa written by a rabbi who dedicated himself to upholding Orthodoxy in the midst of emancipation and the Enlightenment.",
     "heDesc": "",
+    "enShortDesc": "Highly influential 19th-century responsa by Rabbi Moses,Sofer, a rabbi dedicated to upholding Orthodoxy in the midst of the Enlightenment.",
+    "heShortDesc": "ספר שאלות ותשובות רב־השפעה מאת הרב משה סופר, בן המאה ה-19, שהקדיש עצמו לשימורה של האורתודוקסיה בתקופת ההשכלה.",
     "pubDate": "1841",
-    "compDate": "",
+    "compDate": "1810",
     "pubPlace": "Pressburg",
+    "errorMargin": "25",
     "era": "AH",
     "dedication": {
         "he": "לעילוי נשמת אבינו וסבנו משה אברהם רייכנר, נצר גאה לחתם סופר והולך בדרכיו. נדבת משפחות רובינשטיין, קושיצקי ופרטמן — טורונטו, קנדה ורעננה, ישראל",
@@ -214,6 +226,7 @@
         "Teshuvot Hatam Sofer",
         "Teshuvot Chatam Sofer",
         "Responsa Hatam Sofer",
+        "Teshuvot Ḥatam Sofer",
         "Responsa Chatam Sofer"
     ],
     "heTitleVariants": [
@@ -221,6 +234,11 @@
         "שו\"ת חת\"ס"
     ],
     "heCategories": [
-        "שו\"ת"
-    ]
+        "שו\"ת",
+        "אחרונים"
+    ],
+    "compDateString": {
+        "en": " (c.1785  - c.1835 CE)",
+        "he": " (1785 - 1835 לספירה בקירוב)"
+    }
 }

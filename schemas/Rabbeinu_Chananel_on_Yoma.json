@@ -3,7 +3,7 @@
     "categories": [
         "Talmud",
         "Bavli",
-        "Commentary",
+        "Rishonim on Talmud",
         "Rabbeinu Chananel",
         "Seder Moed"
     ],
@@ -17,6 +17,27 @@
         "sectionNames": [
             "Daf",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rabbeinu-chananel",
+                    "yoma"
+                ]
+            }
+        ],
+        "lengths": [
+            175,
+            797
+        ],
+        "referenceableSections": [
+            true,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -39,7 +60,11 @@
         "key": "Rabbeinu Chananel on Yoma"
     },
     "authors": [
-        "Rabeinu Chananel"
+        {
+            "en": "Rabeinu Chananel",
+            "he": "רבנו חננאל",
+            "slug": "rabeinu-chananel"
+        }
     ],
     "enDesc": "The first commentary ever written on the Talmud, by Rabbi Chananel ben Chushiel (965-1055). In many tractates it appears on the page of the Vilna edition, primarily in the orders of Moed and Nezikin. Fragments of the commentary to the order of Nezikin and Tractates Berachot and Chullin have recently been printed from manuscript.",
     "heDesc": "הפירוש הראשון שנכתב על התלמוד, מאת רבינו חננאל בן חושיאל (965-1055). במסכתות רבות (בעיקר בסדר מועד ונזיקין) הוא מופיע על הדף בדפוס וילנה. קטעים מפירושו לסדר נזיקין ומסכתות ברכות וחולין נדפסו לאחרונה מכתבי יד.",
@@ -73,7 +98,7 @@
     "heCategories": [
         "תלמוד",
         "בבלי",
-        "מפרשים",
+        "ראשונים על התלמוד",
         "רבינו חננאל",
         "סדר מועד"
     ],

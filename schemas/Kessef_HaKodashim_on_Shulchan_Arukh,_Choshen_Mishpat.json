@@ -16,6 +16,18 @@
             "Siman",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kessef-hakodashim",
+                    "choshen-mishpat"
+                ]
+            }
+        ],
+        "lengths": [
+            427,
+            527
+        ],
         "titles": [
             {
                 "text": "כסף הקדשים על שולחן ערוך חושן משפט",
@@ -37,14 +49,20 @@
         "key": "Kessef HaKodashim on Shulchan Arukh, Choshen Mishpat"
     },
     "authors": [
-        "Abraham David Wahrman"
+        {
+            "en": "Abraham David Wahrman",
+            "he": "אברהם דוד וואהרמן",
+            "slug": "abraham-david-wahrman"
+        }
     ],
+    "compDate": "1815",
+    "errorMargin": "20",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
         {
             "en": "Shulchan Arukh, Choshen Mishpat",
-            "he": "חושן משפט"
+            "he": "שולחן ערוך, חושן משפט"
         }
     ],
     "collective_title": {
@@ -67,5 +85,9 @@
         "הלכה",
         "שולחן ערוך",
         "מפרשים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1795  - c.1835 CE)",
+        "he": " (1795 - 1835 לספירה בקירוב)"
+    }
 }

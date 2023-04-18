@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "horayot"
+                ]
+            }
+        ],
         "lengths": [
-            25,
-            1685
+            27,
+            451
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -38,11 +102,6 @@
                 "text": "Horiyot"
             },
             {
-                "lang": "he",
-                "text": "הוריות",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Hor."
             },
@@ -53,6 +112,11 @@
             {
                 "text": "BT Horayot",
                 "lang": "en"
+            },
+            {
+                "text": "הוריות",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Horayot",
@@ -73,12 +137,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         27,
         8
     ],
     "authors": [],
-    "enDesc": "Horayot (Decisions) belongs to the fourth order, Nezikin (The Order of Damages) and discusses the communal sin-offering brought for major errors by the Sanhedrin. It has three chapters.",
+    "enDesc": "Horayot (“Decisions”) is the last tractate in Seder Nezikin (“Order of Damages\"). Its three chapters discuss erroneous rulings of the court, inadvertent sins of kings, High Priests, or political leaders, and the sacrifices brought as atonement. The conclusion of the tractate addresses the statuses of various members of the Jewish people and how to prioritize them when necessary. Horayat is the shortest tractate in the Talmud that has commentary on the entirety of the Mishnah, at just 13 folio.",
+    "enShortDesc": "Atoning for erroneous rulings of the court and inadvertent sins of leaders.",
+    "heShortDesc": "כפרה על פסיקות שגויות שהורו בבית הדין ועל חטאים בשגגה של כהנים גדולים ומלכים.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -86,6 +155,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "הוריות",
     "titleVariants": [
         "Masekhet Horayot",
@@ -108,6 +180,33 @@
                     "depth": 1,
                     "wholeRef": "Horayot 2a:1-6b:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-113"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-113"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -147,6 +246,33 @@
                     "depth": 1,
                     "wholeRef": "Horayot 6b:11-9b:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-212"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-212"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -183,6 +309,44 @@
                     "depth": 1,
                     "wholeRef": "Horayot 9b:11-14a:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-312"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-312"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -236,11 +400,6 @@
                     "text": "Horiyot"
                 },
                 {
-                    "lang": "he",
-                    "text": "הוריות",
-                    "primary": true
-                },
-                {
                     "lang": "en",
                     "text": "Hor."
                 },
@@ -251,6 +410,11 @@
                 {
                     "text": "BT Horayot",
                     "lang": "en"
+                },
+                {
+                    "text": "הוריות",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Horayot",

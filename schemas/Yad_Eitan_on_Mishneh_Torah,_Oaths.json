@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yad-eitan",
+                    "hilchot",
+                    "oaths"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yad-eitan",
+                    "oaths"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            8,
+            8
+        ],
         "titles": [
             {
                 "primary": true,
@@ -27,9 +47,9 @@
                 "lang": "he"
             },
             {
-                "primary": true,
                 "text": "Yad Eitan on Mishneh Torah, Oaths",
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Yad Eitan on Mishneh Torah, Oaths",
@@ -42,7 +62,11 @@
         "key": "Yad Eitan on Mishneh Torah, Oaths"
     },
     "authors": [
-        "Avraham Maskil L'Eitan"
+        {
+            "en": "Avraham Maskil L'Eitan",
+            "he": "אברהם משכיל לאיתן",
+            "slug": "avraham-maskil-leitan"
+        }
     ],
     "heDesc": "הערות וציוני מקורות לדברי הרמב\"ם בספר משנה תורה.",
     "pubDate": "1900",

@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "bava-metzia"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "bava-metzia"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bava-metzia"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "bava-metzia"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "bava-metzia"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "bava-metzia"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "bava-metzia"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "bava-metzia"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bava-metzia"
+                ]
+            }
+        ],
         "lengths": [
-            235,
-            12026
+            237,
+            3660
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -62,11 +126,6 @@
                 "text": "Baba Meẓi‘a"
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "בבא מציעא"
-            },
-            {
                 "lang": "he",
                 "text": "ב\"מ"
             },
@@ -95,6 +154,15 @@
                 "lang": "en"
             },
             {
+                "text": "ב”מ",
+                "lang": "he"
+            },
+            {
+                "text": "בבא מציעא",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Bava Metzia",
                 "lang": "en",
                 "primary": true
@@ -113,12 +181,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         21,
         2
     ],
     "authors": [],
-    "enDesc": "Bava Metzia (Middle Gate) belongs to the fourth order, Nezikin (The Order of Damages) and discusses the civil matters, largely torts and property law. It has ten chapters.",
+    "enDesc": "Bava Metzia (״The Middle Gate״) is the second of a series of three tractates in Seder Nezikin (“Order of Damages\") that deal with civil laws. It mainly focuses on interpersonal matters that are not connected to damages, such as disputed property, usury, returning lost objects, guarding, renting, borrowing, and responsibilities of workers and employers.",
+    "enShortDesc": "Disputed property, returning lost objects, guarding, renting, borrowing, and responsibilities of workers and employers.",
+    "heShortDesc": "רכוש שיש עליו מחלוקת, השבת אבדה, דיני שמירה, שכירה ושאילה וחובותיהם של מעסיקים ושל עובדים.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -126,6 +199,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "בבא מציעא",
     "titleVariants": [
         "Masekhet Bava Metzia",
@@ -142,13 +218,14 @@
         "Bava Metzia"
     ],
     "heTitleVariants": [
-        "בבא מציעא",
         "ב\"מ",
         "ב״מ",
         "בבא מציע'",
         "בבא מציע׳",
         "בב' מציע'",
-        "בב׳ מציע׳"
+        "בב׳ מציע׳",
+        "ב”מ",
+        "בבא מציעא"
     ],
     "alts": {
         "Chapters": {
@@ -158,6 +235,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Metzia 2a:1-21a:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-14"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-14"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "primary": true,
@@ -226,6 +330,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Metzia 21a:7-33b:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-24"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-24"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "primary": true,
@@ -281,6 +412,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Metzia 33b:7-44a:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-34"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-34"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "primary": true,
@@ -332,6 +490,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Metzia 44a:8-60b:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-44"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-44"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "primary": true,
@@ -395,6 +580,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Metzia 60b:8-75b:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-54"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-54"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "primary": true,
@@ -455,6 +667,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Metzia 75b:15-83a:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-63"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-63"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "primary": true,
@@ -500,6 +739,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Metzia 83a:12-94a:15",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-73"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-73"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "primary": true,
@@ -552,6 +818,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Metzia 94a:16-103a:15",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-83"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-83"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "primary": true,
@@ -600,6 +893,33 @@
                     "depth": 1,
                     "wholeRef": "Bava Metzia 103a:16-116a:9",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-93"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-93"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "primary": true,
@@ -656,6 +976,44 @@
                     "depth": 1,
                     "wholeRef": "Bava Metzia 116b:1-119a:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-102"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-102"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
                     "titles": [
                         {
                             "primary": true,
@@ -729,11 +1087,6 @@
                     "text": "Baba Meẓi‘a"
                 },
                 {
-                    "primary": true,
-                    "lang": "he",
-                    "text": "בבא מציעא"
-                },
-                {
                     "lang": "he",
                     "text": "ב\"מ"
                 },
@@ -760,6 +1113,15 @@
                 {
                     "text": "BT Bava Metzia",
                     "lang": "en"
+                },
+                {
+                    "text": "ב”מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "בבא מציעא",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Bava Metzia",

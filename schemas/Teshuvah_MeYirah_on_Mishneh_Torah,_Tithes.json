@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "teshuvah-meyirah",
+                    "hilchot",
+                    "tithes"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "teshuvah-meyirah",
+                    "tithes"
+                ]
+            }
+        ],
+        "lengths": [
+            14,
+            3,
+            3
+        ],
         "titles": [
             {
                 "text": "קונטרס תשובה מיראה על משנה תורה, הלכות מעשרות",
@@ -42,10 +62,16 @@
         "key": "Teshuvah MeYirah on Mishneh Torah, Tithes"
     },
     "authors": [
-        "Eliyahu David Rabinowitz Teomim"
+        {
+            "en": "Eliyahu David Rabinowitz Teomim",
+            "he": "אליהו דוד רבינוביץ' תאומים",
+            "slug": "eliyahu-david-rabinowitz-teomim"
+        }
     ],
     "pubDate": "1905-1906",
+    "compDate": "1880",
     "pubPlace": "Jerusalem",
+    "errorMargin": "25",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -78,5 +104,9 @@
         "מפרשים",
         "קונטרס תשובה מיראה",
         "ספר זרעים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1855  - c.1905 CE)",
+        "he": " (1855 - 1905 לספירה בקירוב)"
+    }
 }

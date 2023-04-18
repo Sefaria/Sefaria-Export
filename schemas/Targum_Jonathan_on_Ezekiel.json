@@ -11,18 +11,25 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
         ],
-        "titles": [
+        "match_templates": [
             {
-                "primary": true,
-                "lang": "he",
-                "text": "תרגום יונתן על יחזקאל"
-            },
+                "term_slugs": [
+                    "targum-jonathan",
+                    "ezekiel"
+                ]
+            }
+        ],
+        "lengths": [
+            48,
+            1273
+        ],
+        "titles": [
             {
                 "lang": "en",
                 "text": "Targ. Ez."
@@ -30,6 +37,11 @@
             {
                 "lang": "en",
                 "text": "Targ. Ezek."
+            },
+            {
+                "text": "תרגום יונתן על יחזקאל",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Targum Jonathan on Ezekiel",
@@ -46,8 +58,10 @@
         "key": "Targum Jonathan on Ezekiel"
     },
     "authors": [],
-    "enDesc": "Targum Jonathan is an Aramaic translation of the Neviim (Prophets). Authorship of the Targum is attributed to Jonathan ben Uzziel, a prime student of the great Talmudic sage Hillel. In Talmudic times, the Targum was read verse-by-verse, alternating with the Hebrew text of the haftarah.  ",
-    "compDate": "",
+    "enDesc": "Targum Jonathan is an Aramaic translation of the Neviim (Prophets). Authorship of the Targum is attributed to Jonathan ben Uzziel, a prime student of the great Talmudic sage Hillel. In Talmudic times, the Targum was read verse-by-verse, alternating with the Hebrew text of the haftarah.",
+    "compDate": "100",
+    "compPlace": "Talmudic Israel/Babylon",
+    "errorMargin": "250",
     "era": "T",
     "dependence": "Targum",
     "base_text_titles": [
@@ -81,5 +95,13 @@
         "תרגומים",
         "תרגום יונתן",
         "נביאים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.150 BCE  - c.350 CE)",
+        "he": " (150 לפנה\"ס  - 350 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Talmudic Israel/Babylon",
+        "he": "ישראל / בבל התלמודית"
+    }
 }

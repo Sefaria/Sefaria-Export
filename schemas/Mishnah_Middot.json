@@ -15,6 +15,25 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnah",
+                    "middot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "middot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "middot"
+                ]
+            }
+        ],
         "lengths": [
             5,
             34
@@ -31,11 +50,6 @@
             {
                 "lang": "en",
                 "text": "M. Middot"
-            },
-            {
-                "lang": "he",
-                "text": "משנה מדות",
-                "primary": true
             },
             {
                 "lang": "he",
@@ -66,8 +80,13 @@
                 "text": "Mishnah Middoth"
             },
             {
-                "lang": "en",
+                "text": "משנה מדות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishnah Middot",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -85,6 +104,8 @@
     ],
     "authors": [],
     "enDesc": "Middot (Measurements) belongs to the fifth order, Kodshim (Holy things) and discusses the measurements of the second Temple. It has four chapters.",
+    "enShortDesc": "Measurements and descriptions of the Second Temple and the Temple Mount.",
+    "heShortDesc": "מידותיהם ותיאורם של בית המקדש השני ושל הר הבית.",
     "pubDate": "1492",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -92,6 +113,9 @@
     "errorMargin": "20",
     "era": "T",
     "is_cited": true,
+    "corpora": [
+        "Mishnah"
+    ],
     "heTitle": "משנה מדות",
     "titleVariants": [
         "M Middot",
@@ -104,10 +128,10 @@
         "Mishnah Middot"
     ],
     "heTitleVariants": [
-        "משנה מדות",
         "מדות",
         "מידות",
-        "משנה מידות"
+        "משנה מידות",
+        "משנה מדות"
     ],
     "sectionNames": [
         "Chapter",

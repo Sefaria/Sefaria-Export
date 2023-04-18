@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sotah"
+                ]
+            }
+        ],
         "lengths": [
-            96,
-            4956
+            98,
+            1635
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -50,13 +114,13 @@
                 "text": "T.B. Soṭah"
             },
             {
-                "lang": "he",
-                "primary": true,
-                "text": "סוטה"
-            },
-            {
                 "text": "BT Sotah",
                 "lang": "en"
+            },
+            {
+                "text": "סוטה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Sotah",
@@ -77,12 +141,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         17,
         5
     ],
     "authors": [],
-    "enDesc": "Sotah (Wayward Wife) belongs to the third order, Nashim (Women) and discusses the ritual of the Sotah – the woman suspected of adultery (Num 5) as well as other rituals involving a spoken formula (such as breaking the heifer's neck, the King's septa-annual public Torah reading, the Blessings and Curses of Mount Gerizim and Mount Ebal, etc...). It has nine chapters.",
+    "enDesc": "Sotah is a tractate in Seder Nashim (“Order of Women,” which addresses family law). Its first six chapters discuss laws relating to a sotah, or woman whose husband suspects her of adultery. The tractate outlines the process the sotah experiences, beginning with a warning issued by her husband and her seclusion with another man and through the steps of the ritual performed in the Temple in order to determine her culpability. The last three chapters discuss other rituals that involve recitation.",
+    "enShortDesc": "A woman suspected of adultery, the ritual determining her culpability, and other rituals involving recitation.",
+    "heShortDesc": "אישה החשודה בבגידה בבעלה, טקס בירור מעמדה וטקסים אחרים הכרוכים באמירה.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -90,6 +159,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "סוטה",
     "titleVariants": [
         "Tractate Sotah",
@@ -113,6 +185,33 @@
                     "depth": 1,
                     "wholeRef": "Sotah 2a:1-14a:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-137"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-137"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -167,6 +266,33 @@
                     "depth": 1,
                     "wholeRef": "Sotah 14a:12-19a:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-230"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-230"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -207,6 +333,33 @@
                     "depth": 1,
                     "wholeRef": "Sotah 19a:7-23b:13",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-329"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-329"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -246,6 +399,33 @@
                     "depth": 1,
                     "wholeRef": "Sotah 23b:14-27b:2",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-425"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-425"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "lang": "en",
@@ -284,6 +464,33 @@
                     "depth": 1,
                     "wholeRef": "Sotah 27b:3-31a:13",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-522"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-522"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "lang": "en",
@@ -321,6 +528,33 @@
                     "depth": 1,
                     "wholeRef": "Sotah 31a:14-32a:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-620"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-620"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "lang": "en",
@@ -353,6 +587,33 @@
                     "depth": 1,
                     "wholeRef": "Sotah 32a:5-42a:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-718"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-718"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "lang": "en",
@@ -403,6 +664,33 @@
                     "depth": 1,
                     "wholeRef": "Sotah 42a:8-44b:9",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-818"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-818"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "lang": "en",
@@ -438,6 +726,44 @@
                     "depth": 1,
                     "wholeRef": "Sotah 44b:10-49b:20",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-917"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-917"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "lang": "en",
@@ -504,13 +830,13 @@
                     "text": "T.B. Soṭah"
                 },
                 {
-                    "lang": "he",
-                    "primary": true,
-                    "text": "סוטה"
-                },
-                {
                     "text": "BT Sotah",
                     "lang": "en"
+                },
+                {
+                    "text": "סוטה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Sotah",

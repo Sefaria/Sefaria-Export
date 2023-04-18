@@ -1,7 +1,8 @@
 {
     "title": "Sefer Yereim",
     "categories": [
-        "Halakhah"
+        "Halakhah",
+        "Sifrei Mitzvot"
     ],
     "schema": {
         "nodes": [
@@ -71,10 +72,16 @@
         "key": "Sefer Yereim"
     },
     "authors": [
-        "Eliezer of Metz"
+        {
+            "en": "Eliezer of Metz",
+            "he": "אליעזר ממיץ",
+            "slug": "eliezer-of-metz"
+        }
     ],
-    "enDesc": "Halakhic and ethical work on the 613 commandments, following the enumeration of \"Halakhot Gedolot\". The complete version of the work first appeared, with an extensive commentary, in Vilna,1889.",
+    "enDesc": "Sefer Yereim (“The Book of those who Fear”) is a 12th-century legal work that incorporates ethical teachings, based on the enumeration of the 613 commandments in the Halakhot Gedolot. The work consists of 417 commandments, not 613, since some commandments are grouped together. In his introduction to the work, Rabbi Eliezer explains that he chose its title to reflect his intention that “from [this book], people will learn to fear God.” Later legal authorities often quote the Yereim and consider it authoritative.",
     "heDesc": "ספר מיוסד על תרי\"ג המצוות לפי שיטת רב יהודאי גאון (בה\"ג), הכולל עניני הלכה ודברי מוסר. הספר יצא לאור בשלימותו עם ביאור רחב בווילנא בשנת 1889.",
+    "enShortDesc": "12th-century legal work that incorporates ethical teachings, based on the Halakhot Gedolot.",
+    "heShortDesc": "חיבור הלכתי מן המאה ה-12 המבוסס על ספר 'הלכות גדולות', ומשולבים בו גם דברי מוסר.",
     "pubDate": "1889",
     "compDate": "1150",
     "pubPlace": "Vilna",
@@ -88,7 +95,7 @@
         "ספר יראים"
     ],
     "alts": {
-        "Amudim and Vavim": {
+        "Vavim and Amudim": {
             "nodes": [
                 {
                     "nodeType": "ArrayMapNode",
@@ -325,7 +332,8 @@
         }
     },
     "heCategories": [
-        "הלכה"
+        "הלכה",
+        "ספרי מצוות"
     ],
     "compDateString": {
         "en": " (c.1135  - c.1165 CE)",

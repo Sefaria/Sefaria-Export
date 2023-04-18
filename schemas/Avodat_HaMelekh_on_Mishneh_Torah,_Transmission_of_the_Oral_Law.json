@@ -18,6 +18,25 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "avodat-hamelekh",
+                    "hilchot",
+                    "transmission-of-the-oral-law"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "avodat-hamelekh",
+                    "transmission-of-the-oral-law"
+                ]
+            }
+        ],
+        "lengths": [
+            45,
+            30
+        ],
         "titles": [
             {
                 "text": "עבודת המלך על משנה תורה, מסירת תורה שבעל פה",
@@ -39,11 +58,17 @@
         "key": "Avodat HaMelekh on Mishneh Torah, Transmission of the Oral Law"
     },
     "authors": [
-        "Menachem Mendel Krakowski"
+        {
+            "en": "Menachem Mendel Krakowski",
+            "he": "מנחם קרקובסקי",
+            "slug": "menachem-mendel-krakowski"
+        }
     ],
     "enDesc": "An important work on Rambam's Sefer HaMadah, it focuses on Rambam's sources, and presents a comparative study with other medieval rabbis that discussed the same topics .",
     "pubDate": "1931",
+    "compDate": "1900",
     "pubPlace": "Vilna",
+    "errorMargin": "30",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -75,5 +100,9 @@
         "מפרשים",
         "עבודת המלך",
         "הקדמה"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1870  - c.1930 CE)",
+        "he": " (1870 - 1930 לספירה בקירוב)"
+    }
 }

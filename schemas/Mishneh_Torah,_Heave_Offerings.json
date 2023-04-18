@@ -16,8 +16,43 @@
             "Chapter",
             "Halakhah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "hilchot",
+                    "heave-offerings"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishneh-torah",
+                    "heave-offerings"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "hilchot",
+                    "heave-offerings"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rambam",
+                    "heave-offerings"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "hilchot",
+                    "heave-offerings"
+                ]
+            }
+        ],
         "lengths": [
-            15
+            15,
+            317
         ],
         "titles": [
             {
@@ -50,11 +85,6 @@
             },
             {
                 "lang": "he",
-                "text": "משנה תורה, הלכות תרומות",
-                "primary": true
-            },
-            {
-                "lang": "he",
                 "text": "רמב\"ם, הלכות תרומות"
             },
             {
@@ -82,8 +112,45 @@
                 "text": "רמב\"ם הל' תרומות"
             },
             {
-                "lang": "en",
+                "text": "רמב״ם, הלכות תרומות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הלכות תרומות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם, הל' תרומות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם, הל' תרומות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הלכות תרומות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הלכות תרומות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב״ם הל' תרומות",
+                "lang": "he"
+            },
+            {
+                "text": "רמב”ם הל' תרומות",
+                "lang": "he"
+            },
+            {
+                "text": "משנה תורה, הלכות תרומות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Mishneh Torah, Heave Offerings",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -100,7 +167,11 @@
         3
     ],
     "authors": [
-        "Rambam"
+        {
+            "en": "Rambam",
+            "he": "רמב\"ם",
+            "slug": "rambam"
+        }
     ],
     "enDesc": "The seventh book is Zera'im (Seeds): agricultural laws. Terumot: Laws of obligatory gifts to the priests",
     "pubDate": "1474",
@@ -124,12 +195,20 @@
         "Mishneh Torah, Heave Offerings"
     ],
     "heTitleVariants": [
-        "משנה תורה, הלכות תרומות",
         "רמב\"ם, הלכות תרומות",
         "משנה תורה, הל' תרומות",
         "רמב\"ם, הל' תרומות",
         "רמב\"ם הלכות תרומות",
-        "רמב\"ם הל' תרומות"
+        "רמב\"ם הל' תרומות",
+        "רמב״ם, הלכות תרומות",
+        "רמב”ם, הלכות תרומות",
+        "רמב״ם, הל' תרומות",
+        "רמב”ם, הל' תרומות",
+        "רמב״ם הלכות תרומות",
+        "רמב”ם הלכות תרומות",
+        "רמב״ם הל' תרומות",
+        "רמב”ם הל' תרומות",
+        "משנה תורה, הלכות תרומות"
     ],
     "sectionNames": [
         "Chapter",

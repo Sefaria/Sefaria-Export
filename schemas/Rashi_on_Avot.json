@@ -2,7 +2,7 @@
     "title": "Rashi on Avot",
     "categories": [
         "Mishnah",
-        "Commentary",
+        "Rishonim on Mishnah",
         "Rashi",
         "Seder Nezikin"
     ],
@@ -19,10 +19,58 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rashi",
+                    "mishnah",
+                    "pirkei-avot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rashi",
+                    "pirkei-avot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rashi",
+                    "tractate",
+                    "pirkei-avot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rashi",
+                    "mishnah",
+                    "tractate",
+                    "pirkei-avot"
+                ]
+            }
+        ],
+        "lengths": [
+            6,
+            105,
+            494
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
-                "lang": "he",
+                "text": "רש״י על משנה אבות",
+                "lang": "he"
+            },
+            {
+                "text": "רש”י על משנה אבות",
+                "lang": "he"
+            },
+            {
                 "text": "רש\"י על משנה אבות",
+                "lang": "he",
                 "primary": true
             },
             {
@@ -41,7 +89,11 @@
         "key": "Rashi on Avot"
     },
     "authors": [
-        "Rashi"
+        {
+            "en": "Rashi",
+            "he": "רש״י",
+            "slug": "rashi"
+        }
     ],
     "enDesc": "Classic commentary on the Talmud written by Rashi (1040 - 1105). Rashi’s commentary is known for its concise and clear explanations. It is invaluable to all Talmud learners - beginner and advanced alike.",
     "compDate": "1090",
@@ -65,6 +117,8 @@
         "Rashi on Avot"
     ],
     "heTitleVariants": [
+        "רש״י על משנה אבות",
+        "רש”י על משנה אבות",
         "רש\"י על משנה אבות"
     ],
     "sectionNames": [
@@ -75,7 +129,7 @@
     "depth": 3,
     "heCategories": [
         "משנה",
-        "מפרשים",
+        "ראשונים על המשנה",
         "רש\"י",
         "סדר נזיקין"
     ],

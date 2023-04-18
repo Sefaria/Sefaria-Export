@@ -7,52 +7,96 @@
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
-        "depth": 2,
+        "depth": 3,
         "addressTypes": [
-            "Talmud",
-            "Halakhah"
+            "Perek",
+            "Halakhah",
+            "Integer"
         ],
         "sectionNames": [
-            "Daf",
-            "Halakhah"
+            "Chapter",
+            "Halakhah",
+            "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yerushalmi",
+                    "tractate",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "yerushalmi",
+                    "chagigah"
+                ]
+            }
+        ],
+        "ref_resolver_context_swaps": {
+            "halakha": [
+                "yerushalmi",
+                "chagigah"
+            ]
+        },
         "lengths": [
-            44,
-            87
+            3,
+            23,
+            149
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Yerushalmi Hagigah"
-            },
-            {
-                "lang": "en",
-                "text": "JT Chagigah"
-            },
-            {
-                "lang": "en",
-                "text": "Talmud Yerushalmi Chagigah"
-            },
-            {
-                "lang": "en",
-                "text": "Yerushalmi Chagigah"
-            },
-            {
-                "lang": "en",
-                "text": "JT Hagigah"
-            },
-            {
-                "lang": "he",
                 "text": "תלמוד ירושלמי חגיגה",
+                "lang": "he",
                 "primary": true
             },
             {
-                "lang": "he",
-                "text": "ירושלמי חגיגה"
+                "text": "Yerushalmi Hagigah",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Y. Ḥag."
+                "text": "JT Chagigah",
+                "lang": "en"
+            },
+            {
+                "text": "Talmud Yerushalmi Chagigah",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi Chagigah",
+                "lang": "en"
+            },
+            {
+                "text": "JT Hagigah",
+                "lang": "en"
+            },
+            {
+                "text": "ירושלמי חגיגה",
+                "lang": "he"
+            },
+            {
+                "text": "Y. Ḥag.",
+                "lang": "en"
             },
             {
                 "text": "Jerusalem Talmud Chagigah",
@@ -63,23 +107,27 @@
         "title": "Jerusalem Talmud Chagigah",
         "heTitle": "תלמוד ירושלמי חגיגה",
         "heSectionNames": [
-            "דף",
-            "הלכה"
+            "פרק",
+            "הלכה",
+            ""
         ],
         "key": "Jerusalem Talmud Chagigah"
     },
     "order": [
         22
     ],
-    "authors": [],
-    "enDesc": "Haggadah (Festival Offering) belongs to the second order, Moed (Festivals) and the Three Pilgrimage Festivals (Passover, Shavuot, Sukkot) and the pilgrimage offering that men were supposed to bring in Jerusalem. It has three chapters.",
+    "enDesc": "Tractate Chagigah (“Festival Offering”) is located in Seder Moed (“the Order of Festivals”) and primarily addresses the commandment to make a pilgrimage to the Temple on the holidays of Passover, Shavuot, and Sukkot. The first two chapters focus on the sacrifices offered then and the ritual purity required of those who visit the Temple. The third chapter addresses the differences between consuming sacrifices and consuming terumot, required donations of agricultural produce to priestly households.",
+    "enShortDesc": "Sacrifices offered on pilgrimage to Jerusalem for the Festivals and laws of ritual purity.",
+    "heShortDesc": "קורבנות המוקרבים בעת העלייה לרגל לירושלים בשלושת הרגלים (פסח, שבועות וסוכות) ודיני טהרה.",
     "pubDate": "1523",
     "compDate": "400",
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
     "errorMargin": "25",
     "era": "A",
-    "is_cited": true,
+    "corpora": [
+        "Yerushalmi"
+    ],
     "heTitle": "תלמוד ירושלמי חגיגה",
     "titleVariants": [
         "Yerushalmi Hagigah",
@@ -94,11 +142,350 @@
         "תלמוד ירושלמי חגיגה",
         "ירושלמי חגיגה"
     ],
+    "alts": {
+        "Venice": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Chagigah 1:1:2-8:14",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Chagigah 1:1:2-6",
+                        "Jerusalem Talmud Chagigah 1:1:6-20",
+                        "Jerusalem Talmud Chagigah 1:1:20-4:2",
+                        "Jerusalem Talmud Chagigah 1:4:2-8:5",
+                        "Jerusalem Talmud Chagigah 1:8:5-14"
+                    ],
+                    "startingAddress": "75d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הכל חייבין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "הכל חייבין",
+                    "offset": 299
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Chagigah 2:1:1-7:3",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Chagigah 2:1:1-2",
+                        "Jerusalem Talmud Chagigah 2:1:2-8",
+                        "Jerusalem Talmud Chagigah 2:1:8-10",
+                        "Jerusalem Talmud Chagigah 2:1:10-17",
+                        "Jerusalem Talmud Chagigah 2:1:17-2:6",
+                        "Jerusalem Talmud Chagigah 2:2:6-4:3",
+                        "Jerusalem Talmud Chagigah 2:4:3-6:3",
+                        "Jerusalem Talmud Chagigah 2:6:3-7:3"
+                    ],
+                    "startingAddress": "76d",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אין דורשין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "אין דורשין",
+                    "offset": 303
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Chagigah 3:1:1-8:5",
+                    "addressTypes": [
+                        "Folio"
+                    ],
+                    "sectionNames": [
+                        "Column"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Chagigah 3:1:1-2",
+                        "Jerusalem Talmud Chagigah 3:1:2-8",
+                        "Jerusalem Talmud Chagigah 3:1:8-2:7",
+                        "Jerusalem Talmud Chagigah 3:2:7-4:2",
+                        "Jerusalem Talmud Chagigah 3:4:2-6:2",
+                        "Jerusalem Talmud Chagigah 3:6:2-8:5"
+                    ],
+                    "startingAddress": "78c",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "חומר בקודש",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "חומר בקודש",
+                    "offset": 310
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי חגיגה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Yerushalmi Hagigah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Chagigah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Chagigah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Chagigah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Hagigah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי חגיגה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Ḥag.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Chagigah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Chagigah",
+            "heTitle": "תלמוד ירושלמי חגיגה"
+        },
+        "Vilna": {
+            "nodes": [
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Chagigah 1:1:1-8:14",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Chagigah 1:1:1-3",
+                        "Jerusalem Talmud Chagigah 1:1:3-8",
+                        "Jerusalem Talmud Chagigah 1:1:8-9",
+                        "Jerusalem Talmud Chagigah 1:1:9",
+                        "Jerusalem Talmud Chagigah 1:1:9-18",
+                        "Jerusalem Talmud Chagigah 1:1:18-20",
+                        "Jerusalem Talmud Chagigah 1:1:20-2:3",
+                        "Jerusalem Talmud Chagigah 1:2:3-4",
+                        "Jerusalem Talmud Chagigah 1:2:4-4:2",
+                        "Jerusalem Talmud Chagigah 1:4:2-6:2",
+                        "Jerusalem Talmud Chagigah 1:6:2-7:3",
+                        "Jerusalem Talmud Chagigah 1:7:3-8:4",
+                        "Jerusalem Talmud Chagigah 1:8:4-10",
+                        "Jerusalem Talmud Chagigah 1:8:10-14",
+                        "Jerusalem Talmud Chagigah 1:8:14"
+                    ],
+                    "startingAddress": "1a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 1",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "הכל חייבין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 1",
+                    "heTitle": "הכל חייבין",
+                    "offset": 0
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Chagigah 2:1:1-7:3",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Chagigah 2:1:1-2",
+                        "Jerusalem Talmud Chagigah 2:1:2-6",
+                        "Jerusalem Talmud Chagigah 2:1:6-9",
+                        "Jerusalem Talmud Chagigah 2:1:9-11",
+                        "Jerusalem Talmud Chagigah 2:1:11-15",
+                        "Jerusalem Talmud Chagigah 2:1:15-2:4",
+                        "Jerusalem Talmud Chagigah 2:2:4-6",
+                        "Jerusalem Talmud Chagigah 2:2:6-3:3",
+                        "Jerusalem Talmud Chagigah 2:3:3-4:3",
+                        "Jerusalem Talmud Chagigah 2:4:3-5:2",
+                        "Jerusalem Talmud Chagigah 2:5:2-5",
+                        "Jerusalem Talmud Chagigah 2:5:5-6:3",
+                        "Jerusalem Talmud Chagigah 2:6:3-7:3",
+                        "Jerusalem Talmud Chagigah 2:7:3"
+                    ],
+                    "startingAddress": "8a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 2",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "אין דורשין",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 2",
+                    "heTitle": "אין דורשין",
+                    "offset": 14
+                },
+                {
+                    "nodeType": "ArrayMapNode",
+                    "depth": 1,
+                    "wholeRef": "Jerusalem Talmud Chagigah 3:1:1-8:5",
+                    "addressTypes": [
+                        "Talmud"
+                    ],
+                    "sectionNames": [
+                        "Daf"
+                    ],
+                    "refs": [
+                        "Jerusalem Talmud Chagigah 3:1:1-3",
+                        "Jerusalem Talmud Chagigah 3:1:3-4",
+                        "Jerusalem Talmud Chagigah 3:1:4-7",
+                        "Jerusalem Talmud Chagigah 3:1:7-2:4",
+                        "Jerusalem Talmud Chagigah 3:2:4-5",
+                        "Jerusalem Talmud Chagigah 3:2:5-7",
+                        "Jerusalem Talmud Chagigah 3:2:7",
+                        "Jerusalem Talmud Chagigah 3:2:7-10",
+                        "Jerusalem Talmud Chagigah 3:2:10-3:3",
+                        "Jerusalem Talmud Chagigah 3:3:3-4:1",
+                        "Jerusalem Talmud Chagigah 3:4:1-3",
+                        "Jerusalem Talmud Chagigah 3:4:3-5:1",
+                        "Jerusalem Talmud Chagigah 3:5:1-7:1",
+                        "Jerusalem Talmud Chagigah 3:7:1-8:2",
+                        "Jerusalem Talmud Chagigah 3:8:2-4",
+                        "Jerusalem Talmud Chagigah 3:8:4-5"
+                    ],
+                    "startingAddress": "15a",
+                    "match_templates": [],
+                    "titles": [
+                        {
+                            "text": "Chapter 3",
+                            "lang": "en",
+                            "primary": true
+                        },
+                        {
+                            "text": "חומר בקודש",
+                            "lang": "he",
+                            "primary": true
+                        }
+                    ],
+                    "title": "Chapter 3",
+                    "heTitle": "חומר בקודש",
+                    "offset": 28
+                }
+            ],
+            "titles": [
+                {
+                    "text": "תלמוד ירושלמי חגיגה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "Yerushalmi Hagigah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Chagigah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Talmud Yerushalmi Chagigah",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi Chagigah",
+                    "lang": "en"
+                },
+                {
+                    "text": "JT Hagigah",
+                    "lang": "en"
+                },
+                {
+                    "text": "ירושלמי חגיגה",
+                    "lang": "he"
+                },
+                {
+                    "text": "Y. Ḥag.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Jerusalem Talmud Chagigah",
+                    "lang": "en",
+                    "primary": true
+                }
+            ],
+            "title": "Jerusalem Talmud Chagigah",
+            "heTitle": "תלמוד ירושלמי חגיגה"
+        }
+    },
     "sectionNames": [
-        "Daf",
-        "Halakhah"
+        "Chapter",
+        "Halakhah",
+        "Segment"
     ],
-    "depth": 2,
+    "depth": 3,
     "heCategories": [
         "תלמוד",
         "ירושלמי",

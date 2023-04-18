@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "menachot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "menachot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "menachot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "menachot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "menachot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "menachot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "menachot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "menachot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "menachot"
+                ]
+            }
+        ],
         "lengths": [
-            217,
-            10533
+            219,
+            3783
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -50,13 +114,13 @@
                 "text": "Minahot"
             },
             {
-                "lang": "he",
-                "text": "מנחות",
-                "primary": true
-            },
-            {
                 "text": "BT Menachot",
                 "lang": "en"
+            },
+            {
+                "text": "מנחות",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Menachot",
@@ -77,12 +141,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         29,
         2
     ],
     "authors": [],
-    "enDesc": "Menahot (Meal Offerings) belongs to the fifth order, Kodshim (Holy things) and discusses the various grain-based offerings in the Temple. It has thirteen chapters.",
+    "enDesc": "Menachot (“Meal Offerings”) is the second tractate in Seder Kodashim (“Order of Holy Things\"). Its thirteen chapters mainly discuss flour-based offerings brought in the Temple, as well as oil and wine libations. Among the topics addressed are intentions that nullify an offering’s validity, details of the process of removing a handful of meal-offering, sanctifying it in a vessel, carrying it, and burning it on the altar, and the preparation and consumption of showbread (loaves that were always present on a dedicated table in the Temple). Menachot also contains the Talmud’s main discussions about the commandments of mezuzah (doorpost marker) , tzitzit (ritual fringes), and tefillin (phylacteries), included in the third and fourth chapters.",
+    "enShortDesc": "Flour offerings, usually mixed with oil, wine libations, and bread loaf offerings in the Temple.",
+    "heShortDesc": "מנחות עשויות קמח, לחם הפנים ונסכי יין ושמן.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -90,6 +159,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "מנחות",
     "titleVariants": [
         "Masekhet Menachot",
@@ -113,6 +185,33 @@
                     "depth": 1,
                     "wholeRef": "Menachot 2a:1-13a:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-123"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-123"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -165,6 +264,33 @@
                     "depth": 1,
                     "wholeRef": "Menachot 13a:7-17a:15",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-219"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-219"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -203,6 +329,33 @@
                     "depth": 1,
                     "wholeRef": "Menachot 17a:16-38a:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-319"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-319"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -275,6 +428,33 @@
                     "depth": 1,
                     "wholeRef": "Menachot 38a:4-52b:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-416"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-416"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "lang": "en",
@@ -334,6 +514,33 @@
                     "depth": 1,
                     "wholeRef": "Menachot 52b:12-63b:8",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-514"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-514"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "lang": "en",
@@ -386,6 +593,33 @@
                     "depth": 1,
                     "wholeRef": "Menachot 63b:9-72b:18",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-612"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-612"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "lang": "en",
@@ -434,6 +668,33 @@
                     "depth": 1,
                     "wholeRef": "Menachot 72b:19-76b:14",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-710"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-710"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "lang": "en",
@@ -472,6 +733,33 @@
                     "depth": 1,
                     "wholeRef": "Menachot 76b:15-83b:9",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-810"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-810"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "lang": "en",
@@ -516,6 +804,33 @@
                     "depth": 1,
                     "wholeRef": "Menachot 83b:10-87a:20",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-910"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-910"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "lang": "en",
@@ -553,6 +868,33 @@
                     "depth": 1,
                     "wholeRef": "Menachot 87a:21-94a:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-106"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-106"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
                     "titles": [
                         {
                             "lang": "en",
@@ -597,6 +939,33 @@
                     "depth": 1,
                     "wholeRef": "Menachot 94a:11-100b:8",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-1110"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eleventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-1110"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eleventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 11,
                     "titles": [
                         {
                             "lang": "en",
@@ -640,6 +1009,33 @@
                     "depth": 1,
                     "wholeRef": "Menachot 100b:9-104b:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-124"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "twelfth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-124"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "twelfth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 12,
                     "titles": [
                         {
                             "lang": "en",
@@ -678,6 +1074,44 @@
                     "depth": 1,
                     "wholeRef": "Menachot 104b:13-110a:24",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-132"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "thirteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-132"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "thirteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 13,
                     "titles": [
                         {
                             "lang": "en",
@@ -745,13 +1179,13 @@
                     "text": "Minahot"
                 },
                 {
-                    "lang": "he",
-                    "text": "מנחות",
-                    "primary": true
-                },
-                {
                     "text": "BT Menachot",
                     "lang": "en"
+                },
+                {
+                    "text": "מנחות",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Menachot",

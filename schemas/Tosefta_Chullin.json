@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Chullin",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Kodashim"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "chullin"
+                ]
+            }
+        ],
         "lengths": [
-            10
+            10,
+            53
         ],
         "titles": [
             {
@@ -41,17 +50,17 @@
                 "text": "Tos. Hullin"
             },
             {
-                "lang": "he",
-                "text": "תוספתא חולין",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Tosef. Ḥull."
             },
             {
-                "lang": "en",
+                "text": "תוספתא חולין",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Tosefta Chullin",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -67,7 +76,9 @@
         2
     ],
     "authors": [],
-    "enDesc": "Hulin (Ordinary/Mundane Things) belongs to the fifth order, Kodshim (Holy things) and discusses the laws of slaughter and meat consumption (i.e. animals used for every-day as opposed to sacred reasons). It has twelve chapters.",
+    "enDesc": "Chullin (lit: “Ordinary,” referring to animal and birds consumed in non-consecrated contexts) is the third tractate in Seder Kodashim (“Order of Holy Things\"). Its twelve chapters discuss laws related to non-sacred consumption of meat, such as ritual slaughter of non-consecrated animals and birds, kosher and non-kosher living beings, the obligation to cover the blood of slaughtered animals, and the prohibitions of mixing meat and dairy products and of slaughtering an animal and its offspring on the same day. The tractate’s last chapter discusses the obligation to send away a mother bird when taking her young or eggs (shiluach hakein).",
+    "enShortDesc": "Slaughter of animals and birds for non-consecrated purposes, other aspects of kashrut.",
+    "heShortDesc": "שחיטת חיות ועופות שלא לשם קורבן וענייני כשרות נוספים.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -94,8 +105,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר קדשים"
     ],
     "compDateString": {

@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kiryat-sefer",
+                    "hilchot",
+                    "mourning"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kiryat-sefer",
+                    "mourning"
+                ]
+            }
+        ],
+        "lengths": [
+            14,
+            31,
+            31
+        ],
         "titles": [
             {
                 "text": "קרית ספר על משנה תורה, הלכות אבל",
@@ -42,10 +62,17 @@
         "key": "Kiryat Sefer on Mishneh Torah, Mourning"
     },
     "authors": [
-        "Moshe ben Yosef di Trani"
+        {
+            "en": "Moshe ben Yosef di Trani",
+            "he": "משה מטראני",
+            "slug": "moshe-ben-yosef-di-trani"
+        }
     ],
     "pubDate": "1550-1551",
+    "compDate": "1545",
+    "compPlace": "Safed",
     "pubPlace": "Venice",
+    "errorMargin": "6",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -78,5 +105,13 @@
         "מפרשים",
         "קרית ספר",
         "ספר שופטים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1539  - c.1551 CE)",
+        "he": " (1539 - 1551 לספירה בקירוב)"
+    },
+    "compPlaceString": {
+        "en": "Safed",
+        "he": "צפת"
+    }
 }

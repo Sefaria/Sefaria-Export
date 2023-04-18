@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "shabbat"
+                ]
+            }
+        ],
         "lengths": [
-            312,
-            17165
+            314,
+            3778
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -46,11 +110,6 @@
                 "text": "Shab."
             },
             {
-                "lang": "he",
-                "text": "שבת",
-                "primary": true
-            },
-            {
                 "lang": "en",
                 "text": "Sabb."
             },
@@ -61,6 +120,11 @@
             {
                 "text": "BT Shabbat",
                 "lang": "en"
+            },
+            {
+                "text": "שבת",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Shabbat",
@@ -81,12 +145,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         2,
         1
     ],
     "authors": [],
-    "enDesc": "Shabbat (Sabbath) belongs to the second order, Moed (Festivals) and discusses the 39 prohibitions of \"work\" on the Shabbat. It has twenty four chapters.",
+    "enDesc": "Shabbat (“Sabbath”) is the first tractate in Seder Moed (Order of Festivals). Its 24 chapters discuss the 39 melachot (creative labors prohibited on Shabbat), prohibitions of carrying on Shabbat, and positive commandments that preserve the sanctity of the day, such as lighting candles and eating three meals. The tractate also contains the Talmud’s main discussion about the holiday of Chanukah.\n.",
+    "enShortDesc": "Creative work prohibited on Shabbat and other laws that preserve the sanctity of the day.",
+    "heShortDesc": "מלאכות האסורות בשבת ודינים הקשורים לקדושת היום.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -94,6 +163,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "שבת",
     "titleVariants": [
         "Masekhet Shabbat",
@@ -118,6 +190,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 2a:1-20b:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-134"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-134"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "lang": "en",
@@ -185,6 +284,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 20b:5-36b:2",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-227"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-227"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "lang": "en",
@@ -247,6 +373,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 36b:3-47b:7",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-327"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-327"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "lang": "en",
@@ -299,6 +452,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 47b:8-51b:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-423"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-423"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "lang": "en",
@@ -337,6 +517,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 51b:7-56b:20",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-520"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-520"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
                     "titles": [
                         {
                             "lang": "en",
@@ -377,6 +584,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 57a:1-67b:16",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-618"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-618"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
                     "titles": [
                         {
                             "lang": "en",
@@ -428,6 +662,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 67b:17-76b:5",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-716"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-716"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
                     "titles": [
                         {
                             "lang": "en",
@@ -476,6 +737,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 76b:6-82a:11",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-816"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-816"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
                     "titles": [
                         {
                             "lang": "en",
@@ -517,6 +805,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 82a:12-90b:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-916"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-916"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
                     "titles": [
                         {
                             "lang": "en",
@@ -564,6 +879,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 90b:7-96a:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-1011"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-1011"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
                     "titles": [
                         {
                             "lang": "en",
@@ -605,6 +947,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 96a:4-102a:13",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-1113"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eleventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-1113"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eleventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 11,
                     "titles": [
                         {
                             "lang": "en",
@@ -647,6 +1016,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 102b:1-105a:8",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-1210"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "twelfth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-1210"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "twelfth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 12,
                     "titles": [
                         {
                             "lang": "en",
@@ -682,6 +1078,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 105a:9-107a:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-135"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "thirteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-135"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "thirteenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 13,
                     "titles": [
                         {
                             "lang": "en",
@@ -716,6 +1139,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 107a:5-111b:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-141"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-141"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourteenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 14,
                     "titles": [
                         {
                             "lang": "en",
@@ -755,6 +1205,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 111b:5-115a:2",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-151"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-151"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifteenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 15,
                     "titles": [
                         {
                             "lang": "en",
@@ -792,6 +1269,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 115a:3-122b:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-161"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-161"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixteenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 16,
                     "titles": [
                         {
                             "lang": "en",
@@ -837,6 +1341,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 122b:4-126b:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-171"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventeenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-171"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventeenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 17,
                     "titles": [
                         {
                             "lang": "en",
@@ -875,6 +1406,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 126b:11-129b:18",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-181"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-181"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighteenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 18,
                     "titles": [
                         {
                             "lang": "en",
@@ -911,6 +1469,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 130a:1-137b:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-191"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "nineteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-191"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "nineteenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 19,
                     "titles": [
                         {
                             "lang": "en",
@@ -956,6 +1541,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 137b:11-141b:18",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-20"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "twentieth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-20"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "twentieth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 20,
                     "titles": [
                         {
                             "lang": "en",
@@ -994,6 +1606,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 141b:19-143a:15",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-2110"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "twenty-first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-2110"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "twenty-first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 21,
                     "titles": [
                         {
                             "lang": "en",
@@ -1027,6 +1666,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 143b:1-148a:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-228"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "twenty-second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-228"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "twenty-second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 22,
                     "titles": [
                         {
                             "lang": "en",
@@ -1066,6 +1732,33 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 148a:5-153a:10",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-231"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "twenty-third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-231"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "twenty-third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 23,
                     "titles": [
                         {
                             "lang": "en",
@@ -1106,6 +1799,44 @@
                     "depth": 1,
                     "wholeRef": "Shabbat 153a:11-157b:3",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-241"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "twenty-fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-241"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "twenty-fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 24,
                     "titles": [
                         {
                             "lang": "en",
@@ -1167,11 +1898,6 @@
                     "text": "Shab."
                 },
                 {
-                    "lang": "he",
-                    "text": "שבת",
-                    "primary": true
-                },
-                {
                     "lang": "en",
                     "text": "Sabb."
                 },
@@ -1182,6 +1908,11 @@
                 {
                     "text": "BT Shabbat",
                     "lang": "en"
+                },
+                {
+                    "text": "שבת",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Shabbat",

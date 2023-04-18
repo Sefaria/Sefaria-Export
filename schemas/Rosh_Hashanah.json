@@ -16,9 +16,73 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "bavli",
+                    "tractate",
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "talmud",
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "bavli",
+                    "tractate",
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "gemara",
+                    "tractate",
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "rosh-hashanah"
+                ]
+            }
+        ],
         "lengths": [
-            67,
-            3168
+            69,
+            1025
+        ],
+        "referenceableSections": [
+            true,
+            false
         ],
         "titles": [
             {
@@ -62,17 +126,21 @@
                 "lang": "en"
             },
             {
-                "text": "ראש השנה",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "ר\"ה",
                 "lang": "he"
             },
             {
                 "text": "ר״ה",
                 "lang": "he"
+            },
+            {
+                "text": "ר”ה",
+                "lang": "he"
+            },
+            {
+                "text": "ראש השנה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Rosh Hashanah",
@@ -93,12 +161,17 @@
         }
     },
     "default_struct": "Chapters",
+    "exclude_structs": [
+        "schema"
+    ],
     "order": [
         5,
         4
     ],
     "authors": [],
-    "enDesc": "Rosh Hashanah (New Year) belongs to the second order, Moed (Festivals) and discusses the regulation of the calendar by the new moon, and with the services of the festival of Rosh Hashanah. It has four chapters.",
+    "enDesc": "Tractate Rosh Hashanah, located in Seder Moed (“The Order of Festivals”) opens with the statement that there are four days of the calendar, each of which is a New Year for its own purpose. The bulk of the tractate's discussion is elaboration of the laws concerning the holiday of Rosh Hashanah, its religious significance, and the details of the sounding of the shofar. The tractate also discusses the process of sanctifying a new month in the Temple period, which involved witnesses testifying in front of the high rabbinic court that they saw the new moon.",
+    "enShortDesc": "The four Jewish New Years, the process of sanctifying a new month, and laws of blowing the shofar.",
+    "heShortDesc": "ארבעת ראשי השנה, הליך קידוש החודש ודיני תקיעת שופר.",
     "pubDate": "1523",
     "compDate": "500",
     "compPlace": "Talmudic Babylon",
@@ -106,6 +179,9 @@
     "errorMargin": "50",
     "era": "A",
     "is_cited": true,
+    "corpora": [
+        "Bavli"
+    ],
     "heTitle": "ראש השנה",
     "titleVariants": [
         "Talmud Rosh Hashanah",
@@ -121,9 +197,10 @@
         "Rosh Hashanah"
     ],
     "heTitleVariants": [
-        "ראש השנה",
         "ר\"ה",
-        "ר״ה"
+        "ר״ה",
+        "ר”ה",
+        "ראש השנה"
     ],
     "alts": {
         "Chapters": {
@@ -133,6 +210,33 @@
                     "depth": 1,
                     "wholeRef": "Rosh Hashanah 2a:1-22a:12",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-130"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-130"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
                     "titles": [
                         {
                             "primary": true,
@@ -203,6 +307,33 @@
                     "depth": 1,
                     "wholeRef": "Rosh Hashanah 22a:13-25b:6",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-225"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-225"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
                     "titles": [
                         {
                             "primary": true,
@@ -240,6 +371,33 @@
                     "depth": 1,
                     "wholeRef": "Rosh Hashanah 25b:7-29b:4",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-325"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-325"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
                     "titles": [
                         {
                             "primary": true,
@@ -278,6 +436,44 @@
                     "depth": 1,
                     "wholeRef": "Rosh Hashanah 29b:5-35a:13",
                     "includeSections": true,
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-421"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-421"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
                     "titles": [
                         {
                             "primary": true,
@@ -357,17 +553,21 @@
                     "lang": "en"
                 },
                 {
-                    "text": "ראש השנה",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "ר\"ה",
                     "lang": "he"
                 },
                 {
                     "text": "ר״ה",
                     "lang": "he"
+                },
+                {
+                    "text": "ר”ה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ראש השנה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Rosh Hashanah",

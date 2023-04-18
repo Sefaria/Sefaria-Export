@@ -2,7 +2,7 @@
     "title": "Abarbanel on Malachi",
     "categories": [
         "Tanakh",
-        "Commentary",
+        "Rishonim on Tanakh",
         "Abarbanel",
         "Prophets"
     ],
@@ -10,8 +10,8 @@
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
-            "Integer",
+            "Perek",
+            "Pasuk",
             "Integer"
         ],
         "sectionNames": [
@@ -19,7 +19,25 @@
             "Verse",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "abarbanel",
+                    "malachi"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            42,
+            69
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>",
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
                 "primary": true,
@@ -42,7 +60,11 @@
         "key": "Abarbanel on Malachi"
     },
     "authors": [
-        "Abarbanel"
+        {
+            "en": "Abarbanel",
+            "he": "אברבנאל",
+            "slug": "abarbanel"
+        }
     ],
     "enDesc": "Abarbanel's highly original commentary usually begins with a number of questions about the text at hand, which he answers over the course of his exegesis.",
     "pubDate": "1519-1520",
@@ -77,7 +99,7 @@
     "depth": 3,
     "heCategories": [
         "תנ\"ך",
-        "מפרשים",
+        "ראשונים על התנ״ך",
         "אברבנאל",
         "נביאים"
     ],

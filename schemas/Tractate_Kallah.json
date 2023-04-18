@@ -1,7 +1,8 @@
 {
     "title": "Tractate Kallah",
     "categories": [
-        "Tanaitic",
+        "Talmud",
+        "Bavli",
         "Minor Tractates"
     ],
     "schema": {
@@ -14,6 +15,23 @@
         "sectionNames": [
             "Chapter",
             "Halakhah"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kallah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tractate",
+                    "kallah"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            26
         ],
         "titles": [
             {
@@ -44,7 +62,9 @@
         "key": "Tractate Kallah"
     },
     "authors": [],
-    "enDesc": "The minor tractates (Masekhtot Ketanot) are essays from the Tannaitic period or later dealing with topics about which no formal tractate exists in the Mishnah. The first eight or so contain much original material; the last seven or so are collections of material scattered throughout the Talmud. Soferim (Scribes). This tractate, it deals with issues of marriage.",
+    "enDesc": "Tractate Kallah (“Bride”) is one of the minor tractates, or works written in the style of the Mishnah on topics for which there is no specific tractate in the Mishnah or Talmud. Compiled in the eighth century, it mostly consists of edited material from the Babylonian Talmud. It discusses marriage, intercourse, and chastity, discouraging male mastrubation and other sexual behaviors.",
+    "enShortDesc": "Marriage, intercourse, and proper sexual behavior.",
+    "heShortDesc": "נישואין, יחסי אישות וכללי התנהגות מינית נאותה.",
     "compDate": "400",
     "errorMargin": "500",
     "era": "T",
@@ -64,7 +84,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
+        "תלמוד",
+        "בבלי",
         "מסכתות קטנות"
     ],
     "compDateString": {

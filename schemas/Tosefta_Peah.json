@@ -1,8 +1,8 @@
 {
     "title": "Tosefta Peah",
     "categories": [
-        "Tanaitic",
         "Tosefta",
+        "Vilna Edition",
         "Seder Zeraim"
     ],
     "schema": {
@@ -16,8 +16,17 @@
             "Chapter",
             "Tosefta"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosefta",
+                    "peah"
+                ]
+            }
+        ],
         "lengths": [
-            4
+            4,
+            80
         ],
         "titles": [
             {
@@ -54,13 +63,13 @@
             },
             {
                 "text": "תוספתא פאה",
-                "primary": true,
-                "lang": "he"
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Tosefta Peah",
-                "primary": true,
-                "lang": "en"
+                "lang": "en",
+                "primary": true
             }
         ],
         "title": "Tosefta Peah",
@@ -75,7 +84,9 @@
         2
     ],
     "authors": [],
-    "enDesc": "Peah (Corner) belongs to the first order, Zera'im (seeds) and discusses the regulations concerning the commandment to leave the corner of one's field for the poor as stated in Leviticus 19:9-10, Leviticus 23:22; Deuteronomy 24:19-22, and with the rights of the poor in general. It consists of four chapters.",
+    "enDesc": "Peah (“Corner”) is the second tractate in Seder Zeraim (“Order of Seeds”) and the first in the order to explicitly address the order’s main topic, agricultural commandments. The tractate’s first four chapters discuss the mitzvah of peah, or leaving crops in the corner of a field for the poor to take, based in Leviticus 19:9 and 23:22. The remaining four chapters discuss other agricultural gifts to the poor, such as the obligation to leave ears of grain that fell during harvest (leket) and sheaves of grain that were forgotten in the field (shikhechah) for the poor.",
+    "enShortDesc": "Crops left in the corner of a field for the poor to take, other agricultural gifts to the poor.",
+    "heShortDesc": "הקצאת חלק מתבואת השדה לעניים ומתנות אחרות מגידולי הקרקע הניתנות לעניים.",
     "pubDate": "1521",
     "compDate": "210",
     "compPlace": "Talmudic Israel",
@@ -104,8 +115,8 @@
     ],
     "depth": 2,
     "heCategories": [
-        "ספרות תנאית",
         "תוספתא",
+        "דפוס וילנא",
         "סדר זרעים"
     ],
     "compDateString": {

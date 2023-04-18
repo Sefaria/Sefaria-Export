@@ -2,20 +2,80 @@
     "title": "Tur",
     "categories": [
         "Halakhah",
-        "Tur and Commentaries"
+        "Tur"
     ],
     "schema": {
         "nodes": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Siman",
-                    "Seif"
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "match_templates": [
+                            {
+                                "term_slugs": [
+                                    "introduction"
+                                ]
+                            }
+                        ],
+                        "sharedTitle": "Introduction",
+                        "titles": [
+                            {
+                                "lang": "en",
+                                "text": "Introduction",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "הקדמה",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "מבוא"
+                            }
+                        ],
+                        "title": "Introduction",
+                        "heTitle": "הקדמה",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Introduction"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
+                        "addressTypes": [
+                            "Siman",
+                            "Seif"
+                        ],
+                        "sectionNames": [
+                            "Siman",
+                            "Seif"
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "סימן",
+                            "סעיף"
+                        ],
+                        "key": "default"
+                    }
                 ],
-                "sectionNames": [
-                    "Siman",
-                    "Seif"
+                "nodeType": "SchemaNode",
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "orach-chayim"
+                        ]
+                    }
                 ],
                 "titles": [
                     {
@@ -31,22 +91,78 @@
                 ],
                 "title": "Orach Chaim",
                 "heTitle": "אורח חיים",
-                "heSectionNames": [
-                    "סימן",
-                    "סעיף"
-                ],
                 "key": "Orach Chaim"
             },
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Siman",
-                    "Seif"
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "match_templates": [
+                            {
+                                "term_slugs": [
+                                    "introduction"
+                                ]
+                            }
+                        ],
+                        "sharedTitle": "Introduction",
+                        "titles": [
+                            {
+                                "lang": "en",
+                                "text": "Introduction",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "הקדמה",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "מבוא"
+                            }
+                        ],
+                        "title": "Introduction",
+                        "heTitle": "הקדמה",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Introduction"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
+                        "addressTypes": [
+                            "Siman",
+                            "Seif"
+                        ],
+                        "sectionNames": [
+                            "Siman",
+                            "Seif"
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "סימן",
+                            "סעיף"
+                        ],
+                        "key": "default"
+                    }
                 ],
-                "sectionNames": [
-                    "Siman",
-                    "Seif"
+                "nodeType": "SchemaNode",
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "yoreh-deah"
+                        ]
+                    }
                 ],
                 "titles": [
                     {
@@ -62,22 +178,78 @@
                 ],
                 "title": "Yoreh Deah",
                 "heTitle": "יורה דעה",
-                "heSectionNames": [
-                    "סימן",
-                    "סעיף"
-                ],
                 "key": "Yoreh Deah"
             },
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Siman",
-                    "Seif"
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "match_templates": [
+                            {
+                                "term_slugs": [
+                                    "introduction"
+                                ]
+                            }
+                        ],
+                        "sharedTitle": "Introduction",
+                        "titles": [
+                            {
+                                "lang": "en",
+                                "text": "Introduction",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "הקדמה",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "מבוא"
+                            }
+                        ],
+                        "title": "Introduction",
+                        "heTitle": "הקדמה",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Introduction"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
+                        "addressTypes": [
+                            "Siman",
+                            "Seif"
+                        ],
+                        "sectionNames": [
+                            "Siman",
+                            "Seif"
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "סימן",
+                            "סעיף"
+                        ],
+                        "key": "default"
+                    }
                 ],
-                "sectionNames": [
-                    "Siman",
-                    "Seif"
+                "nodeType": "SchemaNode",
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "even-haezer"
+                        ]
+                    }
                 ],
                 "titles": [
                     {
@@ -93,22 +265,78 @@
                 ],
                 "title": "Even HaEzer",
                 "heTitle": "אבן העזר",
-                "heSectionNames": [
-                    "סימן",
-                    "סעיף"
-                ],
                 "key": "Even HaEzer"
             },
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Siman",
-                    "Seif"
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "match_templates": [
+                            {
+                                "term_slugs": [
+                                    "introduction"
+                                ]
+                            }
+                        ],
+                        "sharedTitle": "Introduction",
+                        "titles": [
+                            {
+                                "lang": "en",
+                                "text": "Introduction",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "הקדמה",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "מבוא"
+                            }
+                        ],
+                        "title": "Introduction",
+                        "heTitle": "הקדמה",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Introduction"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
+                        "addressTypes": [
+                            "Siman",
+                            "Seif"
+                        ],
+                        "sectionNames": [
+                            "Siman",
+                            "Seif"
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "סימן",
+                            "סעיף"
+                        ],
+                        "key": "default"
+                    }
                 ],
-                "sectionNames": [
-                    "Siman",
-                    "Seif"
+                "nodeType": "SchemaNode",
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "choshen-mishpat"
+                        ]
+                    }
                 ],
                 "titles": [
                     {
@@ -124,11 +352,15 @@
                 ],
                 "title": "Choshen Mishpat",
                 "heTitle": "חושן משפט",
-                "heSectionNames": [
-                    "סימן",
-                    "סעיף"
-                ],
                 "key": "Choshen Mishpat"
+            }
+        ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tur"
+                ]
             }
         ],
         "titles": [
@@ -145,13 +377,13 @@
                 "text": "Arba Turim"
             },
             {
-                "primary": true,
-                "lang": "he",
-                "text": "טור"
-            },
-            {
                 "lang": "he",
                 "text": "ארבעה טורים"
+            },
+            {
+                "text": "טור",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Tur",
@@ -165,10 +397,16 @@
     },
     "default_struct": "Contents",
     "authors": [
-        "Jacob ben Asher"
+        {
+            "en": "Jacob ben Asher",
+            "he": "יעקב בן אשר",
+            "slug": "jacob-ben-asher"
+        }
     ],
-    "enDesc": "Halakhic code considered to be one of the primary sources of Jewish law after the Talmud. The work consists of four sections: 1. Orach Chaim addresses prayer, the Sabbath and festivals, and general daily religious duties. 2. Yoreh Deah deals with kashrut and laws related to family purity.  3. Even HaEzer deals with the laws of marriage and divorce. 4. Choshen Mishpat deals with civil law and business dealings.",
+    "enDesc": "The Tur, also known as Arba’ah Turim (“The Four Rows,” an alllusion to the jewels on the High Priest’s breastplate), is a 14th-century legal code by Rabbi Jacob ben Asher. It traces Jewish law from the Bible through the Talmud and early legal authorities, citing the author’s opinions as well as dissenting opinions. The work is divided into four sections that cover all areas of practical law, excluding laws that are only relevant in Temple times. Many commentaries were written on the Tur, most prominent among them Rabbi Yosef Karo’s “Beit Yosef,” which formed the basis of the Shulchan Arukh. Study of the Tur alongside its commentaries and the Shulchan Arukh is of primary importance in traditional yeshivas.",
     "heDesc": "",
+    "enShortDesc": "14th-century comprehensive legal code by Jacob ben Asher, upon which the Shulchan Arukh is based.",
+    "heShortDesc": "חיבור הלכתי מקיף מהמאה ה-14 שחובר על ידי יעקב בן אשר, עליו מבוסס השולחן ערוך.",
     "pubDate": "1475",
     "compDate": "1320",
     "compPlace": "",
@@ -184,8 +422,8 @@
         "Tur"
     ],
     "heTitleVariants": [
-        "טור",
-        "ארבעה טורים"
+        "ארבעה טורים",
+        "טור"
     ],
     "alts": {
         "Topic": {
@@ -206,6 +444,13 @@
                                 "Tur, Orach Chaim 7"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-upon-awakening-in-the-morning"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -252,6 +497,13 @@
                                 "Tur, Orach Chaim 24"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-tzitzit"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -303,6 +555,13 @@
                                 "Tur, Orach Chaim 46"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-tefillin"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -343,6 +602,13 @@
                                 "Tur, Orach Chaim 57"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-morning-blessings"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -403,6 +669,13 @@
                                 "Tur, Orach Chaim 88"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-reciting-shema"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -471,6 +744,13 @@
                                 "Tur, Orach Chaim 127"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-prayer"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -508,6 +788,13 @@
                                 "Tur, Orach Chaim 135"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-the-priestly-blessing"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -551,6 +838,13 @@
                                 "Tur, Orach Chaim 149"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-reading-the-torah"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -587,6 +881,13 @@
                                 "Tur, Orach Chaim 156"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-the-synagogue"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -625,6 +926,13 @@
                                 "Tur, Orach Chaim 165"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-washing-ones-hands-for-a-meal"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -690,6 +998,13 @@
                                 "Tur, Orach Chaim 201"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-the-meal"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -732,6 +1047,13 @@
                                 "Tur, Orach Chaim 214"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-blessings-on-fruit"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -788,6 +1110,13 @@
                                 "Tur, Orach Chaim 241"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-other-blessings"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -920,6 +1249,13 @@
                                 "Tur, Orach Chaim 344"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-shabbat"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1000,6 +1336,13 @@
                                 "Tur, Orach Chaim 395"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-eruvin"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1041,6 +1384,13 @@
                                 "Tur, Orach Chaim 407"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-techumin"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1079,6 +1429,13 @@
                                 "Tur, Orach Chaim 416"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-eruv-techumin"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1120,6 +1477,13 @@
                                 "Tur, Orach Chaim 428"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-rosh-chodesh"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1215,6 +1579,13 @@
                                 "Tur, Orach Chaim 494"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-passover"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1279,6 +1650,13 @@
                                 "Tur, Orach Chaim 529"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-the-festivals"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1327,6 +1705,13 @@
                                 "Tur, Orach Chaim 548"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-chol-hamoed"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1369,6 +1754,13 @@
                                 "Tur, Orach Chaim 561"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-the-ninth-of-av"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1417,6 +1809,13 @@
                                 "Tur, Orach Chaim 580"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-fast-days"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1469,6 +1868,13 @@
                                 "Tur, Orach Chaim 603"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-rosh-hashanah"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1519,6 +1925,13 @@
                                 "Tur, Orach Chaim 624"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-yom-kippur"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1568,6 +1981,13 @@
                                 "Tur, Orach Chaim 644"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-sukkot"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1622,6 +2042,13 @@
                                 "Tur, Orach Chaim 669"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-the-four-species"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1667,6 +2094,13 @@
                                 "Tur, Orach Chaim 685"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-chanukah"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1708,6 +2142,13 @@
                                 "Tur, Orach Chaim 697"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-purim"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1783,6 +2224,13 @@
                                 "Tur, Yoreh Deah 28"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "ritual-slaughter1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1844,6 +2292,13 @@
                                 "Tur, Yoreh Deah 60"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "unslaughterable-animals"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1874,6 +2329,13 @@
                                 "Tur, Yoreh Deah 61"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "priestly-gifts"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1904,6 +2366,13 @@
                                 "Tur, Yoreh Deah 62"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "a-limb-from-a-live-animal"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1934,6 +2403,13 @@
                                 "Tur, Yoreh Deah 63"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "meat-that-was-unobserved"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1964,6 +2440,13 @@
                                 "Tur, Yoreh Deah 64"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "prohibited-fats"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -1997,6 +2480,13 @@
                                 "Tur, Yoreh Deah 68"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "blood"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2036,6 +2526,13 @@
                                 "Tur, Yoreh Deah 78"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "salting"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2067,6 +2564,13 @@
                                 "Tur, Yoreh Deah 80"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "domesticated-and-undomesticated-animals"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2097,6 +2601,13 @@
                                 "Tur, Yoreh Deah 81"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "things-that-come-from-a-live-animal"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2127,6 +2638,13 @@
                                 "Tur, Yoreh Deah 82"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "birds"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2157,6 +2675,13 @@
                                 "Tur, Yoreh Deah 83"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "fish"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2188,6 +2713,13 @@
                                 "Tur, Yoreh Deah 85"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "insects"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2218,6 +2750,13 @@
                                 "Tur, Yoreh Deah 86"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "eggs"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2258,6 +2797,13 @@
                                 "Tur, Yoreh Deah 97"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "meat-with-milk"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2301,6 +2847,13 @@
                                 "Tur, Yoreh Deah 111"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "admixtures"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2338,6 +2891,13 @@
                                 "Tur, Yoreh Deah 119"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "food-of-idol-worshipers"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2369,6 +2929,13 @@
                                 "Tur, Yoreh Deah 121"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "the-koshering-of-implements"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2399,6 +2966,13 @@
                                 "Tur, Yoreh Deah 122"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "that-which-gives-detrimental-taste"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2440,6 +3014,13 @@
                                 "Tur, Yoreh Deah 134"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "libational-wine"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2473,6 +3054,13 @@
                                 "Tur, Yoreh Deah 138"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "wine-vessels"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2522,6 +3110,13 @@
                                 "Tur, Yoreh Deah 158"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "idolatry"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2570,6 +3165,13 @@
                                 "Tur, Yoreh Deah 177"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "interest"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2600,6 +3202,13 @@
                                 "Tur, Yoreh Deah 178"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "practices-of-idolaters"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2630,6 +3239,13 @@
                                 "Tur, Yoreh Deah 179"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "divination-and-magic"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2660,6 +3276,13 @@
                                 "Tur, Yoreh Deah 180"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "tattooing-and-the-making-of-bald-spots"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2690,6 +3313,13 @@
                                 "Tur, Yoreh Deah 181"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "shaving"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2720,6 +3350,13 @@
                                 "Tur, Yoreh Deah 182"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "a-man-shall-not-wear-a-womans-garment"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2767,6 +3404,13 @@
                                 "Tur, Yoreh Deah 200"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "the-menstruant"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2798,6 +3442,13 @@
                                 "Tur, Yoreh Deah 202"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "ritual-baths"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2860,6 +3511,13 @@
                                 "Tur, Yoreh Deah 235"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "vows1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2893,6 +3551,13 @@
                                 "Tur, Yoreh Deah 239"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "oaths1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2924,6 +3589,13 @@
                                 "Tur, Yoreh Deah 241"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "honoring-ones-father-and-mother"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2954,6 +3626,13 @@
                                 "Tur, Yoreh Deah 242"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "honoring-ones-rabbi-and-a-torah-scholar"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -2985,6 +3664,13 @@
                                 "Tur, Yoreh Deah 244"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "honoring-a-torah-scholar"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3015,6 +3701,13 @@
                                 "Tur, Yoreh Deah 245"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "teachers"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3045,6 +3738,13 @@
                                 "Tur, Yoreh Deah 246"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "torah-study1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3087,6 +3787,13 @@
                                 "Tur, Yoreh Deah 259"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "charity"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3123,6 +3830,13 @@
                                 "Tur, Yoreh Deah 266"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "circumcision1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3153,6 +3867,13 @@
                                 "Tur, Yoreh Deah 267"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "slaves1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3184,6 +3905,13 @@
                                 "Tur, Yoreh Deah 269"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "converts"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3228,6 +3956,13 @@
                                 "Tur, Yoreh Deah 284"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "a-torah-scroll"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3264,6 +3999,13 @@
                                 "Tur, Yoreh Deah 291"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "mezuzah"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3294,6 +4036,13 @@
                                 "Tur, Yoreh Deah 292"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "sending-away-the-mother-bird"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3324,6 +4073,13 @@
                                 "Tur, Yoreh Deah 293"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "new-grain"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3354,6 +4110,13 @@
                                 "Tur, Yoreh Deah 294"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "orlah1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3384,6 +4147,13 @@
                                 "Tur, Yoreh Deah 295"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "interspecies-mingling-of-trees"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3414,6 +4184,13 @@
                                 "Tur, Yoreh Deah 296"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "interspecies-mingling-of-the-vineyard"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3444,6 +4221,13 @@
                                 "Tur, Yoreh Deah 297"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "interspecies-mingling-of-vegetation"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3474,6 +4258,13 @@
                                 "Tur, Yoreh Deah 297"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "interspecies-mingling-of-animals"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3510,6 +4301,13 @@
                                 "Tur, Yoreh Deah 304"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "interspecies-mingling-of-clothing"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3540,6 +4338,13 @@
                                 "Tur, Yoreh Deah 305"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "redemption-of-the-firstborn"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3584,6 +4389,13 @@
                                 "Tur, Yoreh Deah 320"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "the-firstborn-of-a-kosher-animal"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3614,6 +4426,13 @@
                                 "Tur, Yoreh Deah 321"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "the-first-birth-of-a-donkey"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3652,6 +4471,13 @@
                                 "Tur, Yoreh Deah 330"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "challah1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3684,6 +4510,13 @@
                                 "Tur, Yoreh Deah 333"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "tithes1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3714,6 +4547,13 @@
                                 "Tur, Yoreh Deah 334"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "excommunication"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3748,6 +4588,13 @@
                                 "Tur, Yoreh Deah 339"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "visiting-the-sick"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3778,6 +4625,13 @@
                                 "Tur, Yoreh Deah 340"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "rending-ones-clothes"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3808,6 +4662,13 @@
                                 "Tur, Yoreh Deah 341"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "first-day-mourning"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3899,6 +4760,13 @@
                                 "Tur, Yoreh Deah 403"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "mourning1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -3952,6 +4820,13 @@
                                 "Tur, Even HaEzer 6"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-procreation"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4000,6 +4875,13 @@
                                 "Tur, Even HaEzer 25"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-marriage"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4069,6 +4951,13 @@
                                 "Tur, Even HaEzer 65"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-kiddushin"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4151,6 +5040,13 @@
                                 "Tur, Even HaEzer 118"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-ketubot"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4216,6 +5112,13 @@
                                 "Tur, Even HaEzer 154"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-gittin"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4246,6 +5149,13 @@
                                 "Tur, Even HaEzer 155"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-miun"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4288,6 +5198,13 @@
                                 "Tur, Even HaEzer 168"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-yibbum"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4327,6 +5244,13 @@
                                 "Tur, Even HaEzer 178"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "laws-of-chalitza"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4401,6 +5325,13 @@
                                 "Tur, Choshen Mishpat 27"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "jurisprudence"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4441,6 +5372,13 @@
                                 "Tur, Choshen Mishpat 38"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "testimony1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4506,6 +5444,13 @@
                                 "Tur, Choshen Mishpat 74"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "loans"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4567,6 +5512,13 @@
                                 "Tur, Choshen Mishpat 106"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "plaintiff-and-defendant1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4600,6 +5552,13 @@
                                 "Tur, Choshen Mishpat 110"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "estate-debt"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4635,6 +5594,13 @@
                                 "Tur, Choshen Mishpat 116"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "liens"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4668,6 +5634,13 @@
                                 "Tur, Choshen Mishpat 120"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "mortgage-loans"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4698,6 +5671,13 @@
                                 "Tur, Choshen Mishpat 121"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "debt-collection"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4734,6 +5714,13 @@
                                 "Tur, Choshen Mishpat 128"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "authorizations"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4787,6 +5774,13 @@
                                 "Tur, Choshen Mishpat 152"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "guarantors"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4820,6 +5814,13 @@
                                 "Tur, Choshen Mishpat 156"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "neighbor-disputes"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4863,6 +5864,13 @@
                                 "Tur, Choshen Mishpat 170"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "land-partnerships"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4896,6 +5904,13 @@
                                 "Tur, Choshen Mishpat 174"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "partnership-termination"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4926,6 +5941,13 @@
                                 "Tur, Choshen Mishpat 175"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "pre-emption-rights"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -4961,6 +5983,13 @@
                                 "Tur, Choshen Mishpat 181"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "partnerships"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5035,6 +6064,13 @@
                                 "Tur, Choshen Mishpat 226"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "agents"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5078,6 +6114,13 @@
                                 "Tur, Choshen Mishpat 240"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "onaah"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5116,6 +6159,13 @@
                                 "Tur, Choshen Mishpat 249"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "gifts"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5154,6 +6204,13 @@
                                 "Tur, Choshen Mishpat 258"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "deathbed-gifts"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5196,6 +6253,13 @@
                                 "Tur, Choshen Mishpat 271"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "lost-property"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5226,6 +6290,13 @@
                                 "Tur, Choshen Mishpat 272"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "loading-and-unloading"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5258,6 +6329,13 @@
                                 "Tur, Choshen Mishpat 275"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "ownerless-property"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5301,6 +6379,13 @@
                                 "Tur, Choshen Mishpat 289"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "inheritances1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5331,6 +6416,13 @@
                                 "Tur, Choshen Mishpat 290"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "executors"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5372,6 +6464,13 @@
                                 "Tur, Choshen Mishpat 302"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "deposit"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5404,6 +6503,13 @@
                                 "Tur, Choshen Mishpat 305"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "paid-bailee"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5434,6 +6540,13 @@
                                 "Tur, Choshen Mishpat 306"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "skilled-labor"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5476,6 +6589,13 @@
                                 "Tur, Choshen Mishpat 319"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "hiring1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5516,6 +6636,13 @@
                                 "Tur, Choshen Mishpat 330"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "leases-and-contracts"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5562,6 +6689,13 @@
                                 "Tur, Choshen Mishpat 347"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "employing-labor"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5602,6 +6736,13 @@
                                 "Tur, Choshen Mishpat 358"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "theft1"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5650,6 +6791,13 @@
                                 "Tur, Choshen Mishpat 377"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "robbery"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5689,6 +6837,13 @@
                                 "Tur, Choshen Mishpat 387"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "tort"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5719,6 +6874,13 @@
                                 "Tur, Choshen Mishpat 388"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "mesirah"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5779,6 +6941,13 @@
                                 "Tur, Choshen Mishpat 419"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "monetary-damages"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5815,6 +6984,13 @@
                                 "Tur, Choshen Mishpat 426"
                             ],
                             "includeSections": true,
+                            "match_templates": [
+                                {
+                                    "term_slugs": [
+                                        "personal-injury"
+                                    ]
+                                }
+                            ],
                             "titles": [
                                 {
                                     "primary": true,
@@ -5868,13 +7044,13 @@
                     "text": "Arba Turim"
                 },
                 {
-                    "primary": true,
-                    "lang": "he",
-                    "text": "טור"
-                },
-                {
                     "lang": "he",
                     "text": "ארבעה טורים"
+                },
+                {
+                    "text": "טור",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Tur",
@@ -5888,7 +7064,7 @@
     },
     "heCategories": [
         "הלכה",
-        "טור ומפרשיו"
+        "טור"
     ],
     "compDateString": {
         "en": " (c.1300  - c.1340 CE)",

@@ -2,9 +2,9 @@
     "title": "Kessef Mishneh on Mishneh Torah, Defilement by a Corpse",
     "categories": [
         "Halakhah",
+        "Mishneh Torah",
         "Commentary",
         "Kessef Mishneh",
-        "Mishneh Torah",
         "Sefer Taharah"
     ],
     "schema": {
@@ -20,6 +20,26 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kessef-mishneh",
+                    "hilchot",
+                    "defilement-by-a-corpse"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kessef-mishneh",
+                    "defilement-by-a-corpse"
+                ]
+            }
+        ],
+        "lengths": [
+            25,
+            232,
+            667
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -27,8 +47,8 @@
                 "primary": true
             },
             {
-                "lang": "en",
                 "text": "Kessef Mishneh on Mishneh Torah, Defilement by a Corpse",
+                "lang": "en",
                 "primary": true
             }
         ],
@@ -42,10 +62,14 @@
         "key": "Kessef Mishneh on Mishneh Torah, Defilement by a Corpse"
     },
     "authors": [
-        "Joseph Karo"
+        {
+            "en": "Joseph Karo",
+            "he": "יוסף קארו",
+            "slug": "joseph-karo"
+        }
     ],
-    "enDesc": "Kessef Mishneh is a commentary on Rambam’s Mishneh Torah, written by Joseph Karo, and published during his lifetime. In the introduction to this work, the author writes that his goal was to cite the source of each law, and to defend the Rambam from Raavad's arguments. ",
-    "heDesc": "כסף משנה הוא פירוש למשנה תורה של הרמב\"ם, שנכתב על ידי ר' יוסף קארו, ונדפס בחייו בוונציה, 1574-1575. בהקדמתו כותב המחבר שמטרות הספר הן לציין את מקורותיו של הרמב\"ם בכל הלכה, ולהשיב לראב\"ד ולרמ\"ך בהשגותיהם על רמב\"ם.",
+    "enDesc": "Kessef Mishneh is a commentary on Rambam’s Mishneh Torah, written by Joseph Karo, and published during his lifetime. In the introduction to this work, the author writes that his goal was to cite the source of each law, and to defend the Rambam from Raavad's arguments.",
+    "heDesc": "\"כסף משנה\" הוא פירוש למשנה תורה של הרמב\"ם, שנכתב על ידי ר' יוסף קארו, ונדפס בחייו בוונציה, 1574-1575. בהקדמתו כותב המחבר שמטרות הספר הן לציין את מקורותיו של הרמב\"ם בכל הלכה, ולהשיב לראב\"ד ולרמ\"ך בהשגותיהם על רמב\"ם.",
     "pubDate": "1574-1575",
     "compDate": "1560",
     "compPlace": "Nikopol",
@@ -59,7 +83,7 @@
             "he": "משנה תורה, הלכות טומאת מת"
         }
     ],
-    "base_text_mapping": null,
+    "base_text_mapping": "many_to_one",
     "collective_title": {
         "en": "Kessef Mishneh",
         "he": "כסף משנה"
@@ -79,9 +103,9 @@
     "depth": 3,
     "heCategories": [
         "הלכה",
+        "משנה תורה",
         "מפרשים",
         "כסף משנה",
-        "משנה תורה",
         "ספר טהרה"
     ],
     "compDateString": {
