@@ -2543,18 +2543,22 @@
                 ],
                 "titles": [
                     {
-                        "lang": "en",
-                        "text": "Blessings After Eating",
+                        "text": "ברכות הנהנין",
+                        "lang": "he",
                         "primary": true
                     },
                     {
-                        "lang": "he",
-                        "text": "ברכה אחרונה",
+                        "text": "Blessings After Eating",
+                        "lang": "en"
+                    },
+                    {
+                        "text": "Blessings",
+                        "lang": "en",
                         "primary": true
                     }
                 ],
-                "title": "Blessings After Eating",
-                "heTitle": "ברכה אחרונה",
+                "title": "Blessings",
+                "heTitle": "ברכות הנהנין",
                 "key": "Blessings After Eating"
             },
             {
@@ -2687,13 +2691,13 @@
                                 "primary": true
                             },
                             {
+                                "text": "תפילת עמידה",
                                 "lang": "he",
-                                "text": "תפילת שמונה עשרה",
                                 "primary": true
                             }
                         ],
                         "title": "Amidah",
-                        "heTitle": "תפילת שמונה עשרה",
+                        "heTitle": "תפילת עמידה",
                         "heSectionNames": [
                             "פסקה"
                         ],
@@ -2818,13 +2822,13 @@
                                 "primary": true
                             },
                             {
+                                "text": "תפילת עמידה",
                                 "lang": "he",
-                                "text": "תפילת שמונה עשרה",
                                 "primary": true
                             }
                         ],
                         "title": "Amidah",
-                        "heTitle": "תפילת שמונה עשרה",
+                        "heTitle": "תפילת עמידה",
                         "heSectionNames": [
                             "פסקה"
                         ],
@@ -3136,13 +3140,13 @@
                                 "primary": true
                             },
                             {
+                                "text": "תפילת עמידה",
                                 "lang": "he",
-                                "text": "תפילת שמונה עשרה",
                                 "primary": true
                             }
                         ],
                         "title": "Amidah",
-                        "heTitle": "תפילת שמונה עשרה",
+                        "heTitle": "תפילת עמידה",
                         "heSectionNames": [
                             "פסקה"
                         ],
@@ -3706,13 +3710,13 @@
                                 "primary": true
                             },
                             {
+                                "text": "תפילת עמידה",
                                 "lang": "he",
-                                "text": "תפילת שמונה עשרה",
                                 "primary": true
                             }
                         ],
                         "title": "Amidah",
-                        "heTitle": "תפילת שמונה עשרה",
+                        "heTitle": "תפילת עמידה",
                         "heSectionNames": [
                             "פסקה"
                         ],
@@ -3720,12 +3724,14 @@
                     },
                     {
                         "nodeType": "JaggedArrayNode",
-                        "depth": 1,
+                        "depth": 2,
                         "addressTypes": [
+                            "Integer",
                             "Integer"
                         ],
                         "sectionNames": [
-                            "Paragraph"
+                            "Chapter",
+                            "Mishnah"
                         ],
                         "titles": [
                             {
@@ -3742,7 +3748,8 @@
                         "title": "Pirkei Avot",
                         "heTitle": "פרקי אבות",
                         "heSectionNames": [
-                            "פסקה"
+                            "פרק",
+                            "משנה"
                         ],
                         "key": "Pirkei Avot"
                     }
@@ -4281,18 +4288,18 @@
                         ],
                         "titles": [
                             {
-                                "lang": "he",
-                                "text": "תפילת שמונה עשרה לשחרית, מנחה וערבית של ג' רגלים",
+                                "lang": "en",
+                                "text": "Maariv, Shacharit & Mincha Amidah",
                                 "primary": true
                             },
                             {
-                                "lang": "en",
-                                "text": "Maariv, Shacharit & Mincha Amidah",
+                                "text": "תפילת עמידה לשחרית, מנחה וערבית של ג' רגלים",
+                                "lang": "he",
                                 "primary": true
                             }
                         ],
                         "title": "Maariv, Shacharit & Mincha Amidah",
-                        "heTitle": "תפילת שמונה עשרה לשחרית, מנחה וערבית של ג' רגלים",
+                        "heTitle": "תפילת עמידה לשחרית, מנחה וערבית של ג' רגלים",
                         "heSectionNames": [
                             "פסקה"
                         ],
@@ -6577,8 +6584,11 @@
     "enDesc": "The prayer book according to the Sefard (Chassidic) rite.",
     "enShortDesc": "Prayer book reconciling Ashkenazi customs with kabbalistic teachings of the Arizal and incorporating elements of the Edot HaMizrach rite.",
     "heShortDesc": "נוסח תפילה שהתקבל בתנועת החסידות במזרח אירופה, המשלב בין נוסח אשכנז, תורות קבליות של האר״י ורכיבים מנוסח עדות המזרח.",
-    "compDate": "1760",
-    "errorMargin": "50",
+    "hasErrorMargin": true,
+    "compDate": [
+        1710,
+        1810
+    ],
     "era": "AH",
     "heTitle": "סידור ספרד",
     "titleVariants": [
@@ -6593,7 +6603,7 @@
         "סידור"
     ],
     "compDateString": {
-        "en": " (c.1710  - c.1810 CE)",
-        "he": " (1710 - 1810 לספירה בקירוב)"
+        "en": " (c.1710  – c.1810 CE)",
+        "he": " (1710 – 1810 לספירה בקירוב)"
     }
 }

@@ -1567,17 +1567,21 @@
                                         ],
                                         "titles": [
                                             {
-                                                "lang": "en",
-                                                "text": "Keduasha",
-                                                "primary": true
-                                            },
-                                            {
                                                 "lang": "he",
                                                 "text": "קדושה",
                                                 "primary": true
+                                            },
+                                            {
+                                                "text": "Keduasha",
+                                                "lang": "en"
+                                            },
+                                            {
+                                                "text": "Kedushah",
+                                                "lang": "en",
+                                                "primary": true
                                             }
                                         ],
-                                        "title": "Keduasha",
+                                        "title": "Kedushah",
                                         "heTitle": "קדושה",
                                         "heSectionNames": [
                                             "פסקה"
@@ -14630,9 +14634,12 @@
     "enDesc": "The prayer book according to the Ashkenazi rite.",
     "enShortDesc": "Prayer book commonly used in Ashkenazi communities, originating in Central and Western Europe.",
     "heShortDesc": "נוסח תפילה שמקורו במרכז אירופה ובמערבה.",
-    "compDate": "1080",
+    "hasErrorMargin": true,
+    "compDate": [
+        1055,
+        1105
+    ],
     "compPlace": "Middle-Age France",
-    "errorMargin": "25",
     "era": "RI",
     "heTitle": "סידור אשכנז",
     "titleVariants": [
@@ -14646,8 +14653,8 @@
         "סידור"
     ],
     "compDateString": {
-        "en": " (c.1055  - c.1105 CE)",
-        "he": " (1055 - 1105 לספירה בקירוב)"
+        "en": " (c.1055  – c.1105 CE)",
+        "he": " (1055 – 1105 לספירה בקירוב)"
     },
     "compPlaceString": {
         "en": "Middle-Age France",

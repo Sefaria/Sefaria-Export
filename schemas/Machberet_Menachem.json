@@ -1539,13 +1539,13 @@
         ],
         "titles": [
             {
-                "lang": "he",
-                "text": "מחברת מנחם",
-                "primary": true
-            },
-            {
                 "text": "Mahberet Menachem",
                 "lang": "en"
+            },
+            {
+                "text": "מחברת מנחם",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Machberet Menachem",
@@ -1564,15 +1564,20 @@
             "slug": "menahem-ben-saruq"
         }
     ],
-    "enDesc": "The first dictionary of Biblical vocabulary composed in Hebrew.",
+    "enDesc": "The first dictionary of Biblical Hebrew, composed in Hebrew.",
     "heDesc": "מילון ללשון המקרא שנכתב בידי מנחם בן יעקב אבן סרוק.",
     "enShortDesc": "First Hebrew dictionary of biblical vocabulary, composed in the 10th century and quoted extensively by Rashi.",
     "heShortDesc": "המילון העברי הראשון המכיל אוצר מילים מקראי. חובר במאה ה-10 ומצוטט באופן נרחב בפירוש רש\"י.",
-    "pubDate": "1854",
-    "compDate": "955",
+    "pubDate": [
+        1854
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        950,
+        960
+    ],
     "compPlace": "Cordoba, Spain",
     "pubPlace": "London",
-    "errorMargin": "5",
     "era": "GN",
     "heTitle": "מחברת מנחם",
     "titleVariants": [
@@ -1587,11 +1592,19 @@
         "דקדוק"
     ],
     "compDateString": {
-        "en": " (c.950  - c.960 CE)",
-        "he": " (950 - 960 לספירה בקירוב)"
+        "en": " (c.950  – c.960 CE)",
+        "he": " (950 – 960 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1854 CE)",
+        "he": " (1854 לספירה)"
     },
     "compPlaceString": {
         "en": "Cordoba, Spain",
         "he": "קורדובה, ספרד"
+    },
+    "pubPlaceString": {
+        "en": "London",
+        "he": "לונדון"
     }
 }

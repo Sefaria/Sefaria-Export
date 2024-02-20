@@ -448,37 +448,37 @@
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Dikduk Eliyyah"
+                "text": "Dikduk Eliyyah",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Sepher Habachur"
+                "text": "Sepher Habachur",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "HaBachur"
+                "text": "HaBachur",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Dikduk Eliyahu"
+                "text": "Dikduk Eliyahu",
+                "lang": "en"
             },
             {
-                "lang": "en",
-                "text": "Sefer ha-Bahur"
-            },
-            {
-                "lang": "he",
-                "text": "ספר הבחור",
-                "primary": true
-            },
-            {
-                "lang": "he",
-                "text": "דקדוק אליהו"
+                "text": "Sefer ha-Bahur",
+                "lang": "en"
             },
             {
                 "text": "Sefer haBachur",
                 "lang": "en"
+            },
+            {
+                "text": "ספר הבחור",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "דקדוק אליהו",
+                "lang": "he"
             },
             {
                 "text": "Sefer HaBachur",
@@ -490,15 +490,27 @@
         "heTitle": "ספר הבחור",
         "key": "Sefer HaBachur"
     },
-    "authors": [],
-    "enDesc": "A book explaining the principles of Hebrew grammar, which was translated into Latin by one of the great Christian Hebraists of the time under Bachur's supervision.",
+    "authors": [
+        {
+            "en": "Elias Levita",
+            "he": "אליהו בחור",
+            "slug": "elias-levita"
+        }
+    ],
+    "enDesc": "A book explaining the principles of Hebrew grammar, later translated into Latin by one of the great Christian Hebraists of the time under the author's supervision.",
+    "heDesc": "",
     "enShortDesc": "16th-century work of four essays on the principles of Hebrew grammar, instrumental in spreading knowledge of Hebrew.",
     "heShortDesc": "ארבעה מאמרים מן המאה ה-16 העוסקים בעקרונות הדקדוק העברי, ששימשו להפצת השפה העברית.",
-    "pubDate": "1518",
-    "compDate": "1515",
+    "pubDate": [
+        1518
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        1512,
+        1518
+    ],
     "compPlace": "Rome",
     "pubPlace": "Rome",
-    "errorMargin": "3",
     "era": "RI",
     "heTitle": "ספר הבחור",
     "titleVariants": [
@@ -519,10 +531,18 @@
         "דקדוק"
     ],
     "compDateString": {
-        "en": " (c.1512  - c.1518 CE)",
-        "he": " (1512 - 1518 לספירה בקירוב)"
+        "en": " (c.1512  – c.1518 CE)",
+        "he": " (1512 – 1518 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1518 CE)",
+        "he": " (1518 לספירה)"
     },
     "compPlaceString": {
+        "en": "Rome",
+        "he": "רומא"
+    },
+    "pubPlaceString": {
         "en": "Rome",
         "he": "רומא"
     }

@@ -8,63 +8,63 @@
     "schema": {
         "nodes": [
             {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "Letter to R Joseph son of Judah",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "איגרת",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Letter to R Joseph son of Judah",
+                "heTitle": "איגרת",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Letter to R Joseph son of Judah"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "Prefatory Remarks",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "פתיחת הרמב\"ם",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Prefatory Remarks",
+                "heTitle": "פתיחת הרמב\"ם",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Prefatory Remarks"
+            },
+            {
                 "nodes": [
-                    {
-                        "nodeType": "JaggedArrayNode",
-                        "depth": 1,
-                        "addressTypes": [
-                            "Integer"
-                        ],
-                        "sectionNames": [
-                            "Paragraph"
-                        ],
-                        "titles": [
-                            {
-                                "text": "Letter to R Joseph son of Judah",
-                                "lang": "en",
-                                "primary": true
-                            },
-                            {
-                                "text": "איגרת",
-                                "lang": "he",
-                                "primary": true
-                            }
-                        ],
-                        "title": "Letter to R Joseph son of Judah",
-                        "heTitle": "איגרת",
-                        "heSectionNames": [
-                            "פסקה"
-                        ],
-                        "key": "Letter to R Joseph son of Judah"
-                    },
-                    {
-                        "nodeType": "JaggedArrayNode",
-                        "depth": 1,
-                        "addressTypes": [
-                            "Integer"
-                        ],
-                        "sectionNames": [
-                            "Paragraph"
-                        ],
-                        "titles": [
-                            {
-                                "text": "Prefatory Remarks",
-                                "lang": "en",
-                                "primary": true
-                            },
-                            {
-                                "text": "פתיחת הרמב\"ם",
-                                "lang": "he",
-                                "primary": true
-                            }
-                        ],
-                        "title": "Prefatory Remarks",
-                        "heTitle": "פתיחת הרמב\"ם",
-                        "heSectionNames": [
-                            "פסקה"
-                        ],
-                        "key": "Prefatory Remarks"
-                    },
                     {
                         "nodeType": "JaggedArrayNode",
                         "depth": 1,
@@ -92,39 +92,27 @@
                             "פסקה"
                         ],
                         "key": "Introduction"
-                    }
-                ],
-                "sharedTitle": "Introduction",
-                "titles": [
-                    {
-                        "lang": "en",
-                        "text": "Introduction",
-                        "primary": true
                     },
                     {
-                        "lang": "he",
-                        "text": "הקדמה",
-                        "primary": true
-                    },
-                    {
-                        "lang": "he",
-                        "text": "מבוא"
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
+                        "addressTypes": [
+                            "Integer",
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Chapter",
+                            "Paragraph"
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "פרק",
+                            "פסקה"
+                        ],
+                        "key": "default"
                     }
-                ],
-                "title": "Introduction",
-                "heTitle": "הקדמה",
-                "key": "Introduction"
-            },
-            {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Paragraph"
                 ],
                 "titles": [
                     {
@@ -140,50 +128,58 @@
                 ],
                 "title": "Part 1",
                 "heTitle": "חלק א",
-                "heSectionNames": [
-                    "פרק",
-                    "פסקה"
-                ],
                 "key": "Part 1"
             },
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 1,
-                "addressTypes": [
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Paragraph"
-                ],
-                "titles": [
+                "nodes": [
                     {
-                        "text": "Part 2 Introduction",
-                        "lang": "en",
-                        "primary": true
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "titles": [
+                            {
+                                "text": "Introduction",
+                                "lang": "en",
+                                "primary": true
+                            },
+                            {
+                                "text": "הקדמה",
+                                "lang": "he",
+                                "primary": true
+                            }
+                        ],
+                        "title": "Introduction",
+                        "heTitle": "הקדמה",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Part 2 Introduction"
                     },
                     {
-                        "text": "חלק ב' הקדמה",
-                        "lang": "he",
-                        "primary": true
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
+                        "addressTypes": [
+                            "Integer",
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Chapter",
+                            "Paragraph"
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "פרק",
+                            "פסקה"
+                        ],
+                        "key": "default"
                     }
-                ],
-                "title": "Part 2 Introduction",
-                "heTitle": "חלק ב' הקדמה",
-                "heSectionNames": [
-                    "פסקה"
-                ],
-                "key": "Part 2 Introduction"
-            },
-            {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Paragraph"
                 ],
                 "titles": [
                     {
@@ -199,50 +195,58 @@
                 ],
                 "title": "Part 2",
                 "heTitle": "חלק ב",
-                "heSectionNames": [
-                    "פרק",
-                    "פסקה"
-                ],
                 "key": "Part 2"
             },
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 1,
-                "addressTypes": [
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Paragraph"
-                ],
-                "titles": [
+                "nodes": [
                     {
-                        "text": "Part 3 Introduction",
-                        "lang": "en",
-                        "primary": true
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "titles": [
+                            {
+                                "text": "Introduction",
+                                "lang": "en",
+                                "primary": true
+                            },
+                            {
+                                "text": "הקדמה",
+                                "lang": "he",
+                                "primary": true
+                            }
+                        ],
+                        "title": "Introduction",
+                        "heTitle": "הקדמה",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Part 3 Introduction"
                     },
                     {
-                        "text": "חלק ג' הקדמה",
-                        "lang": "he",
-                        "primary": true
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
+                        "addressTypes": [
+                            "Integer",
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Chapter",
+                            "Paragraph"
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "פרק",
+                            "פסקה"
+                        ],
+                        "key": "default"
                     }
-                ],
-                "title": "Part 3 Introduction",
-                "heTitle": "חלק ג' הקדמה",
-                "heSectionNames": [
-                    "פסקה"
-                ],
-                "key": "Part 3 Introduction"
-            },
-            {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Paragraph"
                 ],
                 "titles": [
                     {
@@ -258,10 +262,6 @@
                 ],
                 "title": "Part 3",
                 "heTitle": "חלק ג",
-                "heSectionNames": [
-                    "פרק",
-                    "פסקה"
-                ],
                 "key": "Part 3"
             }
         ],
@@ -281,6 +281,28 @@
         "heTitle": "קרשקש על מורה נבוכים",
         "key": "Crescas on Guide for the Perplexed"
     },
+    "authors": [
+        {
+            "en": "Asher ben Abraham Crescas",
+            "he": "אשר בן אברהם קרשקש",
+            "slug": "asher-ben-abraham-crescas"
+        }
+    ],
+    "enDesc": "Asher ben Abraham Crescas prefaced his commentary to Maimonides’ Guide for the Perplexed with his concern that many people were eager to study the Guide but were not prepared for the depths of its wisdom and might be led to confusion or even heresy by it. He decided to write a brief, basic commentary that would not reach the depths of Maimonides’ intent, but that he saw as necessary for young readers without the requisite philosophical background to approach the Guide even with existing commentaries.",
+    "heDesc": "אשר בן אברהם קרשקש פותח את פירושו למורה נבוכים בהבעת חששו שרבים הם הרוצים ללמוד את מורה נבוכים, אך אין להם את ההכנות הדרושות לקריאת הספר בצורה הנכונה. בעקבות כך, הוא כותב פירוש בסיסי ומקוצר זה לקוראים צעירים ללא רקע פילוסופי. הפירוש נכתב במאה ה-15 בפרובאנס שבצרפת.",
+    "enShortDesc": "15th-century commentary on Maimonides’ Guide for the Perplexed, geared toward beginners.",
+    "heShortDesc": "פירוש מהמאה ה-15 למורה נבוכים להרמב״ם שנכתב על ידי אשר בן אברהם קרשקש בפרובאנס שבצרפת.",
+    "pubDate": [
+        1553
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        1400,
+        1440
+    ],
+    "compPlace": "Provence, France",
+    "pubPlace": "Sabbioneta",
+    "era": "RI",
     "dependence": "commentary",
     "base_text_titles": [
         {
@@ -303,5 +325,17 @@
         "מחשבת ישראל",
         "מורה נבוכים",
         "מפרשים"
-    ]
+    ],
+    "compDateString": {
+        "en": " (c.1400  – c.1440 CE)",
+        "he": " (1400 – 1440 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1553 CE)",
+        "he": " (1553 לספירה)"
+    },
+    "compPlaceString": {
+        "en": "Provence, France",
+        "he": "פרובנס, צרפת"
+    }
 }

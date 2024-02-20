@@ -5,17 +5,63 @@
         "Other Kabbalah Works"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 3,
-        "addressTypes": [
-            "Integer",
-            "Perek",
-            "Integer"
-        ],
-        "sectionNames": [
-            "Section",
-            "Chapter",
-            "Paragraph"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Integer",
+                    "Perek",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Section",
+                    "Chapter",
+                    "Paragraph"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "חלק",
+                    "פרק",
+                    "פסקה"
+                ],
+                "key": "default"
+            }
         ],
         "titles": [
             {
@@ -31,11 +77,6 @@
         ],
         "title": "Avodat HaKodesh (Gabbai)",
         "heTitle": "עבודת הקודש (גבאי)",
-        "heSectionNames": [
-            "חלק",
-            "פרק",
-            "פסקה"
-        ],
         "key": "Avodat HaKodesh (Gabbai)"
     },
     "authors": [
@@ -48,10 +89,15 @@
     "enDesc": "A work that seeks to systemize the kabbalistic system, precursing the work of Rabbi Moshe Cordovero and Rabbi Yitzchak Ashkenazi (ARI). In response to the philosophical arguments against kabbalah, he takes on the views of Maimonides and argues against them.",
     "enShortDesc": "16th-century work discussing God’s unity, the purpose of creation and humankind, and esoteric aspects of the Torah.",
     "heShortDesc": "חיבור מן המאה ה-16 העוסק באחדות האל, במשמעות הבריאה והאנושות ובסוגיות אזוטריות בתורה.",
-    "pubDate": "1567",
-    "compDate": "1527",
+    "pubDate": [
+        1567
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        1523,
+        1531
+    ],
     "pubPlace": "Venice",
-    "errorMargin": "4",
     "era": "AH",
     "heTitle": "עבודת הקודש (גבאי)",
     "titleVariants": [
@@ -60,18 +106,20 @@
     "heTitleVariants": [
         "עבודת הקודש (גבאי)"
     ],
-    "sectionNames": [
-        "Section",
-        "Chapter",
-        "Paragraph"
-    ],
-    "depth": 3,
     "heCategories": [
         "קבלה",
         "ספרי קבלה נוספים"
     ],
     "compDateString": {
-        "en": " (c.1523  - c.1531 CE)",
-        "he": " (1523 - 1531 לספירה בקירוב)"
+        "en": " (c.1523  – c.1531 CE)",
+        "he": " (1523 – 1531 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1567 CE)",
+        "he": " (1567 לספירה)"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

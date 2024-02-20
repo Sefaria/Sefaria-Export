@@ -4,7 +4,7 @@
         "Halakhah",
         "Shulchan Arukh",
         "Commentary",
-        "Pitchei Teshuva"
+        "Pitchei Teshuvah"
     ],
     "schema": {
         "nodes": [
@@ -159,11 +159,16 @@
     ],
     "enDesc": "Commentary on Shulchan Arukh, printed on the page in most editions, mainly containing references to responsa works.",
     "heDesc": "פירוש להשולחן ערוך המהווה בעיקר לקט ממאות ספרי שו\"ת בענינים הנידונים. הוא נכתב על שלושה מחלקי השולחן ערוך (יורה דעה, אבן העזר, וחושן משפט), ומאז הדפוס הראשון ועד ימינו מופיע חיבור זה על הדף כמעט בכל הדפוסים של השולחן ערוך.",
-    "pubDate": "1870",
-    "compDate": "1835",
+    "pubDate": [
+        1870
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        1815,
+        1855
+    ],
     "compPlace": "Utena",
     "pubPlace": "Vilna",
-    "errorMargin": "20",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -632,14 +637,22 @@
         "הלכה",
         "שולחן ערוך",
         "מפרשים",
-        "פתחי תשובה"
+        "פתחי תשובה "
     ],
     "compDateString": {
-        "en": " (c.1815  - c.1855 CE)",
-        "he": " (1815 - 1855 לספירה בקירוב)"
+        "en": " (c.1815  – c.1855 CE)",
+        "he": " (1815 – 1855 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1870 CE)",
+        "he": " (1870 לספירה)"
     },
     "compPlaceString": {
         "en": "Utena",
         "he": "אוטנה / אוטיאן"
+    },
+    "pubPlaceString": {
+        "en": "Vilna",
+        "he": "וילנה"
     }
 }
