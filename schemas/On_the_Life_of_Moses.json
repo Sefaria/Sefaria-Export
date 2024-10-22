@@ -5,23 +5,180 @@
         "Philo"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 3,
-        "addressTypes": [
-            "Integer",
-            "Perek",
-            "Integer"
-        ],
-        "sectionNames": [
-            "Book",
-            "Chapter",
-            "Paragraph"
+        "nodes": [
+            {
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "sharedTitle": "Introduction",
+                        "titles": [
+                            {
+                                "lang": "en",
+                                "text": "Introduction",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "הקדמה",
+                                "primary": true
+                            },
+                            {
+                                "lang": "he",
+                                "text": "מבוא"
+                            }
+                        ],
+                        "title": "Introduction",
+                        "heTitle": "הקדמה",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Introduction"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
+                        "addressTypes": [
+                            "Integer",
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Chapter",
+                            "Paragraph"
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "פרק",
+                            "פסקה"
+                        ],
+                        "key": "default"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "titles": [
+                            {
+                                "text": "Appendix",
+                                "lang": "en",
+                                "primary": true
+                            },
+                            {
+                                "text": "הערות",
+                                "lang": "he",
+                                "primary": true
+                            }
+                        ],
+                        "title": "Appendix",
+                        "heTitle": "הערות",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Appendix"
+                    }
+                ],
+                "titles": [
+                    {
+                        "text": "Book I",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "ספר א",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Book I",
+                "heTitle": "ספר א",
+                "key": "Book I"
+            },
+            {
+                "nodes": [
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
+                        "addressTypes": [
+                            "Integer",
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Chapter",
+                            "Paragraph"
+                        ],
+                        "default": true,
+                        "title": "",
+                        "heTitle": "",
+                        "heSectionNames": [
+                            "פרק",
+                            "פסקה"
+                        ],
+                        "key": "default"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 1,
+                        "addressTypes": [
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Paragraph"
+                        ],
+                        "titles": [
+                            {
+                                "text": "Appendix",
+                                "lang": "en",
+                                "primary": true
+                            },
+                            {
+                                "text": "הערות",
+                                "lang": "he",
+                                "primary": true
+                            }
+                        ],
+                        "title": "Appendix",
+                        "heTitle": "הערות",
+                        "heSectionNames": [
+                            "פסקה"
+                        ],
+                        "key": "Appendix"
+                    }
+                ],
+                "titles": [
+                    {
+                        "text": "Book II",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "ספר ב",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Book II",
+                "heTitle": "ספר ב",
+                "key": "Book II"
+            }
         ],
         "titles": [
             {
-                "primary": true,
                 "text": "על חיי משה",
-                "lang": "he"
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "On the Life of Moses",
@@ -31,11 +188,6 @@
         ],
         "title": "On the Life of Moses",
         "heTitle": "על חיי משה",
-        "heSectionNames": [
-            "ספר",
-            "פרק",
-            "פסקה"
-        ],
         "key": "On the Life of Moses"
     },
     "authors": [
@@ -45,13 +197,16 @@
             "slug": "philo-of-alexandria"
         }
     ],
-    "enDesc": "The Life of Moses is part of Philo’s Exposition of the Law, a series containing biographies of several biblical patriarchs and books analyzing biblical law. Composed in Greek in the 1st century CE, the Life of Moses presents an interpretive biography of the biblical Moses, beginning from his childhood. It describes Moses as the paradigmatic leader who served as king, lawgiver, high priest, and prophet. As Philo explains in his opening paragraph, his aim in highlighting Moses’ character is to demonstrate the glory of the laws Moses gave.",
-    "enShortDesc": "Interpretive biography of Moses, describing him as king, lawgiver, high priest, and prophet.",
-    "heShortDesc": "ביוגרפיה פרשנית על חיי משה המתארת אותו כמלך, מחוקק, כהן גדול ונביא.",
-    "compDate": "20",
-    "compPlace": "Alexandria",
-    "errorMargin": "25",
-    "era": "T",
+    "enDesc": "",
+    "heDesc": "",
+    "enShortDesc": "",
+    "heShortDesc": "",
+    "compDate": [
+        -100,
+        0
+    ],
+    "compPlace": "",
+    "era": null,
     "heTitle": "על חיי משה",
     "titleVariants": [
         "On the Life of Moses"
@@ -59,22 +214,12 @@
     "heTitleVariants": [
         "על חיי משה"
     ],
-    "sectionNames": [
-        "Book",
-        "Chapter",
-        "Paragraph"
-    ],
-    "depth": 3,
     "heCategories": [
         "בית שני",
         "פילון"
     ],
     "compDateString": {
-        "en": " (c.5 BCE  - c.45 CE)",
-        "he": " (5 לפנה\"ס  - 45 לספירה בקירוב)"
-    },
-    "compPlaceString": {
-        "en": "Alexandria",
-        "he": "אלכסנדריה"
+        "en": " (100  – 0 BCE)",
+        "he": " (100 – 0 לפנה\"ס)"
     }
 }

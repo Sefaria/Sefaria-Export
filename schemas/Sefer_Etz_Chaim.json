@@ -5,17 +5,61 @@
         "Arizal and Chaim Vital"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 3,
-        "addressTypes": [
-            "Integer",
-            "Integer",
-            "Integer"
-        ],
-        "sectionNames": [
-            "Gate",
-            "Chapter",
-            "Paragraph"
+        "nodes": [
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 2,
+                "addressTypes": [
+                    "Integer",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Paragraph"
+                ],
+                "titles": [
+                    {
+                        "text": "Shaar HaKlalim",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "שער הכללים",
+                        "lang": "he",
+                        "primary": true
+                    }
+                ],
+                "title": "Shaar HaKlalim",
+                "heTitle": "שער הכללים",
+                "heSectionNames": [
+                    "פרק",
+                    "פסקה"
+                ],
+                "key": "Shaar HaKlalim"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Integer",
+                    "Integer",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Gate",
+                    "Chapter",
+                    "Paragraph"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "שער",
+                    "פרק",
+                    "פסקה"
+                ],
+                "key": "default"
+            }
         ],
         "titles": [
             {
@@ -47,26 +91,26 @@
         ],
         "title": "Sefer Etz Chaim",
         "heTitle": "עץ חיים",
-        "heSectionNames": [
-            "שער",
-            "פרק",
-            "פסקה"
-        ],
         "key": "Sefer Etz Chaim"
     },
     "authors": [
         {
-            "en": "Hayyim Vital",
+            "en": "Chaim Vital",
             "he": "חיים ויטל",
-            "slug": "hayyim-vital"
+            "slug": "chaim-vital"
         }
     ],
-    "enDesc": "Ez Hayyim (Tree of Life) is a collection of the teachings of Rabbi Yitzchak Luria by his disciple Hayyim Vital. It is the primary interpretation and synthesis of Lurianic Kabbalah. It consists of the primary introduction to the remainder of the Lurianic system. The Shemona She'arim was arranged by Shemuel Vital, the son of Hayyim Vital. Ez Hayyim is the only work published within Hayyim Vital's lifetime, the rest of his writings were buried with him in an unedited form. Supposedly Shemuel Vital had a dream that he was to exhume his father's grave and remove certain writings leaving the others buried. Shemuel Vital went on then to redact and publish the works as the Eight Gates which are then, at times subdivided into other works. Sephardi Kabbalists endeavour to study all eight gates. Ez Hayyim is published standard in a single volume three part arrangement, the initial two parts published by Hayyim Vital, with a third part, Nahar Shalom by Rabbi Shalom Sharabi, being now considered the third part.",
+    "enDesc": "Etz Chaim (Tree of Life) is a collection of the teachings of Rabbi Yitzchak Luria (Arizal) as recorded by his disciple, Rabbi Chaim Vital. It is the primary introduction, interpretation, and synthesis of Lurianic Kabbalah. The Shemonah She'arim (Eight Gates) was arranged by Rabbi Shmuel Vital, the son of Chaim Vital. Etz Chaim is the only work published within Chaim Vital's lifetime. The rest of his writings were buried with him in an unedited form, until Shmuel Vital supposedly had a dream that he was to exhume his father's grave and remove certain writings, leaving the others buried. Shmuel Vital went on to redact and publish the works as the Eight Gates, which were then, at times, subdivided into other works. Sephardic kabbalists endeavour to study all eight gates. Etz Chaim is typically published in a single-volume, three-part arrangement: the initial two parts published by Chaim Vital, with a third part, Nahar Shalom, by Rabbi Shalom Sharabi, now considered the third part.",
     "enShortDesc": "Foundational anthology of Lurianic Kabbalah presenting its theology and its theory of the world’s creation.",
     "heShortDesc": "אנתולוגיה יסודית של הקבלה הלוריאנית, המציגה את היסודות התאולוגיים שלה ואת התאוריה של בריאת העולם.",
-    "pubDate": "1782",
-    "compDate": "1580",
-    "errorMargin": "10",
+    "pubDate": [
+        1782
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        1570,
+        1590
+    ],
     "era": "AH",
     "heTitle": "עץ חיים",
     "titleVariants": [
@@ -79,18 +123,16 @@
         "ספר עץ חיים",
         "ספר ע\"ח"
     ],
-    "sectionNames": [
-        "Gate",
-        "Chapter",
-        "Paragraph"
-    ],
-    "depth": 3,
     "heCategories": [
         "קבלה",
         "כתבי האר\"י וחיים ויטאל"
     ],
     "compDateString": {
-        "en": " (c.1570  - c.1590 CE)",
-        "he": " (1570 - 1590 לספירה בקירוב)"
+        "en": " (c.1570  – c.1590 CE)",
+        "he": " (1570 – 1590 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1782 CE)",
+        "he": " (1782 לספירה)"
     }
 }

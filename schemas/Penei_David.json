@@ -200,6 +200,114 @@
                             "Integer"
                         ],
                         "sectionNames": [
+                            "Chapter",
+                            "Verse"
+                        ],
+                        "sharedTitle": "Toldot",
+                        "titles": [
+                            {
+                                "primary": true,
+                                "text": "Toldot",
+                                "lang": "en"
+                            },
+                            {
+                                "primary": true,
+                                "text": "תולדות",
+                                "lang": "he"
+                            },
+                            {
+                                "text": "Parashat Toldot",
+                                "lang": "en"
+                            },
+                            {
+                                "text": "פרשת תולדות",
+                                "lang": "he"
+                            },
+                            {
+                                "text": "Parashat Toledot",
+                                "lang": "en"
+                            },
+                            {
+                                "text": "Parshat Toledot",
+                                "lang": "en"
+                            },
+                            {
+                                "text": "Toldos",
+                                "lang": "en"
+                            }
+                        ],
+                        "title": "Toldot",
+                        "heTitle": "תולדות",
+                        "heSectionNames": [
+                            "פרק",
+                            "פסוק"
+                        ],
+                        "key": "Toldot"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
+                        "addressTypes": [
+                            "Integer",
+                            "Integer"
+                        ],
+                        "sectionNames": [
+                            "Chapter",
+                            "Verse"
+                        ],
+                        "sharedTitle": "Vayetzei",
+                        "titles": [
+                            {
+                                "primary": true,
+                                "text": "Vayetzei",
+                                "lang": "en"
+                            },
+                            {
+                                "primary": true,
+                                "text": "ויצא",
+                                "lang": "he"
+                            },
+                            {
+                                "text": "Parashat Vayetzei",
+                                "lang": "en"
+                            },
+                            {
+                                "text": "פרשת ויצא",
+                                "lang": "he"
+                            },
+                            {
+                                "text": "Parashat Vayeitzey",
+                                "lang": "en"
+                            },
+                            {
+                                "text": "Vayetze",
+                                "lang": "en"
+                            },
+                            {
+                                "text": "Parashat Vayetze",
+                                "lang": "en"
+                            },
+                            {
+                                "text": "Parashat Vayetzey",
+                                "lang": "en"
+                            }
+                        ],
+                        "title": "Vayetzei",
+                        "heTitle": "ויצא",
+                        "heSectionNames": [
+                            "פרק",
+                            "פסוק"
+                        ],
+                        "key": "Vayetzei"
+                    },
+                    {
+                        "nodeType": "JaggedArrayNode",
+                        "depth": 2,
+                        "addressTypes": [
+                            "Integer",
+                            "Integer"
+                        ],
+                        "sectionNames": [
                             "Comment",
                             "Paragraph"
                         ],
@@ -1615,17 +1723,22 @@
     },
     "authors": [
         {
-            "en": "Hayyim Joseph David Azulay",
+            "en": "Hayyim Joseph David Azulai",
             "he": "חיים דוד אזולאי",
-            "slug": "hayyim-joseph-david-azulay"
+            "slug": "hayyim-joseph-david-azulai"
         }
     ],
     "enDesc": "Commentary on Torah by Chida.",
     "heDesc": "פירושים והערות על התורה כסדר הפרשיות מהחיד\"א.",
-    "pubDate": "1792",
-    "compDate": "1780",
+    "pubDate": [
+        1792
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        1768,
+        1792
+    ],
     "pubPlace": "Livorno, Italy",
-    "errorMargin": "12",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -1669,7 +1782,15 @@
         "חיד״א"
     ],
     "compDateString": {
-        "en": " (c.1768  - c.1792 CE)",
-        "he": " (1768 - 1792 לספירה בקירוב)"
+        "en": " (c.1768  – c.1792 CE)",
+        "he": " (1768 – 1792 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1792 CE)",
+        "he": " (1792 לספירה)"
+    },
+    "pubPlaceString": {
+        "en": "Livorno, Italy",
+        "he": "ליבורנו, איטליה"
     }
 }
