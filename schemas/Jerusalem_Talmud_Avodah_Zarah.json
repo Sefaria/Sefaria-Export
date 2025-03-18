@@ -66,11 +66,6 @@
         ],
         "titles": [
             {
-                "text": "תלמוד ירושלמי עבודה זרה",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "Talmud Yerushalmi Avodah Zarah",
                 "lang": "en"
             },
@@ -89,6 +84,11 @@
             {
                 "text": "Y. Ab. Zar.",
                 "lang": "en"
+            },
+            {
+                "text": "תלמוד ירושלמי עבודה זרה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Jerusalem Talmud Avodah Zarah",
@@ -111,12 +111,18 @@
     "enDesc": "Tractate Avodah Zara (“Idolatry”) is a tractate in Seder Nezikin (“Order of Damages\") that discusses the prohibition of idolatry and regulations on interactions between Jews and idolaters. The first two chapters address economic relationships with idolaters and consumption of their food. The third and fourth chapters discuss laws related to forbidden idols and images and the process of their nullification, and the fifth and final chapter discusses the prohibition of deriving benefit from wine that was poured as libation for idol worship.",
     "enShortDesc": "Disassociating from idolatry, regulations on business interactions between Jews and idolaters.",
     "heShortDesc": "התרחקות מעבודת אלילים וכללים המסדירים את הקשר בין יהודים ועובדי אלילים.",
-    "pubDate": "1523",
-    "compDate": "400",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        375,
+        425
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "25",
     "era": "A",
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -129,8 +135,8 @@
         "Jerusalem Talmud Avodah Zarah"
     ],
     "heTitleVariants": [
-        "תלמוד ירושלמי עבודה זרה",
-        "ירושלמי עבודה זרה"
+        "ירושלמי עבודה זרה",
+        "תלמוד ירושלמי עבודה זרה"
     ],
     "alts": {
         "Venice": {
@@ -154,7 +160,34 @@
                         "Jerusalem Talmud Avodah Zarah 1:9:5-10:2"
                     ],
                     "startingAddress": "39a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-11"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-11"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -192,7 +225,34 @@
                         "Jerusalem Talmud Avodah Zarah 2:8:11-9:10"
                     ],
                     "startingAddress": "40b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-21"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-21"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -229,7 +289,34 @@
                         "Jerusalem Talmud Avodah Zarah 3:11:5-14:2"
                     ],
                     "startingAddress": "42a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-31"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-31"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -263,7 +350,34 @@
                         "Jerusalem Talmud Avodah Zarah 4:8:4-12:5"
                     ],
                     "startingAddress": "43c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-41"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-41"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -298,7 +412,45 @@
                         "Jerusalem Talmud Avodah Zarah 5:11:4-15:4"
                     ],
                     "startingAddress": "44b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-51"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-51"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -318,11 +470,6 @@
             ],
             "titles": [
                 {
-                    "text": "תלמוד ירושלמי עבודה זרה",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "Talmud Yerushalmi Avodah Zarah",
                     "lang": "en"
                 },
@@ -341,6 +488,11 @@
                 {
                     "text": "Y. Ab. Zar.",
                     "lang": "en"
+                },
+                {
+                    "text": "תלמוד ירושלמי עבודה זרה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Avodah Zarah",
@@ -382,7 +534,34 @@
                         "Jerusalem Talmud Avodah Zarah 1:10:2"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-11"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-11"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -432,7 +611,34 @@
                         "Jerusalem Talmud Avodah Zarah 2:9:9-10"
                     ],
                     "startingAddress": "8b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-21"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-21"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -477,7 +683,34 @@
                         "Jerusalem Talmud Avodah Zarah 3:13:1-14:2"
                     ],
                     "startingAddress": "18a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-31"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-31"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -520,7 +753,34 @@
                         "Jerusalem Talmud Avodah Zarah 4:12:1-5"
                     ],
                     "startingAddress": "25a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-41"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-41"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -564,7 +824,45 @@
                         "Jerusalem Talmud Avodah Zarah 5:15:1-4"
                     ],
                     "startingAddress": "31a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-51"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-51"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -584,11 +882,6 @@
             ],
             "titles": [
                 {
-                    "text": "תלמוד ירושלמי עבודה זרה",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "Talmud Yerushalmi Avodah Zarah",
                     "lang": "en"
                 },
@@ -607,6 +900,11 @@
                 {
                     "text": "Y. Ab. Zar.",
                     "lang": "en"
+                },
+                {
+                    "text": "תלמוד ירושלמי עבודה זרה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Avodah Zarah",
@@ -630,11 +928,19 @@
         "סדר נזיקין"
     ],
     "compDateString": {
-        "en": " (c.375  - c.425 CE)",
-        "he": " (375 - 425 לספירה בקירוב)"
+        "en": " (c.375  – c.425 CE)",
+        "he": " (375 – 425 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

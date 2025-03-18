@@ -66,6 +66,30 @@
         ],
         "titles": [
             {
+                "text": "ירושלמי שקלים",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' שקלים",
+                "lang": "he"
+            },
+            {
+                "text": "ירוש' שקלים",
+                "lang": "he"
+            },
+            {
+                "text": "בבלי שקלים",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי, שקלים",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי, שקלים",
+                "lang": "he"
+            },
+            {
                 "text": "תלמוד ירושלמי שקלים",
                 "lang": "he",
                 "primary": true
@@ -88,15 +112,23 @@
     "order": [
         16
     ],
+    "authors": [],
     "enDesc": "Sheqalim (Shekels) belongs to the second order, Moed (Festivals) and discusses the collection of the half-Shekel as well as the expenses and expenditure of the Temple. It has eight chapters.",
+    "heDesc": "",
     "enShortDesc": "Annual half-shekel donations to the Temple, administration and inventory of the Temple.",
     "heShortDesc": "תרומה של מחצית השקל הניתנת לבית המקדש בכל שנה וענייני ניהולו ותפעולו של בית המקדש.",
-    "pubDate": "1523",
-    "compDate": "400",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        375,
+        425
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "25",
     "era": "A",
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -105,6 +137,12 @@
         "Jerusalem Talmud Shekalim"
     ],
     "heTitleVariants": [
+        "ירושלמי שקלים",
+        "ירו' שקלים",
+        "ירוש' שקלים",
+        "בבלי שקלים",
+        "ירושלמי, שקלים",
+        "תלמוד ירושלמי, שקלים",
         "תלמוד ירושלמי שקלים"
     ],
     "alts": {
@@ -126,7 +164,34 @@
                         "Jerusalem Talmud Shekalim 1:3:4-4:8"
                     ],
                     "startingAddress": "45d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "באחד-באדר"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "באחד-באדר"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -160,7 +225,34 @@
                         "Jerusalem Talmud Shekalim 2:4:5-5:7"
                     ],
                     "startingAddress": "46b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "מצרפין-שקלים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "מצרפין-שקלים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -193,7 +285,34 @@
                         "Jerusalem Talmud Shekalim 3:2:5-3:5"
                     ],
                     "startingAddress": "47a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "בשלשה-פרקים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "בשלשה-פרקים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -228,7 +347,34 @@
                         "Jerusalem Talmud Shekalim 4:4:9-5:2"
                     ],
                     "startingAddress": "47c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "התרומה-מה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "התרומה-מה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -262,7 +408,34 @@
                         "Jerusalem Talmud Shekalim 5:4:2-11"
                     ],
                     "startingAddress": "48c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "אילו-הן"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "אילו-הן"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -297,7 +470,34 @@
                         "Jerusalem Talmud Shekalim 6:3:3-4:7"
                     ],
                     "startingAddress": "49b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "שלשה-עשר"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "שלשה-עשר"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -330,7 +530,34 @@
                         "Jerusalem Talmud Shekalim 7:2:12-3:12"
                     ],
                     "startingAddress": "50b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "מעות-שנמצאו"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "מעות-שנמצאו"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -363,7 +590,45 @@
                         "Jerusalem Talmud Shekalim 8:1:7-4:4"
                     ],
                     "startingAddress": "50d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "כל-הרוקין"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "כל-הרוקין"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -382,6 +647,30 @@
                 }
             ],
             "titles": [
+                {
+                    "text": "ירושלמי שקלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' שקלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' שקלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "בבלי שקלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, שקלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, שקלים",
+                    "lang": "he"
+                },
                 {
                     "text": "תלמוד ירושלמי שקלים",
                     "lang": "he",
@@ -425,7 +714,34 @@
                         "Jerusalem Talmud Shekalim 1:4:7-8"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "באחד-באדר"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "באחד-באדר"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -464,7 +780,34 @@
                         "Jerusalem Talmud Shekalim 2:5:6-7"
                     ],
                     "startingAddress": "7b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "מצרפין-שקלים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "מצרפין-שקלים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -501,7 +844,34 @@
                         "Jerusalem Talmud Shekalim 3:3:4-5"
                     ],
                     "startingAddress": "11b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "בשלשה-פרקים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "בשלשה-פרקים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -543,7 +913,34 @@
                         "Jerusalem Talmud Shekalim 4:4:10-5:2"
                     ],
                     "startingAddress": "15a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "התרומה-מה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "התרומה-מה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -580,7 +977,34 @@
                         "Jerusalem Talmud Shekalim 5:4:9-11"
                     ],
                     "startingAddress": "21a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "אילו-הן"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "אילו-הן"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -619,7 +1043,34 @@
                         "Jerusalem Talmud Shekalim 6:4:5-7"
                     ],
                     "startingAddress": "24a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "שלשה-עשר"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "שלשה-עשר"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -656,7 +1107,34 @@
                         "Jerusalem Talmud Shekalim 7:3:10-12"
                     ],
                     "startingAddress": "28b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "מעות-שנמצאו"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "מעות-שנמצאו"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -691,7 +1169,45 @@
                         "Jerusalem Talmud Shekalim 8:4:4"
                     ],
                     "startingAddress": "31b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "כל-הרוקין"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "כל-הרוקין"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -710,6 +1226,30 @@
                 }
             ],
             "titles": [
+                {
+                    "text": "ירושלמי שקלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' שקלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' שקלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "בבלי שקלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, שקלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, שקלים",
+                    "lang": "he"
+                },
                 {
                     "text": "תלמוד ירושלמי שקלים",
                     "lang": "he",
@@ -781,6 +1321,30 @@
             "startingAddress": "2a",
             "titles": [
                 {
+                    "text": "ירושלמי שקלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' שקלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' שקלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "בבלי שקלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, שקלים",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, שקלים",
+                    "lang": "he"
+                },
+                {
                     "text": "תלמוד ירושלמי שקלים",
                     "lang": "he",
                     "primary": true
@@ -808,11 +1372,19 @@
         "סדר מועד"
     ],
     "compDateString": {
-        "en": " (c.375  - c.425 CE)",
-        "he": " (375 - 425 לספירה בקירוב)"
+        "en": " (c.375  – c.425 CE)",
+        "he": " (375 – 425 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

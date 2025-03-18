@@ -192,9 +192,9 @@
         ],
         "titles": [
             {
-                "primary": true,
                 "text": "ספר התשב\"ץ",
-                "lang": "he"
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Sefer HaTashbetz",
@@ -213,15 +213,20 @@
             "slug": "shimon-ben-tzemach-duran"
         }
     ],
-    "enDesc": "Collection of over 900 responsa of the Rashbatz (Tashbetz is an acronym for \"Teshuvot Shimon ben Tzemach\"). In addition to Halacha, these correspondences cover many other facets of Judaism, including Aggadah, philosophy and astronomy.",
+    "enDesc": "Collection of over 900 responsa of the Rashbatz (Tashbetz is an acronym for \"Teshuvot Shimon ben Tzemach\"). In addition to halakhah, these correspondences cover many other facets of Judaism, including aggadah, philosophy, and astronomy.",
     "heDesc": "שו\"ת מהרשב\"ץ (תשב\"ץ = תשובות שמעון בן צמח).",
-    "enShortDesc": "15th-century responsa of the North African Rav Shimon ben Tzemach Duran, with a number of letters on math, history, and grammar.",
+    "enShortDesc": "15th-century responsa of the North African R. Shimon ben Tzemach Duran, including a number of letters on math, history, and grammar",
     "heShortDesc": "שאלות ותשובות מאת הרב שמעון בן צמח דוראן מצפון אפריקה, בן המאה ה-15, הכוללות גם מכתבים בתחומי המתמטיקה, ההיסטוריה והדקדוק.",
-    "pubDate": "1739",
-    "compDate": "1414",
+    "pubDate": [
+        1739
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        1384,
+        1444
+    ],
     "compPlace": "Algiers",
     "pubPlace": "Amsterdam",
-    "errorMargin": "30",
     "era": "RI",
     "heTitle": "ספר התשב\"ץ",
     "titleVariants": [
@@ -235,11 +240,19 @@
         "ראשונים"
     ],
     "compDateString": {
-        "en": " (c.1384  - c.1444 CE)",
-        "he": " (1384 - 1444 לספירה בקירוב)"
+        "en": " (c.1384  – c.1444 CE)",
+        "he": " (1384 – 1444 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1739 CE)",
+        "he": " (1739 לספירה)"
     },
     "compPlaceString": {
         "en": "Algiers",
         "he": "אלג'יר"
+    },
+    "pubPlaceString": {
+        "en": "Amsterdam",
+        "he": "אמסטרדם"
     }
 }

@@ -66,11 +66,6 @@
         ],
         "titles": [
             {
-                "text": "תלמוד ירושלמי בבא מציעא",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "Yerushalmi Bava Metsia",
                 "lang": "en"
             },
@@ -91,12 +86,93 @@
                 "lang": "en"
             },
             {
+                "text": "Jerusalem Talmud Bava Metsia",
+                "lang": "en"
+            },
+            {
                 "text": "ירושלמי בבא מציעא",
                 "lang": "he"
             },
             {
-                "text": "Jerusalem Talmud Bava Metsia",
-                "lang": "en"
+                "text": "ירושלמי, ב\"מ",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי, בבא מציעא",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי ב\"מ",
+                "lang": "he"
+            },
+            {
+                "text": "ירוש' ב\"מ",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' ב\"מ",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי, ב\"מ",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי, בבא מציעא",
+                "lang": "he"
+            },
+            {
+                "text": "ירוש' בבא מציעא",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' בבא מציעא",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי בבא מציעא",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "ירושלמי, ב״מ",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי, ב”מ",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי ב״מ",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי ב”מ",
+                "lang": "he"
+            },
+            {
+                "text": "ירוש' ב״מ",
+                "lang": "he"
+            },
+            {
+                "text": "ירוש' ב”מ",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' ב״מ",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' ב”מ",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי, ב״מ",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי, ב”מ",
+                "lang": "he"
             },
             {
                 "text": "Jerusalem Talmud Bava Metzia",
@@ -116,15 +192,23 @@
     "order": [
         32
     ],
+    "authors": [],
     "enDesc": "Bava Metzia (״The Middle Gate״) is the second of a series of three tractates in Seder Nezikin (“Order of Damages\") that deal with civil laws. It mainly focuses on interpersonal matters that are not connected to damages, such as disputed property, usury, returning lost objects, guarding, renting, borrowing, and responsibilities of workers and employers.",
+    "heDesc": "",
     "enShortDesc": "Disputed property, returning lost objects, guarding, renting, borrowing, and responsibilities of workers and employers.",
     "heShortDesc": "רכוש שיש עליו מחלוקת, השבת אבדה, דיני שמירה, שכירה ושאילה וחובותיהם של מעסיקים ושל עובדים.",
-    "pubDate": "1523",
-    "compDate": "400",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        375,
+        425
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "25",
     "era": "A",
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -139,8 +223,27 @@
         "Jerusalem Talmud Bava Metzia"
     ],
     "heTitleVariants": [
+        "ירושלמי בבא מציעא",
+        "ירושלמי, ב\"מ",
+        "ירושלמי, בבא מציעא",
+        "ירושלמי ב\"מ",
+        "ירוש' ב\"מ",
+        "ירו' ב\"מ",
+        "תלמוד ירושלמי, ב\"מ",
+        "תלמוד ירושלמי, בבא מציעא",
+        "ירוש' בבא מציעא",
+        "ירו' בבא מציעא",
         "תלמוד ירושלמי בבא מציעא",
-        "ירושלמי בבא מציעא"
+        "ירושלמי, ב״מ",
+        "ירושלמי, ב”מ",
+        "ירושלמי ב״מ",
+        "ירושלמי ב”מ",
+        "ירוש' ב״מ",
+        "ירוש' ב”מ",
+        "ירו' ב״מ",
+        "ירו' ב”מ",
+        "תלמוד ירושלמי, ב״מ",
+        "תלמוד ירושלמי, ב”מ"
     ],
     "alts": {
         "Venice": {
@@ -160,7 +263,34 @@
                         "Jerusalem Talmud Bava Metzia 1:4:3-8:4"
                     ],
                     "startingAddress": "7d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-14"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-14"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -194,7 +324,34 @@
                         "Jerusalem Talmud Bava Metzia 2:8:2-11:5"
                     ],
                     "startingAddress": "8a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-24"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-24"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -227,7 +384,34 @@
                         "Jerusalem Talmud Bava Metzia 3:4:2-9:3"
                     ],
                     "startingAddress": "8d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-34"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-34"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -260,7 +444,34 @@
                         "Jerusalem Talmud Bava Metzia 4:2:4-7:2"
                     ],
                     "startingAddress": "9b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-44"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-44"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -295,7 +506,34 @@
                         "Jerusalem Talmud Bava Metzia 5:7:2-8:2"
                     ],
                     "startingAddress": "9d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-54"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-54"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -327,7 +565,34 @@
                         "Jerusalem Talmud Bava Metzia 6:1:4-6:2"
                     ],
                     "startingAddress": "10d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-63"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-63"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -360,7 +625,34 @@
                         "Jerusalem Talmud Bava Metzia 7:5:2-7:3"
                     ],
                     "startingAddress": "11a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-73"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-73"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -392,7 +684,34 @@
                         "Jerusalem Talmud Bava Metzia 8:1:2-9:2"
                     ],
                     "startingAddress": "11c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-83"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-83"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -425,7 +744,34 @@
                         "Jerusalem Talmud Bava Metzia 9:10:2-13:3"
                     ],
                     "startingAddress": "11d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-93"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-93"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 9",
@@ -457,7 +803,45 @@
                         "Jerusalem Talmud Bava Metzia 10:1:2-6:3"
                     ],
                     "startingAddress": "12b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-102"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-102"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 10",
@@ -476,11 +860,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי בבא מציעא",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Yerushalmi Bava Metsia",
                     "lang": "en"
@@ -502,12 +881,93 @@
                     "lang": "en"
                 },
                 {
+                    "text": "Jerusalem Talmud Bava Metsia",
+                    "lang": "en"
+                },
+                {
                     "text": "ירושלמי בבא מציעא",
                     "lang": "he"
                 },
                 {
-                    "text": "Jerusalem Talmud Bava Metsia",
-                    "lang": "en"
+                    "text": "ירושלמי, ב\"מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, בבא מציעא",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי ב\"מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' ב\"מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' ב\"מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, ב\"מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, בבא מציעא",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' בבא מציעא",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' בבא מציעא",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי בבא מציעא",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "ירושלמי, ב״מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, ב”מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי ב״מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי ב”מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' ב״מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' ב”מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' ב״מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' ב”מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, ב״מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, ב”מ",
+                    "lang": "he"
                 },
                 {
                     "text": "Jerusalem Talmud Bava Metzia",
@@ -544,7 +1004,34 @@
                         "Jerusalem Talmud Bava Metzia 1:8:2-4"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-14"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-14"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -583,7 +1070,34 @@
                         "Jerusalem Talmud Bava Metzia 2:11:4-5"
                     ],
                     "startingAddress": "6a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-24"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-24"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -621,7 +1135,34 @@
                         "Jerusalem Talmud Bava Metzia 3:9:3"
                     ],
                     "startingAddress": "10a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-34"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-34"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -662,7 +1203,34 @@
                         "Jerusalem Talmud Bava Metzia 4:7:2"
                     ],
                     "startingAddress": "13b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-44"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-44"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -705,7 +1273,34 @@
                         "Jerusalem Talmud Bava Metzia 5:7:1-8:2"
                     ],
                     "startingAddress": "18b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-54"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-54"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -741,7 +1336,34 @@
                         "Jerusalem Talmud Bava Metzia 6:6:2"
                     ],
                     "startingAddress": "25a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-63"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-63"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -776,7 +1398,34 @@
                         "Jerusalem Talmud Bava Metzia 7:7:2-3"
                     ],
                     "startingAddress": "27b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-73"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-73"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -812,7 +1461,34 @@
                         "Jerusalem Talmud Bava Metzia 8:9:2"
                     ],
                     "startingAddress": "29b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-83"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-83"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -850,7 +1526,34 @@
                         "Jerusalem Talmud Bava Metzia 9:13:2-3"
                     ],
                     "startingAddress": "32a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-93"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-93"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 9",
@@ -884,7 +1587,45 @@
                         "Jerusalem Talmud Bava Metzia 10:5:2-6:3"
                     ],
                     "startingAddress": "35b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-102"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-102"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 10",
@@ -903,11 +1644,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי בבא מציעא",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Yerushalmi Bava Metsia",
                     "lang": "en"
@@ -929,12 +1665,93 @@
                     "lang": "en"
                 },
                 {
+                    "text": "Jerusalem Talmud Bava Metsia",
+                    "lang": "en"
+                },
+                {
                     "text": "ירושלמי בבא מציעא",
                     "lang": "he"
                 },
                 {
-                    "text": "Jerusalem Talmud Bava Metsia",
-                    "lang": "en"
+                    "text": "ירושלמי, ב\"מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, בבא מציעא",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי ב\"מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' ב\"מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' ב\"מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, ב\"מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, בבא מציעא",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' בבא מציעא",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' בבא מציעא",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי בבא מציעא",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "ירושלמי, ב״מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, ב”מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי ב״מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי ב”מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' ב״מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' ב”מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' ב״מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' ב”מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, ב״מ",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, ב”מ",
+                    "lang": "he"
                 },
                 {
                     "text": "Jerusalem Talmud Bava Metzia",
@@ -958,11 +1775,19 @@
         "סדר נזיקין"
     ],
     "compDateString": {
-        "en": " (c.375  - c.425 CE)",
-        "he": " (375 - 425 לספירה בקירוב)"
+        "en": " (c.375  – c.425 CE)",
+        "he": " (375 – 425 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

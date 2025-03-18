@@ -66,11 +66,6 @@
         ],
         "titles": [
             {
-                "text": "תלמוד ירושלמי מעשרות",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "Yerushalmi Ma'asrot",
                 "lang": "en"
             },
@@ -99,6 +94,11 @@
                 "lang": "en"
             },
             {
+                "text": "תלמוד ירושלמי מעשרות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Jerusalem Talmud Maasrot",
                 "lang": "en",
                 "primary": true
@@ -119,12 +119,18 @@
     "enDesc": "Maasrot (“Tithes”) is a tractate in Seder Zeraim (“Order of Seeds”) that discusses tithes separated from agricultural produce and given to priests, Levites, the poor, or consumed in Jerusalem, depending on the circumstances. The tractate’s five chapters focus on the conditions that make produce liable to be tithed, like the types of crops that are included and point at which produce cannot be consumed without tithing. Maasrot also discusses conditions under which one can assume produce was tithed.",
     "enShortDesc": "Separating tithes for priests, Levites, the poor, and for consumption in Jerusalem.",
     "heShortDesc": "הפרשת מעשרות מגידולי הקרקע לכהנים, ללווים ולעניים וכן לשם אכילתם בטהרה בירושלים.",
-    "pubDate": "1523",
-    "compDate": "400",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        375,
+        425
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "25",
     "era": "A",
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -139,8 +145,8 @@
         "Jerusalem Talmud Maasrot"
     ],
     "heTitleVariants": [
-        "תלמוד ירושלמי מעשרות",
-        "ירושלמי מעשרות"
+        "ירושלמי מעשרות",
+        "תלמוד ירושלמי מעשרות"
     ],
     "alts": {
         "Venice": {
@@ -162,7 +168,34 @@
                         "Jerusalem Talmud Maasrot 1:4:8-5:6"
                     ],
                     "startingAddress": "48c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "כלל-אמרו"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "כלל-אמרו"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -197,7 +230,34 @@
                         "Jerusalem Talmud Maasrot 2:4:14"
                     ],
                     "startingAddress": "49b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "היה-עובר"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "היה-עובר"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -231,7 +291,34 @@
                         "Jerusalem Talmud Maasrot 3:4:8-14"
                     ],
                     "startingAddress": "50b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "המעביר-תאנים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "המעביר-תאנים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -264,7 +351,34 @@
                         "Jerusalem Talmud Maasrot 4:4:4-8"
                     ],
                     "startingAddress": "51a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "הכובש-השולק"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "הכובש-השולק"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -297,7 +411,45 @@
                         "Jerusalem Talmud Maasrot 5:3:2-12"
                     ],
                     "startingAddress": "51c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "העוקר-שתלים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "העוקר-שתלים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -316,11 +468,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי מעשרות",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Yerushalmi Ma'asrot",
                     "lang": "en"
@@ -348,6 +495,11 @@
                 {
                     "text": "Jerusalem Talmud Ma'asrot",
                     "lang": "en"
+                },
+                {
+                    "text": "תלמוד ירושלמי מעשרות",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Maasrot",
@@ -385,7 +537,34 @@
                         "Jerusalem Talmud Maasrot 1:5:3-6"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "כלל-אמרו"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "כלל-אמרו"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -426,7 +605,34 @@
                         "Jerusalem Talmud Maasrot 2:4:10-14"
                     ],
                     "startingAddress": "7a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "היה-עובר"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "היה-עובר"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -468,7 +674,34 @@
                         "Jerusalem Talmud Maasrot 3:4:10-14"
                     ],
                     "startingAddress": "12b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "המעביר-תאנים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "המעביר-תאנים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -503,7 +736,34 @@
                         "Jerusalem Talmud Maasrot 4:4:4-8"
                     ],
                     "startingAddress": "18b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "הכובש-השולק"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "הכובש-השולק"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -545,7 +805,45 @@
                         "Jerusalem Talmud Maasrot 5:3:11-12"
                     ],
                     "startingAddress": "21a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "העוקר-שתלים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "העוקר-שתלים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -564,11 +862,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי מעשרות",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Yerushalmi Ma'asrot",
                     "lang": "en"
@@ -598,6 +891,11 @@
                     "lang": "en"
                 },
                 {
+                    "text": "תלמוד ירושלמי מעשרות",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
                     "text": "Jerusalem Talmud Maasrot",
                     "lang": "en",
                     "primary": true
@@ -619,11 +917,19 @@
         "סדר זרעים"
     ],
     "compDateString": {
-        "en": " (c.375  - c.425 CE)",
-        "he": " (375 - 425 לספירה בקירוב)"
+        "en": " (c.375  – c.425 CE)",
+        "he": " (375 – 425 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

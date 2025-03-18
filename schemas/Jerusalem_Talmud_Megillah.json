@@ -66,11 +66,6 @@
         ],
         "titles": [
             {
-                "text": "תלמוד ירושלמי מגילה",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "Talmud Yerushalmi Megillah",
                 "lang": "en"
             },
@@ -89,6 +84,11 @@
             {
                 "text": "Y. Meg.",
                 "lang": "en"
+            },
+            {
+                "text": "תלמוד ירושלמי מגילה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Jerusalem Talmud Megillah",
@@ -111,12 +111,18 @@
     "enDesc": "Tractate Megillah (“Scroll”) is located in Seder Moed (“the Order of Festivals”). The first two chapters discuss the laws of reading the scroll of Esther on the holiday of Purim and include interpretations of and elaborations upon the scroll’s story. The remaining two chapters discuss laws of public reading of the Torah and Prophets, public prayer, and treatment and selling of sacred objects and synagogues.",
     "enShortDesc": "Reading the scroll of Esther on Purim, synagogue rituals, and treatment of sacred objects.",
     "heShortDesc": "קריאת מגילת אסתר בפורים, קריאת התורה וההפטרות בבית הכנסת ודיני קדושת בית הכנסת ותשמישי קדושה.",
-    "pubDate": "1523",
-    "compDate": "400",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        375,
+        425
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "25",
     "era": "A",
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -129,8 +135,8 @@
         "Jerusalem Talmud Megillah"
     ],
     "heTitleVariants": [
-        "תלמוד ירושלמי מגילה",
-        "ירושלמי מגילה"
+        "ירושלמי מגילה",
+        "תלמוד ירושלמי מגילה"
     ],
     "alts": {
         "Venice": {
@@ -161,7 +167,34 @@
                         "Jerusalem Talmud Megillah 1:12:4-8"
                     ],
                     "startingAddress": "69d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-119"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-119"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -195,7 +228,34 @@
                         "Jerusalem Talmud Megillah 2:5:7-7:5"
                     ],
                     "startingAddress": "72d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-217"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-217"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -230,7 +290,34 @@
                         "Jerusalem Talmud Megillah 3:7:4-6"
                     ],
                     "startingAddress": "73c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-317"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-317"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -266,7 +353,45 @@
                         "Jerusalem Talmud Megillah 4:12:6"
                     ],
                     "startingAddress": "74c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-414"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-414"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -286,11 +411,6 @@
             ],
             "titles": [
                 {
-                    "text": "תלמוד ירושלמי מגילה",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "Talmud Yerushalmi Megillah",
                     "lang": "en"
                 },
@@ -309,6 +429,11 @@
                 {
                     "text": "Y. Meg.",
                     "lang": "en"
+                },
+                {
+                    "text": "תלמוד ירושלמי מגילה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Megillah",
@@ -369,7 +494,34 @@
                         "Jerusalem Talmud Megillah 1:12:8-9"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-119"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-119"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -409,7 +561,34 @@
                         "Jerusalem Talmud Megillah 2:7:5"
                     ],
                     "startingAddress": "18a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-217"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-217"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -450,7 +629,34 @@
                         "Jerusalem Talmud Megillah 3:7:6"
                     ],
                     "startingAddress": "22b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-317"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-317"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -494,7 +700,45 @@
                         "Jerusalem Talmud Megillah 4:12:3-6"
                     ],
                     "startingAddress": "27b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-414"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-414"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -514,11 +758,6 @@
             ],
             "titles": [
                 {
-                    "text": "תלמוד ירושלמי מגילה",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "Talmud Yerushalmi Megillah",
                     "lang": "en"
                 },
@@ -537,6 +776,11 @@
                 {
                     "text": "Y. Meg.",
                     "lang": "en"
+                },
+                {
+                    "text": "תלמוד ירושלמי מגילה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Megillah",
@@ -560,11 +804,19 @@
         "סדר מועד"
     ],
     "compDateString": {
-        "en": " (c.375  - c.425 CE)",
-        "he": " (375 - 425 לספירה בקירוב)"
+        "en": " (c.375  – c.425 CE)",
+        "he": " (375 – 425 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

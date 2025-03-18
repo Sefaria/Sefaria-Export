@@ -66,11 +66,6 @@
         ],
         "titles": [
             {
-                "text": "תלמוד ירושלמי חגיגה",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "Yerushalmi Hagigah",
                 "lang": "en"
             },
@@ -99,6 +94,11 @@
                 "lang": "en"
             },
             {
+                "text": "תלמוד ירושלמי חגיגה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Jerusalem Talmud Chagigah",
                 "lang": "en",
                 "primary": true
@@ -119,12 +119,18 @@
     "enDesc": "Tractate Chagigah (“Festival Offering”) is located in Seder Moed (“the Order of Festivals”) and primarily addresses the commandment to make a pilgrimage to the Temple on the holidays of Passover, Shavuot, and Sukkot. The first two chapters focus on the sacrifices offered then and the ritual purity required of those who visit the Temple. The third chapter addresses the differences between consuming sacrifices and consuming terumot, required donations of agricultural produce to priestly households.",
     "enShortDesc": "Sacrifices offered on pilgrimage to Jerusalem for the Festivals and laws of ritual purity.",
     "heShortDesc": "קורבנות המוקרבים בעת העלייה לרגל לירושלים בשלושת הרגלים (פסח, שבועות וסוכות) ודיני טהרה.",
-    "pubDate": "1523",
-    "compDate": "400",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        375,
+        425
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "25",
     "era": "A",
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -139,8 +145,8 @@
         "Jerusalem Talmud Chagigah"
     ],
     "heTitleVariants": [
-        "תלמוד ירושלמי חגיגה",
-        "ירושלמי חגיגה"
+        "ירושלמי חגיגה",
+        "תלמוד ירושלמי חגיגה"
     ],
     "alts": {
         "Venice": {
@@ -163,7 +169,34 @@
                         "Jerusalem Talmud Chagigah 1:8:5-14"
                     ],
                     "startingAddress": "75d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-18"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-18"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -201,7 +234,34 @@
                         "Jerusalem Talmud Chagigah 2:6:3-7:3"
                     ],
                     "startingAddress": "76d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-28"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-28"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -237,7 +297,45 @@
                         "Jerusalem Talmud Chagigah 3:6:2-8:5"
                     ],
                     "startingAddress": "78c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-38"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-38"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -256,11 +354,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי חגיגה",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Yerushalmi Hagigah",
                     "lang": "en"
@@ -288,6 +381,11 @@
                 {
                     "text": "Y. Ḥag.",
                     "lang": "en"
+                },
+                {
+                    "text": "תלמוד ירושלמי חגיגה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Chagigah",
@@ -328,7 +426,34 @@
                         "Jerusalem Talmud Chagigah 1:8:14"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-18"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-18"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -372,7 +497,34 @@
                         "Jerusalem Talmud Chagigah 2:7:3"
                     ],
                     "startingAddress": "8a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-28"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-28"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -418,7 +570,45 @@
                         "Jerusalem Talmud Chagigah 3:8:4-5"
                     ],
                     "startingAddress": "15a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-38"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-38"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -437,11 +627,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי חגיגה",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Yerushalmi Hagigah",
                     "lang": "en"
@@ -471,6 +656,11 @@
                     "lang": "en"
                 },
                 {
+                    "text": "תלמוד ירושלמי חגיגה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
                     "text": "Jerusalem Talmud Chagigah",
                     "lang": "en",
                     "primary": true
@@ -492,11 +682,19 @@
         "סדר מועד"
     ],
     "compDateString": {
-        "en": " (c.375  - c.425 CE)",
-        "he": " (375 - 425 לספירה בקירוב)"
+        "en": " (c.375  – c.425 CE)",
+        "he": " (375 – 425 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

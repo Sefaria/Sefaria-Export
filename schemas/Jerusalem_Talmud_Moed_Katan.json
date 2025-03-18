@@ -66,11 +66,6 @@
         ],
         "titles": [
             {
-                "text": "תלמוד ירושלמי מועד קטן",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "Talmud Yerushalmi Moed Katan",
                 "lang": "en"
             },
@@ -107,6 +102,11 @@
                 "lang": "en"
             },
             {
+                "text": "תלמוד ירושלמי מועד קטן",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Jerusalem Talmud Moed Katan",
                 "lang": "en",
                 "primary": true
@@ -127,12 +127,18 @@
     "enDesc": "Tractate Moed Katan (“Minor Holiday”) is located in Seder Moed (“the Order of Festivals”). The tractate’s first two chapters discuss the laws of Chol Hamoed, or the intermediate days of Passover and Sukkot, with a focus on permitted and prohibited work on these days. The last chapter discusses laws of mourning, ex-communication, leprosy and stories about the deaths of different talmudic sages.",
     "enShortDesc": "Chol HaMoed (the intermediate days of Passover and Sukkot), mourning and ex-communication.",
     "heShortDesc": "חול המועד (הימים בסוכות ובפסח שאינם ימים טובים), אבלות ונידוי.",
-    "pubDate": "1523",
-    "compDate": "400",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        375,
+        425
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "25",
     "era": "A",
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -149,8 +155,8 @@
         "Jerusalem Talmud Moed Katan"
     ],
     "heTitleVariants": [
-        "תלמוד ירושלמי מועד קטן",
-        "ירושלמי מועד קטן"
+        "ירושלמי מועד קטן",
+        "תלמוד ירושלמי מועד קטן"
     ],
     "alts": {
         "Venice": {
@@ -173,7 +179,34 @@
                         "Jerusalem Talmud Moed Katan 1:9:2-10:5"
                     ],
                     "startingAddress": "80a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-125"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-125"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -205,7 +238,34 @@
                         "Jerusalem Talmud Moed Katan 2:2:2-5:3"
                     ],
                     "startingAddress": "81a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-220"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-220"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -246,7 +306,45 @@
                         "Jerusalem Talmud Moed Katan 3:7:19-9:3"
                     ],
                     "startingAddress": "81b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-320"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-320"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -265,11 +363,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי מועד קטן",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Talmud Yerushalmi Moed Katan",
                     "lang": "en"
@@ -305,6 +398,11 @@
                 {
                     "text": "Jerusalem Talmud Moed Kattan",
                     "lang": "en"
+                },
+                {
+                    "text": "תלמוד ירושלמי מועד קטן",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Moed Katan",
@@ -343,7 +441,34 @@
                         "Jerusalem Talmud Moed Katan 1:9:2-10:5"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-125"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-125"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -378,7 +503,34 @@
                         "Jerusalem Talmud Moed Katan 2:4:3-5:3"
                     ],
                     "startingAddress": "7b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-220"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-220"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -428,7 +580,45 @@
                         "Jerusalem Talmud Moed Katan 3:9:2-3"
                     ],
                     "startingAddress": "10a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-320"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-320"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -447,11 +637,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי מועד קטן",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Talmud Yerushalmi Moed Katan",
                     "lang": "en"
@@ -489,6 +674,11 @@
                     "lang": "en"
                 },
                 {
+                    "text": "תלמוד ירושלמי מועד קטן",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
                     "text": "Jerusalem Talmud Moed Katan",
                     "lang": "en",
                     "primary": true
@@ -510,11 +700,19 @@
         "סדר מועד"
     ],
     "compDateString": {
-        "en": " (c.375  - c.425 CE)",
-        "he": " (375 - 425 לספירה בקירוב)"
+        "en": " (c.375  – c.425 CE)",
+        "he": " (375 – 425 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

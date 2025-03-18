@@ -10,7 +10,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Mishnah",
             "Integer"
         ],
@@ -18,6 +18,26 @@
             "Chapter",
             "Mishnah",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosafot-rabbi-akiva-eiger1",
+                    "makhshirin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-rabbi-akiva-eiger1",
+                    "mishnah",
+                    "makhshirin"
+                ]
+            }
+        ],
+        "lengths": [
+            6,
+            2,
+            3
         ],
         "titles": [
             {
@@ -48,10 +68,16 @@
         }
     ],
     "enDesc": "An analytical commentary almost exclusively discussing the commentaries of Rabbi Ovadia MiBartenura and Rabbi Yom Tov Lipmann Heller (Tosafot Yom Tov) on the Mishnah.",
-    "pubDate": "1830-1853",
-    "compDate": "1810",
+    "pubDate": [
+        1830,
+        1853
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        1785,
+        1835
+    ],
     "pubPlace": "Altona",
-    "errorMargin": "25",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -79,6 +105,13 @@
                     "nodeType": "ArrayMapNode",
                     "depth": 0,
                     "wholeRef": "Tosafot Rabbi Akiva Eiger on Mishnah Makhshirin 2:8:1",
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "letter-1"
+                            ]
+                        }
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -98,6 +131,13 @@
                     "nodeType": "ArrayMapNode",
                     "depth": 0,
                     "wholeRef": "Tosafot Rabbi Akiva Eiger on Mishnah Makhshirin 2:9:1",
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "letter-2"
+                            ]
+                        }
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -117,6 +157,13 @@
                     "nodeType": "ArrayMapNode",
                     "depth": 0,
                     "wholeRef": "Tosafot Rabbi Akiva Eiger on Mishnah Makhshirin 6:8:1",
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "letter-4"
+                            ]
+                        }
+                    ],
                     "titles": [
                         {
                             "primary": true,
@@ -162,7 +209,15 @@
         "סדר טהרות"
     ],
     "compDateString": {
-        "en": " (c.1785  - c.1835 CE)",
-        "he": " (1785 - 1835 לספירה בקירוב)"
+        "en": " (c.1785  – c.1835 CE)",
+        "he": " (1785 – 1835 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1830  – 1853 CE)",
+        "he": " (1830 – 1853 לספירה)"
+    },
+    "pubPlaceString": {
+        "en": "Altona",
+        "he": "אלטונה"
     }
 }

@@ -1,7 +1,8 @@
 {
     "title": "Ketubah Text",
     "categories": [
-        "Liturgy"
+        "Liturgy",
+        "Other Liturgy Works"
     ],
     "schema": {
         "nodeType": "JaggedArrayNode",
@@ -14,13 +15,17 @@
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "Marriage Ceremony"
+                "text": "Marriage Ceremony",
+                "lang": "en"
             },
             {
+                "text": "נוסח הכתובה",
                 "lang": "he",
-                "text": "טקסט הכתובה",
                 "primary": true
+            },
+            {
+                "text": "טקסט הכתובה",
+                "lang": "he"
             },
             {
                 "text": "Ketubah Text",
@@ -29,7 +34,7 @@
             }
         ],
         "title": "Ketubah Text",
-        "heTitle": "טקסט הכתובה",
+        "heTitle": "נוסח הכתובה",
         "heSectionNames": [
             ""
         ],
@@ -37,18 +42,23 @@
     },
     "authors": [],
     "enDesc": "The Ketubah is the contract that is a central component of a Jewish wedding. The Ketubah outlines the rights and responsibilities that the groom has vis-a-vis the bride. Sefaria hosts several versions of the Ketubah text.",
+    "heDesc": "",
     "enShortDesc": "Versions of the Jewish marriage contract outlining the responsibilities of spouses, with text originating in the 1st century BCE.",
     "heShortDesc": "גרסאות של חוזה הנישואים הכולל את החובות ההדדיות של בני הזוג. במקורה נוסחה הכתובה במאה הראשונה לפנה\"ס.",
-    "compDate": "100",
+    "hasErrorMargin": true,
+    "compDate": [
+        -100,
+        300
+    ],
     "compPlace": "Jerusalem",
-    "errorMargin": "200",
     "era": "T",
-    "heTitle": "טקסט הכתובה",
+    "heTitle": "נוסח הכתובה",
     "titleVariants": [
         "Marriage Ceremony",
         "Ketubah Text"
     ],
     "heTitleVariants": [
+        "נוסח הכתובה",
         "טקסט הכתובה"
     ],
     "sectionNames": [
@@ -56,11 +66,12 @@
     ],
     "depth": 1,
     "heCategories": [
-        "סדר התפילה"
+        "סדר התפילה",
+        "חיבורים נוספים"
     ],
     "compDateString": {
-        "en": " (c.100 BCE  - c.300 CE)",
-        "he": " (100 לפנה\"ס  - 300 לספירה בקירוב)"
+        "en": " (c.100 BCE  – c.300 CE)",
+        "he": " (100 לפנה\"ס  – 300 לספירה בקירוב)"
     },
     "compPlaceString": {
         "en": "Jerusalem",

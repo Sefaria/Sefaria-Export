@@ -66,11 +66,6 @@
         ],
         "titles": [
             {
-                "text": "תלמוד ירושלמי כתובות",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "Yerushalmi Ketubot",
                 "lang": "en"
             },
@@ -103,6 +98,11 @@
                 "lang": "en"
             },
             {
+                "text": "תלמוד ירושלמי כתובות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Jerusalem Talmud Ketubot",
                 "lang": "en",
                 "primary": true
@@ -123,12 +123,18 @@
     "enDesc": "Ketubot is the second tractate in Seder Nashim (“Order of Women,” which addresses family law). Its thirteen chapters primarily discuss the ketubah (marriage contract) and obligations between a husband and wife during marriage and after the dissolution of marriage. The tractate also addresses topics such as giving testimony, vows, and slander.",
     "enShortDesc": "The marital contract (Ketubah) and obligations between husband and wife.",
     "heShortDesc": "שטר הכתובה, חובות הבעל לאשתו וחובות האישה לבעלה.",
-    "pubDate": "1523",
-    "compDate": "400",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        375,
+        425
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "25",
     "era": "A",
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -144,8 +150,8 @@
         "Jerusalem Talmud Ketubot"
     ],
     "heTitleVariants": [
-        "תלמוד ירושלמי כתובות",
-        "ירושלמי כתובות"
+        "ירושלמי כתובות",
+        "תלמוד ירושלמי כתובות"
     ],
     "alts": {
         "Venice": {
@@ -169,7 +175,34 @@
                         "Jerusalem Talmud Ketubot 1:10:6"
                     ],
                     "startingAddress": "24d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-115"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-115"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -204,7 +237,34 @@
                         "Jerusalem Talmud Ketubot 2:10:8"
                     ],
                     "startingAddress": "26a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-214"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-214"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -239,7 +299,34 @@
                         "Jerusalem Talmud Ketubot 3:9:4-10:2"
                     ],
                     "startingAddress": "27a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-314"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-314"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -275,7 +362,34 @@
                         "Jerusalem Talmud Ketubot 4:11:3-14:3"
                     ],
                     "startingAddress": "28a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-412"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-412"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -311,7 +425,34 @@
                         "Jerusalem Talmud Ketubot 5:11:3"
                     ],
                     "startingAddress": "29b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-512"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-512"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -344,7 +485,34 @@
                         "Jerusalem Talmud Ketubot 6:7:3-4"
                     ],
                     "startingAddress": "30c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-610"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-610"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -378,7 +546,34 @@
                         "Jerusalem Talmud Ketubot 7:7:5-9:3"
                     ],
                     "startingAddress": "31a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-79"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-79"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -412,7 +607,34 @@
                         "Jerusalem Talmud Ketubot 8:11:4-5"
                     ],
                     "startingAddress": "31d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-89"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-89"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -447,7 +669,34 @@
                         "Jerusalem Talmud Ketubot 9:9:2-10:5"
                     ],
                     "startingAddress": "32c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-99"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-99"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 9",
@@ -480,7 +729,34 @@
                         "Jerusalem Talmud Ketubot 10:4:4-6:2"
                     ],
                     "startingAddress": "33c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-105"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-105"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 10",
@@ -514,7 +790,34 @@
                         "Jerusalem Talmud Ketubot 11:7:7-8"
                     ],
                     "startingAddress": "34a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-116"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eleventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-116"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eleventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 11,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 11",
@@ -548,7 +851,34 @@
                         "Jerusalem Talmud Ketubot 12:5:4"
                     ],
                     "startingAddress": "34d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-122"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "twelfth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-122"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "twelfth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 12,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 12",
@@ -582,7 +912,45 @@
                         "Jerusalem Talmud Ketubot 13:6:2-11:3"
                     ],
                     "startingAddress": "35c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-131"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "thirteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-131"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "thirteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 13,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 13",
@@ -601,11 +969,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי כתובות",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Yerushalmi Ketubot",
                     "lang": "en"
@@ -637,6 +1000,11 @@
                 {
                     "text": "Y. Keth.",
                     "lang": "en"
+                },
+                {
+                    "text": "תלמוד ירושלמי כתובות",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Ketubot",
@@ -678,7 +1046,34 @@
                         "Jerusalem Talmud Ketubot 1:10:4-6"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-115"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-115"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -721,7 +1116,34 @@
                         "Jerusalem Talmud Ketubot 2:10:3-8"
                     ],
                     "startingAddress": "9a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-214"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-214"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -767,7 +1189,34 @@
                         "Jerusalem Talmud Ketubot 3:10:2"
                     ],
                     "startingAddress": "15b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-314"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-314"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -814,7 +1263,34 @@
                         "Jerusalem Talmud Ketubot 4:12:2-14:3"
                     ],
                     "startingAddress": "23a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-412"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-412"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -859,7 +1335,34 @@
                         "Jerusalem Talmud Ketubot 5:10:1-11:3"
                     ],
                     "startingAddress": "31b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-512"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-512"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -898,7 +1401,34 @@
                         "Jerusalem Talmud Ketubot 6:7:4"
                     ],
                     "startingAddress": "38b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-610"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-610"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -937,7 +1467,34 @@
                         "Jerusalem Talmud Ketubot 7:8:2-9:3"
                     ],
                     "startingAddress": "43a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-79"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-79"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -975,7 +1532,34 @@
                         "Jerusalem Talmud Ketubot 8:11:5"
                     ],
                     "startingAddress": "47b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-89"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-89"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -1019,7 +1603,34 @@
                         "Jerusalem Talmud Ketubot 9:10:1-5"
                     ],
                     "startingAddress": "51a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-99"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-99"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 9",
@@ -1056,7 +1667,34 @@
                         "Jerusalem Talmud Ketubot 10:6:2"
                     ],
                     "startingAddress": "58a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-105"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-105"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 10",
@@ -1093,7 +1731,34 @@
                         "Jerusalem Talmud Ketubot 11:7:1-8"
                     ],
                     "startingAddress": "61a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-116"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eleventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-116"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eleventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 11,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 11",
@@ -1130,7 +1795,34 @@
                         "Jerusalem Talmud Ketubot 12:5:2-4"
                     ],
                     "startingAddress": "64b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-122"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "twelfth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-122"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "twelfth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 12,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 12",
@@ -1170,7 +1862,45 @@
                         "Jerusalem Talmud Ketubot 13:10:2-11:3"
                     ],
                     "startingAddress": "67b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-131"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "thirteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-131"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "thirteenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 13,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 13",
@@ -1189,11 +1919,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי כתובות",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Yerushalmi Ketubot",
                     "lang": "en"
@@ -1227,6 +1952,11 @@
                     "lang": "en"
                 },
                 {
+                    "text": "תלמוד ירושלמי כתובות",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
                     "text": "Jerusalem Talmud Ketubot",
                     "lang": "en",
                     "primary": true
@@ -1248,11 +1978,19 @@
         "סדר נשים"
     ],
     "compDateString": {
-        "en": " (c.375  - c.425 CE)",
-        "he": " (375 - 425 לספירה בקירוב)"
+        "en": " (c.375  – c.425 CE)",
+        "he": " (375 – 425 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

@@ -862,18 +862,18 @@
                 ],
                 "titles": [
                     {
-                        "primary": true,
-                        "text": "Talleithim For the Dead",
-                        "lang": "en"
+                        "text": "Fringes on Talleithim For the Dead",
+                        "lang": "en",
+                        "primary": true
                     },
                     {
-                        "primary": true,
-                        "text": "טליתות למתים",
-                        "lang": "he"
+                        "text": "ציציות על טליתות למתים",
+                        "lang": "he",
+                        "primary": true
                     }
                 ],
-                "title": "Talleithim For the Dead",
-                "heTitle": "טליתות למתים",
+                "title": "Fringes on Talleithim For the Dead",
+                "heTitle": "ציציות על טליתות למתים",
                 "heSectionNames": [
                     "פסקה"
                 ],
@@ -891,17 +891,17 @@
                 "titles": [
                     {
                         "primary": true,
-                        "text": "Use of the Tallith in Military Burial",
+                        "text": "Position of Tallith in Military Burial",
                         "lang": "en"
                     },
                     {
                         "primary": true,
-                        "text": "שימוש בטלית בקבורה צבאית",
+                        "text": "מיקום הטלית בקבורה צבאית",
                         "lang": "he"
                     }
                 ],
-                "title": "Use of the Tallith in Military Burial",
-                "heTitle": "שימוש בטלית בקבורה צבאית",
+                "title": "Position of Tallith in Military Burial",
+                "heTitle": "מיקום הטלית בקבורה צבאית",
                 "heSectionNames": [
                     "פסקה"
                 ],
@@ -1408,9 +1408,14 @@
     "enDesc": "Responsa written to US armed forces chaplains during World War II by the Committee of Army and Navy Religious Activities",
     "enShortDesc": "Responsa published by a central, interdenominational chaplaincy committee in the US army addressing questions that arose during World War II.",
     "heShortDesc": "ספר שאלות ותשובות שיצא לאור על ידי ועדה מרכזית תוך־דתית בצבא ארצות הברית, ובו מענה לשאלות הלכתיות שהתעוררו במהלך מלחמת העולם השנייה.",
-    "pubDate": "1947",
-    "compDate": "1945",
-    "errorMargin": "2",
+    "pubDate": [
+        1947
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        1943,
+        1947
+    ],
     "era": "CO",
     "heTitle": "תשובות בעת מלחמה (אנגלית)",
     "titleVariants": [
@@ -1425,7 +1430,11 @@
         "ספרות מודרנית"
     ],
     "compDateString": {
-        "en": " (c.1943  - c.1947 CE)",
-        "he": " (1943 - 1947 לספירה בקירוב)"
+        "en": " (c.1943  – c.1947 CE)",
+        "he": " (1943 – 1947 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1947 CE)",
+        "he": " (1947 לספירה)"
     }
 }

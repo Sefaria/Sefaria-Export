@@ -66,11 +66,6 @@
         ],
         "titles": [
             {
-                "text": "תלמוד ירושלמי שבועות",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "Talmud Yerushalmi Shevuot",
                 "lang": "en"
             },
@@ -103,6 +98,11 @@
                 "lang": "en"
             },
             {
+                "text": "תלמוד ירושלמי שבועות",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Jerusalem Talmud Shevuot",
                 "lang": "en",
                 "primary": true
@@ -123,12 +123,18 @@
     "enDesc": "Tractate Shevuot (“Oaths”) is a tractate in Seder Nezikin (“Order of Damages\"). Its first two chapters discuss the sacrifices brought to atone for entering the Temple or eating from a sacrifice while impure. The remaining six chapters discuss different types of oaths, like those taken by litigants in court or a false promise made by an individual.",
     "enShortDesc": "Oaths and the process of atoning for entering the Temple or eating from a sacrifice while impure.",
     "heShortDesc": "דיני הנכנס לבית המקדש או אוכל בשר קורבן בהיותו טמא, דיני שבועות.",
-    "pubDate": "1523",
-    "compDate": "400",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        375,
+        425
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "25",
     "era": "A",
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -144,8 +150,8 @@
         "Jerusalem Talmud Shevuot"
     ],
     "heTitleVariants": [
-        "תלמוד ירושלמי שבועות",
-        "ירושלמי שבועות"
+        "ירושלמי שבועות",
+        "תלמוד ירושלמי שבועות"
     ],
     "alts": {
         "Venice": {
@@ -168,7 +174,34 @@
                         "Jerusalem Talmud Shevuot 1:6:9-7:3"
                     ],
                     "startingAddress": "32c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-136"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-136"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -201,7 +234,34 @@
                         "Jerusalem Talmud Shevuot 2:2:3-5:2"
                     ],
                     "startingAddress": "33c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-229"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-229"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -236,7 +296,34 @@
                         "Jerusalem Talmud Shevuot 3:9:2-10:3"
                     ],
                     "startingAddress": "34a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-328"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-328"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -270,7 +357,34 @@
                         "Jerusalem Talmud Shevuot 4:4:2-10:5"
                     ],
                     "startingAddress": "35a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-424"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-424"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -304,7 +418,34 @@
                         "Jerusalem Talmud Shevuot 5:4:4-6:3"
                     ],
                     "startingAddress": "35d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-521"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-521"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -338,7 +479,34 @@
                         "Jerusalem Talmud Shevuot 6:5:3-8:4"
                     ],
                     "startingAddress": "36c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-619"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-619"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -372,7 +540,34 @@
                         "Jerusalem Talmud Shevuot 7:4:6-8:3"
                     ],
                     "startingAddress": "37b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-717"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-717"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -406,7 +601,45 @@
                         "Jerusalem Talmud Shevuot 8:2:2-4:2"
                     ],
                     "startingAddress": "38a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-817"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-817"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -425,11 +658,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי שבועות",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Talmud Yerushalmi Shevuot",
                     "lang": "en"
@@ -461,6 +689,11 @@
                 {
                     "text": "Y. Shebu.",
                     "lang": "en"
+                },
+                {
+                    "text": "תלמוד ירושלמי שבועות",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Shevuot",
@@ -501,7 +734,34 @@
                         "Jerusalem Talmud Shevuot 1:7:2-3"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-136"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-136"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -538,7 +798,34 @@
                         "Jerusalem Talmud Shevuot 2:5:1-2"
                     ],
                     "startingAddress": "8b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-229"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-229"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -584,7 +871,34 @@
                         "Jerusalem Talmud Shevuot 3:10:3"
                     ],
                     "startingAddress": "11b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-328"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-328"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -623,7 +937,34 @@
                         "Jerusalem Talmud Shevuot 4:10:5"
                     ],
                     "startingAddress": "19a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-424"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-424"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -663,7 +1004,34 @@
                         "Jerusalem Talmud Shevuot 5:6:1-3"
                     ],
                     "startingAddress": "23a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-521"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-521"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -705,7 +1073,34 @@
                         "Jerusalem Talmud Shevuot 6:8:4"
                     ],
                     "startingAddress": "27b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-619"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-619"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -748,7 +1143,34 @@
                         "Jerusalem Talmud Shevuot 7:8:3"
                     ],
                     "startingAddress": "33b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-717"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-717"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -789,7 +1211,45 @@
                         "Jerusalem Talmud Shevuot 8:3:6-4:2"
                     ],
                     "startingAddress": "39b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-817"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-817"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -808,11 +1268,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי שבועות",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Talmud Yerushalmi Shevuot",
                     "lang": "en"
@@ -846,6 +1301,11 @@
                     "lang": "en"
                 },
                 {
+                    "text": "תלמוד ירושלמי שבועות",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
                     "text": "Jerusalem Talmud Shevuot",
                     "lang": "en",
                     "primary": true
@@ -867,11 +1327,19 @@
         "סדר נזיקין"
     ],
     "compDateString": {
-        "en": " (c.375  - c.425 CE)",
-        "he": " (375 - 425 לספירה בקירוב)"
+        "en": " (c.375  – c.425 CE)",
+        "he": " (375 – 425 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

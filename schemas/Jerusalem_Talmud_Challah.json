@@ -66,11 +66,6 @@
         ],
         "titles": [
             {
-                "text": "תלמוד ירושלמי חלה",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "Yerushalmi Hallah",
                 "lang": "en"
             },
@@ -99,6 +94,11 @@
                 "lang": "en"
             },
             {
+                "text": "תלמוד ירושלמי חלה",
+                "lang": "he",
+                "primary": true
+            },
+            {
                 "text": "Jerusalem Talmud Challah",
                 "lang": "en",
                 "primary": true
@@ -119,12 +119,18 @@
     "enDesc": "",
     "enShortDesc": "Dough separated when baking bread and given to priests.",
     "heShortDesc": "המצווה להפריש חלק מהבצק בעת הכנת לחם ולתת אותו לכהנים.",
-    "pubDate": "1523",
-    "compDate": "270",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        130,
+        410
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "140",
     "era": null,
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -139,8 +145,8 @@
         "Jerusalem Talmud Challah"
     ],
     "heTitleVariants": [
-        "תלמוד ירושלמי חלה",
-        "ירושלמי חלה"
+        "ירושלמי חלה",
+        "תלמוד ירושלמי חלה"
     ],
     "alts": {
         "Venice": {
@@ -163,7 +169,34 @@
                         "Jerusalem Talmud Challah 1:4:3-6:4"
                     ],
                     "startingAddress": "57a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "חמשה-דברים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "חמשה-דברים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -197,7 +230,34 @@
                         "Jerusalem Talmud Challah 2:3:3-9"
                     ],
                     "startingAddress": "58a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "פירות-חוצה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "פירות-חוצה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -231,7 +291,34 @@
                         "Jerusalem Talmud Challah 3:5:8-14"
                     ],
                     "startingAddress": "58d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "האוכלין-עראי"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "האוכלין-עראי"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -265,7 +352,45 @@
                         "Jerusalem Talmud Challah 4:4:13-5:8"
                     ],
                     "startingAddress": "59c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "שתי-נשים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "שתי-נשים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -284,11 +409,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי חלה",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Yerushalmi Hallah",
                     "lang": "en"
@@ -316,6 +436,11 @@
                 {
                     "text": "Jerusalem Talmud Hallah",
                     "lang": "en"
+                },
+                {
+                    "text": "תלמוד ירושלמי חלה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Challah",
@@ -359,7 +484,34 @@
                         "Jerusalem Talmud Challah 1:6:1-4"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "חמשה-דברים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "חמשה-דברים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -399,7 +551,34 @@
                         "Jerusalem Talmud Challah 2:3:7-9"
                     ],
                     "startingAddress": "10a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "פירות-חוצה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "פירות-חוצה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -446,7 +625,34 @@
                         "Jerusalem Talmud Challah 3:5:13-14"
                     ],
                     "startingAddress": "14b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "האוכלין-עראי"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "האוכלין-עראי"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -489,7 +695,45 @@
                         "Jerusalem Talmud Challah 4:5:7-8"
                     ],
                     "startingAddress": "22b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "שתי-נשים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "שתי-נשים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -508,11 +752,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי חלה",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Yerushalmi Hallah",
                     "lang": "en"
@@ -542,6 +781,11 @@
                     "lang": "en"
                 },
                 {
+                    "text": "תלמוד ירושלמי חלה",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
                     "text": "Jerusalem Talmud Challah",
                     "lang": "en",
                     "primary": true
@@ -563,11 +807,19 @@
         "סדר זרעים"
     ],
     "compDateString": {
-        "en": " (c.130  - c.410 CE)",
-        "he": " (130 - 410 לספירה בקירוב)"
+        "en": " (c.130  – c.410 CE)",
+        "he": " (130 – 410 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

@@ -93,13 +93,13 @@
         ],
         "titles": [
             {
-                "lang": "en",
-                "text": "New Light"
+                "text": "New Light",
+                "lang": "en"
             },
             {
+                "text": "אור חדש",
                 "lang": "he",
-                "primary": true,
-                "text": "אור חדש"
+                "primary": true
             },
             {
                 "text": "Ohr Chadash",
@@ -113,20 +113,25 @@
     },
     "authors": [
         {
-            "en": "Maharal",
+            "en": "Judah Loew of Prague (Maharal)",
             "he": "מהר\"ל",
             "slug": "maharal"
         }
     ],
-    "enDesc": "Ohr Chadash is a commentary on Megillat Esther written by the Maharal of Prague (Rabbi Judah Loew ben Bezalel c.1512 - 1609).",
+    "enDesc": "Ohr Chadash is a commentary on the book of Esther written by 16th-century Rabbi Judah ben Betzalel Loew of Prague, better known by the acronym Maharal. ",
     "heDesc": "ספרו של המהר\"ל מפראג העוסק בעניני מגילת אסתר ונס פורים.",
-    "enShortDesc": "16th-century commentary on the Book of Esther by the Maharal.",
+    "enShortDesc": "16th-century commentary on the book of Esther by Maharal",
     "heShortDesc": "פירוש למגילת אסתר שכתב המהר\"ל, מן המאה ה-16.",
-    "pubDate": "1600",
-    "compDate": "1595",
+    "pubDate": [
+        1600
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        1590,
+        1600
+    ],
     "compPlace": "Prague",
     "pubPlace": "Prague",
-    "errorMargin": "5",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -148,10 +153,18 @@
         "אחרונים על התנ״ך"
     ],
     "compDateString": {
-        "en": " (c.1590  - c.1600 CE)",
-        "he": " (1590 - 1600 לספירה בקירוב)"
+        "en": " (c.1590  – c.1600 CE)",
+        "he": " (1590 – 1600 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1600 CE)",
+        "he": " (1600 לספירה)"
     },
     "compPlaceString": {
+        "en": "Prague",
+        "he": "פראג"
+    },
+    "pubPlaceString": {
         "en": "Prague",
         "he": "פראג"
     }

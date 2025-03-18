@@ -24,6 +24,19 @@
             },
             {
                 "term_slugs": [
+                    "torah",
+                    "genesis"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "torah",
+                    "sefer",
+                    "genesis"
+                ]
+            },
+            {
+                "term_slugs": [
                     "genesis"
                 ]
             }
@@ -125,15 +138,20 @@
         1
     ],
     "authors": [],
-    "enDesc": "Genesis (“Bereshit”) is the first book of the Torah, Judaism’s foundational text, and the only one consisting almost entirely of stories, with just three explicit laws. It tells of the origins of mankind and the Israelites, with stories on creation, Adam and Eve, Noah’s ark, the patriarchs and matriarchs - Abraham and Sarah, Isaac and Rebecca, Jacob, Leah and Rachel - and Joseph and his brothers. Its narratives depict figures as they encounter God, face wandering and exile, and grapple with conflict in family relationships.",
+    "enDesc": "Genesis (“Bereshit”) is the first book of the Torah, Judaism’s foundational text, and the only one consisting almost entirely of stories, with just three explicit laws. It tells of the origins of mankind and the Israelites, with stories on creation, Adam and Eve, Noah’s ark, the patriarchs and matriarchs - Abraham and Sarah, Isaac and Rebecca, Jacob, Leah and Rachel - and Joseph and his brothers. Its narratives depict figures as they encounter God, face wandering and exile, and grapple with conflict in family relationships",
     "heDesc": "ספר בראשית הוא הספר הראשון בחמשת חומשי התורה והיחיד הכולל כמעט אך ורק סיפורים - ורק שלושה חוקים מפורשים. הוא מספר על תולדות האדם ועם ישראל בסיפורי הבריאה, אדם חוה, תיבת נח, האבות והאימהות - אברהם ושרה, יצחק ורבקה, יעקב, רחל ולאה ויוסף ואחיו. עלילותיו מתארות דמויות המתעמתות עם אלוהים ומתמודדות עם אתגרי גלות ונדודים ועם מאבקים פנים-משפחתיים.",
     "enShortDesc": "Creation, the beginning of mankind, and stories of the patriarchs and matriarchs.",
     "heShortDesc": "בריאת העולם, תחילתה של האנושות וסיפורי האבות והאמהות.",
-    "pubDate": "1488",
-    "compDate": "-1400--400",
+    "pubDate": [
+        1488
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        -1400,
+        -400
+    ],
     "compPlace": "Sinai/Canaan",
     "pubPlace": "Soncino",
-    "errorMargin": 500,
     "is_cited": true,
     "corpora": [
         "Tanakh"
@@ -199,6 +217,7 @@
                             "scope": "any"
                         }
                     ],
+                    "isMapReferenceable": false,
                     "sharedTitle": "Bereshit",
                     "titles": [
                         {
@@ -281,6 +300,7 @@
                             "scope": "any"
                         }
                     ],
+                    "isMapReferenceable": false,
                     "sharedTitle": "Noach",
                     "titles": [
                         {
@@ -347,6 +367,7 @@
                             "scope": "any"
                         }
                     ],
+                    "isMapReferenceable": false,
                     "sharedTitle": "Lech Lecha",
                     "titles": [
                         {
@@ -409,6 +430,7 @@
                             "scope": "any"
                         }
                     ],
+                    "isMapReferenceable": false,
                     "sharedTitle": "Vayera",
                     "titles": [
                         {
@@ -475,6 +497,7 @@
                             "scope": "any"
                         }
                     ],
+                    "isMapReferenceable": false,
                     "sharedTitle": "Chayei Sara",
                     "titles": [
                         {
@@ -557,6 +580,7 @@
                             "scope": "any"
                         }
                     ],
+                    "isMapReferenceable": false,
                     "sharedTitle": "Toldot",
                     "titles": [
                         {
@@ -627,6 +651,7 @@
                             "scope": "any"
                         }
                     ],
+                    "isMapReferenceable": false,
                     "sharedTitle": "Vayetzei",
                     "titles": [
                         {
@@ -701,6 +726,7 @@
                             "scope": "any"
                         }
                     ],
+                    "isMapReferenceable": false,
                     "sharedTitle": "Vayishlach",
                     "titles": [
                         {
@@ -759,6 +785,7 @@
                             "scope": "any"
                         }
                     ],
+                    "isMapReferenceable": false,
                     "sharedTitle": "Vayeshev",
                     "titles": [
                         {
@@ -825,6 +852,7 @@
                             "scope": "any"
                         }
                     ],
+                    "isMapReferenceable": false,
                     "sharedTitle": "Miketz",
                     "titles": [
                         {
@@ -883,6 +911,7 @@
                             "scope": "any"
                         }
                     ],
+                    "isMapReferenceable": false,
                     "sharedTitle": "Vayigash",
                     "titles": [
                         {
@@ -941,6 +970,7 @@
                             "scope": "any"
                         }
                     ],
+                    "isMapReferenceable": false,
                     "sharedTitle": "Vayechi",
                     "titles": [
                         {
@@ -1063,8 +1093,20 @@
         "תנ\"ך",
         "תורה"
     ],
+    "compDateString": {
+        "en": " (c.1400  – c.400 BCE)",
+        "he": " (1400 – 400 לפנה\"ס בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1488 CE)",
+        "he": " (1488 לספירה)"
+    },
     "compPlaceString": {
         "en": "Sinai/Canaan",
         "he": "סיני / כנען"
+    },
+    "pubPlaceString": {
+        "en": "Soncino",
+        "he": "שונצינו"
     }
 }

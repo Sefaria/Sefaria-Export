@@ -66,11 +66,6 @@
         ],
         "titles": [
             {
-                "text": "תלמוד ירושלמי בבא קמא",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "Talmud Yerushalmi Bava Kamma",
                 "lang": "en"
             },
@@ -83,12 +78,89 @@
                 "lang": "en"
             },
             {
+                "text": "Y. B. Kam.",
+                "lang": "en"
+            },
+            {
                 "text": "ירושלמי בבא קמא",
                 "lang": "he"
             },
             {
-                "text": "Y. B. Kam.",
-                "lang": "en"
+                "text": "ירוש' ב\"ק",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' ב\"ק",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי ב\"ק",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי ב\"ק",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי, בבא קמא",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי, ב\"ק",
+                "lang": "he"
+            },
+            {
+                "text": "ירוש' בבא קמא",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' בבא קמא",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי בבא קמא",
+                "lang": "he",
+                "primary": true
+            },
+            {
+                "text": "ירוש' ב״ק",
+                "lang": "he"
+            },
+            {
+                "text": "ירוש' ב”ק",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' ב״ק",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' ב”ק",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי ב״ק",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי ב”ק",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי ב״ק",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי ב”ק",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי, ב״ק",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי, ב”ק",
+                "lang": "he"
             },
             {
                 "text": "Jerusalem Talmud Bava Kamma",
@@ -108,15 +180,23 @@
     "order": [
         31
     ],
+    "authors": [],
     "enDesc": "Bava Kamma (״The First Gate״) is the first of a series of three tractates in Seder Nezikin (“Order of Damages\") that deal with civil matters. Bava Kamma focuses on the laws of torts: the first six chapters mostly address damages inflicted by one’s property, while the last four chapters discuss damages inflicted by people, such as theft and injury.",
+    "heDesc": "",
     "enShortDesc": "Liability and compensation for damages inflicted on people or property.",
     "heShortDesc": "אחריות לנזקי אדם או רכוש והפיצויים עליהם.",
-    "pubDate": "1523",
-    "compDate": "400",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        375,
+        425
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "25",
     "era": "A",
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -129,8 +209,26 @@
         "Jerusalem Talmud Bava Kamma"
     ],
     "heTitleVariants": [
+        "ירושלמי בבא קמא",
+        "ירוש' ב\"ק",
+        "ירו' ב\"ק",
+        "ירושלמי ב\"ק",
+        "תלמוד ירושלמי ב\"ק",
+        "ירושלמי, בבא קמא",
+        "ירושלמי, ב\"ק",
+        "ירוש' בבא קמא",
+        "ירו' בבא קמא",
         "תלמוד ירושלמי בבא קמא",
-        "ירושלמי בבא קמא"
+        "ירוש' ב״ק",
+        "ירוש' ב”ק",
+        "ירו' ב״ק",
+        "ירו' ב”ק",
+        "ירושלמי ב״ק",
+        "ירושלמי ב”ק",
+        "תלמוד ירושלמי ב״ק",
+        "תלמוד ירושלמי ב”ק",
+        "ירושלמי, ב״ק",
+        "ירושלמי, ב”ק"
     ],
     "alts": {
         "Venice": {
@@ -151,7 +249,34 @@
                         "Jerusalem Talmud Bava Kamma 1:1:11-5:2"
                     ],
                     "startingAddress": "2a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-13"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-13"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -184,7 +309,34 @@
                         "Jerusalem Talmud Bava Kamma 2:2:2-8:2"
                     ],
                     "startingAddress": "2c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-23"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-23"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -218,7 +370,34 @@
                         "Jerusalem Talmud Bava Kamma 3:4:5-11:2"
                     ],
                     "startingAddress": "3a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-33"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-33"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -252,7 +431,34 @@
                         "Jerusalem Talmud Bava Kamma 4:5:2-9:2"
                     ],
                     "startingAddress": "3d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-43"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-43"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -285,7 +491,34 @@
                         "Jerusalem Talmud Bava Kamma 5:5:2-8:3"
                     ],
                     "startingAddress": "4c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-53"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-53"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -318,7 +551,34 @@
                         "Jerusalem Talmud Bava Kamma 6:4:2-8:2"
                     ],
                     "startingAddress": "5a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-62"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-62"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -351,7 +611,34 @@
                         "Jerusalem Talmud Bava Kamma 7:3:2-7:6"
                     ],
                     "startingAddress": "5c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-72"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-72"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -384,7 +671,34 @@
                         "Jerusalem Talmud Bava Kamma 8:4:2-8:2"
                     ],
                     "startingAddress": "6a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-82"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-82"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -417,7 +731,34 @@
                         "Jerusalem Talmud Bava Kamma 9:5:3-10:2"
                     ],
                     "startingAddress": "6c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-92"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-92"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 9",
@@ -450,7 +791,45 @@
                         "Jerusalem Talmud Bava Kamma 10:2:3-11:2"
                     ],
                     "startingAddress": "7a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-101"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-101"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 10",
@@ -470,11 +849,6 @@
             ],
             "titles": [
                 {
-                    "text": "תלמוד ירושלמי בבא קמא",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "Talmud Yerushalmi Bava Kamma",
                     "lang": "en"
                 },
@@ -487,12 +861,89 @@
                     "lang": "en"
                 },
                 {
+                    "text": "Y. B. Kam.",
+                    "lang": "en"
+                },
+                {
                     "text": "ירושלמי בבא קמא",
                     "lang": "he"
                 },
                 {
-                    "text": "Y. B. Kam.",
-                    "lang": "en"
+                    "text": "ירוש' ב\"ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' ב\"ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי ב\"ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי ב\"ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, בבא קמא",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, ב\"ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' בבא קמא",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' בבא קמא",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי בבא קמא",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "ירוש' ב״ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' ב”ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' ב״ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' ב”ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי ב״ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי ב”ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי ב״ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי ב”ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, ב״ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, ב”ק",
+                    "lang": "he"
                 },
                 {
                     "text": "Jerusalem Talmud Bava Kamma",
@@ -530,7 +981,34 @@
                         "Jerusalem Talmud Bava Kamma 1:3:1-5:2"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-13"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-13"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -570,7 +1048,34 @@
                         "Jerusalem Talmud Bava Kamma 2:6:3-8:2"
                     ],
                     "startingAddress": "7a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-23"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-23"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -612,7 +1117,34 @@
                         "Jerusalem Talmud Bava Kamma 3:10:1-11:2"
                     ],
                     "startingAddress": "11b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-33"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-33"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -654,7 +1186,34 @@
                         "Jerusalem Talmud Bava Kamma 4:9:1-2"
                     ],
                     "startingAddress": "17b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-43"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-43"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -692,7 +1251,34 @@
                         "Jerusalem Talmud Bava Kamma 5:8:3"
                     ],
                     "startingAddress": "23a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-53"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-53"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -730,7 +1316,34 @@
                         "Jerusalem Talmud Bava Kamma 6:7:3-8:2"
                     ],
                     "startingAddress": "26b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-62"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-62"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -769,7 +1382,34 @@
                         "Jerusalem Talmud Bava Kamma 7:7:4-6"
                     ],
                     "startingAddress": "30a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-72"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-72"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -806,7 +1446,34 @@
                         "Jerusalem Talmud Bava Kamma 8:8:1-2"
                     ],
                     "startingAddress": "34a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-82"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-82"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -846,7 +1513,34 @@
                         "Jerusalem Talmud Bava Kamma 9:10:2"
                     ],
                     "startingAddress": "37b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-92"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-92"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 9",
@@ -882,7 +1576,45 @@
                         "Jerusalem Talmud Bava Kamma 10:8:2-11:2"
                     ],
                     "startingAddress": "42a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-101"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-101"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 10",
@@ -902,11 +1634,6 @@
             ],
             "titles": [
                 {
-                    "text": "תלמוד ירושלמי בבא קמא",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "Talmud Yerushalmi Bava Kamma",
                     "lang": "en"
                 },
@@ -919,12 +1646,89 @@
                     "lang": "en"
                 },
                 {
+                    "text": "Y. B. Kam.",
+                    "lang": "en"
+                },
+                {
                     "text": "ירושלמי בבא קמא",
                     "lang": "he"
                 },
                 {
-                    "text": "Y. B. Kam.",
-                    "lang": "en"
+                    "text": "ירוש' ב\"ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' ב\"ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי ב\"ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי ב\"ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, בבא קמא",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, ב\"ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' בבא קמא",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' בבא קמא",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי בבא קמא",
+                    "lang": "he",
+                    "primary": true
+                },
+                {
+                    "text": "ירוש' ב״ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' ב”ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' ב״ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' ב”ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי ב״ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי ב”ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי ב״ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי ב”ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, ב״ק",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, ב”ק",
+                    "lang": "he"
                 },
                 {
                     "text": "Jerusalem Talmud Bava Kamma",
@@ -948,11 +1752,19 @@
         "סדר נזיקין"
     ],
     "compDateString": {
-        "en": " (c.375  - c.425 CE)",
-        "he": " (375 - 425 לספירה בקירוב)"
+        "en": " (c.375  – c.425 CE)",
+        "he": " (375 – 425 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

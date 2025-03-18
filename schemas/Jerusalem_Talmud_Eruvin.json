@@ -66,11 +66,6 @@
         ],
         "titles": [
             {
-                "text": "תלמוד ירושלמי עירובין",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "Talmud Yerushalmi Eiruvin",
                 "lang": "en"
             },
@@ -95,12 +90,41 @@
                 "lang": "en"
             },
             {
+                "text": "Y. Erub.",
+                "lang": "en"
+            },
+            {
                 "text": "ירושלמי עירובין",
                 "lang": "he"
             },
             {
-                "text": "Y. Erub.",
-                "lang": "en"
+                "text": "ירושלמי ערובין",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי ערובין",
+                "lang": "he"
+            },
+            {
+                "text": "ירוש' ערובין",
+                "lang": "he"
+            },
+            {
+                "text": "ירוש' עירובין",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' עירובין",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' ערובין",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי עירובין",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Jerusalem Talmud Eruvin",
@@ -120,15 +144,23 @@
     "order": [
         13
     ],
+    "authors": [],
     "enDesc": "Eruvin (literally, “mixtures” referring to the symbolic combination of separate domains) is the second tractate in Seder Moed (Order of Festivals) and consists of ten chapters. It serves as a continuation of tractate Shabbat, discussing the rabbinic enactments - namely, ritual enclosures and designated food items - that legally expand the areas in which one can carry and travel on Shabbat.",
+    "heDesc": "",
     "enShortDesc": "Enclosures that legally expand the areas in which one can carry and travel on Shabbat.",
     "heShortDesc": "תיחום המרחיב באופן סמלי את התחומים שמותר ללכת ולשאת בהם חפצים בשבת.",
-    "pubDate": "1523",
-    "compDate": "400",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        375,
+        425
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "25",
     "era": "A",
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -144,8 +176,14 @@
         "Jerusalem Talmud Eruvin"
     ],
     "heTitleVariants": [
-        "תלמוד ירושלמי עירובין",
-        "ירושלמי עירובין"
+        "ירושלמי עירובין",
+        "ירושלמי ערובין",
+        "תלמוד ירושלמי ערובין",
+        "ירוש' ערובין",
+        "ירוש' עירובין",
+        "ירו' עירובין",
+        "ירו' ערובין",
+        "תלמוד ירושלמי עירובין"
     ],
     "alts": {
         "Venice": {
@@ -170,7 +208,34 @@
                         "Jerusalem Talmud Eruvin 1:10:5-6"
                     ],
                     "startingAddress": "18b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-110"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-110"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -203,7 +268,34 @@
                         "Jerusalem Talmud Eruvin 2:4:2-8:4"
                     ],
                     "startingAddress": "19d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-210"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-210"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -239,7 +331,34 @@
                         "Jerusalem Talmud Eruvin 3:8:3-10:2"
                     ],
                     "startingAddress": "20b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-310"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-310"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -272,7 +391,34 @@
                         "Jerusalem Talmud Eruvin 4:4:2-10:2"
                     ],
                     "startingAddress": "21c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-49"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-49"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -307,7 +453,34 @@
                         "Jerusalem Talmud Eruvin 5:7:3-8:4"
                     ],
                     "startingAddress": "22a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-59"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-59"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -342,7 +515,34 @@
                         "Jerusalem Talmud Eruvin 6:8:6-10:3"
                     ],
                     "startingAddress": "23a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-67"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-67"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -376,7 +576,34 @@
                         "Jerusalem Talmud Eruvin 7:9:2-10:4"
                     ],
                     "startingAddress": "24a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-77"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-77"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -409,7 +636,34 @@
                         "Jerusalem Talmud Eruvin 8:8:3-9:4"
                     ],
                     "startingAddress": "24d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-87"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-87"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -442,7 +696,34 @@
                         "Jerusalem Talmud Eruvin 9:4:2-5:3"
                     ],
                     "startingAddress": "25b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-97"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-97"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 9",
@@ -477,7 +758,45 @@
                         "Jerusalem Talmud Eruvin 10:13:2-14:6"
                     ],
                     "startingAddress": "25d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-104"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-104"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 10",
@@ -496,11 +815,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי עירובין",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Talmud Yerushalmi Eiruvin",
                     "lang": "en"
@@ -526,12 +840,41 @@
                     "lang": "en"
                 },
                 {
+                    "text": "Y. Erub.",
+                    "lang": "en"
+                },
+                {
                     "text": "ירושלמי עירובין",
                     "lang": "he"
                 },
                 {
-                    "text": "Y. Erub.",
-                    "lang": "en"
+                    "text": "ירושלמי ערובין",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי ערובין",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' ערובין",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' עירובין",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' עירובין",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' ערובין",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי עירובין",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Eruvin",
@@ -582,7 +925,34 @@
                         "Jerusalem Talmud Eruvin 1:10:5-6"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-110"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-110"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -622,7 +992,34 @@
                         "Jerusalem Talmud Eruvin 2:8:3-4"
                     ],
                     "startingAddress": "13b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-210"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-210"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -670,7 +1067,34 @@
                         "Jerusalem Talmud Eruvin 3:9:3-10:2"
                     ],
                     "startingAddress": "18a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-310"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-310"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -709,7 +1133,34 @@
                         "Jerusalem Talmud Eruvin 4:10:2"
                     ],
                     "startingAddress": "26b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-49"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-49"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -754,7 +1205,34 @@
                         "Jerusalem Talmud Eruvin 5:8:2-4"
                     ],
                     "startingAddress": "30b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-59"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-59"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -799,7 +1277,34 @@
                         "Jerusalem Talmud Eruvin 6:10:3"
                     ],
                     "startingAddress": "38a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-67"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-67"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -840,7 +1345,34 @@
                         "Jerusalem Talmud Eruvin 7:10:1-4"
                     ],
                     "startingAddress": "45a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-77"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-77"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -881,7 +1413,34 @@
                         "Jerusalem Talmud Eruvin 8:9:2-4"
                     ],
                     "startingAddress": "50b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-87"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-87"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -917,7 +1476,34 @@
                         "Jerusalem Talmud Eruvin 9:5:3"
                     ],
                     "startingAddress": "56a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-97"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-97"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 9",
@@ -962,7 +1548,45 @@
                         "Jerusalem Talmud Eruvin 10:14:5-6"
                     ],
                     "startingAddress": "58b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-104"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-104"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "tenth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 10,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 10",
@@ -981,11 +1605,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי עירובין",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Talmud Yerushalmi Eiruvin",
                     "lang": "en"
@@ -1011,12 +1630,41 @@
                     "lang": "en"
                 },
                 {
+                    "text": "Y. Erub.",
+                    "lang": "en"
+                },
+                {
                     "text": "ירושלמי עירובין",
                     "lang": "he"
                 },
                 {
-                    "text": "Y. Erub.",
-                    "lang": "en"
+                    "text": "ירושלמי ערובין",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי ערובין",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' ערובין",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' עירובין",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' עירובין",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' ערובין",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי עירובין",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Eruvin",
@@ -1040,11 +1688,19 @@
         "סדר מועד"
     ],
     "compDateString": {
-        "en": " (c.375  - c.425 CE)",
-        "he": " (375 - 425 לספירה בקירוב)"
+        "en": " (c.375  – c.425 CE)",
+        "he": " (375 – 425 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

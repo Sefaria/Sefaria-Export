@@ -66,11 +66,6 @@
         ],
         "titles": [
             {
-                "text": "תלמוד ירושלמי פאה",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "Yerushalmi Pe'ah",
                 "lang": "en"
             },
@@ -95,12 +90,41 @@
                 "lang": "en"
             },
             {
+                "text": "Y. Peah",
+                "lang": "en"
+            },
+            {
                 "text": "ירושלמי פאה",
                 "lang": "he"
             },
             {
-                "text": "Y. Peah",
-                "lang": "en"
+                "text": "ירוש' פאה",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' פאה",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי פיאה",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי פיאה",
+                "lang": "he"
+            },
+            {
+                "text": "ירוש' פיאה",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' פיאה",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי פאה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Jerusalem Talmud Peah",
@@ -120,15 +144,23 @@
     "order": [
         2
     ],
+    "authors": [],
     "enDesc": "Peah (“Corner”) is the second tractate in Seder Zeraim (“Order of Seeds”) and the first in the order to explicitly address the order’s main topic, agricultural commandments. The tractate’s first four chapters discuss the mitzvah of peah, or leaving crops in the corner of a field for the poor to take, based in Leviticus 19:9 and 23:22. The remaining four chapters discuss other agricultural gifts to the poor, such as the obligation to leave ears of grain that fell during harvest (leket) and sheaves of grain that were forgotten in the field (shikhechah) for the poor.",
+    "heDesc": "",
     "enShortDesc": "Crops left in the corner of a field for the poor to take, other agricultural gifts to the poor.",
     "heShortDesc": "הקצאת חלק מתבואת השדה לעניים ומתנות אחרות מגידולי הקרקע הניתנות לעניים.",
-    "pubDate": "1523",
-    "compDate": "400",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        375,
+        425
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "25",
     "era": "A",
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -144,8 +176,14 @@
         "Jerusalem Talmud Peah"
     ],
     "heTitleVariants": [
-        "תלמוד ירושלמי פאה",
-        "ירושלמי פאה"
+        "ירושלמי פאה",
+        "ירוש' פאה",
+        "ירו' פאה",
+        "ירושלמי פיאה",
+        "תלמוד ירושלמי פיאה",
+        "ירוש' פיאה",
+        "ירו' פיאה",
+        "תלמוד ירושלמי פאה"
     ],
     "alts": {
         "Venice": {
@@ -171,7 +209,34 @@
                         "Jerusalem Talmud Peah 1:5:8"
                     ],
                     "startingAddress": "15a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "אילו-דברים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "אילו-דברים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -204,7 +269,34 @@
                         "Jerusalem Talmud Peah 2:5:4-7"
                     ],
                     "startingAddress": "16d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ואילו-מפסיקין"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "ואילו-מפסיקין"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -238,7 +330,34 @@
                         "Jerusalem Talmud Peah 3:7:17-19"
                     ],
                     "startingAddress": "17b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "מלבנות-התבואה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "מלבנות-התבואה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -271,7 +390,34 @@
                         "Jerusalem Talmud Peah 4:6:6-7:6"
                     ],
                     "startingAddress": "18a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "הפיאה-ניתנת"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "הפיאה-ניתנת"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -304,7 +450,34 @@
                         "Jerusalem Talmud Peah 5:2:8-7:2"
                     ],
                     "startingAddress": "18c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "גדיש-שלא"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "גדיש-שלא"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -338,7 +511,34 @@
                         "Jerusalem Talmud Peah 6:6:2-8:4"
                     ],
                     "startingAddress": "19a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "בית-שמאי"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "בית-שמאי"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -372,7 +572,34 @@
                         "Jerusalem Talmud Peah 7:5:8-7:5"
                     ],
                     "startingAddress": "19d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "כל-זית"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "כל-זית"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -406,7 +633,45 @@
                         "Jerusalem Talmud Peah 8:7:8-8:15"
                     ],
                     "startingAddress": "20c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "מאימתי-כל"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "מאימתי-כל"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -425,11 +690,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי פאה",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Yerushalmi Pe'ah",
                     "lang": "en"
@@ -455,12 +715,41 @@
                     "lang": "en"
                 },
                 {
+                    "text": "Y. Peah",
+                    "lang": "en"
+                },
+                {
                     "text": "ירושלמי פאה",
                     "lang": "he"
                 },
                 {
-                    "text": "Y. Peah",
-                    "lang": "en"
+                    "text": "ירוש' פאה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' פאה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי פיאה",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי פיאה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' פיאה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' פיאה",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי פאה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Peah",
@@ -504,7 +793,34 @@
                         "Jerusalem Talmud Peah 1:5:2-8"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "אילו-דברים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "אילו-דברים"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -542,7 +858,34 @@
                         "Jerusalem Talmud Peah 2:5:7"
                     ],
                     "startingAddress": "10b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ואילו-מפסיקין"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "ואילו-מפסיקין"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -584,7 +927,34 @@
                         "Jerusalem Talmud Peah 3:7:18-19"
                     ],
                     "startingAddress": "14a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "מלבנות-התבואה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "מלבנות-התבואה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -624,7 +994,34 @@
                         "Jerusalem Talmud Peah 4:7:5-6"
                     ],
                     "startingAddress": "20a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "הפיאה-ניתנת"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "הפיאה-ניתנת"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -661,7 +1058,34 @@
                         "Jerusalem Talmud Peah 5:5:3-7:2"
                     ],
                     "startingAddress": "24b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "גדיש-שלא"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "גדיש-שלא"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -698,7 +1122,34 @@
                         "Jerusalem Talmud Peah 6:6:7-8:4"
                     ],
                     "startingAddress": "28a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "בית-שמאי"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "בית-שמאי"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -736,7 +1187,34 @@
                         "Jerusalem Talmud Peah 7:7:3-5"
                     ],
                     "startingAddress": "31b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "כל-זית"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "כל-זית"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -772,7 +1250,45 @@
                         "Jerusalem Talmud Peah 8:8:5-15"
                     ],
                     "startingAddress": "35a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "מאימתי-כל"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "מאימתי-כל"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -791,11 +1307,6 @@
                 }
             ],
             "titles": [
-                {
-                    "text": "תלמוד ירושלמי פאה",
-                    "lang": "he",
-                    "primary": true
-                },
                 {
                     "text": "Yerushalmi Pe'ah",
                     "lang": "en"
@@ -821,12 +1332,41 @@
                     "lang": "en"
                 },
                 {
+                    "text": "Y. Peah",
+                    "lang": "en"
+                },
+                {
                     "text": "ירושלמי פאה",
                     "lang": "he"
                 },
                 {
-                    "text": "Y. Peah",
-                    "lang": "en"
+                    "text": "ירוש' פאה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' פאה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי פיאה",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי פיאה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' פיאה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' פיאה",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי פאה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Peah",
@@ -850,11 +1390,19 @@
         "סדר זרעים"
     ],
     "compDateString": {
-        "en": " (c.375  - c.425 CE)",
-        "he": " (375 - 425 לספירה בקירוב)"
+        "en": " (c.375  – c.425 CE)",
+        "he": " (375 – 425 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

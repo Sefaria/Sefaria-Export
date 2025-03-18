@@ -7,35 +7,81 @@
         "Prophets"
     ],
     "schema": {
-        "nodeType": "JaggedArrayNode",
-        "depth": 3,
-        "addressTypes": [
-            "Perek",
-            "Pasuk",
-            "Integer"
-        ],
-        "sectionNames": [
-            "Chapter",
-            "Verse",
-            "Comment"
-        ],
-        "match_templates": [
+        "nodes": [
             {
-                "term_slugs": [
-                    "malbim",
-                    "joshua"
-                ]
+                "nodeType": "JaggedArrayNode",
+                "depth": 1,
+                "addressTypes": [
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Paragraph"
+                ],
+                "sharedTitle": "Introduction",
+                "titles": [
+                    {
+                        "lang": "en",
+                        "text": "Introduction",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "הקדמה",
+                        "primary": true
+                    },
+                    {
+                        "lang": "he",
+                        "text": "מבוא"
+                    }
+                ],
+                "title": "Introduction",
+                "heTitle": "הקדמה",
+                "heSectionNames": [
+                    "פסקה"
+                ],
+                "key": "Introduction"
+            },
+            {
+                "nodeType": "JaggedArrayNode",
+                "depth": 3,
+                "addressTypes": [
+                    "Perek",
+                    "Pasuk",
+                    "Integer"
+                ],
+                "sectionNames": [
+                    "Chapter",
+                    "Verse",
+                    "Comment"
+                ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "malbim",
+                            "joshua"
+                        ]
+                    }
+                ],
+                "lengths": [
+                    24,
+                    376,
+                    630
+                ],
+                "isSegmentLevelDiburHamatchil": true,
+                "diburHamatchilRegexes": [
+                    "^<b>(.+?)</b>",
+                    "^(.+?)[\\-–]"
+                ],
+                "default": true,
+                "title": "",
+                "heTitle": "",
+                "heSectionNames": [
+                    "פרק",
+                    "פסוק",
+                    "פירוש"
+                ],
+                "key": "default"
             }
-        ],
-        "lengths": [
-            24,
-            376,
-            630
-        ],
-        "isSegmentLevelDiburHamatchil": true,
-        "diburHamatchilRegexes": [
-            "^<b>(.+?)</b>",
-            "^(.+?)[\\-–]"
         ],
         "titles": [
             {
@@ -55,25 +101,25 @@
         ],
         "title": "Malbim on Joshua",
         "heTitle": "מלבי\"ם על יהושע",
-        "heSectionNames": [
-            "פרק",
-            "פסוק",
-            "פירוש"
-        ],
         "key": "Malbim on Joshua"
     },
     "authors": [
         {
-            "en": "Malbim",
+            "en": "Meir Leibush Weisser (Malbim)",
             "he": "מלבי\"ם",
             "slug": "malbim"
         }
     ],
     "enDesc": "Written by Rabbi Meir Leibush ben Yehiel Michel Wisser (Malbim), a trademark of the his commentary is his belief that there are no synonyms or repetition in the Tanakh. Each word represents a different idea or concept. Another important facet is his interest in connecting the written word to its rabbinic interpretation.",
-    "pubDate": "1874",
-    "compDate": "1859",
+    "pubDate": [
+        1874
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        1844,
+        1874
+    ],
     "pubPlace": "Warsaw",
-    "errorMargin": "15",
     "era": "AH",
     "dependence": "Commentary",
     "base_text_titles": [
@@ -95,12 +141,6 @@
     "heTitleVariants": [
         "מלבי\"ם על יהושע"
     ],
-    "sectionNames": [
-        "Chapter",
-        "Verse",
-        "Comment"
-    ],
-    "depth": 3,
     "heCategories": [
         "תנ\"ך",
         "אחרונים על התנ״ך",
@@ -108,7 +148,15 @@
         "נביאים"
     ],
     "compDateString": {
-        "en": " (c.1844  - c.1874 CE)",
-        "he": " (1844 - 1874 לספירה בקירוב)"
+        "en": " (c.1844  – c.1874 CE)",
+        "he": " (1844 – 1874 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1874 CE)",
+        "he": " (1874 לספירה)"
+    },
+    "pubPlaceString": {
+        "en": "Warsaw",
+        "he": "ורשה"
     }
 }

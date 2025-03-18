@@ -1567,17 +1567,21 @@
                                         ],
                                         "titles": [
                                             {
-                                                "lang": "en",
-                                                "text": "Keduasha",
-                                                "primary": true
-                                            },
-                                            {
                                                 "lang": "he",
                                                 "text": "קדושה",
                                                 "primary": true
+                                            },
+                                            {
+                                                "text": "Keduasha",
+                                                "lang": "en"
+                                            },
+                                            {
+                                                "text": "Kedushah",
+                                                "lang": "en",
+                                                "primary": true
                                             }
                                         ],
-                                        "title": "Keduasha",
+                                        "title": "Kedushah",
                                         "heTitle": "קדושה",
                                         "heSectionNames": [
                                             "פסקה"
@@ -2561,17 +2565,21 @@
                                                 ],
                                                 "titles": [
                                                     {
-                                                        "lang": "en",
-                                                        "text": "Birkat Hatorah",
-                                                        "primary": true
-                                                    },
-                                                    {
                                                         "lang": "he",
                                                         "text": "ברכת התורה",
                                                         "primary": true
+                                                    },
+                                                    {
+                                                        "text": "Birkat Hatorah",
+                                                        "lang": "en"
+                                                    },
+                                                    {
+                                                        "text": "Birkat HaTorah",
+                                                        "lang": "en",
+                                                        "primary": true
                                                     }
                                                 ],
-                                                "title": "Birkat Hatorah",
+                                                "title": "Birkat HaTorah",
                                                 "heTitle": "ברכת התורה",
                                                 "heSectionNames": [
                                                     "פסקה"
@@ -2805,13 +2813,13 @@
                                                 "primary": true
                                             },
                                             {
+                                                "text": "הכנסת ספר תורה",
                                                 "lang": "he",
-                                                "text": "הכנסת תפילה",
                                                 "primary": true
                                             }
                                         ],
                                         "title": "Returning Sefer to Aron",
-                                        "heTitle": "הכנסת תפילה",
+                                        "heTitle": "הכנסת ספר תורה",
                                         "key": "Returning Sefer to Aron"
                                     }
                                 ],
@@ -9248,17 +9256,17 @@
                                                 ],
                                                 "titles": [
                                                     {
-                                                        "lang": "en",
-                                                        "text": "Birkat Haotrah",
-                                                        "primary": true
-                                                    },
-                                                    {
                                                         "lang": "he",
                                                         "text": "ברכת התורה",
                                                         "primary": true
+                                                    },
+                                                    {
+                                                        "text": "Birkat HaTorah",
+                                                        "lang": "en",
+                                                        "primary": true
                                                     }
                                                 ],
-                                                "title": "Birkat Haotrah",
+                                                "title": "Birkat HaTorah",
                                                 "heTitle": "ברכת התורה",
                                                 "heSectionNames": [
                                                     "פסקה"
@@ -11228,17 +11236,21 @@
                                                 ],
                                                 "titles": [
                                                     {
-                                                        "lang": "en",
-                                                        "text": "Birkat Hatorah",
-                                                        "primary": true
-                                                    },
-                                                    {
                                                         "lang": "he",
                                                         "text": "ברכת התורה",
                                                         "primary": true
+                                                    },
+                                                    {
+                                                        "text": "Birkat Hatorah",
+                                                        "lang": "en"
+                                                    },
+                                                    {
+                                                        "text": "Birkat HaTorah",
+                                                        "lang": "en",
+                                                        "primary": true
                                                     }
                                                 ],
-                                                "title": "Birkat Hatorah",
+                                                "title": "Birkat HaTorah",
                                                 "heTitle": "ברכת התורה",
                                                 "heSectionNames": [
                                                     "פסקה"
@@ -14630,9 +14642,12 @@
     "enDesc": "The prayer book according to the Ashkenazi rite.",
     "enShortDesc": "Prayer book commonly used in Ashkenazi communities, originating in Central and Western Europe.",
     "heShortDesc": "נוסח תפילה שמקורו במרכז אירופה ובמערבה.",
-    "compDate": "1080",
+    "hasErrorMargin": true,
+    "compDate": [
+        1055,
+        1105
+    ],
     "compPlace": "Middle-Age France",
-    "errorMargin": "25",
     "era": "RI",
     "heTitle": "סידור אשכנז",
     "titleVariants": [
@@ -14646,8 +14661,8 @@
         "סידור"
     ],
     "compDateString": {
-        "en": " (c.1055  - c.1105 CE)",
-        "he": " (1055 - 1105 לספירה בקירוב)"
+        "en": " (c.1055  – c.1105 CE)",
+        "he": " (1055 – 1105 לספירה בקירוב)"
     },
     "compPlaceString": {
         "en": "Middle-Age France",

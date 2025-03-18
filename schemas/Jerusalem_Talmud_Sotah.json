@@ -57,7 +57,7 @@
         "lengths": [
             9,
             73,
-            382
+            381
         ],
         "referenceableSections": [
             true,
@@ -65,11 +65,6 @@
             false
         ],
         "titles": [
-            {
-                "text": "תלמוד ירושלמי סוטה",
-                "lang": "he",
-                "primary": true
-            },
             {
                 "text": "Yerushalmi Sotah",
                 "lang": "en"
@@ -83,12 +78,49 @@
                 "lang": "en"
             },
             {
+                "text": "Y. Sot.",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi, Sota",
+                "lang": "en"
+            },
+            {
+                "text": "Yerushalmi, Sotah",
+                "lang": "en"
+            },
+            {
                 "text": "ירושלמי סוטה",
                 "lang": "he"
             },
             {
-                "text": "Y. Sot.",
-                "lang": "en"
+                "text": "ירוש' סוטה",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' סוטה",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי, סוטה",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי, סוטה",
+                "lang": "he"
+            },
+            {
+                "text": "ירוש', סוטה",
+                "lang": "he"
+            },
+            {
+                "text": "ירו', סוטה",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי סוטה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Jerusalem Talmud Sotah",
@@ -108,15 +140,23 @@
     "order": [
         25
     ],
+    "authors": [],
     "enDesc": "Sotah is a tractate in Seder Nashim (“Order of Women,” which addresses family law). Its first six chapters discuss laws relating to a sotah, or woman whose husband suspects her of adultery. The tractate outlines the process the sotah experiences, beginning with a warning issued by her husband and her seclusion with another man and through the steps of the ritual performed in the Temple in order to determine her culpability. The last three chapters discuss other rituals that involve recitation.",
+    "heDesc": "",
     "enShortDesc": "A woman suspected of adultery, the ritual determining her culpability, and other rituals involving recitation.",
     "heShortDesc": "אישה החשודה בבגידה בבעלה, טקס בירור מעמדה וטקסים אחרים הכרוכים באמירה.",
-    "pubDate": "1523",
-    "compDate": "400",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        375,
+        425
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "25",
     "era": "A",
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -126,11 +166,19 @@
         "JT Sotah",
         "Talmud Yerushalmi Sotah",
         "Y. Sot.",
+        "Yerushalmi, Sota",
+        "Yerushalmi, Sotah",
         "Jerusalem Talmud Sotah"
     ],
     "heTitleVariants": [
-        "תלמוד ירושלמי סוטה",
-        "ירושלמי סוטה"
+        "ירושלמי סוטה",
+        "ירוש' סוטה",
+        "ירו' סוטה",
+        "ירושלמי, סוטה",
+        "תלמוד ירושלמי, סוטה",
+        "ירוש', סוטה",
+        "ירו', סוטה",
+        "תלמוד ירושלמי סוטה"
     ],
     "alts": {
         "Venice": {
@@ -154,7 +202,34 @@
                         "Jerusalem Talmud Sotah 1:10:3-6"
                     ],
                     "startingAddress": "16b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-137"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-137"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -188,7 +263,34 @@
                         "Jerusalem Talmud Sotah 2:5:2-6:2"
                     ],
                     "startingAddress": "17c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-230"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-230"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -223,7 +325,34 @@
                         "Jerusalem Talmud Sotah 3:6:5-8:7"
                     ],
                     "startingAddress": "18b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-329"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-329"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -256,7 +385,34 @@
                         "Jerusalem Talmud Sotah 4:3:4-5:4"
                     ],
                     "startingAddress": "19b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-425"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-425"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -291,7 +447,34 @@
                         "Jerusalem Talmud Sotah 5:6:2-5"
                     ],
                     "startingAddress": "19d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-522"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-522"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -323,7 +506,34 @@
                         "Jerusalem Talmud Sotah 6:2:2-4:4"
                     ],
                     "startingAddress": "20d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-620"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-620"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -358,7 +568,34 @@
                         "Jerusalem Talmud Sotah 7:5:5-8:2"
                     ],
                     "startingAddress": "21a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-718"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-718"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -393,7 +630,34 @@
                         "Jerusalem Talmud Sotah 8:6:2-10:5"
                     ],
                     "startingAddress": "22a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-818"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-818"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -430,7 +694,45 @@
                         "Jerusalem Talmud Sotah 9:15:2-16:4"
                     ],
                     "startingAddress": "23a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-917"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-917"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 9",
@@ -450,11 +752,6 @@
             ],
             "titles": [
                 {
-                    "text": "תלמוד ירושלמי סוטה",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "Yerushalmi Sotah",
                     "lang": "en"
                 },
@@ -467,12 +764,49 @@
                     "lang": "en"
                 },
                 {
+                    "text": "Y. Sot.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi, Sota",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi, Sotah",
+                    "lang": "en"
+                },
+                {
                     "text": "ירושלמי סוטה",
                     "lang": "he"
                 },
                 {
-                    "text": "Y. Sot.",
-                    "lang": "en"
+                    "text": "ירוש' סוטה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' סוטה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, סוטה",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, סוטה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש', סוטה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו', סוטה",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי סוטה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Sotah",
@@ -514,7 +848,34 @@
                         "Jerusalem Talmud Sotah 1:10:4-6"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-137"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-137"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -555,7 +916,34 @@
                         "Jerusalem Talmud Sotah 2:6:1-2"
                     ],
                     "startingAddress": "8b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-230"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-230"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -596,7 +984,34 @@
                         "Jerusalem Talmud Sotah 3:8:2-7"
                     ],
                     "startingAddress": "13b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-329"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-329"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -631,7 +1046,34 @@
                         "Jerusalem Talmud Sotah 4:5:3-4"
                     ],
                     "startingAddress": "18b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-425"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-425"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -673,7 +1115,34 @@
                         "Jerusalem Talmud Sotah 5:6:3-5"
                     ],
                     "startingAddress": "20b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-522"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-522"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -710,7 +1179,34 @@
                         "Jerusalem Talmud Sotah 6:4:4"
                     ],
                     "startingAddress": "26a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-620"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-620"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -751,7 +1247,34 @@
                         "Jerusalem Talmud Sotah 7:7:3-8:2"
                     ],
                     "startingAddress": "29a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-718"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-718"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -793,7 +1316,34 @@
                         "Jerusalem Talmud Sotah 8:10:1-5"
                     ],
                     "startingAddress": "34a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-818"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-818"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -839,7 +1389,45 @@
                         "Jerusalem Talmud Sotah 9:16:1-4"
                     ],
                     "startingAddress": "39b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-917"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-917"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 9",
@@ -859,11 +1447,6 @@
             ],
             "titles": [
                 {
-                    "text": "תלמוד ירושלמי סוטה",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "Yerushalmi Sotah",
                     "lang": "en"
                 },
@@ -876,12 +1459,49 @@
                     "lang": "en"
                 },
                 {
+                    "text": "Y. Sot.",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi, Sota",
+                    "lang": "en"
+                },
+                {
+                    "text": "Yerushalmi, Sotah",
+                    "lang": "en"
+                },
+                {
                     "text": "ירושלמי סוטה",
                     "lang": "he"
                 },
                 {
-                    "text": "Y. Sot.",
-                    "lang": "en"
+                    "text": "ירוש' סוטה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' סוטה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, סוטה",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, סוטה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש', סוטה",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו', סוטה",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי סוטה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Sotah",
@@ -905,11 +1525,19 @@
         "סדר נשים"
     ],
     "compDateString": {
-        "en": " (c.375  - c.425 CE)",
-        "he": " (375 - 425 לספירה בקירוב)"
+        "en": " (c.375  – c.425 CE)",
+        "he": " (375 – 425 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

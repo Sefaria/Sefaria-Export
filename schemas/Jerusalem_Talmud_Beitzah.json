@@ -66,11 +66,6 @@
         ],
         "titles": [
             {
-                "text": "תלמוד ירושלמי ביצה",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "JT Beitzah",
                 "lang": "en"
             },
@@ -89,6 +84,11 @@
             {
                 "text": "Y. Bets.",
                 "lang": "en"
+            },
+            {
+                "text": "תלמוד ירושלמי ביצה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Jerusalem Talmud Beitzah",
@@ -111,12 +111,18 @@
     "enDesc": "Tractate Beitzah (“Egg,” named for the first word in the tractate) is located in Seder Moed (“the Order of Festivals”) and discusses the laws of Yom Tov (biblical holidays). In medieval commentaries, it is often referred to as tractate Yom Tov. The tractate opens with discussions about muktzeh, or items that are set-aside and cannot be used on Shabbat or Yom Tov. The remaining chapters mainly focus on preparation of food on Yom Tov, a form of labor that is prohibited on Shabbat.",
     "enShortDesc": "Holiday laws governing which objects can be used, how food is prepared, and what labor is permitted.",
     "heShortDesc": "דיני יום טוב: חפצים האסורים בשימוש, הכנת אוכל בחג לצורך החג והמלאכות האסורות.",
-    "pubDate": "1523",
-    "compDate": "400",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        375,
+        425
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "25",
     "era": "A",
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -129,8 +135,8 @@
         "Jerusalem Talmud Beitzah"
     ],
     "heTitleVariants": [
-        "תלמוד ירושלמי ביצה",
-        "ירושלמי ביצה"
+        "ירושלמי ביצה",
+        "תלמוד ירושלמי ביצה"
     ],
     "alts": {
         "Venice": {
@@ -153,7 +159,34 @@
                         "Jerusalem Talmud Beitzah 1:11:2-12:4"
                     ],
                     "startingAddress": "60a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-15"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-15"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -187,7 +220,34 @@
                         "Jerusalem Talmud Beitzah 2:8:2-10:2"
                     ],
                     "startingAddress": "61a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-25"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-25"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -220,7 +280,34 @@
                         "Jerusalem Talmud Beitzah 3:6:5-9:2"
                     ],
                     "startingAddress": "61d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-35"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-35"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -253,7 +340,34 @@
                         "Jerusalem Talmud Beitzah 4:5:4-7:3"
                     ],
                     "startingAddress": "62b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-45"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-45"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -286,7 +400,45 @@
                         "Jerusalem Talmud Beitzah 5:2:13-8:2"
                     ],
                     "startingAddress": "62d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-55"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-55"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -306,11 +458,6 @@
             ],
             "titles": [
                 {
-                    "text": "תלמוד ירושלמי ביצה",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "JT Beitzah",
                     "lang": "en"
                 },
@@ -329,6 +476,11 @@
                 {
                     "text": "Y. Bets.",
                     "lang": "en"
+                },
+                {
+                    "text": "תלמוד ירושלמי ביצה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Beitzah",
@@ -372,7 +524,34 @@
                         "Jerusalem Talmud Beitzah 1:12:4"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-15"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-15"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -410,7 +589,34 @@
                         "Jerusalem Talmud Beitzah 2:9:1-10:2"
                     ],
                     "startingAddress": "9b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-25"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-25"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -447,7 +653,34 @@
                         "Jerusalem Talmud Beitzah 3:8:1-9:2"
                     ],
                     "startingAddress": "13a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-35"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-35"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -484,7 +717,34 @@
                         "Jerusalem Talmud Beitzah 4:7:1-3"
                     ],
                     "startingAddress": "16a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-45"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-45"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -522,7 +782,45 @@
                         "Jerusalem Talmud Beitzah 5:7:2-8:2"
                     ],
                     "startingAddress": "19a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "chapter-55"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "chapter-55"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -542,11 +840,6 @@
             ],
             "titles": [
                 {
-                    "text": "תלמוד ירושלמי ביצה",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "JT Beitzah",
                     "lang": "en"
                 },
@@ -565,6 +858,11 @@
                 {
                     "text": "Y. Bets.",
                     "lang": "en"
+                },
+                {
+                    "text": "תלמוד ירושלמי ביצה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Beitzah",
@@ -588,11 +886,19 @@
         "סדר מועד"
     ],
     "compDateString": {
-        "en": " (c.375  - c.425 CE)",
-        "he": " (375 - 425 לספירה בקירוב)"
+        "en": " (c.375  – c.425 CE)",
+        "he": " (375 – 425 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }

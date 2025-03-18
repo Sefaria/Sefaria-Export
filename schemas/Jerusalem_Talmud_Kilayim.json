@@ -66,11 +66,6 @@
         ],
         "titles": [
             {
-                "text": "תלמוד ירושלמי כלאים",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "JT Kilayim",
                 "lang": "en"
             },
@@ -83,12 +78,73 @@
                 "lang": "en"
             },
             {
+                "text": "Y. Kil.",
+                "lang": "en"
+            },
+            {
                 "text": "ירושלמי כלאים",
                 "lang": "he"
             },
             {
-                "text": "Y. Kil.",
-                "lang": "en"
+                "text": "ירושלמי כלאיים",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי כלאיים",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי, כלאים",
+                "lang": "he"
+            },
+            {
+                "text": "ירושלמי, כלאיים",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי, כלאים",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי, כלאיים",
+                "lang": "he"
+            },
+            {
+                "text": "ירוש' כלאים",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' כלאים",
+                "lang": "he"
+            },
+            {
+                "text": "ירוש' כלאיים",
+                "lang": "he"
+            },
+            {
+                "text": "ירו' כלאיים",
+                "lang": "he"
+            },
+            {
+                "text": "ירוש', כלאיים",
+                "lang": "he"
+            },
+            {
+                "text": "ירוש', כלאים",
+                "lang": "he"
+            },
+            {
+                "text": "ירו', כלאים",
+                "lang": "he"
+            },
+            {
+                "text": "ירו', כלאיים",
+                "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי כלאים",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Jerusalem Talmud Kilayim",
@@ -108,15 +164,23 @@
     "order": [
         4
     ],
+    "authors": [],
     "enDesc": "Kilayim (“Mixtures”) is a tractate in Seder Zeraim (“Order of Seeds”) that discusses biblical prohibitions of mixed species, based in Leviticus 19:19 and Deuteronomy 22:9-11. These include planting certain mixtures of seeds, grafting different species of trees, growing plants other than grapevines in a vineyard, crossbreeding animals, working certain animals together, and mixing wool and linen in clothing.",
+    "heDesc": "",
     "enShortDesc": "Prohibited mixtures of certain seeds, plants, animals, or materials of clothing.",
     "heShortDesc": "האיסור להכליא זה בזה זרעים, צמחים או בעלי חיים מסוימים ולערב צמר ופשתן בבגד אחד.",
-    "pubDate": "1523",
-    "compDate": "400",
+    "pubDate": [
+        1523
+    ],
+    "hasErrorMargin": true,
+    "compDate": [
+        375,
+        425
+    ],
     "compPlace": "Talmudic Israel",
     "pubPlace": "Venice",
-    "errorMargin": "25",
     "era": "A",
+    "is_cited": true,
     "corpora": [
         "Yerushalmi"
     ],
@@ -129,8 +193,22 @@
         "Jerusalem Talmud Kilayim"
     ],
     "heTitleVariants": [
-        "תלמוד ירושלמי כלאים",
-        "ירושלמי כלאים"
+        "ירושלמי כלאים",
+        "ירושלמי כלאיים",
+        "תלמוד ירושלמי כלאיים",
+        "ירושלמי, כלאים",
+        "ירושלמי, כלאיים",
+        "תלמוד ירושלמי, כלאים",
+        "תלמוד ירושלמי, כלאיים",
+        "ירוש' כלאים",
+        "ירו' כלאים",
+        "ירוש' כלאיים",
+        "ירו' כלאיים",
+        "ירוש', כלאיים",
+        "ירוש', כלאים",
+        "ירו', כלאים",
+        "ירו', כלאיים",
+        "תלמוד ירושלמי כלאים"
     ],
     "alts": {
         "Venice": {
@@ -151,7 +229,34 @@
                         "Jerusalem Talmud Kilayim 1:7:3-9:5"
                     ],
                     "startingAddress": "26d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "החטים-והזונין"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "החטים-והזונין"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -186,7 +291,34 @@
                         "Jerusalem Talmud Kilayim 2:8:3-9"
                     ],
                     "startingAddress": "27b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "כל-סאה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "כל-סאה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -220,7 +352,34 @@
                         "Jerusalem Talmud Kilayim 3:6:6-7"
                     ],
                     "startingAddress": "28b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ערוגה-שהיא"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "ערוגה-שהיא"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -253,7 +412,34 @@
                         "Jerusalem Talmud Kilayim 4:3:2-6:5"
                     ],
                     "startingAddress": "29a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "קרחת-הכרם"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "קרחת-הכרם"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -286,7 +472,34 @@
                         "Jerusalem Talmud Kilayim 5:3:3-7:5"
                     ],
                     "startingAddress": "29c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "כרם-שחרב"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "כרם-שחרב"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -319,7 +532,34 @@
                         "Jerusalem Talmud Kilayim 6:2:2-4:9"
                     ],
                     "startingAddress": "30a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "אי-זהו"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "אי-זהו"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -352,7 +592,34 @@
                         "Jerusalem Talmud Kilayim 7:3:3-6:5"
                     ],
                     "startingAddress": "30c",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "המבריך-את"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "המבריך-את"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -386,7 +653,34 @@
                         "Jerusalem Talmud Kilayim 8:4:8"
                     ],
                     "startingAddress": "31a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "כלאי-הכרם"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "כלאי-הכרם"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -421,7 +715,45 @@
                         "Jerusalem Talmud Kilayim 9:3:17-6:6"
                     ],
                     "startingAddress": "31d",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "אינו-אסור"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "אינו-אסור"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 9",
@@ -441,11 +773,6 @@
             ],
             "titles": [
                 {
-                    "text": "תלמוד ירושלמי כלאים",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "JT Kilayim",
                     "lang": "en"
                 },
@@ -458,12 +785,73 @@
                     "lang": "en"
                 },
                 {
+                    "text": "Y. Kil.",
+                    "lang": "en"
+                },
+                {
                     "text": "ירושלמי כלאים",
                     "lang": "he"
                 },
                 {
-                    "text": "Y. Kil.",
-                    "lang": "en"
+                    "text": "ירושלמי כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, כלאים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, כלאים",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' כלאים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' כלאים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש', כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש', כלאים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו', כלאים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו', כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי כלאים",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Kilayim",
@@ -499,7 +887,34 @@
                         "Jerusalem Talmud Kilayim 1:9:5"
                     ],
                     "startingAddress": "1a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "החטים-והזונין"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "first"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "החטים-והזונין"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "first"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 1,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 1",
@@ -543,7 +958,34 @@
                         "Jerusalem Talmud Kilayim 2:8:7-9"
                     ],
                     "startingAddress": "6a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "כל-סאה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "second"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "כל-סאה"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "second"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 2,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 2",
@@ -585,7 +1027,34 @@
                         "Jerusalem Talmud Kilayim 3:6:6-7"
                     ],
                     "startingAddress": "13a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ערוגה-שהיא"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "third"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "ערוגה-שהיא"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "third"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 3,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 3",
@@ -625,7 +1094,34 @@
                         "Jerusalem Talmud Kilayim 4:6:3-5"
                     ],
                     "startingAddress": "18b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "קרחת-הכרם"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fourth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "קרחת-הכרם"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fourth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 4,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 4",
@@ -664,7 +1160,34 @@
                         "Jerusalem Talmud Kilayim 5:6:3-7:5"
                     ],
                     "startingAddress": "23b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "כרם-שחרב"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "fifth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "כרם-שחרב"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "fifth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 5,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 5",
@@ -702,7 +1225,34 @@
                         "Jerusalem Talmud Kilayim 6:4:9"
                     ],
                     "startingAddress": "28a",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "אי-זהו"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "sixth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "אי-זהו"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "sixth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 6,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 6",
@@ -741,7 +1291,34 @@
                         "Jerusalem Talmud Kilayim 7:6:5"
                     ],
                     "startingAddress": "31b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "המבריך-את"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "seventh"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "המבריך-את"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "seventh"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 7,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 7",
@@ -780,7 +1357,34 @@
                         "Jerusalem Talmud Kilayim 8:4:5-8"
                     ],
                     "startingAddress": "35b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "כלאי-הכרם"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "eighth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "כלאי-הכרם"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "eighth"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 8,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 8",
@@ -821,7 +1425,45 @@
                         "Jerusalem Talmud Kilayim 9:6:3-6"
                     ],
                     "startingAddress": "39b",
-                    "match_templates": [],
+                    "match_templates": [
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "אינו-אסור"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "אינו-אסור"
+                            ],
+                            "scope": "any"
+                        },
+                        {
+                            "term_slugs": [
+                                "ninth"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "perek",
+                                "last"
+                            ]
+                        },
+                        {
+                            "term_slugs": [
+                                "last"
+                            ]
+                        }
+                    ],
+                    "numeric_equivalent": 9,
+                    "referenceable": "optional",
                     "titles": [
                         {
                             "text": "Chapter 9",
@@ -841,11 +1483,6 @@
             ],
             "titles": [
                 {
-                    "text": "תלמוד ירושלמי כלאים",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "JT Kilayim",
                     "lang": "en"
                 },
@@ -858,12 +1495,73 @@
                     "lang": "en"
                 },
                 {
+                    "text": "Y. Kil.",
+                    "lang": "en"
+                },
+                {
                     "text": "ירושלמי כלאים",
                     "lang": "he"
                 },
                 {
-                    "text": "Y. Kil.",
-                    "lang": "en"
+                    "text": "ירושלמי כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, כלאים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירושלמי, כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, כלאים",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי, כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' כלאים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' כלאים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש' כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו' כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש', כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירוש', כלאים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו', כלאים",
+                    "lang": "he"
+                },
+                {
+                    "text": "ירו', כלאיים",
+                    "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי כלאים",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Kilayim",
@@ -887,11 +1585,19 @@
         "סדר זרעים"
     ],
     "compDateString": {
-        "en": " (c.375  - c.425 CE)",
-        "he": " (375 - 425 לספירה בקירוב)"
+        "en": " (c.375  – c.425 CE)",
+        "he": " (375 – 425 לספירה בקירוב)"
+    },
+    "pubDateString": {
+        "en": " (1523 CE)",
+        "he": " (1523 לספירה)"
     },
     "compPlaceString": {
         "en": "Talmudic Israel",
         "he": "ישראל התלמודית"
+    },
+    "pubPlaceString": {
+        "en": "Venice",
+        "he": "ונציה"
     }
 }
