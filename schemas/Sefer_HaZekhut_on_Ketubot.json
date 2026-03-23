@@ -19,6 +19,22 @@
             "Daf",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer-hazekhut",
+                    "ketubot"
+                ]
+            }
+        ],
+        "lengths": [
+            130,
+            18
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "ספר הזכות על כתובות",

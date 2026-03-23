@@ -10,7 +10,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Mishnah",
             "Integer"
         ],
@@ -19,7 +19,25 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "petach-einayim",
+                    "mishnah",
+                    "challah"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            6,
+            6
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "he",

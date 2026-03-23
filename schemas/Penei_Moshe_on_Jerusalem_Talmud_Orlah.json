@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 4,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Halakhah",
             "Integer",
             "Integer"
@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "yerushalmi",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "yerushalmi",
+                    "tractate",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "talmud",
+                    "yerushalmi",
+                    "orlah"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            21,
+            170,
+            558
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "פני משה על תלמוד ירושלמי ערלה",

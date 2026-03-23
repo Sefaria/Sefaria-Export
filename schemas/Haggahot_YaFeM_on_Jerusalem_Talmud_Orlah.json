@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "yerushalmi",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "yerushalmi",
+                    "tractate",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "talmud",
+                    "yerushalmi",
+                    "orlah"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            1,
+            1,
+            1
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "הגהות יפ\"מ על תלמוד ירושלמי ערלה",

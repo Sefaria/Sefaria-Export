@@ -7,27 +7,27 @@
         "Gevurat Ari"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "gevurat-ari",
+                    "yoma"
+                ]
             }
+        ],
+        "lengths": [
+            175,
+            512
         ],
         "titles": [
             {
@@ -55,6 +55,10 @@
         ],
         "title": "Gevurat Ari on Yoma",
         "heTitle": "גבורת ארי על יומא",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Gevurat Ari on Yoma"
     },
     "authors": [
@@ -92,6 +96,11 @@
     "heTitleVariants": [
         "גבורת ארי על יומא"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

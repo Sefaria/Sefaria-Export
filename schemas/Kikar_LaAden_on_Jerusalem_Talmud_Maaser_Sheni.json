@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "yerushalmi",
+                    "maaser-sheni"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "yerushalmi",
+                    "tractate",
+                    "maaser-sheni"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "maaser-sheni"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "talmud",
+                    "yerushalmi",
+                    "maaser-sheni"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            10,
+            18,
+            22
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "ככר לאדן על תלמוד ירושלמי מעשר שני",

@@ -21,7 +21,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "yerushalmi",
+                    "peah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "yerushalmi",
+                    "tractate",
+                    "peah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "peah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "talmud",
+                    "yerushalmi",
+                    "peah"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            55,
+            377,
+            1624
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "פירוש שלמה סיריליו על תלמוד ירושלמי פאה",

@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "yerushalmi",
+                    "peah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "yerushalmi",
+                    "tractate",
+                    "peah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "peah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "talmud",
+                    "yerushalmi",
+                    "peah"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            25,
+            33,
+            50
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "תוספות הרי\"ד על תלמוד ירושלמי פאה",

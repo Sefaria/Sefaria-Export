@@ -5,27 +5,27 @@
         "Acharonim"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Siman",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Siman",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "סימן",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "teshuvot",
+                    "maharam-of-padua"
+                ]
             }
+        ],
+        "lengths": [
+            90,
+            139
         ],
         "titles": [
             {
@@ -53,6 +53,10 @@
         ],
         "title": "Responsa Maharam of Padua",
         "heTitle": "שו\"ת מהר\"ם פדוואה",
+        "heSectionNames": [
+            "סימן",
+            "פסקה"
+        ],
         "key": "Responsa Maharam of Padua"
     },
     "authors": [
@@ -80,6 +84,11 @@
         "שו\"ת מהר\"ם פדוואה",
         "תשובות מהר\"ם פדובה"
     ],
+    "sectionNames": [
+        "Siman",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "שו\"ת",
         "אחרונים"

@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "yerushalmi",
+                    "peah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "yerushalmi",
+                    "tractate",
+                    "peah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "peah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "talmud",
+                    "yerushalmi",
+                    "peah"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            48,
+            125,
+            143
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "מראה הפנים על תלמוד ירושלמי פאה",

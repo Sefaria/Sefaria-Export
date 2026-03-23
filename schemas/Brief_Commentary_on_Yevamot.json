@@ -20,6 +20,23 @@
             "Halakhah",
             "DH"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "brief-commentary",
+                    "yevamot"
+                ]
+            }
+        ],
+        "lengths": [
+            14,
+            80,
+            228
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "פירוש קצר על יבמות",

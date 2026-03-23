@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "yerushalmi",
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "yerushalmi",
+                    "tractate",
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "niddah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "talmud",
+                    "yerushalmi",
+                    "niddah"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            1,
+            1,
+            1
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "חידושי חתם סופר על תלמוד ירושלמי נדה",

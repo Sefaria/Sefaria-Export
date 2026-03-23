@@ -17,6 +17,14 @@
             "Daf",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "penei-yehoshua",
+                    "shabbat"
+                ]
+            }
+        ],
         "lengths": [
             314,
             928
@@ -27,8 +35,7 @@
         ],
         "isSegmentLevelDiburHamatchil": true,
         "diburHamatchilRegexes": [
-            "^<b>(.+?)</b>",
-            "^(.+?)[\\-–]"
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

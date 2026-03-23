@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "yerushalmi",
+                    "nazir"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "yerushalmi",
+                    "tractate",
+                    "nazir"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "nazir"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "talmud",
+                    "yerushalmi",
+                    "nazir"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            55,
+            234,
+            470
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "שיירי קרבן על תלמוד ירושלמי נזיר",

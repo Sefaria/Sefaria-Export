@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "yerushalmi",
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "yerushalmi",
+                    "tractate",
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "talmud",
+                    "yerushalmi",
+                    "sanhedrin"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            89,
+            573,
+            3153
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "קרבן העדה על תלמוד ירושלמי סנהדרין",

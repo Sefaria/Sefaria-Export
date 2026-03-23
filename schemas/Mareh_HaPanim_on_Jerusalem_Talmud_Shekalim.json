@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "yerushalmi",
+                    "shekalim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "yerushalmi",
+                    "tractate",
+                    "shekalim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "shekalim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "talmud",
+                    "yerushalmi",
+                    "shekalim"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            27,
+            62,
+            84
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "מראה הפנים על תלמוד ירושלמי שקלים",

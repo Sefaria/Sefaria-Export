@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "yerushalmi",
+                    "taanit1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "yerushalmi",
+                    "tractate",
+                    "taanit1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "taanit1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "talmud",
+                    "yerushalmi",
+                    "taanit1"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            25,
+            48,
+            55
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "מראה הפנים על תלמוד ירושלמי תענית",

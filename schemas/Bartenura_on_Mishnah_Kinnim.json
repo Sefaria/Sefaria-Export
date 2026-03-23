@@ -19,6 +19,24 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "bartenura",
+                    "mishnah",
+                    "kinnim"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            15,
+            69
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "en",

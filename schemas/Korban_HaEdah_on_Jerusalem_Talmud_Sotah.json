@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "yerushalmi",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "yerushalmi",
+                    "tractate",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "talmud",
+                    "yerushalmi",
+                    "sotah"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            73,
+            372,
+            2341
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "קרבן העדה על תלמוד ירושלמי סוטה",

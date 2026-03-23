@@ -19,7 +19,25 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rambam",
+                    "mishnah",
+                    "zavim"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            31,
+            72
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^(.*?)\\."
+        ],
         "titles": [
             {
                 "text": "רמב\"ם על משנה זבים",

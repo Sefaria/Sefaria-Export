@@ -7,27 +7,27 @@
         "Chiddushei HaRim"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "chiddushei-harim",
+                    "shevuot"
+                ]
             }
+        ],
+        "lengths": [
+            95,
+            242
         ],
         "titles": [
             {
@@ -47,6 +47,10 @@
         ],
         "title": "Chiddushei HaRim on Shevuot",
         "heTitle": "חידושי הרי\"מ על שבועות",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Chiddushei HaRim on Shevuot"
     },
     "order": [
@@ -83,6 +87,11 @@
         "חידושי הרי\"מ על שבועות",
         "חידושי הרי\"ם על שבועות"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

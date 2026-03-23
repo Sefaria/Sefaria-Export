@@ -19,6 +19,24 @@
             "Seif",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yachin",
+                    "mishnah",
+                    "makhshirin"
+                ]
+            }
+        ],
+        "lengths": [
+            6,
+            284,
+            284
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "primary": true,

@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Integer",
             "Integer"
         ],
@@ -19,6 +19,39 @@
             "Chapter",
             "Paragraph",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yefeh-toar",
+                    "numbers",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yefeh-toar",
+                    "midrash",
+                    "numbers",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yefeh-toar",
+                    "midrash-rabbah",
+                    "numbers"
+                ]
+            }
+        ],
+        "lengths": [
+            23,
+            111,
+            174
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

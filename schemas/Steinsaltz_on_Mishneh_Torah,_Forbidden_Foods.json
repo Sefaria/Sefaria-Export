@@ -11,14 +11,62 @@
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
-            "Integer",
+            "Perek",
+            "Halakhah",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Halacha",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "steinsaltz",
+                    "mishneh-torah",
+                    "hilchot",
+                    "forbidden-foods"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "steinsaltz",
+                    "mishneh-torah",
+                    "forbidden-foods"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "steinsaltz",
+                    "rambam",
+                    "hilchot",
+                    "forbidden-foods"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "steinsaltz",
+                    "rambam",
+                    "forbidden-foods"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "steinsaltz",
+                    "hilchot",
+                    "forbidden-foods"
+                ]
+            }
+        ],
+        "lengths": [
+            17,
+            396,
+            2290
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

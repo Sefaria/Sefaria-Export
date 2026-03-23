@@ -11,14 +11,62 @@
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
-            "Integer",
+            "Perek",
+            "Halakhah",
             "Integer"
         ],
         "sectionNames": [
             "Chapter",
             "Halacha",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "steinsaltz",
+                    "mishneh-torah",
+                    "hilchot",
+                    "mourning"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "steinsaltz",
+                    "mishneh-torah",
+                    "mourning"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "steinsaltz",
+                    "rambam",
+                    "hilchot",
+                    "mourning"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "steinsaltz",
+                    "rambam",
+                    "mourning"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "steinsaltz",
+                    "hilchot",
+                    "mourning"
+                ]
+            }
+        ],
+        "lengths": [
+            14,
+            173,
+            595
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

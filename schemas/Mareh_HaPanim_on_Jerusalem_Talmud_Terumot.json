@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "yerushalmi",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "yerushalmi",
+                    "tractate",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "talmud",
+                    "yerushalmi",
+                    "terumot"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            47,
+            214,
+            249
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "מראה הפנים על תלמוד ירושלמי תרומות",

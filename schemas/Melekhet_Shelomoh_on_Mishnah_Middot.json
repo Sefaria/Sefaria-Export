@@ -19,6 +19,24 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "melekhet-shelomoh",
+                    "mishnah",
+                    "middot"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            33,
+            166
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "he",

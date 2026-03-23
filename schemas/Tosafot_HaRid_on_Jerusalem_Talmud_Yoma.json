@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "yerushalmi",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "yerushalmi",
+                    "tractate",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "talmud",
+                    "yerushalmi",
+                    "yoma"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            7,
+            9,
+            11
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "תוספות הרי\"ד על תלמוד ירושלמי יומא",

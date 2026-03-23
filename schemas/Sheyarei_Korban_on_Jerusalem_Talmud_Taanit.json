@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "yerushalmi",
+                    "taanit1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "yerushalmi",
+                    "tractate",
+                    "taanit1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "taanit1"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "talmud",
+                    "yerushalmi",
+                    "taanit1"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            29,
+            50,
+            62
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "שיירי קרבן על תלמוד ירושלמי תענית",

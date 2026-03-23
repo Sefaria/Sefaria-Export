@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "yerushalmi",
+                    "nedarim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "yerushalmi",
+                    "tractate",
+                    "nedarim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "nedarim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "talmud",
+                    "yerushalmi",
+                    "nedarim"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            2,
+            4,
+            4
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "חידושי מהר\"א גריידץ על תלמוד ירושלמי נדרים",

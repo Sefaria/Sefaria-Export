@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "yerushalmi",
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "yerushalmi",
+                    "tractate",
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "talmud",
+                    "yerushalmi",
+                    "rosh-hashanah"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            4,
+            5,
+            25
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "תוספות הרי\"ד על תלמוד ירושלמי ראש השנה",

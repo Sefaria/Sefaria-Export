@@ -48,12 +48,18 @@
                 ]
             }
         ],
-        "ref_resolver_context_swaps": {
-            "halakha": [
-                "yerushalmi",
-                "rosh-hashanah"
-            ]
-        },
+        "ref_resolver_context_mutations": [
+            {
+                "op": "swap",
+                "input_terms": [
+                    "halakha"
+                ],
+                "output_terms": [
+                    "yerushalmi",
+                    "rosh-hashanah"
+                ]
+            }
+        ],
         "lengths": [
             4,
             36,
@@ -142,11 +148,6 @@
                 "lang": "he"
             },
             {
-                "text": "תלמוד ירושלמי ראש השנה",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "ירושלמי ר״ה",
                 "lang": "he"
             },
@@ -193,6 +194,11 @@
             {
                 "text": "ירוש', ר”ה",
                 "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי ראש השנה",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Jerusalem Talmud Rosh Hashanah",
@@ -256,7 +262,6 @@
         "ירוש', ר\"ה",
         "ירוש', ראש השנה",
         "ירוש' ראש השנה",
-        "תלמוד ירושלמי ראש השנה",
         "ירושלמי ר״ה",
         "ירושלמי ר”ה",
         "ירושלמי, ר״ה",
@@ -268,7 +273,8 @@
         "ירו', ר״ה",
         "ירו', ר”ה",
         "ירוש', ר״ה",
-        "ירוש', ר”ה"
+        "ירוש', ר”ה",
+        "תלמוד ירושלמי ראש השנה"
     ],
     "alts": {
         "Venice": {
@@ -610,11 +616,6 @@
                     "lang": "he"
                 },
                 {
-                    "text": "תלמוד ירושלמי ראש השנה",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "ירושלמי ר״ה",
                     "lang": "he"
                 },
@@ -661,6 +662,11 @@
                 {
                     "text": "ירוש', ר”ה",
                     "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי ראש השנה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Rosh Hashanah",
@@ -1036,11 +1042,6 @@
                     "lang": "he"
                 },
                 {
-                    "text": "תלמוד ירושלמי ראש השנה",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "ירושלמי ר״ה",
                     "lang": "he"
                 },
@@ -1087,6 +1088,11 @@
                 {
                     "text": "ירוש', ר”ה",
                     "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי ראש השנה",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Rosh Hashanah",

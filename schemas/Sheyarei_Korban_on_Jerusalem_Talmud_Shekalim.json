@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "yerushalmi",
+                    "shekalim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "yerushalmi",
+                    "tractate",
+                    "shekalim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "shekalim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "talmud",
+                    "yerushalmi",
+                    "shekalim"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            26,
+            58,
+            80
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "שיירי קרבן על תלמוד ירושלמי שקלים",

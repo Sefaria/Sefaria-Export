@@ -19,6 +19,24 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "marit-haayin",
+                    "mishnah",
+                    "middot"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            4,
+            4
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "he",

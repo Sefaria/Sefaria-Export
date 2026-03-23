@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "yerushalmi",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "yerushalmi",
+                    "tractate",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "talmud",
+                    "yerushalmi",
+                    "terumot"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            8,
+            13,
+            18
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "תוספות הרי\"ד על תלמוד ירושלמי תרומות",

@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "haggahot-rado",
+                    "yerushalmi",
+                    "challah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-rado",
+                    "yerushalmi",
+                    "tractate",
+                    "challah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-rado",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "challah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-rado",
+                    "talmud",
+                    "yerushalmi",
+                    "challah"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            1,
+            1,
+            1
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "הגהות רד\"א על תלמוד ירושלמי חלה",

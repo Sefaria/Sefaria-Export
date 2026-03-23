@@ -19,7 +19,25 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rambam",
+                    "mishnah",
+                    "orlah"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            35,
+            66
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "רמב\"ם על משנה ערלה",

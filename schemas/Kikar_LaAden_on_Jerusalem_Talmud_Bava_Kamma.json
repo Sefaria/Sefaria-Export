@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "yerushalmi",
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "yerushalmi",
+                    "tractate",
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "talmud",
+                    "yerushalmi",
+                    "bava-kamma"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            17,
+            19,
+            24
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "ככר לאדן על תלמוד ירושלמי בבא קמא",

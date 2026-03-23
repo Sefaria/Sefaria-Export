@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "yerushalmi",
+                    "kilayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "yerushalmi",
+                    "tractate",
+                    "kilayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "kilayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "talmud",
+                    "yerushalmi",
+                    "kilayim"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            22,
+            42,
+            49
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "חידושי רידב\"ז על תלמוד ירושלמי כלאים",

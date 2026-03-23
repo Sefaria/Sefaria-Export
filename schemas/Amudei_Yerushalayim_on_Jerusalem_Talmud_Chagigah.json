@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "yerushalmi",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "yerushalmi",
+                    "tractate",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "talmud",
+                    "yerushalmi",
+                    "chagigah"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            8,
+            9,
+            9
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "עמודי ירושלים על תלמוד ירושלמי חגיגה",

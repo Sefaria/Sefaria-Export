@@ -22,7 +22,25 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "noam-yerushalmi",
+                    "sheviit"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            4,
+            4,
+            32
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "נועם ירושלמי על שביעית",

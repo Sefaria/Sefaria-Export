@@ -19,6 +19,24 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rambam",
+                    "mishnah",
+                    "bava-kamma"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            78,
+            81
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "en",

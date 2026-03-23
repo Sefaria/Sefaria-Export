@@ -18,6 +18,14 @@
             "Daf",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rosh",
+                    "nedarim"
+                ]
+            }
+        ],
         "lengths": [
             182,
             1770
@@ -28,8 +36,7 @@
         ],
         "isSegmentLevelDiburHamatchil": true,
         "diburHamatchilRegexes": [
-            "^<b>(.+?)</b>",
-            "^(.+?)[\\-–]"
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

@@ -17,11 +17,27 @@
             "Chapter",
             "Mishnah"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ben-yehoyada",
+                    "eduyot"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            6
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
-                "primary": true,
+                "text": "בן יהוידע על משנה עדיות",
                 "lang": "he",
-                "text": "בן יהוידע על משנה עדיות"
+                "primary": true
             },
             {
                 "text": "Ben Yehoyada on Eduyot",
@@ -45,6 +61,9 @@
         }
     ],
     "enDesc": "One of the major commentaries on the Aggadah in the Babylonian Talmud. It is one of Rabbi Yosef Hayyim (Ben Ish Chai)'s two works on aggadah, both of which offer analytic as well as kabbalistic interpretations of the Talmud's narrative sections.",
+    "heDesc": "",
+    "enShortDesc": "19th-century commentary by the Ben Ish Chai",
+    "heShortDesc": "פירוש מהמאה ה-19 מאת 'הבן איש חי'",
     "pubDate": [
         1897,
         1903

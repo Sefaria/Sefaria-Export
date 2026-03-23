@@ -19,7 +19,25 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rambam",
+                    "mishnah",
+                    "bava-batra"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            86,
+            86
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "רמב\"ם על משנה בבא בתרא",

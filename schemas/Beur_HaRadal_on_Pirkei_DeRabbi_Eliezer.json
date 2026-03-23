@@ -5,27 +5,27 @@
         "Aggadah"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Chapter",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרק",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "beur-haradal",
+                    "pirkei-derabbi-eliezer"
+                ]
             }
+        ],
+        "lengths": [
+            54,
+            3398
         ],
         "titles": [
             {
@@ -45,6 +45,10 @@
         ],
         "title": "Beur HaRadal on Pirkei DeRabbi Eliezer",
         "heTitle": "ביאור הרד\"ל על פרקי דרבי אליעזר",
+        "heSectionNames": [
+            "פרק",
+            "פסקה"
+        ],
         "key": "Beur HaRadal on Pirkei DeRabbi Eliezer"
     },
     "authors": [
@@ -75,6 +79,11 @@
     "heTitleVariants": [
         "ביאור הרד\"ל על פרקי דרבי אליעזר"
     ],
+    "sectionNames": [
+        "Chapter",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "מדרש",
         "אגדה"

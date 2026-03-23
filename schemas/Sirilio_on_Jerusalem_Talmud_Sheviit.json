@@ -21,7 +21,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "yerushalmi",
+                    "sheviit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "yerushalmi",
+                    "tractate",
+                    "sheviit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "sheviit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "talmud",
+                    "yerushalmi",
+                    "sheviit"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            56,
+            381,
+            2226
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "פירוש שלמה סיריליו על תלמוד ירושלמי שביעית",

@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 4,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Halakhah",
             "Integer",
             "Integer"
@@ -21,6 +21,56 @@
             "Halakhah",
             "Integer",
             "Integer"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "shaarei-torat-eretz-yisrael",
+                    "yerushalmi",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "shaarei-torat-eretz-yisrael",
+                    "yerushalmi",
+                    "tractate",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "shaarei-torat-eretz-yisrael",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "shaarei-torat-eretz-yisrael",
+                    "talmud",
+                    "yerushalmi",
+                    "terumot"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            42,
+            151,
+            187
+        ],
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

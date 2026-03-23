@@ -19,6 +19,24 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "bartenura",
+                    "mishnah",
+                    "nedarim"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            90,
+            331
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "en",

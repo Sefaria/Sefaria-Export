@@ -5,27 +5,27 @@
         "Aggadah"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Chapter",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרק",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "par-echad",
+                    "pirkei-derabbi-eliezer"
+                ]
             }
+        ],
+        "lengths": [
+            54,
+            186
         ],
         "titles": [
             {
@@ -41,6 +41,10 @@
         ],
         "title": "Par Echad on Pirkei DeRabbi Eliezer",
         "heTitle": "פר אחד על פרקי דרבי אליעזר",
+        "heSectionNames": [
+            "פרק",
+            "פסקה"
+        ],
         "key": "Par Echad on Pirkei DeRabbi Eliezer"
     },
     "authors": [
@@ -70,6 +74,11 @@
     "heTitleVariants": [
         "פר אחד על פרקי דרבי אליעזר"
     ],
+    "sectionNames": [
+        "Chapter",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "מדרש",
         "אגדה"

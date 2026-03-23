@@ -48,12 +48,18 @@
                 ]
             }
         ],
-        "ref_resolver_context_swaps": {
-            "halakha": [
-                "yerushalmi",
-                "terumot"
-            ]
-        },
+        "ref_resolver_context_mutations": [
+            {
+                "op": "swap",
+                "input_terms": [
+                    "halakha"
+                ],
+                "output_terms": [
+                    "yerushalmi",
+                    "terumot"
+                ]
+            }
+        ],
         "lengths": [
             11,
             48,

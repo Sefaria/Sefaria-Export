@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "yerushalmi",
+                    "challah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "yerushalmi",
+                    "tractate",
+                    "challah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "challah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "talmud",
+                    "yerushalmi",
+                    "challah"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            5,
+            5,
+            5
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "עמודי ירושלים על תלמוד ירושלמי חלה",

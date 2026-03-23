@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "yerushalmi",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "yerushalmi",
+                    "tractate",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "talmud",
+                    "yerushalmi",
+                    "terumot"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            6,
+            8,
+            8
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "עמודי ירושלים על תלמוד ירושלמי תרומות",

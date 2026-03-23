@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "yerushalmi",
+                    "peah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "yerushalmi",
+                    "tractate",
+                    "peah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "peah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "talmud",
+                    "yerushalmi",
+                    "peah"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            38,
+            84,
+            187
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "חידושי רידב\"ז על תלמוד ירושלמי פאה",

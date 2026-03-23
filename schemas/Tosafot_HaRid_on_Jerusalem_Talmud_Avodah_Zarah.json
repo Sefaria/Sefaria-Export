@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "yerushalmi",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "yerushalmi",
+                    "tractate",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "tosafot-harid",
+                    "talmud",
+                    "yerushalmi",
+                    "avodah-zarah"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            2,
+            2,
+            2
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "תוספות הרי\"ד על תלמוד ירושלמי עבודה זרה",

@@ -5,27 +5,26 @@
         "Rishonim"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Siman",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Siman",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "סימן",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "siddur-rashi"
+                ]
             }
+        ],
+        "lengths": [
+            634,
+            914
         ],
         "titles": [
             {
@@ -41,6 +40,10 @@
         ],
         "title": "Siddur Rashi",
         "heTitle": "סידור רש\"י",
+        "heSectionNames": [
+            "סימן",
+            "פסקה"
+        ],
         "key": "Siddur Rashi"
     },
     "authors": [
@@ -72,6 +75,11 @@
     "heTitleVariants": [
         "סידור רש\"י"
     ],
+    "sectionNames": [
+        "Siman",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "הלכה",
         "ראשונים"

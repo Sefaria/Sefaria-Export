@@ -7,30 +7,30 @@
         "Seder Nezikin"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 3,
+        "addressTypes": [
+            "Integer",
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Chapter",
+            "Mishnah",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 3,
-                "addressTypes": [
-                    "Integer",
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Mishnah",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרק",
-                    "משנה",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "german-commentary",
+                    "pirkei-avot"
+                ]
             }
+        ],
+        "lengths": [
+            6,
+            0,
+            0
         ],
         "titles": [
             {
@@ -46,6 +46,11 @@
         ],
         "title": "German Commentary on Pirkei Avot",
         "heTitle": "פירוש גרמני על משנה אבות",
+        "heSectionNames": [
+            "פרק",
+            "משנה",
+            "פסקה"
+        ],
         "key": "German Commentary on Pirkei Avot"
     },
     "authors": [
@@ -78,6 +83,12 @@
     "heTitleVariants": [
         "פירוש גרמני על משנה אבות"
     ],
+    "sectionNames": [
+        "Chapter",
+        "Mishnah",
+        "Paragraph"
+    ],
+    "depth": 3,
     "heCategories": [
         "משנה",
         "פירושים מודרניים על המשנה",

@@ -20,6 +20,23 @@
             "Halakhah",
             "DH"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "brief-commentary",
+                    "pesachim"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            134,
+            308
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "פירוש קצר על פסחים",

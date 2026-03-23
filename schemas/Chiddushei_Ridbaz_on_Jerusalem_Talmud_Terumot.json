@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "yerushalmi",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "yerushalmi",
+                    "tractate",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "terumot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "talmud",
+                    "yerushalmi",
+                    "terumot"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            40,
+            133,
+            165
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "חידושי רידב\"ז על תלמוד ירושלמי תרומות",

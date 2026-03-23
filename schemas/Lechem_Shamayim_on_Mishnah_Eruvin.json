@@ -19,6 +19,24 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "lechem-shamayim",
+                    "mishnah",
+                    "eruvin"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            45,
+            107
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "לחם שמים על משנה עירובין",

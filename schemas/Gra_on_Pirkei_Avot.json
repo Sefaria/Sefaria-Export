@@ -19,6 +19,23 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "gra",
+                    "pirkei-avot"
+                ]
+            }
+        ],
+        "lengths": [
+            6,
+            86,
+            280
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "primary": true,

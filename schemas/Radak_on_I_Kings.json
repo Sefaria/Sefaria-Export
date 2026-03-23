@@ -19,7 +19,24 @@
             "Verse",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "radak",
+                    "i-kings"
+                ]
+            }
+        ],
+        "lengths": [
+            22,
+            510,
+            850
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -63,7 +80,7 @@
     "dependence": "Commentary",
     "base_text_titles": [
         {
-            "en": "I_Kings",
+            "en": "I Kings",
             "he": "מלכים א"
         }
     ],

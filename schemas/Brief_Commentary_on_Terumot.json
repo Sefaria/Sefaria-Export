@@ -20,6 +20,23 @@
             "Halakhah",
             "DH"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "brief-commentary",
+                    "terumot"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            153,
+            486
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "פירוש קצר על תרומות",

@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "yerushalmi",
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "yerushalmi",
+                    "tractate",
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "horayot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "talmud",
+                    "yerushalmi",
+                    "horayot"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            13,
+            20,
+            24
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "חידושי רידב\"ז על תלמוד ירושלמי הוריות",

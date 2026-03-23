@@ -19,6 +19,24 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "haggahot-yaavetz",
+                    "mishnah",
+                    "peah"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            3,
+            3
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "הגהות יעב\"ץ על משנה פאה",

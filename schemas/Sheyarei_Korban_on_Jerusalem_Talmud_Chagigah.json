@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "yerushalmi",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "yerushalmi",
+                    "tractate",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "chagigah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "talmud",
+                    "yerushalmi",
+                    "chagigah"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            17,
+            35,
+            51
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "שיירי קרבן על תלמוד ירושלמי חגיגה",

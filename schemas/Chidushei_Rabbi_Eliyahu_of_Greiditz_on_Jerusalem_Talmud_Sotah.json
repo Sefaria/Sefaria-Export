@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "yerushalmi",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "yerushalmi",
+                    "tractate",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "sotah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "talmud",
+                    "yerushalmi",
+                    "sotah"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            2,
+            2,
+            2
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "חידושי מהר\"א גריידץ על תלמוד ירושלמי סוטה",

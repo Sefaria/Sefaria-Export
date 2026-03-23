@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "yerushalmi",
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "yerushalmi",
+                    "tractate",
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sheyarei-korban",
+                    "talmud",
+                    "yerushalmi",
+                    "moed-katan"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            16,
+            43,
+            49
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "שיירי קרבן על תלמוד ירושלמי מועד קטן",

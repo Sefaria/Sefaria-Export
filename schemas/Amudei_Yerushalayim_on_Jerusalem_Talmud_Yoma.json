@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "yerushalmi",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "yerushalmi",
+                    "tractate",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "talmud",
+                    "yerushalmi",
+                    "yoma"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            7,
+            7,
+            7
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "עמודי ירושלים על תלמוד ירושלמי יומא",

@@ -19,6 +19,30 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "haggahot-yaavetz",
+                    "derekh-eretz-rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yaavetz",
+                    "tractate",
+                    "derekh-eretz-rabbah"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            7,
+            8
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "הגהות יעב\"ץ על מסכת דרך ארץ רבה",

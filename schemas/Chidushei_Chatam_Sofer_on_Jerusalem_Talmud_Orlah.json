@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "yerushalmi",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "yerushalmi",
+                    "tractate",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "talmud",
+                    "yerushalmi",
+                    "orlah"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            1,
+            1,
+            1
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "חידושי חתם סופר על תלמוד ירושלמי ערלה",

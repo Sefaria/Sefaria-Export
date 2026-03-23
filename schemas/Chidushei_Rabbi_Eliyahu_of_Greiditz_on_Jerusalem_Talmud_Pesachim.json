@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "yerushalmi",
+                    "pesachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "yerushalmi",
+                    "tractate",
+                    "pesachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "pesachim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "talmud",
+                    "yerushalmi",
+                    "pesachim"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            1,
+            1,
+            1
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "חידושי מהר\"א גריידץ על תלמוד ירושלמי פסחים",

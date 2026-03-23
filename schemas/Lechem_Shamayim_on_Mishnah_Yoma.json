@@ -19,6 +19,24 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "lechem-shamayim",
+                    "mishnah",
+                    "yoma"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            46,
+            326
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "לחם שמים על משנה יומא",

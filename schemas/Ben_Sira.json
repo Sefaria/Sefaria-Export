@@ -9,11 +9,28 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "ben-sira"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "ben-sira"
+                ]
+            }
+        ],
+        "lengths": [
+            51,
+            1018
         ],
         "titles": [
             {

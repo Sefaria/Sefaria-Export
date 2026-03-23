@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "yerushalmi",
+                    "shevuot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "yerushalmi",
+                    "tractate",
+                    "shevuot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "shevuot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chiddushei-ridbaz",
+                    "talmud",
+                    "yerushalmi",
+                    "shevuot"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            37,
+            60,
+            78
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "חידושי רידב\"ז על תלמוד ירושלמי שבועות",

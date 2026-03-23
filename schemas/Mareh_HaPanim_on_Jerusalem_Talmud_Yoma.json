@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "yerushalmi",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "yerushalmi",
+                    "tractate",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "yoma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mareh-hapanim",
+                    "talmud",
+                    "yerushalmi",
+                    "yoma"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            42,
+            123,
+            150
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "מראה הפנים על תלמוד ירושלמי יומא",

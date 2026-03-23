@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "yerushalmi",
+                    "challah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "yerushalmi",
+                    "tractate",
+                    "challah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "challah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "talmud",
+                    "yerushalmi",
+                    "challah"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            6,
+            17,
+            18
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "ככר לאדן על תלמוד ירושלמי חלה",

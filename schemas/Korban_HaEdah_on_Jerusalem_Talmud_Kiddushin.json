@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "yerushalmi",
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "yerushalmi",
+                    "tractate",
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "kiddushin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "talmud",
+                    "yerushalmi",
+                    "kiddushin"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            43,
+            315,
+            2300
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "קרבן העדה על תלמוד ירושלמי קידושין",

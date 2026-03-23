@@ -20,6 +20,23 @@
             "Halakhah",
             "DH"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "variants",
+                    "gittin"
+                ]
+            }
+        ],
+        "lengths": [
+            7,
+            83,
+            1355
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "שינויי נוסחאות על גיטין",

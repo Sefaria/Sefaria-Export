@@ -18,6 +18,14 @@
             "Daf",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "maharam-schiff",
+                    "ketubot"
+                ]
+            }
+        ],
         "lengths": [
             224,
             901
@@ -28,8 +36,7 @@
         ],
         "isSegmentLevelDiburHamatchil": true,
         "diburHamatchilRegexes": [
-            "^<b>(.+?)</b>",
-            "^(.+?)[\\-–]"
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

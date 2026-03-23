@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 4,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Halakhah",
             "Integer",
             "Integer"
@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "yerushalmi",
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "yerushalmi",
+                    "tractate",
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "rosh-hashanah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "talmud",
+                    "yerushalmi",
+                    "rosh-hashanah"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            36,
+            150,
+            669
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "פני משה על תלמוד ירושלמי ראש השנה",

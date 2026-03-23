@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "yerushalmi",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "yerushalmi",
+                    "tractate",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "amudei-yerushalayim",
+                    "talmud",
+                    "yerushalmi",
+                    "shabbat"
+                ]
+            }
+        ],
+        "lengths": [
+            24,
+            19,
+            34,
+            38
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "עמודי ירושלים על תלמוד ירושלמי שבת",

@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "yerushalmi",
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "yerushalmi",
+                    "tractate",
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "moed-katan"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "talmud",
+                    "yerushalmi",
+                    "moed-katan"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            2,
+            3,
+            4
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "חידושי חתם סופר על תלמוד ירושלמי מועד קטן",

@@ -17,9 +17,17 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "benayahu",
+                    "berakhot"
+                ]
+            }
+        ],
         "lengths": [
             127,
-            66
+            166
         ],
         "referenceableSections": [
             true,
@@ -27,8 +35,7 @@
         ],
         "isSegmentLevelDiburHamatchil": true,
         "diburHamatchilRegexes": [
-            "^<b>(.+?)</b>",
-            "^(.+?)[\\-–]"
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "yerushalmi",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "yerushalmi",
+                    "tractate",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "avodah-zarah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "talmud",
+                    "yerushalmi",
+                    "avodah-zarah"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            34,
+            67,
+            85
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "ככר לאדן על תלמוד ירושלמי עבודה זרה",

@@ -22,7 +22,25 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "noam-yerushalmi",
+                    "moed-katan"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            4,
+            5,
+            84
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "נועם ירושלמי על מועד קטן",

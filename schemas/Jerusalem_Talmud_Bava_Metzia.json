@@ -48,12 +48,18 @@
                 ]
             }
         ],
-        "ref_resolver_context_swaps": {
-            "halakha": [
-                "yerushalmi",
-                "bava-metzia"
-            ]
-        },
+        "ref_resolver_context_mutations": [
+            {
+                "op": "swap",
+                "input_terms": [
+                    "halakha"
+                ],
+                "output_terms": [
+                    "yerushalmi",
+                    "bava-metzia"
+                ]
+            }
+        ],
         "lengths": [
             10,
             84,
@@ -130,11 +136,6 @@
                 "lang": "he"
             },
             {
-                "text": "תלמוד ירושלמי בבא מציעא",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "ירושלמי, ב״מ",
                 "lang": "he"
             },
@@ -173,6 +174,11 @@
             {
                 "text": "תלמוד ירושלמי, ב”מ",
                 "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי בבא מציעא",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Jerusalem Talmud Bava Metzia",
@@ -233,7 +239,6 @@
         "תלמוד ירושלמי, בבא מציעא",
         "ירוש' בבא מציעא",
         "ירו' בבא מציעא",
-        "תלמוד ירושלמי בבא מציעא",
         "ירושלמי, ב״מ",
         "ירושלמי, ב”מ",
         "ירושלמי ב״מ",
@@ -243,7 +248,8 @@
         "ירו' ב״מ",
         "ירו' ב”מ",
         "תלמוד ירושלמי, ב״מ",
-        "תלמוד ירושלמי, ב”מ"
+        "תלמוד ירושלמי, ב”מ",
+        "תלמוד ירושלמי בבא מציעא"
     ],
     "alts": {
         "Venice": {
@@ -925,11 +931,6 @@
                     "lang": "he"
                 },
                 {
-                    "text": "תלמוד ירושלמי בבא מציעא",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "ירושלמי, ב״מ",
                     "lang": "he"
                 },
@@ -968,6 +969,11 @@
                 {
                     "text": "תלמוד ירושלמי, ב”מ",
                     "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי בבא מציעא",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Bava Metzia",
@@ -1709,11 +1715,6 @@
                     "lang": "he"
                 },
                 {
-                    "text": "תלמוד ירושלמי בבא מציעא",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "ירושלמי, ב״מ",
                     "lang": "he"
                 },
@@ -1752,6 +1753,11 @@
                 {
                     "text": "תלמוד ירושלמי, ב”מ",
                     "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי בבא מציעא",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Bava Metzia",

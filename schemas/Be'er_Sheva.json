@@ -5,27 +5,26 @@
         "Acharonim"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Siman",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Siman",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "סימן",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "beer-sheva"
+                ]
             }
+        ],
+        "lengths": [
+            75,
+            828
         ],
         "titles": [
             {
@@ -45,6 +44,10 @@
         ],
         "title": "Be'er Sheva",
         "heTitle": "באר שבע",
+        "heSectionNames": [
+            "סימן",
+            "פסקה"
+        ],
         "key": "Be'er Sheva"
     },
     "authors": [
@@ -66,6 +69,11 @@
     "heTitleVariants": [
         "באר שבע"
     ],
+    "sectionNames": [
+        "Siman",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "שו\"ת",
         "אחרונים"

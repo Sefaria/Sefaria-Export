@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 4,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Integer",
             "Integer",
             "Integer"
@@ -22,7 +22,47 @@
             "Midrash",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "etz-yosef",
+                    "ecclesiastes",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "etz-yosef",
+                    "midrash",
+                    "ecclesiastes",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "etz-yosef",
+                    "midrash-rabbah",
+                    "ecclesiastes"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            181,
+            252,
+            2154
+        ],
         "toc_zoom": 3,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "primary": true,

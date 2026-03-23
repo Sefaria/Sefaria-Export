@@ -20,19 +20,30 @@
                     "Seif Katan",
                     "Paragraph"
                 ],
-                "titles": [
+                "match_templates": [
                     {
-                        "lang": "en",
-                        "text": "Orach Chaim",
-                        "primary": true
-                    },
+                        "term_slugs": [
+                            "orach-chayim"
+                        ]
+                    }
+                ],
+                "titles": [
                     {
                         "lang": "he",
                         "text": "אורח חיים",
                         "primary": true
+                    },
+                    {
+                        "text": "Orach Chayim",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "Orach Chaim",
+                        "lang": "en"
                     }
                 ],
-                "title": "Orach Chaim",
+                "title": "Orach Chayim",
                 "heTitle": "אורח חיים",
                 "heSectionNames": [
                     "סימן",
@@ -54,19 +65,30 @@
                     "Seif Katan",
                     "Paragraph"
                 ],
-                "titles": [
+                "match_templates": [
                     {
-                        "lang": "en",
-                        "text": "Yoreh Deah",
-                        "primary": true
-                    },
+                        "term_slugs": [
+                            "yoreh-deah"
+                        ]
+                    }
+                ],
+                "titles": [
                     {
                         "lang": "he",
                         "text": "יורה דעה",
                         "primary": true
+                    },
+                    {
+                        "text": "Yoreh De'ah",
+                        "lang": "en",
+                        "primary": true
+                    },
+                    {
+                        "text": "Yoreh Deah",
+                        "lang": "en"
                     }
                 ],
-                "title": "Yoreh Deah",
+                "title": "Yoreh De'ah",
                 "heTitle": "יורה דעה",
                 "heSectionNames": [
                     "סימן",
@@ -87,6 +109,13 @@
                     "Siman",
                     "Seif Katan",
                     "Paragraph"
+                ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "even-haezer"
+                        ]
+                    }
                 ],
                 "titles": [
                     {
@@ -122,6 +151,13 @@
                     "Seif",
                     "Seif Katan"
                 ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "choshen-mishpat"
+                        ]
+                    }
+                ],
                 "titles": [
                     {
                         "lang": "en",
@@ -142,6 +178,14 @@
                     "סעיף קטן"
                 ],
                 "key": "ChoshenMishpat"
+            }
+        ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "bach"
+                ]
             }
         ],
         "titles": [

@@ -21,7 +21,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "beur-hagra",
+                    "yerushalmi",
+                    "sheviit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "beur-hagra",
+                    "yerushalmi",
+                    "tractate",
+                    "sheviit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "beur-hagra",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "sheviit"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "beur-hagra",
+                    "talmud",
+                    "yerushalmi",
+                    "sheviit"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            48,
+            215,
+            844
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "ביאור הגר\"א על תלמוד ירושלמי שביעית",

@@ -8,12 +8,29 @@
         "nodeType": "JaggedArrayNode",
         "depth": 2,
         "addressTypes": [
-            "Integer",
-            "Integer"
+            "Siman",
+            "Seif"
         ],
         "sectionNames": [
             "Teshuva",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "teshuvot",
+                    "harashbash"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "harashbash"
+                ]
+            }
+        ],
+        "lengths": [
+            1008,
+            6
         ],
         "titles": [
             {

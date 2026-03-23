@@ -20,6 +20,23 @@
             "Halakhah",
             "DH"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "masoret-hatosefta",
+                    "bava-batra"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            138,
+            293
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "מסורת התוספתא על בבא בתרא",

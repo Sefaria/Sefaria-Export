@@ -7,27 +7,27 @@
         "Chiddushei HaRim"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "chiddushei-harim",
+                    "kiddushin"
+                ]
             }
+        ],
+        "lengths": [
+            164,
+            447
         ],
         "titles": [
             {
@@ -47,6 +47,10 @@
         ],
         "title": "Chiddushei HaRim on Kiddushin",
         "heTitle": "חידושי הרי\"מ על קידושין",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Chiddushei HaRim on Kiddushin"
     },
     "order": [
@@ -89,6 +93,11 @@
         "חידושי הרי\"מ על קידושין",
         "חידושי הרי\"ם על קידושין"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

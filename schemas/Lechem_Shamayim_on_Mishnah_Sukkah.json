@@ -19,6 +19,24 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "lechem-shamayim",
+                    "mishnah",
+                    "sukkah"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            36,
+            164
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "לחם שמים על משנה סוכה",

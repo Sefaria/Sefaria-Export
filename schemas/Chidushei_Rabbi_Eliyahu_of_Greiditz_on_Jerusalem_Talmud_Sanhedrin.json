@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "yerushalmi",
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "yerushalmi",
+                    "tractate",
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "sanhedrin"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-rabbi-eliyahu-of-greiditz",
+                    "talmud",
+                    "yerushalmi",
+                    "sanhedrin"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            4,
+            6,
+            7
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "חידושי מהר\"א גריידץ על תלמוד ירושלמי סנהדרין",

@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 4,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Halakhah",
             "Integer",
             "Integer"
@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "yerushalmi",
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "yerushalmi",
+                    "tractate",
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "bava-kamma"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "talmud",
+                    "yerushalmi",
+                    "bava-kamma"
+                ]
+            }
+        ],
+        "lengths": [
+            10,
+            85,
+            272,
+            1537
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "פני משה על תלמוד ירושלמי בבא קמא",

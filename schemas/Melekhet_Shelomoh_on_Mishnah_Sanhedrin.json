@@ -19,6 +19,24 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "melekhet-shelomoh",
+                    "mishnah",
+                    "sanhedrin"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            71,
+            404
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "he",

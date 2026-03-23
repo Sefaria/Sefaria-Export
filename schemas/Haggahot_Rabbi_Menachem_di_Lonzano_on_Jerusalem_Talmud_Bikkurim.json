@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "haggahot-rabbi-menachem-di-lonzano",
+                    "yerushalmi",
+                    "bikkurim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-rabbi-menachem-di-lonzano",
+                    "yerushalmi",
+                    "tractate",
+                    "bikkurim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-rabbi-menachem-di-lonzano",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "bikkurim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-rabbi-menachem-di-lonzano",
+                    "talmud",
+                    "yerushalmi",
+                    "bikkurim"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            1,
+            2,
+            2
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "הגהות מהר\"ם די לונזאנו על תלמוד ירושלמי בכורים",

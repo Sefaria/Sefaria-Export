@@ -21,7 +21,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "yerushalmi",
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "yerushalmi",
+                    "tractate",
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "talmud",
+                    "yerushalmi",
+                    "berakhot"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            58,
+            584,
+            2025
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "פירוש שלמה סיריליו על תלמוד ירושלמי ברכות",

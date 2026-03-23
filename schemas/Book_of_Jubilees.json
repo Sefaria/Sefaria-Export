@@ -9,11 +9,28 @@
         "depth": 2,
         "addressTypes": [
             "Perek",
-            "Integer"
+            "Pasuk"
         ],
         "sectionNames": [
             "Chapter",
             "Verse"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "jubilees"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "jubilees"
+                ]
+            }
+        ],
+        "lengths": [
+            50,
+            1757
         ],
         "titles": [
             {

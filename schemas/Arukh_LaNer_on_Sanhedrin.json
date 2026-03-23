@@ -6,27 +6,27 @@
         "Acharonim on Talmud"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "arukh-laner",
+                    "sanhedrin"
+                ]
             }
+        ],
+        "lengths": [
+            226,
+            1455
         ],
         "titles": [
             {
@@ -42,6 +42,10 @@
         ],
         "title": "Arukh LaNer on Sanhedrin",
         "heTitle": "ערוך לנר על סנהדרין",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Arukh LaNer on Sanhedrin"
     },
     "order": [
@@ -80,6 +84,11 @@
     "heTitleVariants": [
         "ערוך לנר על סנהדרין"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

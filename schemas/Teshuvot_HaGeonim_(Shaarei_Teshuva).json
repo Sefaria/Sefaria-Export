@@ -5,27 +5,27 @@
         "Geonim"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Siman",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Siman",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "סימן",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "teshuvot",
+                    "hageonim-(shaarei-teshuva)"
+                ]
             }
+        ],
+        "lengths": [
+            352,
+            706
         ],
         "titles": [
             {
@@ -41,6 +41,10 @@
         ],
         "title": "Teshuvot HaGeonim (Shaarei Teshuva)",
         "heTitle": "תשובות הגאונים (שערי תשובה)",
+        "heSectionNames": [
+            "סימן",
+            "פסקה"
+        ],
         "key": "Teshuvot HaGeonim (Shaarei Teshuva)"
     },
     "heTitle": "תשובות הגאונים (שערי תשובה)",
@@ -50,6 +54,11 @@
     "heTitleVariants": [
         "תשובות הגאונים (שערי תשובה)"
     ],
+    "sectionNames": [
+        "Siman",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "שו\"ת",
         "גאונים"

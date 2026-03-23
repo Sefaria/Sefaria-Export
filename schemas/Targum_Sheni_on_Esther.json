@@ -7,30 +7,30 @@
         "Writings"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 3,
+        "addressTypes": [
+            "Integer",
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Chapter",
+            "Verse",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 3,
-                "addressTypes": [
-                    "Integer",
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Verse",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרק",
-                    "פסוק",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "targum-sheni",
+                    "esther"
+                ]
             }
+        ],
+        "lengths": [
+            10,
+            164,
+            301
         ],
         "titles": [
             {
@@ -46,6 +46,11 @@
         ],
         "title": "Targum Sheni on Esther",
         "heTitle": "תרגום שני על אסתר",
+        "heSectionNames": [
+            "פרק",
+            "פסוק",
+            "פסקה"
+        ],
         "key": "Targum Sheni on Esther"
     },
     "authors": [],
@@ -71,6 +76,12 @@
     "heTitleVariants": [
         "תרגום שני על אסתר"
     ],
+    "sectionNames": [
+        "Chapter",
+        "Verse",
+        "Paragraph"
+    ],
+    "depth": 3,
     "heCategories": [
         "תנ\"ך",
         "תרגומים",

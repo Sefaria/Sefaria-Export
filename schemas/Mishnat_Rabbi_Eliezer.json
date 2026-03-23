@@ -5,27 +5,26 @@
         "Aggadah"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Parasha",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Parasha",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרשה",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "mishnat-rabbi-eliezer"
+                ]
             }
+        ],
+        "lengths": [
+            20,
+            589
         ],
         "titles": [
             {
@@ -73,8 +72,17 @@
         ],
         "title": "Mishnat Rabbi Eliezer",
         "heTitle": "משנת רבי אליעזר",
+        "heSectionNames": [
+            "פרשה",
+            "פסקה"
+        ],
         "key": "Mishnat Rabbi Eliezer"
     },
+    "authors": [],
+    "enDesc": "",
+    "heDesc": "",
+    "enShortDesc": "",
+    "heShortDesc": "",
     "pubDate": [
         1933
     ],
@@ -83,7 +91,7 @@
         350,
         400
     ],
-    "pubPlace": "New York",
+    "pubPlace": "",
     "era": "A",
     "heTitle": "משנת רבי אליעזר",
     "titleVariants": [
@@ -100,6 +108,11 @@
         "מישנת רבי אליעזר",
         "מדרש שלשים שתים מדות"
     ],
+    "sectionNames": [
+        "Parasha",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "מדרש",
         "אגדה"
@@ -111,9 +124,5 @@
     "pubDateString": {
         "en": " (1933 CE)",
         "he": " (1933 לספירה)"
-    },
-    "pubPlaceString": {
-        "en": "New York",
-        "he": "ניו יורק"
     }
 }

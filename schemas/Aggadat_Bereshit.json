@@ -5,27 +5,26 @@
         "Aggadah"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Chapter",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרק",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "aggadat-bereshit"
+                ]
             }
+        ],
+        "lengths": [
+            84,
+            222
         ],
         "titles": [
             {
@@ -41,6 +40,10 @@
         ],
         "title": "Aggadat Bereshit",
         "heTitle": "אגדת בראשית",
+        "heSectionNames": [
+            "פרק",
+            "פסקה"
+        ],
         "key": "Aggadat Bereshit"
     },
     "enDesc": "Aggadat Bereshit is a compilation of midrash on the Book of Genesis, likely compiled in the 9th or 10th century. Its 28 sections each contain interpretations on one verse of the weekly Torah portion according to the triennial Torah cycle, one verse of Prophets (usually from the corresponding haftarah), and one verse of Psalms. In early medieval sources, the work is referred to by other titles, including Seder Eliyahu Rabbah.",
@@ -53,6 +56,11 @@
     "heTitleVariants": [
         "אגדת בראשית"
     ],
+    "sectionNames": [
+        "Chapter",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "מדרש",
         "אגדה"

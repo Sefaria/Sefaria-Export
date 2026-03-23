@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "haggahot-rado",
+                    "yerushalmi",
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-rado",
+                    "yerushalmi",
+                    "tractate",
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-rado",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "berakhot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-rado",
+                    "talmud",
+                    "yerushalmi",
+                    "berakhot"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            29,
+            66,
+            79
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "הגהות רד\"א על תלמוד ירושלמי ברכות",

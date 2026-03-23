@@ -19,6 +19,30 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "nachalat-yaakov",
+                    "kallah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "nachalat-yaakov",
+                    "tractate",
+                    "kallah"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            25,
+            106
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "he",

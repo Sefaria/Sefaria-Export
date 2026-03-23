@@ -18,7 +18,25 @@
             "Mishnah",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rash-mishantz",
+                    "mishnah",
+                    "makhshirin"
+                ]
+            }
+        ],
+        "lengths": [
+            6,
+            54,
+            219
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "primary": true,

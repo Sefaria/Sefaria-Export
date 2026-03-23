@@ -48,12 +48,18 @@
                 ]
             }
         ],
-        "ref_resolver_context_swaps": {
-            "halakha": [
-                "yerushalmi",
-                "challah"
-            ]
-        },
+        "ref_resolver_context_mutations": [
+            {
+                "op": "swap",
+                "input_terms": [
+                    "halakha"
+                ],
+                "output_terms": [
+                    "yerushalmi",
+                    "challah"
+                ]
+            }
+        ],
         "lengths": [
             4,
             19,

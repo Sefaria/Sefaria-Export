@@ -7,27 +7,27 @@
         "Tziyyun LeNefesh Chayyah"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "tziyyun-lenefesh-chayyah",
+                    "taanit1"
+                ]
             }
+        ],
+        "lengths": [
+            61,
+            2
         ],
         "titles": [
             {
@@ -43,6 +43,10 @@
         ],
         "title": "Tziyyun LeNefesh Chayyah on Taanit",
         "heTitle": "ציון לנפש חיה על תענית",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Tziyyun LeNefesh Chayyah on Taanit"
     },
     "authors": [
@@ -74,6 +78,11 @@
     "heTitleVariants": [
         "ציון לנפש חיה על תענית"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

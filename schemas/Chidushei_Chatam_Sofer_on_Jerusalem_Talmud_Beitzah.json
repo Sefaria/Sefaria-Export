@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "yerushalmi",
+                    "beitzah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "yerushalmi",
+                    "tractate",
+                    "beitzah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "beitzah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-chatam-sofer",
+                    "talmud",
+                    "yerushalmi",
+                    "beitzah"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            7,
+            7,
+            8
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "חידושי חתם סופר על תלמוד ירושלמי ביצה",

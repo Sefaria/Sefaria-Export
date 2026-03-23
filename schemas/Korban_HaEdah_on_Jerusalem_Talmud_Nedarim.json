@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "yerushalmi",
+                    "nedarim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "yerushalmi",
+                    "tractate",
+                    "nedarim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "nedarim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "korban-haedah",
+                    "talmud",
+                    "yerushalmi",
+                    "nedarim"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            93,
+            334,
+            1709
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "קרבן העדה על תלמוד ירושלמי נדרים",

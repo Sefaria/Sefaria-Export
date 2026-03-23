@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "yerushalmi",
+                    "shekalim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "yerushalmi",
+                    "tractate",
+                    "shekalim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "shekalim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "penei-moshe",
+                    "talmud",
+                    "yerushalmi",
+                    "shekalim"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            32,
+            192,
+            892
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "פני משה על תלמוד ירושלמי שקלים",

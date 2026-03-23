@@ -7,27 +7,27 @@
         "Chiddushei HaRa'ah"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "chiddushei-haraah",
+                    "ketubot"
+                ]
             }
+        ],
+        "lengths": [
+            224,
+            681
         ],
         "titles": [
             {
@@ -43,6 +43,10 @@
         ],
         "title": "Chiddushei HaRa'ah on Ketubot",
         "heTitle": "חדושי הרא\"ה על כתובות",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Chiddushei HaRa'ah on Ketubot"
     },
     "authors": [
@@ -78,6 +82,11 @@
     "heTitleVariants": [
         "חדושי הרא\"ה על כתובות"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

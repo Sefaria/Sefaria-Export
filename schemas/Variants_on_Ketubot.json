@@ -20,6 +20,23 @@
             "Halakhah",
             "DH"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "variants",
+                    "ketubot"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            100,
+            2139
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "שינויי נוסחאות על כתובות",

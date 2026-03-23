@@ -20,6 +20,49 @@
             "Halakhah",
             "Segment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "steinsaltz",
+                    "yerushalmi",
+                    "shekalim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "steinsaltz",
+                    "yerushalmi",
+                    "tractate",
+                    "shekalim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "steinsaltz",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "shekalim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "steinsaltz",
+                    "talmud",
+                    "yerushalmi",
+                    "shekalim"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            32,
+            226
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "ביאור שטיינזלץ על תלמוד ירושלמי שקלים",

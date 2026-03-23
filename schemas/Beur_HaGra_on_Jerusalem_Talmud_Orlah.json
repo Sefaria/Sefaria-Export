@@ -21,7 +21,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "beur-hagra",
+                    "yerushalmi",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "beur-hagra",
+                    "yerushalmi",
+                    "tractate",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "beur-hagra",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "orlah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "beur-hagra",
+                    "talmud",
+                    "yerushalmi",
+                    "orlah"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            21,
+            152,
+            670
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "ביאור הגר\"א על תלמוד ירושלמי ערלה",

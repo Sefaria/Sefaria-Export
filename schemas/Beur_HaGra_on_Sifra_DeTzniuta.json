@@ -5,27 +5,27 @@
         "Zohar"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Chapter",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרק",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "beur-hagra",
+                    "sifra-detzniuta"
+                ]
             }
+        ],
+        "lengths": [
+            5,
+            297
         ],
         "titles": [
             {
@@ -49,6 +49,10 @@
         ],
         "title": "Beur HaGra on Sifra DeTzniuta",
         "heTitle": "ביאור הגר\"א על ספרא דצניעותא",
+        "heSectionNames": [
+            "פרק",
+            "פסקה"
+        ],
         "key": "Beur HaGra on Sifra DeTzniuta"
     },
     "order": [
@@ -93,6 +97,11 @@
         "ביאור הגר\"א על ספרא דצניעותא",
         "פירוש הגר\"א על ספרא דצניעותא"
     ],
+    "sectionNames": [
+        "Chapter",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "קבלה",
         "זהר"

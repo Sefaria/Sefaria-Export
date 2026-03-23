@@ -19,6 +19,30 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "haggahot-yaavetz",
+                    "soferim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yaavetz",
+                    "tractate",
+                    "soferim"
+                ]
+            }
+        ],
+        "lengths": [
+            21,
+            9,
+            11
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "הגהות יעב\"ץ על מסכת סופרים",

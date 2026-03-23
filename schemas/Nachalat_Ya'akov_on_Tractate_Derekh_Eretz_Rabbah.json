@@ -19,6 +19,30 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "nachalat-yaakov",
+                    "derekh-eretz-rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "nachalat-yaakov",
+                    "tractate",
+                    "derekh-eretz-rabbah"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            75,
+            171
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "he",

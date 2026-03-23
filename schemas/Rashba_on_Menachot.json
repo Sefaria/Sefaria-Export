@@ -18,6 +18,14 @@
             "Daf",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rashba-(attributed)",
+                    "menachot"
+                ]
+            }
+        ],
         "lengths": [
             219,
             394
@@ -28,8 +36,7 @@
         ],
         "isSegmentLevelDiburHamatchil": true,
         "diburHamatchilRegexes": [
-            "^<b>(.+?)</b>",
-            "^(.+?)[\\-–]"
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

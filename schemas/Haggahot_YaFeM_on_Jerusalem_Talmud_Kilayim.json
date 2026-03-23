@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "yerushalmi",
+                    "kilayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "yerushalmi",
+                    "tractate",
+                    "kilayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "kilayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "talmud",
+                    "yerushalmi",
+                    "kilayim"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            8,
+            8,
+            9
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "הגהות יפ\"מ על תלמוד ירושלמי כלאים",

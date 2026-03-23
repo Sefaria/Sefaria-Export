@@ -19,7 +19,25 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rambam",
+                    "mishnah",
+                    "terumot"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            100,
+            154
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^(.*?)\\."
+        ],
         "titles": [
             {
                 "text": "רמב\"ם על משנה תרומות",

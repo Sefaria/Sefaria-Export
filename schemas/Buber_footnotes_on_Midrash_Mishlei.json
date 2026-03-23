@@ -17,6 +17,23 @@
             "Verse",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "buber-footnotes",
+                    "midrash-mishlei"
+                ]
+            }
+        ],
+        "lengths": [
+            31,
+            14,
+            25
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^(.+?)[\\-–]"
+        ],
         "titles": [
             {
                 "lang": "en",

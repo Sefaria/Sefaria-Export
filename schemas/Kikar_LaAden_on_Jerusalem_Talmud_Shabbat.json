@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "yerushalmi",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "yerushalmi",
+                    "tractate",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "shabbat"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kikar-laaden",
+                    "talmud",
+                    "yerushalmi",
+                    "shabbat"
+                ]
+            }
+        ],
+        "lengths": [
+            24,
+            34,
+            57,
+            66
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "ככר לאדן על תלמוד ירושלמי שבת",

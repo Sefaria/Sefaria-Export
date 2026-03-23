@@ -7,27 +7,27 @@
         "Gevurat Ari"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "gevurat-ari",
+                    "taanit1"
+                ]
             }
+        ],
+        "lengths": [
+            61,
+            388
         ],
         "titles": [
             {
@@ -43,6 +43,10 @@
         ],
         "title": "Gevurat Ari on Taanit",
         "heTitle": "גבורת ארי על תענית",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Gevurat Ari on Taanit"
     },
     "authors": [
@@ -77,6 +81,11 @@
     "heTitleVariants": [
         "גבורת ארי על תענית"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

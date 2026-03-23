@@ -48,12 +48,18 @@
                 ]
             }
         ],
-        "ref_resolver_context_swaps": {
-            "halakha": [
-                "yerushalmi",
-                "makkot"
-            ]
-        },
+        "ref_resolver_context_mutations": [
+            {
+                "op": "swap",
+                "input_terms": [
+                    "halakha"
+                ],
+                "output_terms": [
+                    "yerushalmi",
+                    "makkot"
+                ]
+            }
+        ],
         "lengths": [
             3,
             28,

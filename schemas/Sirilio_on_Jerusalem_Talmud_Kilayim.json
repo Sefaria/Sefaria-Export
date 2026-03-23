@@ -21,7 +21,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "yerushalmi",
+                    "kilayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "yerushalmi",
+                    "tractate",
+                    "kilayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "kilayim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "sirilio",
+                    "talmud",
+                    "yerushalmi",
+                    "kilayim"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            56,
+            314,
+            1789
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "פירוש שלמה סיריליו על תלמוד ירושלמי כלאים",

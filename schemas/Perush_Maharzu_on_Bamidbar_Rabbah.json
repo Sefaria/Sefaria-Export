@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Integer",
             "Integer"
         ],
@@ -19,6 +19,39 @@
             "Chapter",
             "Paragraph",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "perush-maharzu",
+                    "numbers",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "perush-maharzu",
+                    "midrash",
+                    "numbers",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "perush-maharzu",
+                    "midrash-rabbah",
+                    "numbers"
+                ]
+            }
+        ],
+        "lengths": [
+            23,
+            432,
+            4109
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

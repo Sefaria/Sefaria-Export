@@ -19,6 +19,24 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "haggahot-yaavetz",
+                    "mishnah",
+                    "challah"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            2,
+            2
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "הגהות יעב\"ץ על משנה חלה",

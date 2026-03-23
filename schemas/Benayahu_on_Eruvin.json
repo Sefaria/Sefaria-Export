@@ -17,9 +17,17 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "benayahu",
+                    "eruvin"
+                ]
+            }
+        ],
         "lengths": [
             209,
-            21
+            64
         ],
         "referenceableSections": [
             true,
@@ -27,8 +35,7 @@
         ],
         "isSegmentLevelDiburHamatchil": true,
         "diburHamatchilRegexes": [
-            "^<b>(.+?)</b>",
-            "^(.+?)[\\-–]"
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

@@ -48,12 +48,18 @@
                 ]
             }
         ],
-        "ref_resolver_context_swaps": {
-            "halakha": [
-                "yerushalmi",
-                "maaser-sheni"
-            ]
-        },
+        "ref_resolver_context_mutations": [
+            {
+                "op": "swap",
+                "input_terms": [
+                    "halakha"
+                ],
+                "output_terms": [
+                    "yerushalmi",
+                    "maaser-sheni"
+                ]
+            }
+        ],
         "lengths": [
             5,
             24,
@@ -134,11 +140,6 @@
                 "lang": "he"
             },
             {
-                "text": "תלמוד ירושלמי מעשר שני",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "ירושלמי מ״ש",
                 "lang": "he"
             },
@@ -185,6 +186,11 @@
             {
                 "text": "ירו', מ”ש",
                 "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי מעשר שני",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Jerusalem Talmud Maaser Sheni",
@@ -246,7 +252,6 @@
         "ירו', מ\"ש",
         "ירוש' מעשר שני",
         "ירו' מעשר שני",
-        "תלמוד ירושלמי מעשר שני",
         "ירושלמי מ״ש",
         "ירושלמי מ”ש",
         "ירוש' מ״ש",
@@ -258,7 +263,8 @@
         "ירוש', מ״ש",
         "ירוש', מ”ש",
         "ירו', מ״ש",
-        "ירו', מ”ש"
+        "ירו', מ”ש",
+        "תלמוד ירושלמי מעשר שני"
     ],
     "alts": {
         "Venice": {
@@ -653,11 +659,6 @@
                     "lang": "he"
                 },
                 {
-                    "text": "תלמוד ירושלמי מעשר שני",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "ירושלמי מ״ש",
                     "lang": "he"
                 },
@@ -704,6 +705,11 @@
                 {
                     "text": "ירו', מ”ש",
                     "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי מעשר שני",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Maaser Sheni",
@@ -1152,11 +1158,6 @@
                     "lang": "he"
                 },
                 {
-                    "text": "תלמוד ירושלמי מעשר שני",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "ירושלמי מ״ש",
                     "lang": "he"
                 },
@@ -1203,6 +1204,11 @@
                 {
                     "text": "ירו', מ”ש",
                     "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי מעשר שני",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Maaser Sheni",

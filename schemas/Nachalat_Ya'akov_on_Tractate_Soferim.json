@@ -19,6 +19,30 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "nachalat-yaakov",
+                    "soferim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "nachalat-yaakov",
+                    "tractate",
+                    "soferim"
+                ]
+            }
+        ],
+        "lengths": [
+            21,
+            214,
+            937
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "he",

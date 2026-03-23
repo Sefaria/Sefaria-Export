@@ -7,27 +7,27 @@
         "Tziyyun LeNefesh Chayyah"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "tziyyun-lenefesh-chayyah",
+                    "rosh-hashanah"
+                ]
             }
+        ],
+        "lengths": [
+            69,
+            41
         ],
         "titles": [
             {
@@ -43,6 +43,10 @@
         ],
         "title": "Tziyyun LeNefesh Chayyah on Rosh Hashanah",
         "heTitle": "ציון לנפש חיה על ראש השנה",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Tziyyun LeNefesh Chayyah on Rosh Hashanah"
     },
     "authors": [
@@ -74,6 +78,11 @@
     "heTitleVariants": [
         "ציון לנפש חיה על ראש השנה"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

@@ -17,6 +17,23 @@
             "Chapter",
             "comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "boaz",
+                    "mishnah",
+                    "makkot"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            12
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^(.*?)\\."
+        ],
         "titles": [
             {
                 "lang": "he",

@@ -20,6 +20,23 @@
             "Halakhah",
             "DH"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "variants",
+                    "megillah"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            80,
+            1088
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "שינויי נוסחאות על מגילה",

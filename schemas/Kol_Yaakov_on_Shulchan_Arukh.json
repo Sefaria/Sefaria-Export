@@ -2,7 +2,8 @@
     "title": "Kol Yaakov on Shulchan Arukh",
     "categories": [
         "Halakhah",
-        "Acharonim"
+        "Shulchan Arukh",
+        "Commentary"
     ],
     "schema": {
         "nodes": [
@@ -18,6 +19,13 @@
                     "Siman",
                     "Section",
                     "Paragraph"
+                ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "orach-chayim"
+                        ]
+                    }
                 ],
                 "titles": [
                     {
@@ -53,6 +61,13 @@
                     "Section",
                     "Paragraph"
                 ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "yoreh-deah"
+                        ]
+                    }
+                ],
                 "titles": [
                     {
                         "text": "יורה דעה",
@@ -73,6 +88,20 @@
                     "פסקה"
                 ],
                 "key": "Yoreh De'a"
+            }
+        ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kol-yaakov",
+                    "shulchan-arukh"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kol-yaakov"
+                ]
             }
         ],
         "titles": [
@@ -136,6 +165,7 @@
     ],
     "heCategories": [
         "הלכה",
-        "אחרונים"
+        "שולחן ערוך",
+        "מפרשים"
     ]
 }

@@ -7,27 +7,27 @@
         "Chiddushei HaRim"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "chiddushei-harim",
+                    "bava-batra"
+                ]
             }
+        ],
+        "lengths": [
+            352,
+            261
         ],
         "titles": [
             {
@@ -47,6 +47,10 @@
         ],
         "title": "Chiddushei HaRim on Bava Batra",
         "heTitle": "חידושי הרי\"מ על בבא בתרא",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Chiddushei HaRim on Bava Batra"
     },
     "order": [
@@ -89,6 +93,11 @@
         "חידושי הרי\"מ על בבא בתרא",
         "חידושי הרי\"ם על בבא בתרא"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

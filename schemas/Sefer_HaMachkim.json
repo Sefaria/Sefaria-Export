@@ -5,24 +5,24 @@
         "Rishonim"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+            "Integer"
+        ],
+        "sectionNames": [
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 1,
-                "addressTypes": [
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "sefer",
+                    "hamachkim"
+                ]
             }
+        ],
+        "lengths": [
+            331
         ],
         "titles": [
             {
@@ -38,6 +38,9 @@
         ],
         "title": "Sefer HaMachkim",
         "heTitle": "ספר המחכים",
+        "heSectionNames": [
+            "פסקה"
+        ],
         "key": "Sefer HaMachkim"
     },
     "authors": [
@@ -66,6 +69,10 @@
     "heTitleVariants": [
         "ספר המחכים"
     ],
+    "sectionNames": [
+        "Paragraph"
+    ],
+    "depth": 1,
     "heCategories": [
         "הלכה",
         "ראשונים"

@@ -18,9 +18,17 @@
             "Daf",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "maharam-schiff",
+                    "gittin"
+                ]
+            }
+        ],
         "lengths": [
             180,
-            1181
+            1198
         ],
         "referenceableSections": [
             true,
@@ -28,8 +36,7 @@
         ],
         "isSegmentLevelDiburHamatchil": true,
         "diburHamatchilRegexes": [
-            "^<b>(.+?)</b>",
-            "^(.+?)[\\-–]"
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

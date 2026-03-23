@@ -22,7 +22,25 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "noam-yerushalmi",
+                    "ketubot"
+                ]
+            }
+        ],
+        "lengths": [
+            13,
+            58,
+            93,
+            268
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "נועם ירושלמי על כתובות",

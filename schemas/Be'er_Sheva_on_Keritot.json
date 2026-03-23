@@ -7,27 +7,27 @@
         "Be'er Sheva"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "beer-sheva",
+                    "keritot"
+                ]
             }
+        ],
+        "lengths": [
+            56,
+            218
         ],
         "titles": [
             {
@@ -43,6 +43,10 @@
         ],
         "title": "Be'er Sheva on Keritot",
         "heTitle": "באר שבע על כריתות",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Be'er Sheva on Keritot"
     },
     "authors": [
@@ -72,6 +76,11 @@
     "heTitleVariants": [
         "באר שבע על כריתות"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

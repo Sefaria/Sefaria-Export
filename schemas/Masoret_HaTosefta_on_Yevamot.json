@@ -20,6 +20,23 @@
             "Halakhah",
             "DH"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "masoret-hatosefta",
+                    "yevamot"
+                ]
+            }
+        ],
+        "lengths": [
+            14,
+            105,
+            383
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "מסורת התוספתא על יבמות",

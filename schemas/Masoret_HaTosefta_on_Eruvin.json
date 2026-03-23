@@ -20,6 +20,23 @@
             "Halakhah",
             "DH"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "masoret-hatosefta",
+                    "eruvin"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            141,
+            273
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "מסורת התוספתא על עירובין",

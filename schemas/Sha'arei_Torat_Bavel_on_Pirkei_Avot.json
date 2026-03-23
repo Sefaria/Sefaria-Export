@@ -19,6 +19,23 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "shaarei-torat-bavel",
+                    "pirkei-avot"
+                ]
+            }
+        ],
+        "lengths": [
+            6,
+            5,
+            5
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "שערי תורת בבל על משנה אבות",

@@ -7,27 +7,27 @@
         "Chiddushei HaRim"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "chiddushei-harim",
+                    "gittin"
+                ]
             }
+        ],
+        "lengths": [
+            180,
+            1139
         ],
         "titles": [
             {
@@ -47,6 +47,10 @@
         ],
         "title": "Chiddushei HaRim on Gittin",
         "heTitle": "חידושי הרי\"מ על גיטין",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Chiddushei HaRim on Gittin"
     },
     "order": [
@@ -89,6 +93,11 @@
         "חידושי הרי\"מ על גיטין",
         "חידושי הרי\"ם על גיטין"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

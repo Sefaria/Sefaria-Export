@@ -5,27 +5,26 @@
         "Acharonim"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Siman",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Siman",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "סימן",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "divrei-rivot"
+                ]
             }
+        ],
+        "lengths": [
+            430,
+            2281
         ],
         "titles": [
             {
@@ -41,6 +40,10 @@
         ],
         "title": "Divrei Rivot",
         "heTitle": "דברי ריבות",
+        "heSectionNames": [
+            "סימן",
+            "פסקה"
+        ],
         "key": "Divrei Rivot"
     },
     "authors": [
@@ -61,6 +64,11 @@
     "heTitleVariants": [
         "דברי ריבות"
     ],
+    "sectionNames": [
+        "Siman",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "שו\"ת",
         "אחרונים"

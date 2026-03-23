@@ -7,27 +7,27 @@
         "Tziyyun LeNefesh Chayyah"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "tziyyun-lenefesh-chayyah",
+                    "menachot"
+                ]
             }
+        ],
+        "lengths": [
+            143,
+            31
         ],
         "titles": [
             {
@@ -43,6 +43,10 @@
         ],
         "title": "Tziyyun LeNefesh Chayyah on Menachot",
         "heTitle": "ציון לנפש חיה על מנחות",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Tziyyun LeNefesh Chayyah on Menachot"
     },
     "authors": [
@@ -63,6 +67,11 @@
     "heTitleVariants": [
         "ציון לנפש חיה על מנחות"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

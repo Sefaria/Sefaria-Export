@@ -6,27 +6,26 @@
         "Maharal"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Chapter",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרק",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "derashat-shabbat-hagadol"
+                ]
             }
+        ],
+        "lengths": [
+            32,
+            272
         ],
         "titles": [
             {
@@ -50,6 +49,10 @@
         ],
         "title": "Derashat Shabbat HaGadol",
         "heTitle": "דרשת שבת הגדול",
+        "heSectionNames": [
+            "פרק",
+            "פסקה"
+        ],
         "key": "Derashat Shabbat HaGadol"
     },
     "authors": [
@@ -72,6 +75,11 @@
         "דרשת שבת הגדול",
         "דרוש לשבת הגדול"
     ],
+    "sectionNames": [
+        "Chapter",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "מחשבת ישראל",
         "אחרונים",

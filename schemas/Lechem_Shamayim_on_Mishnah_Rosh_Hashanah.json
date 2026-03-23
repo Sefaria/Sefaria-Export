@@ -19,6 +19,24 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "lechem-shamayim",
+                    "mishnah",
+                    "rosh-hashanah"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            19,
+            67
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "לחם שמים על משנה ראש השנה",

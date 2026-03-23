@@ -48,12 +48,18 @@
                 ]
             }
         ],
-        "ref_resolver_context_swaps": {
-            "halakha": [
-                "yerushalmi",
-                "bava-kamma"
-            ]
-        },
+        "ref_resolver_context_mutations": [
+            {
+                "op": "swap",
+                "input_terms": [
+                    "halakha"
+                ],
+                "output_terms": [
+                    "yerushalmi",
+                    "bava-kamma"
+                ]
+            }
+        ],
         "lengths": [
             10,
             85,
@@ -118,11 +124,6 @@
                 "lang": "he"
             },
             {
-                "text": "תלמוד ירושלמי בבא קמא",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "ירוש' ב״ק",
                 "lang": "he"
             },
@@ -161,6 +162,11 @@
             {
                 "text": "ירושלמי, ב”ק",
                 "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי בבא קמא",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Jerusalem Talmud Bava Kamma",
@@ -218,7 +224,6 @@
         "ירושלמי, ב\"ק",
         "ירוש' בבא קמא",
         "ירו' בבא קמא",
-        "תלמוד ירושלמי בבא קמא",
         "ירוש' ב״ק",
         "ירוש' ב”ק",
         "ירו' ב״ק",
@@ -228,7 +233,8 @@
         "תלמוד ירושלמי ב״ק",
         "תלמוד ירושלמי ב”ק",
         "ירושלמי, ב״ק",
-        "ירושלמי, ב”ק"
+        "ירושלמי, ב”ק",
+        "תלמוד ירושלמי בבא קמא"
     ],
     "alts": {
         "Venice": {
@@ -901,11 +907,6 @@
                     "lang": "he"
                 },
                 {
-                    "text": "תלמוד ירושלמי בבא קמא",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "ירוש' ב״ק",
                     "lang": "he"
                 },
@@ -944,6 +945,11 @@
                 {
                     "text": "ירושלמי, ב”ק",
                     "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי בבא קמא",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Bava Kamma",
@@ -1686,11 +1692,6 @@
                     "lang": "he"
                 },
                 {
-                    "text": "תלמוד ירושלמי בבא קמא",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "ירוש' ב״ק",
                     "lang": "he"
                 },
@@ -1729,6 +1730,11 @@
                 {
                     "text": "ירושלמי, ב”ק",
                     "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי בבא קמא",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Bava Kamma",

@@ -7,27 +7,27 @@
         "Tziyyun LeNefesh Chayyah"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "tziyyun-lenefesh-chayyah",
+                    "zevachim"
+                ]
             }
+        ],
+        "lengths": [
+            3,
+            38
         ],
         "titles": [
             {
@@ -43,6 +43,10 @@
         ],
         "title": "Tziyyun LeNefesh Chayyah on Zevachim",
         "heTitle": "ציון לנפש חיה על זבחים",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Tziyyun LeNefesh Chayyah on Zevachim"
     },
     "authors": [
@@ -63,6 +67,11 @@
     "heTitleVariants": [
         "ציון לנפש חיה על זבחים"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

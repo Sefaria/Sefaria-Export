@@ -19,6 +19,23 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "rashash",
+                    "pirkei-avot"
+                ]
+            }
+        ],
+        "lengths": [
+            6,
+            28,
+            42
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "primary": true,

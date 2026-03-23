@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "yerushalmi",
+                    "challah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "yerushalmi",
+                    "tractate",
+                    "challah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "challah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "talmud",
+                    "yerushalmi",
+                    "challah"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            1,
+            1,
+            1
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "הגהות יפ\"מ על תלמוד ירושלמי חלה",

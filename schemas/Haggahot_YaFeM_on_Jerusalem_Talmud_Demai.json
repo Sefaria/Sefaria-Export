@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "yerushalmi",
+                    "demai"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "yerushalmi",
+                    "tractate",
+                    "demai"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "demai"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "talmud",
+                    "yerushalmi",
+                    "demai"
+                ]
+            }
+        ],
+        "lengths": [
+            7,
+            6,
+            7,
+            8
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "הגהות יפ\"מ על תלמוד ירושלמי דמאי",

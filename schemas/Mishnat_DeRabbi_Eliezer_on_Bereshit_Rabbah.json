@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Integer",
             "Integer"
         ],
@@ -19,6 +19,39 @@
             "Chapter",
             "Paragraph",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnat-derabbi-eliezer",
+                    "genesis",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishnat-derabbi-eliezer",
+                    "midrash",
+                    "genesis",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishnat-derabbi-eliezer",
+                    "midrash-rabbah",
+                    "genesis"
+                ]
+            }
+        ],
+        "lengths": [
+            100,
+            150,
+            186
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

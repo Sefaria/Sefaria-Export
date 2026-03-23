@@ -7,27 +7,27 @@
         "Gevurat Ari"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "gevurat-ari",
+                    "beitzah"
+                ]
             }
+        ],
+        "lengths": [
+            80,
+            6
         ],
         "titles": [
             {
@@ -43,6 +43,10 @@
         ],
         "title": "Gevurat Ari on Beitzah",
         "heTitle": "גבורת ארי על ביצה",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Gevurat Ari on Beitzah"
     },
     "authors": [
@@ -74,6 +78,11 @@
     "heTitleVariants": [
         "גבורת ארי על ביצה"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

@@ -19,7 +19,24 @@
             "Verse",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "radak",
+                    "ii-kings"
+                ]
+            }
+        ],
+        "lengths": [
+            25,
+            429,
+            719
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "רד\"ק על מלכים ב'",
@@ -67,7 +84,7 @@
     "dependence": "Commentary",
     "base_text_titles": [
         {
-            "en": "II_Kings",
+            "en": "II Kings",
             "he": "מלכים ב"
         }
     ],

@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Integer",
             "Integer"
         ],
@@ -19,6 +19,39 @@
             "Chapter",
             "Paragraph",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "perush-maharzu",
+                    "exodus",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "perush-maharzu",
+                    "midrash",
+                    "exodus",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "perush-maharzu",
+                    "midrash-rabbah",
+                    "exodus"
+                ]
+            }
+        ],
+        "lengths": [
+            52,
+            455,
+            3209
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

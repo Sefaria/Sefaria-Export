@@ -22,7 +22,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "yerushalmi",
+                    "maaser-sheni"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "yerushalmi",
+                    "tractate",
+                    "maaser-sheni"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "maaser-sheni"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yafem",
+                    "talmud",
+                    "yerushalmi",
+                    "maaser-sheni"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            3,
+            3,
+            3
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "הגהות יפ\"מ על תלמוד ירושלמי מעשר שני",

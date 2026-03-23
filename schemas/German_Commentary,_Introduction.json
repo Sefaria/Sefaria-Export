@@ -6,24 +6,24 @@
         "German Commentary"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 1,
+        "addressTypes": [
+            "Integer"
+        ],
+        "sectionNames": [
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 1,
-                "addressTypes": [
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "german-commentary",
+                    "introduction"
+                ]
             }
+        ],
+        "lengths": [
+            1
         ],
         "titles": [
             {
@@ -39,6 +39,9 @@
         ],
         "title": "German Commentary, Introduction",
         "heTitle": "פירוש גרמני, הקדמה",
+        "heSectionNames": [
+            "פסקה"
+        ],
         "key": "German Commentary, Introduction"
     },
     "order": [
@@ -56,6 +59,10 @@
     "heTitleVariants": [
         "פירוש גרמני, הקדמה"
     ],
+    "sectionNames": [
+        "Paragraph"
+    ],
+    "depth": 1,
     "heCategories": [
         "משנה",
         "פירושים מודרניים על המשנה",

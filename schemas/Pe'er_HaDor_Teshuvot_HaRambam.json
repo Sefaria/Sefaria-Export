@@ -9,12 +9,35 @@
         "nodeType": "JaggedArrayNode",
         "depth": 2,
         "addressTypes": [
-            "Integer",
-            "Integer"
+            "Siman",
+            "Seif"
         ],
         "sectionNames": [
             "Teshuva",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "teshuvot",
+                    "rambam"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "peer-hador"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "teshuvot",
+                    "peer-hador"
+                ]
+            }
+        ],
+        "lengths": [
+            263,
+            13
         ],
         "titles": [
             {

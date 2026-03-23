@@ -7,30 +7,31 @@
         "Seder Tahorot"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 3,
+        "addressTypes": [
+            "Integer",
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Chapter",
+            "Mishnah",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 3,
-                "addressTypes": [
-                    "Integer",
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Mishnah",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרק",
-                    "משנה",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "eliyahu-rabbah",
+                    "mishnah",
+                    "zavim"
+                ]
             }
+        ],
+        "lengths": [
+            5,
+            21,
+            57
         ],
         "titles": [
             {
@@ -46,6 +47,11 @@
         ],
         "title": "Eliyahu Rabbah on Mishnah Zavim",
         "heTitle": "אליהו רבא על משנה זבים",
+        "heSectionNames": [
+            "פרק",
+            "משנה",
+            "פסקה"
+        ],
         "key": "Eliyahu Rabbah on Mishnah Zavim"
     },
     "order": [
@@ -83,6 +89,12 @@
     "heTitleVariants": [
         "אליהו רבא על משנה זבים"
     ],
+    "sectionNames": [
+        "Chapter",
+        "Mishnah",
+        "Paragraph"
+    ],
+    "depth": 3,
     "heCategories": [
         "משנה",
         "אחרונים על המשנה",

@@ -22,7 +22,25 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "noam-yerushalmi",
+                    "sotah"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            22,
+            35,
+            95
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "נועם ירושלמי על סוטה",

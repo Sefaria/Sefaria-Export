@@ -20,6 +20,23 @@
             "Halakhah",
             "DH"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "masoret-hatosefta",
+                    "yoma"
+                ]
+            }
+        ],
+        "lengths": [
+            4,
+            75,
+            232
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "מסורת התוספתא על יומא",

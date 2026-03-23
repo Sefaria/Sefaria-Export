@@ -15,6 +15,13 @@
                 "sectionNames": [
                     "Paragraph"
                 ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "title"
+                        ]
+                    }
+                ],
                 "titles": [
                     {
                         "lang": "en",
@@ -43,33 +50,12 @@
                 "sectionNames": [
                     "Paragraph"
                 ],
-                "titles": [
+                "match_templates": [
                     {
-                        "lang": "en",
-                        "primary": true,
-                        "text": "Editor's Introduction"
-                    },
-                    {
-                        "lang": "he",
-                        "primary": true,
-                        "text": "הקדמת העורך"
+                        "term_slugs": [
+                            "forward"
+                        ]
                     }
-                ],
-                "title": "Editor's Introduction",
-                "heTitle": "הקדמת העורך",
-                "heSectionNames": [
-                    "פסקה"
-                ],
-                "key": "Editor's Introduction"
-            },
-            {
-                "nodeType": "JaggedArrayNode",
-                "depth": 1,
-                "addressTypes": [
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Paragraph"
                 ],
                 "titles": [
                     {
@@ -98,6 +84,13 @@
                 ],
                 "sectionNames": [
                     "Paragraph"
+                ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "introduction"
+                        ]
+                    }
                 ],
                 "titles": [
                     {
@@ -128,6 +121,13 @@
                         ],
                         "sectionNames": [
                             "Paragraph"
+                        ],
+                        "match_templates": [
+                            {
+                                "term_slugs": [
+                                    "introduction"
+                                ]
+                            }
                         ],
                         "titles": [
                             {
@@ -169,6 +169,14 @@
                         "key": "default"
                     }
                 ],
+                "nodeType": "SchemaNode",
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "treatise-i"
+                        ]
+                    }
+                ],
                 "titles": [
                     {
                         "lang": "en",
@@ -195,6 +203,13 @@
                         ],
                         "sectionNames": [
                             "Paragraph"
+                        ],
+                        "match_templates": [
+                            {
+                                "term_slugs": [
+                                    "introduction"
+                                ]
+                            }
                         ],
                         "titles": [
                             {
@@ -223,6 +238,13 @@
                         ],
                         "sectionNames": [
                             "Paragraph"
+                        ],
+                        "match_templates": [
+                            {
+                                "term_slugs": [
+                                    "observation"
+                                ]
+                            }
                         ],
                         "titles": [
                             {
@@ -264,6 +286,14 @@
                         "key": "default"
                     }
                 ],
+                "nodeType": "SchemaNode",
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "treatise-ii"
+                        ]
+                    }
+                ],
                 "titles": [
                     {
                         "lang": "en",
@@ -290,6 +320,13 @@
                         ],
                         "sectionNames": [
                             "Paragraph"
+                        ],
+                        "match_templates": [
+                            {
+                                "term_slugs": [
+                                    "introduction"
+                                ]
+                            }
                         ],
                         "titles": [
                             {
@@ -329,6 +366,14 @@
                             "פסקה"
                         ],
                         "key": "default"
+                    }
+                ],
+                "nodeType": "SchemaNode",
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "treatise-iii"
+                        ]
                     }
                 ],
                 "titles": [
@@ -358,6 +403,13 @@
                         "sectionNames": [
                             "Paragraph"
                         ],
+                        "match_templates": [
+                            {
+                                "term_slugs": [
+                                    "introduction"
+                                ]
+                            }
+                        ],
                         "titles": [
                             {
                                 "lang": "en",
@@ -398,6 +450,14 @@
                         "key": "default"
                     }
                 ],
+                "nodeType": "SchemaNode",
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "treatise-iv"
+                        ]
+                    }
+                ],
                 "titles": [
                     {
                         "lang": "en",
@@ -413,6 +473,15 @@
                 "title": "Maamar 4",
                 "heTitle": "מאמר ד",
                 "key": "Maamar 4"
+            }
+        ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "sefer",
+                    "haikkarim"
+                ]
             }
         ],
         "titles": [

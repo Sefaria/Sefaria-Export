@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Integer",
             "Integer"
         ],
@@ -20,7 +20,40 @@
             "Paragraph",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "etz-yosef",
+                    "exodus",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "etz-yosef",
+                    "midrash",
+                    "exodus",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "etz-yosef",
+                    "midrash-rabbah",
+                    "exodus"
+                ]
+            }
+        ],
+        "lengths": [
+            52,
+            463,
+            5180
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "primary": true,

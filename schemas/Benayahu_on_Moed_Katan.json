@@ -17,9 +17,17 @@
             "Daf",
             "Line"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "benayahu",
+                    "moed-katan"
+                ]
+            }
+        ],
         "lengths": [
             57,
-            7
+            17
         ],
         "referenceableSections": [
             true,
@@ -27,8 +35,7 @@
         ],
         "isSegmentLevelDiburHamatchil": true,
         "diburHamatchilRegexes": [
-            "^<b>(.+?)</b>",
-            "^(.+?)[\\-–]"
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

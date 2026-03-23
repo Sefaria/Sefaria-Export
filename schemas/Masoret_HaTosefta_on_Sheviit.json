@@ -20,6 +20,23 @@
             "Halakhah",
             "DH"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "masoret-hatosefta",
+                    "sheviit"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            119,
+            203
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "מסורת התוספתא על שביעית",

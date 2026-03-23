@@ -5,27 +5,26 @@
         "Acharonim"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Siman",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Siman",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "סימן",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "avkat-rokhel"
+                ]
             }
+        ],
+        "lengths": [
+            217,
+            1688
         ],
         "titles": [
             {
@@ -45,6 +44,10 @@
         ],
         "title": "Avkat Rokhel",
         "heTitle": "אבקת רוכל",
+        "heSectionNames": [
+            "סימן",
+            "פסקה"
+        ],
         "key": "Avkat Rokhel"
     },
     "authors": [
@@ -70,6 +73,11 @@
     "heTitleVariants": [
         "אבקת רוכל"
     ],
+    "sectionNames": [
+        "Siman",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "שו\"ת",
         "אחרונים"

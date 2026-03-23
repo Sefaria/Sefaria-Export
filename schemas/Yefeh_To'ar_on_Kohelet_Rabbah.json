@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 4,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Integer",
             "Integer",
             "Integer"
@@ -22,7 +22,47 @@
             "Midrash",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yefeh-toar",
+                    "ecclesiastes",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yefeh-toar",
+                    "midrash",
+                    "ecclesiastes",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yefeh-toar",
+                    "midrash-rabbah",
+                    "ecclesiastes"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            67,
+            75,
+            133
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "יפה תואר על קהלת רבה",

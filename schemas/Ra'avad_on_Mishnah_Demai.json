@@ -5,30 +5,31 @@
         "Rishonim on Mishnah"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 3,
+        "addressTypes": [
+            "Integer",
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Chapter",
+            "Mishnah",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 3,
-                "addressTypes": [
-                    "Integer",
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Mishnah",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרק",
-                    "משנה",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "raavad",
+                    "mishnah",
+                    "demai"
+                ]
             }
+        ],
+        "lengths": [
+            7,
+            2,
+            13
         ],
         "titles": [
             {
@@ -44,6 +45,11 @@
         ],
         "title": "Ra'avad on Mishnah Demai",
         "heTitle": "ראב\"ד על משנה דמאי",
+        "heSectionNames": [
+            "פרק",
+            "משנה",
+            "פסקה"
+        ],
         "key": "Ra'avad on Mishnah Demai"
     },
     "authors": [
@@ -75,6 +81,12 @@
     "heTitleVariants": [
         "ראב\"ד על משנה דמאי"
     ],
+    "sectionNames": [
+        "Chapter",
+        "Mishnah",
+        "Paragraph"
+    ],
+    "depth": 3,
     "heCategories": [
         "משנה",
         "ראשונים על המשנה"

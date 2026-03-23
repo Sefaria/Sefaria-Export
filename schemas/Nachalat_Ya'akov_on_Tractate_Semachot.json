@@ -19,6 +19,30 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "nachalat-yaakov",
+                    "semachot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "nachalat-yaakov",
+                    "tractate",
+                    "semachot"
+                ]
+            }
+        ],
+        "lengths": [
+            15,
+            210,
+            473
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "primary": true,

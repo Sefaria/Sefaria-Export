@@ -21,7 +21,57 @@
             "Segment",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "beur-hagra",
+                    "yerushalmi",
+                    "bikkurim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "beur-hagra",
+                    "yerushalmi",
+                    "tractate",
+                    "bikkurim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "beur-hagra",
+                    "talmud",
+                    "yerushalmi",
+                    "tractate",
+                    "bikkurim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "beur-hagra",
+                    "talmud",
+                    "yerushalmi",
+                    "bikkurim"
+                ]
+            }
+        ],
+        "lengths": [
+            3,
+            21,
+            73,
+            170
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "ביאור הגר\"א על תלמוד ירושלמי בכורים",

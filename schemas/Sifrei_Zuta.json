@@ -5,30 +5,29 @@
         "Halakhah"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 3,
+        "addressTypes": [
+            "Integer",
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Chapter",
+            "Verse",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 3,
-                "addressTypes": [
-                    "Integer",
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Verse",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרק",
-                    "פסוק",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "sifrei-zuta"
+                ]
             }
+        ],
+        "lengths": [
+            35,
+            282,
+            726
         ],
         "titles": [
             {
@@ -44,6 +43,11 @@
         ],
         "title": "Sifrei Zuta",
         "heTitle": "ספרי זוטא",
+        "heSectionNames": [
+            "פרק",
+            "פסוק",
+            "פסקה"
+        ],
         "key": "Sifrei Zuta"
     },
     "order": [
@@ -65,6 +69,12 @@
     "heTitleVariants": [
         "ספרי זוטא"
     ],
+    "sectionNames": [
+        "Chapter",
+        "Verse",
+        "Paragraph"
+    ],
+    "depth": 3,
     "heCategories": [
         "מדרש",
         "הלכה"

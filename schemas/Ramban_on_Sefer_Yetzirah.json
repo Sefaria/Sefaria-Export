@@ -18,6 +18,23 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ramban",
+                    "sefer-yetzirah"
+                ]
+            }
+        ],
+        "lengths": [
+            6,
+            28,
+            105
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "en",

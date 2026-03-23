@@ -19,6 +19,23 @@
             "Mishna",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ikar-tosafot-yom-tov",
+                    "pirkei-avot"
+                ]
+            }
+        ],
+        "lengths": [
+            6,
+            89,
+            290
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "en",

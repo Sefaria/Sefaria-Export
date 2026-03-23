@@ -19,6 +19,23 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "binyan-yehoshua",
+                    "avot-drabbi-natan"
+                ]
+            }
+        ],
+        "lengths": [
+            41,
+            236,
+            1892
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "primary": true,

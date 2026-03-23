@@ -19,6 +19,24 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ikar-tosafot-yom-tov",
+                    "mishnah",
+                    "berakhot"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            50,
+            132
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^(.*?)\\."
+        ],
         "titles": [
             {
                 "lang": "en",

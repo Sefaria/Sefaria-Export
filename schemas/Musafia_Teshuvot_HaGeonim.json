@@ -8,12 +8,35 @@
         "nodeType": "JaggedArrayNode",
         "depth": 2,
         "addressTypes": [
-            "Integer",
-            "Integer"
+            "Siman",
+            "Seif"
         ],
         "sectionNames": [
             "Teshuva",
             "Paragraph"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "teshuvot",
+                    "geonim"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "teshuvot",
+                    "musafia"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "musafia"
+                ]
+            }
+        ],
+        "lengths": [
+            95,
+            0
         ],
         "titles": [
             {

@@ -20,10 +20,53 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "comment",
+                    "mishneh-torah",
+                    "hilchot",
+                    "foundations-of-the-torah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "comment",
+                    "mishneh-torah",
+                    "foundations-of-the-torah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "comment",
+                    "rambam",
+                    "hilchot",
+                    "foundations-of-the-torah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "comment",
+                    "rambam",
+                    "foundations-of-the-torah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "comment",
+                    "hilchot",
+                    "foundations-of-the-torah"
+                ]
+            }
+        ],
         "lengths": [
             10,
             42,
             125
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

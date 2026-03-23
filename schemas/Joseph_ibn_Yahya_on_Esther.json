@@ -19,6 +19,14 @@
             "Verse",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "joseph-ibn-yahya",
+                    "esther"
+                ]
+            }
+        ],
         "lengths": [
             10,
             151,
@@ -26,8 +34,7 @@
         ],
         "isSegmentLevelDiburHamatchil": true,
         "diburHamatchilRegexes": [
-            "^<b>(.+?)</b>",
-            "^(.+?)[\\-–]"
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

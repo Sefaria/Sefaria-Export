@@ -7,30 +7,30 @@
         "Torah"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 3,
+        "addressTypes": [
+            "Integer",
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Chapter",
+            "Verse",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 3,
-                "addressTypes": [
-                    "Integer",
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Verse",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרק",
-                    "פסוק",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "ibn-ezra-hakatzar",
+                    "exodus"
+                ]
             }
+        ],
+        "lengths": [
+            40,
+            667,
+            1021
         ],
         "titles": [
             {
@@ -50,6 +50,11 @@
         ],
         "title": "Ibn Ezra HaKatzar on Exodus",
         "heTitle": "אבן עזרא על שמות; פירוש הקצר",
+        "heSectionNames": [
+            "פרק",
+            "פסוק",
+            "פסקה"
+        ],
         "key": "Ibn Ezra HaKatzar on Exodus"
     },
     "order": [
@@ -57,7 +62,7 @@
     ],
     "authors": [
         {
-            "en": "Abraham Ibn Ezra",
+            "en": "Abraham ibn Ezra",
             "he": "אבן עזרא",
             "slug": "ibn-ezra"
         }
@@ -83,6 +88,12 @@
         "אבן עזרא על שמות; פירוש הקצר",
         "אבן עזרא הקצר על שמות"
     ],
+    "sectionNames": [
+        "Chapter",
+        "Verse",
+        "Paragraph"
+    ],
+    "depth": 3,
     "heCategories": [
         "תנ\"ך",
         "ראשונים על התנ״ך",

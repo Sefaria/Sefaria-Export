@@ -18,6 +18,14 @@
             "Daf",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tosafot-shantz",
+                    "sotah"
+                ]
+            }
+        ],
         "lengths": [
             98,
             211
@@ -28,8 +36,7 @@
         ],
         "isSegmentLevelDiburHamatchil": true,
         "diburHamatchilRegexes": [
-            "^<b>(.+?)</b>",
-            "^(.+?)[\\-–]"
+            "^(.*?)\\."
         ],
         "titles": [
             {

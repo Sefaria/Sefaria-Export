@@ -7,27 +7,27 @@
         "Be'er Sheva"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "beer-sheva",
+                    "tamid"
+                ]
             }
+        ],
+        "lengths": [
+            66,
+            183
         ],
         "titles": [
             {
@@ -43,6 +43,10 @@
         ],
         "title": "Be'er Sheva on Tamid",
         "heTitle": "באר שבע על תמיד",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Be'er Sheva on Tamid"
     },
     "authors": [
@@ -73,6 +77,11 @@
     "heTitleVariants": [
         "באר שבע על תמיד"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

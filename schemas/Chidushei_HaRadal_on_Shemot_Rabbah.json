@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Integer",
             "Integer"
         ],
@@ -19,6 +19,39 @@
             "Chapter",
             "Paragraph",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushei-haradal",
+                    "exodus",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-haradal",
+                    "midrash",
+                    "exodus",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-haradal",
+                    "midrash-rabbah",
+                    "exodus"
+                ]
+            }
+        ],
+        "lengths": [
+            52,
+            391,
+            1173
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

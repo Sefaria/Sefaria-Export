@@ -17,6 +17,13 @@
                         "sectionNames": [
                             "Paragraph"
                         ],
+                        "match_templates": [
+                            {
+                                "term_slugs": [
+                                    "title-page"
+                                ]
+                            }
+                        ],
                         "titles": [
                             {
                                 "text": "Title Page",
@@ -47,6 +54,13 @@
                             "Chapter",
                             "Paragraph"
                         ],
+                        "match_templates": [
+                            {
+                                "term_slugs": [
+                                    "approbation"
+                                ]
+                            }
+                        ],
                         "titles": [
                             {
                                 "text": "Approbation",
@@ -75,6 +89,13 @@
                         ],
                         "sectionNames": [
                             "Paragraph"
+                        ],
+                        "match_templates": [
+                            {
+                                "term_slugs": [
+                                    "compilers-foreword"
+                                ]
+                            }
                         ],
                         "titles": [
                             {
@@ -119,6 +140,20 @@
                         "key": "default"
                     }
                 ],
+                "nodeType": "SchemaNode",
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "likkutei-amarim"
+                        ]
+                    },
+                    {
+                        "term_slugs": [
+                            "part-1"
+                        ]
+                    }
+                ],
+                "referenceable": "optional",
                 "titles": [
                     {
                         "text": "Part I; Likkutei Amarim",
@@ -153,6 +188,13 @@
                         ],
                         "sectionNames": [
                             "Paragraph"
+                        ],
+                        "match_templates": [
+                            {
+                                "term_slugs": [
+                                    "chinukh-katan"
+                                ]
+                            }
                         ],
                         "titles": [
                             {
@@ -201,6 +243,19 @@
                         "key": "default"
                     }
                 ],
+                "nodeType": "SchemaNode",
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "shaar-hayichud-vehaemunah"
+                        ]
+                    },
+                    {
+                        "term_slugs": [
+                            "part-2"
+                        ]
+                    }
+                ],
                 "titles": [
                     {
                         "text": "Part II; Shaar HaYichud VehaEmunah",
@@ -235,6 +290,18 @@
                 "sectionNames": [
                     "Chapter",
                     "Paragraph"
+                ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "iggeret-hateshuvah"
+                        ]
+                    },
+                    {
+                        "term_slugs": [
+                            "part-3"
+                        ]
+                    }
                 ],
                 "lengths": [
                     12
@@ -278,6 +345,18 @@
                     "Chapter",
                     "Paragraph"
                 ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "iggeret-hakodesh"
+                        ]
+                    },
+                    {
+                        "term_slugs": [
+                            "part-4"
+                        ]
+                    }
+                ],
                 "lengths": [
                     32
                 ],
@@ -316,6 +395,18 @@
                     "Chapter",
                     "Paragraph"
                 ],
+                "match_templates": [
+                    {
+                        "term_slugs": [
+                            "kuntres-acharon1"
+                        ]
+                    },
+                    {
+                        "term_slugs": [
+                            "part-5"
+                        ]
+                    }
+                ],
                 "lengths": [
                     9
                 ],
@@ -342,6 +433,14 @@
                     "פסקה"
                 ],
                 "key": "last"
+            }
+        ],
+        "nodeType": "SchemaNode",
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tanya"
+                ]
             }
         ],
         "titles": [

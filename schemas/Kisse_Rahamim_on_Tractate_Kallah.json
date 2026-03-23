@@ -19,6 +19,30 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "kisse-rahamim",
+                    "kallah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "kisse-rahamim",
+                    "tractate",
+                    "kallah"
+                ]
+            }
+        ],
+        "lengths": [
+            5,
+            26,
+            130
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "he",

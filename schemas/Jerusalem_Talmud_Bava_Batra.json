@@ -48,12 +48,18 @@
                 ]
             }
         ],
-        "ref_resolver_context_swaps": {
-            "halakha": [
-                "yerushalmi",
-                "bava-batra"
-            ]
-        },
+        "ref_resolver_context_mutations": [
+            {
+                "op": "swap",
+                "input_terms": [
+                    "halakha"
+                ],
+                "output_terms": [
+                    "yerushalmi",
+                    "bava-batra"
+                ]
+            }
+        ],
         "lengths": [
             10,
             76,
@@ -126,11 +132,6 @@
                 "lang": "he"
             },
             {
-                "text": "תלמוד ירושלמי בבא בתרא",
-                "lang": "he",
-                "primary": true
-            },
-            {
                 "text": "ירושלמי, ב״ב",
                 "lang": "he"
             },
@@ -169,6 +170,11 @@
             {
                 "text": "ירוש' ב”ב",
                 "lang": "he"
+            },
+            {
+                "text": "תלמוד ירושלמי בבא בתרא",
+                "lang": "he",
+                "primary": true
             },
             {
                 "text": "Jerusalem Talmud Bava Batra",
@@ -228,7 +234,6 @@
         "ירוש' ב\"ב",
         "ירו' בבא בתרא",
         "ירוש' בבא בתרא",
-        "תלמוד ירושלמי בבא בתרא",
         "ירושלמי, ב״ב",
         "ירושלמי, ב”ב",
         "תלמוד ירושלמי, ב״ב",
@@ -238,7 +243,8 @@
         "ירו' ב״ב",
         "ירו' ב”ב",
         "ירוש' ב״ב",
-        "ירוש' ב”ב"
+        "ירוש' ב”ב",
+        "תלמוד ירושלמי בבא בתרא"
     ],
     "alts": {
         "Venice": {
@@ -917,11 +923,6 @@
                     "lang": "he"
                 },
                 {
-                    "text": "תלמוד ירושלמי בבא בתרא",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "ירושלמי, ב״ב",
                     "lang": "he"
                 },
@@ -960,6 +961,11 @@
                 {
                     "text": "ירוש' ב”ב",
                     "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי בבא בתרא",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Bava Batra",
@@ -1690,11 +1696,6 @@
                     "lang": "he"
                 },
                 {
-                    "text": "תלמוד ירושלמי בבא בתרא",
-                    "lang": "he",
-                    "primary": true
-                },
-                {
                     "text": "ירושלמי, ב״ב",
                     "lang": "he"
                 },
@@ -1733,6 +1734,11 @@
                 {
                     "text": "ירוש' ב”ב",
                     "lang": "he"
+                },
+                {
+                    "text": "תלמוד ירושלמי בבא בתרא",
+                    "lang": "he",
+                    "primary": true
                 },
                 {
                     "text": "Jerusalem Talmud Bava Batra",

@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 4,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Integer",
             "Integer",
             "Integer"
@@ -22,7 +22,47 @@
             "Midrash",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "chidushei-haradal",
+                    "ecclesiastes",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-haradal",
+                    "midrash",
+                    "ecclesiastes",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "chidushei-haradal",
+                    "midrash-rabbah",
+                    "ecclesiastes"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            141,
+            178,
+            428
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "Chidushei HaRadal on Kohelet Rabbah",

@@ -7,27 +7,27 @@
         "Chiddushei HaRim"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "chiddushei-harim",
+                    "bava-kamma"
+                ]
             }
+        ],
+        "lengths": [
+            200,
+            194
         ],
         "titles": [
             {
@@ -47,6 +47,10 @@
         ],
         "title": "Chiddushei HaRim on Bava Kamma",
         "heTitle": "חידושי הרי\"מ על בבא קמא",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Chiddushei HaRim on Bava Kamma"
     },
     "order": [
@@ -83,6 +87,11 @@
         "חידושי הרי\"מ על בבא קמא",
         "חידושי הרי\"ם על בבא קמא"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

@@ -20,10 +20,53 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "comment",
+                    "mishneh-torah",
+                    "hilchot",
+                    "repentance"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "comment",
+                    "mishneh-torah",
+                    "repentance"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "comment",
+                    "rambam",
+                    "hilchot",
+                    "repentance"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "comment",
+                    "rambam",
+                    "repentance"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "comment",
+                    "hilchot",
+                    "repentance"
+                ]
+            }
+        ],
         "lengths": [
             10,
             3,
             4
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

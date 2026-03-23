@@ -7,30 +7,31 @@
         "Seder Nezikin"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 3,
+        "addressTypes": [
+            "Integer",
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Chapter",
+            "Mishnah",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 3,
-                "addressTypes": [
-                    "Integer",
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Mishnah",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרק",
-                    "משנה",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "german-commentary",
+                    "mishnah",
+                    "makkot"
+                ]
             }
+        ],
+        "lengths": [
+            3,
+            0,
+            0
         ],
         "titles": [
             {
@@ -46,6 +47,11 @@
         ],
         "title": "German Commentary on Mishnah Makkot",
         "heTitle": "פירוש גרמני על משנה מכות",
+        "heSectionNames": [
+            "פרק",
+            "משנה",
+            "פסקה"
+        ],
         "key": "German Commentary on Mishnah Makkot"
     },
     "authors": [
@@ -78,6 +84,12 @@
     "heTitleVariants": [
         "פירוש גרמני על משנה מכות"
     ],
+    "sectionNames": [
+        "Chapter",
+        "Mishnah",
+        "Paragraph"
+    ],
+    "depth": 3,
     "heCategories": [
         "משנה",
         "פירושים מודרניים על המשנה",

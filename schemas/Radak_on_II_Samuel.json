@@ -19,7 +19,24 @@
             "Verse",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "radak",
+                    "ii-samuel"
+                ]
+            }
+        ],
+        "lengths": [
+            24,
+            468,
+            801
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "he",
@@ -63,7 +80,7 @@
     "dependence": "Commentary",
     "base_text_titles": [
         {
-            "en": "II_Samuel",
+            "en": "II Samuel",
             "he": "שמואל ב"
         }
     ],

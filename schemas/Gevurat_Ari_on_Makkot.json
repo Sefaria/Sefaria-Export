@@ -7,27 +7,27 @@
         "Gevurat Ari"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "gevurat-ari",
+                    "makkot"
+                ]
             }
+        ],
+        "lengths": [
+            48,
+            78
         ],
         "titles": [
             {
@@ -55,6 +55,10 @@
         ],
         "title": "Gevurat Ari on Makkot",
         "heTitle": "גבורת ארי על מכות",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Gevurat Ari on Makkot"
     },
     "authors": [
@@ -92,6 +96,11 @@
     "heTitleVariants": [
         "גבורת ארי על מכות"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

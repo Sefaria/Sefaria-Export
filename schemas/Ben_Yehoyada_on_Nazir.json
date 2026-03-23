@@ -17,6 +17,14 @@
             "Daf",
             "Paragraph"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "ben-yehoyada",
+                    "nazir"
+                ]
+            }
+        ],
         "lengths": [
             132,
             22
@@ -27,8 +35,7 @@
         ],
         "isSegmentLevelDiburHamatchil": true,
         "diburHamatchilRegexes": [
-            "^<b>(.+?)</b>",
-            "^(.+?)[\\-–]"
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 4,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Integer",
             "Integer",
             "Integer"
@@ -22,7 +22,47 @@
             "Midrash",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "mishnat-derabbi-eliezer",
+                    "ecclesiastes",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishnat-derabbi-eliezer",
+                    "midrash",
+                    "ecclesiastes",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "mishnat-derabbi-eliezer",
+                    "midrash-rabbah",
+                    "ecclesiastes"
+                ]
+            }
+        ],
+        "lengths": [
+            12,
+            17,
+            17,
+            17
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "משנת דרבי אליעזר על קהלת רבה",

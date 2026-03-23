@@ -7,27 +7,27 @@
         "Ri Migash"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "hari-migash",
+                    "bava-batra"
+                ]
             }
+        ],
+        "lengths": [
+            349,
+            425
         ],
         "titles": [
             {
@@ -43,6 +43,10 @@
         ],
         "title": "Ri Migash on Bava Batra",
         "heTitle": "חדושי הר\"י מיגאש על בבא בתרא",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Ri Migash on Bava Batra"
     },
     "authors": [
@@ -72,6 +76,11 @@
     "heTitleVariants": [
         "חדושי הר\"י מיגאש על בבא בתרא"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

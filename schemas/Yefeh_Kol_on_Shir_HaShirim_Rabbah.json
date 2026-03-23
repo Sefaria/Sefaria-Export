@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 4,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Integer",
             "Integer",
             "Integer"
@@ -22,7 +22,47 @@
             "Midrash",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yefeh-kol",
+                    "song-of-songs",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yefeh-kol",
+                    "midrash",
+                    "song-of-songs",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yefeh-kol",
+                    "midrash-rabbah",
+                    "song-of-songs"
+                ]
+            }
+        ],
+        "lengths": [
+            8,
+            98,
+            244,
+            1099
+        ],
         "toc_zoom": 2,
+        "referenceableSections": [
+            true,
+            true,
+            false,
+            true
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "יפה קול על שיר השירים רבה",

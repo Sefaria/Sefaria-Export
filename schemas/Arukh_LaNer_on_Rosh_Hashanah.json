@@ -6,27 +6,27 @@
         "Acharonim on Talmud"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Talmud",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Daf",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Talmud",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Daf",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "דף",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "arukh-laner",
+                    "rosh-hashanah"
+                ]
             }
+        ],
+        "lengths": [
+            69,
+            549
         ],
         "titles": [
             {
@@ -42,6 +42,10 @@
         ],
         "title": "Arukh LaNer on Rosh Hashanah",
         "heTitle": "ערוך לנר על ראש השנה",
+        "heSectionNames": [
+            "דף",
+            "פסקה"
+        ],
         "key": "Arukh LaNer on Rosh Hashanah"
     },
     "order": [
@@ -80,6 +84,11 @@
     "heTitleVariants": [
         "ערוך לנר על ראש השנה"
     ],
+    "sectionNames": [
+        "Daf",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "תלמוד",
         "בבלי",

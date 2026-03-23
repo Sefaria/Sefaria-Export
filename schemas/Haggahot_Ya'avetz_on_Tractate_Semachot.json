@@ -19,6 +19,30 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "haggahot-yaavetz",
+                    "semachot"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "haggahot-yaavetz",
+                    "tractate",
+                    "semachot"
+                ]
+            }
+        ],
+        "lengths": [
+            9,
+            5,
+            6
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "text": "הגהות יעב\"ץ על מסכת שמחות",

@@ -5,27 +5,26 @@
         "Acharonim"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Gate",
+            "Section"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Gate",
-                    "Section"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "שער",
-                    "חלק"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "shaarei-ephraim"
+                ]
             }
+        ],
+        "lengths": [
+            10,
+            440
         ],
         "titles": [
             {
@@ -45,6 +44,10 @@
         ],
         "title": "Sha'arei Ephraim",
         "heTitle": "שערי אפרים",
+        "heSectionNames": [
+            "שער",
+            "חלק"
+        ],
         "key": "Sha'arei Ephraim"
     },
     "authors": [
@@ -559,6 +562,11 @@
             "heTitle": "שערי אפרים"
         }
     },
+    "sectionNames": [
+        "Gate",
+        "Section"
+    ],
+    "depth": 2,
     "heCategories": [
         "הלכה",
         "אחרונים"

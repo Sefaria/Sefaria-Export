@@ -5,27 +5,26 @@
         "Aggadah"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 2,
+        "addressTypes": [
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Parasha",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 2,
-                "addressTypes": [
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Parasha",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרשה",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "midrash-shmuel"
+                ]
             }
+        ],
+        "lengths": [
+            32,
+            207
         ],
         "titles": [
             {
@@ -41,6 +40,10 @@
         ],
         "title": "Midrash Shmuel",
         "heTitle": "מדרש שמואל",
+        "heSectionNames": [
+            "פרשה",
+            "פסקה"
+        ],
         "key": "Midrash Shmuel"
     },
     "enDesc": "Midrash Shmuel is a narrative midrash on the Book of Samuel, and the only work of midrash on a book of Prophets. The first 24 sections address Samuel I, and the remaining 8 address Samuel II. It incorporates both line-by-line interpretation on the Book of Samuel, as well as longer discourses on themes related to the book. The midrashim are taken from earlier midrashic compilations as well as from the Jerusalem Talmud. Additional notes and interpretations were added by the compiler, who lived in the Land of Israel some time before the 11th century.",
@@ -63,6 +66,11 @@
     "heTitleVariants": [
         "מדרש שמואל"
     ],
+    "sectionNames": [
+        "Parasha",
+        "Paragraph"
+    ],
+    "depth": 2,
     "heCategories": [
         "מדרש",
         "אגדה"

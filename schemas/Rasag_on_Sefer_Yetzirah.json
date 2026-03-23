@@ -18,7 +18,24 @@
             "Mishnah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "saadia-gaon",
+                    "sefer-yetzirah"
+                ]
+            }
+        ],
+        "lengths": [
+            6,
+            35,
+            92
+        ],
         "toc_zoom": 2,
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "primary": true,

@@ -5,30 +5,30 @@
         "Halakhah"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 3,
+        "addressTypes": [
+            "Integer",
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Chapter",
+            "Verse",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 3,
-                "addressTypes": [
-                    "Integer",
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Verse",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרק",
-                    "פסוק",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "midrash-tannaim",
+                    "deuteronomy"
+                ]
             }
+        ],
+        "lengths": [
+            34,
+            498,
+            3978
         ],
         "titles": [
             {
@@ -52,6 +52,11 @@
         ],
         "title": "Midrash Tannaim on Deuteronomy",
         "heTitle": "מדרש תנאים על ספר דברים",
+        "heSectionNames": [
+            "פרק",
+            "פסוק",
+            "פסקה"
+        ],
         "key": "Midrash Tannaim on Deuteronomy"
     },
     "order": [
@@ -66,6 +71,12 @@
         "מדרש תנאים על ספר דברים",
         "מדרש תנאים לדברים"
     ],
+    "sectionNames": [
+        "Chapter",
+        "Verse",
+        "Paragraph"
+    ],
+    "depth": 3,
     "heCategories": [
         "מדרש",
         "הלכה"

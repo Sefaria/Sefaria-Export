@@ -19,6 +19,23 @@
             "Halakhah",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "tumat-yesharim",
+                    "avot-drabbi-natan"
+                ]
+            }
+        ],
+        "lengths": [
+            41,
+            63,
+            126
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
                 "lang": "he",

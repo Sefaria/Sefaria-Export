@@ -11,7 +11,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Integer",
             "Integer"
         ],
@@ -19,6 +19,39 @@
             "Chapter",
             "Paragraph",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "yedei-moshe",
+                    "leviticus",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yedei-moshe",
+                    "midrash",
+                    "leviticus",
+                    "rabbah"
+                ]
+            },
+            {
+                "term_slugs": [
+                    "yedei-moshe",
+                    "midrash-rabbah",
+                    "leviticus"
+                ]
+            }
+        ],
+        "lengths": [
+            37,
+            127,
+            193
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

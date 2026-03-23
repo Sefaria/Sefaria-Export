@@ -17,6 +17,14 @@
             "Verse",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "immanuel-of-rome",
+                    "esther"
+                ]
+            }
+        ],
         "lengths": [
             10,
             142,
@@ -24,11 +32,14 @@
         ],
         "toc_zoom": 2,
         "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
+        ],
         "titles": [
             {
-                "primary": true,
+                "text": "עמנואל הרומי על אסתר",
                 "lang": "he",
-                "text": "עמנואל הרומי על אסתר"
+                "primary": true
             },
             {
                 "text": "Immanuel of Rome on Esther",
@@ -75,6 +86,10 @@
         }
     ],
     "base_text_mapping": "many_to_one",
+    "collective_title": {
+        "en": "Immanuel of Rome",
+        "he": "עמנואל הרומי"
+    },
     "heTitle": "עמנואל הרומי על אסתר",
     "titleVariants": [
         "Immanuel of Rome on Esther"

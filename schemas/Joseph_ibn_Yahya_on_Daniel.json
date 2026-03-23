@@ -19,6 +19,14 @@
             "Verse",
             "Comment"
         ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "joseph-ibn-yahya",
+                    "daniel"
+                ]
+            }
+        ],
         "lengths": [
             12,
             333,
@@ -26,8 +34,7 @@
         ],
         "isSegmentLevelDiburHamatchil": true,
         "diburHamatchilRegexes": [
-            "^<b>(.+?)</b>",
-            "^(.+?)[\\-–]"
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {

@@ -7,30 +7,31 @@
         "Seder Tahorot"
     ],
     "schema": {
-        "nodes": [
+        "nodeType": "JaggedArrayNode",
+        "depth": 3,
+        "addressTypes": [
+            "Integer",
+            "Integer",
+            "Integer"
+        ],
+        "sectionNames": [
+            "Chapter",
+            "Mishnah",
+            "Paragraph"
+        ],
+        "match_templates": [
             {
-                "nodeType": "JaggedArrayNode",
-                "depth": 3,
-                "addressTypes": [
-                    "Integer",
-                    "Integer",
-                    "Integer"
-                ],
-                "sectionNames": [
-                    "Chapter",
-                    "Mishnah",
-                    "Paragraph"
-                ],
-                "default": true,
-                "title": "",
-                "heTitle": "",
-                "heSectionNames": [
-                    "פרק",
-                    "משנה",
-                    "פסקה"
-                ],
-                "key": "default"
+                "term_slugs": [
+                    "eliyahu-rabbah",
+                    "mishnah",
+                    "tevul-yom"
+                ]
             }
+        ],
+        "lengths": [
+            4,
+            8,
+            18
         ],
         "titles": [
             {
@@ -46,6 +47,11 @@
         ],
         "title": "Eliyahu Rabbah on Mishnah Tevul Yom",
         "heTitle": "אליהו רבא על משנה טבול יום",
+        "heSectionNames": [
+            "פרק",
+            "משנה",
+            "פסקה"
+        ],
         "key": "Eliyahu Rabbah on Mishnah Tevul Yom"
     },
     "authors": [
@@ -79,6 +85,12 @@
     "heTitleVariants": [
         "אליהו רבא על משנה טבול יום"
     ],
+    "sectionNames": [
+        "Chapter",
+        "Mishnah",
+        "Paragraph"
+    ],
+    "depth": 3,
     "heCategories": [
         "משנה",
         "אחרונים על המשנה",

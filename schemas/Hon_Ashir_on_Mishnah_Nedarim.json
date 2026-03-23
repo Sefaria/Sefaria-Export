@@ -10,7 +10,7 @@
         "nodeType": "JaggedArrayNode",
         "depth": 3,
         "addressTypes": [
-            "Integer",
+            "Perek",
             "Mishnah",
             "Integer"
         ],
@@ -18,6 +18,24 @@
             "Chapter",
             "Mishnah",
             "Comment"
+        ],
+        "match_templates": [
+            {
+                "term_slugs": [
+                    "hon-ashir",
+                    "mishnah",
+                    "nedarim"
+                ]
+            }
+        ],
+        "lengths": [
+            11,
+            39,
+            63
+        ],
+        "isSegmentLevelDiburHamatchil": true,
+        "diburHamatchilRegexes": [
+            "^<b>(.+?)</b>"
         ],
         "titles": [
             {
