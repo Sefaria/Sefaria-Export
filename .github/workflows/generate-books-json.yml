@@ -1,0 +1,39 @@
+name: Generate books.json
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"  # 1st of each month, 6AM UTC (after GCS export completes at ~3AM)
+  workflow_dispatch: {}   # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate books.json from GCS bucket listing
+        env:
+          BUCKET: sefaria-export
+        run: python scripts/generate_books_json.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add books.json
+          if git diff --cached --quiet; then
+            echo "No changes to books.json"
+          else
+            git commit -m "Update books.json $(date +%Y-%m-%d)"
+            git push
+          fi

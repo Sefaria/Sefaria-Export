@@ -1,0 +1,79 @@
+# Sefaria-Export
+
+Public dataset of all Sefaria texts, hosted on Google Cloud Storage.
+
+## Architecture
+
+- **Data lives in GCS**: `gs://sefaria-export/current/` — ~26GB, ~85K files, updated monthly
+- **This repo** holds `books.json` — a single index file with metadata and download URLs for every text
+- **GitHub Action** regenerates `books.json` weekly from the GCS bucket listing (no auth needed — bucket is public)
+
+## Bucket structure
+
+The GCS bucket is hierarchical, organized by format, category, title, language, and version:
+
+```
+gs://sefaria-export/current/
+  json/{categories}/{title}/{language}/{versionTitle}.json
+  txt/{categories}/{title}/{language}/{versionTitle}.txt
+  cltk-full/{categories}/{title}/{language}/{versionTitle}.json
+  cltk-flat/{categories}/{title}/{language}/{versionTitle}.json
+  schemas/{title}.json
+  links/links0.csv ... links12.csv
+  table_of_contents.json
+```
+
+Example paths:
+```
+current/json/Tanakh/Torah/Genesis/English/merged.json
+current/json/Talmud/Bavli/Seder Moed/Shabbat/Hebrew/merged.json
+current/txt/Mishnah/Seder Zeraim/Mishnah Berakhot/English/merged.txt
+```
+
+## How to download data
+
+All data is public. No authentication needed.
+
+### Single file
+```bash
+curl -O "https://storage.googleapis.com/sefaria-export/current/json/Tanakh/Torah/Genesis/English/merged.json"
+```
+
+### Entire folder (e.g., all of Talmud in JSON)
+```bash
+# Using gcloud CLI
+gcloud storage cp -r "gs://sefaria-export/current/json/Talmud/" ./talmud/
+
+# Using gsutil
+gsutil -m cp -r "gs://sefaria-export/current/json/Talmud/" ./talmud/
+```
+
+### Everything
+```bash
+gcloud storage cp -r "gs://sefaria-export/current/" ./sefaria-data/
+```
+
+### Using books.json
+```python
+import requests
+books = requests.get("https://raw.githubusercontent.com/Sefaria/Sefaria-Export/master/books.json").json()
+for book in books["books"]:
+    if "Talmud" in book["categories"]:
+        print(book["title"], book.get("json_url"))
+```
+
+## Example scripts
+
+See `examples/` for ready-to-use download scripts:
+- `download_category.sh` — download all texts in a category (e.g., Talmud, Mishnah)
+- `download_from_books_json.py` — filter and download using books.json
+- `browse_bucket.sh` — list available categories and texts in the bucket
+
+## Files
+
+| File | Purpose |
+|------|---------|
+| `books.json` | Index of all texts with metadata and GCS download URLs |
+| `scripts/generate_books_json.py` | Generates books.json from GCS bucket (runs in CI) |
+| `examples/` | Example download scripts for developers |
+| `.github/workflows/generate-books-json.yml` | Monthly CI to regenerate books.json |
