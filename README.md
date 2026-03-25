@@ -138,20 +138,6 @@ This file is regenerated monthly by a [GitHub Action](.github/workflows/generate
 | `examples/browse_bucket.sh` | Browse available categories and texts |
 | `.github/workflows/generate-books-json.yml` | Monthly CI to regenerate books.json |
 
-## MongoDB Dump
-
-A MongoDB dump of Sefaria's full database is also available:
-
-- **Full dump** (includes edit history): [download](https://storage.googleapis.com/sefaria-mongo-backup/dump.tar.gz)
-- **Small dump** (without edit history): [download](https://storage.googleapis.com/sefaria-mongo-backup/dump_small.tar.gz)
-
-Load with:
-
-```bash
-# Extract and restore
-tar -xzf dump.tar.gz
-mongorestore --drop
-```
 
 ## Related Projects
 
