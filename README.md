@@ -125,7 +125,7 @@ Each text directory includes a `merged` file (e.g., `merged.json`, `merged.txt`)
 }
 ```
 
-This file is regenerated monthly by a [GitHub Action](.github/workflows/generate-books-json.yml).
+This file is regenerated monthly (2nd of each month, day after the GCS export) by a [GitHub Action](.github/workflows/generate-books-json.yml). It can also be triggered manually from the Actions tab.
 
 ## Repository Contents
 
@@ -136,7 +136,7 @@ This file is regenerated monthly by a [GitHub Action](.github/workflows/generate
 | `examples/download_from_books_json.py` | Filter and download texts using books.json |
 | `examples/download_category.sh` | Download all texts in a category via gcloud |
 | `examples/browse_bucket.sh` | Browse available categories and texts |
-| `.github/workflows/generate-books-json.yml` | Monthly CI to regenerate books.json |
+| `.github/workflows/generate-books-json.yml` | Monthly CI to regenerate books.json (also supports manual trigger) |
 
 
 ## Related Projects

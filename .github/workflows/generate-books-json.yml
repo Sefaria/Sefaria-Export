@@ -2,7 +2,7 @@ name: Generate books.json
 
 on:
   schedule:
-    - cron: "0 6 1 * *"  # 1st of each month, 6AM UTC (after GCS export completes at ~3AM)
+    - cron: "0 6 2 * *"  # 2nd of each month, 6AM UTC (one day after the text-export CronJob on the 1st)
   workflow_dispatch: {}   # Allow manual trigger
 
 permissions:

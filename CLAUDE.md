@@ -6,7 +6,7 @@ Public dataset of all Sefaria texts, hosted on Google Cloud Storage.
 
 - **Data lives in GCS**: `gs://sefaria-export/` — ~26GB, ~85K files, updated monthly
 - **This repo** holds `books.json` — a single index file with metadata and download URLs for every text
-- **GitHub Action** regenerates `books.json` monthly from the GCS bucket listing (no auth needed — bucket is public)
+- **GitHub Action** regenerates `books.json` monthly (2nd of each month, day after the text-export CronJob) from the GCS bucket listing (no auth needed — bucket is public). Can also be triggered manually via workflow_dispatch.
 
 ## Bucket structure
 
@@ -76,4 +76,4 @@ See `examples/` for ready-to-use download scripts:
 | `books.json` | Index of all texts with metadata and GCS download URLs |
 | `scripts/generate_books_json.py` | Generates books.json from GCS bucket (runs in CI) |
 | `examples/` | Example download scripts for developers |
-| `.github/workflows/generate-books-json.yml` | Monthly CI to regenerate books.json |
+| `.github/workflows/generate-books-json.yml` | Monthly CI to regenerate books.json (also supports manual trigger) |
