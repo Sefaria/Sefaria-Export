@@ -46,10 +46,10 @@ def filter_books(books, category=None, title=None, language=None):
 
 def download_file(url, output_dir):
     # Derive local path from URL
-    # URL: https://storage.googleapis.com/sefaria-export/current/json/Tanakh/Torah/Genesis/English/merged.json
+    # URL: https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Genesis/English/merged.json
     # Local: output_dir/Tanakh/Torah/Genesis/English/merged.json
-    path_part = url.split("/current/")[1]  # json/Tanakh/Torah/...
-    parts = path_part.split("/", 1)        # skip format prefix
+    path_part = url.split("/sefaria-export/")[1]  # json/Tanakh/Torah/...
+    parts = path_part.split("/", 1)                # skip format prefix
     if len(parts) < 2:
         return
     local_path = os.path.join(output_dir, parts[1])

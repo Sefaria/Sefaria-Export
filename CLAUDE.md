@@ -4,16 +4,16 @@ Public dataset of all Sefaria texts, hosted on Google Cloud Storage.
 
 ## Architecture
 
-- **Data lives in GCS**: `gs://sefaria-export/current/` — ~26GB, ~85K files, updated monthly
+- **Data lives in GCS**: `gs://sefaria-export/` — ~26GB, ~85K files, updated monthly
 - **This repo** holds `books.json` — a single index file with metadata and download URLs for every text
-- **GitHub Action** regenerates `books.json` weekly from the GCS bucket listing (no auth needed — bucket is public)
+- **GitHub Action** regenerates `books.json` monthly from the GCS bucket listing (no auth needed — bucket is public)
 
 ## Bucket structure
 
 The GCS bucket is hierarchical, organized by format, category, title, language, and version:
 
 ```
-gs://sefaria-export/current/
+gs://sefaria-export/
   json/{categories}/{title}/{language}/{versionTitle}.json
   txt/{categories}/{title}/{language}/{versionTitle}.txt
   cltk-full/{categories}/{title}/{language}/{versionTitle}.json
@@ -25,9 +25,9 @@ gs://sefaria-export/current/
 
 Example paths:
 ```
-current/json/Tanakh/Torah/Genesis/English/merged.json
-current/json/Talmud/Bavli/Seder Moed/Shabbat/Hebrew/merged.json
-current/txt/Mishnah/Seder Zeraim/Mishnah Berakhot/English/merged.txt
+json/Tanakh/Torah/Genesis/English/merged.json
+json/Talmud/Bavli/Seder Moed/Shabbat/Hebrew/merged.json
+txt/Mishnah/Seder Zeraim/Mishnah Berakhot/English/merged.txt
 ```
 
 ## How to download data
@@ -36,21 +36,21 @@ All data is public. No authentication needed.
 
 ### Single file
 ```bash
-curl -O "https://storage.googleapis.com/sefaria-export/current/json/Tanakh/Torah/Genesis/English/merged.json"
+curl -O "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Genesis/English/merged.json"
 ```
 
 ### Entire folder (e.g., all of Talmud in JSON)
 ```bash
 # Using gcloud CLI
-gcloud storage cp -r "gs://sefaria-export/current/json/Talmud/" ./talmud/
+gcloud storage cp -r "gs://sefaria-export/json/Talmud/" ./talmud/
 
 # Using gsutil
-gsutil -m cp -r "gs://sefaria-export/current/json/Talmud/" ./talmud/
+gsutil -m cp -r "gs://sefaria-export/json/Talmud/" ./talmud/
 ```
 
 ### Everything
 ```bash
-gcloud storage cp -r "gs://sefaria-export/current/" ./sefaria-data/
+gcloud storage cp -r "gs://sefaria-export/" ./sefaria-data/
 ```
 
 ### Using books.json

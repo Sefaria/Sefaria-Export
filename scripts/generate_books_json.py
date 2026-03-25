@@ -3,8 +3,8 @@
 Generates books.json by listing the public GCS bucket.
 Uses the unauthenticated GCS JSON API — no credentials needed.
 
-Run manually:  BUCKET=sefaria-export python scripts/generate_books_json.py
-Run via CI:    GitHub Action triggers weekly after GCS export completes.
+Run manually:  python scripts/generate_books_json.py
+Run via CI:    GitHub Action triggers monthly after GCS export completes.
 """
 import json
 import os
@@ -18,14 +18,16 @@ GCS_API = "https://storage.googleapis.com/storage/v1/b/{bucket}/o"
 GCS_PUBLIC = "https://storage.googleapis.com/{bucket}/{name}"
 
 
-def list_bucket_objects(bucket, prefix="current/"):
+def list_bucket_objects(bucket, prefix=""):
     """List all objects in a public GCS bucket (no auth needed)."""
     url = GCS_API.format(bucket=bucket)
     objects = []
     page_token = None
 
     while True:
-        params = {"prefix": prefix, "maxResults": 1000}
+        params = {"maxResults": 1000}
+        if prefix:
+            params["prefix"] = prefix
         if page_token:
             params["pageToken"] = page_token
 
@@ -59,7 +61,7 @@ def parse_text_path(rel_path):
 
 
 def main():
-    print(f"Listing gs://{BUCKET}/current/ ...")
+    print(f"Listing gs://{BUCKET}/ ...")
     objects = list_bucket_objects(BUCKET)
     print(f"Found {len(objects)} objects")
 
@@ -69,10 +71,10 @@ def main():
 
     for obj in objects:
         name = obj.get("name", "")
-        if not name.startswith("current/") or name.endswith("/"):
+        if name.endswith("/"):
             continue
 
-        rel = name[len("current/"):]
+        rel = name
         url = GCS_PUBLIC.format(bucket=BUCKET, name=name)
         size = int(obj.get("size", 0))
 
@@ -101,7 +103,7 @@ def main():
     output = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "bucket": f"gs://{BUCKET}",
-        "base_url": f"https://storage.googleapis.com/{BUCKET}/current",
+        "base_url": f"https://storage.googleapis.com/{BUCKET}",
         "total_texts": len(books),
         "special_files": special,
         "books": books,

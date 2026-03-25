@@ -1,35 +1,163 @@
-Sefaria-Export
-============
+# Sefaria-Export
 
-Structured Jewish texts and metadata with free public licenses, exported from Sefaria's database.
+Public dataset of all [Sefaria](https://www.sefaria.org) texts, hosted on Google Cloud Storage.
 
-This repo contains texts, bibliographical information and lists of intertextual connections created by [Sefaria](http://www.sefaria.org).
+This repository is a lightweight index and set of tools for accessing the Sefaria text corpus. The actual text data (~26GB, ~85K files) lives in a public GCS bucket and can be downloaded without authentication.
 
-A MongoDB dump of Sefaria's database is also available for download [here](https://storage.googleapis.com/sefaria-mongo-backup/dump.tar.gz) or a smaller version (without text edit history) [here](https://storage.googleapis.com/sefaria-mongo-backup/dump_small.tar.gz). Download this file, extract it and use [`mongorestore`](http://docs.mongodb.org/v2.2/reference/mongorestore/) to load into your local DB.
+## Quick Start
 
-From the parent of the unzipped `dump` folder, run:
+### Browse what's available
 
-    mongorestore --drop
+```bash
+# List top-level formats and directories
+./examples/browse_bucket.sh
 
-This will create (or overwrite) a mongo database called `sefaria`.
+# Drill into a specific category
+./examples/browse_bucket.sh json/Talmud
+```
 
-More details available [here](https://github.com/Sefaria/Sefaria-Project#8-put-some-texts-in-your-database).
+### Download a single text
 
-For Sefaria source code see [Sefaria-Project](https://github.com/Sefaria/Sefaria-Project).
+```bash
+curl -O "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Genesis/English/merged.json"
+```
 
-### Contents
+### Download an entire category
 
-* `/json/` - simple json output of texts
-* `/txt/` - simple plain text output of texts
-* `/xml/` - simple xml output of texts (coming as soon as requested)
-* `/links/` - CSV output of all known interconnections in texts
-* `/schemas/` - JSON files corresponding to schema information about each text
-* `/misc` - other miscellaneous data outputs
+```bash
+# Using the helper script
+./examples/download_category.sh Talmud          # all Talmud in JSON
+./examples/download_category.sh Mishnah txt     # all Mishnah in TXT
 
-Text output folders are organized by category and contain seperate directories for each language. Each file is named according the version of the particular text. 
+# Or directly with gcloud/gsutil
+gcloud storage cp -r "gs://sefaria-export/json/Talmud/" ./talmud/
+gsutil -m cp -r "gs://sefaria-export/json/Talmud/" ./talmud/
+```
 
-Each terminal directory also includes a file called `merged` (e.g., `merged.json` or `merged.txt`). This file uses the same logic used on the Sefaria web site to include the maximal content available. For example, we have cases in the Mishnah where no single English version is complete by itself, but the merged version will include a complete text that picks and merges from multiple sources as needed.
+### Download everything
 
-When we do have complete versions of texts, we will still include a merged file. In that case, the merged file will be a copy of the default complete version. This simplifies many applications - you are always guaranteed that by looking at the merged version you'll see a maximal amount of text available, with preference for the text versions we've set. 
+```bash
+gcloud storage cp -r "gs://sefaria-export/" ./sefaria-data/
+```
 
-Code for generating these files can be found in our [Sefaria-Project](https://github.com/Sefaria/Sefaria-Project) repo under [sefaria/export.py](https://github.com/Sefaria/Sefaria-Project/blob/master/sefaria/export.py).
+### Use books.json to filter and download programmatically
+
+```python
+import requests
+
+books = requests.get(
+    "https://raw.githubusercontent.com/Sefaria/Sefaria-Export/master/books.json"
+).json()
+
+# Find all Talmud texts
+for book in books["books"]:
+    if "Talmud" in book["categories"]:
+        print(book["title"], book.get("json_url"))
+```
+
+Or use the ready-made script:
+
+```bash
+# Download all English Mishnah texts as JSON
+python examples/download_from_books_json.py --category Mishnah --language English
+
+# Download a specific title
+python examples/download_from_books_json.py --title "Genesis"
+
+# List what's available without downloading
+python examples/download_from_books_json.py --category Tanakh --list
+```
+
+## Bucket Structure
+
+The GCS bucket is organized hierarchically by format, category, title, language, and version:
+
+```
+gs://sefaria-export/
+  json/{categories}/{title}/{language}/{versionTitle}.json
+  txt/{categories}/{title}/{language}/{versionTitle}.txt
+  cltk-full/{categories}/{title}/{language}/{versionTitle}.json
+  cltk-flat/{categories}/{title}/{language}/{versionTitle}.json
+  schemas/{title}.json
+  links/links0.csv ... links12.csv
+  table_of_contents.json
+```
+
+### Example paths
+
+```
+json/Tanakh/Torah/Genesis/English/merged.json
+json/Talmud/Bavli/Seder Moed/Shabbat/Hebrew/merged.json
+txt/Mishnah/Seder Zeraim/Mishnah Berakhot/English/merged.txt
+schemas/Genesis.json
+links/links0.csv
+```
+
+### Formats
+
+| Format | Description |
+|--------|-------------|
+| `json/` | Structured JSON with text content, verse-level arrays |
+| `txt/` | Plain text, one file per version |
+| `cltk-full/` | JSON formatted for the [Classical Language Toolkit](http://cltk.org/) |
+| `cltk-flat/` | Flattened CLTK format |
+| `schemas/` | Schema/structure metadata for each text |
+| `links/` | CSV files of all intertextual connections |
+
+### Merged files
+
+Each text directory includes a `merged` file (e.g., `merged.json`, `merged.txt`). This file combines the maximal content available from all versions, using Sefaria's merging logic. When a single complete version exists, the merged file is a copy of it. Use merged files when you want the most complete text available.
+
+## books.json
+
+[`books.json`](books.json) is an index of every text in the bucket. Each entry contains:
+
+```json
+{
+  "title": "Genesis",
+  "language": "English",
+  "versionTitle": "merged",
+  "categories": ["Tanakh", "Torah"],
+  "json_url": "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Genesis/English/merged.json",
+  "txt_url": "https://storage.googleapis.com/sefaria-export/txt/Tanakh/Torah/Genesis/English/merged.txt",
+  "cltk_full_url": "...",
+  "cltk_flat_url": "..."
+}
+```
+
+This file is regenerated monthly by a [GitHub Action](.github/workflows/generate-books-json.yml).
+
+## Repository Contents
+
+| Path | Description |
+|------|-------------|
+| `books.json` | Index of all texts with metadata and download URLs |
+| `scripts/generate_books_json.py` | Generates books.json from the GCS bucket listing |
+| `examples/download_from_books_json.py` | Filter and download texts using books.json |
+| `examples/download_category.sh` | Download all texts in a category via gcloud |
+| `examples/browse_bucket.sh` | Browse available categories and texts |
+| `.github/workflows/generate-books-json.yml` | Monthly CI to regenerate books.json |
+
+## MongoDB Dump
+
+A MongoDB dump of Sefaria's full database is also available:
+
+- **Full dump** (includes edit history): [download](https://storage.googleapis.com/sefaria-mongo-backup/dump.tar.gz)
+- **Small dump** (without edit history): [download](https://storage.googleapis.com/sefaria-mongo-backup/dump_small.tar.gz)
+
+Load with:
+
+```bash
+# Extract and restore
+tar -xzf dump.tar.gz
+mongorestore --drop
+```
+
+## Related Projects
+
+- [Sefaria-Project](https://github.com/Sefaria/Sefaria-Project) - Sefaria's main application source code
+- [Sefaria API](https://developers.sefaria.org) - REST API for accessing Sefaria data programmatically
+
+## License
+
+See [LICENSE.md](LICENSE.md).

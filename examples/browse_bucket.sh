@@ -15,20 +15,18 @@ BUCKET="sefaria-export"
 PREFIX="${1:-}"
 
 if [ -z "$PREFIX" ]; then
-  echo "Top-level contents of gs://${BUCKET}/current/"
-  echo "============================================="
+  echo "Top-level contents of gs://${BUCKET}/"
+  echo "======================================="
   echo ""
 fi
 
 # Use the public GCS XML API to list "directories" at this level
 # delimiter=/ gives us folder-like listing without listing every nested object
-curl -s "https://storage.googleapis.com/${BUCKET}?prefix=current/${PREFIX}${PREFIX:+/}&delimiter=/" \
-  | grep -oP '(?<=<Prefix>)current/[^<]+' \
-  | sed "s|current/||" \
+curl -s "https://storage.googleapis.com/${BUCKET}?prefix=${PREFIX}${PREFIX:+/}&delimiter=/" \
+  | grep -oP '(?<=<Prefix>)[^<]+' \
   | sort
 
 # Also show files at this level (not in subdirectories)
-curl -s "https://storage.googleapis.com/${BUCKET}?prefix=current/${PREFIX}${PREFIX:+/}&delimiter=/" \
-  | grep -oP '(?<=<Key>)current/[^<]+' \
-  | sed "s|current/||" \
+curl -s "https://storage.googleapis.com/${BUCKET}?prefix=${PREFIX}${PREFIX:+/}&delimiter=/" \
+  | grep -oP '(?<=<Key>)[^<]+' \
   | sort

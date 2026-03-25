@@ -22,7 +22,7 @@ echo "Downloading ${FORMAT}/${CATEGORY}/ from gs://${BUCKET} ..."
 
 # gcloud storage supports downloading entire "folders" from GCS
 gcloud storage cp -r \
-  "gs://${BUCKET}/current/${FORMAT}/${CATEGORY}/" \
+  "gs://${BUCKET}/${FORMAT}/${CATEGORY}/" \
   "./${CATEGORY}/"
 
 echo "Done. Files saved to ./${CATEGORY}/"
