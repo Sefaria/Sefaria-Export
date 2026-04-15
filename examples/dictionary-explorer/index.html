@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sefaria Dictionary Explorer — Browse & Export to CSV</title>
+  <meta name="description" content="Browse and export Sefaria's dictionary data (Jastrow, BDB, Klein) as CSV. An open-source tool for scholars, students, and developers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Frank+Ruhl+Libre:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* ══════════════════════════════════════════
+       Design System
+       ══════════════════════════════════════════ */
+    :root {
+      --bg-primary: #0a0e1a;
+      --bg-secondary: #111827;
+      --bg-card: #1a2235;
+      --bg-input: #0d1422;
+      --bg-hover: #1e2a42;
+      --border: #2a3550;
+      --border-focus: #6c5ce7;
+      --text-primary: #e8ecf4;
+      --text-secondary: #8899b4;
+      --text-muted: #5a6a84;
+      --accent: #6c5ce7;
+      --accent-glow: rgba(108, 92, 231, 0.3);
+      --accent-2: #a78bfa;
+      --accent-3: #c4b5fd;
+      --success: #34d399;
+      --success-glow: rgba(52, 211, 153, 0.2);
+      --warning: #fbbf24;
+      --error: #f87171;
+      --hebrew-font: 'Frank Ruhl Libre', 'David', 'Times New Roman', serif;
+      --ui-font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --radius: 12px;
+      --radius-sm: 8px;
+      --shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+      --shadow-lg: 0 8px 48px rgba(0, 0, 0, 0.5);
+      --transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--ui-font);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Background gradient animation */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: 
+        radial-gradient(ellipse at 20% 0%, rgba(108, 92, 231, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 100%, rgba(167, 139, 250, 0.06) 0%, transparent 50%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ══════════════════════════════════════════
+       Layout
+       ══════════════════════════════════════════ */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ══════════════════════════════════════════
+       Header
+       ══════════════════════════════════════════ */
+    header {
+      padding: 48px 0 32px;
+      text-align: center;
+    }
+
+    .logo-mark {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .logo-icon {
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      box-shadow: 0 0 24px var(--accent-glow);
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, var(--text-primary), var(--accent-3));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subtitle {
+      color: var(--text-secondary);
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 8px;
+    }
+
+    /* ══════════════════════════════════════════
+       Controls Bar
+       ══════════════════════════════════════════ */
+    .controls {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .controls-row {
+      display: flex;
+      gap: 16px;
+      align-items: flex-end;
+      flex-wrap: wrap;
+    }
+
+    .form-group {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    select, input[type="text"], input[type="number"] {
+      width: 100%;
+      padding: 10px 14px;
+      background: var(--bg-input);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text-primary);
+      font-family: var(--ui-font);
+      font-size: 14px;
+      transition: border-color var(--transition), box-shadow var(--transition);
+      outline: none;
+    }
+
+    select:focus, input:focus {
+      border-color: var(--border-focus);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    select {
+      cursor: pointer;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238899b4' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 12px center;
+      padding-right: 36px;
+    }
+
+    .search-input {
+      position: relative;
+    }
+
+    .search-input input {
+      padding-left: 38px;
+      font-family: var(--hebrew-font);
+      font-size: 18px;
+      direction: rtl;
+    }
+
+    .search-input::before {
+      content: '🔍';
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 14px;
+      opacity: 0.5;
+      pointer-events: none;
+    }
+
+    /* ══════════════════════════════════════════
+       Letter Navigation
+       ══════════════════════════════════════════ */
+    .letter-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+
+    .letter-btn {
+      width: 42px;
+      height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text-primary);
+      font-family: var(--hebrew-font);
+      font-size: 20px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all var(--transition);
+    }
+
+    .letter-btn:hover {
+      background: var(--bg-hover);
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .letter-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+      box-shadow: 0 0 16px var(--accent-glow);
+    }
+
+    .letter-btn:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    /* ══════════════════════════════════════════
+       Action Buttons
+       ══════════════════════════════════════════ */
+    .btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: var(--radius-sm);
+      font-family: var(--ui-font);
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all var(--transition);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #fff;
+      box-shadow: 0 2px 12px var(--accent-glow);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 20px var(--accent-glow);
+    }
+
+    .btn-primary:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .btn-success {
+      background: linear-gradient(135deg, #059669, var(--success));
+      color: #fff;
+    }
+
+    .btn-success:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 20px var(--success-glow);
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+    }
+
+    .btn-outline:hover {
+      background: var(--bg-hover);
+      border-color: var(--accent);
+      color: var(--text-primary);
+    }
+
+    .actions-bar {
+      display: flex;
+      gap: 12px;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+
+    .actions-left {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .entry-count {
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+
+    .entry-count strong {
+      color: var(--accent-3);
+      font-weight: 600;
+    }
+
+    /* ══════════════════════════════════════════
+       Progress
+       ══════════════════════════════════════════ */
+    .progress-bar {
+      width: 100%;
+      height: 4px;
+      background: var(--bg-input);
+      border-radius: 2px;
+      overflow: hidden;
+      margin-bottom: 16px;
+      opacity: 0;
+      transition: opacity var(--transition);
+    }
+
+    .progress-bar.active {
+      opacity: 1;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      border-radius: 2px;
+      transition: width 300ms ease;
+      width: 0%;
+    }
+
+    .status-message {
+      font-size: 13px;
+      color: var(--text-muted);
+      min-height: 20px;
+      margin-bottom: 12px;
+      transition: color var(--transition);
+    }
+
+    .status-message.success { color: var(--success); }
+    .status-message.error { color: var(--error); }
+    .status-message.warning { color: var(--warning); }
+
+    /* ══════════════════════════════════════════
+       Results Table
+       ══════════════════════════════════════════ */
+    .table-wrapper {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+
+    .table-scroll {
+      overflow-x: auto;
+      max-height: 600px;
+      overflow-y: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    thead {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+
+    th {
+      background: var(--bg-secondary);
+      padding: 12px 16px;
+      text-align: left;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      border-bottom: 2px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid rgba(42, 53, 80, 0.5);
+      vertical-align: top;
+    }
+
+    tr {
+      transition: background var(--transition);
+    }
+
+    tr:hover {
+      background: var(--bg-hover);
+    }
+
+    .col-headword {
+      font-family: var(--hebrew-font);
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--accent-3);
+      direction: rtl;
+      white-space: nowrap;
+      min-width: 100px;
+    }
+
+    .col-id {
+      font-family: monospace;
+      font-size: 12px;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    .col-morphology {
+      font-family: monospace;
+      font-size: 12px;
+      color: var(--accent-2);
+      white-space: nowrap;
+    }
+
+    .col-definition {
+      max-width: 500px;
+      line-height: 1.5;
+      color: var(--text-primary);
+    }
+
+    .col-transliteration {
+      font-style: italic;
+      color: var(--text-secondary);
+      white-space: nowrap;
+    }
+
+    .col-refs {
+      font-size: 12px;
+      color: var(--text-muted);
+      max-width: 200px;
+    }
+
+    /* ══════════════════════════════════════════
+       Empty State
+       ══════════════════════════════════════════ */
+    .empty-state {
+      text-align: center;
+      padding: 64px 32px;
+      color: var(--text-muted);
+    }
+
+    .empty-state .icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+      opacity: 0.5;
+    }
+
+    .empty-state h3 {
+      font-size: 18px;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    /* ══════════════════════════════════════════
+       Entry Detail Modal
+       ══════════════════════════════════════════ */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(4px);
+      z-index: 100;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .modal-overlay.visible {
+      display: flex;
+    }
+
+    .modal {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px;
+      max-width: 640px;
+      width: 100%;
+      max-height: 80vh;
+      overflow-y: auto;
+      box-shadow: var(--shadow-lg);
+      animation: modalIn 200ms ease;
+    }
+
+    @keyframes modalIn {
+      from { opacity: 0; transform: scale(0.95) translateY(10px); }
+      to { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 24px;
+    }
+
+    .modal-headword {
+      font-family: var(--hebrew-font);
+      font-size: 36px;
+      font-weight: 700;
+      color: var(--accent-3);
+      direction: rtl;
+    }
+
+    .modal-close {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 24px;
+      cursor: pointer;
+      padding: 4px;
+      transition: color var(--transition);
+    }
+
+    .modal-close:hover { color: var(--text-primary); }
+
+    .modal-field {
+      margin-bottom: 16px;
+    }
+
+    .modal-field label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+      display: block;
+    }
+
+    .modal-field .value {
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+
+    .modal-field .value.hebrew {
+      font-family: var(--hebrew-font);
+      font-size: 18px;
+      direction: rtl;
+    }
+
+    .sense-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sense-list li {
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(42, 53, 80, 0.3);
+      line-height: 1.6;
+    }
+
+    .sense-list li:last-child {
+      border-bottom: none;
+    }
+
+    .sense-number {
+      color: var(--accent-2);
+      font-weight: 600;
+      margin-right: 8px;
+    }
+
+    /* ══════════════════════════════════════════
+       Footer
+       ══════════════════════════════════════════ */
+    footer {
+      text-align: center;
+      padding: 48px 0 32px;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    footer a {
+      color: var(--accent-2);
+      text-decoration: none;
+      transition: color var(--transition);
+    }
+
+    footer a:hover {
+      color: var(--accent-3);
+    }
+
+    /* ══════════════════════════════════════════
+       Responsive
+       ══════════════════════════════════════════ */
+    @media (max-width: 768px) {
+      header { padding: 32px 0 24px; }
+      h1 { font-size: 24px; }
+      .controls-row { flex-direction: column; }
+      .form-group { min-width: 100%; }
+      .actions-bar { flex-direction: column; align-items: stretch; }
+      .letter-btn { width: 36px; height: 36px; font-size: 16px; }
+    }
+
+    /* ══════════════════════════════════════════
+       Animations
+       ══════════════════════════════════════════ */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .fade-in {
+      animation: fadeIn 300ms ease;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    .loading { animation: pulse 1.5s ease infinite; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div class="logo-mark">
+        <div class="logo-icon">📖</div>
+        <div>
+          <h1 id="page-title">Sefaria Dictionary Explorer</h1>
+          <p class="subtitle">Browse, search, and export dictionary data as CSV</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Controls -->
+    <div class="controls" id="controls-panel">
+      <div class="controls-row">
+        <div class="form-group">
+          <label for="lexicon-select">Dictionary</label>
+          <select id="lexicon-select">
+            <option value="Jastrow Dictionary" data-index="Jastrow">Jastrow Dictionary — Talmudic Aramaic/Hebrew</option>
+            <option value="BDB Dictionary" data-index="BDB">BDB — Biblical Hebrew Lexicon</option>
+            <option value="BDB Aramaic Dictionary" data-index="BDB">BDB Aramaic — Biblical Aramaic</option>
+            <option value="Klein Dictionary" data-index="Klein Dictionary">Klein — Etymological Hebrew Dictionary</option>
+          </select>
+        </div>
+        <div class="form-group" style="max-width: 200px;">
+          <label for="limit-input">Max Entries</label>
+          <input type="number" id="limit-input" value="100" min="1" max="50000" step="50">
+        </div>
+        <div class="form-group search-input" style="max-width: 260px;">
+          <label for="search-input">Search Headword</label>
+          <input type="text" id="search-input" placeholder="אב..." autocomplete="off">
+        </div>
+      </div>
+    </div>
+
+    <!-- Letter Navigation -->
+    <div class="letter-nav" id="letter-nav">
+      <!-- Populated by JS -->
+    </div>
+
+    <!-- Progress -->
+    <div class="progress-bar" id="progress-bar">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    <div class="status-message" id="status-message"></div>
+
+    <!-- Actions -->
+    <div class="actions-bar">
+      <div class="actions-left">
+        <button class="btn btn-primary" id="btn-fetch" onclick="startFetch()">
+          <span>⬇</span> Load Entries
+        </button>
+        <button class="btn btn-outline" id="btn-stop" onclick="stopFetch()" style="display:none;">
+          <span>⏹</span> Stop
+        </button>
+        <span class="entry-count" id="entry-count"></span>
+      </div>
+      <div>
+        <button class="btn btn-success" id="btn-export" onclick="exportCSV()" disabled>
+          <span>📄</span> Export CSV
+        </button>
+      </div>
+    </div>
+
+    <!-- Results Table -->
+    <div class="table-wrapper">
+      <div class="table-scroll">
+        <table id="results-table">
+          <thead>
+            <tr>
+              <th>Headword</th>
+              <th>ID</th>
+              <th>Translit.</th>
+              <th>Morph.</th>
+              <th>Definition</th>
+              <th>Refs</th>
+            </tr>
+          </thead>
+          <tbody id="results-body">
+          </tbody>
+        </table>
+      </div>
+      <div class="empty-state" id="empty-state">
+        <div class="icon">📚</div>
+        <h3>Select a dictionary and click "Load Entries"</h3>
+        <p>Or click a letter to browse entries starting from that letter</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        Built for the <a href="https://github.com/Sefaria/Sefaria-Export">Sefaria-Export</a> project · 
+        Data from <a href="https://www.sefaria.org">Sefaria.org</a> · 
+        <a href="https://github.com/Sefaria/Sefaria-Export/blob/master/LICENSE.md">License</a>
+      </p>
+    </footer>
+  </div>
+
+  <!-- Entry Detail Modal -->
+  <div class="modal-overlay" id="modal-overlay" onclick="closeModal(event)">
+    <div class="modal" id="modal-content">
+      <div class="modal-header">
+        <div class="modal-headword" id="modal-headword"></div>
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+      </div>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script>
+    // ══════════════════════════════════════════
+    // State
+    // ══════════════════════════════════════════
+    const SEFARIA_API = 'https://www.sefaria.org/api';
+    const HEBREW_LETTERS = 'אבגדהוזחטיכלמנסעפצקרשת'.split('');
+
+    let entries = [];
+    let fetching = false;
+    let abortController = null;
+
+    // ══════════════════════════════════════════
+    // Initialization
+    // ══════════════════════════════════════════
+    document.addEventListener('DOMContentLoaded', () => {
+      buildLetterNav();
+      setupSearchDebounce();
+    });
+
+    function buildLetterNav() {
+      const nav = document.getElementById('letter-nav');
+      nav.innerHTML = '';
+      HEBREW_LETTERS.forEach(letter => {
+        const btn = document.createElement('button');
+        btn.className = 'letter-btn';
+        btn.textContent = letter;
+        btn.onclick = () => fetchFromLetter(letter);
+        nav.appendChild(btn);
+      });
+    }
+
+    function setupSearchDebounce() {
+      let timer;
+      document.getElementById('search-input').addEventListener('input', (e) => {
+        clearTimeout(timer);
+        const q = e.target.value.trim();
+        if (q.length >= 1) {
+          timer = setTimeout(() => searchWord(q), 400);
+        }
+      });
+    }
+
+    // ══════════════════════════════════════════
+    // HTML Stripping
+    // ══════════════════════════════════════════
+    function stripHtml(html) {
+      if (!html) return '';
+      const tmp = document.createElement('div');
+      tmp.innerHTML = html;
+      return tmp.textContent || tmp.innerText || '';
+    }
+
+    function flattenSenses(senses, depth = 0) {
+      if (!senses || !senses.length) return '';
+      const parts = [];
+      senses.forEach((sense, i) => {
+        const defn = sense.definition ? stripHtml(sense.definition) : '';
+        if (defn) {
+          const prefix = (depth > 0 || senses.length > 1) ? `${i + 1}. ` : '';
+          parts.push(prefix + defn);
+        }
+        if (sense.senses) {
+          const sub = flattenSenses(sense.senses, depth + 1);
+          if (sub) parts.push(sub);
+        }
+      });
+      return parts.join(' | ');
+    }
+
+    // ══════════════════════════════════════════
+    // API Fetching
+    // ══════════════════════════════════════════
+    async function fetchWordEntries(headword) {
+      const url = `${SEFARIA_API}/words/${encodeURIComponent(headword)}`;
+      const resp = await fetch(url, { signal: abortController?.signal });
+      if (!resp.ok) throw new Error(`API error: ${resp.status}`);
+      return resp.json();
+    }
+
+    async function fetchIndex(indexTitle) {
+      const url = `${SEFARIA_API}/index/${encodeURIComponent(indexTitle)}`;
+      const resp = await fetch(url);
+      if (!resp.ok) throw new Error(`Index error: ${resp.status}`);
+      return resp.json();
+    }
+
+    async function getFirstHeadword(indexTitle) {
+      const data = await fetchIndex(indexTitle);
+      const nodes = data.schema?.nodes || [];
+      for (const node of nodes) {
+        if (node.nodeType === 'DictionaryNode' && node.headwordMap) {
+          const ref = node.headwordMap[0][1];
+          return ref.includes(', ') ? ref.split(', ').slice(1).join(', ') : ref;
+        }
+      }
+      throw new Error('No DictionaryNode found');
+    }
+
+    async function getHeadwordForLetter(indexTitle, letter) {
+      const data = await fetchIndex(indexTitle);
+      const nodes = data.schema?.nodes || [];
+      for (const node of nodes) {
+        if (node.nodeType === 'DictionaryNode' && node.headwordMap) {
+          for (const [l, ref] of node.headwordMap) {
+            if (l === letter || l.replace(/[\u0591-\u05C7]/g, '') === letter) {
+              return ref.includes(', ') ? ref.split(', ').slice(1).join(', ') : ref;
+            }
+          }
+        }
+      }
+      return letter; // Fallback
+    }
+
+    // ══════════════════════════════════════════
+    // Fetch Orchestration
+    // ══════════════════════════════════════════
+    async function startFetch(startHeadword = null) {
+      if (fetching) return;
+
+      const lexicon = document.getElementById('lexicon-select').value;
+      const indexTitle = document.getElementById('lexicon-select').selectedOptions[0].dataset.index;
+      const limit = parseInt(document.getElementById('limit-input').value) || 100;
+
+      entries = [];
+      fetching = true;
+      abortController = new AbortController();
+      updateUI();
+
+      try {
+        let currentHw = startHeadword;
+        if (!currentHw) {
+          setStatus('Fetching index...', '');
+          currentHw = await getFirstHeadword(indexTitle);
+        }
+
+        setStatus(`Starting from "${currentHw}"...`, '');
+        showProgress(true);
+
+        while (currentHw && entries.length < limit && fetching) {
+          try {
+            const data = await fetchWordEntries(currentHw);
+            if (!Array.isArray(data)) break;
+
+            const matches = data.filter(e => e.parent_lexicon === lexicon);
+            let nextHw = null;
+
+            for (const entry of matches) {
+              entries.push(entry);
+              nextHw = entry.next_hw;
+            }
+
+            // If no matches for this lexicon, check any entry for next_hw
+            if (!matches.length) {
+              for (const e of data) {
+                if (e.next_hw) { nextHw = e.next_hw; break; }
+              }
+            }
+
+            currentHw = nextHw;
+            setProgress(entries.length / limit * 100);
+            setStatus(`Loaded ${entries.length} entries...`, '');
+            renderTable();
+
+            // Rate limit: 200ms between requests
+            await sleep(200);
+          } catch (err) {
+            if (err.name === 'AbortError') break;
+            console.warn(`Error on "${currentHw}":`, err);
+            setStatus(`Warning: skipped "${currentHw}" (${err.message})`, 'warning');
+            break;
+          }
+        }
+
+        if (entries.length > 0) {
+          setStatus(`✓ Loaded ${entries.length} entries from ${lexicon}`, 'success');
+        } else {
+          setStatus('No entries found', 'warning');
+        }
+      } catch (err) {
+        if (err.name !== 'AbortError') {
+          setStatus(`Error: ${err.message}`, 'error');
+        }
+      } finally {
+        fetching = false;
+        showProgress(false);
+        updateUI();
+      }
+    }
+
+    function stopFetch() {
+      fetching = false;
+      if (abortController) abortController.abort();
+      setStatus(`Stopped at ${entries.length} entries`, 'warning');
+      updateUI();
+    }
+
+    async function fetchFromLetter(letter) {
+      // Highlight active letter
+      document.querySelectorAll('.letter-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.textContent === letter);
+      });
+
+      const indexTitle = document.getElementById('lexicon-select').selectedOptions[0].dataset.index;
+      try {
+        setStatus(`Looking up letter ${letter}...`, '');
+        const hw = await getHeadwordForLetter(indexTitle, letter);
+        startFetch(hw);
+      } catch (err) {
+        setStatus(`Error: ${err.message}`, 'error');
+      }
+    }
+
+    async function searchWord(word) {
+      const lexicon = document.getElementById('lexicon-select').value;
+      setStatus(`Searching "${word}"...`, '');
+
+      try {
+        const data = await fetchWordEntries(word);
+        if (!Array.isArray(data)) {
+          setStatus(`No results for "${word}"`, 'warning');
+          return;
+        }
+
+        const matches = data.filter(e => e.parent_lexicon === lexicon);
+        if (matches.length) {
+          entries = matches;
+          setStatus(`Found ${matches.length} entries for "${word}"`, 'success');
+        } else {
+          // Show all results regardless of lexicon
+          entries = data;
+          setStatus(`Found ${data.length} entries across all dictionaries`, 'success');
+        }
+        renderTable();
+        updateUI();
+      } catch (err) {
+        setStatus(`Error: ${err.message}`, 'error');
+      }
+    }
+
+    // ══════════════════════════════════════════
+    // Rendering
+    // ══════════════════════════════════════════
+    function renderTable() {
+      const tbody = document.getElementById('results-body');
+      const empty = document.getElementById('empty-state');
+
+      if (!entries.length) {
+        tbody.innerHTML = '';
+        empty.style.display = 'block';
+        return;
+      }
+
+      empty.style.display = 'none';
+
+      tbody.innerHTML = entries.map((entry, i) => {
+        const senses = entry.content?.senses || [];
+        const defn = flattenSenses(senses);
+        const refs = (entry.refs || []).slice(0, 3).join('; ');
+        const morph = entry.content?.morphology || '';
+        const translit = entry.transliteration || '';
+        const rid = entry.rid || '';
+
+        return `<tr class="fade-in" style="animation-delay:${Math.min(i * 20, 500)}ms" onclick="showDetail(${i})">
+          <td class="col-headword">${escHtml(entry.headword || '')}</td>
+          <td class="col-id">${escHtml(rid)}</td>
+          <td class="col-transliteration">${escHtml(translit)}</td>
+          <td class="col-morphology">${escHtml(morph)}</td>
+          <td class="col-definition">${escHtml(defn.substring(0, 200))}${defn.length > 200 ? '…' : ''}</td>
+          <td class="col-refs">${escHtml(refs)}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    function showDetail(index) {
+      const entry = entries[index];
+      if (!entry) return;
+
+      document.getElementById('modal-headword').textContent = entry.headword || '';
+
+      const senses = entry.content?.senses || [];
+      let html = '';
+
+      // Basic fields
+      const fields = [
+        ['Lexicon', entry.parent_lexicon],
+        ['Entry ID', entry.rid],
+        ['Transliteration', entry.transliteration],
+        ['Pronunciation', entry.pronunciation],
+        ['Morphology', entry.content?.morphology],
+        ['Strong\'s Number', entry.strong_number],
+        ['Language Code', entry.language_code],
+        ['Alt. Headwords', (entry.alt_headwords || []).join(', ')],
+        ['Plural Form', (entry.plural_form || []).join(', ')],
+      ];
+
+      for (const [label, value] of fields) {
+        if (value) {
+          html += `<div class="modal-field">
+            <label>${label}</label>
+            <div class="value">${escHtml(String(value))}</div>
+          </div>`;
+        }
+      }
+
+      // Senses
+      if (senses.length) {
+        html += '<div class="modal-field"><label>Definitions</label>';
+        html += renderSenses(senses);
+        html += '</div>';
+      }
+
+      // Cross-references
+      if (entry.refs && entry.refs.length) {
+        html += `<div class="modal-field">
+          <label>Cross-References</label>
+          <div class="value">${escHtml(entry.refs.join('; '))}</div>
+        </div>`;
+      }
+
+      // Navigation
+      const nav = [];
+      if (entry.prev_hw) nav.push(`← ${entry.prev_hw}`);
+      if (entry.next_hw) nav.push(`${entry.next_hw} →`);
+      if (nav.length) {
+        html += `<div class="modal-field">
+          <label>Navigation</label>
+          <div class="value hebrew">${escHtml(nav.join('   '))}</div>
+        </div>`;
+      }
+
+      document.getElementById('modal-body').innerHTML = html;
+      document.getElementById('modal-overlay').classList.add('visible');
+    }
+
+    function renderSenses(senses, depth = 0) {
+      let html = '<ol class="sense-list">';
+      for (const sense of senses) {
+        const defn = sense.definition ? stripHtml(sense.definition) : '';
+        html += `<li>${defn}`;
+        if (sense.senses) {
+          html += renderSenses(sense.senses, depth + 1);
+        }
+        html += '</li>';
+      }
+      html += '</ol>';
+      return html;
+    }
+
+    function closeModal(event) {
+      if (event && event.target !== document.getElementById('modal-overlay')) return;
+      document.getElementById('modal-overlay').classList.remove('visible');
+    }
+
+    // ══════════════════════════════════════════
+    // CSV Export
+    // ══════════════════════════════════════════
+    function exportCSV() {
+      if (!entries.length) return;
+
+      const columns = [
+        'headword', 'headword_id', 'transliteration', 'pronunciation',
+        'morphology', 'definition', 'senses_json', 'alt_headwords',
+        'plural_form', 'strong_number', 'language_code', 'cross_refs',
+        'source_lexicon', 'prev_headword', 'next_headword'
+      ];
+
+      const rows = entries.map(entry => {
+        const senses = entry.content?.senses || [];
+        return {
+          headword: entry.headword || '',
+          headword_id: entry.rid || '',
+          transliteration: entry.transliteration || '',
+          pronunciation: entry.pronunciation || '',
+          morphology: entry.content?.morphology || '',
+          definition: flattenSenses(senses),
+          senses_json: JSON.stringify(senses),
+          alt_headwords: (entry.alt_headwords || []).join('; '),
+          plural_form: (entry.plural_form || []).join('; '),
+          strong_number: entry.strong_number || '',
+          language_code: entry.language_code || '',
+          cross_refs: (entry.refs || []).join('; '),
+          source_lexicon: entry.parent_lexicon || '',
+          prev_headword: entry.prev_hw || '',
+          next_headword: entry.next_hw || '',
+        };
+      });
+
+      // Build CSV string with proper escaping
+      let csv = columns.join(',') + '\n';
+      for (const row of rows) {
+        const line = columns.map(col => {
+          const val = String(row[col] || '');
+          // Escape quotes and wrap in quotes if contains comma, quote, or newline
+          if (val.includes(',') || val.includes('"') || val.includes('\n')) {
+            return '"' + val.replace(/"/g, '""') + '"';
+          }
+          return val;
+        });
+        csv += line.join(',') + '\n';
+      }
+
+      // Download
+      const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' }); // BOM for Excel
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      const lexicon = document.getElementById('lexicon-select').value;
+      a.href = url;
+      a.download = `${lexicon.replace(/\s+/g, '_')}_export.csv`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+
+      setStatus(`✓ Downloaded ${rows.length} entries as CSV`, 'success');
+    }
+
+    // ══════════════════════════════════════════
+    // UI Helpers
+    // ══════════════════════════════════════════
+    function updateUI() {
+      const fetchBtn = document.getElementById('btn-fetch');
+      const stopBtn = document.getElementById('btn-stop');
+      const exportBtn = document.getElementById('btn-export');
+      const countEl = document.getElementById('entry-count');
+
+      fetchBtn.style.display = fetching ? 'none' : 'inline-flex';
+      fetchBtn.disabled = fetching;
+      stopBtn.style.display = fetching ? 'inline-flex' : 'none';
+      exportBtn.disabled = entries.length === 0;
+
+      if (entries.length) {
+        countEl.innerHTML = `<strong>${entries.length}</strong> entries loaded`;
+      } else {
+        countEl.textContent = '';
+      }
+    }
+
+    function setStatus(msg, type = '') {
+      const el = document.getElementById('status-message');
+      el.textContent = msg;
+      el.className = 'status-message' + (type ? ` ${type}` : '');
+    }
+
+    function showProgress(visible) {
+      document.getElementById('progress-bar').classList.toggle('active', visible);
+      if (!visible) setProgress(0);
+    }
+
+    function setProgress(pct) {
+      document.getElementById('progress-fill').style.width = `${Math.min(pct, 100)}%`;
+    }
+
+    function escHtml(str) {
+      const div = document.createElement('div');
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+  </script>
+</body>
+</html>
