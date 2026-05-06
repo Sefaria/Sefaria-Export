@@ -13,6 +13,9 @@ before running anything here.
 - Push access to a *new, empty* `Sefaria/Sefaria-Export-Archive` repo on GitHub.
 - All open PRs against `Sefaria-Export` resolved or PR authors notified.
 - Branch protection on `master` temporarily relaxed (or admin override available).
+- The monthly `generate-books-json` workflow is paused or in a quiet window — a
+  push to master while Phase 2 is running will trip `--force-with-lease` and
+  abort the migration partway. Re-enable after Phase 2 completes.
 - A scratch directory with ~25 GB free disk.
 
 ## Order of operations
@@ -25,6 +28,22 @@ before running anything here.
 
 After Phase 2, follow Phase 3 of the design doc (README/CLAUDE.md updates as a normal
 PR) and Phase 4 (announcement).
+
+## Resuming a failed Phase 1
+
+Phase 1's `git push --mirror` is the single 10 GB transfer; if it drops mid-way,
+re-running `01_create_archive.sh` from scratch re-clones from the source. To skip
+the re-clone, point the script at the existing workdir:
+
+```bash
+WORKDIR=/path/to/previous/run ./01_create_archive.sh
+```
+
+Or, manually from inside the existing `Sefaria-Export.git/` mirror:
+
+```bash
+git push --mirror   # remote was already set by the previous run
+```
 
 ## Recovery
 

@@ -25,6 +25,23 @@ Non-goals:
 - Changing the monthly regeneration of `books.json`.
 - Rewriting any other Sefaria repository.
 
+## Scope assumptions (verified before Phase 0)
+
+The maintainer must confirm each of these with `git ls-remote` and a quick
+GitHub UI scan before scheduling the cutover. If any becomes false, the design
+needs to be revisited:
+
+- `Sefaria-Export` does **not** use Git LFS.
+- `Sefaria-Export` does **not** use signed/GPG commits as a branch-protection
+  requirement (a signature requirement on the new orphan commit can be
+  satisfied at commit time, but it must be planned for).
+- `Sefaria-Export` does **not** publish GitHub Pages from this repo.
+- `Sefaria-Export` does **not** contain submodules.
+- The repo's GitHub Releases are not load-bearing for downstream consumers
+  (consumers use the GCS bucket, not release tarballs). Tag objects survive in
+  the archive; release metadata on `Sefaria-Export` itself will be deleted as
+  part of Phase 2.5.
+
 ## Approach
 
 Two-repo split:
@@ -67,6 +84,19 @@ in this repo. The scripts in `scripts/migration/` are runbooks, not CI.
    `Sefaria-Export`.
 
 ### Phase 2 — Slim the main repo
+
+The script `02_orphan_master.sh` does the following before any destructive
+action:
+
+1. **Verifies `pre-migration-master` exists in the archive remote.** If Phase 1
+   failed silently or wasn't run, the script aborts here. This guarantees the
+   recovery path exists before destruction begins.
+2. **Audits non-master refs on origin** (`git ls-remote --heads --tags`). Any
+   surviving branch or tag that touches the old commit graph would keep all
+   that history reachable in default `git clone` operations and silently defeat
+   the size goal. The script lists these refs and prompts the maintainer to
+   delete them from origin after the master force-push (history remains in the
+   archive).
 1. From a fresh clone of `Sefaria-Export`:
 2. Run `scripts/migration/02_orphan_master.sh`:
    - Capture the current `master` SHA as `PRE_MIGRATION_SHA` for the announcement.
@@ -79,6 +109,9 @@ in this repo. The scripts in `scripts/migration/` are runbooks, not CI.
    - `git push --force-with-lease origin master`
 5. In GitHub settings for `Sefaria-Export`: temporarily disable branch protection on
    `master` for the force-push, then re-enable it.
+6. Pause the monthly `generate-books-json` workflow before running Phase 2.
+   A concurrent push from CI between the script's clone and the force-push will
+   trip `--force-with-lease` and abort the migration mid-way.
 
 ### Phase 3 — Update the live repo
 On the new lean `master`, in a regular PR:

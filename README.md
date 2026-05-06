@@ -13,12 +13,10 @@ only need the current tooling and index, clone shallow:
 git clone --depth 1 https://github.com/Sefaria/Sefaria-Export.git
 ```
 
-The full historical commit graph is preserved separately at
-[Sefaria/Sefaria-Export-Archive](https://github.com/Sefaria/Sefaria-Export-Archive)
-(read-only). Clone that repo if you need to inspect prior versions of `books.json` or
-trace when a specific text first appeared. See
-[`docs/superpowers/specs/2026-05-06-archive-git-history-design.md`](docs/superpowers/specs/2026-05-06-archive-git-history-design.md)
-for the rationale.
+The full historical commit graph will be preserved separately at
+`Sefaria/Sefaria-Export-Archive` (read-only) — see migration plan and timeline in
+[`docs/superpowers/specs/2026-05-06-archive-git-history-design.md`](docs/superpowers/specs/2026-05-06-archive-git-history-design.md).
+Once the archive repo lands, this section will be updated with the live link.
 
 ## Quick Start
 
