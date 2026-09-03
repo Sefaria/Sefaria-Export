@@ -68,6 +68,22 @@ See `examples/` for ready-to-use download scripts:
 - `download_category.sh` — download all texts in a category (e.g., Talmud, Mishnah)
 - `download_from_books_json.py` — filter and download using books.json
 - `browse_bucket.sh` — list available categories and texts in the bucket
+- `export_dictionary_example.py` — export a sample of dictionary entries to CSV
+- `dictionary-explorer/` — browser-based dictionary explorer and CSV exporter
+
+## Dictionary export
+
+Dictionaries (Jastrow, BDB, Klein) use a `DictionaryNode` schema and are NOT in the standard GCS text export. Use the dedicated tools:
+
+```bash
+# CLI: export Jastrow as CSV
+python scripts/export_dictionaries_csv.py --lexicon "Jastrow Dictionary" --limit 50
+
+# Browser: open the interactive explorer
+open examples/dictionary-explorer/index.html
+```
+
+The script crawls `/api/words/{headword}` using `next_hw` linked-list pointers. Rate-limited (200ms default). Supports `--resume` for long crawls.
 
 ## Files
 
@@ -75,5 +91,8 @@ See `examples/` for ready-to-use download scripts:
 |------|---------|
 | `books.json` | Index of all texts with metadata and GCS download URLs |
 | `scripts/generate_books_json.py` | Generates books.json from GCS bucket (runs in CI) |
+| `scripts/export_dictionaries_csv.py` | Export dictionary/lexicon data as CSV via Sefaria API |
 | `examples/` | Example download scripts for developers |
+| `examples/dictionary-explorer/` | Browser-based dictionary explorer and CSV exporter |
+| `tests/test_export_dictionaries_csv.py` | Tests for the dictionary export script |
 | `.github/workflows/generate-books-json.yml` | Monthly CI to regenerate books.json (also supports manual trigger) |

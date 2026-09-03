@@ -127,15 +127,56 @@ Each text directory includes a `merged` file (e.g., `merged.json`, `merged.txt`)
 
 This file is regenerated monthly (2nd of each month, day after the GCS export) by a [GitHub Action](.github/workflows/generate-books-json.yml). It can also be triggered manually from the Actions tab.
 
+## Dictionary Export (CSV)
+
+Sefaria's dictionaries — Jastrow, BDB (Brown-Driver-Briggs), Klein — use a `DictionaryNode` schema that isn't included in the standard GCS text export. These tools use Sefaria's `/api/words/` endpoint to crawl and export dictionary entries as structured CSV files.
+
+### Command-line export
+
+```bash
+# Export Jastrow Dictionary (all ~13,000 entries)
+python scripts/export_dictionaries_csv.py --lexicon "Jastrow Dictionary"
+
+# Export BDB Biblical Hebrew lexicon
+python scripts/export_dictionaries_csv.py --lexicon "BDB Dictionary"
+
+# Export all supported dictionaries
+python scripts/export_dictionaries_csv.py --all
+
+# Quick test: export first 20 entries only
+python scripts/export_dictionaries_csv.py --lexicon "Jastrow Dictionary" --limit 20
+
+# Resume an interrupted export
+python scripts/export_dictionaries_csv.py --lexicon "Jastrow Dictionary" --resume
+```
+
+The CSV output includes: headword, transliteration, morphology, definitions (HTML-stripped), raw senses JSON, cross-references, Strong's numbers, and navigation pointers.
+
+### Browser-based explorer
+
+Open [`examples/dictionary-explorer/index.html`](examples/dictionary-explorer/index.html) in your browser for an interactive dictionary explorer with search, letter navigation, and CSV download — no server or dependencies required.
+
+### Supported dictionaries
+
+| Dictionary | Entries | Description |
+|---|---|---|
+| Jastrow Dictionary | ~13,000 | Aramaic/Hebrew for Talmud, midrash, and Targumim |
+| BDB Dictionary | ~8,700 | Biblical Hebrew lexicon (Brown-Driver-Briggs) |
+| BDB Aramaic Dictionary | (subset) | Biblical Aramaic entries from BDB |
+| Klein Dictionary | ~30,000 | Comprehensive etymological dictionary of Hebrew |
+
 ## Repository Contents
 
 | Path | Description |
 |------|-------------|
 | `books.json` | Index of all texts with metadata and download URLs |
 | `scripts/generate_books_json.py` | Generates books.json from the GCS bucket listing |
+| `scripts/export_dictionaries_csv.py` | Export dictionary/lexicon data as CSV |
 | `examples/download_from_books_json.py` | Filter and download texts using books.json |
 | `examples/download_category.sh` | Download all texts in a category via gcloud |
 | `examples/browse_bucket.sh` | Browse available categories and texts |
+| `examples/export_dictionary_example.py` | Quick example: export a few dictionary entries |
+| `examples/dictionary-explorer/` | Browser-based dictionary explorer and CSV exporter |
 | `.github/workflows/generate-books-json.yml` | Monthly CI to regenerate books.json (also supports manual trigger) |
 
 
