@@ -11,6 +11,44 @@ SOURCE_URL="${SOURCE_URL:-git@github.com:Sefaria/Sefaria-Export.git}"
 ARCHIVE_URL="${ARCHIVE_URL:-https://github.com/Sefaria/Sefaria-Export-Archive}"
 WORKDIR="${WORKDIR:-$(mktemp -d -t sefaria-export-slim-XXXX)}"
 
+# The one known Git LFS object in this repo's history: links/links.csv as of
+# commit c8b01ae01480348c188e846a71fe260697882fc9. See the archive-git-history
+# design doc under docs/superpowers/specs/ for context.
+readonly LFS_OID="baa9ea43d9ccadd1b6340d77c317f2a92ef00be62c2a34a12ea19b9627e7e15f"
+readonly LFS_SIZE="105951940"
+
+# Derive the LFS batch API endpoint for a repo, whether given as an SSH URL
+# (git@github.com:Org/Repo.git) or an HTTPS URL (https://github.com/Org/Repo.git).
+lfs_batch_url() {
+  local url="$1" https
+  if [[ "$url" == git@*:* ]]; then
+    local host_and_path="${url#git@}"
+    local host="${host_and_path%%:*}"
+    local path="${host_and_path#*:}"
+    https="https://${host}/${path}"
+  else
+    https="$url"
+  fi
+  [[ "$https" == *.git ]] || https="${https}.git"
+  echo "${https}/info/lfs/objects/batch"
+}
+
+# Probe an LFS batch endpoint for a downloadable copy of $LFS_OID. Public
+# repos need no auth for this. Returns 0 and prints nothing on success;
+# returns 1 and prints the raw response on failure.
+probe_lfs_object() {
+  local batch_url="$1" response
+  response="$(curl -sS -X POST "$batch_url" \
+    -H "Accept: application/vnd.git-lfs+json" \
+    -H "Content-Type: application/vnd.git-lfs+json" \
+    -d "{\"operation\":\"download\",\"transfers\":[\"basic\"],\"objects\":[{\"oid\":\"${LFS_OID}\",\"size\":${LFS_SIZE}}]}")"
+  if echo "$response" | grep -q '"download"' && ! echo "$response" | grep -q '"error"'; then
+    return 0
+  fi
+  echo "$response" >&2
+  return 1
+}
+
 echo "==> Source (will be force-pushed): $SOURCE_URL"
 echo "==> Archive (already populated):   $ARCHIVE_URL"
 echo "==> Workdir: $WORKDIR"
@@ -29,6 +67,21 @@ git ls-remote --tags "$ARCHIVE_URL" "refs/tags/pre-migration-master" 2>/dev/null
        echo "!! Run 01_create_archive.sh first and verify it completed."; \
        exit 1; }
 echo "==> Archive tag present. Recovery path is intact."
+
+echo "==> Verifying LFS object $LFS_OID is retrievable from the archive..."
+ARCHIVE_LFS_BATCH_URL="$(lfs_batch_url "$ARCHIVE_URL")"
+echo "    probing: $ARCHIVE_LFS_BATCH_URL"
+if ! probe_lfs_object "$ARCHIVE_LFS_BATCH_URL"; then
+  echo "!! ABORT: LFS object $LFS_OID is NOT retrievable from the archive."
+  echo "!! Phase 1 (01_create_archive.sh) did not finish migrating LFS"
+  echo "!! objects -- the mirror push alone copies LFS pointer blobs but not"
+  echo "!! the objects themselves. Proceeding now would force-push over the"
+  echo "!! only live copy of this ~106 MB object and lose it permanently."
+  echo "!! Re-run 01_create_archive.sh to completion (including its LFS"
+  echo "!! fetch/push/verify steps) before running this script."
+  exit 1
+fi
+echo "==> LFS object confirmed retrievable from archive. Safe to proceed."
 
 cd "$WORKDIR"
 echo "==> Fresh clone of source (full, not shallow)..."

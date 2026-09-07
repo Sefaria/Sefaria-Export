@@ -11,12 +11,17 @@ before running anything here.
 
 - Push access to `Sefaria/Sefaria-Export`.
 - Push access to a *new, empty* `Sefaria/Sefaria-Export-Archive` repo on GitHub.
+- `git-lfs` installed (`brew install git-lfs && git lfs install`). The repo has
+  one historical Git LFS object (`links/links.csv`, ~106 MB); a plain mirror
+  clone/push copies the LFS pointer but not the object itself.
 - All open PRs against `Sefaria-Export` resolved or PR authors notified.
 - Branch protection on `master` temporarily relaxed (or admin override available).
 - The monthly `generate-books-json` workflow is paused or in a quiet window — a
   push to master while Phase 2 is running will trip `--force-with-lease` and
   abort the migration partway. Re-enable after Phase 2 completes.
-- A scratch directory with ~25 GB free disk.
+- A scratch directory with ~25 GB free disk (accounting for the ~10 GB mirror,
+  a working clone, and the LFS object cache — the historical LFS object adds
+  ~106 MB on its own, but budget generously).
 
 ## Order of operations
 
@@ -54,6 +59,15 @@ If anything goes wrong after Phase 2:
 git clone --mirror git@github.com:Sefaria/Sefaria-Export-Archive.git
 cd Sefaria-Export-Archive.git
 git push --force git@github.com:Sefaria/Sefaria-Export.git refs/tags/pre-migration-master:refs/heads/master
+```
+
+This restores the ref, but **not the Git LFS objects** — a mirror push moves
+pointer blobs, not the LFS objects themselves. Also restore LFS content back
+onto the target repo:
+
+```bash
+git lfs fetch --all
+git lfs push --all git@github.com:Sefaria/Sefaria-Export.git
 ```
 
 This restores `Sefaria-Export` to its pre-migration state.

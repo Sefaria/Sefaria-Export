@@ -6,6 +6,20 @@
 **Author:** yodem (Claude assisted)
 **Date:** 2026-05-06
 
+## Corrections
+
+- **2026-09-07:** Pre-execution verification found the "does not use Git LFS"
+  scope assumption below to be **false**. `Sefaria-Export` has one Git LFS
+  object in its history (`links/links.csv`, ~106 MB, still live in GitHub LFS
+  storage). This was missed at design time because the object was removed
+  from the working tree years ago (replaced by the numbered `links0.csv`..
+  `links12.csv` files) and so wasn't visible in a plain directory listing —
+  only `git log`/`.gitattributes` history surfaces it. The scope assumption,
+  `01_create_archive.sh`, `02_orphan_master.sh`, and this Verification
+  section were updated accordingly: Phase 1 now migrates LFS objects
+  explicitly and verifies them in the archive; Phase 2 now refuses to run
+  unless that verification passes.
+
 ## Problem
 
 `Sefaria-Export` is ~10 GB to clone because the git history accumulates monthly snapshots
@@ -31,7 +45,15 @@ The maintainer must confirm each of these with `git ls-remote` and a quick
 GitHub UI scan before scheduling the cutover. If any becomes false, the design
 needs to be revisited:
 
-- `Sefaria-Export` does **not** use Git LFS.
+- `Sefaria-Export` **does** use Git LFS: exactly one object, ~106 MB
+  (`links/links.csv` as tracked by `.gitattributes`), referenced from
+  historical commit `c8b01ae0`, oid `baa9ea43…`. Verified present and
+  retrievable from GitHub LFS storage on 2026-09-07. Because `git clone
+  --mirror` + `git push --mirror` copy LFS *pointer* blobs but not the LFS
+  *objects* themselves, Phase 1 must explicitly `git lfs fetch --all` /
+  `git lfs push --all` to migrate this object, and Phase 2 must gate on its
+  presence in the archive before any destructive action — see the
+  Corrections note below.
 - `Sefaria-Export` does **not** use signed/GPG commits as a branch-protection
   requirement (a signature requirement on the new orphan commit can be
   satisfied at commit time, but it must be planned for).
@@ -147,6 +169,11 @@ After Phase 2:
 - `git -C /tmp/check log --oneline | wc -l` — expect 1.
 - The monthly `generate-books-json` workflow runs successfully on the next scheduled trigger.
 - `Sefaria-Export-Archive` clone reproduces the pre-migration HEAD SHA byte-for-byte.
+- The historical Git LFS object (oid `baa9ea43…`, ~106 MB) is retrievable from the
+  archive repo — confirmed via the LFS batch API (`POST
+  https://github.com/Sefaria/Sefaria-Export-Archive.git/info/lfs/objects/batch`)
+  returning a `download` action, not just by the pointer blob being present in
+  the mirrored refs.
 
 ## Deliverables in *this* PR (sc-43976)
 
