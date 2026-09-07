@@ -5,9 +5,35 @@
 # Prereq: an empty Sefaria/Sefaria-Export-Archive repo exists on GitHub.
 # Prereq: git-lfs is installed (`brew install git-lfs && git lfs install`) --
 #   Sefaria-Export has one historical Git LFS object (links/links.csv @
-#   c8b01ae0, ~106 MB) and `git push --mirror` alone does NOT copy LFS
+#   c8b01ae0, ~106 MB) and a mirror push alone does NOT copy LFS
 #   objects, only the pointer blobs. Skipping LFS here would leave the
 #   archive with a dangling pointer and no way to recover that object.
+#
+# WHY NOT `git push --mirror`? Verified in a real run that it FAILS for this
+# repo, for two distinct reasons -- do not "simplify" this script back to a
+# single `git push --mirror` without re-reading both:
+#
+#   1. A `--mirror` clone of a GitHub-hosted repo pulls in the read-only
+#      `refs/pull/*` namespace (21 such refs on this repo). GitHub rejects
+#      any push to `refs/pull/*`, and `--mirror` tries to push every ref it
+#      has, so the whole push is refused.
+#   2. Even excluding `refs/pull/*`, this repo's ~14 GB of history in one
+#      HTTPS push exceeds GitHub's ~2 GB per-push limit:
+#        error: RPC failed; HTTP 500 curl 22 The requested URL returned error: 500
+#        send-pack: unexpected disconnect while reading sideband packet
+#        fatal: the remote end hung up unexpectedly
+#      SSH does not have this per-push ceiling and is preferred when
+#      available (see README's Prerequisites), but HTTPS must still work
+#      because SSH isn't always configured on every maintainer's machine.
+#
+# The fix: push `refs/heads/*` and `refs/tags/*` explicitly (never
+# `refs/pull/*`), and push `master` incrementally in small chunks of commits
+# (oldest first) so no single push exceeds the size limit. A chunk that
+# still fails (one did, in a real run, on a single oversized commit) is
+# retried commit-by-commit rather than aborting the whole migration.
+#
+# This script targets bash 3.2 (macOS's shipped bash) on purpose: no
+# `mapfile`/`readarray`, no associative arrays, no `${var,,}`/`${var^^}`.
 
 set -euo pipefail
 
@@ -57,7 +83,7 @@ echo "==> Checking for git-lfs..."
 if ! git lfs version >/dev/null 2>&1; then
   echo "!! ABORT: git-lfs is not installed or not on PATH."
   echo "!! Sefaria-Export has a historical Git LFS object that a plain"
-  echo "!! 'git clone --mirror' + 'git push --mirror' will NOT copy."
+  echo "!! 'git clone --mirror' + ref push will NOT copy."
   echo "!! Install it and retry:"
   echo "!!     brew install git-lfs && git lfs install"
   exit 1
@@ -68,7 +94,7 @@ echo "==> Source:  $SOURCE_URL"
 echo "==> Archive: $ARCHIVE_URL"
 echo "==> Workdir: $WORKDIR"
 echo
-read -r -p "Proceed with mirror clone + push? [y/N] " ans
+read -r -p "Proceed with mirror clone + incremental push? [y/N] " ans
 [[ "$ans" == "y" || "$ans" == "Y" ]] || { echo "aborted"; exit 1; }
 
 cd "$WORKDIR"
@@ -89,9 +115,106 @@ echo "    $SOURCE_URL for fetch at this point; includes the historical"
 echo "    links/links.csv object referenced from commit c8b01ae0)..."
 git lfs fetch --all
 
-echo "==> Pushing mirror to archive remote..."
+echo "==> Configuring remote for incremental push to archive..."
 git remote set-url --push origin "$ARCHIVE_URL"
-git push --mirror
+# A `--mirror` clone sets remote.origin.mirror=true, which forces every
+# subsequent push to behave like `--mirror` (and fail with "--mirror can't
+# be combined with refspecs") unless this is cleared first.
+git config --unset remote.origin.mirror 2>/dev/null || true
+git config http.postBuffer 524288000
+
+STEP="${STEP:-5}"
+
+echo "==> Checking archive's current master tip (for resuming a prior run)..."
+ARCHIVE_MASTER_SHA="$(git ls-remote "$ARCHIVE_URL" refs/heads/master 2>/dev/null | cut -f1 || true)"
+if [[ -n "$ARCHIVE_MASTER_SHA" ]] && git cat-file -e "${ARCHIVE_MASTER_SHA}^{commit}" 2>/dev/null; then
+  echo "==> Archive already has master at $ARCHIVE_MASTER_SHA -- resuming from there."
+  REV_RANGE="${ARCHIVE_MASTER_SHA}..master"
+else
+  echo "==> Archive has no usable master yet -- pushing full history."
+  REV_RANGE="master"
+fi
+
+# Bash 3.2 has no `mapfile`/`readarray`. Build the ordered (oldest-first)
+# commit list with a plain read loop into an indexed array instead.
+COMMITS_FILE="$WORKDIR/commits_to_push.txt"
+git rev-list --reverse "$REV_RANGE" > "$COMMITS_FILE"
+commits=()
+while IFS= read -r line; do
+  [[ -n "$line" ]] && commits+=("$line")
+done < "$COMMITS_FILE"
+TOTAL="${#commits[@]}"
+
+if [[ "$TOTAL" -eq 0 ]]; then
+  echo "==> Archive master is already up to date with source master. Nothing to push."
+else
+  WIDTH="${#TOTAL}"
+  echo "==> Pushing $TOTAL commit(s) to archive master in chunks of $STEP"
+  echo "    (a chunk that fails is automatically retried commit-by-commit)..."
+
+  i=0
+  while [[ $i -lt $TOTAL ]]; do
+    end=$((i + STEP - 1))
+    if [[ $end -ge $TOTAL ]]; then
+      end=$((TOTAL - 1))
+    fi
+    chunk_tip="${commits[$end]}"
+    chunk_tip_short="${chunk_tip:0:10}"
+    if git push "$ARCHIVE_URL" "+${chunk_tip}:refs/heads/master" \
+        >"$WORKDIR/push.log" 2>&1; then
+      printf "[%${WIDTH}d/%${WIDTH}d] through %s ... ok\n" \
+        "$((end + 1))" "$TOTAL" "$chunk_tip_short"
+    else
+      echo "!! chunk push (commits $((i + 1))-$((end + 1))) failed at $chunk_tip_short;" \
+        "falling back to commit-by-commit for this chunk:"
+      cat "$WORKDIR/push.log" >&2
+      j=$i
+      while [[ $j -le $end ]]; do
+        sha="${commits[$j]}"
+        short="${sha:0:10}"
+        if git push "$ARCHIVE_URL" "+${sha}:refs/heads/master" \
+            >"$WORKDIR/push.log" 2>&1; then
+          printf "[%${WIDTH}d/%${WIDTH}d] through %s ... ok (retry)\n" \
+            "$((j + 1))" "$TOTAL" "$short"
+        else
+          echo "!! ABORT: push failed even commit-by-commit at $short" \
+            "(commit $((j + 1))/$TOTAL)."
+          cat "$WORKDIR/push.log" >&2
+          exit 1
+        fi
+        j=$((j + 1))
+      done
+    fi
+    i=$((end + 1))
+  done
+fi
+
+echo "==> Pushing final master tip explicitly..."
+git push "$ARCHIVE_URL" "+master:refs/heads/master"
+
+echo "==> Pushing remaining branches (refs/heads/*, excluding master)..."
+HEADS_FILE="$WORKDIR/heads.txt"
+git for-each-ref --format='%(refname)' refs/heads/ > "$HEADS_FILE"
+while IFS= read -r ref; do
+  [[ -n "$ref" ]] || continue
+  name="${ref#refs/heads/}"
+  [[ "$name" == "master" ]] && continue
+  echo "    pushing branch $name"
+  git push "$ARCHIVE_URL" "+${ref}:${ref}"
+done < "$HEADS_FILE"
+
+echo "==> Pushing tags (refs/tags/*)..."
+TAGS_FILE="$WORKDIR/tags.txt"
+git for-each-ref --format='%(refname)' refs/tags/ > "$TAGS_FILE"
+while IFS= read -r ref; do
+  [[ -n "$ref" ]] || continue
+  name="${ref#refs/tags/}"
+  echo "    pushing tag $name"
+  git push "$ARCHIVE_URL" "+${ref}:${ref}"
+done < "$TAGS_FILE"
+
+# `refs/pull/*` is intentionally never pushed above: it is read-only on
+# GitHub, and a mirror push (or any attempt to push it) is rejected.
 
 echo "==> Pushing LFS objects to archive remote (origin's push URL now"
 echo "    points at $ARCHIVE_URL, so this lands the LFS objects there too)..."

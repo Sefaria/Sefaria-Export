@@ -14,6 +14,12 @@ before running anything here.
 - `git-lfs` installed (`brew install git-lfs && git lfs install`). The repo has
   one historical Git LFS object (`links/links.csv`, ~106 MB); a plain mirror
   clone/push copies the LFS pointer but not the object itself.
+- **SSH access to GitHub is preferred over HTTPS for Phase 1.** HTTPS pushes
+  are capped at roughly 2 GB per push; this repo's ~14 GB of history requires
+  many chunked pushes over HTTPS, which works but is slower. If SSH is set up
+  on the maintainer's machine, use an SSH `ARCHIVE_URL`
+  (`git@github.com:Sefaria/Sefaria-Export-Archive.git`) — it has no per-push
+  size ceiling and the migration completes faster.
 - All open PRs against `Sefaria-Export` resolved or PR authors notified.
 - Branch protection on `master` temporarily relaxed (or admin override available).
 - The monthly `generate-books-json` workflow is paused or in a quiet window — a
@@ -34,6 +40,24 @@ before running anything here.
 After Phase 2, follow Phase 3 of the design doc (README/CLAUDE.md updates as a normal
 PR) and Phase 4 (announcement).
 
+### Why not `git push --mirror`?
+
+An earlier version of `01_create_archive.sh` used `git push --mirror` for Phase 1.
+It was run once against the real repos and **failed** for two distinct reasons:
+
+1. A `--mirror` clone of a GitHub repo pulls in the read-only `refs/pull/*`
+   namespace (this repo has 21 such refs). GitHub rejects pushes to
+   `refs/pull/*`, and `--mirror` tries to push every ref it has, so the
+   whole push is refused.
+2. Even excluding `refs/pull/*`, this repo's ~14 GB of history in one HTTPS
+   push exceeds GitHub's ~2 GB per-push limit (`HTTP 500` / `unexpected
+   disconnect while reading sideband packet`).
+
+The script now pushes `refs/heads/*` and `refs/tags/*` explicitly, with
+`master` pushed incrementally in small commit chunks (falling back to
+commit-by-commit on a chunk that fails). `refs/pull/*` is intentionally
+never touched.
+
 `02_orphan_master.sh`'s pre-flight probes the archive's Git LFS batch API before
 doing anything destructive. If the design doc's "Archive this repository" (read-only)
 step already ran on `Sefaria-Export-Archive` and this probe then fails, don't treat
@@ -43,19 +67,21 @@ the gate is wrong rather than the LFS migration being incomplete.
 
 ## Resuming a failed Phase 1
 
-Phase 1's `git push --mirror` is the single 10 GB transfer; if it drops mid-way,
-re-running `01_create_archive.sh` from scratch re-clones from the source. To skip
-the re-clone, point the script at the existing workdir:
+Phase 1 pushes `master` incrementally in commit chunks, then the remaining
+`refs/heads/*` and `refs/tags/*`. The script is resumable: on startup it reads
+the archive's current `master` tip via `git ls-remote` and only pushes commits
+past that point, so re-running `01_create_archive.sh` after a failure re-pushes
+only what is missing rather than starting the ~14 GB transfer over.
+
+To skip the re-clone too, point the script at the existing workdir:
 
 ```bash
 WORKDIR=/path/to/previous/run ./01_create_archive.sh
 ```
 
-Or, manually from inside the existing `Sefaria-Export.git/` mirror:
-
-```bash
-git push --mirror   # remote was already set by the previous run
-```
+Note that `refs/pull/*` refs are intentionally not mirrored — GitHub's
+`refs/pull/*` namespace is read-only and cannot be pushed, so the archive will
+not carry PR refs. This is expected, not a sign of an incomplete migration.
 
 ## Recovery
 

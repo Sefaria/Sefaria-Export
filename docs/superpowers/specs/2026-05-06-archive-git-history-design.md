@@ -19,6 +19,25 @@
   were all updated accordingly: Phase 1 now migrates LFS objects explicitly
   and verifies them in the archive; Phase 2 now refuses to run unless that
   verification passes.
+- **2026-09-07:** A real run of Phase 1 against the live repos was attempted
+  using `git push --mirror` and **failed**, for two distinct root causes:
+  1. A `--mirror` clone of a GitHub repo copies the read-only `refs/pull/*`
+     namespace (21 such refs on this repo). GitHub rejects any push to
+     `refs/pull/*`, and `--mirror` pushes every ref it holds, so the whole
+     push was refused.
+  2. Even excluding `refs/pull/*`, this repo's ~14 GB of history in a single
+     HTTPS push exceeds GitHub's ~2 GB per-push limit (`HTTP 500` /
+     `unexpected disconnect while reading sideband packet`; nothing
+     transferred).
+  Phase 1 (`01_create_archive.sh`) now pushes `refs/heads/*` and
+  `refs/tags/*` explicitly instead of `git push --mirror`: `master` is
+  pushed incrementally in small commit chunks (oldest first), falling back
+  to commit-by-commit on a chunk that still fails, then remaining branches
+  and tags are pushed individually. `refs/pull/*` is intentionally never
+  pushed — see "Scope note" under Migration Plan → Phase 1 below. The
+  archive is therefore not a byte-for-byte mirror of every GitHub-side ref,
+  only of `refs/heads/*` and `refs/tags/*`, which is what actually carries
+  the repo's history.
 
 ## Problem
 
@@ -102,8 +121,16 @@ in this repo. The scripts in `scripts/migration/` are runbooks, not CI.
    - `git clone --mirror https://github.com/Sefaria/Sefaria-Export.git`
    - `git lfs fetch --all` (pulls the historical `links/links.csv` LFS object
      into the mirror; a mirror clone alone only carries the pointer blob)
-   - `git remote set-url --push origin git@github.com:Sefaria/Sefaria-Export-Archive.git`
-   - `git push --mirror`
+   - `git remote set-url --push origin git@github.com:Sefaria/Sefaria-Export-Archive.git`;
+     unset `remote.origin.mirror` (set by `--mirror` clone) and raise
+     `http.postBuffer`.
+   - Push `master` incrementally: walk the commit list oldest-to-newest in
+     configurable chunks (`STEP`, default 5), pushing `+<sha>:refs/heads/master`
+     for the chunk tip. A chunk that fails is retried commit-by-commit rather
+     than aborting the whole run. The script is resumable — it reads the
+     archive's current `master` tip first and only pushes what's missing.
+   - Push the remaining `refs/heads/*` (other than master) and `refs/tags/*`
+     individually. `refs/pull/*` is never pushed — see Scope note below.
    - `git lfs push --all origin` (pushes the LFS object itself to the archive)
    - Verify via the LFS batch API that the object is retrievable from the
      archive; abort loudly if not.
@@ -111,6 +138,11 @@ in this repo. The scripts in `scripts/migration/` are runbooks, not CI.
 4. In GitHub settings for `Sefaria-Export-Archive`: enable "Archive this repository"
    (read-only). Add a clear `README.md` via the GitHub web editor pointing back to
    `Sefaria-Export`.
+
+**Scope note:** the archive intentionally does not carry `refs/pull/*`. That
+namespace is read-only on GitHub (populated by GitHub itself from open/closed
+PRs) and cannot be pushed to another repo; it also isn't needed to preserve
+the repo's actual history, which lives on `refs/heads/*` and `refs/tags/*`.
 
 ### Phase 2 — Slim the main repo
 
