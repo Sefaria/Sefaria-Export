@@ -6,17 +6,25 @@ This repository is a lightweight index and set of tools for accessing the Sefari
 
 ## Cloning
 
-This repo's history accumulates monthly snapshots of `books.json` and is large. If you
-only need the current tooling and index, clone shallow:
+This repository holds only its current state, so a normal clone is small (~25 MB):
 
 ```bash
-git clone --depth 1 https://github.com/Sefaria/Sefaria-Export.git
+git clone https://github.com/Sefaria/Sefaria-Export.git
 ```
 
-The full historical commit graph will be preserved separately at
-`Sefaria/Sefaria-Export-Archive` (read-only) — see migration plan and timeline in
-[`docs/superpowers/specs/2026-05-06-archive-git-history-design.md`](docs/superpowers/specs/2026-05-06-archive-git-history-design.md).
-Once the archive repo lands, this section will be updated with the live link.
+Its git history previously accumulated monthly snapshots of `books.json`, which made a
+clone ~14 GB. In September 2026 that history was moved to a separate archive repo.
+
+**You almost certainly don't need the history.** The current index (`books.json`) and
+tooling are here, and all text data lives in the GCS bucket described below.
+
+If you *do* need historical snapshots, the complete pre-reset commit graph is preserved
+read-only at
+[**Sefaria/Sefaria-Export-Archive**](https://github.com/Sefaria/Sefaria-Export-Archive).
+
+If you cloned this repo before the reset, `git pull` will report *"refusing to merge
+unrelated histories"* — re-clone instead. Background:
+[migration design](docs/superpowers/specs/2026-05-06-archive-git-history-design.md).
 
 ## Quick Start
 

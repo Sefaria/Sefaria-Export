@@ -6,6 +6,9 @@ Public dataset of all Sefaria texts, hosted on Google Cloud Storage.
 
 - **Data lives in GCS**: `gs://sefaria-export/` — ~26GB, ~85K files, updated monthly
 - **This repo** holds `books.json` — a single index file with metadata and download URLs for every text
+- **History lives elsewhere**: this repo keeps current state only (clone ~25 MB). The full
+  pre-September-2026 commit history is archived read-only at
+  [Sefaria/Sefaria-Export-Archive](https://github.com/Sefaria/Sefaria-Export-Archive).
 - **GitHub Action** regenerates `books.json` monthly (2nd of each month, day after the text-export CronJob) from the GCS bucket listing (no auth needed — bucket is public). Can also be triggered manually via workflow_dispatch.
 
 ## Bucket structure
