@@ -9,6 +9,7 @@ Run via CI:    GitHub Action triggers monthly after GCS export completes.
 import json
 import os
 import requests
+import urllib.parse
 from collections import defaultdict
 from datetime import datetime, timezone
 
@@ -16,6 +17,14 @@ BUCKET = os.environ.get("BUCKET", "sefaria-export")
 FORMATS = {"json", "txt", "cltk-full", "cltk-flat"}
 GCS_API = "https://storage.googleapis.com/storage/v1/b/{bucket}/o"
 GCS_PUBLIC = "https://storage.googleapis.com/{bucket}/{name}"
+
+
+def public_url(bucket, name):
+    """Public GCS URL for an object. The object name must be percent-encoded:
+    names contain spaces, non-ASCII, and characters like " and ?, which make
+    an unencoded URL malformed for curl/wget and any strict HTTP client.
+    `safe="/"` preserves the path separators."""
+    return GCS_PUBLIC.format(bucket=bucket, name=urllib.parse.quote(name, safe="/"))
 
 
 def list_bucket_objects(bucket, prefix=""):
@@ -75,14 +84,13 @@ def main():
             continue
 
         rel = name
-        url = GCS_PUBLIC.format(bucket=BUCKET, name=name)
+        url = public_url(BUCKET, name)
         size = int(obj.get("size", 0))
 
         parsed = parse_text_path(rel)
         if parsed and parsed["categories"]:
             key = (parsed["title"], parsed["language"], parsed["version"], tuple(parsed["categories"]))
             texts[key]["formats"][parsed["format"]] = url
-            texts[key]["size"] = texts[key].get("size", 0) + size
         else:
             special.append({"path": rel, "url": url, "size": size})
 

@@ -79,6 +79,54 @@ class TestParseTextPath:
         assert result["categories"] == []
 
 
+# --- public_url tests ---
+
+class TestPublicUrl:
+    def test_spaces_encoded(self):
+        url = gen.public_url("sefaria-export", "json/Mishnah/Seder Zeraim/Mishnah Berakhot/English/merged.json")
+        assert "%20" in url
+        assert " " not in url
+
+    def test_non_ascii_encoded(self):
+        # Hebrew title
+        url = gen.public_url("sefaria-export", "json/Tanakh/Torah/בראשית/Hebrew/merged.json")
+        assert "בראשית" not in url
+        assert "%D7" in url  # UTF-8 percent-encoded Hebrew bytes start with %D7/%D6
+
+    def test_accented_non_ascii_encoded(self):
+        # Portuguese accented characters
+        url = gen.public_url("sefaria-export", "json/Liturgy/Siddur/Português/merged.json")
+        assert "Português" not in url
+        assert "%C3" in url  # UTF-8 percent-encoded accented char
+
+    def test_quote_and_question_mark_encoded(self):
+        name = (
+            'json/Jewish Thought/Modern/Conversion "According to Halakhah"; '
+            'What Is It/English/merged.json'
+        )
+        url = gen.public_url("sefaria-export", name)
+        assert "%22" in url  # "
+        assert '"' not in url
+
+        name_with_qmark = 'json/Some Title?/English/merged.json'
+        url2 = gen.public_url("sefaria-export", name_with_qmark)
+        assert "%3F" in url2
+        assert "?" not in url2
+
+    def test_slash_not_encoded(self):
+        # A name with several path segments (including one with a space)
+        # should keep every '/' literal while still encoding the space.
+        url = gen.public_url("sefaria-export", "json/Talmud/Bavli/Seder Moed/Shabbat/Hebrew/merged.json")
+        assert url == (
+            "https://storage.googleapis.com/sefaria-export/"
+            "json/Talmud/Bavli/Seder%20Moed/Shabbat/Hebrew/merged.json"
+        )
+
+    def test_clean_ascii_name_unchanged(self):
+        url = gen.public_url("sefaria-export", "json/Tanakh/Torah/Genesis/English/merged.json")
+        assert url == "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Genesis/English/merged.json"
+
+
 # --- list_bucket_objects tests ---
 
 class TestListBucketObjects:
