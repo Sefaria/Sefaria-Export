@@ -9,16 +9,16 @@
 ## Corrections
 
 - **2026-09-07:** Pre-execution verification found the "does not use Git LFS"
-  scope assumption below to be **false**. `Sefaria-Export` has one Git LFS
-  object in its history (`links/links.csv`, ~106 MB, still live in GitHub LFS
-  storage). This was missed at design time because the object was removed
-  from the working tree years ago (replaced by the numbered `links0.csv`..
-  `links12.csv` files) and so wasn't visible in a plain directory listing —
-  only `git log`/`.gitattributes` history surfaces it. The scope assumption,
-  `01_create_archive.sh`, `02_orphan_master.sh`, and this Verification
-  section were updated accordingly: Phase 1 now migrates LFS objects
-  explicitly and verifies them in the archive; Phase 2 now refuses to run
-  unless that verification passes.
+  scope assumption in the section below to be **false**. `Sefaria-Export` has
+  one Git LFS object in its history: `links/links.csv` (~106 MB, oid
+  `baa9ea43…`), referenced from historical commit `c8b01ae0` via the
+  `filter=lfs` rule for that path still present in `.gitattributes` today.
+  Confirmed still live and retrievable from GitHub LFS storage as of this
+  date. The scope assumption, the Migration Plan's Phase 1/Phase 2 steps,
+  the Verification section, `01_create_archive.sh`, and `02_orphan_master.sh`
+  were all updated accordingly: Phase 1 now migrates LFS objects explicitly
+  and verifies them in the archive; Phase 2 now refuses to run unless that
+  verification passes.
 
 ## Problem
 
@@ -53,7 +53,7 @@ needs to be revisited:
   *objects* themselves, Phase 1 must explicitly `git lfs fetch --all` /
   `git lfs push --all` to migrate this object, and Phase 2 must gate on its
   presence in the archive before any destructive action — see the
-  Corrections note below.
+  Corrections note at the top of this document.
 - `Sefaria-Export` does **not** use signed/GPG commits as a branch-protection
   requirement (a signature requirement on the new orphan commit can be
   satisfied at commit time, but it must be planned for).
@@ -97,9 +97,16 @@ in this repo. The scripts in `scripts/migration/` are runbooks, not CI.
 ### Phase 1 — Create the archive repo
 1. Create empty repo `Sefaria/Sefaria-Export-Archive` on GitHub (public, no README).
 2. Run `scripts/migration/01_create_archive.sh`:
+   - Preflight: confirm `git lfs version` succeeds (abort otherwise — see
+     Corrections above on why this repo needs it).
    - `git clone --mirror https://github.com/Sefaria/Sefaria-Export.git`
+   - `git lfs fetch --all` (pulls the historical `links/links.csv` LFS object
+     into the mirror; a mirror clone alone only carries the pointer blob)
    - `git remote set-url --push origin git@github.com:Sefaria/Sefaria-Export-Archive.git`
    - `git push --mirror`
+   - `git lfs push --all origin` (pushes the LFS object itself to the archive)
+   - Verify via the LFS batch API that the object is retrievable from the
+     archive; abort loudly if not.
 3. Verify: archive repo shows the full commit graph and the same `master` HEAD.
 4. In GitHub settings for `Sefaria-Export-Archive`: enable "Archive this repository"
    (read-only). Add a clear `README.md` via the GitHub web editor pointing back to
@@ -113,7 +120,13 @@ action:
 1. **Verifies `pre-migration-master` exists in the archive remote.** If Phase 1
    failed silently or wasn't run, the script aborts here. This guarantees the
    recovery path exists before destruction begins.
-2. **Audits non-master refs on origin** (`git ls-remote --heads --tags`). Any
+2. **Verifies the historical Git LFS object is retrievable from the archive**
+   via the same LFS batch API probe used in Phase 1. A mirror push alone does
+   not migrate LFS objects, so this catches a Phase 1 run that completed the
+   ref push but not the LFS migration — proceeding without this gate would
+   force-push over the only live copy of that object. Aborts before any
+   destructive action if the probe fails.
+3. **Audits non-master refs on origin** (`git ls-remote --heads --tags`). Any
    surviving branch or tag that touches the old commit graph would keep all
    that history reachable in default `git clone` operations and silently defeat
    the size goal. The script lists these refs and prompts the maintainer to

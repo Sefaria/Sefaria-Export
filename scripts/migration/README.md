@@ -34,6 +34,13 @@ before running anything here.
 After Phase 2, follow Phase 3 of the design doc (README/CLAUDE.md updates as a normal
 PR) and Phase 4 (announcement).
 
+`02_orphan_master.sh`'s pre-flight probes the archive's Git LFS batch API before
+doing anything destructive. If the design doc's "Archive this repository" (read-only)
+step already ran on `Sefaria-Export-Archive` and this probe then fails, don't treat
+it as a false alarm just because the repo is archived — confirm manually first
+(`git clone --mirror` the archive and run `git lfs fetch --all`) before assuming
+the gate is wrong rather than the LFS migration being incomplete.
+
 ## Resuming a failed Phase 1
 
 Phase 1's `git push --mirror` is the single 10 GB transfer; if it drops mid-way,
