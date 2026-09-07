@@ -23,8 +23,7 @@ read-only at
 [**Sefaria/Sefaria-Export-Archive**](https://github.com/Sefaria/Sefaria-Export-Archive).
 
 If you cloned this repo before the reset, `git pull` will report *"refusing to merge
-unrelated histories"* — re-clone instead. Background:
-[migration design](docs/superpowers/specs/2026-05-06-archive-git-history-design.md).
+unrelated histories"* — re-clone instead.
 
 ## Quick Start
 
